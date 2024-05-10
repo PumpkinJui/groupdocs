@@ -1,11 +1,6 @@
 # 概述
 
-Owner: PumpkinJui, YZBWDLT
-Tags: Undone
-Last edited time: February 7, 2024 11:59 AM
-Last edited by: PumpkinJui
-
-生存 III 档服务器自 2022 年 11 月 29 日开服，运行至今，目前发展到了生存后期的中后期。该存档的种子为 5741384467521135721。
+生存 III 档服务器自 2022 年 11 月 29 日开服，运行至今，目前发展到了生存后期的中后期。该存档的种子为 `5741384467521135721`。
 
 它的前身是生存 II 档服务器，自 2022 年 8 月 7 日开服，在 2022 年 11 月 26 日因病毒攻击而被加密存档，并因没有任何留存的备份而终止了存档支持。生存 II 档服务器一共运行了 111 天，终止存档支持时发展到了生存后期的前期。***所以一定要记住定期备份！！！***
 
@@ -22,12 +17,13 @@ Last edited by: PumpkinJui
 
 这四个区域也同样是主要的发展中及发达区域。同时，生存 III 档的世界出生点位于新光镇初晓区。
 
-目前，服务器共安装了三个资源包 (Resource Pack)。它们分别是：
+目前，服务器共安装了四个资源包 (Resource Pack)。它们分别是：
 
 - [Bedrock Translation Patch](https://www.mcbbs.net/thread-682370-1-1.html) ([GitHub](https://github.com/ff98sha/mclangcn))
 - [All Trades Visible](https://bedrocktweaks.net/resource-packs/) (原资源包为该网页 GUI 选项的 Trading Helper 资源包)
 - [Colorful Containers](https://mcpedl.com/colourful-containers-bedrock-pack-1)
+- Force Mojangles
 
-出于获取成就的需要，服务器现在没有，将来也不会安装任何行为包 (Behavior Pack)。
+出于获取成就的需要，服务器**现在没有，将来也不会安装**任何行为包 (Behavior Pack)。
 
 《食用指南》首页的封面图为 2023 农历新年庆祝活动中的合影截图。其余封面图如无说明，均为 @鸽子 以「生存服 230829 备份档转 JE 档」搭配「BSL_v8.1.03 光影」截图。
