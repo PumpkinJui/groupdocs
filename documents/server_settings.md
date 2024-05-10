@@ -1,7 +1,7 @@
 # 服务器设定
 
 - 请务必遵守[群规](https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0)第七章内容。
-- 各服务器使用白名单机制。若想参与各服务器的建设工作，请在[登记网站](https://docs.qq.com/sheet/DSnFwckZ2RE1SYXp0)进行登记，方便添加白名单。登记后请在群内 @量筒 以作提醒。
+- 各服务器使用白名单机制。若想参与各服务器的建设工作，请在[登记网站](https://docs.qq.com/sheet/DSnFwckZ2RE1SYXp0)进行登记，以添加白名单。登记后请在群内 @量筒 以作提醒。
 - 开发服是供开发者开发的服务器，一般仅供管理员及以上级别进入。
 - 地址列表如下：
   - 腾讯云地址：qcloud.cvm.xiaozhiyuqwq.top

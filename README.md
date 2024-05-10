@@ -5,3 +5,5 @@
 这里是测试群的一些文档，希望它们对你有用。
 
 *Powered by GitBook*
+
+*Under [CC-BY-4.0 License](https://creativecommons.org/licenses/by/4.0/)*

@@ -5,10 +5,11 @@
 * [‼️入群必读](documents/%E2%80%BC%EF%B8%8F%E5%85%A5%E7%BE%A4%E5%BF%85%E8%AF%BB%203b5fc443be1b4b5dabda53be45551830.md)
 
 * [常用网址汇总](documents/%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80%E6%B1%87%E6%80%BB%20fbe6cdd1eb8b439cb8e607992186e2a4.md)
+  * [设置搜索引擎](documents/set_search_engine.md)
 
-* [服务器设定](documents/server.md)
+* [服务器设定](documents/server_settings.md)
 
-* [本群名菜](documents/%E6%9C%AC%E7%BE%A4%E5%90%8D%E8%8F%9C%20926a6db0986b420da5eb37e71e245787.md)
+* [本群名菜](documents/menu.md)
 
 * [生存 III 档服务器食用指南](documents/SurvivalIII/SurvivalIII.md)
   * [概述](documents/SurvivalIII/%E6%A6%82%E8%BF%B0%2019a9339485054d4882340865773b8f72.md)
@@ -22,6 +23,7 @@
     * [蛙明灯农场](documents/SurvivalIII/nether/%E8%9B%99%E6%98%8E%E7%81%AF%E5%86%9C%E5%9C%BA%20043c50b2121c47319054a75b912caf32.md)
   * [末地](documents/SurvivalIII/%E6%9C%AB%E5%9C%B0%2025c385c934aa48b2b132dce66d69c314.md)
 
-* [解决「您无法登录 Xbox Live」](documents/%E8%A7%A3%E5%86%B3%E3%80%8C%E6%82%A8%E6%97%A0%E6%B3%95%E7%99%BB%E5%BD%95%20Xbox%20Live%E3%80%8D%206355e524e8a64681a187e7dbb73cf184.md)
+* [已归档](archives/archives.md)
+  * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
 
 * [群文档编辑指南](documents/%E7%BE%A4%E6%96%87%E6%A1%A3%E7%BC%96%E8%BE%91%E6%8C%87%E5%8D%97%2078370ed6385d489c9c773b17625602d2.md)

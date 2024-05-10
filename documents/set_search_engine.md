@@ -1,9 +1,6 @@
 # 设置搜索引擎
 
-Owner: PumpkinJui
-Tags: More Info Needed, Undone
-Last edited time: November 12, 2023 1:07 AM
-Last edited by: PumpkinJui
+> 此页面需要改进可读性。
 
 如果需要类似于「输入关键词就能直接跳转到相应页面」的页面直达功能，可以向浏览器添加搜索引擎，以搜索引擎的形式实现页面直达。
 下文如无说明，均以「中文 Minecraft Wiki」(简称为 Wiki) 为例。
@@ -11,13 +8,13 @@ Last edited by: PumpkinJui
 ## 需求描述
 
 - 想要在搜索栏输入「告示牌」，按下回车后直接进入 [Wiki 上的告示牌页面](https://zh.minecraft.wiki/w/%E5%91%8A%E7%A4%BA%E7%89%8C)，而不必：
-    - 在其它搜索引擎搜索「告示牌 mc wiki」→ 寻找 Wiki 页面 → 进入 Wiki 页面
-    - 或进入 Wiki → 在 Wiki 内搜索「告示牌」→ 进入 Wiki 页面
-    - 或手动输入 `zh.minecraft.wiki/w/告示牌`
+  - 在其它搜索引擎搜索「告示牌 mc wiki」→ 寻找 Wiki 页面 → 进入 Wiki 页面
+  - 或进入 Wiki → 在 Wiki 内搜索「告示牌」→ 进入 Wiki 页面
+  - 或手动输入 `zh.minecraft.wiki/w/告示牌`
 - 想要在搜索栏输入「专辑」，按下回车后直接进入 [Wiki 上「专辑」的搜索结果页面](https://zh.minecraft.wiki/w/Special:%E6%90%9C%E7%B4%A2?search=%E4%B8%93%E8%BE%91)，而不必：
-    - 在其它搜索引擎搜索「专辑 mc wiki」
-    - 或进入 Wiki → 在 Wiki 内搜索「专辑」
-    - 或手动输入 `zh.minecraft.wiki/w/Special:搜索?search=专辑`
+  - 在其它搜索引擎搜索「专辑 mc wiki」
+  - 或进入 Wiki → 在 Wiki 内搜索「专辑」
+  - 或手动输入 `zh.minecraft.wiki/w/Special:搜索?search=专辑`
 
 ## 操作方法
 

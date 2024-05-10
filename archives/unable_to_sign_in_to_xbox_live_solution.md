@@ -1,9 +1,7 @@
 # 解决「您无法登录 Xbox Live」
 
-Owner: PumpkinJui, Pigeon_K
-Verification: Verified
-Last edited time: October 4, 2023 11:26 PM
-Last edited by: PumpkinJui
+> 此问题已基本不再出现，故归档。  
+最后一次编辑在 Notion 上完成，由 @南瓜汁 进行，位于 2310042326。
 
 ## 问题描述
 
@@ -24,6 +22,5 @@ Last edited by: PumpkinJui
 
 ## 参考
 
-[Microsoft Community 中的回答](https://answers.microsoft.com/zh-hans/xbox/forum/all/%e6%82%a8%e6%97%a0%e6%b3%95%e7%99%bb%e5%bd%95xbox/7faf186f-23c0-45b0-9114-c88d551aa7bd)
-
-原解决方案编写：鸽子
+- [Microsoft Community 中的回答](https://answers.microsoft.com/zh-hans/xbox/forum/all/%e6%82%a8%e6%97%a0%e6%b3%95%e7%99%bb%e5%bd%95xbox/7faf186f-23c0-45b0-9114-c88d551aa7bd)
+- 原解决方案编写：鸽子
