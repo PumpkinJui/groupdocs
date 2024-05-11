@@ -2,7 +2,7 @@
 
 * [起始页](README.md)
 
-* [‼️入群必读](documents/%E2%80%BC%EF%B8%8F%E5%85%A5%E7%BE%A4%E5%BF%85%E8%AF%BB%203b5fc443be1b4b5dabda53be45551830.md)
+* [‼️入群必读](documents/encounter.md)
 
 * [常用网址汇总](documents/%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80%E6%B1%87%E6%80%BB%20fbe6cdd1eb8b439cb8e607992186e2a4.md)
   * [设置搜索引擎](documents/set_search_engine.md)
