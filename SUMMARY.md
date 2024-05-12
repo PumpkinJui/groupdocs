@@ -11,7 +11,7 @@
 
 * [本群名菜](documents/menu.md)
 
-* [生存 III 档服务器食用指南](documents/SurvivalIII/SurvivalIII.md)
+* [生存 III 档食用指南](documents/SurvivalIII/SurvivalIII.md)
   * [新光](documents/SurvivalIII/xinguang.md)
   * [矿山区域](documents/SurvivalIII/the_diggings.md)
   * [北境](documents/SurvivalIII/northern_area.md)
@@ -25,4 +25,4 @@
 * [已归档](archives/archives.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
 
-* [群文档编辑指南](documents/foreditor.md)
+* [群文档编辑指南](documents/foreditors.md)
