@@ -81,6 +81,4 @@
   - ~~北境城铁：城际铁路，共 4 站，银月火车站 — 秘林/铸币厂。~~
 - ~~1 号线的车辆基地位于城西站东侧，2 号线的车辆基地计划设于公园站南，城铁则计划设于线路分岔处。~~
 
-![RMP_1698593771877.png](../../assets/SurvivalIII/na_railmap.png)
-
-*铁路图可用于 Rail Map Toolkit 编辑。见[常用网址汇总](../urls.md)。*
+![~~北境铁路规划图~~](../../assets/SurvivalIII/na_railmap.png)

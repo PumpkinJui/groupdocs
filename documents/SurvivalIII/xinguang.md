@@ -80,4 +80,4 @@
 
 ## 铁路规划
 
-![新光地铁规划图 23.10.09 v2.png](../../assets/SurvivalIII/xinguang_metro.png)
+![新光地铁规划图 23.10.09 v2](../../assets/SurvivalIII/xinguang_metro.png)

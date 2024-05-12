@@ -35,4 +35,6 @@
 - [Colorful Containers](https://mcpedl.com/colourful-containers-bedrock-pack-1)
 - Force Mojangles
 
+如欲自行安装，请至「群文件-生存服资源包」下载。
+
 出于获取成就的需要，服务器**现在没有，将来也不会安装**任何行为包 (Behavior Pack)。
