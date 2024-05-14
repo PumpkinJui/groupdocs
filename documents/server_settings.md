@@ -5,7 +5,7 @@
 - 开发服是供开发者开发的服务器，一般仅供管理员及以上级别进入。
 - 地址列表如下：
   - 腾讯云地址：qcloud.cvm.xiaozhiyuqwq.top
-  - 雨云地址：rain.cvm.xiaozhiyuqwq.top = rain.cvm.nekoawa.com = d.rainplay.cn
+  - 雨云地址：rain.cvm.xiaozhiyuqwq.top = rain.cvm.nekoawa.com
   - homo.xiaozhiyuqwq.top = ali.xzyqwq.top (注：此地址对应的服务器归祉语本人管理，可使用性未知。)
 - 温馨提醒：尽量不要尝试连接没有给出的端口。在非 NAT 机器上，其他端口可能被设置了检测，连接后自动封禁 IP :)
 

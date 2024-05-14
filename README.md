@@ -47,8 +47,17 @@
 13 日凌晨，dev 分支合并 main 分支，其中含有 56 个文件的更改。稍后，群文档在 GitBook 上成功部署。  
 14 日下午，群文档在 CloudFlare Pages 上成功以 GitBook Framework 部署。至此 所有迁移工作完毕。
 
+### 现状
+
 目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 和 [GitBook.com](https://pumpkinjui.gitbook.io/documents/) 上部署。  
 旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/) 上访问，但几乎已不再更新。
+
+### 未来
+
+虽然目前的方案已经相对较快，但仍比不上国内服务（如 Gitee Pages）和服务器（如祉语的网站）。  
+因此，未来有可能改为在自己注册的域名上托管 & 部署群文档。这也有极大可能是群文档不断迁移的最终目的地。
+
+至于为什么现在不这样做……一方面不是网络流派的，对网络了解不多；一方面没时间折腾这个；一方面域名备案要求成年，不备案可能被封。
 
 ---
 
