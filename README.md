@@ -4,12 +4,12 @@
 
 这里是测试群的一些文档，希望它们对你有用。
 
-注：目录请点顶端左上角的≡图标，看不到请把页面向上拉一下
+注：目录请点顶端左上角的≡图标，看不到请把页面向上拉到头。
 
 ## 群文档地址（建议收藏至浏览器书签栏）
 
 - CloudFlare Pages：[https://groupdocs.pages.dev/](https://groupdocs.pages.dev/)
-- GitBook.com：[https://pumpkinjui.gitbook.io/documents/](https://pumpkinjui.gitbook.io/documents/)
+- GitBook.com：[https://pumpkinjui.gitbook.io/groupdocs/](https://pumpkinjui.gitbook.io/groupdocs/)
 
 ---
 
@@ -49,8 +49,8 @@
 
 ### 现状
 
-目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 和 [GitBook.com](https://pumpkinjui.gitbook.io/documents/) 上部署。  
-旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/) 上访问，但几乎已不再更新。
+目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 和 [GitBook.com](https://pumpkinjui.gitbook.io/groupdocs/) 上部署。  
+旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/groupdocs-legacy) 上访问，并在 [Gitee](https://gitee.com/pumpkinjui/groupdocs-legacy) 和 [GitHub](https://github.com/PumpkinJui/groupdocs-legacy) 上开源，但已不再更新。
 
 ### 未来
 
@@ -61,6 +61,8 @@
 
 ---
 
+*由 GitBook 提供支持*  
 *Powered by GitBook*
 
+*版权归「极筑 · 量筒地图测试群」(2019-2024) 所有。群文档内容根据 [CC-BY-4.0](https://github.com/PumpkinJui/groupdocs/blob/main/LICENSE) 许可证开源。*  
 *Copyright (c) 2019-2024 YZBWDLT Test Group. This work is openly licensed via [CC-BY-4.0](https://github.com/PumpkinJui/groupdocs/blob/main/LICENSE).*
