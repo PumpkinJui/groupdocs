@@ -1,6 +1,6 @@
 # 服务器设定
 
-- 请务必遵守[群规](https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0)第七章内容。  
+- 请务必遵守[群规](https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0)中关于服务器的所有规定。  
   > 第四十七条 对于生存服务器而言，申请加入的新成员需要满足以下几点中的任意一条：  
     （一）管理员；  
     （二）积极测试地图，贡献较大的；  
