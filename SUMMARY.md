@@ -25,4 +25,7 @@
 * [已归档](archives/archives.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
 
-* [群文档编辑指南](documents/foreditors.md)
+* [关于群文档](documents/about/about.md)
+  * [群文档历史](documents/about/history.md)
+  * [许可证 (LICENSE)](documents/about/thelicense.md)
+  * [群文档编辑指南](documents/about/foreditors.md)
