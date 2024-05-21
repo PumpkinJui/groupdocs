@@ -27,5 +27,6 @@
 
 * [关于群文档](documents/about/about.md)
   * [群文档历史](documents/about/history.md)
+  * [维护人员](documents/about/maintenance.md)
   * [许可证 (LICENSE)](documents/about/thelicense.md)
   * [群文档编辑指南](documents/about/foreditors.md)
