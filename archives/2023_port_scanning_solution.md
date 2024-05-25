@@ -61,39 +61,39 @@
 ```powershell
 # 最后修改时间
 # 20230911
-# 设置文件路径  
-$logFilePath = 'C:\Users\ServerOperator\Desktop\Snort\log\alert.ids'  
+# 设置文件路径
+$logFilePath = 'C:\Users\ServerOperator\Desktop\Snort\log\alert.ids'
 # 设置已经被检测过的 IP 文件位置（需要创建一个 TXT 文件）
-$liphasbanlistFilePath = 'C:\Users\ServerOperator\Desktop\Snort\banip.txt'  
-# 设置间隔时间（秒）  
-$interval = 60 
-# 设置白名单 IP  
-$whitelist = @('0.0.0.0', '0.0.0.0')  # 白名单IP  
-$iphasbanlist = @()  
-while ($true) {     
-    $logContent = Get-Content -Path $logFilePath  
-    Write-Host "已经开始了一次新的检测。" 
-    foreach ($line in $logContent) {  
+$liphasbanlistFilePath = 'C:\Users\ServerOperator\Desktop\Snort\banip.txt'
+# 设置间隔时间（秒）
+$interval = 60
+# 设置白名单 IP
+$whitelist = @('0.0.0.0', '0.0.0.0')  # 白名单 IP
+$iphasbanlist = @()
+while ($true) {
+    $logContent = Get-Content -Path $logFilePath
+    Write-Host "已经开始了一次新的检测。"
+    foreach ($line in $logContent) {
         $IP = ($line -split ' ' | Where-Object {$_ -like '[0-9]*.[0-9]*.[0-9]*.[0-9]*'})
         $IP = ($IP -split ':' | Where-Object {$_ -like '[0-9]*.[0-9]*.[0-9]*.[0-9]*'})
         $IP = $IP[0]
-        $banListContent = Get-Content -Path $liphasbanlistFilePath  
-        if ($banListContent -contains $IP) {  
-            Write-Host $IP" 已经位于 banip.txt 文件之中。"  
-        } else {    
-            if ($whitelist -contains $IP) {  
-                Write-Output $IP" 是一个位于白名单列表的 IP 地址。"  
-            } else {  
-                $banip = $IP  
-                netsh advfirewall firewall add rule name="auto_powershell_ipban_$banip" dir=in protocol=any action=block remoteip=$banip description=$banip" 这是从 Snort 日志中得出的访问 IP。我们已经将其封禁。如果这是一个错误，请您在 Windows 防火墙中手动禁用这一条规则，谢谢您！:)"  
-                Write-Output $banip" 不是一个存在于白名单列表的 IP 地址。我们已经将其封禁。如果这是一个错误，请您手动禁用这一条规则，谢谢您！:)" 
+        $banListContent = Get-Content -Path $liphasbanlistFilePath
+        if ($banListContent -contains $IP) {
+            Write-Host $IP" 已经位于 banip.txt 文件之中。"
+        } else {
+            if ($whitelist -contains $IP) {
+                Write-Output $IP" 是一个位于白名单列表的 IP 地址。"
+            } else {
+                $banip = $IP
+                netsh advfirewall firewall add rule name="auto_powershell_ipban_$banip" dir=in protocol=any action=block remoteip=$banip description=$banip" 这是从 Snort 日志中得出的访问 IP。我们已经将其封禁。如果这是一个错误，请您在 Windows 防火墙中手动禁用这一条规则，谢谢您！:)"
+                Write-Output $banip" 不是一个存在于白名单列表的 IP 地址。我们已经将其封禁。如果这是一个错误，请您手动禁用这一条规则，谢谢您！:)"
                 $iphasbanlist += $IP
-                $iphasbanlist | Out-File -FilePath $liphasbanlistFilePath -Encoding ASCII   
+                $iphasbanlist | Out-File -FilePath $liphasbanlistFilePath -Encoding ASCII
             }
-        }    
+        }
     }
-    Clear-Content $logFilePath -Force  
-    Start-Sleep -s $interval  
+    Clear-Content $logFilePath -Force
+    Start-Sleep -s $interval
 }
 ```
 
