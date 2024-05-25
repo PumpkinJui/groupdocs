@@ -1,6 +1,8 @@
 # 2023 年，我们是如何应对端口扫描的
 
-> 此文章由 @祉语 编写。
+> 此文章由 @祉语 编写。  
+在文章被添加到群文档时，@PumpkinJui 对排版作出一定修改，使之语言更为通顺，更加符合群文档的整体风格。  
+如有阅读原文的需求，请前往[此页面](https://workspace.dingtalk.com/xprXs7tnsCdVWfofiETqsp)。
 
 ## 写在前面
 
@@ -36,40 +38,41 @@
 
 但是，我们发现了一个小众的开源软件 [wail2ban](https://github.com/glasnt/wail2ban)。虽然这个仓库已经在 2020 年被存档，但 2023 年，我们发现它仍然非常实用。
 
-<!--progress marking line-->
+![wail2ban 仓库主页](../assets/port_scanning/repo.png)
 
-![wail2ban仓库主页](https://resource-share.xiaozhiyuqwq.top/wp-content/uploads/2024/05/20240523202418.png "wail2ban仓库主页")
+同时，使用它也非常简单：
 
-而且使用也非常简单：
+- 如果需要配置白名单，在 `wail2ban_config.ini` 中配置来源 IP 即可，也可以填写 IP 段；
+- 如果需要修改封禁策略，在 `wail2ban.ps1` 修改即可，如下图。
 
-- 如果需要配置白名单，在`wail2ban_config.ini`中配置来源ip即可，也可以填写ip段；
-- 如果需要修改封禁策略，在`wail2ban.ps1`修改即可。
-
-![在 wail2ban.ps1 中修改封禁策略](https://resource-share.xiaozhiyuqwq.top/wp-content/uploads/2024/05/20240523202727.png "在 wail2ban.ps1 中修改封禁策略")
+![在 wail2ban.ps1 中修改封禁策略](../assets/port_scanning/modification.png)
 
 ### 端口扫描
 
-在网上搜索时，有一篇文章我觉得说的很对。既然端口扫描是通过发包来检测哪些端口开着，那么我们设置陷阱即可。设置陷阱，也就是随机监听一些没有使用的端口，如果有IP进行连接，那么就说明这些IP很有可能归属于攻击者。
+在网上搜索时，我觉得其中有一篇文章说得很对。既然端口扫描是通过发包来检测哪些端口开着，那么我们设置陷阱即可。
 
-我们使用了Snort，这是一个具有多平台、实时流量分析、网络IP数据包记录等特性的强大的网络入侵检测、防御系统。
+设置陷阱，也就是随机监听一些没有使用的端口，如果有 IP 进行连接，那么就说明这些 IP 很有可能归属于攻击者。
 
-之后我们让Snort输出日志，再编写一个powershell脚本（因为确实时间隔得比较长了，具体如何操作已经忘记，加之笔者身体和精神状态都不太良好，所以Snort的具体操作，还请使用网络研究。），用来封禁来源IP。
+我们使用了 [Snort](https://www.snort.org/)，这是一个具有多平台、实时流量分析、网络 IP 数据包记录等特性的，强大的网络入侵检测及防御系统。
+
+之后我们让 Snort 输出日志，再编写一个 PowerShell 脚本，用来封禁来源IP。  
+（因为确实时间隔得比较长了，具体如何操作已经忘记；加之笔者身体和精神状态都不太良好，所以 Snort 的具体操作，还请自行利用网络研究。）
 
 ```powershell
 # 最后修改时间
 # 20230911
 # 设置文件路径  
 $logFilePath = 'C:\Users\ServerOperator\Desktop\Snort\log\alert.ids'  
-# 设置已经被检测过的 ip 文件位置  （需要创建一个TXT文件）
+# 设置已经被检测过的 IP 文件位置（需要创建一个 TXT 文件）
 $liphasbanlistFilePath = 'C:\Users\ServerOperator\Desktop\Snort\banip.txt'  
 # 设置间隔时间（秒）  
 $interval = 60 
-# 设置白名单IP  
+# 设置白名单 IP  
 $whitelist = @('0.0.0.0', '0.0.0.0')  # 白名单IP  
 $iphasbanlist = @()  
 while ($true) {     
     $logContent = Get-Content -Path $logFilePath  
-    Write-Host "已经开始了新的一次检测。" 
+    Write-Host "已经开始了一次新的检测。" 
     foreach ($line in $logContent) {  
         $IP = ($line -split ' ' | Where-Object {$_ -like '[0-9]*.[0-9]*.[0-9]*.[0-9]*'})
         $IP = ($IP -split ':' | Where-Object {$_ -like '[0-9]*.[0-9]*.[0-9]*.[0-9]*'})
@@ -82,7 +85,7 @@ while ($true) {
                 Write-Output $IP" 是一个位于白名单列表的 IP 地址。"  
             } else {  
                 $banip = $IP  
-                netsh advfirewall firewall add rule name="auto_powershell_ipban_$banip" dir=in protocol=any action=block remoteip=$banip description=$banip" 这是从 snort 日志中得出的访问 ip 。我们已经将其封禁。如果这是一个错误，请您 Windows 防火墙中手动禁用这一条规则，谢谢您！:)"  
+                netsh advfirewall firewall add rule name="auto_powershell_ipban_$banip" dir=in protocol=any action=block remoteip=$banip description=$banip" 这是从 Snort 日志中得出的访问 IP。我们已经将其封禁。如果这是一个错误，请您在 Windows 防火墙中手动禁用这一条规则，谢谢您！:)"  
                 Write-Output $banip" 不是一个存在于白名单列表的 IP 地址。我们已经将其封禁。如果这是一个错误，请您手动禁用这一条规则，谢谢您！:)" 
                 $iphasbanlist += $IP
                 $iphasbanlist | Out-File -FilePath $liphasbanlistFilePath -Encoding ASCII   
@@ -94,13 +97,7 @@ while ($true) {
 }
 ```
 
-当然，这段脚本还是存在硬伤的。我们没有打算保留日志，所以最后直接清除了日志文件，这不是最佳的方法。如果有可能，请保留日志文件。（因为日志文件过大，在运行了三周后，这个脚本运行一次CPU负载率全核高达40%，所以我们就直接删除了日志文件）
+当然，这段脚本还是存在硬伤的。我们没有打算保留日志，所以最后直接清除了日志文件，这不是最佳的方法。如果有可能，请保留日志文件。  
+（由于日志文件过大，在运行了三周后，这个脚本运行一次的 CPU 负载率全核高达 40%，所以我们就直接删除了日志文件）
 
-并且这一段脚本需要用管理员权限运行，因为使用`netsh`命令创建一个新的Windows防火墙规则需要管理员权限。
-
-## 参考资料
-
-- [GitHub - fail2ban/fail2ban: Daemon to ban hosts that cause multiple authentication errors](https://github.com/fail2ban/fail2ban "GitHub - fail2ban/fail2ban: Daemon to ban hosts that cause multiple authentication errors")
-- [GitHub - glasnt/wail2ban: fail2ban, for windows.](https://github.com/glasnt/wail2ban "GitHub - glasnt/wail2ban: fail2ban, for windows.")
-- [Snort - Network Intrusion Detection & Prevention System](https://www.snort.org/ "Snort - Network Intrusion Detection & Prevention System")
-
+此外，因为使用 `netsh` 命令创建一个新的 Windows 防火墙规则需要管理员权限，这一段脚本需要用管理员权限运行。
