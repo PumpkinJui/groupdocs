@@ -24,6 +24,7 @@
 
 * [已归档](archives/archives.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
+  * [2023 年，我们是如何应对端口扫描的](archives/2023_port_scanning_solution.md)
 
 * [关于群文档](documents/about/about.md)
   * [群文档历史](documents/about/history.md)
