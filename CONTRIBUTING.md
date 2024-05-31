@@ -2,6 +2,11 @@
 
 可以通过多种方法向群文档作出贡献，取决于你有多么积极。
 
+## 不太积极——直接使用群文档
+
+这没关系，仅仅使用群文档，让我们知道写这些东西有用有人看也足够了。  
+~~*毕竟有很多人压根不看，只会在群里提问。*~~
+
 ## 积极——[Issues](https://github.com/PumpkinJui/groupdocs/issues) 提出建议
 
 如认为群文档需要作出修改，请在群内向管理员提出建议，或发 Issues。修改包括但不限于：
@@ -10,16 +15,25 @@
 - 群文档存在过时内容
 - 群文档有所缺漏
 
-请务必清晰描述，哪一篇文档的哪一块内容需要做出修改。我们会尽快处理。
-
 由于管理们时常不看大群 (别问为什么)，临时会话（QQ 功能，相当于不用加好友的私聊）和 Issues 也许是更好的方式。  
 建议有 GitHub 账号的群成员优先使用 Issues。
 
+### 如何使用 Issues 功能
+
+- 登录 GitHub。
+- 前往 [Issues 创建页面](https://github.com/PumpkinJui/groupdocs/issues)。
+- 详细清晰地描述群文档哪里需要作出修改。务必指明哪一篇文档的哪一块内容需要做出修改。
+- 点文本框下面的绿色按钮以创建一个 Issue。
+
 ## 更加积极——[Pull Requests](https://github.com/PumpkinJui/groupdocs/pulls) 作出修改
+
+如果你想亲自动手修改，那再好不过了。但请注意，修改时请遵守[群文档编辑指南](about/foreditors.md)。
+
+### 如何使用 Pull Requests 功能
 
 <!--progress marking line-->
 
-## 非常积极——[Collaborators](https://github.com/PumpkinJui/groupdocs/graphs/contributors) 直接修改
+## 非常积极——Collaborators 直接修改
 
 无须 Pull Requests 对群文档直接修改的权限，目前仅对管理员开放。原因包括但不限于：
 
