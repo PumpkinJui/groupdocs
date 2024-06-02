@@ -20,7 +20,7 @@
 
 ### 如何使用 Issues 功能
 
-- 登录 GitHub。
+- 登录你的 GitHub 账号。
 - 前往 [Issues 创建页面](https://github.com/PumpkinJui/groupdocs/issues)。
 - 详细清晰地描述群文档哪里需要作出修改。务必指明哪一篇文档的哪一块内容需要做出修改。
 - 点文本框下面的绿色按钮以创建一个 Issue。
@@ -31,7 +31,10 @@
 
 ### 如何使用 Pull Requests 功能
 
-<!--progress marking line-->
+- 登录你的 GitHub 账号。
+- 前往[群文档 GitHub 仓库页面](https://github.com/PumpkinJui/groupdocs)。
+- 点击 Fork，选择自己的账号为 Owner，「Copy the DEFAULT branch only」打勾
+*困死我了明天继续*
 
 ## 非常积极——Collaborators 直接修改
 
@@ -45,3 +48,4 @@
 ## 参考
 
 - [参与项目 - GitHub 文档](https://docs.github.com/zh/get-started/exploring-projects-on-github/contributing-to-a-project)
+- [协作处理拉取请求 - GitHub 文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests)
