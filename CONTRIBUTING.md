@@ -33,8 +33,20 @@
 
 - 登录你的 GitHub 账号。
 - 前往[群文档 GitHub 仓库页面](https://github.com/PumpkinJui/groupdocs)。
-- 点击 Fork，选择自己的账号为 Owner，「Copy the DEFAULT branch only」打勾
-*困死我了明天继续*
+
+#### Fork
+
+- 点击 Fork，Owner 选择自己的账号，Copy the DEFAULT branch only 打勾。
+- 点击 Create fork。你的账号下将多出一个名为 `groupdocs` 的仓库。
+- 在此仓库内进行编辑。
+
+#### Pull Requests
+
+- 所有修改完成后，转到你账号下的该 Fork 仓库主页面下。(不是 PumpkinJui 的仓库，是你的仓库。)
+- 点击页面上方的 Contribute，然后点击 Open a pull request。
+- 填入标题和说明内容，说明内容可选。
+- 点击 Create pull request。Collaborators 会收到邮件通知，但鉴于可能不看邮箱，也请在 QQ 群内告知管理员。
+- 等待该 Pull Request 被 Merge。
 
 ## 非常积极——Collaborators 直接修改
 
@@ -46,6 +58,12 @@
 如果这打消了你的积极性，十分抱歉。但我们不能冒这个险，至少我不能接受。
 
 ## 参考
+
+如果你看不懂 (尤其是 Pull Requests 那段)，很有可能不是你的问题，而是我没写清楚。在此情况下，请直接阅读下方的参考文档。
+
+链接为 GitHub 中文文档。将链接中 `github.com/` 后的 `zh` 改为 `en` 可阅读英文文档。
+
+*看懂了务必回来帮忙改改这篇（逃*
 
 - [参与项目 - GitHub 文档](https://docs.github.com/zh/get-started/exploring-projects-on-github/contributing-to-a-project)
 - [协作处理拉取请求 - GitHub 文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests)
