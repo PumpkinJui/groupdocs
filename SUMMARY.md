@@ -30,4 +30,5 @@
   * [群文档历史](about/history.md)
   * [维护人员](about/maintenance.md)
   * [许可证 (LICENSE)](about/thelicense.md)
+  * [如何作出贡献](CONTRIBUTING.md)
   * [群文档编辑指南](about/foreditors.md)
