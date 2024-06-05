@@ -36,17 +36,29 @@
 
 #### Fork
 
+如果你已经进行过这步了，可以跳过。
+
 - 点击 Fork，Owner 选择自己的账号，Copy the DEFAULT branch only 打勾。
 - 点击 Create fork。你的账号下将多出一个名为 `groupdocs` 的仓库。
+
+#### 编辑
+
+- 如果你之前参与过修改，请先将两仓库同步。转到你账号下的 `groupdocs` 仓库主页面，点击页面上方的 Sync fork，然后点击 Update branch。(如果你刚刚进行过 Fork，可以跳过这步。)
 - 在此仓库内进行编辑。
 
 #### Pull Requests
 
-- 所有修改完成后，转到你账号下的该 Fork 仓库主页面下。(不是 PumpkinJui 的仓库，是你的仓库。)
+- 所有修改完成后，转到你账号下的 `groupdocs` 仓库主页面下。
 - 点击页面上方的 Contribute，然后点击 Open a pull request。
 - 填入标题和说明内容，说明内容可选。
 - 点击 Create pull request。Collaborators 会收到邮件通知，但鉴于可能不看邮箱，也请在 QQ 群内告知管理员。
 - 等待该 Pull Request 被 Merge。
+
+#### 给你和我省事
+
+- 务必在编辑前同步仓库。
+- 对于我明显已经命名过的文件，不要修改其名称。  
+  尤其是对于被引用的图片。不要老是改图片名称！如果你想更新这些图片，请把你更新后的图片改成我这里用的名称后再上传。
 
 ## 非常积极——Collaborators 直接修改
 
@@ -59,7 +71,9 @@
 
 ## 参考
 
-如果你看不懂 (尤其是 Pull Requests 那段)，很有可能不是你的问题，而是我没写清楚。在此情况下，请直接阅读下方的参考文档。
+本文并未涉及 Git 操作。如果你使用 Git，请阅读下方的参考文档。
+
+如果你看不懂 (尤其是 Pull Requests 那段)，很有可能不是你的问题，而是我没写清楚。在此情况下，请阅读下方的参考文档。
 
 链接为 GitHub 中文文档。将链接中 `github.com/` 后的 `zh` 改为 `en` 可阅读英文文档。
 
