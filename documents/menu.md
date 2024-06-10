@@ -43,7 +43,7 @@
 ## 特色菜
 
 - 五量叶  
-  ![五量叶 by @文雨](../assets/menu/wuliangye.jpg)
+  ![五量叶 by @文雨](../assets/menu/wuliangye.png)
 - 星巴豆
   ![星巴豆 by @文雨](../assets/menu/xingbadou.png)
 - 量筒煮鸽子
