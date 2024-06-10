@@ -45,7 +45,7 @@
 
 - 五量叶  
   ![五量叶 by @文雨](../assets/menu/wuliangye.png)
-- 星巴豆
+- 星巴豆  
   ![星巴豆 by @文雨](../assets/menu/xingbadou.png)
 - 量筒煮鸽子
 - 十三酱拌绿叶沙拉
@@ -75,4 +75,4 @@
 - 《论群成员的 100 种吃法》
 - 《论菜名的多样性》
 
-![230824 最新正式发布版本](../assets/menu/menu.png)
+![240610 最新正式发布版本](../assets/menu/menu.png)
