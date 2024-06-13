@@ -52,9 +52,9 @@ Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有�
 
 ### 网址
 
-- [https://mc.minebbs.com/#/](https://mc.minebbs.com/#/)
+- [https://mc.minebbs.com/#/](https://mc.minebbs.com/#/)（三端，又称「MCDL」）
 - [https://bbk.endyun.ltd/download](https://bbk.endyun.ltd/download) (仅 Android，又称「MC 版本库」)
-- [https://mcapks.net/](https://mcapks.net/) (仅 Android，和 KLPBBS 是一家。因更新速度慢不再推荐)
+- [https://mcapks.net/](https://mcapks.net/) (仅 Android，和 KLPBBS 是一家)
 - [https://www.mcappx.com/](https://www.mcappx.com/) (仅 Windows，正版验证)
 
 ---
