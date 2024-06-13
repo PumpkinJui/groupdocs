@@ -67,8 +67,10 @@ Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有�
 
 ### 网址
 
-- ~~[https://www.mcbbs.net/thread-682370-1-1.html](https://www.mcbbs.net/thread-682370-1-1.html)~~ (目前，MCBBS 处于「闭站维护」状态，疑似永久关闭。)
-- [https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
+- [GitHub: https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
+- ~~[MCBBS: https://www.mcbbs.net/thread-682370-1-1.html](https://www.mcbbs.net/thread-682370-1-1.html)~~ (目前，MCBBS 处于「闭站维护」状态，疑似永久关闭。)
+- [KLPBBS: https://klpbbs.com/thread-137794-1-1.html](https://klpbbs.com/thread-137794-1-1.html)
+- [MineBBS: https://www.minebbs.com/resources/8447/](https://www.minebbs.com/resources/8447/)
 
 ---
 
