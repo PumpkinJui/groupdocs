@@ -30,11 +30,11 @@
 
 目前，服务器共安装了四个资源包 (Resource Pack)。它们分别是：
 
-- [Bedrock Translation Patch](https://www.mcbbs.net/thread-682370-1-1.html) ([GitHub](https://github.com/ff98sha/mclangcn))
+- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn)
 - [All Trades Visible](https://bedrocktweaks.net/resource-packs/) (原资源包为该网页 GUI 选项的 Trading Helper 资源包)
 - [Colorful Containers](https://mcpedl.com/colourful-containers-bedrock-pack-1)
 - Force Mojangles
 
-如欲自行安装，请至「群文件-生存服资源包」下载。
+如欲自行安装，请至「群文件：量筒测试群 - 生存服务器」下载。
 
 出于获取成就的需要，服务器**现在没有，将来也不会安装**任何行为包 (Behavior Pack)。
