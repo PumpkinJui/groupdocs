@@ -35,6 +35,7 @@
 ## 现状
 
 目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 和 [GitBook.com](https://pumpkinjui.gitbook.io/groupdocs/) 上部署。  
+祉语对 CF Pages 群文档进行了「不完全反代」，使其在中国大陆加载速度更快。该地址每日 02:00 更新，位于 [nekoawa](https://docs.nekoawa.com)。  
 旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/groupdocs-legacy) 上访问，并在 [Gitee](https://gitee.com/pumpkinjui/groupdocs-legacy) 和 [GitHub](https://github.com/PumpkinJui/groupdocs-legacy) 上开源，但已不再更新。
 
 ## 未来

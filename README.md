@@ -8,8 +8,9 @@
 
 ## 群文档地址（建议收藏至浏览器书签栏）
 
-- CloudFlare Pages：[https://groupdocs.pages.dev/](https://groupdocs.pages.dev/)
-- GitBook.com：[https://pumpkinjui.gitbook.io/groupdocs/](https://pumpkinjui.gitbook.io/groupdocs/)
+- nekoawa: [https://docs.nekoawa.com](https://docs.nekoawa.com)（中国大陆推荐，每日 02:00 更新）
+- CloudFlare Pages: [https://groupdocs.pages.dev/](https://groupdocs.pages.dev/)
+- GitBook.com: [https://pumpkinjui.gitbook.io/groupdocs/](https://pumpkinjui.gitbook.io/groupdocs/)
 
 ---
 
