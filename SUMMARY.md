@@ -4,6 +4,8 @@
 
 * [‼️入群必读](documents/encounter.md)
 
+* [群规](documents/rules.md)
+
 * [常用网址汇总](documents/urls.md)
   * [设置搜索引擎](documents/set_search_engine.md)
 
