@@ -4,6 +4,8 @@
 
 入群后必须遵守本群群规。违反群规者将会接受群规所规定的各类处罚。
 
+[在群文档中查看群规](rules.md)
+
 [https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0](https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0)
 
 ## 反馈区
