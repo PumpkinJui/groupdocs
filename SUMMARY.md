@@ -15,7 +15,7 @@
 
 * [生存 III 档食用指南](documents/SurvivalIII/SurvivalIII.md)
   * [新光](documents/SurvivalIII/xinguang.md)
-  * [矿山区域](documents/SurvivalIII/the_diggings.md)
+  * [矿山区域](documents/SurvivalIII/diggings.md)
   * [北境](documents/SurvivalIII/northern_area.md)
   * [雪原](documents/SurvivalIII/snowfield.md)
   * [下界](documents/SurvivalIII/nether/nether.md)
