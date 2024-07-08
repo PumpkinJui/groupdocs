@@ -45,10 +45,8 @@
 
 ## 特色菜
 
-- 五量叶（薄荷菲士，薄荷指地雷）  
-  ![五量叶 by @文雨](../assets/menu/wuliangye.png)
-- 星巴豆  
-  ![星巴豆 by @文雨](../assets/menu/xingbadou.png)
+- 五量叶（薄荷菲士，薄荷指地雷）
+- 星巴豆
 - 量筒煮鸽子
 - 十三酱拌绿叶沙拉
 - 火煨鸽子
@@ -71,6 +69,23 @@
   ……  
   南瓜：所以，被迫害得多总是有原因的（安详  
   （鸽子：不用小心对待我 请用心对待我就可以）
+
+## 宣传图
+
+### 粉蒸量筒 by @巴豆 & @南瓜汁 & @量筒
+
+<video controls>
+<source src="../assets/menu/fenzhenglt.mp4" type="video/mp4">
+当前浏览器不支持使用视频播放控件。
+</video>
+
+### 五量叶 by @文雨
+
+![五量叶 by @文雨](../assets/menu/wuliangye.png)
+
+### 星巴豆 by @文雨
+
+![星巴豆 by @文雨](../assets/menu/xingbadou.png)
 
 ## 参考文献
 
