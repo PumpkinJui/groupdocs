@@ -25,7 +25,7 @@
 
 ### 以物易物
 
-![以物易物机制](../../../assets/SurvivalIII/nether/bartering.png)
+![以物易物机制](../../../assets/SurvivalIII/nether/bartering.jpg)
 
 - 玩家通过对成年猪灵丢出金锭或使用金锭可与其交换特定的物品。
 - 投掷器投掷的金锭也可触发以物易物。

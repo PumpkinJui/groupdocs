@@ -34,3 +34,5 @@
   * [许可证 (LICENSE)](about/thelicense.md)
   * [如何作出贡献](CONTRIBUTING.md)
   * [群文档编辑指南](about/foreditors.md)
+
+* [404](404.md)

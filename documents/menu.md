@@ -113,13 +113,13 @@ bruh
 
 > 鸣谢：@文雨 绘制了这张图。
 
-![五量叶 by @文雨](../assets/menu/wuliangye.png)
+![五量叶 by @文雨](../assets/menu/wuliangye.jpg)
 
 ### 星巴豆
 
 > 鸣谢：@文雨 绘制了这张图。
 
-![星巴豆 by @文雨](../assets/menu/xingbadou.png)
+![星巴豆 by @文雨](../assets/menu/xingbadou.jpg)
 
 ## 参考文献
 
