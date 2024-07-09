@@ -95,10 +95,7 @@
 
 #### 正片
 
-<video controls width="100%">
-<source src="../assets/menu/fenzhenglt.mp4" type="video/mp4">
-当前浏览器不支持使用视频播放控件。
-</video>
+<div id="player_ad7fbb01c7eb11dd"></div>
 
 #### 字幕
 
@@ -127,3 +124,13 @@ bruh
 - 《论菜名的多样性》
 
 ![240610 最新正式发布版本](../assets/menu/menu.png)
+
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_ad7fbb01c7eb11dd'),
+    userId: 2159,
+    vcode: 'ad7fbb01c7eb11dd',
+    autoPlay: false
+});
+</script>
