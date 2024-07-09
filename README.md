@@ -15,9 +15,8 @@
 ![](https://resource-share.xiaozhiyuqwq.top/wp-content/uploads/2024/07/350D2A4989BEA98756EE96BC3CA22E75.jpg)
 
 ---
-
-*由 GitBook 提供支持*  
+ 
 *Powered by GitBook*
 
-*版权归「极筑 · 量筒地图测试群」(2019-2024) 所有。群文档内容根据 [CC-BY-4.0](https://github.com/PumpkinJui/groupdocs/blob/main/LICENSE) 许可证开源。*  
-*Copyright (c) 2019-2024 YZBWDLT Test Group. This work is openly licensed via [CC-BY-4.0](https://github.com/PumpkinJui/groupdocs/blob/main/LICENSE).*
+*版权归「极筑 · 量筒地图测试群」(2019-2024) 所有。内容除另有声明外，均在 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) 提供，附加条款亦可能应用。*  
+*Copyright (c) 2019-2024 YZBWDLT Test Group. This work is openly licensed via [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).*
