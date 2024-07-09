@@ -78,7 +78,6 @@ Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有�
 ### 网址
 
 - [GitHub: https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
-- ~~[MCBBS: https://www.mcbbs.net/thread-682370-1-1.html](https://www.mcbbs.net/thread-682370-1-1.html)~~ (目前，MCBBS 处于「闭站维护」状态，疑似永久关闭。)
 - [KLPBBS: https://klpbbs.com/thread-137794-1-1.html](https://klpbbs.com/thread-137794-1-1.html)
 - [MineBBS: https://www.minebbs.com/resources/8447/](https://www.minebbs.com/resources/8447/)
 - NetEase
@@ -129,19 +128,6 @@ Minecraft 入正必备 (Android 除外)。页面滚动可能存在问题。
 
 ---
 
-## ~~我的世界中文论坛 (MCBBS)~~
-
-~~Minecraft 玩家创造、研究、交流学习和分享的专业中文社交平台，由哔哩哔哩运营。~~
-
-目前，MCBBS 处于「闭站维护」状态，疑似永久关闭。所有链接亦无法访问。  
-详情请见 [MCBBS Wiki](https://mcbbs.wiki/wiki/1%C2%B722%E8%AE%BA%E5%9D%9B%E9%97%AD%E7%AB%99%E7%BB%B4%E6%8A%A4%E4%BA%8B%E4%BB%B6)。
-
-### 网址
-
-- ~~[https://www.mcbbs.net/](https://www.mcbbs.net/)~~
-
----
-
 ## 苦力怕论坛 (KLPBBS)
 
 Minecraft 下载站、资源网和玩家论坛。
@@ -189,6 +175,14 @@ GitHub 是一个受信赖且安全的平台，开发者可以在此托管、管�
 - [https://ca.projectxero.top/](https://ca.projectxero.top/)
 - [https://afdian.net/a/projectxero](https://afdian.net/a/projectxero)
 - [正式版停更原因说明](https://afdian.net/p/43d9a27c3fd611edac7252540025c377)
+
+---
+
+---
+
+## mc id list
+
+[mcidlist](https://ca.projectxero.top/idlist/)
 
 ---
 
@@ -291,7 +285,6 @@ Android 平台文件管理 & 逆向修改神器。
 ### 网址
 
 - [GitHub](https://github.com/YZBWDLT/Minecraft-Bedrock-World-30-Ways-to-Die-2)
-- ~~[MCBBS](https://www.mcbbs.net/thread-1344982-1-1.html)~~
 - [KLPBBS](https://klpbbs.com/thread-47490-1-1.html)
 - [MineBBS](https://www.minebbs.com/resources/1-18-30-30-2-2-3.6248/)
 - [TITAIKE](https://www.titaike.cn/3560.html)
