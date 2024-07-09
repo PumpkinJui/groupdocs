@@ -81,3 +81,9 @@
 - 地址 - 雨云地址
 - 端口 - 40000
 - 版本 - 1.21.0
+
+<div id="kadun"><h1>卡顿处理方案</h1></div>
+
+1. 生存服进不去先换备用线路
+2. `tracert -p <端口> -P udp 地址`（win，管理员执行）/`sudo traceroute -p <端口> -P udp 地址`（lin）截图发群
+
