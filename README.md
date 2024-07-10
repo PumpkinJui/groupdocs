@@ -12,7 +12,7 @@
 - CloudFlare Pages: [https://groupdocs.pages.dev/](https://groupdocs.pages.dev/)
 - GitBook.com: [https://pumpkinjui.gitbook.io/groupdocs/](https://pumpkinjui.gitbook.io/groupdocs/)
 
-![](https://resource-share.xiaozhiyuqwq.top/wp-content/uploads/2024/07/350D2A4989BEA98756EE96BC3CA22E75.jpg)
+![扫码查看群文档](assets/readme.jpg)
 
 ---
  

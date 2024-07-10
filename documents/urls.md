@@ -168,7 +168,11 @@ GitHub 是一个受信赖且安全的平台，开发者可以在此托管、管�
 
 ## 命令助手
 
-在这里下载命令助手。官网正式版最近一次更新在 2020 年初，可能不完全适用于当前的 Minecraft 版本。测试版需要发电查看。
+由 @ProjectXero 维护的一款便捷易用的 Minecraft 命令辅助输入应用。
+
+官网正式版最近一次更新在 2020 年初，可能不完全适用于当前的 Minecraft 版本。
+
+测试版需在爱发电平台发电查看。
 
 ### 网址
 
@@ -178,11 +182,11 @@ GitHub 是一个受信赖且安全的平台，开发者可以在此托管、管�
 
 ---
 
----
+## MCBEID 表
 
-## mc id list
+同样由 @ProjectXero 维护的 ID 表。
 
-[mcidlist](https://ca.projectxero.top/idlist/)
+- [https://ca.projectxero.top/idlist/](https://ca.projectxero.top/idlist/)
 
 ---
 
