@@ -316,20 +316,20 @@ Android 平台文件管理 & 逆向修改神器。
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
-        const url = 'http://example.com:9000/api/version';
+        const url = 'http://bbk.endyun.ltd:9000/api/last_version';
         const data = { b: 0 };
 
         fetch(url, {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/x-www-form-urlencoded'
             },
-            body: JSON.stringify(data)
+            body: new URLSearchParams(data).toString()
         })
         .then(response => response.json())
         .then(data => {
-            const versionAll = data.version_all;
-            document.getElementById('versionInfo').textContent = `当前最新正式版：${versionAll}`;
+            const versionAll = data.message[0].version_all;
+            document.getElementById('versionInfo').textContent = `Version All: ${versionAll}`;
         })
         .catch(error => console.error('Error:', error));
     });
