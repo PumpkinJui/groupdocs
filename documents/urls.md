@@ -53,7 +53,8 @@ Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有�
 ### 网址
 
 - [https://mc.minebbs.com/#/](https://mc.minebbs.com/#/)（三端，又称「MCDL」）
-- [https://bbk.endyun.ltd/download](https://bbk.endyun.ltd/download) (仅 Android，又称「MC 版本库」)
+- [https://bbk.endyun.ltd/download](https://bbk.endyun.ltd/download) (仅 Android，又称「MC 版本库」)  
+  <div id="versionInfo"></div>
 - [https://mcapks.net/](https://mcapks.net/) (仅 Android，和 KLPBBS 是一家)
 - [https://www.mcappx.com/](https://www.mcappx.com/) (仅 Windows，正版验证)
 
@@ -312,3 +313,24 @@ Android 平台文件管理 & 逆向修改神器。
 - [蓝奏云](https://wwf.lanzouo.com/iqnmX20gubje)
 - [百度网盘](https://pan.baidu.com/s/1lt-ji0If782TgV_NsLq1gQ?pwd=mxsj)
 - 网易资源中心
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const url = 'http://example.com:9000/api/version';
+        const data = { b: 0 };
+
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            const versionAll = data.version_all;
+            document.getElementById('versionInfo').textContent = `当前最新正式版：${versionAll}`;
+        })
+        .catch(error => console.error('Error:', error));
+    });
+</script>
