@@ -12,7 +12,6 @@
 
 - GitHub：@PumpkinJui
 - CF Pages：@PumpkinJui
-- GitBook.com：@PumpkinJui
 - nekoawa：@祉语
 
 ## GitHub - Contributors 统计页面

@@ -29,14 +29,18 @@
 
 05 月 09 日，新的群文档仓库在 GitHub 上创建，并将 Notion 上所有文件以 MarkDown 形式导入至仓库。  
 12 日晚，GitBook 结构整理完成。  
-13 日凌晨，dev 分支合并 main 分支，其中含有 56 个文件的更改。稍后，群文档在 GitBook 上成功部署。  
+13 日凌晨，dev 分支合并 main 分支，其中含有 56 个文件的更改。稍后，群文档在 GitBook.com 上成功部署。  
 14 日下午，群文档在 CloudFlare Pages 上成功以 GitBook Framework 部署。至此 所有迁移工作完毕。
+
+2024 年 07 月 13 日，由于 GitBook.com 站使用率极低且访问速度变差，该站点被撤销。
 
 ## 现状
 
-目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 和 [GitBook.com](https://pumpkinjui.gitbook.io/groupdocs/) 上部署。  
-祉语对 CF Pages 群文档进行了「不完全反代」，使其在中国大陆加载速度更快。该地址每日 02:00 更新，位于 [nekoawa](https://docs.nekoawa.com)。  
-旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/groupdocs-legacy) 上访问，并在 [Gitee](https://gitee.com/pumpkinjui/groupdocs-legacy) 和 [GitHub](https://github.com/PumpkinJui/groupdocs-legacy) 上开源，但已不再更新。
+目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 上部署。  
+祉语对 CF Pages 群文档进行了「不完全反代」，使其在中国大陆加载速度更快。该地址每日 02:00 更新，位于 [nekoawa](https://docs.nekoawa.com)。
+
+旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/groupdocs-legacy) 上访问，并在 [Gitee](https://gitee.com/pumpkinjui/groupdocs-legacy) 和 [GitHub](https://github.com/PumpkinJui/groupdocs-legacy) 上开源，但已不再更新。  
+原来部署在 GitBook.com 上的站点已无法访问，原域名为 https://pumpkinjui.gitbook.io/groupdocs/。
 
 ## 未来
 

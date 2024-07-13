@@ -10,7 +10,6 @@
 
 - nekoawa: [https://docs.nekoawa.com](https://docs.nekoawa.com)（中国大陆推荐，每日 02:00 更新）
 - CloudFlare Pages: [https://groupdocs.pages.dev/](https://groupdocs.pages.dev/)
-- GitBook.com: [https://pumpkinjui.gitbook.io/groupdocs/](https://pumpkinjui.gitbook.io/groupdocs/)
 
 ![扫码查看群文档](assets/readme.jpg)
 
@@ -18,5 +17,5 @@
  
 *Powered by GitBook*
 
-*版权归「极筑 · 量筒地图测试群」(2019-2024) 所有。内容除另有声明外，均在 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) 提供，附加条款亦可能应用。*  
-*Copyright (c) 2019-2024 YZBWDLT Test Group. This work is openly licensed via [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).*
+*版权归「极筑 · 量筒地图测试群」(2019-2024) 所有。本站内容除另有声明外，均采用 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) 授权，附加条款亦可能应用。*  
+*Copyright (c) 2019-2024 YZBWDLT Test Group. Content on this site is, otherwise noted, licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/); additional terms may apply.*
