@@ -1,0 +1,10 @@
+{
+    "plugins": [
+        "-fontsettings",
+        "-lunr",
+        "-search",
+        "-sharing",
+        "back-to-top-button",
+        "search-pro"
+    ]
+}
