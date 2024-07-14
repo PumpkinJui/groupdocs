@@ -5,6 +5,12 @@
         "-search",
         "-sharing",
         "back-to-top-button",
+        "github",
         "search-pro"
-    ]
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/PumpkinJui/groupdocs"
+        }
+    }
 }
