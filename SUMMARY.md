@@ -13,6 +13,8 @@
 
 * [本群名菜](documents/menu.md)
 
+* [面基进度](documents/meeting_offline.md)
+
 * [生存 III 档食用指南](documents/SurvivalIII/SurvivalIII.md)
   * [新光](documents/SurvivalIII/xinguang.md)
   * [矿山区域](documents/SurvivalIII/diggings.md)

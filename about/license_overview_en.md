@@ -19,3 +19,17 @@ To optimize the page experience, this site uses several GitBook plugins. Their l
 | search-pro | [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
 
 As a dependency of the search-pro plugin, html-entities is licensed under the MIT License.
+
+## Resource Packs in Survival III
+
+The resource packs used in the Survival III server can be found on [the relevant page](../documents/SurvivalIII/SurvivalIII.md).
+
+## Others
+
+- Compressing images with FFmpeg
+- Qwen (also called Tongyi Qianwen) has contributed to the following:
+  - Writing the [image compression script](https://github.com/PumpkinJui/groupdocs-images/blob/main/compress.sh)
+  - Translating this page
+  - Writing [LaTeX code](https://github.com/PumpkinJui/groupdocs-images/blob/main/assets/meeting_offline/) for the table in [Offline Meeting Progress](../documents/meeting_offline.md)  
+    The table was compiled with TeXworks and LuaLaTeX from MikTeX, and the PDF-to-image conversion was performed using PDF24
+- Tongyi Tingwu has contributed to the plot in [Menu](../documents/menu.md)
