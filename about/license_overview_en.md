@@ -31,5 +31,5 @@ The resource packs used in the Survival III server can be found on [the relevant
   - Writing the [image compression script](https://github.com/PumpkinJui/groupdocs-images/blob/main/compress.sh)
   - Translating this page
   - Writing [LaTeX code](https://github.com/PumpkinJui/groupdocs-images/blob/main/assets/meeting_offline/) for the table in [Offline Meeting Progress](../documents/meeting_offline.md)  
-    The table was compiled with TeXworks and LuaLaTeX from MikTeX, and the PDF-to-image conversion was performed using PDF24
+    The table was compiled with TeXworks and LuaLaTeX from MikTeX, and the PDF-to-image conversion was performed using [Photo Editor](https://github.com/dev-macgyver/PhotoEditor)
 - Tongyi Tingwu has contributed to the plot in [Menu](../documents/menu.md)
