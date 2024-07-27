@@ -32,7 +32,6 @@
 
 * [关于群文档](about/about.md)
   * [群文档历史](about/history.md)
-  * [维护人员](about/maintenance.md)
   * [许可证概览](about/license_overview_zh.md)
   * [LICENSE OVERVIEW](about/license_overview_en.md)
   * [如何作出贡献](CONTRIBUTING.md)
