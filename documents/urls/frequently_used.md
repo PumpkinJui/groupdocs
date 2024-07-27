@@ -10,7 +10,7 @@ Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有�
 
 ### 另请参阅
 
-[设置搜索引擎](%E5%B8%B8%E7%94%A8%E7%BD%91%E5%9D%80%E6%B1%87%E6%80%BB%20fbe6cdd1eb8b439cb8e607992186e2a4/%E8%AE%BE%E7%BD%AE%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%208cd98e18d6704df0b4daa6c6205d4b69.md)
+[设置搜索引擎](set_search_engine.md)
 
 ## 国际基岩版译名修正
 
@@ -24,7 +24,7 @@ Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有�
 
 测试群已分流，「群文件：量筒测试群 - 生存服务器」中不定期更新。
 
-[生存 III 档](SurvivalIII/SurvivalIII.md)使用了此资源包。
+[生存 III 档](../SurvivalIII/SurvivalIII.md)使用了此资源包。
 
 *顺便说一句，「试用版」(trail) 也挺无脑的。*
 
