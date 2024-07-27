@@ -2,17 +2,21 @@
 
 ## Minecraft Wiki
 
+### 介绍
+
 Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有关 Minecraft 的实用信息。
 
 ### 网址
 
-- [https://zh.minecraft.wiki/](https://zh.minecraft.wiki/)
+[https://zh.minecraft.wiki/](https://zh.minecraft.wiki/)
 
 ### 另请参阅
 
 [设置搜索引擎](set_search_engine.md)
 
 ## 国际基岩版译名修正
+
+### 介绍
 
 > 中文 Minecraft Wiki 提醒您：译名千万条，准确第一条。翻译不规范，玩家两行泪。  
   厌倦了「老守卫者」「带有命令块的《我的世界》」「海角」等无脑翻译？还在对基岩版译名进行吐槽？  
@@ -30,7 +34,7 @@ Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有�
 
 ### 网址
 
-- [GitHub: https://github.com/ff98sha/mclangcn](https://github.com/ff98sha/mclangcn)
-- [KLPBBS: https://klpbbs.com/thread-137794-1-1.html](https://klpbbs.com/thread-137794-1-1.html)
-- [MineBBS: https://www.minebbs.com/resources/8447/](https://www.minebbs.com/resources/8447/)
+- [GitHub](https://github.com/ff98sha/mclangcn)
+- [KLPBBS](https://klpbbs.com/thread-137794-1-1.html)
+- [MineBBS](https://www.minebbs.com/resources/8447/)
 - NetEase

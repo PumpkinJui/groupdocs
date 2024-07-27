@@ -2,23 +2,35 @@
 
 ## Minecraft 官方网站
 
-Minecraft 入正必备 (Android 除外)。页面滚动可能存在问题。
+### 介绍
+
+Minecraft 入正必备 (Android 除外)。  
+页面滚动可能存在问题。
 
 ### 网址
 
-- [https://www.minecraft.net/zh-hans](https://www.minecraft.net/zh-hans)
+[https://www.minecraft.net/zh-hans](https://www.minecraft.net/zh-hans)
+
+#### 壁纸
+
 - [壁纸集锦](https://www.minecraft.net/en-us/collectibles)
 - [不在上面链接里的一套壁纸(直链下载)](https://www.minecraft.net/content/dam/games/minecraft/software/wallpaper_minecraft_soothing_scenes_2.zip)
 
 ## 苦力怕论坛 (KLPBBS)
 
+### 介绍
+
 Minecraft 下载站、资源网和玩家论坛。
 
 ### 网址
 
-- [https://klpbbs.com/](https://klpbbs.com/)
+[https://klpbbs.com/](https://klpbbs.com/)
 
 ## GitHub
+
+### 介绍
+
+从这里开始构建——构建、扩展和交付安全软件的完整开发人员平台。
 
 GitHub 是一个受信赖且安全的平台，开发者可以在此托管、管理以及协作代码项目。
 
