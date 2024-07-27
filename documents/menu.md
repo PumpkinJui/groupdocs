@@ -161,6 +161,15 @@
   哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈  
   新鲜热乎的量筒粉，蒸了
 
+#### 纯享版
+
+![粉蒸量筒纯享版](../assets/menu/fenzhenglt_pure.gif)
+
+<video controls width="100%">
+<source src="../assets/menu/fenzhenglt_pure.mp4" type="video/mp4">
+当前浏览器不支持使用视频播放控件。
+</video>
+
 ### 五量叶
 
 > 鸣谢：@文雨 绘制了这张图。
