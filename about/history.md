@@ -39,7 +39,7 @@
 目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 上部署。  
 祉语对 CF Pages 群文档进行了「不完全反代」，使其在中国大陆加载速度更快。该地址每日 02:00 更新，位于 [nekoawa](https://docs.nekoawa.com)。
 
-通过 jsDelivr 提供的服务，即使难以打开 GitHub，也可以从[此页面](https://www.jsdelivr.com/package/gh/PumpkinJui/groupdocs)或[此页面](https://cdn.jsdelivr.net/gh/PumpkinJui/groupdocs/)快速获取群文档仓库内的文件。
+通过 jsDelivr 提供的服务，即使难以打开 GitHub，也可以从[此页面](https://www.jsdelivr.com/package/gh/PumpkinJui/groupdocs)或[此页面](https://cdn.jsdelivr.net/gh/PumpkinJui/groupdocs/)快速获取群文档仓库内的文件。[KGitHub 镜像站](https://kkgithub.com/PumpkinJui/groupdocs)亦可达到相同目的。
 
 为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。  
 需要注意的是，jsDelivr 无法提供图片加速服务；且因为图片仓库总大小大于 50 MB，甚至无法加载仓库文件列表。因此该仓库无法使用 jsDelivr 提供的服务。
