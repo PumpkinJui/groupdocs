@@ -8,9 +8,11 @@
 
 * [网址大全](documents/urls/urls.md)
   * [常用网址](documents/urls/frequently_used.md)
-  * [下载国际基岩版 Minecraft](documents/urls/download_mcbe.md)
+  * [下载国际基岩版 Minecraft](documents/urls/mcbe.md)
+  * [下载国际版 JE 第三方启动器](documents/urls/java.md)
+  * [各类工具](documents/urls/tools.md)
+  * [各类平台](documents/urls/platforms.md)
   * [下载已发布资源](documents/urls/released_items.md)
-  * [其他网站](documents/urls/others.md)
   * [设置搜索引擎](documents/urls/set_search_engine.md)
 
 * [服务器设定](documents/server_settings.md)

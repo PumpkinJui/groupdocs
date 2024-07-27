@@ -1,8 +1,8 @@
-## 30 种死法 2.3 发布链接
+# 下载已发布资源
 
-全老的新地图！[doge]
+## 30 种死法 2.3
 
-### 网址
+> 全老的新地图！[doge]
 
 - [GitHub](https://github.com/YZBWDLT/Minecraft-Bedrock-World-30-Ways-to-Die-2)
 - [KLPBBS](https://klpbbs.com/thread-47490-1-1.html)
@@ -14,11 +14,7 @@
 - [MediaFire](https://www.mediafire.com/folder/v4out7kxado7v/30_Ways_to_Die_2_%7C_Minecraft_BE_Map)
 - NetEase
 
----
-
-## 冒险小世界发布链接
-
-### 网址
+## 冒险小世界
 
 - [GitHub](https://github.com/YZBWDLT/Adventure-World-4)
 - [KLPBBS](https://klpbbs.com/thread-137174-1-1.html)
