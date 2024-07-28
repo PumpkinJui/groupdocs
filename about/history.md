@@ -45,7 +45,7 @@
 需要注意的是，jsDelivr 无法提供图片加速服务；且因为图片仓库总大小大于 50 MB，甚至无法加载仓库文件列表。因此该仓库无法使用 jsDelivr 提供的服务。
 
 旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/groupdocs-legacy) 上访问，并在 [Gitee](https://gitee.com/pumpkinjui/groupdocs-legacy) 和 [GitHub](https://github.com/PumpkinJui/groupdocs-legacy) 上开源，但已不再更新。  
-原来部署在 GitBook.com 上的站点已无法访问，原域名为 https://pumpkinjui.gitbook.io/groupdocs/ 。
+原来部署在 GitBook.com 上的站点已无法访问，原域名为 `https://pumpkinjui.gitbook.io/groupdocs/`。
 
 ## 未来
 
