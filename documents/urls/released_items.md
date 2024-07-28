@@ -14,7 +14,7 @@
 - [MediaFire](https://www.mediafire.com/folder/v4out7kxado7v/30_Ways_to_Die_2_%7C_Minecraft_BE_Map)
 - NetEase
 
-## 冒险小世界
+## 冒险小世界：剑之试炼
 
 - [GitHub](https://github.com/YZBWDLT/Adventure-World-4)
 - [KLPBBS](https://klpbbs.com/thread-137174-1-1.html)

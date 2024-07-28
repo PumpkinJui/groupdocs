@@ -4,7 +4,7 @@
 
 ### 介绍
 
-Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有关 Minecraft 的实用信息。
+> Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有关 Minecraft 的实用信息。
 
 ### 网址
 
@@ -24,7 +24,7 @@ Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有�
   长期更新，适配最新版本！  
   中文 Minecraft Wiki 推荐！你值得拥有！
 
-由中文 Minecraft Wiki 行政员 FF98sha 维护的基岩版译名更正包。
+由中文 Minecraft Wiki 行政员 FF98sha 维护的基岩版译名修正包。
 
 测试群已分流，「群文件：量筒测试群 - 生存服务器」中不定期更新。
 
