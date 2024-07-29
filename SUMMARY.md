@@ -41,6 +41,5 @@
   * [LICENSE OVERVIEW](about/license_overview_en.md)
   * [如何作出贡献](CONTRIBUTING.md)
   * [群文档编辑指南](about/foreditors.md)
-  * [文章：提问的智慧](documents/How-To-Ask-Questions-The-Smart-Way.md)
 
 * [404](404.md)
