@@ -31,13 +31,13 @@ Minecraft 入正必备 (Android 除外)。
 ### 介绍
 
 > GitHub is the world’s leading platform for software development, collaboration, and security.  
-参考翻译：GitHub 是全球领先的软件开发、合作和安全平台。
+  参考翻译：GitHub 是全球领先的软件开发、合作和安全平台。
 
 > GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.  
-参考翻译：GitHub 是人们构建软件的地方。超过一亿用户使用 GitHub 来发现、派生和为超过四亿两千万个项目做出贡献。
+  参考翻译：GitHub 是人们构建软件的地方。超过一亿用户使用 GitHub 来发现、派生和为超过四亿两千万个项目做出贡献。
 
 > Let’s build from here — The complete developer platform to build, scale, and deliver secure software.  
-参考翻译：从这里开始构建——构建、扩展和交付安全软件的完整开发者平台。
+  参考翻译：从这里开始构建——构建、扩展和交付安全软件的完整开发者平台。
 
 ### 网址
 
@@ -50,9 +50,9 @@ Minecraft 入正必备 (Android 除外)。
 
 ### 本群实践
 
-量筒制作的部分地图在 GitHub 上开源。拥有 GitHub 账号的群成员可直接在对应地图仓库通过 Issues 功能汇报 bug。
-
-群文档由南瓜汁在 GitHub 上托管。
+- 量筒制作的部分地图在 GitHub 上开源。  
+  拥有 GitHub 账号的群成员可直接在对应地图仓库通过 Issues 功能汇报 bug。
+- 群文档由南瓜汁托管于 GitHub。
 
 ### 关于访问速度
 
@@ -60,8 +60,10 @@ Minecraft 入正必备 (Android 除外)。
 
 以下方法也许可以加速访问：
 
-- Git 是极好的访问仓库内容的方式。至少在使用 SSH URL 时，Git 的网速可达 MB/s 量级。GitHub CLI 同理。
-- GitHub 客户端似乎使用了不同的链接通路，至少在 Android 客户端上，加载速度相对较快。
+- [Git](https://git-scm.com/downloads) 是极好的访问仓库内容的方式。至少在使用 SSH URL 时，Git 的网速可达 MB/s 量级。  
+  [GitHub CLI](https://cli.github.com/) 亦是如此。
+- GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 Android 客户端上，加载速度相对较快。(但下载速度依旧很差)  
+  客户端分为[桌面版](https://github.com/apps/desktop)和[移动版](https://github.com/mobile)。
 - 修改 Hosts。  
   实践之一为 [GitHub520](https://github.com/521xueweihan/github520) 项目。
 - 某些加速软件，原理通常是本地反代、域前置等。  
@@ -72,7 +74,7 @@ Minecraft 入正必备 (Android 除外)。
   实践之一为 [GitHub Proxy](https://mirror.ghproxy.com/)。
 - 如果只需要获取仓库内容，可以使用某些 CDN。  
   实践之一为 [jsDelivr](https://www.jsdelivr.com/)。链接格式为 `https://cdn.jsdelivr.net/gh/<用户名>/<仓库名>/` 或 `https://www.jsdelivr.com/package/gh/<用户名>/<仓库名>`。  
-  需要注意的是，jsDelivr 无法提供图片加速服务，且不能加载大小大于 50 MB 的仓库文件列表。但仍然可以通过直接输入文件路径进行下载。
+  需要注意的是，jsDelivr 无法提供图片和可执行程序加速服务，且不能加载大小大于 50 MB 的仓库文件列表；但仍然可以通过直接输入文件路径进行下载。
 - 使用 VPN，俗称「魔法」「梯子」。不到万不得已不建议使用，可能违反相关法律。  
   群文档不对这一方式提供指导。
 

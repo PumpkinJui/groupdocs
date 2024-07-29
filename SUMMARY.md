@@ -13,7 +13,6 @@
   * [各类工具](documents/urls/tools.md)
   * [各类平台](documents/urls/platforms.md)
   * [下载已发布资源](documents/urls/released_items.md)
-  * [设置搜索引擎](documents/urls/set_search_engine.md)
 
 * [服务器设定](documents/server_settings.md)
 

@@ -10,10 +10,6 @@
 
 [https://zh.minecraft.wiki/](https://zh.minecraft.wiki/)
 
-### 另请参阅
-
-[设置搜索引擎](set_search_engine.md)
-
 ## 国际基岩版译名修正
 
 ### 介绍
