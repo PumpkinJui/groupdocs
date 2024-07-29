@@ -4,15 +4,11 @@
 
 入群后必须遵守本群群规。违反群规者将会接受群规所规定的各类处罚。
 
-[在群文档中查看群规](rules.md)
-
-[https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0](https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0)
+→ [查看群规](rules.md)
 
 ## 反馈区
 
-测试中如有发现 bug，请在此处汇报。
-
-[https://docs.qq.com/sheet/DWU5udHNVTEFldmto](https://docs.qq.com/sheet/DWU5udHNVTEFldmto)
+测试中如有发现 bug，请在群内或地图所对应的GitHub库中汇报。
 
 ## 服务器白名单登记
 
