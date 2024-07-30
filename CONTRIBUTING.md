@@ -27,7 +27,7 @@
 
 ## 更加积极——[Pull Requests](https://github.com/PumpkinJui/groupdocs/pulls) 作出修改
 
-如果你想亲自动手修改，那再好不过了。但请注意，修改时请遵守[群文档编辑指南](about/foreditors.md)。
+如果你想亲自动手修改，那再好不过了。但请注意，修改时请遵守[群文档编辑指南](about/editing_guide.md)。
 
 ### 如何使用 Pull Requests 功能
 

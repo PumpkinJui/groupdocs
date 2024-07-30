@@ -42,6 +42,6 @@
   * [许可证概览](about/license_overview_zh.md)
   * [LICENSE OVERVIEW](about/license_overview_en.md)
   * [如何作出贡献](CONTRIBUTING.md)
-  * [群文档编辑指南](about/foreditors.md)
+  * [群文档编辑指南](about/editing_guide.md)
 
 * [404](404.md)
