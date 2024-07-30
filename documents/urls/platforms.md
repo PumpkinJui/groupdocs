@@ -51,7 +51,7 @@ Minecraft 入正必备 (Android 除外)。
 ### 本群实践
 
 - 量筒制作的部分地图在 GitHub 上开源。  
-  拥有 GitHub 账号的群成员可直接在对应地图仓库通过 Issues 功能汇报 bug。
+  拥有 GitHub 账号的群成员，可直接在对应地图仓库，通过 Issues 功能汇报 bug。
 - 群文档由南瓜汁托管于 GitHub。
 
 ### 关于访问速度

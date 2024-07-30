@@ -2,17 +2,14 @@
 
 ## 群规
 
-入群后必须遵守本群群规。违反群规者将会接受群规所规定的各类处罚。
+入群后必须遵守本群群规，违反群规者将会接受群规所规定的各类处罚。
 
-[在群文档中查看群规](rules.md)
+你可以在[腾讯文档](https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0)查看本群群规。群文档内也有相应的[群规页面](rules.md)。
 
-[https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0](https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0)
+## 如何反馈 bug
 
-## 反馈区
-
-测试中如有发现 bug，请在此处汇报。
-
-[https://docs.qq.com/sheet/DWU5udHNVTEFldmto](https://docs.qq.com/sheet/DWU5udHNVTEFldmto)
+测试中如有发现 bug，请在群内汇报。  
+拥有 GitHub 账号的群成员，可直接在对应地图仓库，通过 Issues 功能汇报 bug。
 
 ## 服务器白名单登记
 

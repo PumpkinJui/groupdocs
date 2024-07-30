@@ -16,6 +16,8 @@
 
 * [服务器设定](documents/server_settings.md)
 
+* [服务器成员登记表](documents/registered_members.md)
+
 * [本群名菜](documents/menu.md)
 
 * [面基进度](documents/meeting_offline.md)
