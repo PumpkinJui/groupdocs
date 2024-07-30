@@ -24,8 +24,11 @@
 
 * [生存 III 档食用指南](documents/SurvivalIII/SurvivalIII.md)
   * [新光](documents/SurvivalIII/xinguang.md)
+    * [新光市管理条例](documents/SurvivalIII/xinguang_administrative_regulations.md)
   * [矿山区域](documents/SurvivalIII/diggings.md)
+    * [矿山管理条例](documents/SurvivalIII/diggings_administrative_regulations.md)
   * [北境](documents/SurvivalIII/northern_area.md)
+    * [北境管理条例](documents/SurvivalIII/northern_area_administrative_regulations.md)
   * [雪原](documents/SurvivalIII/snowfield.md)
   * [下界](documents/SurvivalIII/nether/nether.md)
     * [下界交通](documents/SurvivalIII/nether/transit.md)
