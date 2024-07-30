@@ -7,7 +7,7 @@
 
 ## 相关规定
 
-下界交通系统基于[《新光管理条例》](../xinguang_administrative_regulations.md)（以下简称「条例」）的第九条进行建设。
+下界交通系统基于[《新光市管理条例》](../xinguang_administrative_regulations.md)（以下简称「条例」）的第九条进行建设。
 
 > **第九条** 下界交通建设标准<br>
 （一）**本标准适用于全服所有发展区域。**<br>
