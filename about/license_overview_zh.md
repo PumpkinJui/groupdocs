@@ -33,3 +33,4 @@
   - 为[面基进度](../documents/meeting_offline.md)中的表格编写 [LaTeX 代码](https://github.com/PumpkinJui/groupdocs-images/blob/main/assets/meeting_offline/)  
     该表格还使用了 MikTeX 中的 TeXworks 及其配套的 LuaLaTeX 进行编译，使用了[照片编辑器](https://github.com/dev-macgyver/PhotoEditor)进行 PDF 转图片操作
 - 通义听悟对[本群名菜](../documents/menu.md)中的字幕文本有所贡献
+- 其他未提及的第三方来源的文章和资源，版权属于它们的所有者。

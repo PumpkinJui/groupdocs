@@ -1,8 +1,8 @@
 # 2023 年，我们是如何应对端口扫描的
 
 > 此文章由 @祉语 编写。  
-在文章被添加到群文档时，@PumpkinJui 对排版作出一定修改，使之语言更为通顺，更加符合群文档的整体风格。  
-如有阅读原文的需求，请前往[此页面](https://workspace.dingtalk.com/xprXs7tnsCdVWfofiETqsp)。
+  在被添加到群文档时，文章由 @PumpkinJui 对排版略作修改，使之在尽可能保留原意的前提下，语言更为通顺，更加符合群文档的整体风格。  
+  如有阅读原文的需求，请前往[此页面](https://workspace.dingtalk.com/xprXs7tnsCdVWfofiETqsp)。
 
 ## 写在前面
 
