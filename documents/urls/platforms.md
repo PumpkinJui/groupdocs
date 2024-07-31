@@ -68,8 +68,12 @@ Minecraft 入正必备 (Android 除外)。
   实践之一为 [GitHub520](https://github.com/521xueweihan/github520) 项目。
 - 某些加速软件，原理通常是本地反代、域前置等。  
   实践包括 [Watt Toolkit (原名 Steam++)](https://steampp.net/)、[steamcommunity 302](https://www.dogfight360.com/blog/686/) 等。
-- 如果无须登录，可以使用镜像站。  
-  实践之一为 [KGitHub 镜像站](https://kkgithub.com/)。
+- 镜像站。  
+  实践之一为 [KGitHub 镜像站](https://kkgithub.com/)。以下来自 [KGitHub Help](https://help.kkgithub.com/questions/) (虽然这似乎不完全算「存在的问题」……)：  
+  > 本站目前存在的问题：
+    1. 不能注册
+    2. 不能上传文件，可以登录，可以在线编辑
+    3. 来自 raw.githubusercontent.com 的下载可使用 raw.kkgithub.com 替代
 - 如果只需要下载，可以使用某些下载平台。  
   实践之一为 [GitHub Proxy](https://mirror.ghproxy.com/)。
 - 如果只需要获取仓库内容，可以使用某些 CDN。  
