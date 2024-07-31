@@ -12,27 +12,8 @@
 
 - 各服务器使用白名单机制。若想参与各服务器的建设工作，请在[登记网站](https://docs.qq.com/sheet/DSnFwckZ2RE1SYXp0)进行登记，以添加白名单。登记后请在群内 @量筒 以作提醒。
 - 温馨提醒：尽量不要尝试连接没有给出的端口。在 NAT 机器上，可能会连接到其他服务器 (共享公网 IP)；如果是独享公网 IP 的机器，可能会被设置的陷阱拦截。具体操作见 [2023 年，我们是如何应对端口扫描的](../archives/2023_port_scanning_solution.md)。
-
----
-
-## 地址列表
-
-### 雨云地址
-
-海外（包括港澳台）仅能使用备线。
-
-- 主线：rain.cvm.xiaozhiyuqwq.top
-- 备线：rain2.cvm.xiaozhiyuqwq.top
-
-### 腾讯云地址
-
-- qcloud.cvm.xiaozhiyuqwq.top
-
-### 宕机看板
-
-[卡顿处理方案](#%E5%8D%A1%E9%A1%BF%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88)见下。
-
-- [https://status.nekoawa.com/](https://status.nekoawa.com/)
+- 鉴于中国大陆特殊的网络环境，如下地址均采用 dnssec 确保解析安全。但是如果你的设备不支持 dnssec，则可以将末尾的`xiaozhiyuqwq.top`换为`nekoawa.com`。
+- 所有游戏服务器仅支持 ipv4。如果您的设备仅限 ipv6，则建议联系您的 isp 启用 ipv4 支持。
 
 ---
 
@@ -41,7 +22,7 @@
 > 原版生存，无作弊，可获取成就。永远保持最新正式版。  
   欢迎在生存服务器开拓天地，实现你的小梦想哦！
 
-- 地址 - 雨云地址
+- 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 20230
 - 版本 - 1.21.2
 
@@ -51,13 +32,13 @@
 
 ### 开发服 - I
 
-- 地址 - 腾讯云地址
+- 地址 - qcloud.cvm.xiaozhiyuqwq.top
 - 端口 - 19136
 - 版本 - 1.21.2
 
 ### 开发服 - II
 
-- 地址 - 腾讯云地址
+- 地址 - qcloud.cvm.xiaozhiyuqwq.top
 - 端口 - 19138
 - 版本 - 1.21.2
 
@@ -73,19 +54,19 @@
 
 ### 测试服 - I
 
-- 地址 - 雨云地址
+- 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 20000
 - 版本 - 1.21.2
 
 ### 测试服 - II
 
-- 地址 - 雨云地址
+- 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 30000
 - 版本 - 1.21.2
 
 ### 测试服 - III
 
-- 地址 - 雨云地址
+- 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 40000
 - 版本 - 1.21.2
 
@@ -93,7 +74,7 @@
 
 ## 卡顿处理方案
 
-1. 查看[宕机看板](#%E5%AE%95%E6%9C%BA%E7%9C%8B%E6%9D%BF)（见上）。
+1. 查看[宕机看板](http://status.nekoawa.com/)。
 2. 生存服进不去先换备用线路。
 3. 如有条件，在命令行执行下方命令后截图发群：  
    - Windows，管理员  
