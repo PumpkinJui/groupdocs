@@ -3,7 +3,7 @@
 > 此文章由 GitHubIO 官方编写。  
   原文即为英文；此文档仅用于编写者参考，没有计划也不会对其中内容制作翻译版本。  
   在被添加到群文档时，文章未被修改，仅删除了一个坏链。  
-  如有阅读原文的需求，请前往 [GitBook 的 GitHub 仓库](https://github.com/GitbookIO/gitbook/blob/legacy/docs/syntax/markdown.md) 或 [jsDelivr 代理页面](https://cdn.jsdelivr.net/gh/GitbookIO/gitbook@legacy/docs/syntax/markdown.md)。
+  如有阅读原文的需求，请前往 [GitBook 的 GitHub 仓库](https://github.com/GitbookIO/gitbook/blob/legacy/docs/syntax/markdown.md) 或 [jsDelivr CDN 页面](https://cdn.jsdelivr.net/gh/GitbookIO/gitbook@legacy/docs/syntax/markdown.md)。
 
 Most of the examples from this documentation are in Markdown. Markdown is default parser for GitBook, but one can also opt for the *AsciiDoc syntax*.
 
