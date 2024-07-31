@@ -12,8 +12,8 @@
 
 - 各服务器使用白名单机制。若想参与各服务器的建设工作，请在[登记网站](https://docs.qq.com/sheet/DSnFwckZ2RE1SYXp0)进行登记，以添加白名单。登记后请在群内 @量筒 以作提醒。
 - 温馨提醒：尽量不要尝试连接没有给出的端口。在 NAT 机器上，可能会连接到其他服务器 (共享公网 IP)；如果是独享公网 IP 的机器，可能会被设置的陷阱拦截。具体操作见 [2023 年，我们是如何应对端口扫描的](../archives/2023_port_scanning_solution.md)。
-- 鉴于中国大陆特殊的网络环境，如下地址均采用 dnssec 确保解析安全。但是如果你的设备不支持 dnssec，则可以将末尾的`xiaozhiyuqwq.top`换为`nekoawa.com`。
-- 所有游戏服务器仅支持 ipv4。如果您的设备仅限 ipv6，则建议联系您的 isp 启用 ipv4 支持。
+- 鉴于中国大陆特殊的网络环境，如下地址均采用 DNSSEC 确保解析安全。如果你的设备不支持 DNSSEC (表现为无法解析)，则可以将末尾的 `xiaozhiyuqwq.top` 换为 `nekoawa.com`。
+- 所有游戏服务器仅支持 IPv4。如果您的设备仅限 IPv6，则建议联系您的 ISP 启用 IPv4 支持。可在 [IPW](https://ipw.cn/) 查询是否支持 v4/v6。
 
 ---
 
@@ -75,7 +75,7 @@
 ## 卡顿处理方案
 
 1. 查看[宕机看板](http://status.nekoawa.com/)。
-2. 生存服进不去先换备用线路。
+2. 生存服进不去先换备用线路：`rain2.cvm.xiaozhiyuqwq.top`。
 3. 如有条件，在命令行执行下方命令后截图发群：  
    - Windows，管理员  
      `tracert -p <端口> -P udp <地址>`  
