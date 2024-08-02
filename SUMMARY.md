@@ -12,6 +12,7 @@
   * [下载国际版 JE 第三方启动器](documents/urls/java.md)
   * [各类平台](documents/urls/platforms.md)
   * [各类工具](documents/urls/tools.md)
+  * [大语言模型 (LLM)](documents/urls/llm.md)
   * [下载已发布资源](documents/urls/released_items.md)
 
 * [服务器设定](documents/server_settings.md)
