@@ -31,7 +31,7 @@
 | :---: | :---: | :---: | :---: | :---: | --- |
 | 量筒 | YZBWDLT | ✔ | 玻璃瓶<br>§r§l§b | ✔ | 拥有开发 I 服的白名单 |
 | 巴豆 | Andy7343<br>ContactHail8525 | ✔<br>✔ | 可可豆<br>§r§c | ✔ | |
-| 祉语 | xhduoduobaby<br>lzxhdfw | ✔<br>✔ | 橙色染色玻璃<br>§r§6 | ✔ | |
+| 祉语 | xhduoduobaby | ✘ | 橙色染色玻璃<br>§r§6 | ✔ | |
 | 南瓜汁 | PumpkinJui | ✔ | 蜂蜜瓶<br>§r§l§6 | ✔ | |
 | 鸽子 | PigeonKI | ✔ | 熟鸡肉<br>§f§l | ✔ | |
 | 地雷 | Peroxide07122 | ✔ | TNT<br>— | ❔ | |
@@ -125,6 +125,7 @@
 | 太白 | dingxiang520194 | |
 | 猪猪 | RashBeatle64497 | |
 | 123 | Qwe 1239974 | |
+| 祉语 | xhduoduobaby | |
 
 ## 离群成员 (违规)
 
