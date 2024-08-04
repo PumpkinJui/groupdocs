@@ -44,7 +44,7 @@
 
 ### 开发服 - III
 
-- 地址 - 腾讯云地址
+- 地址 - qcloud.cvm.xiaozhiyuqwq.top
 - 端口 - 19140
 - 版本 - 1.21.2
 

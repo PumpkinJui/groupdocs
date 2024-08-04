@@ -43,6 +43,8 @@
     * [蛙明灯农场](documents/SurvivalIII/nether/froglight.md)
   * [末地](documents/SurvivalIII/the_end.md)
 
+* [地图更新日志](logs/README.md)
+
 * [已归档](archives/README.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
   * [2023 年，我们是如何应对端口扫描的](archives/2023_port_scanning_solution.md)
