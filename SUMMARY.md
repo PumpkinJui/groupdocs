@@ -43,7 +43,11 @@
     * [蛙明灯农场](documents/SurvivalIII/nether/froglight.md)
   * [末地](documents/SurvivalIII/the_end.md)
 
-* [地图更新日志](logs/README.md)
+* [资源更新日志](logs/README.md)
+  * [30种死法](logs/wstd/main.md)
+  * [30种死法2](logs/wstd2/main.md)
+    * [过往版本更新日志](logs/wstd2/past.md)
+  * [地图模板](logs/map_template/main.md)
 
 * [已归档](archives/README.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
@@ -51,6 +55,7 @@
   * [Markdown](archives/markdown.md)
 
 * [关于群文档](about/README.md)
+  * [群历史](about/history_of_group.md)
   * [群文档历史](about/history.md)
   * [许可证概览](about/license_overview_zh.md)
   * [LICENSE OVERVIEW](about/license_overview_en.md)
