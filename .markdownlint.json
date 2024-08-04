@@ -5,5 +5,8 @@
              },
     "MD033": {
         "allowed_elements": [br]
+             },
+    "MD036": {
+        "punctuation": ".,;:!?。，；：！？）)…"
              }
 }
