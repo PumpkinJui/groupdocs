@@ -5,6 +5,37 @@
 
 ## [如何作出贡献](../CONTRIBUTING.md)
 
+## 关于 GitBook
+
+### 目录结构
+
+可以在以下两非官方文档中了解 GitBook 的目录结构：
+
+- [GitBook 文档（中文版） by chrisniael](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
+- [GitBook 文档 by zhaowenyu](https://www.zhaowenyu.com/gitbook-doc/)
+
+需要注意的是，两份文档均久未更新；由于 `gitbook-cli` 亦久未更新，其中大部分内容可以参考，但某些关于 `GitBook.com` 一类的内容则可能已经过时。  
+另外，两份文档的访问速度可能较慢，如遇加载不出，请耐心等待。
+
+### MarkDown 语法
+
+GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec](https://github.github.com/gfm/))，但又与之不尽相同。你可以在 [Markdown](../archives/markdown.md) 中查看官方说明。  
+部分原因是，说明原文在 GitHub 上的最后一次编辑位于 16/03/17，这意味着 `gitbook-cli` 的 MarkDown 语法，在此之后再未发生过变化；而最新版 GFM (0.29-gfm) 更新于 19/04/06。
+
+## markdownlint
+
+群文档中的文件，一般不得在已有配置下，在 [markdownlint](https://github.com/DavidAnson/markdownlint/) 中检查出错误。  
+如确实需要，应在相应文本块前禁用 markdownlint 的相应规则，并在该文本块后重新启用 (操作方式见官方说明)。
+
+已有配置位于 [群文档 GitHub 仓库的根目录](https://github.com/PumpkinJui/groupdocs/blob/main/.markdownlint.json)。
+
+部分不作格式规范、无须遵守此条标准的文件及文件夹如下，以仓库根目录为相对路径：
+
+- 文件夹：logs
+- 文件夹：node_modules
+- 文 件：archives/markdown.md
+- 文 件：documents/How-To-Ask-Questions-The-Smart-Way.md
+
 ## 盘古之白
 
 所有群文档页面都应该适配「盘古之白」。
@@ -104,7 +135,7 @@
 
 ### 外来文档模板
 
-该窗口应置于整篇添加到群文档的文章开头，常在[已归档](../archives/archives.md)页面中使用。
+该窗口应置于整篇添加到群文档的文章开头，常在[已归档](../archives/README.md)页面中使用。
 
 > 此文章由 {某人} 编写。  
   (如果被修改过) 在被添加到群文档时，文章由 {某人} 对 {某部分} 略作修改，使其 {效果}。  
@@ -114,4 +145,4 @@
 ### 归档模板
 
 > {归档原因}，故归档。  
-  最后一次编辑由 {某人} 进行，位于 {`yy/mm/dd-HH:MM` or commit}。
+  最后一次编辑由 {某人} 进行，位于 {`yy/mm/dd(-HH:MM)` or commit}。

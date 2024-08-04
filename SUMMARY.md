@@ -44,8 +44,8 @@
   * [末地](documents/SurvivalIII/the_end.md)
 
 * [资源更新日志](logs/README.md)
-  * [30种死法](logs/wstd/main.md)
-  * [30种死法2](logs/wstd2/main.md)
+  * [30 种死法](logs/wstd/main.md)
+  * [30 种死法 2](logs/wstd2/main.md)
     * [过往版本更新日志](logs/wstd2/past.md)
   * [地图模板](logs/map_template/main.md)
 

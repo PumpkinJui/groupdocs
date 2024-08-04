@@ -47,7 +47,7 @@
 > Tools for generating railway maps and information panels in the styles of various cities’ public transportation systems.  
   参考翻译：生成各城市公共交通系统风格的铁路地图和信息面板的工具。
 
-铁路图绘制工具包。[生存 III 档](../SurvivalIII/SurvivalIII.md)指定使用此工具包中的 RMG 工具进行线路图绘制。
+铁路图绘制工具包。[生存 III 档](../SurvivalIII/README.md)指定使用此工具包中的 RMG 工具进行线路图绘制。
 
 *请注意，画图时需要有图例和指北针，最好把比例尺也画上，谢谢。*
 

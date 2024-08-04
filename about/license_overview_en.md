@@ -22,11 +22,12 @@ As a dependency of the search-pro plugin, html-entities is licensed under the MI
 
 ## Resource Packs in Survival III
 
-The resource packs used in the Survival III server can be found on [the relevant page](../documents/SurvivalIII/SurvivalIII.md).
+The resource packs used in the Survival III server can be found on [the relevant page](../documents/SurvivalIII/README.md).
 
 ## Others
 
-- Compress images with FFmpeg
+- Compress images with [FFmpeg](https://ffmpeg.org/)
+- Check MarkDown format with [markdownlint](https://github.com/DavidAnson/markdownlint/)
 - Qwen (also called Tongyi Qianwen) has contributed to the following:
   - Writing the [image compression script](https://github.com/PumpkinJui/groupdocs-images/blob/main/compress.sh)
   - Translating this page

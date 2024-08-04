@@ -24,7 +24,7 @@
 
 测试群已分流，「群文件：量筒测试群 - 生存服务器」中不定期更新。
 
-[生存 III 档](../SurvivalIII/SurvivalIII.md)使用了此资源包。
+[生存 III 档](../SurvivalIII/README.md)使用了此资源包。
 
 *顺便说一句，「试用版」(trail) 也挺无脑的。*
 
