@@ -74,7 +74,7 @@
 
 ## 卡顿处理方案
 
-1. 查看[宕机看板](http://status.nekoawa.com/)。
+1. 查看[宕机看板](https://status.nekoawa.com/)。
 2. 生存服进不去先换备用线路：`rain2.cvm.xiaozhiyuqwq.top`。
 3. 如有条件，在命令行执行下方命令后截图发群：  
    - Windows，管理员  
