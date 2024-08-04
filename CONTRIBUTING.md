@@ -77,7 +77,7 @@
 
 链接为 GitHub 中文文档。将链接中 `github.com/` 后的 `zh` 改为 `en` 可阅读英文文档。
 
-*看懂了务必回来帮忙改改这篇（逃*
+*看懂了务必回来帮忙改改这篇（逃* <!-- markdownlint-disable-line MD036 -->
 
 - [参与项目 - GitHub 文档](https://docs.github.com/zh/get-started/exploring-projects-on-github/contributing-to-a-project)
 - [协作处理拉取请求 - GitHub 文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests)

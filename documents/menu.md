@@ -102,7 +102,7 @@
 
 #### 正片（看不到请多刷新几遍）
 
-<div id="player_ad7fbb01c7eb11dd"></div>
+<div id="player_ad7fbb01c7eb11dd"></div> <!-- markdownlint-disable-line MD033 -->
 
 #### 字幕
 
@@ -165,10 +165,14 @@
 
 ![粉蒸量筒纯享版](../assets/menu/fenzhenglt_pure.gif)
 
+<!-- markdownlint-disable MD033 -->
+
 <video controls width="100%">
 <source src="../assets/menu/fenzhenglt_pure.mp4" type="video/mp4">
 当前浏览器不支持使用视频播放控件。
 </video>
+
+<!-- markdownlint-restore -->
 
 ### 五量叶
 
@@ -193,6 +197,8 @@
 - 《论菜名的多样性》
 
 ![240610 最新正式发布版本](../assets/menu/menu.png)
+
+<!-- markdownlint-disable MD033 -->
 
 <script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
 <script type="text/javascript">

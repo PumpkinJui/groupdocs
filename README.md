@@ -15,7 +15,7 @@
 
 ---
 
-*Powered by GitBook*
+*Powered by GitBook* <!-- markdownlint-disable-line MD036 -->
 
 *版权归「极筑 · 量筒地图测试群」(2019-2024) 所有。本站内容除另有声明外，均采用 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.zh-hans) 授权，附加条款亦可能应用。更多信息见[许可证概览](about/license_overview_zh.md)页面。*  
 *Copyright (c) 2019-2024 YZBWDLT Test Group. Content on this site is, otherwise noted, licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.en); additional terms may apply. Learn more at [LICENSE OVERVIEW](about/license_overview_en.md).*
