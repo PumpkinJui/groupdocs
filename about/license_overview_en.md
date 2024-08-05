@@ -22,7 +22,7 @@ As a dependency of the search-pro plugin, html-entities is licensed under the MI
 
 ## Resource Packs in Survival III
 
-The resource packs used in the Survival III server can be found on [the relevant page](../documents/SurvivalIII/README.md).
+The resource packs used in the Survival III server can be found on [the relevant page](../docs/SurvivalIII/README.md).
 
 ## Others
 
@@ -31,7 +31,7 @@ The resource packs used in the Survival III server can be found on [the relevant
 - Qwen (also called Tongyi Qianwen) has contributed to the following:
   - Writing the [image compression script](https://github.com/PumpkinJui/groupdocs-images/blob/main/compress.sh)
   - Translating this page
-  - Writing [LaTeX code](https://github.com/PumpkinJui/groupdocs-images/blob/main/assets/meeting_offline/) for the table in [Offline Meeting Progress](../documents/meeting_offline.md)  
+  - Writing [LaTeX code](https://github.com/PumpkinJui/groupdocs-images/blob/main/assets/meeting_offline/) for the table in [Offline Meeting Progress](../docs/meeting_offline.md)  
     The table was compiled with TeXworks and LuaLaTeX from MikTeX, and the PDF-to-image conversion was performed using [Photo Editor](https://github.com/dev-macgyver/PhotoEditor)
-- Tongyi Tingwu has contributed to the plot in [Menu](../documents/menu.md)
+- Tongyi Tingwu has contributed to the plot in [Menu](../docs/menu.md)
 - The copyright of other unmentioned third-party articles & resources belong to their owners
