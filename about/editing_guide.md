@@ -34,7 +34,7 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 - 文件夹：logs
 - 文件夹：node_modules
 - 文 件：archives/markdown.md
-- 文 件：documents/How-To-Ask-Questions-The-Smart-Way.md
+- 文 件：docs/How-To-Ask-Questions-The-Smart-Way.md
 
 ## 盘古之白
 

@@ -14,6 +14,4 @@
 - CF Pages：@PumpkinJui
 - nekoawa：@祉语
 
-## GitHub - Contributors 统计页面
-
-- [https://github.com/PumpkinJui/groupdocs/graphs/contributors](https://github.com/PumpkinJui/groupdocs/graphs/contributors)
+## [GitHub - Contributors 统计页面](https://github.com/PumpkinJui/groupdocs/graphs/contributors)
