@@ -118,7 +118,6 @@
 | 枉忆 | riverside0806 | |
 | 咩啊 | Heimat9846 | |
 | 柠檬奶 | Lemonmilk114514 | |
-| JA | Adiosdem | |
 | 君茶 | TemadeFX | |
 | 劳打 | wsqDSB | |
 | 清风 | qing feng 00317 | |
@@ -126,7 +125,6 @@
 | 太白 | dingxiang520194 | |
 | 猪猪 | RashBeatle64497 | |
 | 123 | Qwe 1239974 | |
-| 祉语 | xhduoduobaby | |
 
 ## 离群成员 (违规)
 
@@ -134,5 +132,5 @@
 | :---: | :---: | :---: | --- | --- |
 | 万时 | ichicken233 | 5 | 多次出言不逊 | |
 | 光之子 | AdroitMallard14 | 5 | 在生存服中作弊 | |
-| De | Demonioron<br>Demoniort | 5 | 多次出言不逊 | |
+| De<br><br>JA | Demonioron<br>Demoniort<br>Adiosdem | 5 | 多次出言不逊<br>散播谣言<br>隐瞒身份<br>鼓吹北境高度自治<br>辱骂晨风<br>…… | |
 | 小 H | Halshtain | 1 | 以不当言论攻击其他群员 | |
