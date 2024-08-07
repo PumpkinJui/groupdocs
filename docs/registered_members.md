@@ -57,7 +57,7 @@
 | 晓鱼 | muxiaoyu040203 | ✘ | 小白头颅<br>§r§4§l | ✔ |  |
 | 千里 | EnderLifeRyan<br>EnderLife5409 | ✔<br>✔ | 末影珍珠<br>§5§l | ✔ | 贡献大 |
 | 残梦 | XiaomLuoch | ✘ | 枯灌木<br>— | ✔ |  |
-| 小鸟 | lovebirdsvvv | ✘ | 白色陶瓦<br>— | ✔ |  |
+| 小鸟 | lovebirdsvvv | ✔ | 白色陶瓦<br>— | ✔ |  |
 | 十三酱 | L52th<br>Rss and L53 | ✔<br>✔ | 红砂岩<br>§c | ✔ | 贡献大 |
 | 命令君 | CBerJun | ✘ | 砂轮<br>§r§o§6 | ✔ |  |
 | 书豪 | Ustiniana1641 | ✔ | 末地烛<br>— | ✔ | 贡献较大 |
@@ -66,7 +66,7 @@
 | 浮纸 | FloatPaper3972 | ✘ | 石英块<br>— | ✔ |  |
 | 菜鸡蛛 | yzcjzqwq | ✘ | 蜘蛛眼<br>— | ✔ |  |
 | 比翼鸟 | KianaKaslana947<br>RaidenMei947 | ✔<br>✔ | 末地水晶<br>§d | ✔ | 贡献大 |
-| 宽判 | kuanpan 9527<br>ADOFAI7bg | ✔<br>✔ | 红石矿石<br>— | ✔ | 考核前进服 |
+| 宽判 | kuanpan 9527<br>ADOFAI7bg | ✔<br>✔ | 红石矿石<br>— | ✔ | 贡献较大 |
 | 麦热 | havefuningame07 | ✔ | 铁剑<br>— | ✔ | 考核前进服 |
 | E尘 | E1cheng | ✘ | —<br>— | ✘ |  |
 | Xero | ProjectXero1042 | ✘ | —<br>— | ✘ |  |
