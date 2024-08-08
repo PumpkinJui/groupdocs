@@ -15,6 +15,41 @@
 - 鉴于中国大陆特殊的网络环境，如下地址均采用 DNSSEC 确保解析安全。如果你的设备不支持 DNSSEC (表现为无法解析)，则可以将末尾的 `xiaozhiyuqwq.top` 换为 `nekoawa.com`。
 - 所有游戏服务器仅支持 IPv4。如果您的设备仅限 IPv6，则建议联系您的 ISP 启用 IPv4 支持。可在 [IPW](https://ipw.cn/) 查询是否支持 v4/v6。
 
+## 如何设定
+
+### 简化版
+
+**注意：仅 PC 和移动端支持自行添加服务器。**
+
+1. 登录你的 Xbox 账号
+2. 点击游戏 — 服务器，划到列表最下面，点添加服务器 (如有提示请直接忽略，并点「确定」)
+3. 名称随便填 (给你自己看的)，地址和端口参考下面的对应服务器填
+4. 点「保存」，在服务器列表内会出现「其他服务器」，下方有一服务器，名称为刚才填入的名称；点服务器名称，再点「加入服务器」。如有提示请直接忽略，并点「确定」
+
+### 官方版
+
+来自 [How to Play Minecraft: Bedrock Edition Multiplayer](https://help.minecraft.net/hc/en-us/articles/4410316619533-How-to-Play-Minecraft-Bedrock-Edition-Multiplayer)：
+
+> #### How to play on an online server
+>
+> 1. From the title screen, select Play
+> 2. Go to the Servers tab
+> 3. Select which partner server you would like to join
+> 4. If the server you want to join is not in the partner list, you can scroll to the bottom and click Add Server (PC and mobile only)
+> 5. Input the server information
+>    - You can get the server name, address, and port from the server owner
+>    - For Minecraft servers that are safe to join and fun for all ages, check out [our official Minecraft server listing site](https://findmcserver.com/).
+
+## 卡顿处理方案
+
+1. 查看[宕机看板](https://status.nekoawa.com/)。
+2. 生存服进不去先换备用线路：`rain2.cvm.xiaozhiyuqwq.top`。
+3. 如有条件，在命令行执行下方命令后截图发群：  
+   - Windows，管理员  
+     `tracert -p <端口> -P udp <地址>`  
+   - Linux，管理员  
+     `sudo traceroute -p <端口> -P udp <地址>`
+
 ---
 
 ## 生存服 - III 周目
@@ -71,15 +106,3 @@
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 40000
 - 版本 - 1.21.2
-
----
-
-## 卡顿处理方案
-
-1. 查看[宕机看板](https://status.nekoawa.com/)。
-2. 生存服进不去先换备用线路：`rain2.cvm.xiaozhiyuqwq.top`。
-3. 如有条件，在命令行执行下方命令后截图发群：  
-   - Windows，管理员  
-     `tracert -p <端口> -P udp <地址>`  
-   - Linux，管理员  
-     `sudo traceroute -p <端口> -P udp <地址>`
