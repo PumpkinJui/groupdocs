@@ -125,7 +125,7 @@
 | 太白 | dingxiang520194 | |
 | 猪猪 | RashBeatle64497 | |
 | 123 | Qwe 1239974 | |
-| 基德 | MildTurt | | 
+| 基德 | MildTurt | |
 
 ## 离群成员 (违规)
 
