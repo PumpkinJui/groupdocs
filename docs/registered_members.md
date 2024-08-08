@@ -50,7 +50,6 @@
 | 零七 | pqwp114514qwpq | ✔ | 奶桶<br>— | ✔ | 考核前进服 |
 | 嘉睿 | HuanGuangYC | ✘ | 红石火把<br>§r§l§7 | ✔ |  |
 | 一云 | yi0yun | ✔ | 白色羊毛<br>— | ✔ | 由 **@南瓜汁** 邀请来 |
-| 基德 | MildTurt | ✔ | 海龟壳<br>— | ✔ | 贡献较大 |
 | 塞拉 | Traptrix SL | ✔ | 金锭<br>— | ✔ | 代表物欲修改为钓鱼竿；贡献较大；由 **@量筒** 邀请来 |
 | 泽泽 | SageBasket91286 | ✔ | —<br>— | ❔ | 由 **@量筒** 邀请来 |
 | — | Explorer95270 | ✔ | —<br>— | ❔ | 由 **@量筒** 邀请来 |
@@ -101,6 +100,7 @@
 | Lin | linchi723 | ✔ | —<br>— | ❔ | 由 **@祉语** 邀请来 |
 | 吊桥 | chenzhaoqin | ✔ | —<br>— | ❔ | |
 | 红萌 | lzq233233 | ✔ | —<br>— | ❔ | |
+| lanos | lanos212 | ✔ | —<br>— | ❔ | |
 
 ## 离群成员 (未违规)
 
@@ -125,6 +125,7 @@
 | 太白 | dingxiang520194 | |
 | 猪猪 | RashBeatle64497 | |
 | 123 | Qwe 1239974 | |
+| 基德 | MildTurt | | 
 
 ## 离群成员 (违规)
 
@@ -132,5 +133,5 @@
 | :---: | :---: | :---: | --- | --- |
 | 万时 | ichicken233 | 5 | 多次出言不逊 | |
 | 光之子 | AdroitMallard14 | 5 | 在生存服中作弊 | |
-| De<br><br>JA | Demonioron<br>Demoniort<br>Adiosdem | 5 | 多次出言不逊<br>散播谣言<br>隐瞒身份<br>鼓吹北境高度自治<br>辱骂晨风<br>…… | |
+| De<br><br>JA | Demonioron<br>Demoniort<br>Adiosdem | 5 | 多次出言不逊<br>散播谣言<br>隐瞒身份<br>鼓吹北境高度自治<br>辱骂晨风<br>…… | **严厉谴责五档开小号进群的卑劣无耻行为！** |
 | 小 H | Halshtain | 1 | 以不当言论攻击其他群员 | |
