@@ -2,9 +2,12 @@
 
 * [起始页](README.md)
 
-* [‼️入群必读](docs/encounter.md)
+* [入群必读](docs/encounter.md)
 
 * [群规](docs/rules.md)
+
+* [服务器设定](docs/server_settings.md)
+  * [服务器成员信息表](docs/registered_members.md)
 
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
@@ -14,10 +17,6 @@
   * [各类工具](docs/urls/tools.md)
   * [大语言模型 (LLM)](docs/urls/llm.md)
   * [下载已发布资源](docs/urls/released_items.md)
-
-* [服务器设定](docs/server_settings.md)
-
-* [服务器成员登记表](docs/registered_members.md)
 
 * [本群名菜](docs/menu.md)
 
@@ -52,14 +51,15 @@
 * [已归档](archives/README.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
   * [2023 年，我们是如何应对端口扫描的](archives/2023_port_scanning_solution.md)
-  * [Markdown](archives/markdown.md)
 
 * [关于群文档](about/README.md)
   * [群历史](about/history_of_group.md)
   * [群文档历史](about/history.md)
   * [许可证概览](about/license_overview_zh.md)
   * [LICENSE OVERVIEW](about/license_overview_en.md)
+
+* [维护者专用及杂项](404.md)
+  * [短链接列表](s/README.md)
   * [如何作出贡献](CONTRIBUTING.md)
   * [群文档编辑指南](about/editing_guide.md)
-
-* [404](404.md)
+  * [Markdown](archives/markdown.md)
