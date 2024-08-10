@@ -62,4 +62,7 @@
   * [短链接列表](s/README.md)
   * [如何作出贡献](CONTRIBUTING.md)
   * [群文档编辑指南](about/editing_guide.md)
+  * GitBook-cli 环境配置教程
+    * [Windows](about/gitbook_windows.md)
+    * [Termux](about/gitbook_termux.md)
   * [Markdown](archives/markdown.md)
