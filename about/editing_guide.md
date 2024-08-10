@@ -29,7 +29,8 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 ## markdownlint
 
 群文档中的文件，一般不得在已有配置下，在 [markdownlint](https://github.com/DavidAnson/markdownlint/) 中检查出错误。  
-如确实需要，应在相应文本块前禁用 markdownlint 的相应规则，并在该文本块后重新启用 (操作方式见官方说明)。
+如确实需要，应在相应文本块前禁用 markdownlint 的相应规则，并在该文本块后重新启用 (操作方式见官方说明)。  
+禁用规则，应在简便的前提下最小化范围。
 
 已有配置位于 [群文档 GitHub 仓库的根目录](https://github.com/PumpkinJui/groupdocs/blob/main/.markdownlint.json)。
 

@@ -162,3 +162,5 @@ Serving book on http://localhost:4000
 ### 提交和推送修改
 
 Git 的配置及操作不在本文展开，可在[廖雪峰的 Git 教程](https://liaoxuefeng.com/books/git/)中查看。
+
+<!-- markdownlint-disable-file MD040 -->

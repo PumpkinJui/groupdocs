@@ -139,6 +139,8 @@ Serving book on http://localhost:4000
 
 Git 的配置及操作不在本文展开，可在[廖雪峰的 Git 教程](https://liaoxuefeng.com/books/git/)中查看。
 
+<!-- markdownlint-disable-file MD040 -->
+
 > 提示  
   该文章的内容需要改进。  
   理由：直接复制的 Termux 文档，可能和 Windows 的实际情况不符。  
