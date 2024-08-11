@@ -1,21 +1,21 @@
-# ‼️入群必读
+# 入群必读
 
 ## 群规
 
 入群后必须遵守本群群规，违反群规者将会接受群规所规定的各类处罚。
 
-你可以在[腾讯文档](https://docs.qq.com/doc/BqI21X2yZIht1uk2Wg4MIZuY4VMUVJ4EOlkR3qbQ4F0mu2fb4yxLve02Bmo64kq9mU3NZmXX2uu91X2XdkkH0)查看本群群规。群文档内也有相应的[群规页面](rules.md)。
+群规位于[此页面](rules.md)。
 
 ## 如何反馈 bug
 
 测试中如有发现 bug，请在群内汇报。  
 拥有 GitHub 账号的群成员，可直接在对应地图仓库，通过 Issues 功能汇报 bug。
 
-## 服务器白名单登记
+## 服务器成员信息表
 
-各服务器使用白名单机制。若想参与各服务器的建设工作，请进行登记，方便添加白名单。登记后请在群内 @量筒 以作提醒。
+所有进入群服务器的成员信息由管理员登记在此。
 
-[https://docs.qq.com/sheet/DSnFwckZ2RE1SYXp0](https://docs.qq.com/sheet/DSnFwckZ2RE1SYXp0)
+信息表位于[此页面](registered_members.md)。
 
 ## 关于 Microsoft 账号
 

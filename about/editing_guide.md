@@ -22,10 +22,15 @@
 GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec](https://github.github.com/gfm/))，但又与之不尽相同。你可以在 [Markdown](../archives/markdown.md) 中查看官方说明。  
 部分原因是，说明原文在 GitHub 上的最后一次编辑位于 16/03/17，这意味着 `gitbook-cli` 的 MarkDown 语法，在此之后再未发生过变化；而最新版 GFM (0.29-gfm) 更新于 19/04/06。
 
+### 搭建测试
+
+群文档内有 GitBook-cli 环境配置教程，分 [Windows](gitbook_windows.md) 和 [Termux](gitbook_termux.md) 两个版本。
+
 ## markdownlint
 
 群文档中的文件，一般不得在已有配置下，在 [markdownlint](https://github.com/DavidAnson/markdownlint/) 中检查出错误。  
-如确实需要，应在相应文本块前禁用 markdownlint 的相应规则，并在该文本块后重新启用 (操作方式见官方说明)。
+如确实需要，应在相应文本块前禁用 markdownlint 的相应规则，并在该文本块后重新启用 (操作方式见官方说明)。  
+禁用规则，应在简便的前提下最小化范围。
 
 已有配置位于 [群文档 GitHub 仓库的根目录](https://github.com/PumpkinJui/groupdocs/blob/main/.markdownlint.json)。
 
@@ -119,19 +124,28 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 > 提示  
   该文章目前尚未经过格式规范审查。经审查后，该提示窗口将被移除。
 
-### 内容扩充模板
-
-该窗口应置于需要扩充内容的文章开头。
-
-> 提示  
-  该文章的内容需要扩充。您可以帮助我们扩充更多信息。
-
 ### 内容编辑中模板
 
 该窗口应置于还未编写完成的文章开头。
 
 > 提示  
   该文章正在编写中。在该窗口被移除前，请不要对文章内容进行进一步的修改与提交。
+
+### 内容需改进模板
+
+该窗口应置于内容需要改进的文章开头*或结尾*。
+
+> 提示  
+  该文章的内容需要改进。  
+  理由：{理由}  
+  {需改进的内容具体位置}
+
+### 内容扩充模板
+
+该窗口应置于需要扩充内容的文章开头。
+
+> 提示  
+  该文章的内容需要扩充。您可以帮助我们扩充更多信息。
 
 ### 外来文档模板
 

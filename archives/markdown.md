@@ -1,7 +1,7 @@
 # Markdown
 
 > 此文章由 GitHubIO 官方编写。  
-  原文即为英文；此文档仅用于编写者参考，没有计划也不会对其中内容制作翻译版本。  
+  原文即为英文；此文档仅用于维护者参考，没有计划也不会对其中内容制作翻译版本。  
   在被添加到群文档时，文章未被修改，仅删除了一个坏链。  
   如有阅读原文的需求，请前往 [GitBook 的 GitHub 仓库](https://github.com/GitbookIO/gitbook/blob/legacy/docs/syntax/markdown.md) 或 [jsDelivr CDN 页面](https://cdn.jsdelivr.net/gh/GitbookIO/gitbook@legacy/docs/syntax/markdown.md)。  
   原文在 GitHub 上的最后一次编辑位于 16/03/17。这意味着 `gitbook-cli` 的 MarkDown 语法，在此之后再未发生过变化。
