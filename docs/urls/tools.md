@@ -9,13 +9,17 @@
 由 @ProjectXero 维护。
 
 官网正式版最近一次更新在 2020 年初，可能不完全适用于当前的 Minecraft 版本。  
-测试版需在爱发电平台发电查看。
+测试版需在爱发电平台发电后查看。
+
+> 可以说命令助手的停更对整个 MC 社区都是一个打击  
+  ——量筒
 
 ### 网址
 
 - [官网](https://ca.projectxero.top/)
-- [爱发电：ProjectXero](https://afdian.net/a/projectxero)
-- [正式版停更原因说明](https://afdian.net/p/43d9a27c3fd611edac7252540025c377)
+- [爱发电：ProjectXero](https://afdian.com/a/projectxero)
+- [爱发电：正式版停更说明](https://afdian.com/p/43d9a27c3fd611edac7252540025c377)
+- [官网：正式版停更说明](https://ca.projectxero.top/blog/notice/pause-update/)
 
 ## MCBEID 表
 

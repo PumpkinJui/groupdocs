@@ -22,9 +22,9 @@
 
 欢迎对各位开发者进行捐赠。
 
-- [龙腾猫跃，PCL2 开发者](https://afdian.net/a/LTCat)
-- [huanghongxun，HMCL 开发者](https://afdian.net/a/huanghongxun)
-- [TT702，BakaXL 开发者](https://afdian.net/a/TT702)
+- [龙腾猫跃，PCL2 开发者](https://afdian.com/a/LTCat)
+- [huanghongxun，HMCL 开发者](https://afdian.com/a/huanghongxun)
+- [TT702，BakaXL 开发者](https://afdian.com/a/TT702)
 
 ### GitHub
 
