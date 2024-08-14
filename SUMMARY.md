@@ -8,6 +8,7 @@
 
 * [服务器设定](docs/server_settings.md)
   * [服务器成员信息表](docs/registered_members.md)
+  * [测试服启用白名单通知](docs/notificaiton_about_whitelist_in_test_server.md)
 
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
