@@ -20,7 +20,10 @@ Android, iOS, Windows 国际基岩版下载，可登入 Xbox。
 ### Windows
 
 - [MineBBS/MCDL](https://mc.minebbs.com/#/)
-- [Minecraft for Windows 版本库](https://www.mcappx.com/)
+- Minecraft for Windows 版本库  
+  - [主域名](https://www.mcappx.com/)
+  - [备用 1](https://www1.mcappx.com/)
+  - [备用 2](https://www2.mcappx.com/)
 
 ## 注意事项
 
