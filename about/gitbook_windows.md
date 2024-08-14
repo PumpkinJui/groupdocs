@@ -23,6 +23,10 @@ GitBook-cli 是 CloudFlare Pages 构建时使用的框架。
 你需要安装 Node.js。  
 在 [Node.js 官网](https://nodejs.org/zh-cn/download/prebuilt-installer) 选择使用的系统和架构后，网站会自动下载安装包。下载完成后安装。
 
+### 启动 cmd
+
+按 Win+R，输入 cmd，回车。
+
 ### 安装 GitBook-cli
 
 **从现在起，忽略任何 `deprecated` 警告，不管是哪里报的。那是 GitBook-cli 长期无人维护的锅。**
