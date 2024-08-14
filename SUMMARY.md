@@ -8,7 +8,6 @@
 
 * [服务器设定](docs/server_settings.md)
   * [服务器成员信息表](docs/registered_members.md)
-  * [测试服启用白名单通知](docs/notificaiton_about_whitelist_in_test_server.md)
 
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
@@ -42,6 +41,16 @@
     * [猪灵交易所](docs/SurvivalIII/nether/piglin.md)
     * [蛙明灯农场](docs/SurvivalIII/nether/froglight.md)
   * [末地](docs/SurvivalIII/the_end.md)
+
+* [群公告档案](anno/README.md)
+  * [公告模板](anno/template.md)
+  * [最新群公告](anno/latest/README.md)
+  * 2019
+  * 2020
+  * 2021
+  * 2022
+  * 2023
+  * 2024
 
 * [资源更新日志](logs/README.md)
   * [30 种死法](logs/wstd/main.md)
