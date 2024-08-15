@@ -24,7 +24,7 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 
 ### 搭建测试
 
-群文档内有 GitBook-cli 环境配置教程，分 [Windows](gitbook_windows.md) 和 [Termux](gitbook_termux.md) 两个版本。
+群文档内有 GitBook-cli 环境配置教程，分 [Windows](../archives/gitbook_windows.md) 和 [Termux](../archives/gitbook_termux.md) 两个版本。
 
 ## markdownlint
 

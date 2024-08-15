@@ -1,5 +1,8 @@
 # GitBook-cli 环境配置教程 (Termux)
 
+> 由于 GitBook-cli 长期无人维护，此文档内容基本不会再发生改变，故归档。  
+  最后一次编辑由 @南瓜汁 进行，位于 daa9fe2。
+
 [Windows 教程](gitbook_windows.md)
 
 ## 为什么要有这篇教程
@@ -112,6 +115,8 @@ gitbook@3.2.3 ../usr/tmp/{tmp-xxxxxxxxxxxxxxxxx}/node_modules/gitbook
 
 #### Git
 
+你可以使用 Git 克隆仓库、提交和推送修改等。Git 也是 @南瓜汁、@量筒 等维护者使用的维护方式。
+
 运行 `pkg install git` 并按前面的方式操作。
 
 Git 的配置及操作不在本文展开，可在[廖雪峰的 Git 教程](https://liaoxuefeng.com/books/git/)中查看。
@@ -158,9 +163,5 @@ Serving book on http://localhost:4000
 注意：livereload 插件本身用于实时更新预览，但似乎因为长期无人维护而无法使用。因此修改后，需要 Ctrl+C 并重新运行 `git serve`。
 
 另外，GitBook 缓存目录已被加入 `.gitignore` 文件，因此不会被提交，无需担心。
-
-### 提交和推送修改
-
-Git 的配置及操作不在本文展开，可在[廖雪峰的 Git 教程](https://liaoxuefeng.com/books/git/)中查看。
 
 <!-- markdownlint-disable-file MD040 -->
