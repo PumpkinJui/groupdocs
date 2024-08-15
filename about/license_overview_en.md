@@ -27,7 +27,7 @@ The resource packs used in the Survival III server can be found on [the relevant
 ## Others
 
 - Compress images with [FFmpeg](https://ffmpeg.org/)
-- Check MarkDown format with [markdownlint](https://github.com/DavidAnson/markdownlint/)
+- Check MarkDown format with [markdownlint](https://github.com/DavidAnson/markdownlint/). ChatGLM wrote the script.
 - Qwen (also called Tongyi Qianwen) has contributed to the following:
   - Writing the [image compression script](https://github.com/PumpkinJui/groupdocs-images/blob/main/compress.sh)
   - Translating this page

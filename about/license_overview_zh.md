@@ -27,7 +27,7 @@
 ## 其他
 
 - 使用 [FFmpeg](https://ffmpeg.org/) 压缩图片
-- 使用 [markdownlint](https://github.com/DavidAnson/markdownlint/) 检查 MarkDown 格式
+- 使用 [markdownlint](https://github.com/DavidAnson/markdownlint/) 检查 MarkDown 格式，由智谱清言编写脚本
 - 通义千问 (Qwen) 对以下内容有所贡献：
   - 编写[图片压缩脚本](https://github.com/PumpkinJui/groupdocs-images/blob/main/compress.sh)
   - 翻译 [LICENSE OVERVIEW](license_overview_en.md)
