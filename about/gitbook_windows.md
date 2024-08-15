@@ -21,7 +21,8 @@ GitBook-cli 是 CloudFlare Pages 构建时使用的框架。
 ### 前期准备工作
 
 你需要安装 Node.js。  
-在 [Node.js 官网](https://nodejs.org/zh-cn/download/prebuilt-installer) 选择使用的系统和架构后，网站会自动下载安装包。下载完成后安装。
+在 [Node.js 官网](https://nodejs.org/zh-cn/download/prebuilt-installer) 选择使用的系统和架构后点击下载，网站会自动下载安装包。  
+下载完成后安装，基本上一路 Next 就行了。
 
 ### 启动 cmd
 
@@ -37,7 +38,7 @@ GitBook-cli 是 CloudFlare Pages 构建时使用的框架。
 
 然后，**安装 GitBook-cli**。  
 运行 `npm install -g gitbook-cli`。  
-**其中 `-g` 不可省略，否则后面会报错 `No command gitbook found` 或 `gitbook: command not found`。**  
+**其中 `-g` 不可省略，否则后面会报错 `'gitbook' 不是内部或外部命令，也不是可运行的程序或批处理文件`。**  
 将返回 `added {x} packages in {y}s`，其中 `{x}` 和 `{y}` 为数字。
 
 ### 安装 GitBook (Part I)
@@ -54,12 +55,12 @@ GitBook-cli 是 CloudFlare Pages 构建时使用的框架。
 报错信息应为：
 
 ```
-/data/data/com.termux/files/usr/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js:287
+%APPDATA%\npm\node_modules\gitbook-cli\node_modules\npm\node_modules\graceful-fs\polyfills.js:287
       if (cb) cb.apply(this, arguments)
                  ^
 
 TypeError: cb.apply is not a function
-    at /data/data/com.termux/files/usr/lib/node_modules/gitbook-cli/node_modules/npm/node_modules/graceful-fs/polyfills.js:287:18
+    at %APPDATA%\npm\node_modules\gitbook-cli\node_modules\npm\node_modules\graceful-fs\polyfills.js:287:18
     at FSReqCallback.oncomplete (node:fs:198:5)
 ```
 
@@ -67,7 +68,8 @@ TypeError: cb.apply is not a function
 
 > 解决方案原文：[gitbook 出现 TypeError: cb.apply is not a function 解决办法](https://www.cnblogs.com/cyxroot/p/13754475.html)
 
-1. 使用**除了**记事本外，任何可以编辑**纯文本**的软件打开报错的文件。  
+1. 复制报错文件的路径，使用**除了**记事本外，任何可以编辑**纯文本**的软件打开报错的文件。*甚至你的 Python 编辑器都可以。*  
+   不推荐自行翻找文件夹，有些文件夹可能被隐藏了，而且很容易找错。  
    > 请注意，***不要用 Word 和 Windows 自带的记事本***。Word 保存的不是纯文本文件，而记事本会自作聪明地在文件开始的地方加上几个特殊字符，结果会导致程序运行出现莫名其妙的错误。  
      ——廖雪峰的 [Git](https://liaoxuefeng.com/books/git/create-repo/) 和 [Python](https://liaoxuefeng.com/books/python/first-program/text-editor/) 教程
 2. 搜索 `statfix`。  
@@ -82,8 +84,8 @@ TypeError: cb.apply is not a function
 耐心等待一段时间。最终将会提示：
 
 ```
-gitbook@3.2.3 ../usr/tmp/{tmp-xxxxxxxxxxxxxxxxx}/node_modules/gitbook
-├── destroy@1.0.4
+gitbook@3.2.3 AppData\Local\Temp\{tmp-xxxxxxxxxxxxxxxx}\node_modules\gitbook
+├── escape-html@1.0.3
 ├── {若干依赖项……}
 └── nunjucks@2.5.2 (asap@2.0.6, yargs@3.32.0, chokidar@1.7.0)
     build [book] [output]       build a book
@@ -104,6 +106,12 @@ gitbook@3.2.3 ../usr/tmp/{tmp-xxxxxxxxxxxxxxxxx}/node_modules/gitbook
 在 [Git 官网](https://git-scm.com/download/win) 选择系统架构并下载安装包。下载完成后安装。
 
 Git 的配置及操作不在本文展开，可在[廖雪峰的 Git 教程](https://liaoxuefeng.com/books/git/)中查看。
+
+#### 导航到自定义目录
+
+可以使用 `CD` (Change Directory) 命令满足这一需求。
+
+输入 `CD /D {path}` 导航至任意目录，其中 `{path}` 为绝对路径或相对路径。命令不区分大小写。
 
 ### clone 仓库
 
@@ -144,10 +152,3 @@ Serving book on http://localhost:4000
 Git 的配置及操作不在本文展开，可在[廖雪峰的 Git 教程](https://liaoxuefeng.com/books/git/)中查看。
 
 <!-- markdownlint-disable-file MD040 -->
-
-> 提示  
-  该文章的内容需要改进。  
-  理由：直接复制的 Termux 文档，可能和 Windows 的实际情况不符。  
-  L36：提示文本  
-  L53~L59：报错路径  
-  L81：路径
