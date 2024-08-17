@@ -13,3 +13,4 @@
 | 常用网址 | [长](../docs/urls/frequently_used.md) | fr |
 | 下载国际基岩版 Minecraft | [长](../docs/urls/mcbe.md) | be |
 | 生存 III 档食用指南 | [长](../docs/SurvivalIII) | sr |
+| 最新群公告 | [长](../anno/latest) | al |

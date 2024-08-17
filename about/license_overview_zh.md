@@ -15,10 +15,18 @@
 | 插件名 | 许可证 |
 | :---: | :---: |
 | back-to-top-button | [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
+| code | [MIT License](https://mit-license.org/) |
+| expandable-chapters | [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
 | github | [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
 | search-pro | [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
 
-作为 search-pro 插件的依赖项，html-entities 采用 MIT License。
+作为 search-pro 插件的依赖项，html-entities 采用 [MIT License](https://mit-license.org/)。
+
+选择插件时，我们参考了以下文章：
+
+- [plugin - gitbook常用的插件 - 个人文章 - SegmentFault 思否](https://segmentfault.com/a/1190000019806829)
+- [插件安装及常用插件 · GitBook使用笔记](https://dianyao.co/gitbook-notes/1.%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%E5%8F%8A%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.html)
+- [推荐12个实用的gitbook插件 - 大师兄 - SegmentFault 思否](https://segmentfault.com/a/1190000019473512)
 
 ## 生存 III 档
 
@@ -27,7 +35,7 @@
 ## 其他
 
 - 使用 [FFmpeg](https://ffmpeg.org/) 压缩图片
-- 使用 [markdownlint](https://github.com/DavidAnson/markdownlint/) 检查 MarkDown 格式
+- 使用 [markdownlint](https://github.com/DavidAnson/markdownlint/) 检查 MarkDown 格式，由智谱清言编写脚本
 - 通义千问 (Qwen) 对以下内容有所贡献：
   - 编写[图片压缩脚本](https://github.com/PumpkinJui/groupdocs-images/blob/main/compress.sh)
   - 翻译 [LICENSE OVERVIEW](license_overview_en.md)
