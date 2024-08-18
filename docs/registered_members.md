@@ -122,7 +122,7 @@
 | Hg | CruelJewel85738 | ✘ | —<br>— | ❔ | |
 | 创哲宇 | Chuangzheyu2048 | ✘ | —<br>— | ❔ | |
 | ？？ | nanmucancan | ✘ | —<br>— | ❔ | 需补全信息 |
-| 鲱鱼 | severefish20551 | ✘ | —<br>— | ❔ | 需补全信息 |
+| 鲱鱼 | SevereFish20551 | ✘ | —<br>— | ❔ | 需补全信息 |
 | 欣叶 | xinye2012 | ✘ | —<br>— | ❔ | 需补全信息 |
 
 ## 离群成员 (未违规)

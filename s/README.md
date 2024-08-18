@@ -9,6 +9,7 @@
 | --- | :---: | :---: |
 | 入群必读 | [长](../docs/encounter.md) | e |
 | 群规 | [长](../docs/rules.md) | r |
+| 服务器成员信息表 | [长](../docs/registered_members.md) | rm |
 | 服务器设定 | [长](../docs/server_settings.md) | s |
 | 常用网址 | [长](../docs/urls/frequently_used.md) | fr |
 | 下载国际基岩版 Minecraft | [长](../docs/urls/mcbe.md) | be |
