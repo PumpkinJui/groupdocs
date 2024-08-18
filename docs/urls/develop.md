@@ -6,49 +6,34 @@
 >
 > - 没有中文文档
 > - 有中文文档，但翻译质量低/内容少于英文文档
+> - 按重要性排序。
 
-- [(English) Minecraft: Bedrock Edition Creator Documentation | Microsoft Learn](https://learn.microsoft.com/en-us/minecraft/creator/?view=minecraft-bedrock-stable)
-- [Minecraft Wiki](https://zh.minecraft.wiki/)
-- [MCBEID 表](https://ca.projectxero.top/idlist/)
-- [Minecraft 命令更新日志](https://ca.projectxero.top/blog/command/command-history/)
-- [(English) Minecraft Bedrock Edition Documentation | bedrock.dev](https://bedrock.dev/)  
-  附加包自带文档，历代版本收录合集
-  - [Template Packs Archive](https://bedrock.dev/packs)
-  - [Bedrock Wiki](https://wiki.bedrock.dev/)
-    - [Useful Links](https://wiki.bedrock.dev/meta/useful-links.html)
-- [Minecraft 基岩版开发 Wiki](https://wiki.mcbe-dev.net/)  
-  (量筒：开荒状态)
-  - [Minecraft 基岩版开发文档](https://www.mcbe-dev.net/addons/)  
-    (量筒：仅作上述内容的补充和延伸，理解难度高)
-- 网易  
-  (量筒：很多东西都只能网易用，要当心)
-  - 开发指南
-    - [电脑版](https://mc.163.com/dev/guide.html)
-    - [手机版](https://mc.163.com/m/dev/guide.html)
-  - [MC 开发者文档](https://mc.163.com/mcstudio/mc-dev/)
+1. [(English) 微软官方文档](https://learn.microsoft.com/en-us/minecraft/creator/?view=minecraft-bedrock-stable)
+2. [(English) Bedrock Wiki](https://wiki.bedrock.dev/)
+    - [(English) 常用工具链接](https://wiki.bedrock.dev/meta/useful-links.html)（有超多超棒的小工具可供使用！虽然全是英文......）
+    - [(English) 历代版本自带附加包文档收录](https://bedrock.dev/) 
+    - [(English) 历代版本附加包模板](https://bedrock.dev/packs)
 
-## 各式各样的开发工具
+3. [中文 Minecraft Wiki](https://zh.minecraft.wiki/)
+4. [Minecraft 基岩版开发 Wiki](https://wiki.mcbe-dev.net/) （仍处于开荒状态） 
+5. [MC 开发者文档](https://mc.163.com/mcstudio/mc-dev/)（仅网易可用）
+6. 我的世界开发指南 [电脑版](https://mc.163.com/dev/guide.html) [手机版](https://mc.163.com/m/dev/guide.html) （仅网易可用）
+7. [Minecraft 基岩版开发文档](https://www.mcbe-dev.net/addons/)  （理解难度高，仅作上述文档的补充）
 
-### 命令助手
+## 各式各样的实用开发工具
+
+### bridge.
 
 #### 介绍
 
-> 便捷易用的 Minecraft 命令辅助输入应用。
+> A powerful IDE for Minecraft Add-Ons  
+  参考翻译：一款为 Minecraft 附加包而生的强大集成开发环境
 
-由 @ProjectXero 维护。
-
-官网正式版最近一次更新在 2020 年初，可能不完全适用于当前的 Minecraft 版本。  
-测试版需在爱发电平台发电后查看。
-
-> 可以说命令助手的停更对整个 MC 社区都是一个打击  
-  ——量筒
+bridge. 是一款强大的 Minecraft 基岩版集成开发环境，其功效与 Visual Studio Code 的两个强力插件非常类似，并且集成了许多专门为 Minecraft 开发而生的强力插件。
 
 #### 网址
 
-- [官网](https://ca.projectxero.top/)
-- [爱发电：ProjectXero](https://afdian.com/a/projectxero)
-- [爱发电：正式版停更说明](https://afdian.com/p/43d9a27c3fd611edac7252540025c377)
-- [官网：正式版停更说明](https://ca.projectxero.top/blog/notice/pause-update/)
+[https://bridge-core.github.io/](https://bridge-core.github.io/)
 
 ### Blockbench
 
@@ -61,6 +46,39 @@
 
 [https://www.blockbench.net/](https://www.blockbench.net/)
 
+### Snowstorm
+
+#### 介绍
+
+Snowstorm 是一款用于编写 Minecraft 基岩版粒子的强力应用程序，它实现了粒子的可视化，将粒子的编写难度降低了一个级别。是 Mojang 和微软在其[官方文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/particleeffects?view=minecraft-bedrock-stable)中强力推荐的一款应用程序。
+
+#### 网址
+
+[https://snowstorm.app/](https://snowstorm.app/)
+
+### 命令助手、MCBEID 表、Minecraft 命令更新日志
+
+#### 介绍
+
+> 便捷易用的 Minecraft 命令辅助输入应用。
+
+由 @ProjectXero 维护。
+
+手机版软件。官网正式版最近一次更新在 2020 年初，目前已较为过时，可能不完全适用于当前的 Minecraft 版本。  
+测试版需在爱发电平台发电后查看。
+
+该作者还额外在其网站上提供了基岩版全 ID 的查询服务，以及历代版本的所有命令的更新日志。
+
+
+#### 网址
+
+- [官网](https://ca.projectxero.top/)
+- [MCBEID 表](https://ca.projectxero.top/idlist/)
+- [Minecraft 命令更新日志](https://ca.projectxero.top/blog/command/command-history/)
+- [爱发电：ProjectXero](https://afdian.com/a/projectxero)
+- [爱发电：正式版停更说明](https://afdian.com/p/43d9a27c3fd611edac7252540025c377)
+- [官网：正式版停更说明](https://ca.projectxero.top/blog/notice/pause-update/)
+
 ### Chunker
 
 #### 介绍
@@ -69,21 +87,21 @@
 
 用于 BE 存档转 JE 存档。
 
-由 Microsoft Learn 推荐！  
+Mojang 与微软官方推荐！  
 *它文档中文似乎是机翻的……如果读不明白可以试着把网址中的 `zh-cn` 改成 `en-us`，看看英文原文是怎么写的。*
 
 #### 网址
 
 - [Chunker 官网](https://chunker.app/)
-- [Microsoft Learn：创作者常用工具](https://learn.microsoft.com/zh-cn/minecraft/creator/documents/commonlyusedtools)
-- [Microsoft Learn：Chunker - 概述](https://learn.microsoft.com/zh-cn/minecraft/creator/documents/chunkeroverview)
+- [微软文档：创作者常用工具](https://learn.microsoft.com/zh-cn/minecraft/creator/documents/commonlyusedtools)
+- [微软文档：Chunker - 概述](https://learn.microsoft.com/zh-cn/minecraft/creator/documents/chunkeroverview)
 
 #### 可用性测试
 
 <!-- markdownlint-disable MD007 MD032 -->
 
 > Chunker 目前可以转换：  
-  - 级别设置  
+  - 存档设置  
   - 世界数据（方块、生物群系和图块实体）  
   - 多个维度  
   - 容器和物品  
@@ -98,7 +116,7 @@
 > 如果编辑世界（输出到源世界版本），Chunker 将保留实体和玩家物品栏。  
   Chunker 的功能集会随着它的进一步开发而扩展。
 
-经测试，转换后的存档中所有实体都会消失。告示牌文本和箱子内容物得以保留，但悬挂式告示牌的方向发生错位。
+经测试，转换后的存档中所有实体都会消失。告示牌文本和箱子内容物得以保留。
 
 ### MCBE Essentials
 
@@ -106,6 +124,11 @@
 
 > MCBE Essentials is a collection of tools for Minecraft Bedrock Edition developers intended to make life easier!  
   参考翻译：MCBE Essentials 是专为 MCBE 开发人员设计的工具集，旨在让生活更轻松！
+
+MCBE Essentials 是一个集成了多种功能的开发工具，甚至可以用于将结构转换为函数文件！
+
+> 太牛啦！  
+  —— 量筒
 
 #### 网址
 
