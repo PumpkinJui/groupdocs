@@ -132,7 +132,11 @@
 * [资源更新日志](logs/README.md)
   * [30 种死法](logs/wstd/main.md)
   * [30 种死法 2](logs/wstd2/main.md)
-    * [过往版本更新日志](logs/wstd2/past.md)
+    * [V2.0](logs/wstd2/2_0.md)
+    * [V2.1](logs/wstd2/2_1.md)
+    * [V2.2](logs/wstd2/2_2.md)
+    * [2.3](logs/wstd2/2_3.md)
+    * [2.4](logs/wstd2/2_4.md)
   * [地图模板](logs/map_template/main.md)
 
 * [已归档](archives/README.md)
