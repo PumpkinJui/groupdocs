@@ -137,6 +137,9 @@
     * [V2.2](logs/wstd2/2_2.md)
     * [2.3](logs/wstd2/2_3.md)
     * [2.4](logs/wstd2/2_4.md)
+  * [冒险小世界：剑之试炼](logs/adventure_world_4/main.md)
+    * [4.0](logs/adventure_world_4/4_0.md)
+    * [4.1](logs/adventure_world_4/4_1.md)
   * [地图模板](logs/map_template/main.md)
 
 * [已归档](archives/README.md)
