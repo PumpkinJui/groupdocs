@@ -82,14 +82,22 @@ Minecraft 入正必备 (Android 除外)。
 - 使用 VPN，俗称「魔法」「梯子」。不到万不得已不建议使用，可能违反相关法律。  
   群文档不对这一方式提供指导。
 
-## 极筑工坊 B 站账号
+## bilibili
 
-极筑工坊的哔哩哔哩账号，可以查看由量筒等极筑成员制作的视频。记得一键三连。
+> bilibili 现为国内最大的年轻人潮流文化娱乐社区，该网站于 2009 年 6 月 26 日创建，又称「B 站」。
+
+@极筑工坊 的账号下，发布了由量筒(等极筑成员)制作的视频。
+
+@WuGuangYao 提供 Minecraft 资讯放送。
+
+记得一键三连~
 
 ### 网址
 
-- [极筑工坊，视频页](https://space.bilibili.com/511010106/video)
-- [一只卑微的量筒，动态页](https://space.bilibili.com/241650193/dynamic)
+- [主站](https://www.bilibili.com/)
+- [@极筑工坊，视频页](https://space.bilibili.com/511010106/video)
+- [@一只卑微的量筒，动态页](https://space.bilibili.com/241650193/dynamic)
+- [@WuGuangYao，动态页](https://space.bilibili.com/11602644/dynamic)
 
 #### 部分视频
 
