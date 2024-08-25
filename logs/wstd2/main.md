@@ -1,10 +1,47 @@
-# 「30 种死法 2」更新日志
+# 30 种死法 2
 
-该地图于 2019 年春节期间发布。是量筒技术力最高、效果最好的地图之一，并已发布于多个平台。
+> **注意**  
+  该地图已经停更，不再接受任何非必要的漏洞反馈。  
+  停更时间 2024 年 8 月，停更版本 2.4（基于基岩版 1.20.10）。
+
+30 种死法 2 是一张规模非常庞大的地图。该地图于 2019 年春节期间发布。是量筒技术力最高、效果最好的地图之一，并已发布于多个平台。
 
 因该地图的创建与开发，本群得以成立。如果您感兴趣，您可以参考[群历史](../../about/history_of_group.md)以了解更多。
 
-30 种死法 2 是一张规模非常庞大的地图。下面是**该地图的最新版本的更新日志**。
+---
+
+## 下载
+
+有多种途径都可以下载或找到本地图。
+
+### 网盘
+
+- [123云盘](https://www.123pan.com/s/t3TqVv-RBdkh)
+- [百度网盘](https://pan.baidu.com/s/1xo8J-bcVdOVDpm54rCn_nQ?pwd=wstd)
+- [蓝奏云（密码：wstd）](https://wwaa.lanzouo.com/b03d4jizi)
+
+### 各大论坛或平台
+
+- [GitHub](https://github.com/YZBWDLT/Minecraft-Bedrock-World-30-Ways-to-Die-2)
+- [KLPBBS](https://klpbbs.com/thread-47490-1-1.html)
+- [MineBBS](https://www.minebbs.com/resources/1-18-30-30-2.6248/)
+- [TITAIKE](https://www.titaike.cn/3560.html) *（已授权）*
+- [MCPEDL](https://mcpedl.com/30-ways-to-die-2/)
+- [PlanetMinecraft](https://www.planetminecraft.com/project/30-ways-to-die-2/)
+- [Minecraft Maps](https://www.minecraftmaps.com/bedrock-maps/30-ways-to-die-2)
+- 中国版资源中心 *（地图名：30 种失败的方法 2）*
+
+---
+
+## 速通
+
+地图有 30 个进度可供获取。完成 30 个进度即视为完全通关。
+
+本地图在**群内**的最快速通记录是由 **@lanos** 创下的 **25:22** ，打破了 @量筒 的 27:12 的记录。
+
+---
+
+## 更新日志
 
 所有版本的更新日志列表如下：
 
@@ -13,12 +50,6 @@
 - [V2.2](./2_2.md)
 - [2.3](./2_3.md)
 - [2.4](./2_4.md)
-
-> 注意  
-  该地图已经停更，不再接受任何非必要的漏洞反馈。  
-  停更时间 2024 年 8 月，停更版本 2.4（基于基岩版 1.20.10）。
-
----
 
 ## 30种死法2 2.4 发布
 
