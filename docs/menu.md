@@ -123,6 +123,19 @@
 
 <div id="player_ad7fbb01c7eb11dd"></div> <!-- markdownlint-disable-line MD033 -->
 
+#### 纯享版
+
+![粉蒸量筒纯享版](../assets/menu/fenzhenglt_pure.gif)
+
+<!-- markdownlint-disable MD033 -->
+
+<video controls width="100%">
+<source src="../assets/menu/fenzhenglt_pure.mp4" type="video/mp4">
+当前浏览器不支持使用视频播放控件。
+</video>
+
+<!-- markdownlint-restore -->
+
 #### 字幕
 
 量筒：啊，南瓜，啊，我记住你了。恶劣！（呵呵笑）
@@ -180,19 +193,6 @@
   哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈  
   新鲜热乎的量筒粉，蒸了
 
-#### 纯享版
-
-![粉蒸量筒纯享版](../assets/menu/fenzhenglt_pure.gif)
-
-<!-- markdownlint-disable MD033 -->
-
-<video controls width="100%">
-<source src="../assets/menu/fenzhenglt_pure.mp4" type="video/mp4">
-当前浏览器不支持使用视频播放控件。
-</video>
-
-<!-- markdownlint-restore -->
-
 ### 五量叶
 
 > 鸣谢：@文雨 绘制了这张图。
@@ -208,6 +208,24 @@
 ### 蜜汁烤南瓜 (Roasted Pumpkin)
 
 ![蜜汁烤南瓜](../assets/menu/roasted_pumpkin.jpg)
+
+## 其他迫害
+
+### 粉蒸量筒相关
+
+![粉蒸量筒纯享版](../assets/menu/fenzhenglt_pure.gif)
+
+![迫害量筒专用](../assets/menu/persecute_lt.jpg)
+
+### 鸽子
+
+![迫害鸽子专用](../assets/menu/persecute_pigeon.jpg)
+
+### 小鼠 (波奇)
+
+> 热知识：你群管理基本都在看《孤独摇滚》……也有少数几个不看的。
+
+![迫害小鼠专用](../assets/menu/persecute_mouse.jpg)
 
 ## 参考文献
 
