@@ -28,11 +28,11 @@
   考虑到色觉障碍，此处的上色版图表弃用了原有的「红黄绿」配色方案，改为使用「黄绿蓝」配色方案。  
   然而，在某些特殊情况下，这种配色方案可能仍然难以识别。如果您在查看本图表时无法 (轻易) 分辨出三种颜色，请查看下方的黑白版 (数字版) 图表。两者数据完全相同，只是表现形式不同。
 
-![上色版](../assets/meeting_offline/colored.png)
+![上色版](../assets/meeting_offline/colored.jpg)
 
 ### 黑白版 (数字版)
 
-![黑白版 (数字版)](../assets/meeting_offline/mono.png)
+![黑白版 (数字版)](../assets/meeting_offline/mono.jpg)
 
 ## 其余群友面基进度
 

@@ -8,6 +8,7 @@
 
 * [服务器设定](docs/server_settings.md)
   * [服务器成员信息表](docs/registered_members.md)
+  * [生存服审核规则](docs/audit.md)
 
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
