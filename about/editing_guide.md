@@ -183,4 +183,4 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 
 > **提示**  
   该地图已经停更，不再接受任何非必要的漏洞反馈。  
-  停更时间 {YYYY} 年 {mm} 月，停更版本 {version}（基于 {基岩/Java} 版 {版本兼容下限}）。
+  停更时间 {YYYY} 年 {mm} 月，停更版本 {version}（基于 {基岩版/Java 版} {版本兼容下限}）。
