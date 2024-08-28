@@ -59,7 +59,7 @@ Minecraft 入正必备 (Android 除外)。
 由于服务器不在国内及 GFW 封锁等，该网站在部分地区 (特别是大多数国内地区) 加载较为缓慢，有时可能显示报错「连接超时」「无法找到服务器 IP 地址」等。
 
 以下方法也许可以加速访问：
-
+<!--此处格式需要整理。-->
 - [Git](https://git-scm.com/downloads) 是极好的访问仓库内容的方式。至少在使用 SSH URL 时，Git 的网速可达 MB/s 量级。  
   [GitHub CLI](https://cli.github.com/) 亦是如此。
 - GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 Android 客户端上，加载速度相对较快。(但下载速度依旧很差)  
@@ -78,7 +78,8 @@ Minecraft 入正必备 (Android 除外)。
   实践之一为 [GitHub Proxy](https://mirror.ghproxy.com/)。
 - 如果只需要获取仓库内容，可以使用某些 CDN。  
   实践之一为 [jsDelivr](https://www.jsdelivr.com/)。链接格式为 `https://cdn.jsdelivr.net/gh/<用户名>/<仓库名>/` 或 `https://www.jsdelivr.com/package/gh/<用户名>/<仓库名>`。  
-  需要注意的是，jsDelivr 无法提供图片和可执行程序加速服务，且不能加载大小大于 50 MB 的仓库文件列表；但仍然可以通过直接输入文件路径进行下载。
+  需要注意的是，jsDelivr 无法提供图片和可执行程序加速服务，且不能加载大小大于 50 MB 的仓库文件列表；但仍然可以通过直接输入文件路径进行下载。  
+  此外，jsDelivr 使用「Low latency “Near China” network」(低延迟的「临近中国」的网络) 进行服务，但仍可能无法访问。如有此类情况发生，可以使用以下非官方的国内镜像站点访问：`https://cdn.jsdmirror.com//gh/<用户名>/<仓库名>/`。
 - 使用 VPN，俗称「魔法」「梯子」。不到万不得已不建议使用，可能违反相关法律。  
   群文档不对这一方式提供指导。
 

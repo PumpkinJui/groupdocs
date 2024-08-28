@@ -131,6 +131,8 @@
     * [08/16/01](anno/2024/081601.md)
     * [08/18/01](anno/2024/081801.md)
     * [08/23/01](anno/2024/082301.md)
+    * [08/23/02](anno/2024/082302.md)
+    * [08/27/01](anno/2024/082701.md)
 
 * [资源更新日志](logs/README.md)
   * [30 种死法](logs/wstd/main.md)
@@ -160,6 +162,7 @@
   * [短链接列表](s/README.md)
   * [如何作出贡献](CONTRIBUTING.md)
   * [群文档编辑指南](about/editing_guide.md)
+  * [提示窗口模板](about/template.md)
   * GitBook-cli 环境配置教程
     * [Windows](archives/gitbook_windows.md)
     * [Termux](archives/gitbook_termux.md)
