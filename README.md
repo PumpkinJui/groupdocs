@@ -15,6 +15,8 @@
 目录请点顶端左上角的 ≡ 图标，看不到请把页面向上拉到头；  
 目录上方有搜索框，可直接搜索你需要的信息~
 
+**重要提示**：在提任何问题前先仔细阅读 [【提问的智慧】](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)，否则推荐您访问[【这里】](https://www.baidu.com/s?word=%E5%8F%91%E7%8E%B0%E8%87%AA%E5%B7%B1%E6%98%AF%E4%B8%AA%E5%82%BB%E9%80%BC%E6%80%8E%E4%B9%88%E5%8A%9E)_ 。
+
 ## 群文档地址（建议收藏至浏览器书签栏）
 
 - nekoawa: [https://docs.nekoawa.com](https://docs.nekoawa.com)（中国大陆推荐，每日 02:00 更新）
