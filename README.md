@@ -1,12 +1,12 @@
 # 测试群文档
 
 ![GitHub Created At](https://img.shields.io/github/created-at/PumpkinJui/groupdocs?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/PumpkinJui/groupdocs?style=for-the-badge)  
+![GitHub Repo Size](https://img.shields.io/github/repo-size/PumpkinJui/groupdocs?style=for-the-badge)  
 ![GitHub License](https://img.shields.io/github/license/PumpkinJui/groupdocs?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge)  
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/PumpkinJui/groupdocs?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/PumpkinJui/groupdocs?display_timestamp=author&style=for-the-badge)
-![GitHub branch check runs](https://img.shields.io/github/check-runs/PumpkinJui/groupdocs/main?style=for-the-badge)
+![GitHub Contributors](https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge)  
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/t/PumpkinJui/groupdocs?style=for-the-badge)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/PumpkinJui/groupdocs?display_timestamp=author&style=for-the-badge)
+![GitHub Branch Check Runs](https://img.shields.io/github/check-runs/PumpkinJui/groupdocs/main?style=for-the-badge)
 
 欢迎来到测试群👋来了就不要走啦~
 

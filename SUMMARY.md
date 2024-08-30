@@ -24,6 +24,9 @@
 
 * [面基进度](docs/meeting_offline.md)
 
+* HOWTO 指南
+  * [如何访问 GitHub](docs/howto/access_github.md)
+
 * [生存 III 档食用指南](docs/SurvivalIII/README.md)
   * [新光](docs/SurvivalIII/xinguang/xinguang.md)
     * [新光管理条例](docs/SurvivalIII/xinguang/xinguang_administrative_regulations.md)
