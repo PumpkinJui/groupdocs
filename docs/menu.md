@@ -1,3 +1,13 @@
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_ad7fbb01c7eb11dd'),
+    userId: 2159,
+    vcode: 'ad7fbb01c7eb11dd',
+    autoPlay: false
+});
+</script>
+
 # 本群名菜
 
 ## 招牌菜
@@ -8,7 +18,6 @@
 - 臭烤**巴豆**
 - 红烧乳**鸽** (**Pigeon_K**)
 - 鲜榨**南瓜汁** (**PumpkinJui**)
-- **祉语**盖饭
 - 烤**小**红**鼠**
 - 火煨木星 (**火卫三**，**IBukreev**)
 - 四季春茶 (**绿叶**)
@@ -50,8 +59,6 @@
 - 星巴豆
 - 炸鼠条
 - 十三酱拌绿叶沙拉
-- 南瓜桑葚鸽子汤  
-  注：使用量筒盛装，配芝麻糊 (祉语) 和茶 (君茶)
 
 ### 鸽子专区🕊️
 
@@ -242,13 +249,3 @@
 ![240610 最新正式发布版本](../assets/menu/menu.png)
 
 <!-- markdownlint-disable MD033 -->
-
-<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
-<script type="text/javascript">
-var player = new DogePlayer({
-    container: document.getElementById('player_ad7fbb01c7eb11dd'),
-    userId: 2159,
-    vcode: 'ad7fbb01c7eb11dd',
-    autoPlay: false
-});
-</script>
