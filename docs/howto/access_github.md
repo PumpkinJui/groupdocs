@@ -30,9 +30,10 @@ GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 
 以下来自 [KGitHub Help](https://help.kkgithub.com/questions/) (虽然这似乎不完全算「存在的问题」……)：
 
 > 本站目前存在的问题：
-  1. 不能注册
-  2. 不能上传文件，可以登录，可以在线编辑
-  3. 来自 raw.githubusercontent.com 的下载可使用 raw.kkgithub.com 替代
+>
+> 1. 不能注册
+> 2. 不能上传文件，可以登录，可以在线编辑
+> 3. 来自 raw.githubusercontent.com 的下载可使用 raw.kkgithub.com 替代
 
 ## 代理加速下载网站
 
