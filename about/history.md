@@ -41,7 +41,7 @@
 
 为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。  
 
-如果打不开 GitHub 仓库，请参考[此页面](../docs/urls/platforms.md#%E5%85%B3%E4%BA%8E%E8%AE%BF%E9%97%AE%E9%80%9F%E5%BA%A6)。
+如果打不开 GitHub 仓库，请参考[此页面](../docs/howto/access_github.md)。
 
 旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/groupdocs-legacy) 上访问，并在 [Gitee](https://gitee.com/pumpkinjui/groupdocs-legacy) 和 [GitHub](https://github.com/PumpkinJui/groupdocs-legacy) 上开源，但已不再更新。  
 原来部署在 GitBook.com 上的站点已无法访问，原域名为 `https://pumpkinjui.gitbook.io/groupdocs/`。
