@@ -42,4 +42,4 @@ The resource packs used in the Survival III server can be found on [the relevant
   - Writing [LaTeX code](https://github.com/PumpkinJui/groupdocs-images/blob/main/assets/meeting_offline/) for the table in [Offline Meeting Progress](../docs/meeting_offline.md)  
     The table was compiled with TeXworks and LuaLaTeX from MikTeX, and the PDF-to-image conversion was performed using [Photo Editor](https://github.com/dev-macgyver/PhotoEditor)
 - Tongyi Tingwu has contributed to the plot in [Menu](../docs/menu.md)
-- The copyright of other unmentioned third-party articles & resources belong to their owners
+- The copyright of other unmentioned third-party content belongs to their owners
