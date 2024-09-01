@@ -4,7 +4,7 @@
 
 ### 说明版本
 
-```plaintext
+```markdown
 # {yy}/{mm}/{dd} 群公告
 
 > 发布时间：20{yy} 年 {mm} 月 {dd} 日 {HH}:{MM}  
@@ -25,7 +25,7 @@
 
 ### 可复制版本
 
-```plaintext
+```markdown
 # 2// 群公告
 
 > 发布时间：202 年  月  日 :  
@@ -45,18 +45,22 @@
 
 ### 说明版本
 
-```plaintext
-「测试服 - {X}」将于 {mm} 月 {dd} 日 (星期 {X}) {HH}:{MM}~{HH}:{MM} 开启，测试内容为《{地图名}》。
-服务器地址、端口及最低兼容版本请至 https://docs.nekoawa.com/s/s 查看。
+```markdown
+《{地图名}》将于 {mm} 月 {dd} 日 (星期 {X}) {HH}:{MM}~{HH}:{MM} 在测试服开启测试。
+地址：rain.cvm.xiaozhiyuqwq.top
+端口：{port}
+版本：1.{xx.xx}
 如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/s/be 更新。
 进入服务器需要白名单，群内成员皆可获得；如提示「未获邀」，请在测试开始前联系量筒添加白名单。
 ```
 
 ### 可复制版本
 
-```plaintext
-「测试服 - 」将于  月  日 (星期) ~ 开启，测试内容为《》。
-服务器地址、端口及最低兼容版本请至 https://docs.nekoawa.com/s/s 查看。
+```markdown
+《》将于  月  日 (星期) ~ 在测试服开启测试。
+地址：rain.cvm.xiaozhiyuqwq.top
+端口：
+版本：1.
 如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/s/be 更新。
 进入服务器需要白名单，群内成员皆可获得；如提示「未获邀」，请在测试开始前联系量筒添加白名单。
 ```
