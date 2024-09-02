@@ -6,9 +6,19 @@
 
 * [群规](docs/rules.md)
 
-* [服务器设定](docs/server_settings.md)
-  * [服务器成员信息表](docs/registered_members.md)
-  * [生存服审核规则](docs/audit.md)
+* [资源更新日志](logs/README.md)
+  * [30 种死法](logs/wstd/main.md)
+  * [30 种死法 2](logs/wstd2/main.md)
+    * [V2.0](logs/wstd2/2_0.md)
+    * [V2.1](logs/wstd2/2_1.md)
+    * [V2.2](logs/wstd2/2_2.md)
+    * [2.3](logs/wstd2/2_3.md)
+    * [2.4](logs/wstd2/2_4.md)
+  * [炸翻它](logs/blow_it_up/main.md)
+  * [冒险小世界：剑之试炼](logs/adventure_world_4/main.md)
+    * [4.0](logs/adventure_world_4/4_0.md)
+    * [4.1](logs/adventure_world_4/4_1.md)
+  * [地图模板](logs/map_template/main.md)
 
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
@@ -20,12 +30,15 @@
   * [大语言模型 (LLM)](docs/urls/llm.md)
   * [下载已发布资源](docs/urls/released_items.md)
 
-* [本群名菜](docs/menu.md)
-
-* [面基进度](docs/meeting_offline.md)
+* [服务器设定](docs/server_settings.md)
+  * [服务器成员信息表](docs/registered_members.md)
+  * [生存服审核规则](docs/audit.md)
 
 * HOWTO 指南
   * [如何访问 GitHub](docs/howto/access_github.md)
+
+* [本群名菜](docs/menu.md)
+  * [面基进度](docs/meeting_offline.md)
 
 * [生存 III 档食用指南](docs/SurvivalIII/README.md)
   * [新光](docs/SurvivalIII/xinguang/xinguang.md)
@@ -137,20 +150,6 @@
     * [08/23/02](anno/2024/082302.md)
     * [08/27/01](anno/2024/082701.md)
     * [08/28/01](anno/2024/082801.md)
-
-* [资源更新日志](logs/README.md)
-  * [30 种死法](logs/wstd/main.md)
-  * [30 种死法 2](logs/wstd2/main.md)
-    * [V2.0](logs/wstd2/2_0.md)
-    * [V2.1](logs/wstd2/2_1.md)
-    * [V2.2](logs/wstd2/2_2.md)
-    * [2.3](logs/wstd2/2_3.md)
-    * [2.4](logs/wstd2/2_4.md)
-  * [炸翻它](logs/blow_it_up/main.md)
-  * [冒险小世界：剑之试炼](logs/adventure_world_4/main.md)
-    * [4.0](logs/adventure_world_4/4_0.md)
-    * [4.1](logs/adventure_world_4/4_1.md)
-  * [地图模板](logs/map_template/main.md)
 
 * [已归档](archives/README.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
