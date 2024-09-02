@@ -1,15 +1,35 @@
-# 「冒险小世界：剑之试炼」更新日志
+# 冒险小世界：剑之试炼
 
-该地图于 2024 年劳动节期间发布。本地图是基于狂野巴豆的冒险世界系列第 4 部作品，属于「冒险世界：苏醒」的 DLC 。处于更新状态，并发布于多个平台。
+冒险小世界：剑之试炼是一张规模中等偏大的地图。该地图于 2024 年劳动节期间发布，是基于狂野巴豆的冒险世界系列第 4 部作品，属于「冒险世界：苏醒」的 DLC 。处于更新状态，并发布于多个平台。
 
-冒险小世界：剑之试炼是一张规模中等偏大的地图。下面是**该地图的最新版本的更新日志**。
+---
+
+## 下载
+
+有多种途径都可以下载或找到本地图。
+
+### 网盘
+
+- [123云盘](https://www.123pan.com/s/t3TqVv-77Tkh.html)
+- [百度网盘](https://pan.baidu.com/s/1lt-ji0If782TgV_NsLq1gQ?pwd=mxsj)
+- [蓝奏云](https://wwf.lanzouo.com/iqnmX20gubje)
+
+### 各大论坛或平台
+
+- [GitHub](https://github.com/YZBWDLT/Adventure-World-4)
+- [KLPBBS](https://klpbbs.com/thread-137174-1-1.html)
+- [MineBBS](https://www.minebbs.com/resources/1-20-30-pve.8392/)
+- [TITAIKE](https://www.titaike.cn/5041.html) 
+- 中国版资源中心
+
+---
+
+## 更新日志
 
 所有版本的更新日志列表如下：
 
 - [4.0](./4_0.md)
 - [4.1](./4_1.md)
-
----
 
 ## 冒险小世界：剑之试炼 4.1 发布
 
