@@ -1,3 +1,7 @@
+# 本群名菜
+
+<!-- markdownlint-disable MD033 -->
+
 <script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
 <script type="text/javascript">
 var player = new DogePlayer({
@@ -8,7 +12,7 @@ var player = new DogePlayer({
 });
 </script>
 
-# 本群名菜
+<!-- markdownlint-restore -->
 
 ## 招牌菜
 
@@ -18,6 +22,7 @@ var player = new DogePlayer({
 - 臭烤**巴豆**
 - 红烧乳**鸽** (**Pigeon_K**)
 - 鲜榨**南瓜汁** (**PumpkinJui**)
+- **祉语**盖饭
 - 烤**小**红**鼠**
 - 火煨木星 (**火卫三**，**IBukreev**)
 - 四季春茶 (**绿叶**)
@@ -104,6 +109,7 @@ var player = new DogePlayer({
   ——文雨
 
 - 烤狐狸
+- 冰糖雪狸
 - 芝士雪豹  
   *(滋儿哇!)*  
   *(雪豹别叫!!)*  
@@ -248,5 +254,3 @@ var player = new DogePlayer({
 - 《论菜名的多样性》
 
 ![240610 最新正式发布版本](../assets/menu/menu.png)
-
-<!-- markdownlint-disable MD033 -->
