@@ -154,6 +154,8 @@
     * [08/23/02](anno/2024/082302.md)
     * [08/27/01](anno/2024/082701.md)
     * [08/28/01](anno/2024/082801.md)
+    * [08/31/01](anno/2024/083101.md)
+    * [09/07/01](anno/2024/090701.md)
 
 * [已归档](archives/README.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)

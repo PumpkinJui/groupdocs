@@ -45,7 +45,7 @@
 
 ### 说明版本
 
-```markdown
+```plaintext
 《{地图名}》将于 {mm} 月 {dd} 日 (星期 {X}) {HH}:{MM}~{HH}:{MM} 在测试服开启测试。
 地址：rain.cvm.xiaozhiyuqwq.top
 端口：{port}
@@ -56,7 +56,7 @@
 
 ### 可复制版本
 
-```markdown
+```plaintext
 《》将于  月  日 (星期) ~ 在测试服开启测试。
 地址：rain.cvm.xiaozhiyuqwq.top
 端口：
