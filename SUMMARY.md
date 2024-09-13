@@ -39,6 +39,9 @@
   * [生存服审核规则](docs/audit.md)
 
 * HOWTO 指南
+  * [如何提问](docs/howto/ask_questions.md)
+  * [如何导入 MC 格式文件](docs/howto/import_mcx.md)
+  * [如何入正 MC 国际版](docs/howto/buy_mc.md)
   * [如何访问 GitHub](docs/howto/access_github.md)
 
 * [本群名菜](docs/menu.md)
