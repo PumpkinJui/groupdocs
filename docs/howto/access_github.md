@@ -22,7 +22,9 @@ GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 
 
 加速原理通常是本地反代、域前置等。
 
-实践包括 [Watt Toolkit (原名 Steam++)](https://steampp.net/)、[steamcommunity 302](https://www.dogfight360.com/blog/686/) 等。在下载后，可能还需要进行一定设置才能有加速效果。
+实践包括 [Watt Toolkit (原名 Steam++)](https://steampp.net/)、[steamcommunity 302](https://www.dogfight360.com/blog/686/) 等。
+
+在下载后，可能还需要进行一定设置才能有加速效果。
 
 ## 镜像站
 
@@ -39,7 +41,7 @@ GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 
 
 只需要下载时可以使用。
 
-实践之一为 [GitHub Proxy](https://mirror.ghproxy.com/)。[GitMirror](https://gitmirror.com) 也提供了此类服务的部分网站链接。
+实践包括 [GitHub Proxy](https://ghp.ci)、[GitMirror](https://gitmirror.com) 等。
 
 ## CDN
 
