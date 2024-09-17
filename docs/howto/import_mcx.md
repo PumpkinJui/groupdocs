@@ -26,8 +26,10 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 如果该 `.mcx` 文件的图标为 Minecraft 程序图标 (草方块)，则可以直接双击打开。双击后，程序会自动进行导入。
 
 如果是其他图标，可按照以下步骤设置默认打开方式：
-
-1. Win+I 打开 Windows 设置，选择「应用」，选择「默认应用」
+<!--need to be confirmed-->
+1. Win+I 打开 Windows 设置，选择「应用」，选择「默认应用」，在页面下方选择「按应用设置默认值」
+2. 点击「Minecraft」，点击「管理」
+3. 在「默认应用」一栏，全部选择「Minecraft」。
 
 ### .zip
 
