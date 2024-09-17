@@ -22,6 +22,7 @@
   - [(English) 自带附加包历代文档收录](https://bedrock.dev/)
   - [(English) 附加包模板历代收录](https://bedrock.dev/packs)
 - [中文 Minecraft Wiki](https://zh.minecraft.wiki/)
+- [(English) 我的世界基岩版网络协议文档](https://github.com/Mojang/bedrock-protocol-docs)
 - [Minecraft 基岩版开发 Wiki](https://wiki.mcbe-dev.net/)（仍处于开荒状态）
 - [MC 开发者文档](https://mc.163.com/mcstudio/mc-dev/)（仅网易可用）
 - 我的世界开发指南（仅网易可用）
