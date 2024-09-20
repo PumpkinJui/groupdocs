@@ -12,6 +12,7 @@ Android, iOS, Windows 国际基岩版下载，可登入 Xbox。
 - [MineBBS/MCDL](https://mc.minebbs.com/#/)
 - [MC 版本库](https://bbk.endyun.ltd/download)
 - [MCAPKS/KLPBBS](https://mcapks.net/)
+- [星月 Minecraft 版本库](https://spectrollay.github.io/minecraft_repository/)
 
 ### iOS
 
