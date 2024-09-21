@@ -43,6 +43,7 @@
   * [如何导入 MC 格式文件](docs/howto/import_mcx.md)
   * [如何入正 MC 国际版](docs/howto/buy_mc.md)
   * [如何访问 GitHub](docs/howto/access_github.md)
+  * [如何校验文件](docs/howto/hashfile.md)
 
 * [本群名菜](docs/menu.md)
   * [面基进度](docs/meeting_offline.md)
