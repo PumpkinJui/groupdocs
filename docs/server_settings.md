@@ -66,7 +66,7 @@
 > 开发服是供开发者开发的服务器，一般仅供管理员及以上级别进入。
 
 ### 开发服 - I
-[【快速加入】](mc://qcloud.cvm.xiaozhiyuqwq.top[:19136]?name=devserver1)
+<a href="minecraft://qcloud.cvm.xiaozhiyuqwq.top:19136?name=devServer1">点击添加</a>
 - 地址 - qcloud.cvm.xiaozhiyuqwq.top
 - 端口 - 19136
 - 版本 - 1.21.20
