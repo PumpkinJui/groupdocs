@@ -75,4 +75,4 @@
 - **4 号线**：新月西 — 南门，「月神湖北 — 南门」段与 3 号线建设联络线成环线，共 7 站;
 - **5 号线**：采石场 — 沉月西，远景规划线路，单线路面有轨电车，共 7 站。
 
-![北境铁路规划图](../../assets/SurvivalIII/na_railmap.png)
+![银月铁路规划图](../../assets/SurvivalIII/silvermoon_railmap.png)
