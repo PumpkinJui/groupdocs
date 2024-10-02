@@ -21,7 +21,7 @@
 
 - [新光](xinguang/xinguang.md)（量筒）
 - [矿山区域](diggings.md)（南瓜汁、文雨）
-- [北境](northern_area.md)（巴豆、比翼鸟）
+- [银月](silvermoon.md)（巴豆、比翼鸟）
 - [雪原](snowfield.md)（鸽子、地雷）
 
 这四个区域也同样是主要的发展中及发达区域。
