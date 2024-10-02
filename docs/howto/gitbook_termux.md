@@ -1,7 +1,4 @@
-# GitBook-cli 环境配置教程 (Termux)
-
-> 由于 GitBook-cli 长期无人维护，此文档内容基本不会再发生改变，故归档。  
-  最后一次编辑由 @南瓜汁 进行，位于 daa9fe2。
+# 如何配置 GitBook-cli 环境 (Termux)
 
 [Windows 教程](gitbook_windows.md)
 
