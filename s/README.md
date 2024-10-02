@@ -3,7 +3,7 @@
 作为 [Issue #36](https://github.com/PumpkinJui/groupdocs/issues/36) 解决方案的一部分，某些十分常用的网址单独适配了短链接，以方便分享给他人。
 
 下表按目标在 SUMMARY 中的先后顺序排列。短链接的前缀为 `~/s/`，`~` 为主域名。  
-例如，~~*衬衫的价格为九磅十五便士*~~访问 `https://groupdocs.pages.dev/s/e` 将会自动跳转到[入群必读](../docs/encounter.md)页面。
+例如，~~*衬衫的价格为九磅十五便士*~~ 访问 `https://groupdocs.pages.dev/s/e` 将会自动跳转到[入群必读](../docs/encounter.md)页面。
 
 | 目标名称 | 长 | 短 |
 | --- | :---: | :---: |
