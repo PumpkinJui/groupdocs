@@ -39,7 +39,15 @@
   * [生存服审核规则](docs/audit.md)
 
 * HOWTO 指南
+  * [如何提问](docs/howto/ask_questions.md)
+  * [如何导入 MC 格式文件](docs/howto/import_mcx.md)
+  * [如何入正 MC 国际版](docs/howto/buy_mc.md)
   * [如何访问 GitHub](docs/howto/access_github.md)
+  * [如何校验文件](docs/howto/hashfile.md)
+  * [如何压缩和解压缩](docs/howto/zip_unzip.md)
+  * 如何配置 GitBook-cli 环境
+    * [Windows](docs/howto/gitbook_windows.md)
+    * [Termux](docs/howto/gitbook_termux.md)
 
 * [本群名菜](docs/menu.md)
   * [面基进度](docs/meeting_offline.md)
@@ -174,7 +182,4 @@
   * [如何作出贡献](CONTRIBUTING.md)
   * [群文档编辑指南](about/editing_guide.md)
   * [提示窗口模板](about/template.md)
-  * GitBook-cli 环境配置教程
-    * [Windows](archives/gitbook_windows.md)
-    * [Termux](archives/gitbook_termux.md)
   * [Markdown](archives/markdown.md)
