@@ -72,4 +72,4 @@
 - **5 号线**：采石场 — 沉月西，远景规划线路，单线路面有轨电车，共 7 站。
 - *未来视北部发展情况可能会有额外的线路建设规划。*
 
-![银月铁路规划图](../../assets/SurvivalIII/silvermoon_railmap.png)
+![银月铁路规划图](../../../assets/SurvivalIII/silvermoon_railmap.png)
