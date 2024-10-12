@@ -39,7 +39,7 @@ PC 版可以在 [Xbox 销售页面](https://www.xbox.com/zh-CN/games/store/minec
 
 安卓用户可以在[Google Play](https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl)购买和安装游戏。Google Play 在内地无法正常访问，故中国大陆的玩家在购买时可能会受阻。
 
-iOS用户可以在[App Store](https://apps.apple.com/app/minecraft/id479516143)内购买和安装游戏，但中国大陆的用户可能需要通过修改[[wzh:iTunes|iTunes]]地区的方式购买。之前已购买过 Minecraft 的用户可以在已购项目内直接下载，无需重复购买。
+iOS用户可以在[App Store](https://apps.apple.com/app/minecraft/id479516143)内购买和安装游戏，但中国大陆的用户可能需要通过修改 iTunes 地区的方式购买。之前已购买过 Minecraft 的用户可以在已购项目内直接下载，无需重复购买。
 
 Xbox One/Xbox Series 玩家可在[Xbox 商城](https://www.xbox.com/games/store/minecraft/9nblggh537bl?rtc=1)购买并安装。请注意，Xbox 版与 PC 基岩版订单不互通。 
 
