@@ -15,7 +15,7 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 
 > 此处介绍 Windows 10 上的操作方式。  
   Windows 7 不支持游玩基岩版 MC。  
-  编者没有 Windows 11 设备，但应该大同小异；右键菜单如果有找不到的东西，请点击「显示更多选项」。
+  Windows 11 的操作实际上也大同小异；右键菜单如果有找不到的东西，请点击「显示更多选项」。
 
 ### 前期准备工作
 
@@ -60,7 +60,7 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
   可以在复制下方的路径后，点击 MT 管理器上方显示的路径，点击「粘贴」，再点击「确定」，快速到达指定路径。
   - 浏览器下载的文件通常位于 `/storage/emulated/0/Download/` 中。
   - QQ 下载的文件通常位于 `/storage/emulated/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/` 中。  
-    如果此文件夹无法在 MT 管理器中显示，你也可以直接在 QQ 中该文件页面的右上角菜单中选择「保存到手机」，QQ 会在 `/storage/emulated/0/Download/QQ/` 创建一个此文件的副本。
+    如果此文件夹无法在 MT 管理器中显示（事实上，不用说如果了，自 Android 11 开始，QQ 就已经完全屏蔽了外部程序的访问，只能靠系统自带文件管理访问），你也可以直接在 QQ 中该文件页面的右上角菜单中选择「保存到手机」，QQ 会在 `/storage/emulated/0/Download/QQ/` 创建一个此文件的副本。
 
 ### .mcx
 
