@@ -59,7 +59,7 @@
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 20230
-- 版本 - 1.21.20
+- 版本 - 1.21.30
 
 ## 开发服
 
@@ -69,19 +69,19 @@
 
 - 地址 - qcloud.cvm.xiaozhiyuqwq.top
 - 端口 - 19136
-- 版本 - 1.21.20
+- 版本 - 1.21.30
 
 ### 开发服 - II
 
 - 地址 - qcloud.cvm.xiaozhiyuqwq.top
 - 端口 - 19138
-- 版本 - 1.21.20
+- 版本 - 1.21.30
 
 ### 开发服 - III
 
 - 地址 - qcloud.cvm.xiaozhiyuqwq.top
 - 端口 - 19140
-- 版本 - 1.21.20
+- 版本 - 1.21.30
 
 ## 测试服
 
@@ -91,16 +91,16 @@
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 20000
-- 版本 - 1.21.20
+- 版本 - 1.21.30
 
 ### 测试服 - II
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 30000
-- 版本 - 1.21.20
+- 版本 - 1.21.30
 
 ### 测试服 - III
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 40000
-- 版本 - 1.21.20
+- 版本 - 1.21.30
