@@ -56,6 +56,7 @@
 | 火卫三 | IBukreev | ✔ | 红色旗帜 (左黄斜条，红色右下三角，<br>左顶红方，黄色 Mojang 徽标，顶红三角)<br>§l§c | ✔ | |
 | 蒙德人 | Tuffy2020China | ✔ | 苹果<br>§r§l§k | ✔ | |
 | 文雨 | KrisWenYu | ✔ | 海晶碎片<br>— | ✔ | |
+| lanos | lanos212 | ✔ | —<br>— | ❔ | |
 | 晨风 | ChenfengAB | ✘ | —<br>— | ✘ | |
 
 ## 普通成员
@@ -118,7 +119,6 @@
 | Lin | linchi723 | ✔ | —<br>— | ❔ | 由 **@祉语** 邀请来 |
 | 吊桥 | chenzhaoqin | ✔ | —<br>— | ❔ | |
 | 红萌 | lzq233233 | ✔ | —<br>— | ❔ | |
-| lanos | lanos212 | ✔ | —<br>— | ❔ | |
 | han | han123123123 | ✘ | —<br>— | ❔ | |
 | 牢土 | Fffgg55 | ✘ | —<br>— | ❔ | |
 | Hg | CruelJewel85738 | ✘ | —<br>— | ❔ | |
