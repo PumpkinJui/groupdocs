@@ -22,6 +22,9 @@
     * [主页](logs/adventure_world_4/main.md)
     * [4.0](logs/adventure_world_4/4_0.md)
     * [4.1](logs/adventure_world_4/4_1.md)
+  * 起床战争
+    * [主页](logs/bedwars/main.md)
+    * [1.0](logs/bedwars/1_0.md)
   * [地图模板](logs/map_template/main.md)
 
 * [网址大全](docs/urls/README.md)
