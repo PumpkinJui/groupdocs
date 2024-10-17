@@ -74,6 +74,9 @@
     * [猪灵交易所](docs/SurvivalIII/nether/piglin.md)
     * [蛙明灯农场](docs/SurvivalIII/nether/froglight.md)
   * [末地](docs/SurvivalIII/the_end.md)
+  * 服务器铁路专栏
+    * [总里程](docs/SurvivalIII/railway/mileage.md)
+    * [发展史](docs/SurvivalIII/railway/history.md)
 
 * [群公告档案](anno/README.md)
   * [公告模板](anno/template.md)
