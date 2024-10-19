@@ -15,7 +15,7 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 
 > 此处介绍 Windows 10 上的操作方式。  
   Windows 7 不支持游玩基岩版 MC。  
-  Windows 11 的操作实际上也大同小异；右键菜单如果有找不到的东西，请点击「显示更多选项」。
+  Windows 11 的操作大同小异；右键菜单如果有找不到的东西，请点击「显示更多选项」。
 
 ### 前期准备工作
 
@@ -60,7 +60,8 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
   可以在复制下方的路径后，点击 MT 管理器上方显示的路径，点击「粘贴」，再点击「确定」，快速到达指定路径。
   - 浏览器下载的文件通常位于 `/storage/emulated/0/Download/` 中。
   - QQ 下载的文件通常位于 `/storage/emulated/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/` 中。  
-    如果此文件夹无法在 MT 管理器中显示（事实上，不用说如果了，自 Android 11 开始，QQ 就已经完全屏蔽了外部程序的访问，只能靠系统自带文件管理访问），你也可以直接在 QQ 中该文件页面的右上角菜单中选择「保存到手机」，QQ 会在 `/storage/emulated/0/Download/QQ/` 创建一个此文件的副本。
+    自 Android 11 起，Google 限制了对 `.../Android/data/` 文件夹的访问。上述文件夹可能无法在 MT 管理器中显示。  
+    在这种情况下，除了跟着 MT 管理器的提示走，你也可以用一种更简便的方法：直接进入 QQ，在该文件页面的右上角菜单中选择「保存到手机」。QQ 会在 `/storage/emulated/0/Download/QQ/` 创建一个此文件的副本。
 
 ### .mcx
 
@@ -83,9 +84,11 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 
 #### 打不开 .../Android/data/
 
-根据 MT 管理器提示操作。如果你*执意*要打开它，可能你需要再下载一个 Shizuku，然后用一堆开发者选项里面的内容授权，最后才能打开。所以，能用上面自动导入就别用手动导入了。
+自 Android 11 起，Google 限制了对 `.../Android/data/` 文件夹的访问。
 
-*而且，就算你靠着Shizuku成功访问了data文件夹，大多数时候你都没有办法向其中直接写入什么数据，这样你就根本没法手动导入了。*
+如果你*执意*要打开它，请根据 MT 管理器提示操作。可能你需要再下载一个 Shizuku，然后用一堆开发者选项里面的内容授权，最后才能打开，有些手机甚至可能打开了也还是只读的。
+
+所以，能用上面自动导入就别用手动导入了。
 
 ## iOS 导入方法
 

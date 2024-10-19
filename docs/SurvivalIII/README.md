@@ -19,9 +19,9 @@
 
 目前，服务器内共有四个独立区域 (或称自治；直辖按独立区域算)，分别是：
 
-- [新光](xinguang/xinguang.md)（量筒）
+- [新光](xinguang/README.md)（量筒）
 - [矿山区域](diggings.md)（南瓜汁、文雨）
-- [银月](silvermoon.md)（巴豆、比翼鸟）
+- [银月](silvermoon/README.md)（巴豆、比翼鸟）
 - [雪原](snowfield.md)（鸽子、地雷）
 
 这四个区域也同样是主要的发展中及发达区域。
