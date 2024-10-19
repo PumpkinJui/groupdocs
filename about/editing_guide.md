@@ -7,13 +7,13 @@
 
 ## 如何编辑 (协作者须知!)
 
+无法访问 GitHub？请参阅[这里](../docs/howto/access_github.md)。但是要注意……
+
 如无特殊情况，***禁止使用 GitHub 网页版进行编辑！！！***
 
 GitHub 网页版访问缓慢，一次只能修改一个文件，且难以修改文件目录结构，严重影响 commit 列表的可读性！
 
 推荐使用 [Git](https://git-scm.com/downloads) 进行编辑。[GitHub 桌面版客户端](https://github.com/apps/desktop)和 [Visual Studio Code](https://code.visualstudio.com/) 亦可作为替代。
-
-如无特殊情况，***禁止使用 GitHub 网页版进行编辑！！！***
 
 ## 关于 GitBook
 

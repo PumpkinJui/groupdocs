@@ -7,12 +7,14 @@
 ## CLI & 客户端
 
 对于访问仓库内容，[Git](https://git-scm.com/downloads) 是极好的方式。**Git**Hub 本身即基于 Git。  
-至少在使用 SSH URL 时，Git 的网速可达 MB/s 量级。
+至少在使用 SSH URL 时，Git 的网速有时可达 MB/s 量级。
 
 [GitHub CLI](https://cli.github.com/) 亦是如此，但其功能与 Git 并非完全重叠。
 
+对于任何反感 Git 命令行特性的人来说，GitHub 桌面版客户端 (见下) 和 [Visual Studio Code](https://code.visualstudio.com/) 亦可作为图形界面替代。
+
 GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 Android 客户端上，加载速度相对较快。(但 Releases 下载速度和图片加载速度依旧很差)  
-  客户端分为[桌面版](https://github.com/apps/desktop)和[移动版](https://github.com/mobile)。Android 移动端需用特殊方式获取安装包。
+客户端分为[桌面版](https://github.com/apps/desktop)和[移动版](https://github.com/mobile)。Android 移动端发布在 Google Play Store，需用特殊方式获取安装包。
 
 ## 修改 Hosts
 
