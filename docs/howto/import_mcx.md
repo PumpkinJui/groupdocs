@@ -20,7 +20,7 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 ### 前期准备工作
 
 - 在资源管理器上方选项卡中，点击「查看」，将「显示扩展名」打勾。
-- 找到你的文件：浏览器下载的文件通常在「下载」文件夹，双击「此电脑」后在上方的文件夹中找到「下载」，双击进入。QQ 下载的文件，通常可以在 QQ 的下载页面内找到「打开所在的文件夹」一类选项。
+- 找到你的文件：浏览器下载的文件通常在「下载」目录，双击「此电脑」后在上方的文件夹列表中找到「下载」，双击进入。QQ 下载的文件，通常可以在 QQ 的下载页面内找到「打开文件所在位置」一类选项。
 
 ### .mcx
 
@@ -60,7 +60,7 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
   可以在复制下方的路径后，点击 MT 管理器上方显示的路径，点击「粘贴」，再点击「确定」，快速到达指定路径。
   - 浏览器下载的文件通常位于 `/storage/emulated/0/Download/` 中。
   - QQ 下载的文件通常位于 `/storage/emulated/0/Android/data/com.tencent.mobileqq/Tencent/QQfile_recv/` 中。  
-    自 Android 11 起，Google 限制了对 `.../Android/data/` 文件夹的访问。上述文件夹可能无法在 MT 管理器中显示。  
+    自 Android 11 起，Google 限制了对 `.../Android/data/` 目录的访问。上述目录可能无法在 MT 管理器中显示。  
     在这种情况下，除了跟着 MT 管理器的提示走，你也可以用一种更简便的方法：直接进入 QQ，在该文件页面的右上角菜单中选择「保存到手机」。QQ 会在 `/storage/emulated/0/Download/QQ/` 创建一个此文件的副本。
 
 ### .mcx
@@ -84,7 +84,7 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 
 #### 打不开 .../Android/data/
 
-自 Android 11 起，Google 限制了对 `.../Android/data/` 文件夹的访问。
+自 Android 11 起，Google 限制了对 `.../Android/data/` 目录的访问。
 
 如果你*执意*要打开它，请根据 MT 管理器提示操作。可能你需要再下载一个 Shizuku，然后用一堆开发者选项里面的内容授权，最后才能打开，有些手机甚至可能打开了也还是只读的。
 
