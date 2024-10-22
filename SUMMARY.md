@@ -28,16 +28,16 @@
     * [1.0](resources/bedwars/1_0.md)
   * 开发模板
     * [主页](resources/map_template/README.md)
-    * [标记实体与文本展示实体 文档](./marker_and_test_display.md)
-    * [公告板 文档](./billboard.md)
-    * [可使用物品 文档](./usable_items.md)
-    * [自定义武器 文档](./custom_weapon.md)
+    * [标记实体与文本展示实体 文档](resources/map_template//marker_and_test_display.md)
+    * [公告板 文档](resources/map_template//billboard.md)
+    * [可使用物品 文档](resources/map_template//usable_items.md)
+    * [自定义武器 文档](resources/map_template//custom_weapon.md)
     * 交互实体 文档
-    * [函数系统（时间线剧情线等核心内容） 文档](./function_general.md)
-    * [函数系统（开发者系统） 文档](./function_developer.md)
-    * [无限虚空 文档](./inf_void.md)
-    * [强制 Mojangles 字体 文档](./force_mojangles.md)
-    * [自定义音效 文档](./custom_sound.md)
+    * [函数系统（时间线剧情线等核心内容） 文档](resources/map_template//function_general.md)
+    * [函数系统（开发者系统） 文档](resources/map_template//function_developer.md)
+    * [无限虚空 文档](resources/map_template//inf_void.md)
+    * [强制 Mojangles 字体 文档](resources/map_template//force_mojangles.md)
+    * [自定义音效 文档](resources/map_template//custom_sound.md)
     
   * 回溯 Backdate III
     * [主页](resources/backdate_3/README.md)
