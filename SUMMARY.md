@@ -6,26 +6,47 @@
 
 * [群规](docs/rules.md)
 
-* [群资源](resources/README.md)
+* 群资源
   * 30 种死法
-    * [主页](resources/wstd/main.md)
+    * [主页](resources/wstd/README.md)
     * [更新日志](resources/wstd/update_log.md)
   * 30 种死法 2
-    * [主页](resources/wstd2/main.md)
+    * [主页](resources/wstd2/README.md)
     * [V2.0](resources/wstd2/2_0.md)
     * [V2.1](resources/wstd2/2_1.md)
     * [V2.2](resources/wstd2/2_2.md)
     * [2.3](resources/wstd2/2_3.md)
     * [2.4](resources/wstd2/2_4.md)
-  * [炸翻它](resources/blow_it_up/main.md)
+  * 炸翻它
+    * [主页](resources/blow_it_up/README.md)
   * 冒险小世界：剑之试炼
-    * [主页](resources/adventure_world_4/main.md)
+    * [主页](resources/adventure_world_4/README.md)
     * [4.0](resources/adventure_world_4/4_0.md)
     * [4.1](resources/adventure_world_4/4_1.md)
   * 起床战争
-    * [主页](resources/bedwars/main.md)
+    * [主页](resources/bedwars/README.md)
     * [1.0](resources/bedwars/1_0.md)
-  * [地图模板](resources/map_template/main.md)
+  * 开发模板
+    * [主页](resources/map_template/README.md)
+    * [标记实体与文本展示实体 文档](./marker_and_test_display.md)
+    * [公告板 文档](./billboard.md)
+    * [可使用物品 文档](./usable_items.md)
+    * [自定义武器 文档](./custom_weapon.md)
+    * 交互实体 文档
+    * [函数系统（时间线剧情线等核心内容） 文档](./function_general.md)
+    * [函数系统（开发者系统） 文档](./function_developer.md)
+    * [无限虚空 文档](./inf_void.md)
+    * [强制 Mojangles 字体 文档](./force_mojangles.md)
+    * [自定义音效 文档](./custom_sound.md)
+    
+  * 回溯 Backdate III
+    * [主页](resources/backdate_3/README.md)
+  * 2020 年 Minecraft 水平考试
+    * [主页](resources/mc_test_2020/README.md)
+  * 2021 年 Minecraft 水平考试
+    * [主页](resources/mc_test_2021/README.md)
+  * 幸运方块
+    * [主页](resources/lucky_block/README.md)
 
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
