@@ -33,7 +33,7 @@
 
 仅当时间线处于激活状态下，时间线文件（`system/controller/timeline`）中的命令才会始终执行。
 
-> **注意**
+> **注意**  
   这要求您必须确保您要执行的命令在时间线文件中注册过。
 
 控制时间线启用的记分板变量是`active.timeline`。
@@ -71,7 +71,7 @@ execute if score timeline time matches 100 run gamemode adventure @a
 gamemode adventure @a
 ```
 
-> **注意**
+> **注意**  
   这种写法在状态`1-5`下也可以使用，但如果不需要特定时间特定命令的话，使用不会引起`time.timeline`变化的状态可以节省性能。
 
 - 下面是节选与改编自[30种死法2](../wstd2/README.md)的时间线文件的部分内容：
@@ -133,7 +133,7 @@ execute if score timeline time matches 120 run setblock -47 9 28 beacon
 
 仅当剧情线处于激活状态下，剧情线文件（`system/controller/dialogue`）中的命令才会始终执行。
 
-> **注意**
+> **注意**  
   这要求您必须确保您要执行的命令在剧情线文件中注册过。
 
 控制剧情线启用的记分板变量是`active.dialogue`。
@@ -193,7 +193,7 @@ execute if score dialogue active matches 6 if score dialogue time matches 161 ru
 
 仅当音效控制器处于激活状态下，才会延时播放音效。不同的音效控制器状态，会导致播放不同的音效。音效控制器文件位于`system/controller/sound`。
 
-> **注意**
+> **注意**  
   这要求您必须确保您要执行的`/playsound`命令在音效控制器文件中注册过。
 
 音效控制器的启用，由`active.sound`控制。
@@ -204,7 +204,7 @@ execute if score dialogue active matches 6 if score dialogue time matches 161 ru
 
 若时间值为`1`或更大的值，则`time.sound`会每刻自减以进行倒计时，当倒计时归零后，系统会自动将启用状态改为`0`，并且`time.sound`会改为一个非零的值。
 
-> **注意**
+> **注意**  
   在启用音效控制器之前，请先保证`time.sound`为一个非零的值。
 
 ##### 一些例子
@@ -258,7 +258,7 @@ execute if score sound time matches 0 run function lib/modify_states/sound/reset
 
 #### 反作弊系统
 
-> **注意**
+> **注意**  
   此函数无条件地循环执行。
 
 您可以在其中插入您需要的反作弊命令。下面提供了一些您可能需要的反作弊字段。
@@ -287,7 +287,7 @@ execute as @a at @s run fill  -5 -5 -5 5 5 5 air replace end_portal
 
 #### 反退出系统
 
-> **注意**
+> **注意**  
   此函数无条件地循环执行。
 
 此函数将检测玩家是否为重进地图的玩家，如果是，则该玩家的`isOnline.@s`将被改为`0`，这样，您就可以通过反退出系统令退出重进的玩家执行特定的命令，防止他们对您的地图造成严重打击。
@@ -347,6 +347,7 @@ function lib/modify_states/dialogue/enable_lock_6_keep
 ```
 
 - 延时播放`random.orb`音效：
+
 ```
 function lib/modify_states/sound/random_orb
 ```
