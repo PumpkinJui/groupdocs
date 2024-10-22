@@ -32,7 +32,7 @@
     * [公告板 文档](resources/map_template//billboard.md)
     * [可使用物品 文档](resources/map_template//usable_items.md)
     * [自定义武器 文档](resources/map_template//custom_weapon.md)
-    * 交互实体 文档
+    * [交互实体 文档](resources/map_template/interaction.md)
     * [函数系统（时间线剧情线等核心内容） 文档](resources/map_template//function_general.md)
     * [函数系统（开发者系统） 文档](resources/map_template//function_developer.md)
     * [无限虚空 文档](resources/map_template//inf_void.md)
