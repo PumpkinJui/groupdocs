@@ -44,6 +44,7 @@
 - [函数系统（时间线剧情线等核心内容）](./function_general.md)
 - [函数系统（开发者系统）](./function_developer.md)
 - [无限虚空](./inf_void.md)
+- [玩家血量监控](./health_controller.md)
 
 ### 仅资源包
 - [强制 Mojangles 字体](./force_mojangles.md)

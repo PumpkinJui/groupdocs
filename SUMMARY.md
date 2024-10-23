@@ -36,6 +36,7 @@
     * [函数系统（时间线剧情线等核心内容） 文档](resources/map_template//function_general.md)
     * [函数系统（开发者系统） 文档](resources/map_template//function_developer.md)
     * [无限虚空 文档](resources/map_template//inf_void.md)
+    * [玩家血量监控 文档](resources/map_template/health_controller.md)
     * [强制 Mojangles 字体 文档](resources/map_template//force_mojangles.md)
     * [自定义音效 文档](resources/map_template//custom_sound.md)
     
