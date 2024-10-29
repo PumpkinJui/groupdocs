@@ -38,7 +38,7 @@
 - [公告板](./billboard.md)
 - [可使用物品](./usable_items.md)
 - [自定义武器](./custom_weapon.md)
-- [交互实体](./interaction.md)
+- [交互实体与 NPC](./interaction_and_npc.md)
 
 ### 仅行为包
 - [函数系统（时间线剧情线等核心内容）](./function_general.md)
