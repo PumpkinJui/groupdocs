@@ -161,4 +161,4 @@
 | 光之子 | AdroitMallard14 | 5 | 在生存服中作弊 | |
 | De<br><br>JA | Demonioron<br>Demoniort<br>Adiosdem | 5 | 多次出言不逊<br>散播谣言<br>隐瞒身份<br>鼓吹北境高度自治<br>辱骂晨风<br>…… | **严厉谴责五档开小号进群的卑劣无耻行为！** |
 | 小 H | Halshtain | 1 | 以不当言论攻击其他群员 | |
-| 帕 | Hfpa0117 | 3 | 长期频繁在群内发表消极言论 | |
+| 帕 | Hfpa0117 | 5 | 长期频繁在群内发表消极言论 | |
