@@ -39,7 +39,8 @@
     * [玩家血量监控 文档](resources/map_template/health_controller.md)
     * [强制 Mojangles 字体 文档](resources/map_template//force_mojangles.md)
     * [自定义音效 文档](resources/map_template//custom_sound.md)
-    
+  * 冒险世界
+    * [主页](resources/aw/README.md)
   * 回溯 Backdate III
     * [主页](resources/backdate_3/README.md)
   * 2020 年 Minecraft 水平考试
