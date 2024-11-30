@@ -3,6 +3,8 @@
 > 提示  
   该文章正在编写中。在该窗口被移除前，请不要对文章内容进行进一步的修改与提交。
 
+---
+
 > 提示  
   该页面的内容不代表 Mojang Studios、Microsoft 和网易的官方意见。
 
@@ -21,7 +23,7 @@
 
 **简单来说，依赖启动器启动，并需要 Java 支持的就是 Java 版，只能在 PC 环境下运行；基岩版以跨平台联机为特点，可以直接安装和打开，不需要通过启动器启动，也不需要安装 Java。**
 
-*要是有些地方你觉得讲得还是迷，还请参考 Minecraft Wiki。~~当然能回来帮我们完善就更好啦qwq~~*
+*要是有些地方你觉得讲得还是迷，还请参考 [Minecraft Wiki](https://zh.minecraft.wiki/)。~~当然能回来帮我们完善就更好啦qwq~~* <!-- markdownlint-disable-line MD036 -->
 
 ## 如何购买？
 
@@ -41,7 +43,7 @@ PC 版可以在 [Xbox 销售页面](https://www.xbox.com/zh-CN/games/store/minec
 
 iOS用户可以在 [App Store](https://apps.apple.com/app/minecraft/id479516143) 内购买和安装游戏，但中国大陆的用户可能需要通过修改 iTunes 地区的方式购买。之前已购买过 Minecraft 的用户可以在已购项目内直接下载，无需重复购买。
 
-Xbox One/Xbox Series 玩家可在 [Xbox 商城](https://www.xbox.com/games/store/minecraft/9nblggh537bl?rtc=1)购买并安装。请注意，Xbox 版与 PC 基岩版订单不互通。 
+Xbox One/Xbox Series 玩家可在 [Xbox 商城](https://www.xbox.com/games/store/minecraft/9nblggh537bl?rtc=1)购买并安装。请注意，Xbox 版与 PC 基岩版订单不互通。
 
 Nintendo Switch 玩家可在[任天堂 eshop](https://www.nintendo.com/store/products/minecraft-switch/) 选择购买电子版或卡带版，但是中国玩家可能需要准备非国行版的主机，使用 Nintendo Account 登录任天堂 Eshop。
 
