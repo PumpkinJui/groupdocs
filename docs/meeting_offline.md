@@ -12,6 +12,8 @@
 
 ## 管理员团队面基进度表
 
+自 2024 年 11 月 30 日，原始 LaTeX 文件已被托管于 [Overleaf](https://www.overleaf.com/read/swcjtmgpdmtj)。
+
 ### 图例
 
 - 黄色🟨/0：尚未线下面基，也尚未给对方看过自己照片  
@@ -20,19 +22,19 @@
 
 颜色描述来源于 Unicode 对该 emoji 的描述，亦即无色盲色弱者所看到的颜色。
 
-![图例](../assets/meeting_offline/legend.jpg)
+![图例](../assets/meeting_offline/legend.png)
 
 ### 上色版
 
-> 图表中的颜色使用 emoji 实现。  
-  考虑到色觉障碍，此处的上色版图表弃用了原有的「红黄绿」配色方案，改为使用「黄绿蓝」配色方案。  
+> 图表中的颜色使用 emoji 实现，指定使用 Windows 11 的 Segoe UI Emoji 字体进行渲染。  
+  考虑到色觉障碍，此处的上色版图表弃用了原有的「红黄绿」配色方案，改为使用「黄绿蓝」配色方案。*而且后来发现有一种荒漠、绿洲和海洋的模拟感，非常满意。*  
   然而，在某些特殊情况下，这种配色方案可能仍然难以识别。如果您在查看本图表时无法 (轻易) 分辨出三种颜色，请查看下方的黑白版 (数字版) 图表。两者数据完全相同，只是表现形式不同。
 
-![上色版](../assets/meeting_offline/colored.jpg)
+![上色版](../assets/meeting_offline/colored.png)
 
 ### 黑白版 (数字版)
 
-![黑白版 (数字版)](../assets/meeting_offline/mono.jpg)
+![黑白版 (数字版)](../assets/meeting_offline/mono.png)
 
 ## 其余群友面基进度
 
