@@ -47,9 +47,4 @@
 
 下面的日期为对应存档的**备份时间**。
 
-- [24.08.03 (2.02 GB)](https://www.123pan.com/s/t3TqVv-j5vkh.html)  
-  ```plaintext <!-- markdownlint-disable-line MD031 -->
-  名称：量筒测试群 - 生存服务器 III周目 - 24.08.03.mcworld
-  大小：2169092591 字节 : 2068 MiB
-  SHA256：7ea5fc1bf95b572eb0292f12e709bc52a9a13459b64a4cb1cb8c139f6056e61c
-  ```
+- [24.12.03 (2.15 GB)](https://www.123684.com/s/t3TqVv-EC3kh)  
