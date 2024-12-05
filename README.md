@@ -1,18 +1,16 @@
 # 测试群文档
 
-<!-- markdownlint-disable MD033 -->
-<div align="center">
-<img alt="GitHub Create At" src="https://img.shields.io/github/created-at/PumpkinJui/groupdocs?style=for-the-badge&logo=github&logoColor=white&color=royalblue"/>
-<img alt="GitHub License" src="https://img.shields.io/github/license/PumpkinJui/groupdocs?style=for-the-badge&logo=creativecommons&logoColor=white&color=royalblue"/>
-<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/PumpkinJui/groupdocs?style=for-the-badge&logo=gitbook&logoColor=white&color=royalblue"/>
-<br>
-<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge&logo=tencentqq&logoColor=white"/>
-<img alt="GitHub Branch Check Runs" src="https://img.shields.io/github/check-runs/PumpkinJui/groupdocs/main?style=for-the-badge&logo=cloudflare&logoColor=white"/>
-<br>
-<img alt="GitHub Commit Activity" src="https://img.shields.io/github/commit-activity/t/PumpkinJui/groupdocs?style=for-the-badge&color=yellow"/>
-<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/PumpkinJui/groupdocs?display_timestamp=author&style=for-the-badge&color=yellow"/>
-</div>
-<!-- markdownlint-restore -->
+![GitHub Create At](https://img.shields.io/github/created-at/PumpkinJui/groupdocs?style=for-the-badge&logo=github&logoColor=white&color=477DB2)  
+![GitHub License](https://img.shields.io/github/license/PumpkinJui/groupdocs?style=for-the-badge&logo=creativecommons&logoColor=white&color=477DB2)  
+![GitHub Repo Size](https://img.shields.io/github/repo-size/PumpkinJui/groupdocs?style=for-the-badge&logo=gitbook&logoColor=white&color=477DB2)
+
+![GitHub Contributors](https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge&logo=tencentqq&logoColor=white)  
+![GitHub Branch Check Runs](https://img.shields.io/github/check-runs/PumpkinJui/groupdocs/main?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/t/PumpkinJui/groupdocs?style=for-the-badge&color=E5B932)  
+![GitHub Last Commit](https://img.shields.io/github/last-commit/PumpkinJui/groupdocs?display_timestamp=author&style=for-the-badge&color=E5B932)
+
+---
 
 欢迎来到测试群👋来了就不要走啦~
 
