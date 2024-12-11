@@ -1,18 +1,16 @@
 # 测试群文档
 
-<!-- markdownlint-disable MD033 -->
-<div align="center">
-<img alt="GitHub Create At" src="https://img.shields.io/github/created-at/PumpkinJui/groupdocs?style=for-the-badge&logo=github&logoColor=white&color=royalblue"/>
-<img alt="GitHub License" src="https://img.shields.io/github/license/PumpkinJui/groupdocs?style=for-the-badge&logo=creativecommons&logoColor=white&color=royalblue"/>
-<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/PumpkinJui/groupdocs?style=for-the-badge&logo=gitbook&logoColor=white&color=royalblue"/>
-<br>
-<img alt="GitHub Contributors" src="https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge&logo=tencentqq&logoColor=white"/>
-<img alt="GitHub Branch Check Runs" src="https://img.shields.io/github/check-runs/PumpkinJui/groupdocs/main?style=for-the-badge&logo=cloudflare&logoColor=white"/>
-<br>
-<img alt="GitHub Commit Activity" src="https://img.shields.io/github/commit-activity/t/PumpkinJui/groupdocs?style=for-the-badge&color=yellow"/>
-<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/PumpkinJui/groupdocs?display_timestamp=author&style=for-the-badge&color=yellow"/>
-</div>
-<!-- markdownlint-restore -->
+[![Create At: 2024-05-09. Learn more at HISTORY PAGE.](https://img.shields.io/github/created-at/PumpkinJui/groupdocs?style=for-the-badge&logo=github&logoColor=white&color=477DB2)](about/history.md)
+[![License: CC BY 4.0. Learn more at LICENSE OVERVIEW.](https://img.shields.io/github/license/PumpkinJui/groupdocs?style=for-the-badge&logo=creativecommons&logoColor=white&color=477DB2)](about/license_overview_zh.md)
+![Repo Size: Various. Only will it grow bigger, not smaller.](https://img.shields.io/github/repo-size/PumpkinJui/groupdocs?style=for-the-badge&logo=gitbook&logoColor=white&color=477DB2)
+
+[![Contributor number: 5 for now. Learn more at ABOUT PAGE.](https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge&logo=tencentqq&logoColor=white)](about/README.md)
+![Branch Check Runs: PASSING, FAILING or PENDING. Usually PASSING, but it depends on CloudFlare.](https://img.shields.io/github/check-runs/PumpkinJui/groupdocs/main?style=for-the-badge&logo=cloudflare&logoColor=white)
+
+[![Commit Activity: How many commits are there in total.](https://img.shields.io/github/commit-activity/t/PumpkinJui/groupdocs?style=for-the-badge&color=yellow)](https://github.com/PumpkinJui/groupdocs/commits/main/)
+![Last Commit: When was the last commit made.](https://img.shields.io/github/last-commit/PumpkinJui/groupdocs?display_timestamp=author&style=for-the-badge&color=yellow)
+
+---
 
 欢迎来到测试群👋来了就不要走啦~
 
