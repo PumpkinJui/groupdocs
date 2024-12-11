@@ -16,7 +16,21 @@
 GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 Android 客户端上，加载速度相对较快。(但 Releases 下载速度和图片加载速度依旧很差)  
 客户端分为[桌面版](https://github.com/apps/desktop)和[移动版](https://github.com/mobile)。Android 移动端发布在 Google Play Store，需用特殊方式获取安装包。
 
+## 使用下载器
+
+下载器可以通过包括多线程下载在内的多种方式加快下载速度，可以与其他方法叠加食用。
+
+知名的下载器包括：
+
+- [Internet Download Manager](https://www.internetdownloadmanager.com/) (Windows；收费，很贵)
+- [Free Download Manager](https://www.freedownloadmanager.org/) (Windows、Android、macOS、Linux；免费)
+- [Neat Download Manager](https://neatdownloadmanager.com/) (Windows；免费，轻量便携)
+
+*很难想象它们的网址怎么都这么长。*
+
 ## 修改 Hosts
+
+通过使用访问速度较快的 IP 实现加速的方法。必须具有管理员权限 (Windows) 或 root 权限 (Linux & Android)。
 
 实践之一为 [GitHub520](https://github.com/521xueweihan/github520) 项目。
 

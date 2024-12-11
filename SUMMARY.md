@@ -64,13 +64,15 @@
   * [服务器成员信息表](docs/registered_members.md)
   * [生存服审核规则](docs/audit.md)
 
-* HOWTO 指南
+* [HOWTO 指南](docs/howto/README.md)
   * [如何提问](docs/howto/ask_questions.md)
   * [如何导入 MC 格式文件](docs/howto/import_mcx.md)
   * [如何入正 MC 国际版](docs/howto/buy_mc.md)
   * [如何访问 GitHub](docs/howto/access_github.md)
   * [如何校验文件](docs/howto/hashfile.md)
-  * [如何压缩和解压缩](docs/howto/zip_unzip.md)
+  * 如何压缩和解压缩
+    * [Windows](docs/howto/zip_unzip_windows.md)
+    * [Android](docs/howto/zip_unzip_android.md)
   * 如何配置 GitBook-cli 环境
     * [Windows](docs/howto/gitbook_windows.md)
     * [Termux](docs/howto/gitbook_termux.md)

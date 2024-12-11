@@ -11,5 +11,6 @@
 
 此外，建议进修以下内容：
 
+- [互联网请教指南（极简版）](https://sspai.com/post/93295)
 - [How To Ask Questions The Smart Way (提问的智慧)](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)
 - [Stop To Ask Questions The Stupid Ways (别像弱智一样提问)](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways) (注：根据英语语法，实际上应该是「Stop *Asking* Questions The Stupid Ways」……有可能仅仅是作者英语不好，或者为了对仗)
