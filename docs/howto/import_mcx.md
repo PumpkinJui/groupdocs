@@ -42,7 +42,7 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 ### 手动导入 (不推荐)
 
 1. 右键该文件，点击「重命名」，将末端的 `.mcx` 改为 `.zip`。忽略重命名警告。
-2. 将压缩包解压至一个单独的文件夹。文件夹可以随便命名，但最好不含中文。*不会解压的可以撤了。*
+2. 将压缩包解压至一个单独的文件夹。文件夹可以随便命名，但最好不含中文。*不会解压的看[这](zip_unzip_windows.md)。*
 3. 右键该文件夹，选择剪切。
 4. 在地址栏输入 `%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang`，回车。
 5. 根据资源种类，将该文件夹粘贴至不同的文件夹中。
