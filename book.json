@@ -12,7 +12,7 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/PumpkinJui/groupdocs"
+            "url": "https://github.com/PumpkinJui/groupdocs/tree/anno"
         }
     }
 }
