@@ -46,9 +46,8 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 
 部分不作格式规范、无须遵守此条标准的文件及文件夹如下，以仓库根目录为相对路径：
 
-- 文件夹：anno
-- 文件夹：logs
 - 文件夹：node_modules
+- 文件夹：resources
 - 文 件：archives/markdown.md
 - 文 件：docs/How-To-Ask-Questions-The-Smart-Way.md
 
