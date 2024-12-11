@@ -44,7 +44,9 @@
   * [如何入正 MC 国际版](docs/howto/buy_mc.md)
   * [如何访问 GitHub](docs/howto/access_github.md)
   * [如何校验文件](docs/howto/hashfile.md)
-  * [如何压缩和解压缩](docs/howto/zip_unzip.md)
+  * 如何压缩和解压缩
+    * [Windows](docs/howto/zip_unzip_windows.md)
+    * [Android](docs/howto/zip_unzip_android.md)
   * 如何配置 GitBook-cli 环境
     * [Windows](docs/howto/gitbook_windows.md)
     * [Termux](docs/howto/gitbook_termux.md)
