@@ -1,7 +1,4 @@
 # 函数系统 v2 文档
-
-> **提示**  
-  该文章正在编写中。在该窗口被移除前，请不要对文章内容进行进一步的修改与提交。
   
 ## 包性质
 
@@ -28,8 +25,149 @@
 
 #### 时间线
 
-> **提示**  
-  该文章正在编写中。在该窗口被移除前，请不要对文章内容进行进一步的修改与提交。
+它可以用于一些**特殊情况**下的命令**循环执行**。是为了**解决函数难以设定延迟**的痛点而诞生的。
+
+时间线有三大额外机制：启用机制、时间机制、视角机制。
+
+##### 启用机制
+
+仅当时间线处于激活状态下，时间线文件（`system/controller/timeline`）中的命令才会始终执行。
+
+> **注意**  
+  这要求您必须确保您要执行的命令在时间线文件中注册过。
+
+控制时间线启用的记分板变量是`active.timeline`。
+
+启用机制的运行类似于下面的伪代码：
+
+``` Python
+while active.timeline > 1:
+  ...
+```
+
+##### 时间机制
+
+记录时间线启用的时间的记分板变量是`time.timeline`。
+
+当时间线启用，且变量`data.timeLapse`大于`0`的时候，会启用时间流逝，使得某些命令在某个特定的时间点执行。
+
+例如，在时间线启用第135刻的时候执行`/say 1`。
+
+时间机制的运行类似于下面的伪代码：
+
+``` Python
+while active.timeline > 1:
+  if data.timeLapse > 1:
+    time.timeline++
+  ...
+```
+
+##### 视角机制
+
+当变量`data.lockCamera`大于`0`的时候，会启用视角锁定。此时，玩家会被传送到名为`playerPosition`的实体上，面向名为`facingPosition`的实体上，以锁定视角。
+
+视角机制的运行类似于下面的伪代码：
+
+``` Python
+while active.timeline > 1:
+  if data.lockCamera > 1:
+    (execute ... run tp @a ...)
+  ...
+```
+
+##### 示例 1 ：在时间线启用后不断执行命令
+
+您可以在时间线文件（`system/controller/timeline`）里新增下面的内容：
+
+```
+say Hello,world!
+```
+
+这代表着，**当时间线被启用后，执行`/say`命令**。
+
+因此，您可以使用下面的命令**启用时间线**：
+
+```
+scoreboard players set timeline active 1
+```
+
+事实上您也可以设置类似于`2`、`10`这样的数，只要大于`0`即可，具体取决于您的需求。
+
+如此做了之后，您将看见服务器不断的发送“Hello,world!”的消息。您可以**关闭时间线**来关闭这条命令：
+
+```
+scoreboard players set timeline active 0
+```
+
+##### 示例 2 ：在时间线启用的第 150 刻执行特定命令
+
+您可以在时间线文件（`system/controller/timeline`）里新增下面的内容：
+
+```
+execute if score timeline time matches 150 run say success!
+```
+
+这代表着，当时间线被启用后，且在第 150 刻时，执行`/say`命令。然后，使用下面的命令**启用时间线和时间流逝**：
+
+```
+## 启用时间线
+scoreboard players set timeline active 1
+## 启用时间流逝
+scoreboard players set timeLapse data 1
+```
+
+若如此做，您将会在执行这两条命令后的 7.5 秒看到一条服务器发送的“success!”消息。
+
+如果要关闭时间流逝，您可以关闭时间线和时间流逝，但**注意不要忘记把时间值也归零**：
+
+```
+## 启用时间线
+scoreboard players set timeline active 0
+## 启用时间流逝
+scoreboard players set timeLapse data 0
+## 时间值归零
+scoreboard players set timeline time 0
+```
+
+**我们会在后面的库函数（`lib/`）中介绍一些常用的时间线操作。**
+
+##### 示例 3 ：在时间线启用后锁定视角对话
+
+您可以在时间线文件（`system/controller/timeline`）里新增下面的内容：
+
+```
+execute if score timeline time matches 80 run say 1
+execute if score timeline time matches 160 run say 2
+execute if score timeline time matches 240 run say 3
+```
+
+这代表着，当时间线被启用后，在特定的时间执行`/say`命令。显然，这需要开启时间流逝。您可以使用下面的命令启用时间线、时间流逝和**视角锁定**：
+
+```
+## 启用时间线
+scoreboard players set timeline active 1
+## 启用时间流逝
+scoreboard players set timeLapse data 1
+## 启用视角锁定
+scoreboard players set lockCamera data 1
+```
+
+若如此做，您将会在执行这两条命令后的 4 秒、 8 秒、 12 秒分别看到服务器发送的消息。同时，**您的视角将被固定，无法移动**。您可以分别尝试一下这些命令，或许会对您理解这个机制有积极作用：
+
+```
+/tp @e[name=playerPosition] 0 64 0
+```
+
+```
+/tp @e[name=facingPosition] 10 64 10
+```
+
+```
+## 改变玩家位置
+tp @e[name=playerPosition] ???
+## 改变玩家朝向
+tp @e[name=facingPosition] ???
+```
 
 #### 音效控制器
 
