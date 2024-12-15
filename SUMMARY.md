@@ -17,13 +17,18 @@
     * [V2.2](resources/wstd2/2_2.md)
     * [2.3](resources/wstd2/2_3.md)
     * [2.4](resources/wstd2/2_4.md)
+  * [开发中]冒险世界：筑梦
+    * [主页](resources/aw5/README.md)
+    * [漏洞与建议反馈](resources/aw5/bugs.md)
+    * [制作人表](resources/aw5/credits.md)
+    * [更新日志](resources/aw5/update_log.md)
   * 炸翻它
     * [主页](resources/blow_it_up/README.md)
   * 冒险小世界：剑之试炼
     * [主页](resources/adventure_world_4/README.md)
     * [4.0](resources/adventure_world_4/4_0.md)
     * [4.1](resources/adventure_world_4/4_1.md)
-  * 起床战争
+  * [开发中]起床战争
     * [主页](resources/bedwars/README.md)
     * [1.0](resources/bedwars/1_0.md)
   * 开发模板
