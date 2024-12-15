@@ -110,6 +110,10 @@
 * [已归档](archives/README.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
   * [2023 年，我们是如何应对端口扫描的](archives/2023_port_scanning_solution.md)
+  * [关于 Microsoft 账号](archives/microsoft_account.md)
+  * [关于 Android 手机上的存档](archives/mcworld_in_android.md)
+  * [关于皮肤](archives/about_skin.md)
+  * [关于文件存储路径](archives/mc_path.md)
 
 * [关于群文档](about/README.md)
   * [群历史](about/history_of_group.md)
