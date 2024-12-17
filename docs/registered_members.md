@@ -127,8 +127,8 @@
 | 欣叶 | xinye2012 | ✘ | —<br>— | ❔ | |
 | soak | SoakChee | ✘ | —<br>— | ❔ | |
 | KK | killklli9952 | ✘ | —<br>— | ❔ | |
-| laolu | laolu444222 | ✘ | —<br>— | ❔ | |
-| 白洲梓 | bai zhou zi5631 | ✘ | —<br>— | ❔ | |
+| laolu | laolu444222 | ✔ | —<br>— | ❔ | |
+| 白洲梓 | bai zhou zi5631 | ✔ | —<br>— | ❔ | |
 
 ## 离群成员 (未违规)
 
