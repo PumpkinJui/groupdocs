@@ -57,7 +57,7 @@ GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 
 
 只需要下载时可以使用。
 
-实践包括 [GitHub Proxy](https://ghp.ci)、[GitMirror](https://gitmirror.com) 等。
+实践包括 [GitHub Proxy](https://ghproxy.link/)、[GitMirror](https://gitmirror.com) 等。
 
 ## CDN
 
