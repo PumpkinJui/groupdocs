@@ -2,9 +2,9 @@
 
 * [起始页](README.md)
 
-* [公告模板](anno/template.md)
-
 * [最新群公告](anno/latest/README.md)
+
+* [公告模板](anno/template.md)
 
 * 2019
   * [03/30/01](anno/2019/033001.md)
@@ -103,4 +103,5 @@
   * [09/08/01](anno/2024/090801.md)
   * [09/20/01](anno/2024/092001.md)
 
-* [404](404.md)
+* [关于群公告档案](about/README.md)
+  * [404](404.md)

@@ -4,7 +4,7 @@
 ![License: CC BY 4.0.](https://img.shields.io/github/license/PumpkinJui/groupdocs?style=for-the-badge&logo=creativecommons&logoColor=white&color=477DB2)
 ![Repo Size: Various. Only will it grow bigger, not smaller.](https://img.shields.io/github/repo-size/PumpkinJui/groupdocs?style=for-the-badge&logo=gitbook&logoColor=white&color=477DB2)
 
-![Contributor number: 5 for now.](https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge&logo=tencentqq&logoColor=white)
+![Contributor number: 6 for now.](https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge&logo=tencentqq&logoColor=white)
 ![Branch Check Runs: PASSING, FAILING or PENDING. Usually PASSING, but it depends on CloudFlare.](https://img.shields.io/github/check-runs/PumpkinJui/groupdocs/main?style=for-the-badge&logo=cloudflare&logoColor=white)
 
 [![Commit Activity: How many commits are there in total.](https://img.shields.io/github/commit-activity/t/PumpkinJui/groupdocs/anno?style=for-the-badge&color=yellow)](https://github.com/PumpkinJui/groupdocs/commits/anno/)
@@ -12,12 +12,9 @@
 
 ---
 
-> 提示  
-  为保证和原始群公告一致，群公告文本无须遵守格式规范，且不作相关调整。
-
 欢迎来到测试群👋来了就不要走啦~
 
-这里记录了测试群于 2024 年 08 月 15 日可查的所有历史群公告，以及自那以来的所有群公告。
+这里记录了测试群于 2024 年 08 月 15 日可查的所有历史群公告，以及自那以来的几乎所有群公告。
 
 目录请点顶端左上角的 ≡ 图标，看不到请把页面向上拉到头；  
 目录上方有搜索框，可直接搜索你需要的信息~
