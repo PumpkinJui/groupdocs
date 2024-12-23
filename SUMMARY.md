@@ -104,6 +104,7 @@
     * [沉月区](chenyue_district.md)
     * [金月区](jinyue_district.md)
   * [雪原](docs/SurvivalIII/snowfield.md)
+  * [岩沙](docs/SurvivalIII/yansha.md)
   * [下界](docs/SurvivalIII/nether/README.md)
     * [下界交通](docs/SurvivalIII/nether/transit.md)
     * [猪灵交易所](docs/SurvivalIII/nether/piglin.md)
