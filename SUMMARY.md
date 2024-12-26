@@ -80,14 +80,13 @@
       * [雪原](docs/SurvivalIII/snowfield.md)
       * [岩沙](docs/SurvivalIII/yansha.md)
     * 未来建设规划
-      * 新光
-        * 招标公告
+      * [新光](docs/SurvivalIII/future_plan/xinguang.md)
       * 银月
       * 矿山
     * 发展区管理条例
-      * [新光管理条例](docs/SurvivalIII/xinguang/xinguang_administrative_regulations.md)
-      * [矿山管理条例](docs/SurvivalIII/diggings_administrative_regulations.md)
-      * [银月管理条例](docs/SurvivalIII/silvermoon/silvermoon_administrative_regulations.md)
+      * [新光管理条例](docs/SurvivalIII/administrative_regulations/xinguang.md)
+      * [矿山管理条例](docs/SurvivalIII/administrative_regulations/diggings.md)
+      * [银月管理条例](docs/SurvivalIII/administrative_regulations/silvermoon.md)
     * 重要工业机器
       * 猪人塔
       * 村民交易所
@@ -102,7 +101,7 @@
       * 主世界交通
         * [总里程](docs/SurvivalIII/railway/mileage.md)
         * [发展史](docs/SurvivalIII/railway/history.md)
-        * 新光轨道交通
+        * [新光轨道交通](docs/SurvivalIII/railway/xinguang_metro.md)
         * 银月轨道交通
         * 城际铁路
     * 高速公路与城市快速路
