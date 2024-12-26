@@ -56,6 +56,60 @@
   * 幸运方块
     * [主页](resources/lucky_block/README.md)
 
+* 群服务器
+  * [服务器设定](docs/server_settings.md)
+  * [服务器成员信息表](docs/registered_members.md)
+  * 生存 III 档及食用指南
+    * [概述](docs/SurvivalIII/README.md)
+    * [审核规则](docs/audit.md)
+    * 各大发展区域
+      * [新光](docs/SurvivalIII/xinguang/README.md)
+        * [初晓区](docs/SurvivalIII/xinguang/chuxiao_district.md)
+        * [昌兴区](docs/SurvivalIII/xinguang/changxing_district.md)
+        * [浮霞区](docs/SurvivalIII/xinguang/fuxia_district.md)
+        * [沐辉区](docs/SurvivalIII/xinguang/muhui_district.md)
+        * [随明区](docs/SurvivalIII/xinguang/suiming_district.md)
+        * [晨曦区](docs/SurvivalIII/xinguang/chenxi_district.md)
+      * [银月](docs/SurvivalIII/silvermoon/README.md)
+        * [皓月区](docs/SurvivalIII/silvermoon/haoyue_district.md)
+        * [新月区](docs/SurvivalIII/silvermoon/xinyue_district.md)
+        * [沉月区](docs/SurvivalIII/silvermoon/chenyue_district.md)
+        * [金月区](docs/SurvivalIII/silvermoon/jinyue_district.md)
+      * 辰辉
+      * [矿山](docs/SurvivalIII/diggings.md)
+      * [雪原](docs/SurvivalIII/snowfield.md)
+      * [岩沙](docs/SurvivalIII/yansha.md)
+    * 未来建设规划
+      * 新光
+        * 招标公告
+      * 银月
+      * 矿山
+    * 发展区管理条例
+      * [新光管理条例](docs/SurvivalIII/xinguang/xinguang_administrative_regulations.md)
+      * [矿山管理条例](docs/SurvivalIII/diggings_administrative_regulations.md)
+      * [银月管理条例](docs/SurvivalIII/silvermoon/silvermoon_administrative_regulations.md)
+    * 重要工业机器
+      * 猪人塔
+      * 村民交易所
+      * 刷铁机
+      * 火药塔
+      * 刷沙机
+      * [猪灵交易所](docs/SurvivalIII/nether/piglin.md)
+      * [蛙明灯农场](docs/SurvivalIII/nether/froglight.md)
+      * 下界要塞全怪塔
+    * 轨道交通
+      * [下界交通](docs/SurvivalIII/nether/transit.md)
+      * 主世界交通
+        * [总里程](docs/SurvivalIII/railway/mileage.md)
+        * [发展史](docs/SurvivalIII/railway/history.md)
+        * 新光轨道交通
+        * 银月轨道交通
+        * 城际铁路
+    * 高速公路与城市快速路
+      * 新光三环快速路
+      * 光月高速
+
+  
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
   * [下载国际基岩版 Minecraft](docs/urls/mcbe.md)
@@ -85,34 +139,6 @@
 
 * [本群名菜](docs/menu.md)
   * [面基进度](docs/meeting_offline.md)
-
-* [生存 III 档食用指南](docs/SurvivalIII/README.md)
-  * [新光](docs/SurvivalIII/xinguang/README.md)
-    * [新光管理条例](docs/SurvivalIII/xinguang/xinguang_administrative_regulations.md)
-    * [新光 · 初晓区](docs/SurvivalIII/xinguang/chuxiao_district.md)
-    * [新光 · 昌兴区](docs/SurvivalIII/xinguang/changxing_district.md)
-    * [新光 · 浮霞区](docs/SurvivalIII/xinguang/fuxia_district.md)
-    * [新光 · 沐辉区](docs/SurvivalIII/xinguang/muhui_district.md)
-    * [新光 · 随明区](docs/SurvivalIII/xinguang/suiming_district.md)
-    * [新光 · 晨曦区](docs/SurvivalIII/xinguang/chenxi_district.md)
-  * [矿山区域](docs/SurvivalIII/diggings.md)
-    * [矿山管理条例](docs/SurvivalIII/diggings_administrative_regulations.md)
-  * [银月](docs/SurvivalIII/silvermoon/README.md)
-    * [银月管理条例](docs/SurvivalIII/silvermoon/silvermoon_administrative_regulations.md)
-    * [皓月区](haoyue_district.md)
-    * [新月区](xinyue_district.md)
-    * [沉月区](chenyue_district.md)
-    * [金月区](jinyue_district.md)
-  * [雪原](docs/SurvivalIII/snowfield.md)
-  * [岩沙](docs/SurvivalIII/yansha.md)
-  * [下界](docs/SurvivalIII/nether/README.md)
-    * [下界交通](docs/SurvivalIII/nether/transit.md)
-    * [猪灵交易所](docs/SurvivalIII/nether/piglin.md)
-    * [蛙明灯农场](docs/SurvivalIII/nether/froglight.md)
-  * [末地](docs/SurvivalIII/the_end.md)
-  * 服务器铁路专栏
-    * [总里程](docs/SurvivalIII/railway/mileage.md)
-    * [发展史](docs/SurvivalIII/railway/history.md)
 
 * [已归档](archives/README.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
