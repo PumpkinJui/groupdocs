@@ -109,7 +109,6 @@
       * 新光三环快速路
       * 光月高速
 
-  
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
   * [下载国际基岩版 Minecraft](docs/urls/mcbe.md)
@@ -119,10 +118,6 @@
   * [开发用途](docs/urls/develop.md)
   * [大语言模型 (LLM)](docs/urls/llm.md)
   * [下载已发布资源](docs/urls/released_items.md)
-
-* [服务器设定](docs/server_settings.md)
-  * [服务器成员信息表](docs/registered_members.md)
-  * [生存服审核规则](docs/audit.md)
 
 * [HOWTO 指南](docs/howto/README.md)
   * [如何提问](docs/howto/ask_questions.md)
