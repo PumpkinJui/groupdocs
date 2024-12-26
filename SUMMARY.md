@@ -78,32 +78,33 @@
       * 辰辉
       * [矿山](docs/SurvivalIII/diggings.md)
       * [雪原](docs/SurvivalIII/snowfield.md)
-      * [岩沙](docs/SurvivalIII/yansha.md)
     * 未来建设规划
       * [新光](docs/SurvivalIII/future_plan/xinguang.md)
-      * 银月
-      * 矿山
+      * [银月](docs/SurvivalIII/future_plan/silvermoon.md)
+      * [矿山](docs/SurvivalIII/future_plan/diggings.md)
+      * [其他区域](docs/SurvivalIII/future_plan/other_area.md)
     * 发展区管理条例
       * [新光管理条例](docs/SurvivalIII/administrative_regulations/xinguang.md)
       * [矿山管理条例](docs/SurvivalIII/administrative_regulations/diggings.md)
       * [银月管理条例](docs/SurvivalIII/administrative_regulations/silvermoon.md)
     * 重要工业机器
-      * 猪人塔
+      * [猪人塔](docs/SurvivalIII/industries/zombified_piglin_farm.md)
       * 村民交易所
-      * 刷铁机
-      * 火药塔
+      * [刷铁机](docs/SurvivalIII/industries/iron_golem_farm.md)
+      * [火药塔](docs/SurvivalIII/industries/gunpowder_farm.md)
       * 刷沙机
-      * [猪灵交易所](docs/SurvivalIII/nether/piglin.md)
-      * [蛙明灯农场](docs/SurvivalIII/nether/froglight.md)
-      * 下界要塞全怪塔
+      * [女巫塔](docs/SurvivalIII/industries/witch_farm.md)
+      * [猪灵交易所](docs/SurvivalIII/industries/piglin_trading_hall.md)
+      * [蛙明灯农场](docs/SurvivalIII/industries/froglight_farm.md)
+      * [下界要塞全怪塔](docs/SurvivalIII/industries/nether_fortress_farm.md)
     * 轨道交通
-      * [下界交通](docs/SurvivalIII/nether/transit.md)
+      * [下界交通](docs/SurvivalIII/railway_transit/nether.md)
       * 主世界交通
-        * [总里程](docs/SurvivalIII/railway/mileage.md)
-        * [发展史](docs/SurvivalIII/railway/history.md)
-        * [新光轨道交通](docs/SurvivalIII/railway/xinguang_metro.md)
-        * 银月轨道交通
-        * 城际铁路
+        * [总里程](docs/SurvivalIII/railway_transit/mileage.md)
+        * [发展史](docs/SurvivalIII/railway_transit/history.md)
+        * [新光轨道交通](docs/SurvivalIII/railway_transit/xinguang.md)
+        * [银月轨道交通](docs/SurvivalIII/railway_transit/silvermoon.md)
+        * [城际铁路](docs/SurvivalIII/railway_transit/intercity.md)
     * 高速公路与城市快速路
       * 新光三环快速路
       * 光月高速
