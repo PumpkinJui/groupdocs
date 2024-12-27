@@ -2,7 +2,7 @@
 
 * [起始页](README.md)
 
-* [最新群公告](anno/latest/121502.md)
+* [最新群公告](anno/latest/README.md)
 
 * [公告模板](anno/template.md)
 
