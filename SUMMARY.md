@@ -135,6 +135,8 @@
 * [本群名菜](docs/menu.md)
   * [面基进度](docs/meeting_offline.md)
 
+* [群公告档案🔗](https://anno.groupdocs.pages.dev/)
+
 * [已归档](archives/README.md)
   * [解决「您无法登录 Xbox Live」](archives/unable_to_sign_in_to_xbox_live_solution.md)
   * [2023 年，我们是如何应对端口扫描的](archives/2023_port_scanning_solution.md)
