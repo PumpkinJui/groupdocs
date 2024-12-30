@@ -30,7 +30,7 @@
 
 目前，服务器共安装了四个资源包 (Resource Pack)。它们分别是：
 
-- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn) 1.21.0
+- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn) 1.21.50
 - [All Trades Visible](https://bedrocktweaks.net/resource-packs/) (原资源包为该网页 GUI 选项的 Trading Helper 资源包)
 - [Colorful Containers](https://mcpedl.com/colourful-containers-bedrock-pack-1) v4.1
 - Force Mojangles v2
@@ -51,4 +51,4 @@
 >
 > 3. 分享方已购买免登录流量包的资源不受此限制。~~*没钱买*~~
 
-群成员 @小飞侠 自行将生存服的存档搬运到 [OneDrive](https://tang07-my.sharepoint.com/:f:/g/personal/admin_tang07_onmicrosoft_com/Eta9C-_nxlpEocOOYD2hrVsB0zYrE6cIssB9MMer1py5fw?e=ceJxma) 作为备用下载通道，以方便下载。[文件中的校验码是什么？](../howto/hashfile.md)
+群成员 @小飞侠 自行将生存服的存档搬运到「[OneDrive](https://tang07-my.sharepoint.com/:f:/g/personal/admin_tang07_onmicrosoft_com/Eta9C-_nxlpEocOOYD2hrVsB0zYrE6cIssB9MMer1py5fw?e=ceJxma)」作为备用下载通道，以方便下载。[文件中的校验码是什么？](../howto/hashfile.md)
