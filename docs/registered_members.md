@@ -78,7 +78,7 @@
 | 小鸟 | lovebirdsvvv | ✔ | 白色陶瓦<br>— | ✔ |  |
 | 十三酱 | L52th<br>Rss and L53 | ✔<br>✔ | 红砂岩<br>§c | ✔ | 贡献大 |
 | 命令君 | CBerJun | ✘ | 砂轮<br>§r§o§6 | ✔ |  |
-| 书豪 | Ustiniana1641 | ✔ | 末地烛<br>— | ✔ | 贡献较大 |
+| 书豪 | Ustiniana1641<br>xiangshuijiao7X | ✔<br>✔ | 末地烛<br>— | ✔ | 贡献较大 |
 | 辉金 | huijinya520 | ✔ | 金粒<br>§l§6 | ✔ | 考核前进服 |
 | 蘑菇 | xRprncQ | ✔ | 羽毛<br>— | ✔ | 考核前进服 |
 | 浮纸 | FloatPaper3972 | ✘ | 石英块<br>— | ✔ |  |
