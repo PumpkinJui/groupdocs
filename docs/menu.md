@@ -1,19 +1,5 @@
 # 本群名菜
 
-<!-- markdownlint-disable MD033 -->
-
-<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
-<script type="text/javascript">
-var player = new DogePlayer({
-    container: document.getElementById('player_ad7fbb01c7eb11dd'),
-    userId: 2159,
-    vcode: 'ad7fbb01c7eb11dd',
-    autoPlay: false
-});
-</script>
-
-<!-- markdownlint-restore -->
-
 ## 招牌菜
 
 - 粉蒸**量筒**
@@ -141,13 +127,23 @@ var player = new DogePlayer({
 
 #### 正片（看不到请多刷新几遍）
 
-<div id="player_ad7fbb01c7eb11dd"></div> <!-- markdownlint-disable-line MD033 -->
+<!-- markdownlint-disable MD033 -->
+
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_ad7fbb01c7eb11dd'),
+    userId: 2159,
+    vcode: 'ad7fbb01c7eb11dd',
+    autoPlay: false
+});
+</script>
+
+<div id="player_ad7fbb01c7eb11dd"></div>
 
 #### 纯享版
 
 ![粉蒸量筒纯享版](../assets/menu/fenzhenglt_pure.gif)
-
-<!-- markdownlint-disable MD033 -->
 
 <video controls width="100%">
 <source src="../assets/menu/fenzhenglt_pure.mp4" type="video/mp4">
