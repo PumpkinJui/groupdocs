@@ -57,6 +57,7 @@
 | 蒙德人 | Tuffy2020China | ✔ | 苹果<br>§r§l§k | ✔ | |
 | 文雨 | KrisWenYu | ✔ | 海晶碎片<br>— | ✔ | |
 | lanos | lanos212 | ✔ | —<br>— | ❔ | |
+| 比翼鸟 | KianaKaslana947<br>RaidenMei947 | ✔<br>✔ | 末地水晶<br>§d | ✔ |  |
 | 晨风 | ChenfengAB | ✘ | —<br>— | ✘ | |
 
 ## 普通成员
@@ -83,7 +84,6 @@
 | 蘑菇 | xRprncQ | ✔ | 羽毛<br>— | ✔ | 考核前进服 |
 | 浮纸 | FloatPaper3972 | ✘ | 石英块<br>— | ✔ |  |
 | 菜鸡蛛 | yzcjzqwq | ✘ | 蜘蛛眼<br>— | ✔ |  |
-| 比翼鸟 | KianaKaslana947<br>RaidenMei947 | ✔<br>✔ | 末地水晶<br>§d | ✔ | 贡献大 |
 | 宽判 | kuanpan 9527<br>ADOFAI7bg | ✔<br>✔ | 红石矿石<br>— | ✔ | 贡献较大 |
 | 麦热 | havefuningame07 | ✔ | 铁剑<br>— | ✔ | 考核前进服 |
 | E尘 | E1cheng | ✘ | —<br>— | ✘ |  |
