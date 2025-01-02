@@ -1,19 +1,5 @@
 # 本群名菜
 
-<!-- markdownlint-disable MD033 -->
-
-<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
-<script type="text/javascript">
-var player = new DogePlayer({
-    container: document.getElementById('player_ad7fbb01c7eb11dd'),
-    userId: 2159,
-    vcode: 'ad7fbb01c7eb11dd',
-    autoPlay: false
-});
-</script>
-
-<!-- markdownlint-restore -->
-
 ## 招牌菜
 
 - 粉蒸**量筒**
@@ -141,13 +127,23 @@ var player = new DogePlayer({
 
 #### 正片（看不到请多刷新几遍）
 
-<div id="player_ad7fbb01c7eb11dd"></div> <!-- markdownlint-disable-line MD033 -->
+<!-- markdownlint-disable MD033 -->
+
+<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
+<script type="text/javascript">
+var player = new DogePlayer({
+    container: document.getElementById('player_ad7fbb01c7eb11dd'),
+    userId: 2159,
+    vcode: 'ad7fbb01c7eb11dd',
+    autoPlay: false
+});
+</script>
+
+<div id="player_ad7fbb01c7eb11dd"></div>
 
 #### 纯享版
 
 ![粉蒸量筒纯享版](../assets/menu/fenzhenglt_pure.gif)
-
-<!-- markdownlint-disable MD033 -->
 
 <video controls width="100%">
 <source src="../assets/menu/fenzhenglt_pure.mp4" type="video/mp4">
@@ -212,6 +208,20 @@ var player = new DogePlayer({
   我来看看  
   哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈  
   新鲜热乎的量筒粉，蒸了
+
+#### 后后续
+
+同年 11 月底，鸽子和南瓜面基。南瓜将剩下三只量筒中的两只交给鸽子，一只由鸽子交给绿叶，一只由鸽子自留。
+
+鸽子害怕暴力托运把量筒弄碎了，就将量筒包进自己的厚衣服中再放进行李箱。
+
+但她突然又担心：「希望别是托运的时候没碎，回到寝室忘了有这回事，(直接拿起衣服) 夸的一下把量筒摔地上了。」
+
+您猜怎么着？一语成谶。
+
+![碎量筒](../assets/menu/broken_lt.jpg)
+
+(所幸另外一只没受到迫害。)
 
 ### 五量叶
 
