@@ -7,7 +7,7 @@
 - [@YZBWDLT](https://github.com/YZBWDLT) (量筒，仓库协作者，群主)
 - [@PigeonKI](https://github.com/PigeonKI) (鸽子，仓库协作者，群管理员)
 - [@hues-dimwit-0r](https://github.com/hues-dimwit-0r) (祉语，仓库协作者，群管理员)
-- [@UsamiRenko04](https://github.com/UsamiRenko04) (比翼鸟，仓库协作者)
+- [@UsamiRenko04](https://github.com/UsamiRenko04) (比翼鸟，仓库协作者，群管理员)
 - [@Xiaofeixia2008](https://github.com/Xiaofeixia2008) (小飞侠，仓库协作者)
 
 ## 托管
