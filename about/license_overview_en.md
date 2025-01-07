@@ -4,7 +4,7 @@
 
 ## Text Content
 
-Copyright (c) 2019-2024 YZBWDLT Test Group. Content on this site is, otherwise noted, licensed under CC-BY-4.0; additional terms may apply.
+Copyright (c) 2019-2025 YZBWDLT Test Group. Content on this site is, otherwise noted, licensed under CC-BY-4.0; additional terms may apply.
 
 Please check the license information at [the GitHub repo of this site](https://github.com/PumpkinJui/groupdocs/blob/main/LICENSE) or [the official website of Creative Commons](https://creativecommons.org/licenses/by/4.0/deed.en).
 
