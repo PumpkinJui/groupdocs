@@ -61,7 +61,6 @@
     * [强制 Mojangles 字体 文档](resources/map_template//force_mojangles.md)
     * [自定义音效 文档](resources/map_template//custom_sound.md)
 
-
 * 群服务器
   * [服务器设定](docs/server_settings.md)
   * [服务器成员信息表](docs/registered_members.md)
