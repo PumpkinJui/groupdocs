@@ -45,13 +45,13 @@
 
 | 称呼 | XboxID | 生存服白名单 | 代表物<br>颜色代码 | 成员墙<br>状态 | 备注 |
 | :---: | :---: | :---: | :---: | :---: | --- |
-| 量筒 | YZBWDLT | ✔ | 玻璃瓶<br>§r§l§b | ✔ | 拥有开发 I 服白名单 |
+| 量筒 | YZBWDLT | ✔ | 玻璃瓶<br>§r§l§b | ✔ | |
 | 巴豆 | Andy7343<br>ContactHail8525 | ✔<br>✔ | 可可豆<br>§r§c | ✔ | |
-| 祉语 | xhduoduobaby | ✘ | 橙色染色玻璃<br>§r§6 | ✔ | |
-| 南瓜汁 | PumpkinJui | ✔ | 蜂蜜瓶<br>§r§l§6 | ✔ | |
-| 鸽子 | PigeonKI | ✔ | 熟鸡肉<br>§f§l | ✔ | |
+| 祉语 | xhduoduobaby | ✘ | 橙色染色玻璃<br>§r§6 | ✔ | 荣誉管理；服务器实际提供者 |
+| 南瓜汁 | PumpkinJui | ✔ | 蜂蜜瓶<br>§r§l§6 | ✔ | （大号）不在大群 |
+| 鸽子 | PigeonKI | ✔ | 熟鸡肉<br>§f§l | ✔ | 不在大群 |
 | 地雷 | Peroxide07122 | ✔ | TNT<br>— | ❔ | |
-| 绿叶 | GreeLeaf | ✔ | 绿色染料<br>§a | ✔ | |
+| 绿叶 | GreeLeaf | ✔ | 绿色染料<br>§a | ✔ | 荣誉管理 |
 | 小鼠 | xiaoshu512 | ✔ | 附魔金胸甲<br>§r§l§e | ✔ | |
 | 火卫三 | IBukreev | ✔ | 红色旗帜 (左黄斜条，红色右下三角，<br>左顶红方，黄色 Mojang 徽标，顶红三角)<br>§l§c | ✔ | |
 | 蒙德人 | Tuffy2020China | ✔ | 苹果<br>§r§l§k | ✔ | |
@@ -130,6 +130,7 @@
 | laolu | laolu444222 | ✔ | —<br>— | ❔ | |
 | 白洲梓 | bai zhou zi5631 | ✔ | —<br>— | ❔ | |
 | 老中医 | The star520 | ✔ | —<br>— | ❔ | |
+| 条形马 | QRnobelly | ✔ | 皮革<br>— | ❔ | |
 
 ## 离群成员 (未违规)
 
@@ -164,4 +165,5 @@
 | 光之子 | AdroitMallard14 | 5 | 在生存服中作弊 | |
 | De<br><br>JA | Demonioron<br>Demoniort<br>Adiosdem | 5 | 多次出言不逊<br>散播谣言<br>隐瞒身份<br>鼓吹北境高度自治<br>辱骂晨风<br>…… | **严厉谴责五档开小号进群的卑劣无耻行为！** |
 | 小 H | Halshtain | 1 | 以不当言论攻击其他群员 | |
-| 帕 | Hfpa0117 | 5 | 长期频繁在群内发表消极言论 | |
+| 帕 | Hfpa0117 | 5 | 长期频繁在群内发表消极言论 | 重度抑郁症与重度焦虑症患者 |
+| 颜某 | aaaaaaaa1231407 | 5 | 发表疑似反动言论 | 未进入过生存服 |
