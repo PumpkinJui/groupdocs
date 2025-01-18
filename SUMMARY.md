@@ -7,30 +7,45 @@
 * [群规](docs/rules.md)
 
 * 群资源
-  * 30 种死法
-    * [主页](resources/wstd/README.md)
-    * [更新日志](resources/wstd/update_log.md)
-  * 30 种死法 2
-    * [主页](resources/wstd2/README.md)
-    * [V2.0](resources/wstd2/2_0.md)
-    * [V2.1](resources/wstd2/2_1.md)
-    * [V2.2](resources/wstd2/2_2.md)
-    * [2.3](resources/wstd2/2_3.md)
-    * [2.4](resources/wstd2/2_4.md)
-  * [开发中]冒险世界：筑梦
-    * [主页](resources/aw5/README.md)
-    * [漏洞与建议反馈](resources/aw5/bugs.md)
-    * [制作人表](resources/aw5/credits.md)
-    * [更新日志](resources/aw5/update_log.md)
-  * 炸翻它
-    * [主页](resources/blow_it_up/README.md)
-  * 冒险小世界：剑之试炼
-    * [主页](resources/adventure_world_4/README.md)
-    * [4.0](resources/adventure_world_4/4_0.md)
-    * [4.1](resources/adventure_world_4/4_1.md)
-  * [开发中]起床战争
-    * [主页](resources/bedwars/README.md)
-    * [1.0](resources/bedwars/1_0.md)
+  * 开发中
+    * 冒险世界：筑梦
+      * [主页](resources/aw5/README.md)
+      * [漏洞与建议反馈](resources/aw5/bugs.md)
+      * [制作人表](resources/aw5/credits.md)
+      * [更新日志](resources/aw5/update_log.md)
+    * 量筒的起床战争
+      * [主页](resources/bedwars/README.md)
+      * [1.0](resources/bedwars/1_0.md)
+  * 有后续更新计划
+    * 【必玩】冒险小世界：剑之试炼
+      * [主页](resources/adventure_world_4/README.md)
+      * [4.0](resources/adventure_world_4/4_0.md)
+      * [4.1](resources/adventure_world_4/4_1.md)
+    * 【必玩】冒险世界
+      * [主页](resources/aw/README.md)
+  * 已停更
+    * 【必玩】30 种死法
+      * [主页](resources/wstd/README.md)
+      * [更新日志](resources/wstd/update_log.md)
+    * 【必玩】30 种死法 2
+      * [主页](resources/wstd2/README.md)
+      * [V2.0](resources/wstd2/2_0.md)
+      * [V2.1](resources/wstd2/2_1.md)
+      * [V2.2](resources/wstd2/2_2.md)
+      * [2.3](resources/wstd2/2_3.md)
+      * [2.4](resources/wstd2/2_4.md)
+    * 【必玩】Minecraft Picross
+      * [主页](resources/picross/README.md)
+    * 炸翻它
+      * [主页](resources/blow_it_up/README.md)
+    * 2020 年 Minecraft 水平考试
+      * [主页](resources/mc_test_2020/README.md)
+    * 2021 年 Minecraft 水平考试
+      * [主页](resources/mc_test_2021/README.md)
+    * 幸运方块
+      * [主页](resources/lucky_block/README.md)
+    * 回溯 Backdate III
+      * [主页](resources/backdate_3/README.md)
   * 开发模板
     * [主页](resources/map_template/README.md)
     * [标记实体与文本展示实体 文档](resources/map_template//marker_and_test_display.md)
@@ -45,16 +60,7 @@
     * [玩家血量监控 文档](resources/map_template/health_controller.md)
     * [强制 Mojangles 字体 文档](resources/map_template//force_mojangles.md)
     * [自定义音效 文档](resources/map_template//custom_sound.md)
-  * 冒险世界
-    * [主页](resources/aw/README.md)
-  * 回溯 Backdate III
-    * [主页](resources/backdate_3/README.md)
-  * 2020 年 Minecraft 水平考试
-    * [主页](resources/mc_test_2020/README.md)
-  * 2021 年 Minecraft 水平考试
-    * [主页](resources/mc_test_2021/README.md)
-  * 幸运方块
-    * [主页](resources/lucky_block/README.md)
+
 
 * 群服务器
   * [服务器设定](docs/server_settings.md)
@@ -107,7 +113,9 @@
         * [城际铁路](docs/SurvivalIII/railway_transit/intercity.md)
     * 高速公路与城市快速路
       * 新光三环快速路
+      * 新光环城高速（四环）
       * 光月高速
+      * 光雪高速
 
 * [网址大全](docs/urls/README.md)
   * [常用网址](docs/urls/frequently_used.md)
