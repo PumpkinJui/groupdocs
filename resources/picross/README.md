@@ -1,8 +1,10 @@
 # Minecraft Picross
 
-本地图以数织为基础玩法制作，集合超过 100+ 个图案可供绘画。作者**狂野巴豆**。
+> **提示**  
+  该地图已经停更，不再接受任何非必要的漏洞反馈。  
+  停更时间 2025 年 1 月，停更版本 1.0（基于基岩版 1.20.10）。
 
-本地图**已停更**。已发布于多个平台。
+Minecraft Picross是一张以数织为基础玩法制作的地图，集合超过 100+ 个图案可供绘画。作者**狂野巴豆**。该地图已发布于多个平台。
 
 ---
 
@@ -25,7 +27,7 @@
 - [KLPBBS](https://klpbbs.com/thread-154669-1-7.html)
 - [MineBBS](https://www.minebbs.com/resources/1-20-10-minecraft-picross.10233/)
 - [TITAIKE](https://www.titaike.cn/6056.html) 
-- 中国版资源中心（名 **Picross益智解谜**）
+- 中国版资源中心 *（地图名：Picross 益智解谜）*
 
 ---
 
