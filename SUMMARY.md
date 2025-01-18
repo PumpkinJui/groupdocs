@@ -15,7 +15,9 @@
       * [更新日志](resources/aw5/update_log.md)
     * 量筒的起床战争
       * [主页](resources/bedwars/README.md)
-      * [1.0](resources/bedwars/1_0.md)
+      * [漏洞与建议反馈](resources/bedwars/bugs.md)
+      * [制作人表](resources/bedwars/credits.md)
+      * [更新日志](resources/bedwars/update_log.md)
   * 有后续更新计划
     * 【必玩】冒险小世界：剑之试炼
       * [主页](resources/adventure_world_4/README.md)
