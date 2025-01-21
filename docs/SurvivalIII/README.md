@@ -45,5 +45,4 @@
 
 另外，群成员 @小飞侠 自行将生存服的存档搬运到他的「[OneDrive](https://tang07-my.sharepoint.com/:f:/g/personal/admin_tang07_onmicrosoft_com/Eta9C-_nxlpEocOOYD2hrVsB0zYrE6cIssB9MMer1py5fw?e=ceJxma)」作为备用下载通道。[文件中的校验码是什么？](../howto/hashfile.md)
 
-> 123 云盘下载策略调整，在下载大文件时有极大可能会弹出要求登录或者付费的弹窗。  
-  更多详情请看群文档[这篇文章](../urls/mcbe.md)中的「关于 123 云盘」一节。
+> 123 云盘下载策略调整，在下载大文件时有极大可能会弹出要求登录或者付费的弹窗。更多详情请看群文档[这篇文章](../urls/mcbe.md)中的「关于 123 云盘」一节。
