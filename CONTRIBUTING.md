@@ -103,9 +103,11 @@ git config --global alias.autopull "pull --rebase --autostash"
 
 ### 迁移
 
-我们已经敲定，将会在 2025 年 12 月 31 日前，从 GitBook 迁移到 [Docusaurus](https://docusaurus.io/)。你可以在[此页面](https://tutorial.docusaurus.io/)预览迁移后的页面效果。
+我们已经敲定，将会在 2025 年 12 月 31 日前，从 GitBook 迁移到 [Docusaurus](https://docusaurus.io/)。
 
-此方案已被仓库所有者批准，不再接受反对意见。你可以提出更多建议来帮助完善此计划。
+你可以在[此页面](https://tutorial.docusaurus.io/)预览迁移后的页面效果。迁移正在[群文档分支](https://v2_test.groupdocs.pages.dev/)进行。
+
+此方案代号为「小恐龙」，取自上方第一个预览页面中的「Dinosaurs are cool」。也用「小恐龙」代称 Docusaurus。
 
 ### 目录结构
 
