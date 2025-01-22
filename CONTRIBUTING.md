@@ -1,83 +1,227 @@
-# 如何作出贡献
+# 群文档编辑指南
 
-可以通过多种方法向群文档作出贡献，取决于你有多么积极。
+作为被移除内容的补充：协作者以外的各位，可以在群内或 GitHub 上提出建议；如有意愿获取编辑权限，请联系 @PumpkinJui，并阐述你获取权限的理由。
 
-## 不太积极——直接使用群文档
+## 关于本文档及核心概念
 
-这没关系，仅仅使用群文档，让我们知道写这些东西有用有人看也足够了。  
-~~*毕竟有很多人压根不看，只会在群里提问。*~~
+本文档用于规范群文档编辑的细枝末节，并对编辑提出指导，旨在使群文档风格高度一致化。本页面中的所有条目均被称为「规范」。
 
-## 积极——[Issues](https://github.com/PumpkinJui/groupdocs/issues) 提出建议
+根据国家标准的分类，我们将规范分为以下三个等级 (tier)：
 
-如认为群文档需要作出修改，请在群内向管理员提出建议，或发 Issues。修改包括但不限于：
+1. **强制性**：必须遵守的规范。如果不遵守，可能会对群文档产生较大程度的破坏；相关修改会被处理，严重的可以暂停或剥夺协作者权限。
+2. **推荐性**：应当遵守的规范。如果不遵守，可能会对群文档产生一定程度的破坏；相关修改可能会被处理。
+3. **指导性**：建议遵守的规范。不遵守也不会发生什么事，但是为了整体效果，最好遵守一下。
 
-- 群文档存在错误
-- 群文档存在过时内容
-- 群文档有所缺漏
+这里的「处理」，包括但不限于撤销更改、进一步更改、rebase 等。
 
-由于管理们时常不看大群 (别问为什么)，临时会话（QQ 功能，相当于不用加好友的私聊）和 Issues 也许是更好的方式。  
-建议有 GitHub 账号的群成员优先使用 Issues。
+如无说明，所有规范在非关键页面均为**指导性**，在关键页面均为**推荐性**。相应说明会在相应块的第一行使用粗体指出。
 
-### 如何使用 Issues 功能
+关键页面包括：
 
-- 登录你的 GitHub 账号。
-- 前往 [Issues 创建页面](https://github.com/PumpkinJui/groupdocs/issues)。
-- 详细清晰地描述群文档哪里需要作出修改。务必指明哪一篇文档的哪一块内容需要做出修改。
-- 点文本框下面的绿色按钮以创建一个 Issue。
+- 所有 README 页面
+- 群文档根目录下的页面
+- docs/ 根目录下的页面
 
-## 更加积极——[Pull Requests](https://github.com/PumpkinJui/groupdocs/pulls) 作出修改
+作为外部资料，[MCW 格式指导](https://zh.minecraft.wiki/w/Minecraft_Wiki:STYLE) 为推荐性规范。
 
-如果你想亲自动手修改，那再好不过了。但请注意，修改时请遵守[群文档编辑指南](about/editing_guide.md)。
+## 关于 Git 和 GitHub
 
-### 如何使用 Pull Requests 功能
+### 协作者须知 (强制性规范)
 
-- 登录你的 GitHub 账号。
-- 前往[群文档 GitHub 仓库页面](https://github.com/PumpkinJui/groupdocs)。
+**以下内容为强制性规范。**
 
-#### Fork
+无法访问 GitHub？请参阅[这里](../docs/howto/access_github.md)。但是要注意……
 
-如果你已经进行过这步了，可以跳过。
+如无特殊情况，***禁止使用 GitHub 网页版进行大量编辑！！！***
 
-- 点击 Fork，Owner 选择自己的账号，Copy the DEFAULT branch only 打勾。
-- 点击 Create fork。你的账号下将多出一个名为 `groupdocs` 的仓库。
+这里的大量编辑指的是**单次修改单个文件**以外的编辑，也即会在网页端产生多于一个 commit 的编辑。
 
-#### 编辑
+GitHub 网页版访问缓慢，一次只能修改一个文件，且难以修改文件目录结构，严重影响 commit 列表的可读性！
 
-- 如果你之前参与过修改，请先将两仓库同步。转到你账号下的 `groupdocs` 仓库主页面，点击页面上方的 Sync fork，然后点击 Update branch。(如果你刚刚进行过 Fork，可以跳过这步。)
-- 在此仓库内进行编辑。
+推荐使用 [Git](https://git-scm.com/downloads) 进行编辑。[GitHub 桌面版客户端](https://github.com/apps/desktop)和 [Visual Studio Code](https://code.visualstudio.com/) 亦可作为替代。
 
-#### Pull Requests
+### 使用 Git
 
-- 所有修改完成后，转到你账号下的 `groupdocs` 仓库主页面下。
-- 点击页面上方的 Contribute，然后点击 Open a pull request。
-- 填入标题和说明内容，说明内容可选。
-- 点击 Create pull request。Collaborators 会收到邮件通知，但鉴于可能不看邮箱，也请在 QQ 群内告知管理员。
-- 等待该 Pull Request 被 Merge。
+关于 Git 的使用，请参考以下文档：
 
-#### 给你和我省事
+- [Git Documentation (官方)](https://git-scm.com/docs/)
+- [廖雪峰的 Git 教程 (推荐)](https://liaoxuefeng.com/books/git/)
 
-- 务必在编辑前同步仓库。
-- 对于我明显已经命名过的文件，不要修改其名称。  
-  尤其是对于被引用的图片。不要老是改图片名称！如果你想更新这些图片，请把你更新后的图片改成我这里用的名称后再上传。
+### 关于 pull
 
-## 非常积极——Collaborators 直接修改
+以下内容为**推荐性规范**。
 
-无须 Pull Requests 对群文档直接修改的权限，目前仅对管理员开放。原因包括但不限于：
+这篇文章正文和评论区的内容，对于 commit 列表维护具有很高的使用价值，请通读。
 
-- GitHub 的 Collaborators 权限是整库修改权限，不可细化
-- 群文档难维护但容易破坏，可修复但难度较大（至少对负责维护的 Git 菜鸡们来说）
+- [从「原子化」提交到妙用 rebase，一次搞定清爽的 Git 提交记录](https://sspai.com/post/95404)
 
-如果这打消了你的积极性，十分抱歉。但我们不能冒这个险，至少我不能接受。
+提要：
 
-## 参考
+- 每个 commit 只做一个任务；
+- 在不改动远程端 commit 列表的前提下，使用 rebase 制造干净的 commit 列表。
 
-本文并未涉及 Git 操作。如果你使用 Git，请阅读下方的参考文档。
+对于长久以来的 pull 问题，现有的最佳解决方案是在 commit 前进行一次 pull。在 VSC 中，应当有一个选项叫作「Sync」，就是 pull + push。
 
-如果你看不懂 (尤其是 Pull Requests 那段)，很有可能不是你的问题，而是我没写清楚。在此情况下，请阅读下方的参考文档。
+次佳解决方案，是在 pull 时设置 `--rebase`：
 
-链接为 GitHub 中文文档。将链接中 `github.com/` 后的 `zh` 改为 `en` 可阅读英文文档。
+```shell
+git pull --rebase
+```
 
-*看懂了务必回来帮忙改改这篇（逃* <!-- markdownlint-disable-line MD036 -->
+这会在远程与本地在同一分支上分叉 (远程有本地没有的修改，本地也有远程没有的修改，进而 push & pull 都动不了) 时，通过 pull 将本地修改「变基」到远程修改以后 (这样就能 push 了)，从而让所有人都满意。
 
-- [参与项目 - GitHub 文档](https://docs.github.com/zh/get-started/exploring-projects-on-github/contributing-to-a-project)
-- [协作处理拉取请求 - GitHub 文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests)
+如果需要设为全局默认操作，可以使用以下命令：
+
+```shell
+git config --global pull.rebase true
+```
+
+在此以后，直接执行 `git pull` 便相当于 `git pull --rebase`。
+
+这会带来一个问题：如果有未提交的修改，将会无法执行 pull。此时，可以在以上基础上增加 `--autostash`，或者 (反正搞了这么多就是为了这个) 先进行 commit，再 pull。
+
+对于前者，鉴于这实在太长，可以使用 Git 别名来完成以上所有，且无须将 rebase 设为默认操作：
+
+```shell
+git config --global alias.autopull "pull --rebase --autostash"
+```
+
+在此以后，执行 `git autopull` 即相当于 `git pull --rebase --autostash`。你也可以通过更改命令改成任何你喜欢的名字。
+
+### 关于分支
+
+分支是一个良好的测试工具，所属的内容将会在推送后部署在 `https://{branch}.groupdocs.pages.dev`。
+
+**以下内容为强制性规范。**
+
+以下分支含有永久内容，是群文档的不同部分，**禁止删除或互相合并**：
+
+- main
+- anno
+
+## 关于 GitBook
+
+### 迁移
+
+我们已经敲定，将会在 2025 年 12 月 31 日前，从 GitBook 迁移到 [Docusaurus](https://docusaurus.io/)。你可以在[此页面](https://tutorial.docusaurus.io/)预览迁移后的页面效果。
+
+此方案已被仓库所有者批准，不再接受反对意见。你可以提出更多建议来帮助完善此计划。
+
+### 目录结构
+
+可以在以下两非官方文档中了解 GitBook 的目录结构：
+
+- [GitBook 文档（中文版） by chrisniael](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
+- [GitBook 文档 by zhaowenyu](https://www.zhaowenyu.com/gitbook-doc/)
+
+需要注意的是，两份文档均久未更新；由于 `gitbook-cli` 亦久未更新，其中大部分内容可以参考，但某些关于 `GitBook.com` 一类的内容则可能已经过时。  
+另外，两份文档的访问速度可能较慢，如遇加载不出，请耐心等待。
+
+### MarkDown 语法
+
+GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec](https://github.github.com/gfm/))，但又与之不尽相同。你可以在 [Markdown](../archives/markdown.md) 中查看官方说明。  
+部分原因是，说明原文在 GitHub 上的最后一次编辑位于 16/03/17，这意味着 `gitbook-cli` 的 MarkDown 语法，在此之后再未发生过变化；而最新版 GFM (0.29-gfm) 更新于 19/04/06。
+
+### 搭建测试
+
+群文档内有 GitBook-cli 环境配置教程，分 [Windows](../docs/howto/gitbook_windows.md) 和 [Termux](../docs/howto/gitbook_termux.md) 两个版本。
+
+## markdownlint
+
+以下内容为**推荐性规范**。
+
+群文档中的文件，一般不得在已有配置下，在 [markdownlint](https://github.com/DavidAnson/markdownlint/) 中检出错误。  
+如确实需要，应在相应文本块前禁用 markdownlint 的相应规则，并在该文本块后重新启用 (操作方式见官方说明)。  
+禁用规则，应在简便的前提下最小化范围。
+
+已有配置位于[群文档根目录](https://github.com/PumpkinJui/groupdocs/blob/main/.markdownlint.json)。
+
+部分不作格式规范、无须遵守此条标准的文件及文件夹如下，以仓库根目录为相对路径：
+
+- 文件夹：node_modules
+- 文件夹：resources
+- 文 件：archives/markdown.md
+
+在群文档根目录，也有一个 [Linux 脚本](https://github.com/PumpkinJui/groupdocs/blob/main/mdl.sh) 专用于检查。
+
+## 关于 AI
+
+**以下内容为强制性规范。**
+
+我们已经了解 AI 在当下的实用程度。但为了群文档的整体质量，我们**不允许直接粘贴 AI 的输出**而不进行修改或测试。
+
+直接粘贴是省事和不负责任的举动。最起码，这些输出应当被仔细阅读或实际测试，并对其中过时或不合适的内容进行修改。
+
+对于来自 AI 的内容，除非有特殊情况，否则应当做出来源标注，说明哪部分来自什么 AI 模型。
+
+## 盘古之白
+
+### 何谓「盘古之白」？
+
+摘自[给你的 Markdown 挑挑刺——语法检查器入门与进阶 | 少数派](https://sspai.com/prime/story/markdown-linter-a-primer)：
+
+> 中英文之间加入空隙，是为了实现视觉上的区隔，更加美观和易读。理想情况下，这种「空隙」应当由排版引擎自动加入，宽度宜为 1/4 个全角空格（em）。但由于数字排版环境复杂多变，在大多数时候（包括最常见的网页环境）不能指望排版引擎有这种能力，因此只能退而求其次，手动插入一个半角空格（因其宽度通常接近于 1/4 em），达到类似效果。
+
+### 什么时候添加「盘古之白」？
+
+基本按[此博客文章](https://blog.xiaoquankong.ai/zh/posts/chinese-document-typesetting-specification-spacing-of-pangu/)进行处理。例外情况如下：
+
+- 链接以中文形式显示时无需添加盘古之白，如「一个[示例](https://example.com)网站」。但「一个 [example](https://example.com) 网站」仍需要。
+- 对于 @，如果是借助该符号提及某个成员，则应当将 `@xxx` 作为一个整体添加盘古之白，即使该成员使用中文昵称；其他情况下单独为 `@` 添加盘古之白。
+- 在 GitHub 上，一些文字效果在没有盘古之白时不会正常生效。准确地说，其实是没有*空格*时。如删除线 `~~`、斜体 `*`、粗体 `**` 或这几种混用，在其中一端或两端临近标点符号时，会有非常奇怪的渲染方式，有时无法正常渲染出文字效果。*GitBook 渲染不受此影响，但为了便于兼容还是建议加上。*
+- 在 MarkDown 语法中，一些文字效果在*有*盘古之白时不会正常生效。如斜体 `*` 和粗体 `**` 所包裹的文字内侧如有盘古之白，则会显示为星号，而不是产生斜体或粗体效果。
+
+## 直角引号
+
+为避免引号的「弯与直」和「中文还是英文」等问题，推荐使用直角引号。
+
+- 「弯与直」：弯引号 `“”‘’` 与直引号 `"'` 之争。它们的码位按顺序分别为：`U201C U201D U2018 U2019 U0022 U0027`。
+- 「中文还是英文」：引号是中文符号还是英文符号之争。影响「盘古之白」的添加。
+- 「盘古之白」：难以判断是否应添加「盘古之白」，因为某些字体会把弯引号渲染为半角效果，某些则是全角。
+
+直角引号为 `「」`，码位为 `U300C U300D`。
+
+## 括号
+
+有两种括号可以使用：
+
+- 全角括号 `（）`，码位为 `UFF08 UFF09`。
+- 半角括号 `()`，码位为 `U0028 U0029`。
+
+对括号的使用不作要求，凭个人喜好决定；但半角括号需注意适配盘古之白。
+
+## 引用 (群成员)
+
+在一篇文章中的第一次出现，使用 `@{成员昵称}` 引用。此后仅使用成员昵称。
+
+对于前者，应当将作为一个整体添加盘古之白，即使该成员使用中文昵称；同时也可以作为一个整体加粗，即 `**@{成员昵称}**`。后者按一般情况添加盘古之白即可，且一般不予加粗。
+
+## 引用 (对群文档其他内容的引用、图片插入等)
+
+请尽量使用 MarkDown 格式 `[描述](链接)` 及 `![描述](图片链接)`。**请务必填写描述内容。**
+
+引用互联网文章时，请写全网址 (包含 `https://`)。如网页支持，请填写 HTTPS 而非 HTTP。
+
+在链接位置填写文件（相对）路径，可实现对群文档其他文件的引用。
+
+需要注意，填写文件路径时**不可填写绝对路径**！如果路径以某个盘符或者 `/` 开始，那就是绝对路径。这样的路径在你的设备上可能运行良好，**但无法被其他设备及服务器识别！**
+
+引用图片时，请将图片以最高清晰度下载，移动至群文档的 assets 目录下，按照对应文档名重命名后，使用文件路径进行引用。相同用途的图片应当只有一个名称，不要因为图片内容更新 (比如地铁图) 就把图片名跟着改来改去的；想写版本号请去文档里面写。
+
+链接中有中文的请进行转义。*这类情况最好避免掉，因为它可能导致各种各样的问题出现。*
+
+### 图片压缩
+
+参考 @祉语 的建议，大多数图片会通过压缩减少大小，以优化加载速度，并减小仓库体积。
+
+图片压缩由 @PumpkinJui 自行操作。原图片仍在 `groupdocs-images` 仓库可用。
+
+不被压缩的图片包括：
+
+- 压缩后会影响协作的，如地铁图
+- 已经被 QQ 压扁了的，如群公告配图
+- 原图片不清晰的
+- 压缩会过度影响图片清晰度的
+- 要求高质量图片的
+- 压缩后比压缩前还大的
+- 其他一些特殊情况

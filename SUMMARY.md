@@ -162,7 +162,6 @@
 
 * [维护者专用及杂项](404.md)
   * [短链接列表](s/README.md)
-  * [如何作出贡献](CONTRIBUTING.md)
-  * [群文档编辑指南](about/editing_guide.md)
+  * [群文档编辑指南](CONTRIBUTING.md)
   * [提示窗口模板](about/template.md)
   * [Markdown](archives/markdown.md)
