@@ -1,0 +1,57 @@
+badou:
+  name: 巴豆
+  image_url: "/admin/badou.jpg"
+
+biyiniao:
+  name: 比翼鸟
+  image_url: "/admin/biyiniao.jpg"
+
+chenfeng:
+  name: 晨风
+  image_url: "/admin/chenfeng.jpg"
+  title: 极筑工坊室长
+
+dilei:
+  name: 地雷
+  image_url: "/admin/dilei.jpg"
+
+gezi:
+  name: 鸽子
+  image_url: "/admin/gezi.png"
+  title: 本群第一批测试员
+
+huoweisan:
+  name: 火卫三
+  image_url: "/admin/huoweisan.jpg"
+
+lanos:
+  name: lanos
+  image_url: "/admin/lanos.jpg"
+
+liangtong:
+  name: 量筒
+  image_url: "/admin/liangtong.jpg"
+  title: 群主
+
+mengderen:
+  name: 蒙德人
+  image_url: "/admin/mengderen.jpg"
+
+nanguazhi:
+  name: 南瓜汁
+  image_url: "/admin/nanguazhi.jpg"
+  title: 本群第一批测试员
+  
+wenyu:
+  name: 文雨
+  image_url: "/admin/wenyu.jpg"
+
+xiaoshu:
+  name: 小鼠
+  image_url: "/admin/xiaoshu.jpg"
+
+zhiyu:
+  name: 祉语
+  image_url: 'https://xiaozhiyuqwq.top/api/icon'
+  title: 本群服务器提供者
+  url: 'https://xiaozhiyuqwq.top/'
