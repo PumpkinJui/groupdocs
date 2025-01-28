@@ -96,7 +96,8 @@ const config = {
                 { label: '公告', position: 'left', to: '/blog/anno' },
                 { label: '关于', position: 'left', type: 'docSidebar', sidebarId: 'about' },
                 { label: 'GitHub', position: 'right', href: 'https://github.com/PumpkinJui/groupdocs', },
-            ],
+                { type: 'search', position: 'right', }
+            ]
         },
         footer: {
             style: 'dark',
@@ -147,6 +148,11 @@ const config = {
         prism: {
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
+        },
+        algolia: {
+            appId: '3QTPE6WI9R',
+            apiKey: 'c5e49d41ac48f55da991d4a10221e1b2',
+            indexName: 'grouppages',
         },
     }),
 };
