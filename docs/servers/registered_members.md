@@ -53,7 +53,7 @@ sidebar_position: 2
 | 巴豆 | Andy7343<br/>ContactHail8525 | ✔<br/>✔ | 可可豆<br/>§r§c | ✔ | |
 | 祉语 | xhduoduobaby | ✔ | 橙色染色玻璃<br/>§r§6 | ✔ | 荣誉管理；服务器实际提供者 |
 | 南瓜汁 | PumpkinJui | ✔ | 蜂蜜瓶<br/>§r§l§6 | ✔ | （大号）不在大群 |
-| 鸽子 | PigeonKI | ✔ | 熟鸡肉<br/>§f§l | ✔ | 不在大群 |
+| 鸽子 | PigeonKI | ✔ | 熟鸡肉<br/>§f§l | ✔ | |
 | 地雷 | Peroxide07122 | ✔ | TNT<br/>— | ❔ | |
 | 绿叶 | GreeLeaf | ✔ | 绿色染料<br/>§a | ✔ | 荣誉管理 |
 | 小鼠 | xiaoshu512 | ✔ | 附魔金胸甲<br/>§r§l§e | ✔ | |
