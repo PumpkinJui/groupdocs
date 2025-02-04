@@ -20,6 +20,8 @@ description: 查看本地图的所有更新日志。
 - Alpha 版本
   - [Alpha 1.0_01](#alpha-10_01)
   - [Alpha 1.0_02](#alpha-10_02)
+- Pre 版本
+  - [1.0 - Pre 1](#10---pre-1)
 
 ---
 
