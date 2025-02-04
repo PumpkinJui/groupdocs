@@ -19,18 +19,21 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 
 需要注意的是，尽管 `.mcx` 文件与 `.zip` 文件的实际内容相同，但 `.mcx` 文件在根目录下直接列出所有文件和目录，不再套一层文件夹。
 
+## 各平台导入方法
+
+<!-- markdownlint-disable MD024 -->
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## 各平台导入方法
-
 <Tabs>
-  <TabItem value="windows" label="Windows 导入方法 (自动导入)" default>
+  <TabItem value="windows" label="Windows" default>
 
 :::info[温馨提醒]
 
-此处介绍 Windows 10 上的操作方式。  
-Windows 7 不支持游玩基岩版 MC。  
+此处介绍 Windows 10 上的操作方式。
+
+Windows 7 不支持游玩基岩版 MC。
+
 Windows 11 的操作大同小异；右键菜单如果有找不到的东西，请点击「显示更多选项」。
 
 :::
@@ -66,7 +69,7 @@ Windows 11 的操作大同小异；右键菜单如果有找不到的东西，请
 5. 根据资源种类，将该文件夹粘贴至不同的文件夹中。
 
   </TabItem>
-  <TabItem value="android" label="Android 导入方法">
+  <TabItem value="android" label="Android">
 
 ### 前期准备工作
 
@@ -110,7 +113,7 @@ Windows 11 的操作大同小异；右键菜单如果有找不到的东西，请
 所以，能用上面自动导入就别用手动导入了。
 
   </TabItem>
-  <TabItem value="ios" label="iOS 导入方法">
+  <TabItem value="ios" label="iOS">
 
 :::tip
 

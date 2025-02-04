@@ -69,7 +69,7 @@ Windows（正版）：{link}
 
 ```plaintext
 【更新通知】
-本群全体服务器计划于  更新到基岩版正式版  ，请及时更新到该版本，否则将无法进入本群服务器！
+本群全体服务器计划于  更新到基岩版正式版 ，请及时更新到该版本，否则将无法进入本群服务器！
 Android安装包与Windows安装包均已发到群文件（群文件夹：国际版（下载游戏的点我）），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
 
 ---
@@ -116,7 +116,7 @@ Windows（正版）：
 
 `date`中的月份`mm`、日期`dd`、小时`HH`、分钟`MM`，请填写为带 0 的数字，例如「2024-04-05T09:09」而不是「2024-4-5T9:9」。年份`YYYY`请填写为 4 位数字。
 
-```text title="blog/anno/[YYYY]/[mm][dd][xx].md"
+```plaintext title="blog/anno/[YYYY]/[mm][dd][xx].md"
 ---
 authors: [(authors?)]
 title: (m|mm) 月 (d|dd) 日
@@ -131,7 +131,7 @@ date: (YYYY)-(mm)-(dd)T(HH):(MM)
 
 如果此公告是一个要求多人收到的公告，编辑者应当将下面的提示窗口放置到正文的前面。确认收到人数`count`按「未确认 + 已确认」统计，以提交到群文档时的人数为准。
 
-```
+```plaintext
 :::info[确认公告]
 
 此公告要求 (count) 人确认收到。
@@ -141,7 +141,7 @@ date: (YYYY)-(mm)-(dd)T(HH):(MM)
 
 如果此公告是一个置顶公告，编辑者应当将下面的提示窗口放置到正文的前面。**置顶公告的优先级高于确认公告**。
 
-```
+```plaintext
 :::warning[置顶公告]
 
 此公告为置顶公告。
@@ -153,7 +153,7 @@ date: (YYYY)-(mm)-(dd)T(HH):(MM)
 
 如果公告中插入了图片，请将图片按格式`{yymmddxx}.jpg`命名后放置到文件夹`static/anno/`文件夹中，然后将图片插入到正文的前面、提示窗口的后面。
 
-```
+```plaintext
 ![(图片名)](/anno/({yymmddxx}).jpg)
 ```
 
@@ -161,7 +161,7 @@ date: (YYYY)-(mm)-(dd)T(HH):(MM)
 
 我们以 @南瓜汁 在 2023 年 8 月 24 日发布的一则群公告为例，展示如何将一则带有图片的群公告备份到群文档。
 
-```text title="blog/anno/2023/082401.md"
+```plaintext title="blog/anno/2023/082401.md"
 ---
 authors: [nanguazhi]
 title: 8 月 24 日群公告

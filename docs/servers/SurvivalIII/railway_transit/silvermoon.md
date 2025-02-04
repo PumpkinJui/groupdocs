@@ -13,7 +13,6 @@ description: 了解银月地铁迅猛发展的背后。
 
 ## 概述
 
-
 ## 银月轨道交通示意图
 
 ![银月铁路规划图](/servers/SurvivalIII/railway_transit/silvermoon_railmap.png)

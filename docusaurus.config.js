@@ -117,7 +117,7 @@ const config = {
                     title: '常用链接与工具',
                     items: [
                         { label: '中文 Minecraft Wiki', href: 'https://zh.minecraft.wiki/' },
-                        { label: 'Chunkbase', href: 'https://www.chunkbase.com/apps/' },
+                        { label: 'ChunkBase', href: 'https://www.chunkbase.com/apps/' },
                         { label: '下载国际基岩版 Minecraft', to: 'docs/tools/urls/mcbe' },
                         { label: 'MC 开发者常用链接合集', to: '/docs/tools/urls/develop' }
                     ]
@@ -137,8 +137,8 @@ const config = {
                         { label: '群规', to: 'docs/rules/rules_main_text' },
                         { label: '本群名菜（划掉）', to: '/docs/about/menu' },
                         { label: '群历史', to: '/docs/about/group_history' },
-                        { label: '群文档历史', to: '/docs/about/history' },
-                        { label: '关于群文档', to: '/docs/about/about_groupdoc' }
+                        { label: '群文档历史', to: '/docs/about/groupdocs_history' },
+                        { label: '关于群文档', to: '/docs/about/about_groupdocs' }
                     ]
 
                 },
@@ -148,6 +148,7 @@ const config = {
         prism: {
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
+            additionalLanguages: ['json','bash'],
         },
         algolia: {
             appId: '3QTPE6WI9R',

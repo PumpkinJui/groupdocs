@@ -8,13 +8,13 @@ last_update:
 
 # 一些有用的语法
 
-群文档迁移到 Docusaurus 之后，你就可以在群文档内应用更多的语法，而不只是局限于 Markdown （尤其 GitBook 还是残血版的 Markdown）了！在这里我总结了一些比较有意思的新语法，希望对你的编辑有所帮助！
+群文档迁移到 Docusaurus 之后，使用的语法被称为 [MDX](https://mdxjs.com/)，提供了一些 [CommonMark](https://commonmark.org/) 和 [GitHub Flavored Markdown](https://github.github.com/gfm/) 没有的功能。在这里我总结了一些比较有意思的新语法，希望对你的编辑有所帮助！
 
 ## 文档前言（Front Matter）
 
 :::info
 
-关于文档前言的更多信息，可以查阅 Docusaurus 的[官方网站](https://docusaurus.io/zh-CN/docs/api/plugins/@docusaurus/plugin-content-docs#markdown-front-matter)了解更多的接口信息。
+关于文档前言的更多信息，可以查阅 [Docusaurus 官方文档](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-docs#markdown-front-matter)。
 
 :::
 
@@ -22,7 +22,7 @@ last_update:
 
 其中，有一些东西的显示就是依靠**文档前言**实现的。文档前言写在这篇文档的**最开头**，格式如下：
 
-```
+```plaintext
 ---
 键: 值
 ---
@@ -40,13 +40,13 @@ last_update:
 
 :::info
 
-关于提示块的更多信息，可以查阅 Docusaurus 的[官方网站](https://docusaurus.io/zh-CN/docs/markdown-features/admonitions)了解更多的接口信息。
+关于提示块的更多信息，可以查阅 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/admonitions)。
 
 :::
 
 好耶！终于不需要用`>`来写一个虚拟的提示块了！你可以利用下面的方法写一个正儿八经的提示块了！
 
-```
+```plaintext
 :::note
 
 这是一个白色的备注块！
@@ -64,7 +64,7 @@ last_update:
 
 ---
 
-```
+```plaintext
 :::tip
 
 这是一个绿色的提示块！
@@ -82,7 +82,7 @@ last_update:
 
 ---
 
-```
+```plaintext
 :::info
 
 这是一个蓝色的信息块！
@@ -101,7 +101,7 @@ last_update:
 
 ---
 
-```
+```plaintext
 :::warning
 
 这是一个黄色的警告块！
@@ -119,7 +119,7 @@ last_update:
 
 ---
 
-```
+```plaintext
 :::danger
 
 这是一个红色的危险块！
@@ -141,7 +141,7 @@ last_update:
 
 :::info
 
-关于选项卡的更多信息，可以查阅 Docusaurus 的[官方网站](https://docusaurus.io/zh-CN/docs/markdown-features/tabs)了解更多的接口信息。
+关于选项卡的更多信息，可以查阅 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/tabs)。
 
 :::
 
@@ -164,7 +164,7 @@ import TabItem from '@theme/TabItem';
 
 下面是实现上述功能所需的代码。
 
-``` mdx
+```html
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -181,42 +181,26 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ```
 
-## 代码块高亮与标题
+## 代码块：标题、高亮与行号
+
+:::info
+
+关于代码块的更多信息，可以查阅 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/code-blocks)。
+
+:::
 
 以前的群文档中，代码块通常用下面的方式来解决：
 
-````
-```
+````markdown
+```language
 这是一个代码块
 ```
 ````
 
-如果声明这个代码块的语言为 `text` ，你可以用下面的方式实现特定行的代码高亮：
+现在，你可以在声明了语言的基础上再声明 `title`：
 
-````
-```text
-1
-//highlight-start
-2
-//highlight-end
-3
-```
-````
-
-效果是：
-
-```text
-1
-//highlight-start
-2
-//highlight-end
-3
-```
-
-如果在声明了类型的基础上还声明了`title`，你还可以标记出它的标题：
-
-````
-```text title="awa"
+````markdown
+```plaintext title="awa"
 1
 2
 3
@@ -225,19 +209,103 @@ import TabItem from '@theme/TabItem';
 
 效果是：
 
-```text title="awa"
+```plaintext title="awa"
 1
 2
 3
 ```
+
+你还可以声明代码行高亮：
+
+````markdown
+```plaintext {2-4,6}
+1
+2
+3
+4
+5
+6
+```
+````
+
+效果是：
+
+```plaintext {2-4,6}
+1
+2
+3
+4
+5
+6
+```
+
+不仅如此，你还可以通过 `showLineNumbers` 显示行号：
+
+````markdown
+```plaintext showLineNumbers
+1
+2
+3
+```
+````
+
+效果是：
+
+```plaintext showLineNumbers
+1
+2
+3
+```
+
+把所有这些加到一起，让我们来重新写一下上面的选项卡代码块：
+
+````markdown
+```html title="选项卡" {6,9,12} showLineNumbers
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>
+```
+````
+
+效果是：
+
+```html title="选项卡" {6,9,12} showLineNumbers
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>
+```
+
+现在的选项卡还自动支持代码复制和软换行；只需要电脑端把鼠标挪到代码块上，或手机端点一下代码块，按钮就会显示出来！
 
 ## 折叠块
 
-Docusaurus 支持使用 HTML 的折叠语法！感谢 @鸽子 写的[这篇文档](../../tools/howto/hide_name)，让我意识到 Docusaurus 居然还支持折叠......
+Docusaurus 支持使用 HTML 的折叠语法！感谢 @鸽子 写的[这篇文档](../../tools/howto/hide_name)，让我意识到 Docusaurus 居然还支持折叠……
 
 基本语法：
 
-```
+```html
 <details>
 
 <summary>折叠标题</summary>
@@ -257,3 +325,20 @@ Docusaurus 支持使用 HTML 的折叠语法！感谢 @鸽子 写的[这篇文�
 
 </details>
 
+如果实在想不出来折叠标题写什么，也可以省略。例如：
+
+```html
+<details>
+
+折叠的内容
+
+</details>
+```
+
+效果是：
+
+<details>
+
+折叠的内容
+
+</details>

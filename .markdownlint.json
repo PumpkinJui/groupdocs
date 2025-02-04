@@ -3,9 +3,16 @@
     "MD024": {
         "siblings_only": true
     },
+    "MD025": {
+        "front_matter_title": ""
+    },
     "MD033": {
         "allowed_elements": [
-            "br"
+            "br",
+            "Tabs",
+            "TabItem",
+            "details",
+            "summary"
         ]
     },
     "MD036": {

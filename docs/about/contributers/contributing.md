@@ -5,16 +5,6 @@ description: 在你正式对群文档做出贡献之前，请先阅读这篇文�
 
 # 群文档编辑指南
 
-:::tip
-
-该文章的内容需要改进。
-
-理由：群文档现已迁移到 Docusaurus ，因此，本文的部分信息已经过时。
-
-位于：全文提到 GitBook 的地方。
-
-:::
-
 作为被移除内容的补充：协作者以外的各位，可以在群内或 GitHub 上提出建议；如有意愿获取编辑权限，请联系 @PumpkinJui，并阐述你获取权限的理由。
 
 ## 关于本文档及核心概念
@@ -25,19 +15,18 @@ description: 在你正式对群文档做出贡献之前，请先阅读这篇文�
 
 1. **强制性**：必须遵守的规范。如果不遵守，可能会对群文档产生较大程度的破坏；相关修改会被处理，严重的可以暂停或剥夺协作者权限。
 2. **推荐性**：应当遵守的规范。如果不遵守，可能会对群文档产生一定程度的破坏；相关修改可能会被处理。
-3. **指导性**：建议遵守的规范。不遵守也不会发生什么事，但是为了整体效果，最好遵守一下。
+3. **指导性**：建议遵守的规范。不遵守大约也不会发生什么事，但是为了整体效果最好遵守。
 
 这里的「处理」，包括但不限于撤销更改、进一步更改、rebase 等。
 
-如无说明，所有规范在非关键页面均为**指导性**，在关键页面均为**推荐性**。相应说明会在相应块的第一行使用粗体指出。
+如无说明，所有规范在非关键页面均为**指导性**，在关键页面均为**推荐性**。相应说明会在相应块的第一行使用粗体或部分粗体指出。
 
 关键页面包括：
 
-- 所有 README 页面
 - 群文档根目录下的页面
-- docs/ 根目录下的页面
+- 所有 README 或类似功能的页面
 
-作为外部资料，[MCW 格式指导](https://zh.minecraft.wiki/w/Minecraft_Wiki:STYLE) 为推荐性规范。
+作为外部资料，[MCW 格式指导](https://zh.minecraft.wiki/w/Minecraft_Wiki:STYLE)、[少数派风格指南](https://manual.sspai.com/rules/style/) 为推荐性规范。
 
 ## 关于 Git 和 GitHub
 
@@ -47,11 +36,11 @@ description: 在你正式对群文档做出贡献之前，请先阅读这篇文�
 
 无法访问 GitHub？请参阅[这里](../../tools/howto/access_github)。但是要注意……
 
-如无特殊情况，***禁止使用 GitHub 网页版进行大量编辑！！！***
+如无特殊情况，**禁止使用 GitHub 网页版进行大量编辑！！！**
 
-这里的大量编辑指的是**单次修改单个文件**以外的编辑，也即会在网页端产生多于一个 commit 的编辑。
+这里的大量编辑指的是**除单次修改单个文件以外**的编辑，也即会在网页端产生多于一个 commit 的编辑。
 
-GitHub 网页版访问缓慢，一次只能修改一个文件，且难以修改文件目录结构，严重影响 commit 列表的可读性！
+GitHub 网页版不但访问缓慢，而且一次只能修改一个文件，难以修改文件目录结构，严重影响 commit 列表的可读性！
 
 推荐使用 [Git](https://git-scm.com/downloads) 进行编辑。[GitHub 桌面版客户端](https://github.com/apps/desktop)和 [Visual Studio Code](https://code.visualstudio.com/) 亦可作为替代。
 
@@ -59,8 +48,9 @@ GitHub 网页版访问缓慢，一次只能修改一个文件，且难以修改�
 
 关于 Git 的使用，请参考以下文档：
 
-- [Git Documentation (官方)](https://git-scm.com/docs/)
-- [廖雪峰的 Git 教程 (推荐)](https://liaoxuefeng.com/books/git/)
+- [Git Documentation (English，官方)](https://git-scm.com/docs/)
+- [廖雪峰的 Git 教程 (中文，推荐)](https://liaoxuefeng.com/books/git/)
+- [Learn Git in Y Minutes (中文)](https://learnxinyminutes.com/zh-cn/git)
 
 ### 关于 pull
 
@@ -112,50 +102,23 @@ git config --global alias.autopull "pull --rebase --autostash"
 以下分支含有永久内容，是群文档的不同部分，**禁止删除或互相合并**：
 
 - main
-- anno
-
-## 关于 GitBook
-
-### 迁移
-
-我们已经敲定，将会在 2025 年 12 月 31 日前，从 GitBook 迁移到 [Docusaurus](https://docusaurus.io/)。你可以在[此页面](https://tutorial.docusaurus.io/)预览迁移后的页面效果。
-
-此方案已被仓库所有者批准，不再接受反对意见。你可以提出更多建议来帮助完善此计划。
-
-### 目录结构
-
-可以在以下两非官方文档中了解 GitBook 的目录结构：
-
-- [GitBook 文档（中文版） by chrisniael](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
-- [GitBook 文档 by zhaowenyu](https://www.zhaowenyu.com/gitbook-doc/)
-
-需要注意的是，两份文档均久未更新；由于 `gitbook-cli` 亦久未更新，其中大部分内容可以参考，但某些关于 `GitBook.com` 一类的内容则可能已经过时。  
-另外，两份文档的访问速度可能较慢，如遇加载不出，请耐心等待。
-
-### MarkDown 语法
-
-GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec](https://github.github.com/gfm/))，但又与之不尽相同。你可以在 [Markdown](markdown) 中查看官方说明。  
-部分原因是，说明原文在 GitHub 上的最后一次编辑位于 16/03/17，这意味着 `gitbook-cli` 的 MarkDown 语法，在此之后再未发生过变化；而最新版 GFM (0.29-gfm) 更新于 19/04/06。
-
-### 搭建测试
-
-群文档内[有 GitBook-cli 环境配置教程](../../tools/howto/gitbook.md)。
+- legacy_main
+- legacy_anno
 
 ## markdownlint
 
 以下内容为**推荐性规范**。
 
-群文档中的文件，一般不得在已有配置下，在 [markdownlint](https://github.com/DavidAnson/markdownlint/) 中检出错误。  
-如确实需要，应在相应文本块前禁用 markdownlint 的相应规则，并在该文本块后重新启用 (操作方式见官方说明)。  
+群文档中的文件，不宜在已有配置下，在 [markdownlint](https://github.com/DavidAnson/markdownlint/) 中检出错误。  
+如确实需要，宜在相应文本块前禁用 markdownlint 的相应规则，并在该文本块后重新启用 (操作方式见官方说明)。  
 禁用规则，应在简便的前提下最小化范围。
 
 已有配置位于[群文档根目录](https://github.com/PumpkinJui/groupdocs/blob/main/.markdownlint.json)。
 
-部分不作格式规范、无须遵守此条标准的文件及文件夹如下，以仓库根目录为相对路径：
+部分不作格式规范、无须遵守此条规范的如下，以仓库根目录为相对路径：
 
-- 文件夹：node_modules
-- 文件夹：resources
-- 文 件：archives/markdown.md
+- 目录：docs/resources/
+- 目录：blog/anno/
 
 在群文档根目录，也有一个 [Linux 脚本](https://github.com/PumpkinJui/groupdocs/blob/main/mdl.sh) 专用于检查。
 
@@ -165,9 +128,12 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 
 我们已经了解 AI 在当下的实用程度。但为了群文档的整体质量，我们**不允许直接粘贴 AI 的输出**而不进行修改或测试。
 
-直接粘贴是省事和不负责任的举动。最起码，这些输出应当被仔细阅读或实际测试，并对其中过时或不合适的内容进行修改。
+直接粘贴是图省事和不负责任的举动。如果一篇文档有 90% 甚至 100% 都是 AI 写的，那要协作者干什么？
 
-对于来自 AI 的内容，除非有特殊情况，否则应当做出来源标注，说明哪部分来自什么 AI 模型。
+最起码，这些输出应当被仔细阅读或实际测试，并对其中错误、过时和不合适的内容进行修改。同时应当做出来源标注，至少说明哪部分来自什么 AI 模型。
+
+关于 AI 使用的细则，请参考[少数派 AI 生成内容规则（试行）](https://manual.sspai.com/rules/special/#AIGC)。  
+除「审阅标准」和「责任承担和违规处理方式」外，此规则**亦被视为强制性规范**。
 
 ## 盘古之白
 
@@ -183,12 +149,12 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 
 - 链接以中文形式显示时无需添加盘古之白，如「一个[示例](https://example.com)网站」。但「一个 [example](https://example.com) 网站」仍需要。
 - 对于 @，如果是借助该符号提及某个成员，则应当将 `@xxx` 作为一个整体添加盘古之白，即使该成员使用中文昵称；其他情况下单独为 `@` 添加盘古之白。
-- 在 GitHub 上，一些文字效果在没有盘古之白时不会正常生效。准确地说，其实是没有*空格*时。如删除线 `~~`、斜体 `*`、粗体 `**` 或这几种混用，在其中一端或两端临近标点符号时，会有非常奇怪的渲染方式，有时无法正常渲染出文字效果。*GitBook 渲染不受此影响，但为了便于兼容还是建议加上。*
+- 在 GitHub 上，一些文字效果在没有盘古之白时不会正常生效。准确地说，其实是没有*空格*时。如删除线 `~~`、斜体 `*`、粗体 `**` 或这几种混用，在其中一端或两端临近标点符号时，会有非常奇怪的渲染方式，有时无法正常渲染出文字效果。
 - 在 MarkDown 语法中，一些文字效果在*有*盘古之白时不会正常生效。如斜体 `*` 和粗体 `**` 所包裹的文字内侧如有盘古之白，则会显示为星号，而不是产生斜体或粗体效果。
 
 ## 直角引号
 
-为避免引号的「弯与直」和「中文还是英文」等问题，推荐使用直角引号。
+为避免引号的「弯与直」和「中文还是英文」等问题，可使用直角引号。
 
 - 「弯与直」：弯引号 `“”‘’` 与直引号 `"'` 之争。它们的码位按顺序分别为：`U201C U201D U2018 U2019 U0022 U0027`。
 - 「中文还是英文」：引号是中文符号还是英文符号之争。影响「盘古之白」的添加。
@@ -219,7 +185,7 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 
 在链接位置填写文件（相对）路径，可实现对群文档其他文件的引用。
 
-需要注意，填写文件路径时**不可填写绝对路径**！如果路径以某个盘符或者 `/` 开始，那就是绝对路径。这样的路径在你的设备上可能运行良好，**但无法被其他设备及服务器识别！**
+需要注意，填写文件路径时**不可填写绝对路径**！绝对路径只能保证对当前设备有效；它在你的设备上可能运行良好，**但无法被其他设备及服务器识别！**
 
 引用图片时，请将图片以最高清晰度下载，移动至群文档的 assets 目录下，按照对应文档名重命名后，使用文件路径进行引用。相同用途的图片应当只有一个名称，不要因为图片内容更新 (比如地铁图) 就把图片名跟着改来改去的；想写版本号请去文档里面写。
 

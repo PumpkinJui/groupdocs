@@ -1,1 +1,1 @@
-find . \( -path "./_book" -prune \) -o \( -path "./_test" -prune \) -o \( -path "./resources" -prune \) -o \( -path "./node_modules" -prune \) -o \( -path "./archives/markdown.md" -prune \) -o -name "*.md" -print0 | xargs -0 markdownlint-cli2
+find ./docs \( -path "./docs/resources/*" -prune \) -o -name "*.md" -print0 | xargs -0 markdownlint-cli2
