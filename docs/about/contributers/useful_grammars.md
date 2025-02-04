@@ -231,3 +231,29 @@ import TabItem from '@theme/TabItem';
 3
 ```
 
+## 折叠块
+
+Docusaurus 支持使用 HTML 的折叠语法！感谢 @鸽子 写的[这篇文档](../../tools/howto/hide_name)，让我意识到 Docusaurus 居然还支持折叠......
+
+基本语法：
+
+```
+<details>
+
+<summary>折叠标题</summary>
+
+折叠的内容
+
+</details>
+```
+
+效果是：
+
+<details>
+
+<summary>折叠标题</summary>
+
+折叠的内容
+
+</details>
+
