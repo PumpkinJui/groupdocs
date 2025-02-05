@@ -3,9 +3,9 @@ sidebar_position: 2
 description: 查看本地图的所有更新日志。
 ---
 
-<!-- markdownlint-disable MD036 -->
-
 # 更新日志
+
+<!-- markdownlint-disable MD036 -->
 
 :::tip
 

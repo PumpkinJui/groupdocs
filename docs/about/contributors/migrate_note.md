@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 description: Docusaurus 迁移后的注意事项和新语法！
-
+title: 群文档已经正式迁移到 Docusaurus 了！
 ---
 
 <!-- markdownlint-disable MD026 -->
