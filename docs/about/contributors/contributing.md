@@ -175,7 +175,7 @@ git config --global alias.autopull "pull --rebase --autostash"
 
 以下内容为**推荐性规范**。
 
-Docusaurus 迁移后，我们迎来了众多[新语法](./useful_grammars)；其中就有 Admonition，也被称为 Callout 或 Alert。
+Docusaurus 迁移后，我们迎来了众多[新语法](./migrate_note#小恐龙的独特优势)；其中就有 Admonition，也被称为 Callout 或 Alert。
 
 相较作为 MarkDown 规范一部分的引用块 `>`，Admonition 美观而具有较为灵活的写法，不需要像引用块一样每行行首加 `>`，还得担心换行问题。
 
