@@ -171,6 +171,77 @@ git config --global alias.autopull "pull --rebase --autostash"
 
 对括号的使用不作要求，凭个人喜好决定；但半角括号需注意适配盘古之白。
 
+## 引用块与 Admonition
+
+以下内容为**推荐性规范**。
+
+Docusaurus 迁移后，我们迎来了众多[新语法](./useful_grammars)；其中就有 Admonition，也被称为 Callout 或 Alert。
+
+相较作为 MarkDown 规范一部分的引用块 `>`，Admonition 美观而具有较为灵活的写法，不需要像引用块一样每行行首加 `>`，还得担心换行问题。
+
+但与此同时，Admonition 的语法千奇百怪。我们在：
+
+- Docusaurus：`:::note`
+- GitHub：`> [!NOTE]`
+- Python-Markdown (MkDocs 底层)：`!!! note`
+- Pymdownx (上述的扩展包)：`/// admonition (linebreak) type: note`
+- Notion：`>`，原有的引用只能在菜单找
+
+看到了各种各样的语法，并且它们互不兼容。这导致 Admonition 具有极差的兼容性。
+
+少数派作者 @LillianWho 用 Obsidian 插件做的 Admonition 兼容 (语法为 `\`\`\`ad-note`)。TA 在文章 [Admonition：生来多彩](https://sspai.com/post/68229) 中写道 (原文如此)：
+
+> 我反对将 markdown 搞成富文本那样花里胡哨，markdown 之所以好用，就是你可以用写作的方式来排版，写完之后，排版也完成了，不需要多余做什么。不用操心字体、颜色、大小。
+>
+> Admonition 在用的时候，你需要手动加代码块，然后还要对应上你设置的块类型。写完后，这个 md 文档拿到其他地方，脱离该插件，效果就会完全不对，成了普通代码块。
+>
+> ……
+>
+> 但我知道有很多同学，就是很喜欢富文本效果，喜欢那些炫酷文字和背景。这些在 markdown 中其实支持都不是很好。markdown 生来就不是干这个的。
+>
+> 但 Admoniton 是，它生来就对实用主义笔记没有用，它生来就是绚丽多彩，颜值高到一骑绝尘。
+
+在上述基础上，考虑兼容、美观与省事，我们建议：
+
+1. 在下列条件满足其一时，宜使用引用块
+   - 你确实在进行引用，且不算空行时行数少于 5 行 (以行号计数)
+   - 这段内容需要在其他平台 (如 GitHub 仓库) 得到正常展示
+   - 你使用的编辑器不支持 Admonition 渲染
+   - 该文档适合使用较为严谨的风格进行叙述
+2. 在下列条件满足其一时，宜使用 Admonition
+   - 你确实在进行引用，但不算空行时行数大于 5 行，或其中掺杂了可能导致渲染问题的 MarkDown 语法
+   - 这个块和引用没啥关系
+   - 去掉该部分不影响前后文理解
+   - 该文档适合使用较为活泼的风格进行叙述
+3. 如双方条件同时满足，宜按满足条件数计数并取较多一方，相同时宜使用引用块；如同时不满足，宜使用引用块
+4. 可适当考虑个人喜好因素
+
+使用引用块时，宜在每行前均加入 `>` 并加空格，在需要换行的位置仅使用一个 `>` 并换行。例如：
+
+```markdown
+> 全世界无产者，联合起来！
+>
+> Working men of all countries, unite!
+```
+
+渲染为：
+
+> 全世界无产者，联合起来！
+>
+> Working men of all countries, unite!
+
+如在需要换行的位置不加只有 `>` 的空行：
+
+```markdown
+> 全世界无产者，联合起来！
+> Working men of all countries, unite!
+```
+
+将会被渲染为一行：
+
+> 全世界无产者，联合起来！
+> Working men of all countries, unite!
+
 ## 引用 (群成员)
 
 在一篇文章中的第一次出现，使用 `@{成员昵称}` 引用。此后仅使用成员昵称。

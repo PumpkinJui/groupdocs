@@ -10,7 +10,7 @@ sidebar_position: 1
 
 :::info[群规节选]
 
- **第四十九条** 对于生存服务器而言，申请加入的新成员需要满足以下几点中的任意一条：
+**第四十九条** 对于生存服务器而言，申请加入的新成员需要满足以下几点中的任意一条：
 
 （一）管理员；
 
@@ -58,9 +58,9 @@ sidebar_position: 1
 
 1. 查看[宕机看板](https://status.nekoawa.com/)。
 2. 生存服进不去先换备用线路：`rain2.cvm.xiaozhiyuqwq.top`。
-3. 如有条件，在命令行执行下方命令后截图发群：  
+3. 如有条件，在命令行执行下方命令后截图发群：
    - Windows，管理员  
-     `tracert -p <端口> -P udp <地址>`  
+     `tracert -p <端口> -P udp <地址>`
    - Linux，管理员  
      `sudo traceroute -p <端口> -P udp <地址>`
 
@@ -68,8 +68,9 @@ sidebar_position: 1
 
 ## 生存服 - III 周目
 
-> 原版生存，无作弊，可获取成就。永远保持最新正式版。  
-  欢迎在生存服务器开拓天地，实现你的小梦想哦！
+> 原版生存，无作弊，可获取成就。永远保持最新正式版。
+>
+> 欢迎在生存服务器开拓天地，实现你的小梦想哦！
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 20230
@@ -99,8 +100,9 @@ sidebar_position: 1
 
 ## 起床战争服
 
-> 基于本群资源[量筒的起床战争](../resources/developing/bedwars/homepage)而开服。  
-  目前处于最新测试版，欢迎各位成员前来测试，友谊第一，比赛第二！禁止作弊哦！
+> 基于本群资源[量筒的起床战争](../resources/developing/bedwars/homepage)而开服。
+>
+> 目前处于最新测试版，欢迎各位成员前来测试，友谊第一，比赛第二！禁止作弊哦！
 
 - 地址 - apple.cvm.xiaozhiyuqwq.top
 - 端口 - 11451

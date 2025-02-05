@@ -140,4 +140,4 @@ description: 新光大型工业区所在地。
 ### 海龟机
 
 > 提示  
-  该机器可能会迁移至[银月](../../developing_areas/silvermoon/summary)。
+> 该机器可能会迁移至[银月](../../developing_areas/silvermoon/summary)。

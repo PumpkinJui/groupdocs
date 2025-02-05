@@ -22,6 +22,7 @@ MC 格式文件是后缀名为 `.mcworld`、`.mctemplate`、`.mcpack`、`.mcaddo
 ## 各平台导入方法
 
 <!-- markdownlint-disable MD024 -->
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

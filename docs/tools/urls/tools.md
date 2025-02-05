@@ -17,8 +17,9 @@
 
 ### 介绍
 
-> Tools for generating railway maps and information panels in the styles of various cities’ public transportation systems.  
-  参考翻译：生成各城市公共交通系统风格的铁路地图和信息面板的工具。
+> Tools for generating railway maps and information panels in the styles of various cities’ public transportation systems.
+>
+> 参考翻译：生成各城市公共交通系统风格的铁路地图和信息面板的工具。
 
 铁路图绘制工具包。[生存 III 档](../../servers/SurvivalIII/summary)指定使用此工具包中的 RMG 工具进行线路图绘制。
 
@@ -46,8 +47,9 @@
 
 ### 介绍
 
-> This set of apps allows you to easily view different map features and find points of interest in your Minecraft world with just your map seed. Version support varies.  
-  参考翻译：通过这一组应用和你的 Minecraft 地图种子，你可以轻松查看不同的地图特征，并找到你的世界中的兴趣点。版本支持多样。
+> This set of apps allows you to easily view different map features and find points of interest in your Minecraft world with just your map seed. Version support varies.
+>
+> 参考翻译：通过这一组应用和你的 Minecraft 地图种子，你可以轻松查看不同的地图特征，并找到你的世界中的兴趣点。版本支持多样。
 
 可以根据种子查找各种结构的坐标位置。
 
@@ -65,8 +67,9 @@
 
 ### 介绍
 
-> Select a image to start. You can customize the wallpaper with your own skins. Up to 4K resolution. Or create your own.  
-  参考翻译：选择一张图片即可开始。您可以使用自己的皮肤定制壁纸，分辨率高达 4K；或者您可以创建自己的。
+> Select a image to start. You can customize the wallpaper with your own skins. Up to 4K resolution. Or create your own.
+>
+> 参考翻译：选择一张图片即可开始。您可以使用自己的皮肤定制壁纸，分辨率高达 4K；或者您可以创建自己的。
 
 提供各类模板，可导入皮肤定制壁纸；由 Nova Skin 制作。
 
@@ -80,8 +83,9 @@
 
 ### 介绍
 
-> MCPFP is a site to generate Minecraft profile pictures with ease.  
-  参考翻译：MCPFP 是一个可以便捷地生成 MC 个人形象照的网站。
+> MCPFP is a site to generate Minecraft profile pictures with ease.
+>
+> 参考翻译：MCPFP 是一个可以便捷地生成 MC 个人形象照的网站。
 
 通过输入 JE 玩家代号，生成该玩家皮肤的头像。
 

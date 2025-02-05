@@ -31,13 +31,13 @@ Minecraft 入正必备 (Android 除外)。
 ### 介绍
 
 > GitHub is the world’s leading platform for software development, collaboration, and security.  
-  参考翻译：GitHub 是全球领先的软件开发、合作和安全平台。
+> 参考翻译：GitHub 是全球领先的软件开发、合作和安全平台。
 >
 > GitHub is where people build software. More than 100 million people use GitHub to discover, fork, and contribute to over 420 million projects.  
-  参考翻译：GitHub 是人们构建软件的地方。超过一亿用户使用 GitHub 来发现、派生和为超过四亿两千万个项目做出贡献。
+> 参考翻译：GitHub 是人们构建软件的地方。超过一亿用户使用 GitHub 来发现、派生和为超过四亿两千万个项目做出贡献。
 >
 > Let’s build from here — The complete developer platform to build, scale, and deliver secure software.  
-  参考翻译：从这里开始构建——构建、扩展和交付安全软件的完整开发者平台。
+> 参考翻译：从这里开始构建——构建、扩展和交付安全软件的完整开发者平台。
 
 ### 网址
 

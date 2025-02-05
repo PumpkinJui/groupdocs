@@ -9,6 +9,7 @@
 ## 各式各样的开发文档
 
 > 标注 `(English)` 的为英文文档。
+>
 > 以下两种情况会使用英文文档：
 >
 > - 没有中文文档
@@ -16,7 +17,7 @@
 
 以下各项按重要性排序。
 
-- [(English) Microsoft Learn：基岩版创作者文档 (官方)](https://learn.microsoft.com/en-us/minecraft/creator)  
+- [(English) Microsoft Learn：基岩版创作者文档 (官方)](https://learn.microsoft.com/en-us/minecraft/creator)
   - [(English) Microsoft Learn：创作者常用工具](https://learn.microsoft.com/en-us/minecraft/creator/documents/commonlyusedtools)
 - [(English) Bedrock Wiki](https://wiki.bedrock.dev/)
   - [(English) 实用链接](https://wiki.bedrock.dev/meta/useful-links.html)  
@@ -40,8 +41,9 @@
 
 #### 介绍
 
-> A powerful IDE for Minecraft Add-Ons  
-  参考翻译：一款为 Minecraft 附加包而生的强大集成开发环境
+> A powerful IDE for Minecraft Add-Ons
+>
+> 参考翻译：一款为 Minecraft 附加包而生的强大集成开发环境
 
 bridge. 是一款强大的 Minecraft 基岩版集成开发环境，其功能与 Visual Studio Code 的两个插件 (见下) 非常类似，并且集成了许多专门为 Minecraft 开发而生的插件。
 
@@ -55,8 +57,9 @@ bridge. 由 Minecraft 开发团队官方推荐！
 
 #### 介绍
 
-> Blockbench is a free, modern model editor for low-poly models with pixel art textures.  
-  参考翻译：Blockbench 是一款免费的、现代的模型编辑器，适用于带有像素艺术纹理的低多边形模型。
+> Blockbench is a free, modern model editor for low-poly models with pixel art textures.
+>
+> 参考翻译：Blockbench 是一款免费的、现代的模型编辑器，适用于带有像素艺术纹理的低多边形模型。
 
 Blockbench 由 Minecraft 开发团队官方推荐！
 
@@ -95,23 +98,21 @@ Chunker 由 Minecraft 开发团队官方推荐！
 
 #### 可用性测试
 
-<!-- markdownlint-disable MD007 MD032 -->
-
-> Chunker 目前可以转换：  
-  - 存档设置  
-  - 世界数据（方块、生物群系和图块实体）  
-  - 多个维度  
-  - 容器和物品  
-  - 游戏内地图
-
-> Chunker 目前无法转换：  
-  - 实体  
-  - 玩家物品栏
-
-<!-- markdownlint-restore -->
-
+> Chunker 目前可以转换：
+>
+> - 存档设置
+> - 世界数据（方块、生物群系和图块实体）
+> - 多个维度
+> - 容器和物品
+> - 游戏内地图
+>
+> Chunker 目前无法转换：
+>
+> - 实体
+> - 玩家物品栏
+>
 > 如果编辑世界（输出到源世界版本），Chunker 将保留实体和玩家物品栏。  
-  Chunker 的功能集会随着它的进一步开发而扩展。
+> Chunker 的功能集会随着它的进一步开发而扩展。
 
 经测试，转换后的存档中所有实体都会消失。告示牌文本和箱子内容物得以保留。
 
@@ -153,8 +154,9 @@ Chunker 由 Minecraft 开发团队官方推荐！
 
 #### 介绍
 
-> MCBE Essentials is a collection of tools for Minecraft Bedrock Edition developers intended to make life easier!  
-  参考翻译：MCBE Essentials 是专为 MCBE 开发人员设计的工具集，旨在让生活更轻松！
+> MCBE Essentials is a collection of tools for Minecraft Bedrock Edition developers intended to make life easier!
+>
+> 参考翻译：MCBE Essentials 是专为 MCBE 开发人员设计的工具集，旨在让生活更轻松！
 
 MCBE Essentials 是一个集成了多种功能的开发工具，甚至可以用于将结构转换为函数文件！
 

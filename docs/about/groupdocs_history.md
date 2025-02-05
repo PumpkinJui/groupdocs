@@ -53,7 +53,7 @@ sidebar_position: 2
 目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 上部署。  
 祉语对 CF Pages 群文档进行了「不完全反代」，使其在中国大陆加载速度更快。该地址每日 02:00 更新，位于 [nekoawa](https://docs.nekoawa.com)。
 
-为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。  
+为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。
 
 如果打不开 GitHub，请参考[此页面](../tools/howto/access_github)。
 

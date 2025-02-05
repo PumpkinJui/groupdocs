@@ -12,7 +12,7 @@ sidebar_position: 4
 
 :::tip
 
-该文章的内容需要改进。  
+该文章的内容需要改进。
 
 理由：需针对受众实际情况细化、简化表述，全面考虑所有需要进行的操作、可能遇到的问题等。
 
@@ -37,10 +37,11 @@ sidebar_position: 4
 
 当然因为 Minecraft 没上架 Steam，我们就不去做怎么下正版 Steam 了；其余同理。下文我们主要讲讲在 Android 和 Windows 平台怎么压缩和解压缩。
 
+<!-- markdownlint-disable MD024 -->
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<!-- markdownlint-disable MD024 -->
 <Tabs>
   <TabItem value="windows" label="Windows" default>
 

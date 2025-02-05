@@ -36,15 +36,15 @@ last_update:
 | `last_update` | `FrontMatterLastUpdate` | 记录上次更新的日期和作者 |
 | `sidebar_position` | 整数 | 在侧边栏中排到第几位 |
 
-## 提示块（Admonitions）
+## 标注块（Admonition，暂定译名）
 
 :::info
 
-关于提示块的更多信息，可以查阅 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/admonitions)。
+关于标注块的更多信息，可以查阅 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/admonitions)。
 
 :::
 
-好耶！终于不需要用`>`来写一个虚拟的提示块了！你可以利用下面的方法写一个正儿八经的提示块了！
+好耶，终于不需要用`>`来写一个虚拟的标注块了！你可以利用下面的方法写一个正儿八经的标注块！
 
 ```plaintext
 :::note
