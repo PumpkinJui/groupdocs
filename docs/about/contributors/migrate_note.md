@@ -4,8 +4,8 @@ description: Docusaurus 迁移后的注意事项和新语法！
 
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+<!-- markdownlint-disable MD026 -->
+<!-- markdownlint-disable MD036 -->
 
 # 群文档已经正式迁移到 Docusaurus 了！
 
@@ -165,13 +165,13 @@ npm start
 
 如果文件名的开头为数字，那么链接名会自动把开头的数字移除。因此，如果你要链接到类似于 30 种死法的链接，以前你可能会这么写：
 
-```
+```plaintext
 [30 种死法主页](../../resources/completed/30_ways_to_die/homepage)
 ```
 
 那么，请**把`30_`删掉**，即
 
-```
+```plaintext
 [30 种死法主页](../../resources/completed/ways_to_die/homepage)
 ```
 
@@ -232,6 +232,8 @@ last_update:
 在写「备注」「注意」等等你希望起到提示作用的地方，可以使用标注块。在下面来看看小恐龙提供的 5 种默认标注块的写法吧！
 
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="note" label="备注块（白色）" default>
@@ -961,13 +963,6 @@ date: (YYYY)-(mm)-(dd)T(HH):(MM)
 
   </TabItem>
 </Tabs>
-
-
-
-
-
-
-
 
 #### 4. 插入图片
 
