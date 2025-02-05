@@ -1,5 +1,7 @@
 # 交互实体与 NPC 文档
 
+<!-- markdownlint-disable MD029 -->
+
 :::info[本包性质]
 
 本包为**行为包**和**资源包**结合的包。
@@ -39,7 +41,7 @@
 
 您可以在生成时为其命名，便于您筛选合适的交互实体。例：
 
-```
+```text
 summon template:interaction "bookshelf_interaction"
 ```
 
@@ -107,7 +109,7 @@ say 我被攻击了！
 
 3. 然后，您可以使用下面的命令生成这样的实体：
 
-```
+```text
 summon template:interaction <坐标> <旋转> "w1_h2" [名称]
 ```
 
@@ -115,7 +117,7 @@ summon template:interaction <坐标> <旋转> "w1_h2" [名称]
 
 本包添加了一种可用于交互和攻击的 NPC 。
 
-### 生成一个 NPC 
+### 生成一个 NPC
 
 NPC 可以通过刷怪蛋生成，您可以在物品栏中找到名为「NPC 刷怪蛋」的刷怪蛋。生成后，实体将会被随机一个皮肤。
 
@@ -155,7 +157,7 @@ NPC 可以通过刷怪蛋生成，您可以在物品栏中找到名为「NPC 刷
 
 在手机版，与 NPC 交互时会在屏幕的下方展现一个交互的按钮。您可以在`RP/texts/en_US.lang`和`RP/texts/zh_CN.lang`中找到下面的内容：
 
-```
+```text
 action.interact.chat=聊天
 ```
 
@@ -164,6 +166,7 @@ action.interact.chat=聊天
 ### 为 NPC 更改或添加更多的皮肤
 
 NPC 的所有皮肤在`RP/textures/entity/npc/`文件夹中。我们在提供的包中内置了以下内容：
+
 - 4 个皮肤，作为范例。
 - 2 个模型，`geometry.humanoid.default`为玩家模型的标准模型，`geometry.humanoid.slim`为玩家模型的纤细模型。
 
@@ -208,4 +211,3 @@ NPC 的所有皮肤在`RP/textures/entity/npc/`文件夹中。我们在提供的
 | 1.0 | 加入了交互实体的支持 |
 | 2.0 | 新增了对两种 NPC 的支持，将交互状态的`variant`更新为`mark_variant` |
 | 3.0（未来的更新方向） | 加入对 NPC 的交互和攻击检测功能的可选的支持 |
-

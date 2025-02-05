@@ -42,7 +42,7 @@ Minecraft Picross是一张以数织为基础玩法制作的地图，集合超过
 
 - [KLPBBS](https://klpbbs.com/thread-154669-1-7.html)
 - [MineBBS](https://www.minebbs.com/resources/1-20-10-minecraft-picross.10233/)
-- [TITAIKE](https://www.titaike.cn/6056.html) 
+- [TITAIKE](https://www.titaike.cn/6056.html)
 - 中国版资源中心 *（地图名：Picross 益智解谜）*
 
 ---

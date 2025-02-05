@@ -353,7 +353,7 @@ description: 仿照 Hypixel 在基岩版上做的起床战争！
   - **移除** 方法`dataBackup(player) {}`。类似的方法位于`events/gaming/playerLeaveAndRejoin.js`。
   - **移除** 方法`dataReset(data) {}`。类似的方法位于`events/gaming/playerLeaveAndRejoin.js`。
   - **移除** 方法`showHealth() {}`。类似的方法位于`events/gaming/infoBoard.js`。
-- `playerIsValid(player) {}`：检查输入的玩家是否含有起床战争信息（即有效玩家）。 
+- `playerIsValid(player) {}`：检查输入的玩家是否含有起床战争信息（即有效玩家）。
   - 拆自原`method.js`的同名函数。
 - `playerIsAlive(player) {}`：检查输入的玩家是否含有起床战争信息，且是否为存活的玩家。
   - 拆自原`method.js`的同名函数。

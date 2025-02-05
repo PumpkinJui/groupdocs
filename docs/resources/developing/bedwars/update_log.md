@@ -96,6 +96,7 @@ description: 查看本地图的所有更新日志。
 - 现在搭桥蛋相比以前会有 85% 的完整度，而不是完全完整的桥了
 
 ### 底层内容
+
 - （更新内容太多，不想写了qwq）
 
 **最后，祝你游玩愉快！如果遇到问题，请在 issues 中或进群进行反馈，感谢！**
@@ -547,7 +548,7 @@ description: 查看本地图的所有更新日志。
   - **移除** 方法`dataBackup(player) {}`。类似的方法位于`events/gaming/playerLeaveAndRejoin.js`。
   - **移除** 方法`dataReset(data) {}`。类似的方法位于`events/gaming/playerLeaveAndRejoin.js`。
   - **移除** 方法`showHealth() {}`。类似的方法位于`events/gaming/infoBoard.js`。
-- `playerIsValid(player) {}`：检查输入的玩家是否含有起床战争信息（即有效玩家）。 
+- `playerIsValid(player) {}`：检查输入的玩家是否含有起床战争信息（即有效玩家）。
   - 拆自原`method.js`的同名函数。
 - `playerIsAlive(player) {}`：检查输入的玩家是否含有起床战争信息，且是否为存活的玩家。
   - 拆自原`method.js`的同名函数。
@@ -793,4 +794,3 @@ description: 查看本地图的所有更新日志。
 
 - 在夺点模式时使用的独有放置床逻辑。
 - `playerPlaceBedTest(event) {}`：当玩家放置床时，进行判定。独立于经典模式。
-

@@ -60,13 +60,13 @@ say Hello,world!
 
 那么，当您使用下面的命令后
 
-```
+```text
 scoreboard players set timeline active 1
 ```
 
 您将看见服务器不断的发送“Hello,world!”的消息。您可以**关闭时间线**来关闭这条命令：
 
-```
+```text
 scoreboard players set timeline active 0
 ```
 
@@ -78,7 +78,7 @@ execute if score timeline time matches 150 run say success!
 
 然后，使用下面的命令**启用时间线和时间流逝**：
 
-```
+```text
 ## 启用时间线
 scoreboard players set timeline active 1
 ## 启用时间流逝
@@ -89,7 +89,7 @@ scoreboard players set timeLapse data 1
 
 如果要关闭时间流逝，您可以关闭时间线和时间流逝，但**注意不要忘记把时间值也归零**：
 
-```
+```text
 ## 启用时间线
 scoreboard players set timeline active 0
 ## 启用时间流逝
@@ -118,7 +118,7 @@ execute if score timeline time matches 240 run say 3
 
 这代表着，当时间线被启用后，在特定的时间执行`/say`命令。显然，这需要开启时间流逝。您可以使用下面的命令启用时间线、时间流逝和**视角锁定**：
 
-```
+```text
 ## 启用时间线
 scoreboard players set timeline active 1
 ## 启用时间流逝
@@ -129,15 +129,15 @@ scoreboard players set lockCamera data 1
 
 若如此做，您将会在执行这两条命令后的 4 秒、 8 秒、 12 秒分别看到服务器发送的消息。同时，**您的视角将被固定，无法移动**。您可以分别尝试一下这些命令，或许会对您理解这个机制有积极作用：
 
-```
+```text
 /tp @e[name=playerPosition] 0 64 0
 ```
 
-```
+```text
 /tp @e[name=facingPosition] 10 64 10
 ```
 
-```
+```text
 ## 改变玩家位置
 tp @e[name=playerPosition] ???
 ## 改变玩家朝向
@@ -156,7 +156,7 @@ tp @e[name=facingPosition] ???
 
 为使用音效控制器，您需要先**启用音效控制器**。控制音效控制器启用的记分板变量是`active.sound`。不同的音效控制器状态，会导致播放不同的音效。例如，我们在 30 种死法 2 中使用的音效控制器文件（节选）如下。
 
-```text title='system/controller/sound.mcfunction'
+```text title='system/controller/sound.mcfunction' showLineNumbers
 # ===== 音效播放器 =====
 # 该控制器将按照不同的active.sound值执行不同的音效效果。
 # <!> 注意：该函数仅当音效播放器启用后执行
@@ -198,23 +198,23 @@ execute if score sound time matches 0 run function lib/modify_states/sound/reset
 
 您可以在其中插入您需要的反作弊命令。下面提供了一些您可能需要的反作弊字段。
 
-```text title='system/anticheating.mcfunction'
+```text title='system/anticheating.mcfunction' showLineNumbers
 # --- 游戏模式限制 ---
 # 仅在非开发者模式下执行
 execute unless score developerMode settings matches 1 as @a[m=!adventure] run gamemode adventure @s
 ```
 
-```text title='system/anticheating.mcfunction'
+```text title='system/anticheating.mcfunction' showLineNumbers
 # --- 禁止玩家放船 ---
 kill @e[family=boat]
 ```
 
-```text title='system/anticheating.mcfunction'
+```text title='system/anticheating.mcfunction' showLineNumbers
 # --- 禁止玩家投掷末影珍珠 ---
 kill @e[family=ender_pearl]
 ```
 
-```text title='system/anticheating.mcfunction'
+```text title='system/anticheating.mcfunction' showLineNumbers
 # --- 禁止玩家搭建传送门 ---
 execute as @a at @s run fill  -5 -5 -5 5 5 5 air replace portal
 execute as @a at @s run fill  -5 -5 -5 5 5 5 air replace end_portal
@@ -328,7 +328,7 @@ execute as @a at @s run fill  -5 -5 -5 5 5 5 air replace end_portal
 
 例如，您可以使用下面的命令来延时播放`random.orb`音效
 
-```
+```text
 function lib/modify_states/sound/random_orb
 ```
 
@@ -352,7 +352,7 @@ function lib/modify_states/sound/random_orb
 
 例如，如果您需要延时播放`random.levelup`音效，这个实例并没有在包中给出，但我们可以模仿已有的内容进行编写。首先您需要打开音效控制器文件，包中的内容如下，您可以加入其中我们高亮的那一行：
 
-```text title='system/controller/sound.mcfunction'
+```text title='system/controller/sound.mcfunction' showLineNumbers {10}
 # ===== 音效播放器 =====
 # <!> 注意：该函数仅当音效播放器启用后执行
 
@@ -362,9 +362,7 @@ scoreboard players remove sound time 1
 # --- 音效事件 ---
 # 当音效倒计时为0后执行
 execute if score sound time matches 0 if score sound active matches 1 as @a at @s run playsound random.orb @s ~~~ 1 1
-// highlight-start
 execute if score sound time matches 0 if score sound active matches 2 as @a at @s run playsound random.levelup @s ~~~ 1 1
-// highlight-end
 
 # --- 重置音效播放器 ---
 # 当音效倒计时为0后执行
@@ -374,7 +372,7 @@ execute if score sound time matches 0 run function lib/modify_states/sound_playe
 
 即在音效控制器启用状态为`2`时执行`playsound random.levelup @s ~~~ 1 1`命令。然后，在库更改状态的文件夹中创建一个新的函数`random_levelup.mcfunction`，写入以下内容：
 
-```text title='lib/modify_states/sound/random_levelup.mcfunction'
+```text title='lib/modify_states/sound/random_levelup.mcfunction' showLineNumbers
 # ===== 播放升级音效 =====
 # 用于延时播放升级音效。
 
@@ -391,14 +389,16 @@ scoreboard players set sound active 2
 ## 将音效播放器时间重置
 scoreboard players set sound time 3
 ```
+
 时间参数是您可以自定义的。这样，您便可以通过使用下面的命令延时播放这个音效：
-```
+
+```text
 function lib/modify_states/sound/random_levelup
 ```
 
 另一个例子是 30 种死法 2 中的一个给予物品的库函数。它位于`lib/modify_data/reset_and_quit`。在该地图中，重置与退出物品是经常要给予的物品，因此需要使用这样的库函数不断地重复调用。
 
-```text title='lib/modify_data/reset_and_quit.mcfunction'
+```text title='lib/modify_data/reset_and_quit.mcfunction' showLineNumbers
 # ===== 重置与退出 =====
 # 用于给予玩家重置与退出
 

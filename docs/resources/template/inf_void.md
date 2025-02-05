@@ -9,6 +9,7 @@
 装载本包之后，将在主世界、下界和末地未加载的区块上产生无限虚空。
 
 您可以选择性地保留文件，以对特定的维度生效。更改维度的文件为`dimensions/`文件夹下的内容：
+
 - `dimensions/overworld.json` - 对主世界应用虚空生成
 - `dimensions/nether.json` - 对下界应用虚空生成
 - `dimensions/the_end.json` - 对末地应用虚空生成
@@ -23,4 +24,4 @@
 
 ## 参考文献
 
-* [Data-Driven Overworld Height and Void Generation | 微软文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/datadrivenoverworldheight?view=minecraft-bedrock-stable)
+- [Data-Driven Overworld Height and Void Generation | 微软文档](https://learn.microsoft.com/en-us/minecraft/creator/documents/datadrivenoverworldheight?view=minecraft-bedrock-stable)

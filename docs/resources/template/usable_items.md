@@ -1,5 +1,7 @@
 # 可使用物品 文档
 
+<!-- markdownlint-disable MD029 -->
+
 :::info[本包性质]
 
 本包为**行为包**和**资源包**结合的包。
@@ -102,7 +104,7 @@
 
 7. 添加物品键名，更改语言文件（`RP/texts/zh_CN.lang`和`RP/texts/en_US.lang`）：
 
-``` text title="RP/texts/zh_CN.lang 或 RP/texts/en_US.lang" 
+``` text title="RP/texts/zh_CN.lang 或 RP/texts/en_US.lang"
 item.<命名空间>:<物品ID>.name=<物品名称>
 ```
 
@@ -111,6 +113,7 @@ item.<命名空间>:<物品ID>.name=<物品名称>
 :::warning[注意事项]
 
 将此包与您已有的包进行整合时，请注意以下事项：
+
 - 两实体的`ID`的命名空间均为`template:`，请按照您的需求自行更改，不要直接使用此命名空间。
 - 资源包的`texts`文件夹的内容可能会与您原有的包冲突。
 - 资源包的`textures/item_texture.json`的内容可能会与您原有的包冲突。

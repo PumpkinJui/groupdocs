@@ -43,6 +43,7 @@ description: 开发模板是量筒在群内所公布的用于开发的功能包�
 以下是各个小包所附带的文档，供使用者参考。
 
 ### 资源包与行为包并用
+
 - [标记实体与文本展示实体](./marker_and_test_display)
 - [公告板](./billboard)
 - [可使用物品](./usable_items)
@@ -50,11 +51,13 @@ description: 开发模板是量筒在群内所公布的用于开发的功能包�
 - [交互实体与 NPC](./interaction_and_npc)
 
 ### 仅行为包
+
 - [函数系统（时间线剧情线等核心内容）](./function_general)
 - [函数系统（开发者系统）](./function_developer)
 - [无限虚空](./inf_void)
 - [玩家血量监控](./health_controller)
 
 ### 仅资源包
+
 - [强制 Mojangles 字体](./force_mojangles)
 - [自定义音效](./custom_sound)

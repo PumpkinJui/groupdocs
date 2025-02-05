@@ -1,5 +1,7 @@
 # 函数系统（时间线剧情线等核心功能） 文档
 
+<!-- markdownlint-disable MD026 -->
+
 :::warning[注意]
 
 本包是[函数系统 v2](function_general_v2)的旧版本，目前已经停止更新。我们将群文档迁移前的旧版文档留在这里，但我们将不再对其中的内容进行更新。
@@ -19,7 +21,7 @@
 * 本包已经搭建了一套较为初步的底层函数命令系统，以便您基于此底层系统编写命令。
 
 * 在下文，我们把 a 记分板上名为 b 的追踪目标记为`a.b`。
-    * 例如，检测`a.b`的分数是否为1，为`/execute if score b a matches 1`。
+  * 例如，检测`a.b`的分数是否为1，为`/execute if score b a matches 1`。
 
 ### 系统函数 `system/`
 
@@ -64,27 +66,26 @@
 | `6`或更大的值 | 不自加 | 始终执行 |
 | `0`或更小的值 | 不自加 | 不执行 |
 
-
 ##### 一些例子
 
-- 当时间线以状态`1`启用时，您可以用它在时间线文件内写一些**在规定时刻**执行的命令，例如在时间线启用 5 秒后执行`/gamemode`命令：
+* 当时间线以状态`1`启用时，您可以用它在时间线文件内写一些**在规定时刻**执行的命令，例如在时间线启用 5 秒后执行`/gamemode`命令：
 
-```
+```text
 execute if score timeline time matches 100 run gamemode adventure @a
 ```
 
-- 当时间线以状态`6`启用时，您可以用它在时间线文件内写一些**单纯循环**执行的命令，例如时间线启用期间一直执行`/gamemode`命令：
+* 当时间线以状态`6`启用时，您可以用它在时间线文件内写一些**单纯循环**执行的命令，例如时间线启用期间一直执行`/gamemode`命令：
 
-```
+```text
 gamemode adventure @a
 ```
 
 > **注意**  
   这种写法在状态`1-5`下也可以使用，但如果不需要特定时间特定命令的话，使用不会引起`time.timeline`变化的状态可以节省性能。
 
-- 下面是节选与改编自[30种死法2](../completed/30_ways_to_die_2/homepage.md)的时间线文件的部分内容：
+* 下面是节选与改编自[30种死法2](../completed/30_ways_to_die_2/homepage.md)的时间线文件的部分内容：
 
-```
+```text
 # ===== 时间线控制器 =====
 # 该控制器将按照不同的data.level值执行不同的时间线效果。
 
@@ -104,7 +105,8 @@ execute if score level data matches -13 if score progress.mapStage record matche
 ```
 
 在第一次结束特效中，控制其特效的函数的部分内容：
-```
+
+```text
 # ===== 第一阶段的时间线 =====
 
 # --- 主时间线 ---
@@ -129,7 +131,6 @@ execute if score timeline time matches 120 run setblock -47 9 28 beacon
 
 ...
 ```
-
 
 #### 剧情线
 
@@ -166,7 +167,6 @@ execute if score timeline time matches 120 run setblock -47 9 28 beacon
 | `6`-`10` | 每游戏刻自加 | 始终执行 | 锁定 |
 | `0`或更小的值 | 不自加 | 不执行 | 不锁定 |
 
-
 ##### 一些例子：
 
 如果您要启用锁定视角的对话，只需要把剧情线的启用状态改为`6`，并且设定`playerPosition`实体和`facingPosition`实体的位置即可。
@@ -175,7 +175,7 @@ execute if score timeline time matches 120 run setblock -47 9 28 beacon
 
 以下是 30 种死法 2 地图中，第一次结束特效使用的剧情线（节选）。
 
-```
+```text
 # ===== 剧情线 =====
 
 # --- 第一阶段时 ---
@@ -219,7 +219,7 @@ execute if score dialogue active matches 6 if score dialogue time matches 161 ru
 
 在 30 种死法 2 中使用的音效控制器文件如下。
 
-```
+```text
 # ===== 音效播放器 =====
 # 该控制器将按照不同的active.sound值执行不同的音效效果。
 # <!> 注意：该函数仅当音效播放器启用后执行
@@ -271,23 +271,23 @@ execute if score sound time matches 0 run function lib/modify_states/sound/reset
 
 您可以在其中插入您需要的反作弊命令。下面提供了一些您可能需要的反作弊字段。
 
-```
+```text
 # --- 游戏模式限制 ---
 # 仅在非开发者模式下执行
 execute unless score developerMode settings matches 1 as @a[m=!adventure] run gamemode adventure @s
 ```
 
-```
+```text
 # --- 禁止玩家放船 ---
 kill @e[family=boat]
 ```
 
-```
+```text
 # --- 禁止玩家投掷末影珍珠 ---
 kill @e[family=ender_pearl]
 ```
 
-```
+```text
 # --- 禁止玩家搭建传送门 ---
 execute as @a at @s run fill  -5 -5 -5 5 5 5 air replace portal
 execute as @a at @s run fill  -5 -5 -5 5 5 5 air replace end_portal
@@ -342,21 +342,21 @@ execute as @a at @s run fill  -5 -5 -5 5 5 5 air replace end_portal
 
 ##### 一些例子
 
-- 启用时间值流逝的时间线，并且重置时间值：
+* 启用时间值流逝的时间线，并且重置时间值：
 
-```
+```text
 function lib/modify_states/timeline/enable_pass_1
 ```
 
-- 启用锁定玩家视角的剧情线，但不重置时间值：
+* 启用锁定玩家视角的剧情线，但不重置时间值：
 
-```
+```text
 function lib/modify_states/dialogue/enable_lock_6_keep
 ```
 
-- 延时播放`random.orb`音效：
+* 延时播放`random.orb`音效：
 
-```
+```text
 function lib/modify_states/sound/random_orb
 ```
 
@@ -364,7 +364,7 @@ function lib/modify_states/sound/random_orb
 
 您在开发过程中一定会遇到需要重复使用某几条命令的情况。在这种情况下，我们强烈建议您打包成一个库函数，并在您需要的时候重复调用。如果您要编写一个库函数，您可以按照下面的格式编写：
 
-```
+```text
 # ===== <函数功能> =====
 # <函数具体功能>
 
@@ -382,7 +382,7 @@ function lib/modify_states/sound/random_orb
 
 这个实例并没有在包中给出，但我们可以模仿已有的内容进行编写。首先你需要打开音效控制器文件，包中的内容如下：
 
-```
+```text
 # ===== 音效播放器 =====
 # <!> 注意：该函数仅当音效播放器启用后执行
 
@@ -400,13 +400,13 @@ execute if score sound time matches 0 run function lib/modify_states/sound_playe
 
 您可以在「音效事件」模块中加入下面一行：
 
-```
+```text
 execute if score sound time matches 0 if score sound active matches 2 as @a at @s run playsound random.levelup @s ~~~ 1 1
 ```
 
 即在音效控制器启用状态为`2`时执行`playsound random.levelup @s ~~~ 1 1`命令。然后，在库文件夹（`lib/modify_states/sound/`）中创建一个新的函数`random_levelup.mcfunction`，写入以下内容：
 
-```
+```text
 # ===== 播放升级音效 =====
 # 用于延时播放升级音效。
 
@@ -423,8 +423,10 @@ scoreboard players set sound active 2
 ## 将音效播放器时间重置
 scoreboard players set sound time 3
 ```
+
 时间参数是您可以自定义的。这样，您便可以通过使用下面的命令延时播放这个音效：
-```
+
+```text
 function lib/modify_states/sound/random_levelup
 ```
 
@@ -432,7 +434,7 @@ function lib/modify_states/sound/random_levelup
 
 位于`lib/modify_data/reset_and_quit`。在该地图中，重置与退出物品是经常要给予的物品，因此需要使用这样的库函数不断地重复调用。
 
-```
+```text
 # ===== 重置与退出 =====
 # 用于给予玩家重置与退出
 

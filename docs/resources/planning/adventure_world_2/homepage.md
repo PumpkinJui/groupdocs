@@ -9,6 +9,7 @@ description: 《冒险世界》第二部，大制作，长流程，可玩性极�
 冒险世界：苏醒是一张大规模的地图。该地图为综合向解谜地图，涵盖跑酷、PVE、解谜等各种玩法。玩家在其中扮演「林乐」的角色，展开一场封印魔王的故事......
 
 关于冒险世界系列的其他地图，参见：
+
 - [冒险世界：逃离](../adventure_world_1/homepage)
 - 冒险世界：苏醒（本页面）
 - [冒险世界：迷失](../adventure_world_3/homepage)
@@ -48,7 +49,7 @@ description: 《冒险世界》第二部，大制作，长流程，可玩性极�
 
 - [KLPBBS](https://klpbbs.com/thread-151276-1-1.html)
 - [MineBBS](https://www.minebbs.com/resources/1-18-_-_.9844/)
-- [TITAIKE](https://www.titaike.cn/5955.html) 
+- [TITAIKE](https://www.titaike.cn/5955.html)
 - 中国版资源中心
 
 ---

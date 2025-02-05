@@ -9,6 +9,7 @@ description: 《冒险世界》第三部，你能否逃出这些复杂的迷宫�
 冒险世界：迷失是一张较大规模的地图。该地图为综合向迷宫类型地图，涵盖跑酷、PVE、解谜等各种玩法。
 
 关于冒险世界系列的其他地图，参见：
+
 - [冒险世界：逃离](../adventure_world_1/homepage)
 - [冒险世界：苏醒](../adventure_world_2/homepage)
 - 冒险世界：迷失（本页面）
@@ -48,5 +49,5 @@ description: 《冒险世界》第三部，你能否逃出这些复杂的迷宫�
 
 - [KLPBBS](https://klpbbs.com/thread-151276-1-1.html)
 - [MineBBS](https://www.minebbs.com/resources/1-18-_-_.9844/)
-- [TITAIKE](https://www.titaike.cn/5955.html) 
+- [TITAIKE](https://www.titaike.cn/5955.html)
 - 中国版资源中心

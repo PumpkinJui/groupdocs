@@ -89,4 +89,3 @@ description: 附加包的可用命令。
 - `<可破坏方块>`：布尔值，默认值为`false`。
 
 **例** `/scriptevent bs:creativePlayerCanBreakBlocks false`：禁止创造模式玩家破坏方块。
-

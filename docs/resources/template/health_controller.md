@@ -20,7 +20,7 @@
 
 您可以**使用下面的命令以控制玩家的血量上限**：
 
-```
+```text
 /event entity @a max_health_<数值>
 ```
 
@@ -92,7 +92,7 @@
 
 这样，当您使用命令
 
-```
+```text
 event entity @a max_health_3
 ```
 
@@ -104,23 +104,23 @@ event entity @a max_health_3
 
 使用方法非常简单。首先，您可以使用下面的命令创建一个检测血量所需的记分板`health`：
 
-```
+```text
 function lib/modify_data/init/data
 ```
 
 也可以使用下面的命令：
 
-```
+```text
 scoreboard objectives add health dummy "玩家血量"
 ```
 
 记分板创建好后，便万事大吉了！您可以**读取`health.@s`的分值以获取玩家的血量**。例如，检测玩家的血量是否为 10 点或更高：
 
-```
+```text
 execute as @a if score @s health matches 10.. run (命令)
 ```
 
-本包所提供的检测玩家血量的范围在 0~40 。在极大多数情况下，这样的范围应该已经能够符合您的需求。 
+本包所提供的检测玩家血量的范围在 0~40 。在极大多数情况下，这样的范围应该已经能够符合您的需求。
 
 ### 自定义检测范围
 
