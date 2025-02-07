@@ -6,6 +6,9 @@
     "MD025": {
         "front_matter_title": ""
     },
+    "MD026": {
+        "punctuation": ".,;:。，；："
+    },
     "MD033": {
         "allowed_elements": [
             "br",

@@ -1,7 +1,5 @@
 # 交互实体与 NPC 文档
 
-<!-- markdownlint-disable MD029 -->
-
 :::info[本包性质]
 
 本包为**行为包**和**资源包**结合的包。
@@ -71,47 +69,47 @@ say 我被攻击了！
 
 1. 打开交互实体的 SE 文件（`BP/entities/template/interaction.server_entity.json`），找到事件和组件组的内容：
 
-```json title="BP/entities/template/interaction.server_entity.json"
-"events": {
-    "minecraft:entity_spawned": { "add": { "component_groups": [ "default_size", "default_state" ] } },
-    ...
-},
-"component_groups": {
-    "default_size": {
-        "minecraft:custom_hit_test": { "hitboxes": [ { "width": 1, "height": 1, "pivot": [ 0, 0.5, 0 ] } ] }
-    },
-    ...
-}
-```
+   ```json title="BP/entities/template/interaction.server_entity.json"
+   "events": {
+       "minecraft:entity_spawned": { "add": { "component_groups": [ "default_size", "default_state" ] } },
+       ...
+   },
+   "component_groups": {
+       "default_size": {
+           "minecraft:custom_hit_test": { "hitboxes": [ { "width": 1, "height": 1, "pivot": [ 0, 0.5, 0 ] } ] }
+       },
+       ...
+   }
+   ```
 
-这里，只展示了`"minecraft:entity_spawned"`事件和`"default_size"`组件组，是因为它们是决定碰撞箱的关键内容。只要您拥有一定的附加包基础，您可以很快理解这些内容。
+   这里，只展示了`"minecraft:entity_spawned"`事件和`"default_size"`组件组，是因为它们是决定碰撞箱的关键内容。只要您拥有一定的附加包基础，您可以很快理解这些内容。
 
 2. 现在，我们要加入一个新的碰撞箱，例如宽 1 高 2 的交互实体。您需要加入一个新的组件组和新的事件：
 
-```json title="BP/entities/template/interaction.server_entity.json"
-"events": {
-    "minecraft:entity_spawned": { "add": { "component_groups": [ "default_size", "default_state" ] } },
-    "w1_h2": { "add": { "component_groups": [ "w1_h2", "default_state" ] } },
-    ...
-},
-"component_groups": {
-    "default_size": {
-        "minecraft:custom_hit_test": { "hitboxes": [ { "width": 1, "height": 1, "pivot": [ 0, 0.5, 0 ] } ] }
-    },
-    "w1_h2": {
-        "minecraft:custom_hit_test": { "hitboxes": [ { "width": 1, "height": 2, "pivot": [ 0, 0.5, 0 ] } ] }
-    },
-    ...
-}
-```
+   ```json title="BP/entities/template/interaction.server_entity.json"
+   "events": {
+       "minecraft:entity_spawned": { "add": { "component_groups": [ "default_size", "default_state" ] } },
+       "w1_h2": { "add": { "component_groups": [ "w1_h2", "default_state" ] } },
+       ...
+   },
+   "component_groups": {
+       "default_size": {
+           "minecraft:custom_hit_test": { "hitboxes": [ { "width": 1, "height": 1, "pivot": [ 0, 0.5, 0 ] } ] }
+       },
+       "w1_h2": {
+           "minecraft:custom_hit_test": { "hitboxes": [ { "width": 1, "height": 2, "pivot": [ 0, 0.5, 0 ] } ] }
+       },
+       ...
+   }
+   ```
 
-其中`"w1_h2"`事件和`"w1_h2"`组件组是我们新加入的内容。
+   其中`"w1_h2"`事件和`"w1_h2"`组件组是我们新加入的内容。
 
 3. 然后，您可以使用下面的命令生成这样的实体：
 
-```text
-summon template:interaction <坐标> <旋转> "w1_h2" [名称]
-```
+   ```text
+   summon template:interaction <坐标> <旋转> "w1_h2" [名称]
+   ```
 
 ## NPC
 

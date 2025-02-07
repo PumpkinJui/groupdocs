@@ -4,8 +4,6 @@ title: 主页
 description: 把眼前的建筑通通炸个干净吧！
 ---
 
-<!-- markdownlint-disable MD026 -->
-
 # 炸翻它！
 
 :::warning

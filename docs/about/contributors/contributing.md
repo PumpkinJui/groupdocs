@@ -105,6 +105,8 @@ git config --global alias.autopull "pull --rebase --autostash"
 - legacy_main
 - legacy_anno
 
+## [Docusaurus](./migrate_note)
+
 ## markdownlint
 
 以下内容为**推荐性规范**。
@@ -117,10 +119,9 @@ git config --global alias.autopull "pull --rebase --autostash"
 
 部分不作格式规范、无须遵守此条规范的如下，以仓库根目录为相对路径：
 
-- 目录：docs/resources/
 - 目录：blog/anno/
 
-在群文档根目录，也有一个 [Linux 脚本](https://github.com/PumpkinJui/groupdocs/blob/main/mdl.sh) 专用于检查。
+在群文档根目录，也有一个 [Linux 脚本](https://github.com/PumpkinJui/groupdocs/blob/main/mdl.sh) 专用于检查。这意味着此脚本可以在 Termux、Git Bash 等命令行环境中执行，但不能在 cmd、PowerShell 等命令行环境中执行。在运行前，你需要先通过 Node.js 安装 `markdownlint-cli2`。
 
 ## 关于 AI
 

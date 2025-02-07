@@ -1,7 +1,5 @@
 # 函数系统（时间线剧情线等核心功能） 文档
 
-<!-- markdownlint-disable MD026 -->
-
 :::warning[注意]
 
 本包是[函数系统 v2](function_general_v2)的旧版本，目前已经停止更新。我们将群文档迁移前的旧版文档留在这里，但我们将不再对其中的内容进行更新。
@@ -167,7 +165,7 @@ execute if score timeline time matches 120 run setblock -47 9 28 beacon
 | `6`-`10` | 每游戏刻自加 | 始终执行 | 锁定 |
 | `0`或更小的值 | 不自加 | 不执行 | 不锁定 |
 
-##### 一些例子：
+##### 一些例子
 
 如果您要启用锁定视角的对话，只需要把剧情线的启用状态改为`6`，并且设定`playerPosition`实体和`facingPosition`实体的位置即可。
 

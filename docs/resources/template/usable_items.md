@@ -1,7 +1,5 @@
 # 可使用物品 文档
 
-<!-- markdownlint-disable MD029 -->
-
 :::info[本包性质]
 
 本包为**行为包**和**资源包**结合的包。
@@ -24,91 +22,91 @@
 
 1. 创建一个新的物品（`BP/items/<命名空间或自定义字段>/<物品ID>.item.json`）：
 
-```json title="BP/items/<命名空间或自定义字段>/<物品ID>.item.json"
-{
-    "format_version": "1.16.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "<命名空间>:<物品ID>"
-        },
-        "components": {
-            "minecraft:max_stack_size": <整数，自定义>,
-            "minecraft:food": { "can_always_eat": true, "nutrition": 0, "cooldown_time": <整数，冷却时长，单位：游戏刻>, "cooldown_type": "<物品ID>" },
-            "minecraft:use_duration": 9999999
-        }
-    }
-}
-```
+   ```json title="BP/items/<命名空间或自定义字段>/<物品ID>.item.json"
+   {
+       "format_version": "1.16.0",
+       "minecraft:item": {
+           "description": {
+               "identifier": "<命名空间>:<物品ID>"
+           },
+           "components": {
+               "minecraft:max_stack_size": <整数，自定义>,
+               "minecraft:food": { "can_always_eat": true, "nutrition": 0, "cooldown_time": <整数，冷却时长，单位：游戏刻>, "cooldown_type": "<物品ID>" },
+               "minecraft:use_duration": 9999999
+           }
+       }
+   }
+   ```
 
-其中，如果您不需要物品冷却，可以将`"cooldown_time"`和`"cooldown_type"`的键值对移除。不要更改其它的字段，除非您知道您在做什么。
+   其中，如果您不需要物品冷却，可以将`"cooldown_time"`和`"cooldown_type"`的键值对移除。不要更改其它的字段，除非您知道您在做什么。
 
 2. 将本模板包所给出的玩家服务端实体文件、以及行为包动画控制器复制到您的包里。
 3. 打开行为包动画控制器，其格式如下：
 
-```json title="BP/animation_controllers/player.animation_controllers.json"
-{
-    "format_version": "1.10.0",
-    "animation_controllers": {
-        "controller.animation.player.item_using_test": {
-            "states": {
-                "default": {
-                    "transitions": [
-                        { "is_using_<物品ID>": "query.is_item_name_any('slot.weapon.mainhand', 0, '<命名空间>:<物品ID>') && query.is_using_item" },
-                        ...
-                    ]
-                },
-                "is_using_<物品ID>": {
-                    "on_entry": [ "/function entities/player/using_<物品ID>" ],
-                    "transitions": [
-                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, '<命名空间>:<物品ID>') || !query.is_using_item" }
-                    ]
-                },
-                ...
-            }
-        }
-    }
-}
-```
+   ```json title="BP/animation_controllers/player.animation_controllers.json"
+   {
+       "format_version": "1.10.0",
+       "animation_controllers": {
+           "controller.animation.player.item_using_test": {
+               "states": {
+                   "default": {
+                       "transitions": [
+                           { "is_using_<物品ID>": "query.is_item_name_any('slot.weapon.mainhand', 0, '<命名空间>:<物品ID>') && query.is_using_item" },
+                           ...
+                       ]
+                   },
+                   "is_using_<物品ID>": {
+                       "on_entry": [ "/function entities/player/using_<物品ID>" ],
+                       "transitions": [
+                           { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, '<命名空间>:<物品ID>') || !query.is_using_item" }
+                       ]
+                   },
+                   ...
+               }
+           }
+       }
+   }
+   ```
 
-如果您不知道这个文件该如何编写，请见参考文献 1 ，但您要更改的具体字段已悉数标出。
+   如果您不知道这个文件该如何编写，请见参考文献 1，但您要更改的具体字段已悉数标出。
 
 4. 新建一个新的函数（`BP/functions/entities/player/using_<物品ID>.mcfunction`），在此处写下您要通过此物品执行的命令。
 5. 将资源包的物品客户端定义（`RP/items/<命名空间或自定义字段>/<物品ID>.item.json`）补充完整：
 
-```json title="RP/items/<命名空间或自定义字段>/<物品ID>.item.json"
-{
-    "format_version": "1.16.0",
-    "minecraft:item": {
-        "description": {
-            "identifier": "<命名空间>:<物品ID>",
-            "category": "Items"
-        },
-        "components": {
-            "minecraft:icon": "<物品贴图短ID>"
-        }
-    }
-}
-```
+   ```json title="RP/items/<命名空间或自定义字段>/<物品ID>.item.json"
+   {
+       "format_version": "1.16.0",
+       "minecraft:item": {
+           "description": {
+               "identifier": "<命名空间>:<物品ID>",
+               "category": "Items"
+           },
+           "components": {
+               "minecraft:icon": "<物品贴图短ID>"
+           }
+       }
+   }
+   ```
 
 6. 将物品的贴图放到`RP/textures/items/`文件夹下，命名为 \<物品ID\>.png ，然后更改物品贴图定义文件（`RP/textures/item_texture.json`）：
 
-``` json title="RP/textures/item_texture.json"
-{
-    "resource_pack_name": "vanilla",
-    "texture_name": "atlas.items",
-    "texture_data": {
-        "<物品贴图短ID>": { "textures": "textures/items/<物品ID>" }
-    }
-}
-```
+   ```json title="RP/textures/item_texture.json"
+   {
+       "resource_pack_name": "vanilla",
+       "texture_name": "atlas.items",
+       "texture_data": {
+           "<物品贴图短ID>": { "textures": "textures/items/<物品ID>" }
+       }
+   }
+   ```
 
 7. 添加物品键名，更改语言文件（`RP/texts/zh_CN.lang`和`RP/texts/en_US.lang`）：
 
-``` text title="RP/texts/zh_CN.lang 或 RP/texts/en_US.lang"
-item.<命名空间>:<物品ID>.name=<物品名称>
-```
+   ```plaintext title="RP/texts/zh_CN.lang 或 RP/texts/en_US.lang"
+   item.<命名空间>:<物品ID>.name=<物品名称>
+   ```
 
-其中第 5 ~ 7 步都是标准的创建物品的步骤，您可以查阅参考文献 2 来了解更多。
+其中第 5~7 步都是标准的创建物品的步骤，您可以查阅参考文献 2 来了解更多。
 
 :::warning[注意事项]
 

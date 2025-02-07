@@ -1,1 +1,1 @@
-find ./docs \( -path "./docs/resources/*" -prune \) -o -name "*.md" -print0 | xargs -0 markdownlint-cli2
+find ./docs -name "*.md" -print0 | xargs -0 markdownlint-cli2
