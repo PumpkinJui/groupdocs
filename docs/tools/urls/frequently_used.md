@@ -37,4 +37,4 @@
 - [GitHub](https://github.com/ff98sha/mclangcn)
 - [KLPBBS](https://klpbbs.com/thread-137794-1-1.html)
 - [MineBBS](https://www.minebbs.com/resources/8447/)
-- NetEase
+- [NetEase](https://mc.163.com)
