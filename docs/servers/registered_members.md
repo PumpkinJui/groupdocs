@@ -147,6 +147,7 @@ sidebar_position: 2
 | 小面包 | Xiaomianbao2007 |  ✔ | —<br/>— | ❔ | 马可服服管理 |
 | 鱼周 | UnhandyShark856 | ✔ | —<br/>— | ❔ | 马可服群管理、服管理 |
 | 硫化银 | yiyishi54188 | ✘ | —<br/>— | ❔ | |
+| 清风 | qing feng 00317 | ✘ | —<br/>— | ❔ | |
 
 ## 离群成员 (未违规)
 
@@ -166,7 +167,6 @@ sidebar_position: 2
 | 柠檬奶 | Lemonmilk114514 | |
 | 君茶 | TemadeFX | |
 | 劳打 | wsqDSB | |
-| 清风 | qing feng 00317 | |
 | 席暮阳 | AliveTuba618889 | |
 | 太白 | dingxiang520194 | |
 | 猪猪 | RashBeatle64497 | |
