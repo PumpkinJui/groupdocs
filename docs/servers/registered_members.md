@@ -133,7 +133,7 @@ sidebar_position: 2
 | Hg | CruelJewel85738 | ✘ | —<br/>— | ❔ | |
 | 创哲宇 | Chuangzheyu2048 | ✘ | —<br/>— | ❔ | |
 | ？？ | nanmucancan | ✘ | —<br/>— | ❔ | 需要补全信息，禁止进入任何服务器 |
-| 鲱鱼 | SevereFish20551 | ✘ | —<br/>— | ❔ | |
+| 鲱鱼 | SevereFish20551 | ✘ | —<br/>— | ❔ | 因 8 月 14 日起床战争测试频繁爆粗口，禁止进入任何服务器。 |
 | 欣叶 | xinye2012 | ✘ | —<br/>— | ❔ | |
 | soak | SoakChee | ✘ | —<br/>— | ❔ | |
 | KK | killklli9952 | ✘ | —<br/>— | ❔ | |
