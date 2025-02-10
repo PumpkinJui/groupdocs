@@ -1,17 +1,20 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 description: Docusaurus 迁移后的注意事项和新语法！
-title: 群文档已经正式迁移到 Docusaurus 了！
+title: Docusaurus 编辑指南
 ---
 
-<!-- markdownlint-disable MD026 -->
-<!-- markdownlint-disable MD036 -->
-
-# 群文档已经正式迁移到 Docusaurus 了！
+# Docusaurus 编辑指南
 
 > 作者：一只卑微的量筒
 
-群文档 er 们你们好！你们已经知道，我在春节之前曾经对群文档的迁移工作起到了浓厚的兴趣，然后花了很大的功夫将群文档从 GitBook 迁移到了 Docusaurus 上。你们可以从这个群文档的风格看到很大的变化！所以，理所当然地，这次迁移带来了很多全新的功能变化，但是也同时带来了很多编写上的问题。正所谓家家有本难念的经，在 GitBook 上有自己的方便和不便之处，而在新的 Docusaurus 上，也同样有自己的方便和不便之处。在这里，我就把我数天内总结到的一些经验、基本操作方法都写在这里，希望你们可以认真查看！>wO
+## 群文档已经正式迁移到 Docusaurus 了！
+
+群文档 er 们你们好！你们已经知道，我在春节之前对群文档的迁移工作起了浓厚的兴趣，然后花了很大的功夫将群文档从 GitBook 迁移到了 Docusaurus 上。你们可以从这个群文档的风格中看到很大的变化！
+
+这次迁移带来了很多全新的功能，但也同时带来了很多编辑问题。正所谓家家有本难念的经，在 GitBook 上有自己的方便和不便之处，而在新的 Docusaurus 上，也同样有自己的方便和不便之处。在这里，我就把我数天内总结到的一些经验和基本操作方法都写在这里，希望你们可以认真查看！>wO
+
+PS：你可以在 [Why not GitBook?](./gitbook) 了解我们迁移的理由。
 
 :::note[注意：下文的简写规范]
 
@@ -19,50 +22,94 @@ title: 群文档已经正式迁移到 Docusaurus 了！
 
 :::
 
-## 我们为什么迁移到小恐龙？
-
-当初迁移到小恐龙，主要是从以下角度考虑的：
-
-- 小恐龙可以**带来更多丰富的功能**，例如折叠块、提示块、选项卡等。你可以在本文的[小恐龙的独特优势](#小恐龙的独特优势)找到相关描述！
-- 这个迁移是群管理员 @南瓜汁 **已经预定好的**，他预计在 2025 年 12 月 31 日迁移完成，只是这次的迁移远远快于他的预期。
-- 你还想要更多理由吗？至少它更酷了不是吗？ >:)
-
-未来我们也不知道会不会有新的迁移，不过至少现在的小恐龙已经足够我们用很长一段时间了！
-
-## 在本地 Windows 上构建小恐龙框架
+## 使用小恐龙框架进行本地预览
 
 :::warning[注意]
 
-这一步虽然比较艰难，但是比较重要！
+这一步虽然比较艰难，但是非常重要！
 
-因为在小恐龙上，一些你曾经熟悉的语法可能不再适用或有更改，而小恐龙对构建的要求又比较高，例如无法找到图片的时候就会报错导致无法构建。贸然进行更改是比较危险的，除非这是一个小更改，或者你非常清楚你在做什么。
+因为在小恐龙上，一些你曾经熟悉的语法可能不再适用或有更改，而小恐龙对构建的要求又比较高，例如无法找到图片就会导致构建失败。贸然进行更改是比较危险的，除非你非常清楚你在做什么。
 
-如果你不希望你在编辑完并上传到群文档后出错，你可以在下面两项中选择一项：
+如果你不希望在编辑并推送到群文档后构建出错，可以在下面三项中选择一项：
 
-- 跟着我们这里走，在本地构建一套本地的小恐龙框架以便于你在本地电脑上提前预览效果，或者您也可以跟着小恐龙的[官方文档](https://tutorial.docusaurus.io/)进行下去。当然，这是一个英文网站，如果你不想看就还是跟我们来吧！
-- 或者，如果你嫌上面的步骤太麻烦，你可以在每次在需要图片链接、文档链接的地方（因为这是最容易出错的地方）先空下，然后联系 @量筒 或 @南瓜汁 等会处理这些东西的人处理。
+- 跟着我们这里走，使用小恐龙框架提供的本地开发服务器，以便于在提交前预览效果；或者跟着小恐龙的[官方文档](https://tutorial.docusaurus.io/)走也一样。当然，这是一个英文网站，如果你不想看就还是跟着我们走吧！
+- 或者，如果你嫌上面的步骤太麻烦，可以在每次在需要图片链接、文档链接的地方（因为这是最容易出错的地方）先空下，然后联系 @量筒 或 @南瓜汁 等会处理这些东西的人处理。
+- 你也可以使用分支功能。首先在一个新分支上进行修改，在推送后就可以使用网址 `https://{branch}.groupdocs.pages.dev/` 查看预览页面。这样，即使出现一些问题，也有弥补的机会，而且不会影响到群文档主分支的正常编辑和部署。*当前因为控制台误操作而不可用。*
 
 :::
 
-我很清楚，这一步会提高群文档 er 们编写群文档的门槛，但是小恐龙相比于以前的 GitBook 来讲，编写要求有明显的提高，如果不太留意可能就会出错，导致你的编写以及后人的编写无法成功在 CloudPages 编译，说人话就是，**你的错误更改会导致更改以及后人的更改都无法显示出来**！所以，事先在本地预览效果就显得比较重要。接下来请跟着我们的步骤来，带你简单了解小恐龙。
+我很清楚，这一步会提高群文档 er 们编辑群文档的门槛；但是小恐龙相比于以前的 GitBook 来讲，使用门槛明显提高，如果不太留意就可能会出错，导致你的编辑和其他人后续的编辑都无法成功在 CloudFlare Pages 部署。说人话就是，**一次错误更改会导致所有后续更改都无法显示出来**！所以，事先在本地预览效果就显得比较重要。
 
-### 第 1 步：安装`node.js`
+这一节所述内容除部分 `cmd` 命令外，全平台通用。
 
-在以前的 GitBook ，或者是现在的小恐龙，都需要`node.js`作为一个基础框架进行构建。好在，进行这一步非常简单，你只需要进入[node.js 的官网](https://nodejs.org/en)，然后点击「Download Node.js(LTS)」，它会自动为你下载最新正式版的`node.js`。小恐龙需要的版本是`18.0`或者更高，所以放心下载即可！
+<details>
 
-下载好之后，你会得到一个`.msi`安装包文件，打开之后，稍等一会儿，然后一直点「Next」，等它安装完就完事啦！
+<summary>Termux 使用特别说明</summary>
 
-### 第 2 步：初始化小恐龙
+安装小恐龙框架时，安装脚本需要创建 `symlink` 来识别和调用小恐龙。如果没有 ROOT 权限，这一操作无法在外部目录，即 `~/storage/` 的子目录中进行。
 
-打开 cmd，然后键入下面的命令来初始化你的小恐龙框架：
+解决方法是不在外部目录部署。直接在 `~` 目录或其他任意子目录运行相关命令，都可以正常运行。
 
-```plaintext
+对于文件管理，推荐使用 [MT 管理器](https://mt2.cn/)。在 Termux 运行时，打开 MT 管理器，并在左侧边栏的右上角点击「添加本地存储」，选择 Termux 并点击「选择全部」。此后，即可在 Termux 运行时访问 `~` 目录。这一方法有相关缺陷，尽量在 Termux 内部使用命令解决文件管理问题是终极解决方案。
+
+有报告称 Docusaurus 在 Termux 构建较为缓慢。
+
+</details>
+
+### 第 1 步：安装 `Node.js`
+
+以前的 GitBook 和现在的小恐龙，都需要 `Node.js` 作为一个基础框架进行构建。好在，进行这一步非常简单，你只需要进入 [Node.js 的官网](https://nodejs.org/zh-cn)，然后点击「下载 Node.js (LTS)」，它就会自动为你下载 `Node.js`。小恐龙需要的版本是 `18.0` 或者更高，所以放心下载即可！
+
+下载好之后，你会得到一个 `.msi` 安装包文件，打开之后一直点「Next」，等它安装完就完事啦！
+
+### 第 2 步：初始化 `Node.js`
+
+在 `Node.js` 中，我们通过包管理器 `NPM` (Node Package Manager) 来安装小恐龙。不幸（但又有点理所当然）的是，`NPM` 的官方库速度偏慢。因此，为了不要让下载问题干扰到安装流程，我们需要给它设置国内的镜像。这里用的是淘宝镜像。
+
+只需要打开 `cmd`，然后输入：
+
+```shell
+npm config -g set registry https://registry.npmmirror.com
+```
+
+回车以后就完事啦！
+
+<details>
+
+<summary>等下，如何打开 `cmd`？</summary>
+
+最简单的办法：按 <kbd>Win</kbd> + <kbd>R</kbd>，输入 `cmd`，回车。这会在 `%USERPROFILE%` 目录下打开一个 `cmd` 窗口。
+
+后面的某些操作要在指定的目录下进行。如果你需要指定一个运行目录，请先用文件资源管理器（可近似看作「此电脑」）找到那个目录，然后点击地址栏（显示当前路径的那个长条），输入 `cmd`，回车。或者如果你会操作的话，也可以用 `cd` 命令，但这可能更加麻烦，还会有 `/d` 的问题。
+
+`PowerShell` 在大部分情况下也可以用，但有些语法可能和 `cmd` 不兼容。
+
+</details>
+
+:::tip[`cmd` 相关操作小技巧]
+
+- 选中任何字符后在窗口中右键，相当于复制
+- 未选中任何字符时在窗口中右键，相当于粘贴
+- 路径中的 `/` 和 `\` 不作区分
+- 群文档里面的代码，可以通过鼠标悬停在代码块上，然后点击靠右上角的按钮一键复制；手机换成先点代码块再点按钮
+- 文件资源管理器中，右键地址栏，选择「复制地址」，可以快速复制当前目录的绝对路径
+- 文件资源管理器中，左键选中文件，按 <kbd>Shift</kbd> 并同时右键，右键菜单中的「复制为路径」可以快速复制选中文件的绝对路径
+
+:::
+
+### 第 3 步：初始化小恐龙
+
+现在，键入下面的命令来初始化你的小恐龙框架：
+
+```shell
 npm init docusaurus@latest my-website classic
 ```
 
-在等了一会儿之后，它会问你：你想用什么编程语言？你可以用方向键来选择，但其实你也不用选，我们使用`JavaScript`，直接按下回车即可。
+在等了一会儿之后，它会问你：你想用什么编程语言？
 
-```plaintext
+```shell-session
+$ npm init docusaurus@latest my-website classic
+
 > npx
 > create-docusaurus my-website classic
 
@@ -71,113 +118,153 @@ npm init docusaurus@latest my-website classic
     TypeScript
 ```
 
-接下来就等吧！等到它提示「Happy building awesome websites!」的时候，就大功告成了！如果你感兴趣的话，可以使用下面两条命令看看在本地构建的网页是什么样的：
+群文档使用的是 `JavaScript`，不用选择，直接按下回车即可。
 
-```plaintext
+接下来就等它自动安装吧！等到它提示「Happy building awesome websites!」的时候，就大功告成了！
+
+如果你感兴趣的话，可以使用下面两条命令看看在本地构建的示例网页是什么样的：
+
+```shell
 cd my-website
 npm start
 ```
 
+### 第 4 步：将 `/node_modules` 迁移到群文档文件夹
+
+但是我们的目标是要编辑群文档，而不是你刚刚构建的网页！我们只需要刚刚这个网页的小恐龙框架，也就是 `/node_modules` 目录。
+
+首先，我们需要知道群文档目录在哪。不管你把群文档放哪了，打开它并复制路径（方法在上面有）。我们不妨假设它是 `X:/groupdocs/`。
+
+然后，回到刚刚那个 `cmd` 窗口，执行下列命令来移动框架：
+
+```shell
+robocopy "./my-website/node_modules" "X:/groupdocs/node_modules" /E /MT:32 /MOVE
+```
+
+这里的命令需要把群文档路径换一下再用，也就是把 `X:/groupdocs/node_modules` 换成 `不管群文档在哪里/node_modules`。
+
+移动完成后，你可以使用以下命令来删除这个示例网站：
+
+```shell
+rmdir /s /q ./my-website
+```
+
 <details>
 
-<summary>等下，如何打开 cmd ？</summary>
+<summary>我能在文件资源管理器里面进行移动操作，而不用这些命令吗？</summary>
 
-如果你不知道如何打开，你可以选择：
+当然可以！用这些命令其实是为了节省找当前运行目录的麻烦，以及提升移动的速度。
 
-- 如果你是 Windows 11，在你的开始菜单里找到「终端」。
-- 或者，在开始菜单旁边的搜索菜单里搜索 cmd ，会显示「最佳匹配：命令提示符」，这就是你要找的 cmd 了。
-- 或者，按 Win + R 键并输入 cmd，然后运行。
+小恐龙框架中的文件呈现一种小而零碎的特点，一共只有约 150 MB，但却包含了约 30000 个文件！有过相关经历的可能知道，文件资源管理器对这样的操作力有不逮，通常慢得离谱。
+
+但是看到命令当中的 `/MT:32` 了吗？那意味着使用 32 线程进行操作。如果电脑撑得住，你甚至可以把它改得更大！这就在线程方面大大提高了移动速度。
+
+如果你更愿意使用文件资源管理器操作，你可以找到 `cmd` 窗口光标左侧显示的那个路径并打开，然后把 `~/my-website/node_modules` 移动到 `X:/groupdocs/node_modules`，效果是一样的。
 
 </details>
 
-### 第 3 步：将`/node_modules`迁移到群文档文件夹
+### 第 5 步：群文档预览版，启动！
 
-但是我们的目标是要编辑群文档，而不是你刚刚构建的网页！所以我们接下来把刚构建的网页的一些关键部分扒下来放到我们的群文档里面去。首先，我们需要分别找到下面两个路径并分别打开：
+接下来，这个命令行窗口就可以关掉啦！刚刚群文档那个窗口还留着吗？点击地址栏，输入 `cmd` 并回车，在这里打开一个新的命令行窗口。
 
-- 你刚构建的网页的文件夹，它位于`%userprofile%\my-website`。
-- 你在本地的群文档文件夹，它位于......我怎么知道它位于哪里，这是你自己决定的。但总之，打开到群文档`groupdocs`文件夹。
+然后，使用以下命令启动群文档预览：
 
-然后，将`my-website`的`/node_modules`文件夹剪切（或者复制也行）粘贴到`groupdocs`文件夹里。如果你没有接触过网站编辑，你可能不知道这么做的意义是什么，但总之先这么做，这一步很重要。
-
-### 第 4 步：群文档预览版，启动！
-
-接下来使用和[第 2 步](#第-2-步初始化小恐龙)最后那里类似的方法，使用`cd`命令定位到你的群文档页面，然后使用`npm`启动。当然，如果你是装在非 C 盘的位置上，那么你还需要先换盘。比如我的群文档位置位于`E:\Minecraft 资源\群文档\groupdocs`，那么我需要先在 cmd 里输入
-
-```plaintext
-E:
-```
-
-这样可以先换到 E 盘，然后用类似的方法启动就可以了。
-
-```plaintext
-cd E:\Minecraft 资源\群文档\groupdocs
+```shell
 npm start
 ```
 
-不一会儿，你的浏览器就会自动启动到[`localhost:3000`](http://localhost:3000/)网页了！这个网页会构建现在的群文档文件，有助于你进行本地配置和优化。当然啦，也不必急着关闭 cmd，它的后台会展示一些有用的信息。如果你希望停止这个端口，只需要在 cmd 按下 Ctrl+C （也就是复制键），停止当前进程就好了。
+不一会儿，你的浏览器就会自动启动到 [`localhost:3000`](http://localhost:3000/) 了！这个网页会构建现在的群文档文件，有助于你进行本地配置和优化。而且，它是实时渲染的！你进行的任何更改，在保存后都会立刻被呈现。
+
+在运行预览页面时，`cmd` 窗口必须一直开着，同时会显示一些有用的日志信息；如果不再需要预览了，在命令行窗口按 <kbd>Ctrl</kbd> + <kbd>C</kbd> 即可停止！
+
+<details>
+
+<summary>哇，这岂不是群文档直接上网了？</summary>
+
+其实不是这样的，它依然在本地待着。（如果这么容易就能上网，还要 CloudFlare Pages 干啥？）
+
+这要从链接说起。有没有发现这个链接和平时上网看见的 `https://www.baidu.com/` 格式有所不同？
+
+`localhost` 域名，指向的不是外部的服务器，而是你自己的设备。我们的确是启动了「本地开发服务器」，但它只能给你这一台设备用，其他设备都用不了。
+
+</details>
 
 ## 在小恐龙上编写需要注意哪些问题？
 
-虽然我们基于小恐龙的编写，自由度比以前高了很多，但是请注意，**小恐龙对一般的 Markdown 兼容性并不好**。这就意味着，有很多东西需要额外注意。
+虽然基于小恐龙的编写自由度比以前高了很多，但是请注意，**小恐龙对常规的 MarkDown 兼容性并不好**。这就意味着有很多东西需要额外注意，而且我们丢失了对 GitHub 的一部分兼容性。
 
 ### 图片链接
 
-这是在小恐龙上最容易出错的地方，这个错误也会导致**编译错误**。因为小恐龙的图片提取是默认在`static`文件夹寻找的文件，因此你在写入图片链接的时候请务必注意：**删除`/static`链接**！！例如，图片的链接本来是
+这是在小恐龙上最容易出错的地方，也会导致**编译错误**。
+
+小恐龙的图片会默认在 `static` 目录下寻找，因此在写入图片链接的时候请务必注意：**不要使用相对路径，并删除 `/static` 链接**！！
+
+例如，图片的链接本来是：
 
 ```markdown
-![这是一张图片！](/static/rules/rules_2023.jpg)
+![这是一张图片！](../../../static/rules/rules_2023.jpg)
 ```
 
-那么，请你写成
+那么，请你写成：
 
 ```markdown
 ![这是一张图片！](/rules/rules_2023.jpg)
 ```
 
-也不要用相对链接，也就是`../`的形式。
-
 ### 文档间链接
 
-这是在小恐龙上第二容易出错的地方。虽然经过我的一通捣鼓，至少让它不会报错了，然而还是会影响到你的文档的运行。例如，如果你要从这篇文档跳转到另一篇文档，你会这么写：
+这是在小恐龙上第二容易出错的地方。虽然经过我的一通捣鼓，至少让它不会报错了，然而也仅限于不会报错。
+
+在写入文档间链接的时候请注意：**把链接末尾的 `.md` 删掉**！
+
+例如，如果要从这篇文档跳转到另一篇文档，原来会这么写：
 
 ```markdown
 [我要跳转到另一篇文档咯](../../rules/encounter.md)
 ```
 
-那么，请你**把`.md`的末尾删掉**，因为它可能会导致链接失效，也就是改成这样：
+那么，请你改成这样：
 
 ```markdown
 [我要跳转到另一篇文档咯](../../rules/encounter)
 ```
 
-这个对你的编辑影响并不会很大，至少在 VSC 里，它还是能正常跳转。这么做的理由，是因为小恐龙在跳转链接后，是直接按照你所给的链接跳转的，所以带上这个`.md`和不带上它，是两个不同的链接。而小恐龙渲染好 Markdown 后，是不会有`.md`的后缀的，所以你也应该把这个末尾删掉。
+这个对你的编辑影响并不会很大，至少在 VSC 里，它还是能正常跳转。（不用 VSC 的大哭大闹）
 
-### 慎用`<>`和`{}`
+这么做的理由，是因为小恐龙在跳转链接时，是直接按照你所给的链接跳转的，所以带上这个 `.md` 和不带上它，是两个不同的链接。而小恐龙渲染好 MarkDown 后，是不会有 `.md` 的后缀的，也就容易导致链接失效。
 
-是的，你没看错，慎用。这个错误也会导致**编译错误**。因为实质上小恐龙是将这些 Markdown 看作是 MDX 文件来处理的，而这类文件的编译要比普通的 Markdown 严格得多。其中，`<>`会被视作 HTML 标签，而 `{}` 则会被视为 JSX 代码块，一旦出现问题就会报错。如果你确实需要使用这两个符号，尽可能使用下面的方法来转义代替：
+### 慎用 `<>` 和 `{}`
+
+是的，你没看错，慎用。这个错误也会导致**编译错误**。
+
+实质上，小恐龙是将这些 MarkDown 看作 MDX 文件来处理的，而这类文件的编译要比普通的 MarkDown 严格得多。其中，`<>` 会被视作 HTML 标签，而 `{}` 则会被视作 JSX 代码块，一旦出现问题就会报错。
+
+如果你确实需要使用这两个符号，尽可能使用下面的方法来转义代替：
 
 - 用 `\{` 代表 `{`，例：\{。
 - 用 `\<` 代表 `<`，例：\<。
 
-当然，如果放到代码块里，则不必考虑那么多了。
+当然，如果放到代码块或行内代码块里，则不必考虑那么多了。代码块当中的字符都是原样呈现的，甚至包括 `\` 本身。
 
 ### 文件名开头为数字的链接
 
-如果文件名的开头为数字，那么链接名会自动把开头的数字移除。因此，如果你要链接到类似于 30 种死法的链接，以前你可能会这么写：
+如果文件名的开头为数字，那么链接名会自动把开头的数字移除。
 
-```plaintext
+因此，如果你要链接到类似于 30 种死法的链接，以前你可能会这么写：
+
+```markdown
 [30 种死法主页](../../resources/completed/30_ways_to_die/homepage)
 ```
 
-那么，请**把`30_`删掉**，即
+那么，请**把 `30_` 删掉**，即
 
-```plaintext
+```markdown
 [30 种死法主页](../../resources/completed/ways_to_die/homepage)
 ```
 
 ## 小恐龙的独特优势
 
-说了一些注意事项，接下来我们要聊聊迁移的优势了！群文档迁移到 Docusaurus 之后，使用的语法被称为 [MDX](https://mdxjs.com/)，相比于[CommonMark](https://commonmark.org/) 和 [GitHub Flavored Markdown](https://github.github.com/gfm/)，有很多独特的优势。以下是我总结的几条有意思的新特性，希望对你的文章编写有所帮助！当然啦，如果以后还有新的有趣用法，我会在这里继续补充的！
+说了一些注意事项，接下来我们要聊聊迁移的优势了！群文档迁移到 Docusaurus 之后，使用的语法被称为 [MDX](https://mdxjs.com/)，相比于 [CommonMark](https://commonmark.org/) 和 [GitHub Flavored Markdown](https://github.github.com/gfm/)，有很多独特的优势。以下是我总结的几条有意思的新特性，希望对你的文章编写有所帮助！当然啦，如果以后还有新的有趣用法，我会在这里继续补充的！
 
 ### 文档前言（Front Matter）
 
@@ -187,9 +274,11 @@ npm start
 
 :::
 
-也许你注意到了，现在如果你打开目录中的折叠列表之后，会分块显示其中的条目。例如，你可以试着点开目录中的「维护者专用页面」折叠列表，你会看到一个全新的页面！其中，有一些东西的显示就是依靠**文档前言**实现的。文档前言写在这篇文档的**最开头**。代码如下：
+也许你注意到了，现在如果你点击目录中的折叠列表本身，会分块显示其中的条目。例如，你可以试着点击目录中的「维护者专用页面」折叠列表，会看到一个全新的页面！
 
-```plaintext
+其中，有一些东西的显示就是依靠**文档前言**实现的。文档前言写在一篇文档的**最开头**，代码如下：
+
+```markdown
 ---
 键: 值
 ---
@@ -204,9 +293,9 @@ npm start
 | `last_update` | `FrontMatterLastUpdate` | 记录上次更新的日期和作者 |
 | `sidebar_position` | 整数 | 在侧边栏中排到第几位 |
 
-**例** 一个标准的文档前言如下：
+一个标准的文档前言如下：
 
-```mdx
+```markdown
 ---
 title: awa
 description: 一个简短的描述
@@ -232,13 +321,14 @@ last_update:
 在写「备注」「注意」等等你希望起到提示作用的地方，可以使用标注块。在下面来看看小恐龙提供的 5 种默认标注块的写法吧！
 
 ---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="note" label="备注块（白色）" default>
-
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 :::note
 
@@ -246,9 +336,10 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
-```plaintext
+```markdown
 :::note
 
 这是一个白色的备注块！
@@ -257,9 +348,12 @@ import TabItem from '@theme/TabItem';
 ```
 
   </TabItem>
-  <TabItem value="tip" label="提示块（绿色）" default>
+  </Tabs>
+  </TabItem>
 
-**效果**
+  <TabItem value="tip" label="提示块（绿色）">
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 :::tip
 
@@ -267,9 +361,10 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
-```plaintext
+```markdown
 :::tip
 
 这是一个绿色的提示块！
@@ -278,9 +373,12 @@ import TabItem from '@theme/TabItem';
 ```
 
   </TabItem>
-    <TabItem value="info" label="信息块（蓝色）" default>
+  </Tabs>
+  </TabItem>
 
-**效果**
+  <TabItem value="info" label="信息块（蓝色）">
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 :::info
 
@@ -288,9 +386,10 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
-```plaintext
+```markdown
 :::info
 
 这是一个蓝色的信息块！
@@ -299,9 +398,12 @@ import TabItem from '@theme/TabItem';
 ```
 
   </TabItem>
-    <TabItem value="warning" label="警告块（黄色）" default>
+  </Tabs>
+  </TabItem>
 
-**效果**
+  <TabItem value="warning" label="警告块（黄色）">
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 :::warning
 
@@ -309,9 +411,10 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
-```plaintext
+```markdown
 :::warning
 
 这是一个黄色的警告块！
@@ -320,9 +423,12 @@ import TabItem from '@theme/TabItem';
 ```
 
   </TabItem>
-    <TabItem value="danger" label="危险块（红色）" default>
+  </Tabs>
+  </TabItem>
 
-**效果**
+  <TabItem value="danger" label="危险块（红色）">
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 :::danger
 
@@ -330,9 +436,10 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
-```plaintext
+```markdown
 :::danger
 
 这是一个红色的危险块！
@@ -340,6 +447,8 @@ import TabItem from '@theme/TabItem';
 :::
 ```
 
+  </TabItem>
+  </Tabs>
   </TabItem>
 </Tabs>
 
@@ -350,9 +459,10 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="title" label="标注块自定义标题" default>
 
-你可以在声明的类型后面，加上一个`[text]`来**自定义标注块的标题**！下面是一个示例：
+你可以在声明的类型后面，加上一个 `[text]` 来**自定义标注块的标题**！下面是一个示例：
 
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 :::warning[这是一个自定义标题！]
 
@@ -360,9 +470,10 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
-```plaintext
+```markdown
 :::warning[这是一个自定义标题！]
 
 这是一个黄色的警告块！
@@ -371,11 +482,15 @@ import TabItem from '@theme/TabItem';
 ```
 
   </TabItem>
+  </Tabs>
+  </TabItem>
+
   <TabItem value="nest" label="标注块嵌套">
 
 你可以在标注块里面嵌套一个标注块！下面是一个示例：
 
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 :::warning[这是外层标注块]
 
@@ -387,9 +502,10 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
-```plaintext
+```markdown
 :::warning[这是外层标注块]
 
 这是外层的内容！
@@ -401,6 +517,8 @@ import TabItem from '@theme/TabItem';
 :::
 ```
 
+  </TabItem>
+  </Tabs>
   </TabItem>
 </Tabs>
 
@@ -419,13 +537,15 @@ import TabItem from '@theme/TabItem';
 
 这是我们所熟知的经典代码块写法。
 
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
-```language
+```plaintext
 这是一个代码块
 ```
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ````markdown
 ```language
@@ -434,11 +554,15 @@ import TabItem from '@theme/TabItem';
 ````
 
   </TabItem>
+  </Tabs>
+  </TabItem>
+
   <TabItem value="title" label="带标题">
 
-你可以在声明语言类型之后，再声明`title`，这样你的代码块上就会出现标题！
+你可以在声明语言类型之后，再声明 `title`，这样你的代码块上就会出现标题！
 
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 ```plaintext title="awa"
 1
@@ -446,7 +570,8 @@ import TabItem from '@theme/TabItem';
 3
 ```
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ````markdown
 ```plaintext title="awa"
@@ -457,11 +582,15 @@ import TabItem from '@theme/TabItem';
 ````
 
   </TabItem>
+  </Tabs>
+  </TabItem>
+
   <TabItem value="highlight" label="代码行高亮">
 
-你可以在声明语言类型之后，再用`{lines}`声明要高亮的行数！
+你可以在声明语言类型之后，再用 `{lines}` 声明要高亮的行号！
 
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 ```plaintext {2-4,6}
 1
@@ -472,7 +601,8 @@ import TabItem from '@theme/TabItem';
 6
 ```
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ````markdown
 ```plaintext {2-4,6}
@@ -486,11 +616,15 @@ import TabItem from '@theme/TabItem';
 ````
 
   </TabItem>
-    <TabItem value="showlinenumbers" label="显示代码行数">
+  </Tabs>
+  </TabItem>
 
-你可以在声明语言类型之后，再用`showLineNumbers`显示行号！
+  <TabItem value="showlinenumbers" label="显示代码行数">
 
-**效果**
+你可以在声明语言类型之后，再用 `showLineNumbers` 显示行号！
+
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 ```plaintext showLineNumbers
 1
@@ -498,7 +632,8 @@ import TabItem from '@theme/TabItem';
 3
 ```
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ````markdown
 ```plaintext showLineNumbers
@@ -508,12 +643,15 @@ import TabItem from '@theme/TabItem';
 ```
 ````
 
+  </TabItem>
+  </Tabs>
   </TabItem>
   <TabItem value="example" label="综合示例">
 
 我们现在将前面 4 种功能综合起来进行一个示例吧！比如……30 种死法 2 的一个函数文件，也就是第 10 关的时间线，其中第 9 行就是检测粉床的一条关键命令！
 
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 ```plaintext title="BP_wstd/functions/levels/mainline/level_10/timeline.mcfunction" {9} showLineNumbers
 # ===== 时间线 =====
@@ -534,7 +672,8 @@ execute if score level10.itemTestWhiteBed active matches 1 as @a[hasitem={item=b
 execute if score tick time matches 2 run effect @a fire_resistance 30 0 true
 ```
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ````markdown
 ```plaintext title="BP_wstd/functions/levels/mainline/level_10/timeline.mcfunction" {9} showLineNumbers
@@ -558,54 +697,72 @@ execute if score tick time matches 2 run effect @a fire_resistance 30 0 true
 ````
 
   </TabItem>
+  </Tabs>
+  </TabItem>
 </Tabs>
 
 ### 待办列表
 
-这是一个 Markdown 自带的功能！只不过因为 GitBook 实在过于老旧，所以待办列表在旧版的群文档上表现不佳。但是，迁移之后，我们就可以正常使用这个功能了！
+这是一个 MarkDown 的扩展功能！在很多 MarkDown 语法中是自带的，只不过因为 GitBook 实在过于老旧，所以待办列表在旧版的群文档上无法渲染。但是，迁移之后，我们就可以正常使用这个功能了！
 
-**效果**
+<Tabs>
+  <TabItem value="effect" label="效果" default>
 
 - [ ] 这是一个未完成的待办列表。
 - [x] 这是一个已完成的待办列表！
 
-**代码**
+</TabItem>
+<TabItem value="code" label="代码">
 
 ```markdown
 - [ ] 这是一个未完成的待办列表。
 - [x] 这是一个已完成的待办列表！
 ```
 
+  </TabItem>
+</Tabs>
+
 ### 链接到特定章节
 
-这同样也是一个 Markdown 自带的功能！同样，因为 GitBook 过于老旧而表现不佳。这里就来简单介绍一下如何编写吧！
+这同样也是一个 MarkDown 自带的功能！在旧版群文档中，我们并没有推广这个用法。这里就来简单介绍一下如何编写吧！
+
+同一篇文档中有多个相同标题，以及标题中有空格和其他特殊字符的，有特殊的标题写法。如果你拿不准，可以在预览页面或部署页面中，将鼠标悬停在标题上，然后点击新出现的 `#`。此时，地址栏中链接末尾显示的标题就是这个标题的正确写法！
+
+复制的链接可能会有中文转义，一个中文字符对应 `%xx%xx%xx`。如果为了兼容性考虑，可以把它原样保留；如果实在看不顺眼，可以改回原来标题里面的中文。
 
 <Tabs>
   <TabItem value="inpassage" label="文章内链接" default>
-
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 [点我链接到上面的待办列表](#待办列表)！
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ```markdown
 [点我链接到上面的待办列表](#待办列表)！
 ```
 
   </TabItem>
-  <TabItem value="outofpassage" label="文章外连接">
+  </Tabs>
+  </TabItem>
 
-**效果**
+  <TabItem value="outofpassage" label="文章外连接">
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 [点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2/homepage#下载)！
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ```markdown
 [点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2/homepage#下载)！
 ```
 
+  </TabItem>
+  </Tabs>
   </TabItem>
 </Tabs>
 
@@ -619,7 +776,8 @@ execute if score tick time matches 2 run effect @a fire_resistance 30 0 true
 
 你在本文前面的内容中，已经见过很多有关选项卡的内容啦，那么接下来我简单介绍一下选项卡的写法吧！
 
-**效果**
+<Tabs>
+  <TabItem value="effect" label="效果" default>
 
 <Tabs>
   <TabItem value="ID1" label="苹果" default>
@@ -639,9 +797,10 @@ execute if score tick time matches 2 run effect @a fire_resistance 30 0 true
   </TabItem>
 </Tabs>
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
-其中高亮代码只需要在全文中声明 1 次即可。各个`value`是不可重复的。
+其中高亮代码只需要在全文中声明 1 次即可。各个 `value` 是不可重复的。
 
 ```html {1-2}
 import Tabs from '@theme/Tabs';
@@ -666,16 +825,19 @@ import TabItem from '@theme/TabItem';
 </Tabs>
 ```
 
+  </TabItem>
+</Tabs>
+
 ### 折叠块
 
-Docusaurus 还支持使用 HTML 的折叠语法！
+MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折叠块！
 
 感谢 @鸽子 写的[这篇文档](../../tools/howto/hide_name)，让我意识到 Docusaurus 居然还支持折叠……
 
 <Tabs>
   <TabItem value="withTitle" label="带标题" default>
-
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 <details>
 
@@ -685,7 +847,8 @@ Docusaurus 还支持使用 HTML 的折叠语法！
 
 </details>
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ```html
 <details>
@@ -697,12 +860,15 @@ Docusaurus 还支持使用 HTML 的折叠语法！
 </details>
 ```
 
+  </TabItem>
+  </Tabs>
   </TabItem>
   <TabItem value="noTitle" label="不带标题">
 
 如果实在想不出来折叠标题写什么，也可以省略。
 
-**效果**
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
 
 <details>
 
@@ -710,7 +876,8 @@ Docusaurus 还支持使用 HTML 的折叠语法！
 
 </details>
 
-**代码**
+  </TabItem>
+  <TabItem value="code" label="代码">
 
 ```html
 <details>
@@ -721,281 +888,13 @@ Docusaurus 还支持使用 HTML 的折叠语法！
 ```
 
   </TabItem>
+  </Tabs>
+  </TabItem>
 </Tabs>
 
 ### 无需手动编写目录
 
-在迁移到小恐龙之前，有一个目录文件`SUMMARY.md`是每次在我们编写新文章时都要修改的。然而，迁移到小恐龙后，编写新文章将会自动生成左侧目录，也不再需要手动修改目录文件了！
-
-## 编写新文章的模板
-
-在创建一篇新文章的时候，你可以从下面的模板复制粘贴，写一篇新文章出来。当然，我们对正文的要求都在[群文档编辑指南](./contributing)，但是其中大多数都是推荐性标准。
-
-```markdown
----
-sidebar_position: <在侧边栏的排序>
-description: <文章描述>
----
-
-# 标题
-
-:::tip
-
-该文章正在编写中。在该窗口被移除前，请不要对文章内容进行进一步的修改与提交。
-
-:::
-
-正文
-```
-
-在编写完文章之后，你可以将开头的那个标注块删除。
-
-## 编写新公告的模板
-
-群文档编辑者在备份群公告时，应注意严格按照以下的要求进行备份。
-
-### 群内群公告模板
-
-为统一管理员发布群公告的样式，请全体管理员在发布有下文列出的类型的群公告时尽可能按照以下的模板发布群公告。
-
-#### 服务器开放模板
-
-<Tabs>
-  <TabItem value="info1" label="说明版本" default>
-
-```plaintext
-《{地图名}》将于 {mm} 月 {dd} 日 (星期 {X}) {HH}:{MM}~{HH}:{MM} 在测试服开启测试。
-地址：rain.cvm.xiaozhiyuqwq.top
-端口：{port}
-版本：1.{xx.xx}
-如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/s/be 更新。
-进入服务器需要白名单，群内成员皆可获得；如提示「未获邀」，请在测试开始前联系量筒添加白名单。
-```
-
-  </TabItem>
-  <TabItem value="copy1" label="可复制版本">
-
-```plaintext
-《》将于  月  日 (星期) ~ 在测试服开启测试。
-地址：rain.cvm.xiaozhiyuqwq.top
-端口：
-版本：1.
-如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/s/be 更新。
-进入服务器需要白名单，群内成员皆可获得；如提示「未获邀」，请在测试开始前联系量筒添加白名单。
-```
-
-  </TabItem>
-</Tabs>
-
-#### 游戏更新公告模板
-
-<Tabs>
-  <TabItem value="info1" label="说明版本" default>
-
-```plaintext
-【更新通知】
-本群全体服务器计划于 {time} 更新到基岩版正式版 {version}，请及时更新到该版本，否则将无法进入本群服务器！
-Android安装包与Windows安装包均已发到群文件（群文件夹：国际版（下载游戏的点我）），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
-
----
-
-附录：
-1. 更新日志：
-中文 Minecraft Wiki：{link}
-官网：{link}
-2. 下载链接：
-Android（破解验证）：{link}
-Windows（正版）：{link}
-```
-
-  </TabItem>
-  <TabItem value="copy1" label="可复制版本">
-
-```plaintext
-【更新通知】
-本群全体服务器计划于  更新到基岩版正式版 ，请及时更新到该版本，否则将无法进入本群服务器！
-Android安装包与Windows安装包均已发到群文件（群文件夹：国际版（下载游戏的点我）），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
-
----
-
-附录：
-1. 更新日志：
-中文 Minecraft Wiki：
-官网：
-2. 下载链接：
-Android（破解验证）：
-Windows（正版）：
-```
-
-  </TabItem>
-</Tabs>
-
-### 将群公告备份到群文档的基础步骤
-
-#### 1. 确认群公告发出时间
-
-编辑者在编辑时需要确认公告所发出的时间，然后在`blog/anno`文件夹中创建对应的年份的文件夹，然后以`[月份：mm][日期：dd][第几份公告：xx].md`标记该群公告在何月何日以及当天发布的顺序。例如，如果该公告发布于 2023 年 1 月 1 日，为当天发布的第二个群公告，则创建以下的文件夹和文件：`blog/anno/2023/010102.md`。
-
-#### 2. 复制下文的模板并填写信息
-
-```plaintext title="blog/anno/[YYYY]/[mm][dd][xx].md"
----
-authors: [(authors?)]
-title: (m|mm) 月 (d|dd) 日
-date: (YYYY)-(mm)-(dd)T(HH):(MM)
----
-
-正文
-
-```
-
-其中，模板中的文档前言（Front Matter）中，`authors`可以填写为以下的作者之一：
-
-- `badou`（巴豆）
-- `biyiniao`（比翼鸟）
-- `chenfeng`（晨风）
-- `dilei`（地雷）
-- `gezi`（鸽子）
-- `huoweisan`（火卫三）
-- `lanos`（lanos）
-- `liangtong`（量筒）
-- `mengderen`（蒙德人）
-- `nanguazhi`（南瓜汁）
-- `wenyu`（文雨）
-- `xiaoshu`（小鼠）
-- `zhiyu`（祉语）
-
-`title`中的月份`m|mm`和日期`d|dd`，请填写为不带 0 的数字，例如「4 月 5 日」而不是「04 月 05 日」。
-
-`date`中的月份`mm`、日期`dd`、小时`HH`、分钟`MM`，请填写为带 0 的数字，例如「2024-04-05T09:09」而不是「2024-4-5T9:9」。年份`YYYY`请填写为 4 位数字。
-
-#### 3. 添加提示窗口
-
-一个公告可能出现以下的特殊情况。出现以下的特殊情况，编辑者应当将下面的提示窗口放置到正文的前面。
-
-<Tabs>
-  <TabItem value="confirm" label="确认公告" default>
-
-代表此公告是一个要求多人收到的公告。将确认收到人数`count`按「未确认 + 已确认」统计，以提交到群文档时的人数为准。
-
-**效果**
-
-:::info[确认公告]
-
-此公告要求 (count) 人确认收到。
-
-:::
-
-**代码**
-
-```plaintext
-:::info[确认公告]
-
-此公告要求 (count) 人确认收到。
-
-:::
-```
-
-  </TabItem>
-  <TabItem value="top" label="置顶公告">
-
-代表此公告是一个置顶公告。**注意：置顶公告的优先级为最高**。
-
-**效果**
-
-:::warning[置顶公告]
-
-此公告为置顶公告。
-
-:::
-
-**代码**
-
-```plaintext
-:::warning[置顶公告]
-
-此公告为置顶公告。
-
-:::
-```
-
-  </TabItem>
-    <TabItem value="topanno" label="新成员公告">
-
-代表此公告是一个新成员公告，要求新成员收到。**注意：新成员公告的优先级为次高，放在置顶公告的下面**。
-
-**效果**
-
-:::warning[新成员公告]
-
-此公告发给新成员，并引导群成员修改群昵称。
-
-:::
-
-**代码**
-
-```plaintext
-:::warning[新成员公告]
-
-此公告发给新成员，并引导群成员修改群昵称。
-
-:::
-```
-
-  </TabItem>
-  <TabItem value="delete" label="删除公告">
-
-代表此公告已被删除，或者被更改。`title`填写为被删除的公告的标题，`link`为被删除公告的链接。
-
-**效果**
-
-:::danger[删除公告]
-
-该公告是 x 月 x 日第 x 则的上一版公告，已被删除。
-
-:::
-
-**代码**
-
-```plaintext
-:::danger[删除公告]
-
-该公告是 [(title)](link)的上一版公告，已被删除。
-
-:::
-```
-
-  </TabItem>
-</Tabs>
-
-#### 4. 插入图片
-
-如果公告中插入了图片，请将图片按格式`{yymmddxx}.jpg`命名后放置到文件夹`static/anno/`文件夹中，然后将图片插入到正文的前面、提示窗口的后面。
-
-```plaintext
-![(图片名)](/anno/({yymmddxx}).jpg)
-```
-
-#### 举例
-
-我们以 @南瓜汁 在 2023 年 8 月 24 日发布的一则群公告为例，展示如何将一则带有图片的群公告备份到群文档。
-
-```plaintext title="blog/anno/2023/082401.md"
----
-authors: [nanguazhi]
-title: 8 月 24 日群公告
-date: 2023-08-24T21:12
----
-
-![公告图片](/anno/23082401.jpg)
-
-「本群名菜」2023 年第二次更新已结束。相关文件已更新并导出，并被同步至「Q群管家-入群欢迎」、「群文件-其他文件」及「Notion 群文档」。
-
-至 2023 年 12 月末，除非有管理员及以上级别的成员变更，不会再次更改此菜单。
-
-```
-
-如果还有任何疑问，请见其他群公告。
+在迁移到小恐龙之前，我们每次编写新文章都要修改目录文件 `SUMMARY.md`。然而，迁移到小恐龙后，编写新文章将会自动生成左侧目录，也不再需要手动修改目录文件了！
 
 ## 写在最后
 

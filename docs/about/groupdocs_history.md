@@ -34,9 +34,9 @@ sidebar_position: 2
 05 月 09 日，新的群文档仓库在 GitHub 上创建，并将 Notion 上所有文件以 MarkDown 形式导入至仓库。  
 12 日晚，GitBook 结构整理完成。  
 13 日凌晨，dev 分支合并 main 分支，其中含有 56 个文件的更改。稍后，群文档在 GitBook.com 上成功部署。  
-14 日下午，群文档在 CloudFlare Pages 上成功以 GitBook Framework 部署。至此 所有迁移工作完毕。
+14 日下午，群文档在 CloudFlare Pages 上成功以 GitBook Framework 部署。至此，所有迁移工作完毕。
 
-07 月 13 日，由于 GitBook.com 站使用率低、优化差且访问速度变差，该站点被撤销。*进个控制台给我手机卡死机三次……连桌面都崩了……*
+07 月 13 日，由于 GitBook.com 站点使用率低、优化差且访问速度变差，该站点被撤销。*进个控制台给我手机卡死机三次……连桌面都崩了……*
 
 08 月 15 日，群公告档案开始建设，并于 17 日完成。12 月 12 日，群公告档案因体积过大被迁移到 anno 分支。
 
