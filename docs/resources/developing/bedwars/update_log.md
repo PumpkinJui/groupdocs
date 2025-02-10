@@ -18,11 +18,13 @@ author: 量筒
 
 - Exp 版本
   - [Exp 1.0_01](#exp-10_01)
+  - [Exp 1.0_01b](#exp-10_01b)
 - Alpha 版本
   - [Alpha 1.0_01](#alpha-10_01)
   - [Alpha 1.0_02](#alpha-10_02)
 - Pre 版本
   - [1.0 - Pre 1](#10---pre-1)
+  - [1.0 - Pre 2](#10---pre-2)
 
 ---
 
@@ -63,6 +65,10 @@ author: 量筒
 视频制作：@一只卑微的量筒
 
 极筑工坊出品，未经许可禁止转载
+
+## Exp 1.0_01b
+
+> 该版本发布日期不明，约为在 8 月 14 日附近更新。该版本没有更新日志，但是辉金的两期视频（分别为 [2 月 20 日](https://www.bilibili.com/video/BV1yt42187ZC) 和 [8 月 15 日](https://www.bilibili.com/video/BV1Ay411q7Hv)的视频）可以看出两个版本其中的区别。
 
 ## Alpha 1.0_01
 
