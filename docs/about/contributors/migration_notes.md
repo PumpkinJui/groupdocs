@@ -701,71 +701,6 @@ execute if score tick time matches 2 run effect @a fire_resistance 30 0 true
   </TabItem>
 </Tabs>
 
-### 待办列表
-
-这是一个 MarkDown 的扩展功能！在很多 MarkDown 语法中是自带的，只不过因为 GitBook 实在过于老旧，所以待办列表在旧版的群文档上无法渲染。但是，迁移之后，我们就可以正常使用这个功能了！
-
-<Tabs>
-  <TabItem value="effect" label="效果" default>
-
-- [ ] 这是一个未完成的待办列表。
-- [x] 这是一个已完成的待办列表！
-
-</TabItem>
-<TabItem value="code" label="代码">
-
-```markdown
-- [ ] 这是一个未完成的待办列表。
-- [x] 这是一个已完成的待办列表！
-```
-
-  </TabItem>
-</Tabs>
-
-### 链接到特定章节
-
-这同样也是一个 MarkDown 自带的功能！在旧版群文档中，我们并没有推广这个用法。这里就来简单介绍一下如何编写吧！
-
-同一篇文档中有多个相同标题，以及标题中有空格和其他特殊字符的，有特殊的标题写法。如果你拿不准，可以在预览页面或部署页面中，将鼠标悬停在标题上，然后点击新出现的 `#`。此时，地址栏中链接末尾显示的标题就是这个标题的正确写法！
-
-复制的链接可能会有中文转义，一个中文字符对应 `%xx%xx%xx`。如果为了兼容性考虑，可以把它原样保留；如果实在看不顺眼，可以改回原来标题里面的中文。
-
-<Tabs>
-  <TabItem value="inpassage" label="文章内链接" default>
-  <Tabs>
-  <TabItem value="effect" label="效果" default>
-
-[点我链接到上面的待办列表](#待办列表)！
-
-  </TabItem>
-  <TabItem value="code" label="代码">
-
-```markdown
-[点我链接到上面的待办列表](#待办列表)！
-```
-
-  </TabItem>
-  </Tabs>
-  </TabItem>
-
-  <TabItem value="outofpassage" label="文章外连接">
-  <Tabs>
-  <TabItem value="effect" label="效果" default>
-
-[点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2/homepage#下载)！
-
-  </TabItem>
-  <TabItem value="code" label="代码">
-
-```markdown
-[点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2/homepage#下载)！
-```
-
-  </TabItem>
-  </Tabs>
-  </TabItem>
-</Tabs>
-
 ### 选项卡
 
 :::info
@@ -885,6 +820,71 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
 折叠的内容
 
 </details>
+```
+
+  </TabItem>
+  </Tabs>
+  </TabItem>
+</Tabs>
+
+### 待办列表
+
+这是一个 MarkDown 的扩展功能！在很多 MarkDown 语法中是自带的，只不过因为 GitBook 实在过于老旧，所以待办列表在旧版的群文档上无法渲染。但是，迁移之后，我们就可以正常使用这个功能了！
+
+<Tabs>
+  <TabItem value="effect" label="效果" default>
+
+- [ ] 这是一个未完成的待办列表。
+- [x] 这是一个已完成的待办列表！
+
+</TabItem>
+<TabItem value="code" label="代码">
+
+```markdown
+- [ ] 这是一个未完成的待办列表。
+- [x] 这是一个已完成的待办列表！
+```
+
+  </TabItem>
+</Tabs>
+
+### 链接到特定章节
+
+这是一个 MarkDown 自带的功能！但在旧版群文档中，我们并没有推广这个用法。这里就来简单介绍一下如何编写吧！
+
+同一篇文档中有多个相同标题，以及标题中有空格和其他特殊字符的，有特殊的标题写法。如果你拿不准，可以在预览页面或部署页面中，将鼠标悬停在标题上，然后点击新出现的 `#`。此时，地址栏中链接末尾显示的标题就是这个标题的正确写法！
+
+复制的链接可能会有中文转义，一个中文字符对应 `%xx%xx%xx`。如果为了兼容性考虑，可以把它原样保留；如果实在看不顺眼，可以改回原来标题里面的中文。
+
+<Tabs>
+  <TabItem value="inpassage" label="文章内链接" default>
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
+
+[点我链接到上面的待办列表](#待办列表)！
+
+  </TabItem>
+  <TabItem value="code" label="代码">
+
+```markdown
+[点我链接到上面的待办列表](#待办列表)！
+```
+
+  </TabItem>
+  </Tabs>
+  </TabItem>
+
+  <TabItem value="outofpassage" label="文章外连接">
+  <Tabs>
+  <TabItem value="effect" label="效果" default>
+
+[点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2/homepage#下载)！
+
+  </TabItem>
+  <TabItem value="code" label="代码">
+
+```markdown
+[点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2/homepage#下载)！
 ```
 
   </TabItem>
