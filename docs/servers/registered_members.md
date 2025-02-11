@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+author: 量筒
 ---
 
 # 服务器成员信息表
@@ -148,6 +149,7 @@ sidebar_position: 2
 | 鱼周 | UnhandyShark856 | ✔ | —<br/>— | ❔ | 马可服群管理、服管理 |
 | 硫化银 | yiyishi54188 | ✘ | —<br/>— | ❔ | |
 | 清风 | qing feng 00317 | ✘ | —<br/>— | ❔ | |
+| star | Chinahenane | ✘ | —<br/>— | ❔ | |
 
 ## 离群成员 (未违规)
 
