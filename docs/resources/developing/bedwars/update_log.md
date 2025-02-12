@@ -27,6 +27,8 @@ author: 量筒
   - [1.0 - Pre 2](#10---pre-2)
 - RC 版本
   - [1.0 - RC 1](#10---rc-1)
+- 正式版
+  - [1.0](#10)
 
 ---
 
@@ -875,3 +877,11 @@ author: 量筒
 - **更改** 移动`playerItemLock() {}`函数，从`events/classic/trading.js`→`event/classic/itemLock.js`，该新文件用于控制物品的锁定。
 - **新增** `removeEnderPearl() {}`函数，位于`events/items/enderPearl.js`，用于移除出界的末影珍珠。
 - **新增** `playSoundWhenShot(event) {}`函数，位于`events/items/bow.js`，用于对射击者和被射击者播放经验球的音效。
+
+## 1.0
+
+> 发布于 25.02.12 。
+
+元宵快乐！！我们特意选在今天这个特殊的日子发布我们的最新作品 —— 起床战争！相比于 RC 1 版本，这个版本事实上并没有任何的修改，我们会在 1.1 版本后再来解决这些问题。
+
+您可以在 TITAIKE 、苦力怕论坛（KLPBBS）或 MineBBS 看到我们发布的资源。祝您偷床愉快！>:)
