@@ -310,15 +310,15 @@ last_update:
 正文
 ```
 
-### 标注块（Admonition）
+### 高亮块（Admonition）
 
 :::info
 
-关于标注块的更多信息，可以查阅 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/admonitions)。
+关于高亮块的更多信息，可以查阅 [Docusaurus 官方文档](https://docusaurus.io/docs/markdown-features/admonitions)。
 
 :::
 
-在写「备注」「注意」等等你希望起到提示作用的地方，可以使用标注块。在下面来看看小恐龙提供的 5 种默认标注块的写法吧！
+在写「备注」「注意」等等你希望起到提示作用的地方，可以使用高亮块。在下面来看看小恐龙提供的 5 种默认高亮块的写法吧！
 
 ---
 
@@ -454,12 +454,12 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-此外，标注块还支持以下两种特殊情况！
+此外，高亮块还支持以下两种特殊情况！
 
 <Tabs>
-  <TabItem value="title" label="标注块自定义标题" default>
+  <TabItem value="title" label="高亮块自定义标题" default>
 
-你可以在声明的类型后面，加上一个 `[text]` 来**自定义标注块的标题**！下面是一个示例：
+你可以在声明的类型后面，加上一个 `[text]` 来**自定义高亮块的标题**！下面是一个示例：
 
   <Tabs>
   <TabItem value="effect" label="效果" default>
@@ -485,18 +485,18 @@ import TabItem from '@theme/TabItem';
   </Tabs>
   </TabItem>
 
-  <TabItem value="nest" label="标注块嵌套">
+  <TabItem value="nest" label="高亮块嵌套">
 
-你可以在标注块里面嵌套一个标注块！下面是一个示例：
+你可以在高亮块里面嵌套一个高亮块！下面是一个示例：
 
   <Tabs>
   <TabItem value="effect" label="效果" default>
 
-:::warning[这是外层标注块]
+:::warning[这是外层高亮块]
 
 这是外层的内容！
 
-:::info[这是内层标注块]
+:::info[这是内层高亮块]
 
 这是内层的内容！
 
@@ -506,11 +506,11 @@ import TabItem from '@theme/TabItem';
   <TabItem value="code" label="代码">
 
 ```markdown
-:::warning[这是外层标注块]
+:::warning[这是外层高亮块]
 
 这是外层的内容！
 
-:::info[这是内层标注块]
+:::info[这是内层高亮块]
 
 这是内层的内容！
 
