@@ -172,15 +172,13 @@ git config --global alias.autopull "pull --rebase --autostash"
 
 对括号的使用不作要求，凭个人喜好决定；但半角括号需注意适配盘古之白。
 
-## 引用块与 Admonition
+## 引用块与高亮块
 
-以下内容为**推荐性规范**。
+Docusaurus 迁移后，我们迎来了众多[新语法](./migration_notes#小恐龙的独特优势)，其中就有高亮块。
 
-Docusaurus 迁移后，我们迎来了众多[新语法](./migration_notes#小恐龙的独特优势)；其中就有 Admonition，也被称为 Callout 或 Alert。
+相较作为 MarkDown 规范一部分的引用块 `>`，高亮块美观而具有较为灵活的写法，不需要像引用块不仅需要每行行首加 `>`，还得担心换行问题。
 
-相较作为 MarkDown 规范一部分的引用块 `>`，Admonition 美观而具有较为灵活的写法，不需要像引用块一样每行行首加 `>`，还得担心换行问题。
-
-但与此同时，Admonition 的语法千奇百怪。我们在：
+但与此同时，高亮块的语法千奇百怪。我们在：
 
 - Docusaurus：`:::note`
 - GitHub：`> [!NOTE]`
@@ -188,9 +186,9 @@ Docusaurus 迁移后，我们迎来了众多[新语法](./migration_notes#小恐
 - Pymdownx (上述的扩展包)：`/// admonition (linebreak) type: note`
 - Notion：`>`，原有的引用只能在菜单找
 
-看到了各种各样的语法，并且它们互不兼容。这导致 Admonition 具有极差的兼容性。
+看到了各种各样的语法，并且它们互不兼容。这导致高亮块兼容性极差。
 
-少数派作者 @LillianWho 用 Obsidian 插件做的 Admonition 兼容 (语法为 `\`\`\`ad-note`)。TA 在文章 [Admonition：生来多彩](https://sspai.com/post/68229) 中写道 (原文如此)：
+少数派作者 @LillianWho 用 Obsidian 插件做的高亮块兼容 (语法为用 `ad-note` 标识语言的代码块)。TA 在文章 [Admonition：生来多彩](https://sspai.com/post/68229) 中写道 (原文如此)：
 
 > 我反对将 markdown 搞成富文本那样花里胡哨，markdown 之所以好用，就是你可以用写作的方式来排版，写完之后，排版也完成了，不需要多余做什么。不用操心字体、颜色、大小。
 >
@@ -207,10 +205,10 @@ Docusaurus 迁移后，我们迎来了众多[新语法](./migration_notes#小恐
 1. 在下列条件满足其一时，宜使用引用块
    - 你确实在进行引用，且不算空行时行数少于 5 行 (以行号计数)
    - 这段内容需要在其他平台 (如 GitHub 仓库) 得到正常展示
-   - 你使用的编辑器不支持 Admonition 渲染
+   - 你使用的编辑器不支持高亮块渲染
    - 该文档适合使用较为严谨的风格进行叙述
-2. 在下列条件满足其一时，宜使用 Admonition
-   - 你确实在进行引用，但不算空行时行数大于 5 行，或其中掺杂了可能导致渲染问题的 MarkDown 语法
+2. 在下列条件满足其一时，宜使用高亮块
+   - 你确实在进行引用，但不算空行时行数大于 5 行 (以行号计数)，或其中掺杂了可能导致渲染问题的 MarkDown 语法
    - 这个块和引用没啥关系
    - 去掉该部分不影响前后文理解
    - 该文档适合使用较为活泼的风格进行叙述
