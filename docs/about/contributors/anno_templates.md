@@ -109,19 +109,21 @@ date: (YYYY)-(mm)-(dd)T(HH):(MM)
 
 其中，模板中的文档前言（Front Matter）中，`authors` 可以填写为以下的作者之一：
 
-- `badou`（巴豆）
-- `biyiniao`（比翼鸟）
-- `chenfeng`（晨风）
-- `dilei`（地雷）
-- `gezi`（鸽子）
-- `huoweisan`（火卫三）
-- `lanos`（lanos）
-- `liangtong`（量筒）
-- `mengderen`（蒙德人）
-- `nanguazhi`（南瓜汁）
-- `wenyu`（文雨）
-- `xiaoshu`（小鼠）
-- `zhiyu`（祉语）
+- `巴豆`
+- `比翼鸟`
+- `晨风`
+- `地雷`
+- `鸽子`
+- `火卫三`
+- `lanos`
+- `量筒`
+- `蒙德人`
+- `南瓜汁`
+- `文雨`
+- `小鼠`
+- `祉语`
+
+如果有多个作者，请使用**英文逗号**分隔。
 
 `title` 中的月份 `m|mm` 和日期 `d|dd`，请填写为不带 0 的数字，例如「4 月 5 日」而不是「04 月 05 日」。
 
@@ -259,7 +261,7 @@ date: (YYYY)-(mm)-(dd)T(HH):(MM)
 
 ```markdown title="blog/anno/2023/082401.md"
 ---
-authors: [nanguazhi]
+authors: [南瓜汁]
 title: 8 月 24 日群公告
 date: 2023-08-24T21:12
 ---
