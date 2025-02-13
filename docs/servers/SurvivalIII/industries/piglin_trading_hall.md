@@ -1,6 +1,7 @@
 ---
 sidebar_position: 7
 description: 基于猪灵以物易物机制换取大量物资的工业机器。
+authors: [量筒]
 ---
 
 # 猪灵交易所

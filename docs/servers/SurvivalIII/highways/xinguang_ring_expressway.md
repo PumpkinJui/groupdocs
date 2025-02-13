@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 description: 联通新光郊区并向外将公路辐射到各大区域的高速公路体系。
-author: 量筒
+authors: [量筒]
 ---
 
 # 新光绕城高速（新光四环高速公路）

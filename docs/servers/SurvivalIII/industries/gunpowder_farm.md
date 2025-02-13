@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 description: 用于产出大量火药的机器，是你手上的烟花火箭的背后保障。
+authors: [量筒]
 ---
 
 # 火药塔（苦力怕农场）

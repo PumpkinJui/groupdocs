@@ -11,10 +11,11 @@ description: 本文档中常见的提示窗口模板。
 
 在创建一篇新文章的时候，你可以从下面的模板复制粘贴，写一篇新文章出来。当然，我们对正文的要求都在[群文档编辑指南](./contributing)，但是其中大多数都是指导性标准。
 
-```markdown
+```markdown title="xxx.md" showLineNumbers
 ---
 sidebar_position: <在侧边栏的排序>
 description: <文章描述>
+authors: [<作者1>,<作者2>,...]
 ---
 
 # 标题
@@ -26,7 +27,10 @@ description: <文章描述>
 :::
 
 正文
+
 ```
+
+其中，模板中的文档前言（Front Matter）中，如果有多个作者，请使用英文逗号分隔。
 
 在编写完文章之后，你可以将开头的那个高亮块删除。
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 description: 用于产出大量蛙明灯的机器。
+authors: [量筒]
 ---
 
 # 蛙明灯农场

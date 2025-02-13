@@ -1,6 +1,7 @@
 ---
 sidebar_position: 9
 description: 产出大量沙子、混凝土粉末等重力方块的机器。
+authors: [量筒]
 ---
 
 # 刷沙机

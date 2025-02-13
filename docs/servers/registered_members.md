@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-author: 量筒
+authors: [量筒]
 ---
 
 # 服务器成员信息表

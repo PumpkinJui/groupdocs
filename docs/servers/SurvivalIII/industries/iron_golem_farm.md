@@ -1,6 +1,7 @@
 ---
 sidebar_position: 3
 description: 用于产出铁锭的核心工业机器。
+authors: [量筒]
 ---
 
 # 刷铁机（铁傀儡农场）

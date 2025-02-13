@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: 主页
 description: 仿照 Hypixel 在基岩版上做的起床战争！
-author: 量筒
+authors: [量筒]
 ---
 
 # 量筒的起床战争

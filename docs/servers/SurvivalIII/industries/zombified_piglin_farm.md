@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 description: 用于产出金和经验的高效核心工业机器。
+authors: [量筒]
 ---
 
 # 猪人塔
