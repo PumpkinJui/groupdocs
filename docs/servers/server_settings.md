@@ -74,7 +74,7 @@ sidebar_position: 1
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 20230
-- 版本 - 1.21.50
+- 版本 - 1.21.60
 
 ## 测试服
 
@@ -84,19 +84,19 @@ sidebar_position: 1
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 20000
-- 版本 - 1.21.50
+- 版本 - 1.21.60
 
 ### 测试服 - II
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 30000
-- 版本 - 1.21.50
+- 版本 - 1.21.60
 
 ### 测试服 - III
 
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 40000
-- 版本 - 1.21.50
+- 版本 - 1.21.60
 
 ## 起床战争服
 
@@ -106,4 +106,4 @@ sidebar_position: 1
 
 - 地址 - apple.cvm.xiaozhiyuqwq.top
 - 端口 - 11451
-- 版本 - 1.21.50
+- 版本 - 1.21.60

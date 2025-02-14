@@ -77,7 +77,27 @@ description: 附加包的可用命令。
 
 立即生成地图。
 
-- `<生成地图>`：仅允许`true`或`(地图ID)`。如果填为`true`，将随机生成一张地图；如果填为`(地图ID)`，将生成特定地图ID的地图。不允许生成在`bs:randomMap`命令中被禁用的地图。
+- `<生成地图>`：仅允许`true`或`(地图ID)`。如果填为`true`，将随机生成一张地图；如果填为`(地图ID)`，将生成特定地图ID的地图。下表显示了所有地图的相关信息。不允许生成在`bs:randomMap`命令中被禁用的地图。
+
+| 地图ID | 地图名称 | 地图类型 |
+| --- | --- | --- |
+| `cryptic` | 神秘 | 2队经典 |
+| `frost` | 极寒 | 2队经典 |
+| `garden` | 花园 | 2队经典 |
+| `ruins` | 废墟 | 2队经典 |
+| `picnic` | 野餐 | 2队经典 |
+| `lion_temple` | 狮庙 | 2队经典 |
+| `orchid` | 兰花 | 4队经典 |
+| `chained` | 铁索连环 | 4队经典 |
+| `boletum` | 蘑菇岛 | 4队经典 |
+| `carapace` | 甲壳 | 4队经典 |
+| `archway` | 拱形廊道 | 4队经典 |
+| `aquarium` | 水族馆 | 4队经典 |
+| `glacier` | 冰川 | 8队经典 |
+| `rooftop` | 屋顶 | 8队经典 |
+| `amazon` | 亚马逊 | 8队经典 |
+| `deadwood` | 莲叶 | 8队经典 |
+| `picnic_capture` | 野餐 | 2队夺点 |
 
 **例** `/scriptevent bs:regenerateMap true`：立即生成一张随机地图。
 `/scriptevent bs:regenerateMap lion_temple`：立即生成地图狮庙（必须在2队地图启用情况下才能生成）。
