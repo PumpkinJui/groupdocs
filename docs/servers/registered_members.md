@@ -101,6 +101,7 @@ authors: [量筒]
 | 塞拉 | Traptrix SL | ✔ | 金锭<br/>— | ✔ | 代表物欲修改为钓鱼竿；生存服贡献较大；由 **@量筒** 邀请来 |
 | 小面包 | Xiaomianbao2007 |  ✔ | —<br/>— | ❔ | 马可服服管理 |
 | 鱼周 | UnhandyShark856 | ✔ | —<br/>— | ❔ | 马可服群管理、服管理 |
+| 辉金 | huijinya520 | ✔ | 金粒<br/>§l§6 | ✔ | 知名视频作者 |
 | 小鸟 | lovebirdsvvv | ✔ | 白色陶瓦<br/>— | ✔ | |
 | 擺给 | BaiGeiSavior | ✔ | —<br/>— | ❔ | |
 | 墨 | modiya2333 | ✔ | —<br/>— | ❔ | |
@@ -118,7 +119,6 @@ authors: [量筒]
 | kokoa | — | ✔ | —<br/>— | ❔ | |
 | 木糖 | Xylitol2337 | ✔ | —<br/>— | ❔ | |
 | 零七 | pqwp114514qwpq | ✔ | 奶桶<br/>— | ✔ | 考核前进服 |
-| 辉金 | huijinya520 | ✔ | 金粒<br/>§l§6 | ✔ | 考核前进服 |
 | 蘑菇 | xRprncQ | ✔ | 羽毛<br/>— | ✔ | 考核前进服 |
 | 麦热 | havefuningame07 | ✔ | 铁剑<br/>— | ✔ | 考核前进服 |
 | Dull | Dull12133<br/>RenJi12138<br/>Dull1213 | ✔<br/>✔<br/>✔ | —<br/>— | ✘ | 考核前进服 |
@@ -131,6 +131,7 @@ authors: [量筒]
 | 硫化银 | yiyishi54188 | ✘ | —<br/>— | ❔ | 测试贡献较大 |
 | E尘 | E1cheng | ✘ | —<br/>— | ✘ | 知名开发者 |
 | Xero | ProjectXero1042 | ✘ | —<br/>— | ✘ | 知名开发者 |
+| 急尘 | jichenNGU | ✘ | 蓝色陶瓦<br/>— | ✘ | 知名视频作者 |
 | 嘉睿 | HuanGuangYC | ✘ | 红石火把<br/>§r§l§7 | ✔ | |
 | 晓鱼 | muxiaoyu040203 | ✘ | 小白头颅<br/>§r§4§l | ✔ | |
 | 残梦 | XiaomLuoch | ✘ | 枯灌木<br/>— | ✔ | |
@@ -144,7 +145,6 @@ authors: [量筒]
 | 虾皮 | xia pi 000 | ✘ | —<br/>— | ❔ | |
 | 沫尘 | CBerAzure | ✘ | —<br/>— | ❔ | |
 | 新妹 | ThumpingAlarm41 | ✘ | —<br/>— | ❔ | |
-| 急尘 | jichenNGU | ✘ | 蓝色陶瓦<br/>— | ✘ | |
 | han | han123123123 | ✘ | —<br/>— | ❔ | |
 | 牢土 | Fffgg55 | ✘ | —<br/>— | ❔ | |
 | Hg | CruelJewel85738 | ✘ | —<br/>— | ❔ | |
