@@ -78,75 +78,73 @@ authors: [量筒]
 | 称呼 | XboxID | 生存服白名单 | 代表物<br/>颜色代码 | 成员墙<br/>状态 | 备注 |
 | :---: | :---: | :---: | :---: | :---: | --- |
 | Ar | Nan66666666<br/>NanXAS | ✔<br/>✔ | 金苹果<br/>§r§l§e | ✔ | 贡献大 |
+| 千里 | EnderLifeRyan<br/>EnderLife5409 | ✔<br/>✔ | 末影珍珠<br/>§5§l | ✔ | 贡献大 |
+| 宽判 | kuanpan 9527<br/>ADOFAI7bg | ✔<br/>✔ | 红石矿石<br/>— | ✔ | 贡献较大 |
+| 十三酱 | L52th<br/>Rss and L53 | ✔<br/>✔ | 红砂岩<br/>§c | ✔ | 贡献大 |
 | 零七 | pqwp114514qwpq | ✔ | 奶桶<br/>— | ✔ | 考核前进服 |
-| 嘉睿 | HuanGuangYC | ✘ | 红石火把<br/>§r§l§7 | ✔ |  |
 | 一云 | yi0yun | ✔ | 白色羊毛<br/>— | ✔ | 由 **@南瓜汁** 邀请来 |
 | 塞拉 | Traptrix SL | ✔ | 金锭<br/>— | ✔ | 代表物欲修改为钓鱼竿；贡献较大；由 **@量筒** 邀请来 |
 | 泽泽 | SageBasket91286 | ✔ | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
-| — | Explorer95270 | ✔ | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
-| 晓鱼 | muxiaoyu040203 | ✘ | 小白头颅<br/>§r§4§l | ✔ |  |
-| 千里 | EnderLifeRyan<br/>EnderLife5409 | ✔<br/>✔ | 末影珍珠<br/>§5§l | ✔ | 贡献大 |
-| 残梦 | XiaomLuoch | ✘ | 枯灌木<br/>— | ✔ |  |
 | 小鸟 | lovebirdsvvv | ✔ | 白色陶瓦<br/>— | ✔ |  |
-| 十三酱 | L52th<br/>Rss and L53 | ✔<br/>✔ | 红砂岩<br/>§c | ✔ | 贡献大 |
-| 命令君 | CBerJun | ✘ | 砂轮<br/>§r§o§6 | ✔ |  |
+| — | Explorer95270 | ✔ | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | 书豪 | Ustiniana1641<br/>xiangshuijiao7X | ✔<br/>✔ | 末地烛<br/>— | ✔ | 贡献较大 |
 | 辉金 | huijinya520 | ✔ | 金粒<br/>§l§6 | ✔ | 考核前进服 |
 | 蘑菇 | xRprncQ | ✔ | 羽毛<br/>— | ✔ | 考核前进服 |
-| 浮纸 | FloatPaper3972 | ✘ | 石英块<br/>— | ✔ |  |
-| 菜鸡蛛 | yzcjzqwq | ✘ | 蜘蛛眼<br/>— | ✔ |  |
-| 宽判 | kuanpan 9527<br/>ADOFAI7bg | ✔<br/>✔ | 红石矿石<br/>— | ✔ | 贡献较大 |
 | 麦热 | havefuningame07 | ✔ | 铁剑<br/>— | ✔ | 考核前进服 |
-| E尘 | E1cheng | ✘ | —<br/>— | ✘ |  |
-| Xero | ProjectXero1042 | ✘ | —<br/>— | ✘ |  |
-| Dull | Dull12133<br/>RenJi12138<br/>Dull1213 | ✔<br/>✔<br/>✔ | —<br/>— | ✘ | 考核前进服；拥有开发 I 服白名单 |
+| Dull | Dull12133<br/>RenJi12138<br/>Dull1213 | ✔<br/>✔<br/>✔ | —<br/>— | ✘ | 考核前进服 |
 | 基岩 | Ender5207541 | ✔ | 铁镐<br/>— | ❔ | 考核前进服 |
 | 命令块 | CommandBlock228 | ✔ | 灰色旗帜 (绿色波纹边，淡灰色砖纹<br/>黑色菱形，黑色花朵图案，白色模型头像)<br/>§l§4 | ❔ | 考核前进服 |
-| 莫雨 | MoYU9700 | ✘ | —<br/>— | ❔ |  |
-| 龙龙 | longlongxiaotao | ✔ | —<br/>— | ❔ | 由 **@巴豆** 邀请来 |
-| 吴鸡哥 | WSER666 | ✘ | —<br/>— | ❔ |  |
-| 明晚 | liuying5202377 | ✘ | —<br/>— | ❔ |  |
-| 星空 | moyanlove435836 | ✘ | —<br/>— | ❔ |  |
-| 星辰 | xc13599305 | ✔ | 樱花木板<br/>— | ❔ | 贡献较大 |
-| 虾皮 | xia pi 000 | ✘ | —<br/>— | ❔ | |
+| 龙龙 | longlongxiaotao | ✔ | —<br/>— | ❔ | |
+| 星辰 | xc13599305 | ✔ | 樱花木板<br/>— | ❔ | 贡献大 |
 | 擺给 | BaiGeiSavior | ✔ | —<br/>— | ❔ | 长时间未进服 |
 | 墨 | modiya2333 | ✔ | —<br/>— | ❔ | 长时间未进服 |
 | 水晶哥 | OneKitty710926 | ✔ | —<br/>— | ❔ | 长时间未进服 |
 | 草方块 | Tuanzi555 | ✔ | 木镐<br/>— | ❔ | 长时间未进服 |
-| 沫尘 | CBerAzure | ✘ | —<br/>— | ❔ | |
 | 小意 | Xiaoyia666<br/>PrisonedSnow917 | ✔<br/>✔ | —<br/>— | ❔ | 贡献大 |
-| 决心 | RustyAbyss29193 | ✔ | 爆裂绿色尾迹烟花<br/>— | ❔ | 考核前进服 |
+| 烟雨 | RustyAbyss29193 | ✔ | 爆裂绿色尾迹烟花<br/>— | ❔ | |
 | 风暴 | FoxLanMo | ✔ | —<br/>— | ❔ | 长时间未进服 |
-| 新妹 | ThumpingAlarm41 | ✘ | —<br/>— | ❔ | |
 | 小林 | zhangjiaxiang11 | ✔ | —<br/>— | ❔ | |
 | 玖 | HomeLuckyHope | ✔ | —<br/>— | ❔ | |
 | frisk | frisk5448 | ✔ | 治疗之箭<br/>— | ❔ | |
 | 月 | llytalo | ✔ | —<br/>— | ❔ | |
-| 小飞侠 | tck1122 | ✔ | —<br/>— | ❔ | 贡献较大 |
-| 急尘 | jichenNGU | ✘ | 蓝色陶瓦<br/>— | ✘ | 拥有开发 I 服白名单 |
+| 小飞侠 | tck1122 | ✔ | —<br/>— | ❔ | 贡献大 |
 | 马可 | MAXOUYT8117 | ✔ | —<br/>— | ❔ | |
 | 巢小羊 | aaaLCxy | ✔ | —<br/>— | ❔ | 由 **@小鼠** 邀请来 |
 | Lin | linchi723 | ✔ | —<br/>— | ❔ | 由 **@祉语** 邀请来 |
 | 吊桥 | diaoqiaoyl | ✔ | —<br/>— | ❔ | |
 | 红萌 | lzq233233 | ✔ | —<br/>— | ❔ | |
+| laolu | laolu444222 | ✔ | —<br/>— | ❔ | |
+| 白洲梓 | bai zhou zi5631 | ✔ | —<br/>— | ❔ | |
+| 老中医 | The star520 | ✔ | —<br/>— | ❔ | |
+| 条形马 | QRnobelly | ✔ | 皮革<br/>— | ❔ | |
+| kokoa | — | ✔ | —<br/>— | ❔ | |
+| 木糖 | Xylitol2337 | ✔ | —<br/>— | ❔ | |
+| 小面包 | Xiaomianbao2007 |  ✔ | —<br/>— | ❔ | 马可服服管理 |
+| 鱼周 | UnhandyShark856 | ✔ | —<br/>— | ❔ | 马可服群管理、服管理 |
+| 嘉睿 | HuanGuangYC | ✘ | 红石火把<br/>§r§l§7 | ✔ |  |
+| 晓鱼 | muxiaoyu040203 | ✘ | 小白头颅<br/>§r§4§l | ✔ |  |
+| 残梦 | XiaomLuoch | ✘ | 枯灌木<br/>— | ✔ |  |
+| 命令君 | CBerJun | ✘ | 砂轮<br/>§r§o§6 | ✔ |  |
+| 浮纸 | FloatPaper3972 | ✘ | 石英块<br/>— | ✔ |  |
+| 菜鸡蛛 | yzcjzqwq | ✘ | 蜘蛛眼<br/>— | ✔ |  |
+| E尘 | E1cheng | ✘ | —<br/>— | ✘ |  |
+| Xero | ProjectXero1042 | ✘ | —<br/>— | ✘ |  |
+| 莫雨 | MoYU9700 | ✘ | —<br/>— | ❔ |  |
+| 吴鸡哥 | WSER666 | ✘ | —<br/>— | ❔ |  |
+| 明晚 | liuying5202377 | ✘ | —<br/>— | ❔ |  |
+| 星空 | moyanlove435836 | ✘ | —<br/>— | ❔ |  |
+| 虾皮 | xia pi 000 | ✘ | —<br/>— | ❔ | |
+| 沫尘 | CBerAzure | ✘ | —<br/>— | ❔ | |
+| 新妹 | ThumpingAlarm41 | ✘ | —<br/>— | ❔ | |
+| 急尘 | jichenNGU | ✘ | 蓝色陶瓦<br/>— | ✘ | 拥有开发 I 服白名单 |
 | han | han123123123 | ✘ | —<br/>— | ❔ | |
 | 牢土 | Fffgg55 | ✘ | —<br/>— | ❔ | |
 | Hg | CruelJewel85738 | ✘ | —<br/>— | ❔ | |
 | 创哲宇 | Chuangzheyu2048 | ✘ | —<br/>— | ❔ | |
 | ？？ | nanmucancan | ✘ | —<br/>— | ❔ | 需要补全信息，禁止进入任何服务器 |
-| 鲱鱼 | SevereFish20551 | ✘ | —<br/>— | ❔ | 因 8 月 14 日起床战争测试频繁爆粗口，禁止进入任何服务器。 |
 | 欣叶 | xinye2012 | ✘ | —<br/>— | ❔ | |
-| soak | SoakChee | ✘ | —<br/>— | ❔ | |
 | KK | killklli9952 | ✘ | —<br/>— | ❔ | |
-| laolu | laolu444222 | ✔ | —<br/>— | ❔ | |
-| 白洲梓 | bai zhou zi5631 | ✔ | —<br/>— | ❔ | |
-| 老中医 | The star520 | ✔ | —<br/>— | ❔ | |
-| 条形马 | QRnobelly | ✔ | 皮革<br/>— | ❔ | |
 | 怡柔 | Oculusina | ✘ | —<br/>— | ❔ | |
-| kokoa | — | ✔ | —<br/>— | ❔ | |
-| 木糖 | Xylitol2337 | ✔ | —<br/>— | ❔ | |
-| 小面包 | Xiaomianbao2007 |  ✔ | —<br/>— | ❔ | 马可服服管理 |
-| 鱼周 | UnhandyShark856 | ✔ | —<br/>— | ❔ | 马可服群管理、服管理 |
 | 硫化银 | yiyishi54188 | ✘ | —<br/>— | ❔ | |
 | 清风 | qing feng 00317 | ✘ | —<br/>— | ❔ | |
 | star | Chinahenane | ✘ | —<br/>— | ❔ | |
@@ -174,6 +172,8 @@ authors: [量筒]
 | 猪猪 | RashBeatle64497 | |
 | 123 | Qwe 1239974 | |
 | 基德 | MildTurt | |
+| 鲱鱼 | SevereFish20551 | 因 8 月 14 日起床战争测试频繁爆粗口，禁止进入任何服务器。因不活跃而被移出。 |
+| soak | SoakChee | 因不活跃而被移出。 |
 
 ## 离群成员 (违规)
 
@@ -185,4 +185,4 @@ authors: [量筒]
 | 小 H | Halshtain | 1 | 以不当言论攻击其他群员 | |
 | 帕 | Hfpa0117 | 5 | 长期频繁在群内发表消极言论 | 重度抑郁症与重度焦虑症患者 |
 | 颜某 | aaaaaaaa1231407 | 5 | 发表疑似反动言论 | 未进入过生存服 |
-| 小马 | - | 5 | 发表涉黄言论 | 未进入过生存服 |
+| 小马 | — | 5 | 发表涉黄言论 | 未进入过生存服 |
