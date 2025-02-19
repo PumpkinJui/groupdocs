@@ -56,12 +56,12 @@ authors: [量筒]
 | 巴豆 | Andy7343<br/>ContactHail8525 | ✔<br/>✔ | 可可豆<br/>§r§c | ✔ | 生存服贡献大；测试贡献大 |
 | 文雨 | KrisWenYu | ✔ | 海晶碎片<br/>— | ✔ | 生存服贡献大；测试贡献大 |
 | 祉语 | xhduoduobaby | ✔ | 橙色染色玻璃<br/>§r§6 | ✔ | 荣誉管理；服务器实际提供者 |
-| lanos | lanos212 | ✔ | —<br/>— | ❔ | 测试贡献大 |
 | 比翼鸟 | KianaKaslana947<br/>RaidenMei947 | ✔<br/>✔ | 末地水晶<br/>§d | ✔ | 生存服贡献大；测试贡献较大 |
+| 火卫三 | IBukreev | ✔ | 红色旗帜 (左黄斜条，红色右下三角，<br/>左顶红方，黄色 Mojang 徽标，顶红三角)<br/>§l§c | ✔ | 生存服贡献较大，测试贡献较大 |
 | 鸽子 | PigeonKI | ✔ | 熟鸡肉<br/>§f§l | ✔ | 生存服贡献较大；测试贡献较大 |
 | 南瓜汁 | PumpkinJui | ✔ | 蜂蜜瓶<br/>§r§l§6 | ✔ | （大号）不在大群；测试贡献较大 |
+| lanos | lanos212 | ✔ | —<br/>— | ❔ | 测试贡献较大 |
 | 小鼠 | xiaoshu512 | ✔ | 附魔金胸甲<br/>§r§l§e | ✔ | 生存服贡献大 |
-| 火卫三 | IBukreev | ✔ | 红色旗帜 (左黄斜条，红色右下三角，<br/>左顶红方，黄色 Mojang 徽标，顶红三角)<br/>§l§c | ✔ | 生存服贡献较大 |
 | 晨风 | ChenfengAB | ✘ | —<br/>— | ✘ | |
 | 蒙德人 | Tuffy2020China | ✔ | 苹果<br/>§r§l§k | ✔ | |
 | 地雷 | Peroxide07122 | ✔ | TNT<br/>— | ❔ | |
@@ -90,6 +90,8 @@ authors: [量筒]
 | 小意 | Xiaoyia666<br/>PrisonedSnow917 | ✔<br/>✔ | —<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
 | 龙龙 | longlongxiaotao | ✔ | —<br/>— | ❔ | 测试贡献较大 |
 | 烟雨 | RustyAbyss29193 | ✔ | 爆裂绿色尾迹烟花<br/>— | ❔ | 测试贡献较大 |
+| 月 | llytalo | ✔ | —<br/>— | ❔ | 测试贡献较大 |
+| 白洲梓 | bai zhou zi5631 | ✔ | —<br/>— | ❔ | 测试贡献较大 |
 | Ar | Nan66666666<br/>NanXAS | ✔<br/>✔ | 金苹果<br/>§r§l§e | ✔ | 生存服贡献大 |
 | 千里 | EnderLifeRyan<br/>EnderLife5409 | ✔<br/>✔ | 末影珍珠<br/>§5§l | ✔ | 生存服贡献大 |
 | 宽判 | kuanpan 9527<br/>ADOFAI7bg | ✔<br/>✔ | 红石矿石<br/>— | ✔ | 生存服贡献较大 |
@@ -108,11 +110,9 @@ authors: [量筒]
 | 小林 | zhangjiaxiang11 | ✔ | —<br/>— | ❔ | |
 | 玖 | HomeLuckyHope | ✔ | —<br/>— | ❔ | |
 | frisk | frisk5448 | ✔ | 治疗之箭<br/>— | ❔ | |
-| 月 | llytalo | ✔ | —<br/>— | ❔ | |
 | 吊桥 | diaoqiaoyl | ✔ | —<br/>— | ❔ | |
 | 红萌 | lzq233233 | ✔ | —<br/>— | ❔ | |
 | laolu | laolu444222 | ✔ | —<br/>— | ❔ | |
-| 白洲梓 | bai zhou zi5631 | ✔ | —<br/>— | ❔ | |
 | 老中医 | The star520 | ✔ | —<br/>— | ❔ | |
 | 条形马 | QRnobelly | ✔ | 皮革<br/>— | ❔ | |
 | kokoa | — | ✔ | —<br/>— | ❔ | |
