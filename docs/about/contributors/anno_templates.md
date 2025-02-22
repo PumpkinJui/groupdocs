@@ -17,11 +17,12 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="info1" label="说明版本" default>
+  <TabItem value="info0" label="说明版本" default>
 
 ```plaintext
-《{地图名}》将于 {mm} 月 {dd} 日 (星期 {X}) {HH}:{MM}~{HH}:{MM} 在测试服开启测试。
-地址：rain.cvm.xiaozhiyuqwq.top
+【服务器开放通知】
+《{地图名}》将于 {mm} 月 {dd} 日 (星期 {X}) {HH}:{MM}~{HH}:{MM} 在 {ServerName} 服开启测试。
+地址：{ rain.cvm.xiaozhiyuqwq.top | apple.cvm.xiaozhiyuqwq.top}
 端口：{port}
 版本：1.{xx.xx}
 如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/docs/tools/urls/mcbe 更新。
@@ -29,11 +30,12 @@ import TabItem from '@theme/TabItem';
 ```
 
   </TabItem>
-  <TabItem value="copy1" label="可复制版本">
+  <TabItem value="copy0" label="可复制版本">
 
 ```plaintext
-《》将于  月  日 (星期) ~ 在测试服开启测试。
-地址：rain.cvm.xiaozhiyuqwq.top
+【服务器开放通知】
+《》将于  月  日 (星期) ~ 在 服开启测试。
+地址：
 端口：
 版本：1.
 如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/docs/tools/urls/mcbe 更新。
@@ -81,6 +83,29 @@ Android 安装包与 Windows 安装包均已发到群文件（群文件夹：国
 2. 下载链接：
 Android（破解验证）：
 Windows（正版）：
+```
+
+  </TabItem>
+</Tabs>
+
+### 测试开放模板
+
+<Tabs>
+  <TabItem value="info2" label="说明版本" default>
+
+```plaintext
+【测试通知】
+{地图|附加包} {ResourceName} {ResourceVersion} 已经发布，请全体成员积极测试并在群内汇报你遇到的漏洞或你的建议。最低需求版本为 1.{xx.xx}。
+{本次测试的人员数据将记录到群文档，依据为 {测试完毕截图|服务器进服记录|...}。烦劳各位成员在测试完毕后在群内发送完成测试的截图。}
+```
+
+  </TabItem>
+  <TabItem value="copy2" label="可复制版本">
+
+```plaintext
+【测试通知】
+ 已经发布，请全体成员积极测试并在群内汇报你遇到的漏洞或你的建议。最低需求版本为 1. 。
+本次测试的人员数据将记录到群文档，依据为 。烦劳各位成员在测试完毕后在群内发送完成测试的截图。
 ```
 
   </TabItem>
