@@ -25,8 +25,7 @@ sidebar_position: 1
 :::
 
 - 各服务器使用白名单机制。若想参与各服务器的建设工作，请在群内艾特群主登记（艾特一次即可），以添加白名单。
-- 温馨提醒：尽量不要尝试连接没有给出的端口。在 NAT 机器上，可能会连接到其他服务器 (共享公网 IP)；如果是独享公网 IP 的机器，可能会被设置的陷阱拦截。具体操作见 [2023 年，我们是如何应对端口扫描的](../about/archives/2023_port_scanning_solution)。
-- 鉴于中国大陆特殊的网络环境，如下地址均采用 DNSSEC 确保解析安全。如果你的设备不支持 DNSSEC (表现为无法解析)，则可以将末尾的 `xiaozhiyuqwq.top` 换为 `nekoawa.com`。（目前监测到出现过解析污染的地区：江苏苏州。）
+- 温馨提醒：尽量不要尝试连接没有给出的端口。在 NAT 机器上，可能会连接到其他服务器 (共享公网 IP)；如果是独享公网 IP 的机器，可能会被设置的陷阱拦截。
 - 所有游戏服务器仅支持 IPv4。如果您的设备仅限 IPv6，则建议联系您的 ISP 启用 IPv4 支持。可在 [IPW](https://ipw.cn/) 查询是否支持 v4/v6。
 
 ## 如何设定
@@ -58,7 +57,7 @@ sidebar_position: 1
 
 1. 查看[宕机看板](https://status.nekoawa.com/)。
 2. 生存服进不去先换备用线路：`rain2.cvm.xiaozhiyuqwq.top`。
-3. 如有条件，在命令行执行下方命令后截图发群：
+3. 如有条件，在命令行执行下方命令后截图发 postmaster#nekodrive.net（请把`#`替换成`@`）。
    - Windows，管理员  
      `tracert -p <端口> -P udp <地址>`
    - Linux，管理员  
@@ -72,7 +71,7 @@ sidebar_position: 1
 >
 > 欢迎在生存服务器开拓天地，实现你的小梦想哦！
 
-- 地址 - rain.cvm.xiaozhiyuqwq.top
+- 地址 - rain.cvm.xiaozhiyuqwq.top / rain.cvm.nekoawa.com
 - 端口 - 20230
 - 版本 - 1.21.60
 
@@ -82,19 +81,19 @@ sidebar_position: 1
 
 ### 测试服 - I
 
-- 地址 - rain.cvm.xiaozhiyuqwq.top
+- 地址 - rain.cvm.xiaozhiyuqwq.top / rain.cvm.nekoawa.com
 - 端口 - 20000
 - 版本 - 1.21.60
 
 ### 测试服 - II
 
-- 地址 - rain.cvm.xiaozhiyuqwq.top
+- 地址 - rain.cvm.xiaozhiyuqwq.top / rain.cvm.nekoawa.com
 - 端口 - 30000
 - 版本 - 1.21.60
 
 ### 测试服 - III
 
-- 地址 - rain.cvm.xiaozhiyuqwq.top
+- 地址 - rain.cvm.xiaozhiyuqwq.top / rain.cvm.nekoawa.com
 - 端口 - 40000
 - 版本 - 1.21.60
 
@@ -104,6 +103,6 @@ sidebar_position: 1
 >
 > 目前处于最新测试版，欢迎各位成员前来测试，友谊第一，比赛第二！禁止作弊哦！
 
-- 地址 - apple.cvm.xiaozhiyuqwq.top
+- 地址 - apple.cvm.xiaozhiyuqwq.top / apple.cvm.nekoawa.com
 - 端口 - 11451
 - 版本 - 1.21.60
