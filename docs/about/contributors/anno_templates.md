@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 ```plaintext
 【服务器开放通知】
 《{地图名}》将于 {mm} 月 {dd} 日 (星期 {X}) {HH}:{MM}~{HH}:{MM} 在 {ServerName} 服开启测试。
-地址：{ rain.cvm.xiaozhiyuqwq.top | apple.cvm.xiaozhiyuqwq.top}
+地址：{ apple.cvm.xiaozhiyuqwq.top | banana.cvm.xiaozhiyuqwq.top }
 端口：{port}
 版本：1.{xx.xx}
 如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/docs/tools/urls/mcbe 更新。

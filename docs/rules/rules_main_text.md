@@ -171,10 +171,11 @@
 
 | 服务器 | 地址 | 端口 |
 | :---: | --- | :---: |
-| 生存服 | rain.cvm.xiaozhiyuqwq.top | 20230 |
-| 开发 I 服 | qcloud.cvm.xiaozhiyuqwq.top | 19136 |
-| 开发 II 服 | qcloud.cvm.xiaozhiyuqwq.top | 19138 |
-| 开发 III 服 | qcloud.cvm.xiaozhiyuqwq.top | 19140 |
+| 起床服 | apple.cvm.xiaozhiyuqwq.top | 11451 |
+| 生存服 | banana.cvm.xiaozhiyuqwq.top | 10000 |
+| 开发 I 服 | banana.cvm.xiaozhiyuqwq.top | 11000 |
+| 开发 II 服 | banana.cvm.xiaozhiyuqwq.top | 12000 |
+| 开发 III 服 | banana.cvm.xiaozhiyuqwq.top | 13000 |
 
 **第四十八条** 对于生存服务器而言，所有成员有权利推荐一个资源包加入到服务器中，但必须经由至少 3 位常进服务器的成员投票，每位成员可投赞成票、反对票和中立票，赞成票必须至少多于反对票 3 票才允许加入该资源包。群主不参与投票。
 

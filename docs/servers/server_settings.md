@@ -56,8 +56,7 @@ sidebar_position: 1
 ## 卡顿处理方案
 
 1. 查看[宕机看板](https://status.nekoawa.com/)。
-2. 生存服进不去先换备用线路：`rain2.cvm.xiaozhiyuqwq.top`。
-3. 如有条件，在命令行执行下方命令后截图发 postmaster#nekodrive.net（请把`#`替换成`@`）。
+2. 如有条件，在命令行执行下方命令后截图发 postmaster#nekodrive.net（请把`#`替换成`@`）。
    - Windows，管理员  
      `tracert -p <端口> -P udp <地址>`
    - Linux，管理员  
@@ -71,8 +70,8 @@ sidebar_position: 1
 >
 > 欢迎在生存服务器开拓天地，实现你的小梦想哦！
 
-- 地址 - rain.cvm.xiaozhiyuqwq.top / rain.cvm.nekoawa.com
-- 端口 - 20230
+- 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
+- 端口 - 10000
 - 版本 - 1.21.60
 
 ## 测试服
@@ -81,20 +80,20 @@ sidebar_position: 1
 
 ### 测试服 - I
 
-- 地址 - rain.cvm.xiaozhiyuqwq.top / rain.cvm.nekoawa.com
-- 端口 - 20000
+- 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
+- 端口 - 11000
 - 版本 - 1.21.60
 
 ### 测试服 - II
 
-- 地址 - rain.cvm.xiaozhiyuqwq.top / rain.cvm.nekoawa.com
-- 端口 - 30000
+- 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
+- 端口 - 12000
 - 版本 - 1.21.60
 
 ### 测试服 - III
 
-- 地址 - rain.cvm.xiaozhiyuqwq.top / rain.cvm.nekoawa.com
-- 端口 - 40000
+- 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
+- 端口 - 13000
 - 版本 - 1.21.60
 
 ## 起床战争服
