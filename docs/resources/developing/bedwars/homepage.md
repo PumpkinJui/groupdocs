@@ -20,8 +20,8 @@ authors: [量筒]
 - **版本需求** 1.21.0+
 - **资源类型** 附加包
 - **最新版本** 1.0（正式版） | Alpha 1.1_01（测试版）
-- **更新日志** 详情见[更新日志页面](update_log)
-- **漏洞汇报** 详情见[漏洞与建议汇报页面](bugs)
+- **更新日志** 详情见[更新日志页面](update_log/1_1)
+- **漏洞汇报** 详情见[GitHub Issues](https://github.com/YZBWDLT/Bedwars/issues)
 
 ---
 
@@ -36,7 +36,7 @@ authors: [量筒]
 
 ### 各大论坛或平台
 
-- [GitHub](https://github.com/YZBWDLT/Bedwars)
+- [GitHub](https://github.com/YZBWDLT/Bedwars)（更新测试版）
 - [KLPBBS](https://klpbbs.com/thread-157754-1-1.html)
 - [MineBBS](https://www.minebbs.com/resources/be-1-21-pvp.10589/)
 - [TITAIKE](https://www.titaike.cn/6245.html)
@@ -45,7 +45,7 @@ authors: [量筒]
 
 ## 群内测试
 
-目前本资源处于活跃更新状态。本资源将保持在本群的[测试 I 服](../../../servers/server_settings)开展测试。
+目前本资源处于活跃更新状态。本资源将保持在本群的[起床战争服](../../../servers/server_settings)开展测试。
 
 该服务器采用白名单机制，需要参加测试的成员，请确保您的名字出现在[服务器成员登记表](../../../servers/registered_members)中，否则将无法进入游戏。
 
