@@ -12,16 +12,19 @@ sidebar_position: 5
 
 对于访问仓库内容，[Git](https://git-scm.com/downloads) 是极好的方式。**Git**Hub 本身即基于 Git。
 
-~~至少在使用 SSH URL 时，Git 的网速有时可达 MB/s 量级。~~  
+至少在使用 SSH URL 时，Git 的网速有时可达 MB/s 量级。
+
 更新：现在即使使用 SSH 也无法连接 GitHub 了，建议与下方工具配合使用。提示信息如下：
 
-```plaintext
+```shell-session
 ssh: connect to host github.com port 22: Connection timed out
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
 ```
+
+更新：又好了……也许吧。
 
 [GitHub CLI](https://cli.github.com/) 亦是如此，但其功能与 Git 并非完全重叠。更新：目前尚未受上述问题影响。
 
