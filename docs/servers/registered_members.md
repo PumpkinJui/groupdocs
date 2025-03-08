@@ -91,6 +91,7 @@ authors: [量筒]
 | 烟雨 | RustyAbyss29193 | ✔ | 爆裂绿色尾迹烟花<br/>— | ❔ | 测试贡献较大 |
 | 月 | llytalo | ✔ | —<br/>— | ❔ | 测试贡献较大 |
 | 白洲梓 | bai zhou zi5631 | ✔ | —<br/>— | ❔ | 测试贡献较大 |
+| 硫化银 | yiyishi54188 | ✔ | —<br/>— | ❔ | 测试贡献较大 |
 | Ar | Nan66666666<br/>NanXAS | ✔<br/>✔ | 金苹果<br/>§r§l§e | ✔ | 生存服贡献大 |
 | 千里 | EnderLifeRyan<br/>EnderLife5409 | ✔<br/>✔ | 末影珍珠<br/>§5§l | ✔ | 生存服贡献大 |
 | 宽判 | kuanpan 9527<br/>ADOFAI7bg | ✔<br/>✔ | 红石矿石<br/>— | ✔ | 生存服贡献较大 |
@@ -128,7 +129,6 @@ authors: [量筒]
 | — | Explorer95270 | ✔ | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | 巢小羊 | aaaLCxy | ✔ | —<br/>— | ❔ | 由 **@小鼠** 邀请来 |
 | Lin | linchi723 | ✔ | —<br/>— | ❔ | 由 **@祉语** 邀请来 |
-| 硫化银 | yiyishi54188 | ✘ | —<br/>— | ❔ | 测试贡献较大 |
 | E尘 | E1cheng | ✘ | —<br/>— | ✘ | 知名开发者 |
 | Xero | ProjectXero1042 | ✘ | —<br/>— | ✘ | 知名开发者 |
 | 急尘 | jichenNGU | ✘ | 蓝色陶瓦<br/>— | ✘ | 知名视频作者 |
