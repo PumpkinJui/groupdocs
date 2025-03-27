@@ -50,7 +50,7 @@ description: 生存服的基本情况简介。
 
 因为存档大小过于庞大，为防止进一步挤占群文件空间，同时为方便备份上传，自 2025 年 3 月 3 日起，我们使用「[猫盘（NekoDrive）](https://app.nekodrive.net/s/4kDhY)」进行共享。云盘文件名称中的日期为对应存档的**备份时间**。
 
-> 2025 年 3 月 3 日以前的存档可以在[123云盘](https://www.123684.com/s/t3TqVv-EC3kh)」和「[OneDrive](https://1drv.ms/u/c/365ab37ede8dd3c6/ERAkOVOYsuJCsgss9CuYWgEBjoBExZxKBGZOjAzgDbcR8Q?e=dTAjY6)」下载。我们可能会在未来的某段时间将这些平台的存档同步到猫盘。
+> 2025 年 3 月 3 日以前的存档可以在「[123云盘](https://www.123684.com/s/t3TqVv-EC3kh)」和「[OneDrive](https://1drv.ms/u/c/365ab37ede8dd3c6/ERAkOVOYsuJCsgss9CuYWgEBjoBExZxKBGZOjAzgDbcR8Q?e=dTAjY6)」下载。我们可能会在未来的某段时间将这些平台的存档同步到猫盘。
 >
 > 另外，群成员 @小飞侠 将生存服的存档搬运到其「[OneDrive](https://tang07-my.sharepoint.com/:f:/g/personal/admin_tang07_onmicrosoft_com/Eta9C-_nxlpEocOOYD2hrVsB0zYrE6cIssB9MMer1py5fw?e=ceJxma)」中作为备用下载通道。[文件中的校验码是什么？](../../tools/howto/hashfile)
 >
