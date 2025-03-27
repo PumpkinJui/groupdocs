@@ -72,7 +72,7 @@ sidebar_position: 1
 
 - 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
 - 端口 - 10000
-- 版本 - 1.21.60
+- 版本 - 1.21.70
 
 ## 测试服
 
@@ -82,26 +82,26 @@ sidebar_position: 1
 
 - 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
 - 端口 - 11000
-- 版本 - 1.21.60
+- 版本 - 1.21.70
 
 ### 测试服 - II
 
 - 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
 - 端口 - 12000
-- 版本 - 1.21.60
+- 版本 - 1.21.70
 
 ### 测试服 - III
 
 - 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
 - 端口 - 13000
-- 版本 - 1.21.60
+- 版本 - 1.21.70
 
 ## 起床战争服
 
-> 基于本群资源[量筒的起床战争](../resources/developing/bedwars/homepage)而开服。
+> 基于本群资源[量筒的起床战争](../resources/developing/bedwars/homepage)的最新稳定版而开服。
 >
-> 目前处于最新测试版，欢迎各位成员前来测试，友谊第一，比赛第二！禁止作弊哦！
+> 友谊第一，比赛第二！禁止作弊哦！
 
 - 地址 - apple.cvm.xiaozhiyuqwq.top / apple.cvm.nekoawa.com
-- 端口 - 11451
-- 版本 - 1.21.60
+- 端口 - 10000
+- 版本 - 1.21.70

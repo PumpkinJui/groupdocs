@@ -171,7 +171,7 @@
 
 | 服务器 | 地址 | 端口 |
 | :---: | --- | :---: |
-| 起床服 | apple.cvm.xiaozhiyuqwq.top | 11451 |
+| 起床服 | apple.cvm.xiaozhiyuqwq.top | 10000 |
 | 生存服 | banana.cvm.xiaozhiyuqwq.top | 10000 |
 | 测试 I 服 | banana.cvm.xiaozhiyuqwq.top | 11000 |
 | 测试 II 服 | banana.cvm.xiaozhiyuqwq.top | 12000 |
