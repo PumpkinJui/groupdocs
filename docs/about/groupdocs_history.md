@@ -67,8 +67,8 @@ sidebar_position: 2
   - [Gitee (Code)](https://gitee.com/pumpkinjui/groupdocs-legacy)
   - [GitHub (Code)](https://github.com/PumpkinJui/groupdocs-legacy)
 - 3.0
-  - [CF Pages Main (View)](https://legacy_main.groupdocs.pages.dev/)
-  - [CF Pages Anno (View)](https://legacy_anno.groupdocs.pages.dev/)
+  - [CF Pages Main (View)](https://legacy-main.groupdocs.pages.dev/)
+  - [CF Pages Anno (View)](https://legacy-anno.groupdocs.pages.dev/)
   - [GitHub Main (Code)](https://github.com/PumpkinJui/groupdocs/tree/legacy_main)
   - [GitHub Anno (Code)](https://github.com/PumpkinJui/groupdocs/tree/legacy_anno)
 
