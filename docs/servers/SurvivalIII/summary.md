@@ -35,16 +35,23 @@ description: 生存服的基本情况简介。
 
 ## 资源包 & 行为包
 
-目前，服务器共安装了四个资源包 (Resource Pack)。它们分别是：
+目前，服务器共安装了五个资源包 (Resource Pack)，并由 @YZBWDLT 整合为一个包。它们分别是：
 
-- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn) 1.21.50
-- [All Trades Visible](https://bedrocktweaks.net/resource-packs/) (原资源包为该网页 GUI 选项的 Trading Helper 资源包)
-- [Colorful Containers](https://mcpedl.com/colourful-containers-bedrock-pack-1) v4.1
-- Force Mojangles v2
+- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn) 1.21.60
+  - 用于修正基岩版的糟糕翻译。
+- [All Trades Visible](https://bedrocktweaks.net/resource-packs/)
+  - 用于将村民的可交易选项提前显示。
+  - 原资源包为该网页 GUI 选项的 Trading Helper 资源包。
+- [Colorful Containers](https://mcpedl.com/colourful-containers-be-2/) v4.2
+  - 用于呈现更好更优质的容器 UI。
+- [Force Mojangles](https://yzbwdlt.pages.dev/docs/dev_template/force_mojangles_v2) v2
+  - 用于呈现更好的 Molangles 英文和数字字体。
+- [Markers Pack](https://www.foxynotail.com/resource-packs/markers) v2.3.1
+  - 用于利用手持旗帜的盔甲架，显示更多信息（例如区块、朝向等）。
 
-如欲自行安装，请至「群文件：量筒测试群 - 生存服务器」下载。
+服务器的资源包为可选下载，你可以在全局资源中安装更多的包，以应用到生存服中。如欲自行安装我们所列出的包，请至「群文件：量筒测试群 - 生存服务器」下载。
 
-出于获取成就的需要，服务器**现在没有，将来也不会安装**任何行为包 (Behavior Pack)。
+虽然 1.21.70 后，安装行为包的存档也可以获取成就，但是除非必要，否则服务器**将不会安装**任何行为包。
 
 ## 存档下载
 
