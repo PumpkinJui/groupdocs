@@ -16,7 +16,10 @@
             "TabItem",
             "details",
             "summary",
-            "kbd"
+            "kbd",
+            "dataType",
+            "fileType",
+            "div"
         ]
     },
     "MD036": {
