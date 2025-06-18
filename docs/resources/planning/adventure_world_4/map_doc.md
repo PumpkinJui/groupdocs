@@ -444,8 +444,14 @@ function aw/lib/modify_data/levels/fail_level
 # (X)-(Y)
 
 # --- 检查怪物是否全部清除 ---
-## 第 (m) 波 -> 第 ((m)+1) 波
-execute unless entity @e[type=aw:spawner] if score wave data matches (m) if score monsterAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/waves/wave_((m)+1)
+## 第 1 波 -> 第 2 波
+execute unless entity @e[type=aw:spawner] if score wave data matches 1 if score monsterAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/waves/wave_2
+## 第 2 波 -> 第 3 波
+execute unless entity @e[type=aw:spawner] if score wave data matches 2 if score monsterAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/waves/wave_3
+## 第 3 波 -> 第 4 波
+execute unless entity @e[type=aw:spawner] if score wave data matches 3 if score monsterAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/waves/wave_4
+## 第 4 波 -> 第 5 波
+execute unless entity @e[type=aw:spawner] if score wave data matches 4 if score monsterAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/waves/wave_5
 ## 第 (n) 波 -> 关卡完成
 execute unless entity @e[type=aw:spawner] if score wave data matches (n) if score monsterAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/complete
 
@@ -455,31 +461,20 @@ execute if score alivePlayerAmount data matches 0 run function aw/levels/chapter
 
 # --- 阻止旁观模式的玩家出界 ---
 # 不处理正处于死亡状态的玩家
-execute as @a[tag=spectator,scores={deathState=0}] at @s unless entity @s[(允许的长方体区域)] run function aw/lib/modify_data/out_of_border
+# 在该关卡上方80格的位置存在与该房间同样大小的屏障外壳，只要眼部或者脚部检查到上方80格为屏障就立刻判定为出界
+execute as @a[tag=spectator,scores={deathState=0}] at @s if block ~~80~ barrier positioned (本关重生点) run function aw/lib/modify_data/out_of_border
+execute as @a[tag=spectator,scores={deathState=0}] at @s anchored eyes if block ~~80~ barrier positioned (本关重生点) run function aw/lib/modify_data/out_of_border
 
 ```
 
 ---
 
-若旁观区域无法使用一个长方体区域表达（例如 2-3），此时可在该关卡函数下新建一个`events/spectator_area.mcfunction`以作更复杂的区域检查。
-
-```mcfunction showLineNumbers title="aw/levels/chapter(X)/level(Y)/events/spectator_area.mcfunction"
-# ===== 旁观模式区域检查 =====
-
-tag @s[(允许的区域1)] add inArea(X)(Y)
-tag @s[(允许的区域2)] add inArea(X)(Y)
-(...)
-execute if entity @s[tag=!inArea(X)(Y)] run function aw/lib/modify_data/out_of_border
-tag @s remove inArea(X)(Y)
-
-```
-
-此时`阻止旁观模式的玩家出界`模块应改为：
+`阻止旁观模式的玩家出界`模块在 2-3 之前的关卡采用了一种比较简单的，传统的长方体区域检测法。未来，这个检测法将会完全被屏障检测法代替。
 
 ```mcfunction showLineNumbers title="阻止旁观模式的玩家出界"
 # --- 阻止旁观模式的玩家出界 ---
 # 不处理正处于死亡状态的玩家
-execute as @a[tag=spectator,scores={deathState=0}] at @s run function aw/levels/chapter(X)/level(Y)/events/spectator_area
+execute as @a[tag=spectator,scores={deathState=0}] at @s unless entity @s[(允许的长方体区域)] positioned (本关重生点) run function aw/lib/modify_data/out_of_border
 
 ```
 
@@ -529,10 +524,16 @@ execute positioned -83 1 -2 run function aw/lib/modify_data/levels/wave_1
 
 # --- 生成怪物生成器 ---
 
-## (怪物)
-summon aw:spawner (怪物位置) 0 0 aw:spawn_(怪物ID)_(怪物等级)
-## (...)
-(...)
+## (怪物1)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物1)ID)_((怪物1)等级)
+## (怪物2)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物2)ID)_((怪物2)等级)
+## (怪物3)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物3)ID)_((怪物3)等级)
+## (怪物4)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物4)ID)_((怪物4)等级)
+## (怪物5)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 
 # --- (功能) ---
 (...)
@@ -552,10 +553,16 @@ execute positioned -83 1 -2 run function aw/lib/modify_data/levels/wave_(m)
 
 # --- 生成怪物生成器 ---
 
-## (怪物)
-summon aw:spawner (怪物位置) 0 0 aw:spawn_(怪物ID)_(怪物等级)
-## (...)
-(...)
+## (怪物1)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物1)ID)_((怪物1)等级)
+## (怪物2)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物2)ID)_((怪物2)等级)
+## (怪物3)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物3)ID)_((怪物3)等级)
+## (怪物4)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物4)ID)_((怪物4)等级)
+## (怪物5)
+summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 
 # --- (功能) ---
 (...)
@@ -695,7 +702,7 @@ summon aw:spawner (怪物位置) 0 0 aw:spawn_(怪物ID)_(怪物等级)
 | 猪灵蛮兵 | `aw:spawn_piglin_brute` | `16` |
 | 疣猪兽 | `aw:spawn_hoglin_(1\|2\|3\|4)` | `17` |
 | 蠹虫 | `aw:spawn_silverfish_(1\|2\|3\|4)` | `18` |
-| 岩浆怪 | `aw:spawn_creeper_(small\|middle\|large)` | `19` |
+| 岩浆怪 | `aw:spawn_magma_cube_(small\|middle\|large)` | `19` |
 | 恶魂 | `aw:spawn_ghast` | `20` |
 | 女巫 | `aw:spawn_witch` | `21` |
 | 骷髅王 | `aw:spawn_skeleton_king` | `22` |
