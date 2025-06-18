@@ -650,7 +650,9 @@ summon aw:spawner (怪物位置) 0 0 aw:spawn_(怪物ID)_(怪物等级)
 | `spectator` | 玩家是否在游戏中死亡，成为旁观者 | `false` |
 | `outOfBorder` | 玩家是否在旁观模式下出界 | `false` |
 
-## 人物名称
+## NPC 等人物
+
+### NPC 名称颜色
 
 | 人物 | 人物颜色代码 |
 | :---: | :---: |
@@ -659,6 +661,17 @@ summon aw:spawner (怪物位置) 0 0 aw:spawn_(怪物ID)_(怪物等级)
 | 米云溪 | §c |
 | 张宇 | §e |
 | 其他 NPC | §e |
+
+### NPC 事件
+
+| 事件 ID | 描述 |
+| :--- | :--- |
+| `aw:interacted` | 该 NPC 正被交互，当`data.allowNpcInteraction == 1`时执行交互事件函数`aw/entities/npc/interacted` |
+| `aw:see_player` | 允许 NPC 迅速面向玩家 |
+| `aw:ignore_player` | 禁止 NPC 面向玩家，维持当前朝向 |
+| `aw:remove_immediately` | 立刻无声地移除 NPC |
+| `aw:author_(作者ID)` | 召唤对应 XBoxID 的作者，应为全小写，空格以下划线代替，例如召唤 kuanpan 9527 应写为`aw:author_kuanpan_9527`，详情见游戏内事件 |
+| `aw:npc_(NPC名字)` | 召唤对应名字的 NPC，例如召唤米云溪应写为`aw:npc_miyunxi`，详情见游戏内事件 |
 
 ## 怪物生成器
 
