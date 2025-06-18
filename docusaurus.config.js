@@ -116,7 +116,7 @@ const config = {
                         { label: '30 种死法 2', to: '/docs/resources/completed/ways_to_die_2/homepage', },
                         { label: '量筒的起床战争', to: 'docs/resources/developing/bedwars/homepage' },
                         { label: '冒险世界：苏醒', to: 'docs/resources/planning/adventure_world_2/homepage', },
-                        { label: '冒险小世界：剑之试炼', to: 'docs/resources/planning/adventure_world_4/homepage', },
+                        { label: '冒险小世界：剑之试炼', to: 'docs/resources/developing/adventure_world_4/homepage', },
                         { label: '冒险世界：筑梦', to: 'docs/resources/developing/adventure_world_5/homepage' },
                         { label: 'Minecraft Picross', to: 'docs/resources/completed/minecraft_picross/homepage' },
                         { label: '触发', to: 'docs/resources/developing/trigger/homepage' },

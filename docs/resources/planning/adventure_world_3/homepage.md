@@ -13,7 +13,7 @@ description: 《冒险世界》第三部，你能否逃出这些复杂的迷宫�
 - [冒险世界：逃离](../adventure_world_1/homepage)
 - [冒险世界：苏醒](../adventure_world_2/homepage)
 - 冒险世界：迷失（本页面）
-- [冒险小世界：剑之试炼](../adventure_world_4/homepage)
+- [冒险小世界：剑之试炼](../../developing/adventure_world_4/homepage)
 - [冒险世界：筑梦](../../developing/adventure_world_5/homepage)
 
 ---

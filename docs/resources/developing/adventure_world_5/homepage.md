@@ -13,7 +13,7 @@ description: 《冒险世界》的第五部续作，一张大型综合地图
 - [冒险世界：逃离](../../planning/adventure_world_1/homepage)
 - [冒险世界：苏醒](../../planning/adventure_world_2/homepage)
 - [冒险世界：迷失](../../planning/adventure_world_3/homepage)
-- [冒险小世界：剑之试炼](../../planning/adventure_world_4/homepage)
+- [冒险小世界：剑之试炼](../adventure_world_4/homepage)
 - 冒险世界：筑梦（本页面）
 
 ---

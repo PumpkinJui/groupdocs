@@ -13,7 +13,7 @@ description: 《冒险世界》第二部，大制作，长流程，可玩性极�
 - [冒险世界：逃离](../adventure_world_1/homepage)
 - 冒险世界：苏醒（本页面）
 - [冒险世界：迷失](../adventure_world_3/homepage)
-- [冒险小世界：剑之试炼](../adventure_world_4/homepage)
+- [冒险小世界：剑之试炼](../../developing/adventure_world_4/homepage)
 - [冒险世界：筑梦](../../developing/adventure_world_5/homepage)
 
 ---
