@@ -44,6 +44,8 @@ const config = {
                 docs: {
                     sidebarPath: './sidebars.js',
                     editUrl: 'https://github.com/PumpkinJui/groupdocs/tree/main/',
+                    showLastUpdateAuthor: true,
+                    showLastUpdateTime: true
                 },
                 blog: {
                     routeBasePath: 'blog/anno',
