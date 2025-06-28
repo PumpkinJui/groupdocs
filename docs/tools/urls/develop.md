@@ -25,15 +25,16 @@
     注：部分涉及到中国大陆无法使用的服务。
   - [(English) 自带附加包历代文档收录](https://bedrock.dev/)
   - [(English) 附加包模板历代收录](https://bedrock.dev/packs)
-- [(English) JaylyMC 的 SAPI 文档](https://jaylydev.github.io/scriptapi-docs/)
 - [中文 Minecraft Wiki](https://zh.minecraft.wiki/)
-- [(English) 我的世界基岩版网络协议文档](https://github.com/Mojang/bedrock-protocol-docs)
+- [(English) JaylyMC 的 SAPI 文档](https://jaylydev.github.io/scriptapi-docs/)
+- [量筒的 Minecraft 基岩版开发文档](https://yzbwdlt.pages.dev/)
+  - 自家编写，欢迎查阅 :)
 - [Minecraft 基岩版开发 Wiki](https://wiki.mcbe-dev.net/)（仍处于开荒状态）
-- [MC 开发者文档](https://mc.163.com/mcstudio/mc-dev/)（仅网易可用）
 - 我的世界开发指南（仅网易可用）
   - [电脑版](https://mc.163.com/dev/guide.html)
   - [手机版](https://mc.163.com/m/dev/guide.html)
 - [Minecraft 基岩版开发文档](https://www.mcbe-dev.net/addons/)（理解难度高，仅作上述文档的补充）
+- [(English) 我的世界基岩版网络协议文档](https://github.com/Mojang/bedrock-protocol-docs)
 
 ## 各式各样的开发工具
 
