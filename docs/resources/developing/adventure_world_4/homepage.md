@@ -26,7 +26,7 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 - **资源类型** 地图 - PVE 地图
 - **最新版本** 4.1
 - **更新日志** 详情见[更新日志页面](update_log)
-- **漏洞汇报** 详情见[漏洞与建议汇报页面](bugs)
+- **漏洞汇报** 详情见[GitHub Issues](https://github.com/YZBWDLT/Adventure-World-4/issues)
 
 ---
 

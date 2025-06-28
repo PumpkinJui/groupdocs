@@ -478,6 +478,19 @@ execute as @a[tag=spectator,scores={deathState=0}] at @s unless entity @s[(允�
 
 ```
 
+---
+
+如果关卡中含有中型或大型岩浆怪，应当启用关卡完成倒计时来避免岩浆怪分裂的相关问题。在`检查怪物是否全部清除`模块中的前两行新增命令：
+
+```mcfunction showLineNumbers title="检查怪物是否全部清除"
+## 关卡完成倒计时
+execute if score levelCompleteCountdown time matches 1.. if score monsterAmount data matches 0 run scoreboard players remove levelCompleteCountdown time 1
+execute if score levelCompleteCountdown time matches 1.. unless score monsterAmount data matches 0 run scoreboard players set levelCompleteCountdown time 60
+
+```
+
+然后，在对应波潮的完成条件中新增`if score levelCompleteCountdown time matches ..0`条件。
+
 </details>
 
 <details>
@@ -596,6 +609,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | `deathCount.@s` | 玩家当前死亡次数 | `0`- | `0` |
 | `deathState.@s` | 玩家当前死亡状态 | `0`：存活，`1`：刚刚死亡（还未记录死亡榜），`2`：长期死亡 | `0` |
 | `deathTime.@s` | 玩家持续处于死亡状态的时长（单位：游戏刻） | `0`- | `0` |
+| `health.@s` | 玩家击杀数 | 整数 | 实时判断 |
 | `killCount.@s` | 玩家击杀数 | `0`- | `0` |
 | `isOnline.@s` | 玩家是否在线 | `0`：刚进入游戏，`1`：在线 | `1` |
 
@@ -644,6 +658,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 
 | 变量名 | 含义 | 允许值 | 默认值 |
 | :---: | --- | :---: | :---: |
+| `time.levelCompleteCountdown` | 关卡完成倒计时，在怪物全部被消灭后还有多久完成关卡，仅在部分有岩浆怪的关卡中使用（单位：游戏刻） | `0`-`60` | `0` |
 | `time.sound` | 音效播放器，为 0 时触发特定音效（单位：游戏刻） | `0`- | `0` |
 | `time.tick` | 每刻增加 1 分，每秒重置 1 次（单位：游戏刻） | `0`-`19` | `0` |
 | `time.timeline` | 时间线，到达特定值后触发命令或函数（单位：游戏刻） | `0`- | `0` |
