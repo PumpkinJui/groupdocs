@@ -489,7 +489,13 @@ execute if score levelCompleteCountdown time matches 1.. unless score monsterAmo
 
 ```
 
-然后，在对应波潮的完成条件中新增`if score levelCompleteCountdown time matches ..0`条件。
+然后，在对应波潮的完成条件中新增`if score levelCompleteCountdown time matches ..0`条件。并且，为了能够使得分裂出来的岩浆怪的名称正确显示，还需要添加一个新模块`重命名岩浆怪`：
+
+```json showLineNumbers title="重命名岩浆怪"
+# --- 重命名岩浆怪 ---
+function aw/lib/modify_data/rename_magma_cube
+
+```
 
 </details>
 
@@ -631,6 +637,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | `data.allowNpcInteraction` | NPC 是否允许交互 | `0`：禁用，`1`：启用 | `1` |
 | `data.allowPotionSupply` | 是否允许补充药水 | `0`：不允许，`1`：允许 | `0` |
 | `data.allowRemoveItemEntity` | 是否允许移除掉落物实体 | `0`：不允许，`1`：允许 | `1` |
+| `data.allowTpPlayerWhenStart` | 是否允许在开始游戏时传送玩家 | `0`：不允许，`1`：允许 | `1` |
 | `data.chapter` | 当前正在进行的章节数 | `0`：开始前&村庄，`1`-`7`：游戏章节，`10`：结束后的村庄 | `0` |
 | `data.client` | 当前使用的客户端 | `0`：国际版，`1`：中国版 | `0` |
 | `data.failedCount.allLevels` | 总失败次数 | `0`- | `0` |
