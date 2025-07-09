@@ -29,7 +29,7 @@ description: 生存服的基本情况简介。
 - [辰辉](developing_areas/chenhui)（星辰）
 - [矿山](developing_areas/diggings)（南瓜汁、文雨）
 - [雪原](developing_areas/snowfield)（鸽子、地雷）
-- [西海](developing_areas/west_sea)（命令块）
+- [缘启城](developing_areas/yuanqi)（命令块、小面包）
 
 其中，新光和银月是全服前两大发达区域。
 
