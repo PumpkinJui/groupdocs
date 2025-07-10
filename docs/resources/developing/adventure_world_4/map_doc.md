@@ -604,7 +604,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | 5-Y | -95 -30 -6 | —— | —— | —— | —— | —— |
 | 6-Y | -81 -30 -28 | -76 -30 -48 | -80 -18 -46 | -75 -36 -15 | -75 -38 22 | —— |
 | 7-Y | -87 -39 96 | -119 -16 103 | -161 -17 110 | -194 -17 97 | -225 -17 99 | -225 -47 44 |
-| 10-Y（完结剧情） | —— | -15 2 88 | -27 7 -48 | -16 1 82 | —— | —— |
+| 10-Y（完结剧情） | —— | -27 7 -48 | -27 7 -48 | -16 1 82 | —— | —— |
 
 ## 地图变量
 
@@ -615,7 +615,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | `deathCount.@s` | 玩家当前死亡次数 | `0`- | `0` |
 | `deathState.@s` | 玩家当前死亡状态 | `0`：存活，`1`：刚刚死亡（还未记录死亡榜），`2`：长期死亡 | `0` |
 | `deathTime.@s` | 玩家持续处于死亡状态的时长（单位：游戏刻） | `0`- | `0` |
-| `health.@s` | 玩家击杀数 | 整数 | 实时判断 |
+| `health.@s` | 玩家生命值 | 整数 | 实时判断 |
 | `killCount.@s` | 玩家击杀数 | `0`- | `0` |
 | `isOnline.@s` | 玩家是否在线 | `0`：刚进入游戏，`1`：在线 | `1` |
 
@@ -643,6 +643,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | `data.failedCount.allLevels` | 总失败次数 | `0`- | `0` |
 | `data.failedCount.thisLevel` | 本关的失败次数 | `0`- | `0` |
 | `data.hasCheat` | 是否有玩家启用了创造模式作弊 | `0`：无，`1`：有 | `0` |
+| `data.keepValue` | 进行时间线设置时是否保留原有的时间线值 | `0`：不保留，`1`：保留 | `0` |
 | `data.level` | 当前正在进行的章节所属的关卡 | `0`-`5` | `0` |
 | `data.levelCompleted` | 关卡是否完成 | `0`：进行中，`1`：已完成 | `1` |
 | `data.maxWave` | 本关目前最大波数 | `1`-`5` | `1` |
@@ -651,6 +652,42 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | `data.potionUsed` | 是否有玩家使用过主药水或副药水 | `0`：没有，`1`：有 | `0` |
 | `data.timeLapse` | 时间线是否启用时间流逝 | `0`：禁用，`1`-：启用 | `0` |
 | `data.wave` | 本关目前所处波数 | `1`-`5` | `1` |
+
+### `record`
+
+| 变量名 | 含义 | 允许值 | 默认值 |
+| :---: | --- | :---: | :---: |
+| `settings.developerMode` | 开发者模式是否启用 | `0`：禁用，`1`：启用 | `0` |
+| `record.achievement.multiPlayer.difficulty4` | 多人成就[挑战极限]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.multiPlayer.finishMap` | 多人成就[齐心协力]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.multiPlayer.killLessThan50` | 多人成就[躺赢]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.multiPlayer.killMoreThan200` | 多人成就[全靠我带飞]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.multiPlayer.neverDied` | 多人成就[人多力量大]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.multiPlayer.speedrun` | 多人成就[势如破竹]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.singlePlayer.difficulty2` | 单人成就[挑战自我]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.singlePlayer.difficulty3` | 单人成就[举步维艰]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.singlePlayer.difficulty4` | 单人成就[这不可能！]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.singlePlayer.finishMap` | 单人成就[神剑的恩惠]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.singlePlayer.neverDied` | 单人成就[让田英睡觉去吧！]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.singlePlayer.noPotion` | 单人成就[纯天然]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.achievement.singlePlayer.speedrun` | 单人成就[别挡道，我很急！]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
+| `record.bestTime.multiPlayer.difficulty1.minute` | 单人模式的最佳游戏时间（难度 1，单位：分钟） | `0`- | `9999` |
+| `record.bestTime.multiPlayer.difficulty1.second` | 单人模式的最佳游戏时间（难度 1，单位：秒） | `0`- | `59` |
+| `record.bestTime.multiPlayer.difficulty2.minute` | 单人模式的最佳游戏时间（难度 2，单位：分钟） | `0`- | `9999` |
+| `record.bestTime.multiPlayer.difficulty2.second` | 单人模式的最佳游戏时间（难度 2，单位：秒） | `0`- | `59` |
+| `record.bestTime.multiPlayer.difficulty3.minute` | 单人模式的最佳游戏时间（难度 3，单位：分钟） | `0`- | `9999` |
+| `record.bestTime.multiPlayer.difficulty3.second` | 单人模式的最佳游戏时间（难度 3，单位：秒） | `0`- | `59` |
+| `record.bestTime.multiPlayer.difficulty4.minute` | 单人模式的最佳游戏时间（难度 4，单位：分钟） | `0`- | `9999` |
+| `record.bestTime.multiPlayer.difficulty4.second` | 单人模式的最佳游戏时间（难度 4，单位：秒） | `0`- | `59` |
+| `record.bestTime.singlePlayer.difficulty1.minute` | 单人模式的最佳游戏时间（难度 1，单位：分钟） | `0`- | `9999` |
+| `record.bestTime.singlePlayer.difficulty1.second` | 单人模式的最佳游戏时间（难度 1，单位：秒） | `0`- | `59` |
+| `record.bestTime.singlePlayer.difficulty2.minute` | 单人模式的最佳游戏时间（难度 2，单位：分钟） | `0`- | `9999` |
+| `record.bestTime.singlePlayer.difficulty2.second` | 单人模式的最佳游戏时间（难度 2，单位：秒） | `0`- | `59` |
+| `record.bestTime.singlePlayer.difficulty3.minute` | 单人模式的最佳游戏时间（难度 3，单位：分钟） | `0`- | `9999` |
+| `record.bestTime.singlePlayer.difficulty3.second` | 单人模式的最佳游戏时间（难度 3，单位：秒） | `0`- | `59` |
+| `record.bestTime.singlePlayer.difficulty4.minute` | 单人模式的最佳游戏时间（难度 4，单位：分钟） | `0`- | `9999` |
+| `record.bestTime.singlePlayer.difficulty4.second` | 单人模式的最佳游戏时间（难度 4，单位：秒） | `0`- | `59` |
+| `record.mapCompletedTimes` | 地图通关次数 | `0`- | `0` |
 
 ### `settings`
 
@@ -731,6 +768,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | 远古守卫者 | `aw:spawn_elder_guardian` | `23` |
 | 烈焰王 | `aw:spawn_blaze_king` | `24` |
 | 唤魔法师 | `aw:spawn_evoker` | `25` |
+| 带盾僵尸 | `aw:spawn_zombie_shield` | `26` |
 
 ## 当前已知问题 & Todo list
 
