@@ -35,6 +35,7 @@ description: 查看本地图的所有更新日志。
   - [v0.45](#v045)
   - [v0.50](#v050)
   - [v0.51](#v051)
+  - [v0.52](#v052)
 
 ---
 
@@ -65,7 +66,7 @@ description: 查看本地图的所有更新日志。
 
 ### 底层更新
 
-- 本地图在[函数系统 v2](../../template/function_general_v2)、[玩家血量监控](../../template/health_controller.md)、[交互实体与 NPC](../../template/interaction_and_npc)、[标记实体与文本展示实体](../../template/marker_and_test_display)的基础上，适应改进后进行开发。因此，部分物品、实体、变量等与这些小包通用。
+- 本地图在[函数系统 v2](https://yzbwdlt.pages.dev/docs/dev_template/outdate/main_v2)、[玩家血量监控](https://yzbwdlt.pages.dev/docs/dev_template/outdate/health_controller)、[交互实体与 NPC](https://yzbwdlt.pages.dev/docs/dev_template/outdate/interaction_and_npc)、[标记实体与文本展示实体](https://yzbwdlt.pages.dev/docs/dev_template/outdate/marker_and_test_display)的基础上，适应改进后进行开发。因此，部分物品、实体、变量等与这些小包通用。
 - 因开发分工限制，本更新日志不会详细地展现变量、文件、功能点等底层上的变化。
 
 ## v0.12
