@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function FileType({ fileType, name }) {
-    const imgPath = `/img/fileType/${fileType}.svg`;
+export default function FileType({ type, name }) {
+    const imgPath = `/img/fileType/${type}.svg`;
     const hasName = name ? ( <span className="file-type-name">{name}</span> ) : null;
 
     return (

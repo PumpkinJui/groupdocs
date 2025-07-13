@@ -12,14 +12,12 @@
     "MD033": {
         "allowed_elements": [
             "br",
-            "Tabs",
-            "TabItem",
-            "details",
-            "summary",
+            "Tabs", "TabItem",
+            "details", "summary",
             "kbd",
-            "dataType",
-            "fileType",
-            "div"
+            "DataType", "FileType",
+            "treeview",
+            "Highlight", "Bug", "Download", "FrameHighlight", "Version"
         ]
     },
     "MD036": {

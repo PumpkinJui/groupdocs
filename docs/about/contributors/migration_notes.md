@@ -2,16 +2,16 @@
 sidebar_position: 2
 description: Docusaurus 迁移后的注意事项和新语法！
 title: Docusaurus 编辑指南
+authors: [ 量筒 ]
 ---
 
 # Docusaurus 编辑指南
 
 > 作者：一只卑微的量筒
-> 最后更新于：2025.06.15
 
 import DataType from "/src/components/type/data"
 import FileType from "/src/components/type/file"
-import treeview from '/src/css/treeview.css';
+import '/src/css/treeview.css';
 
 ## 群文档已经正式迁移到 Docusaurus 了！
 
@@ -911,20 +911,20 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
 
 | 参数 | 类型 | 描述 | 示例 |
 | :--- | :-- | :--- | :--- |
-| `dataType` | 字符串，可选（但通常需指定此参数） | 仅限填写为以下的值，对应 JSON 中的几种基本数据类型，声明后将在字段左侧添加对应图标。<br/>**·** `"int"`：整数<br/>**·** `"float"`：浮点数<br/>**·** `"boolean"`：布尔值<br/>**·** `"string"`：字符串<br/>**·** `"object"`：对象<br/>**·** `"array"`：数组 | `<DataType dataType="int"/>` |
+| `type` | 字符串，可选（但通常需指定此参数） | 仅限填写为以下的值，对应 JSON 中的几种基本数据类型，声明后将在字段左侧添加对应图标。<br/>**·** `"int"`：整数<br/>**·** `"float"`：浮点数<br/>**·** `"boolean"`：布尔值<br/>**·** `"string"`：字符串<br/>**·** `"object"`：对象<br/>**·** `"array"`：数组 | `<DataType type="int"/>` |
 | `name` | 字符串，可选 | 字段内容 | `<DataType name="format_version"/>` |
 | `isRequired` | 布尔值，可选 | 声明该字段是否必选，必选的参数会加粗，并标上星号 | `<DataType isRequired/>` |
 
 <Tabs>
 <TabItem value="effect" label="效果" default>
 
-- <DataType dataType="object" name="param"/>代表`"param"`的值是一个对象`{...}`。
-- <DataType dataType="array" name="param"/>代表`"param"`的值是一个数组`[...]`。若在数组中声明了数字，则代表对应索引的类型。例如<DataType dataType="array" name="0"/>，代表索引`0`的类型是数组。
-- <DataType dataType="int" name="param"/>代表`"param"`的值是整数。
-- <DataType dataType="float" name="param"/>代表`"param"`的值是浮点数。
-- <DataType dataType="string" name="param"/>代表`"param"`的值是字符串。
-- <DataType dataType="boolean" name="param"/>代表`"param"`的值是布尔值。
-- <DataType dataType="boolean" name="param" isRequired/>代表`"param"`的值是布尔值，且为必选参数。
+- <DataType type="object" name="param"/>代表`"param"`的值是一个对象`{...}`。
+- <DataType type="array" name="param"/>代表`"param"`的值是一个数组`[...]`。若在数组中声明了数字，则代表对应索引的类型。例如<DataType type="array" name="0"/>，代表索引`0`的类型是数组。
+- <DataType type="int" name="param"/>代表`"param"`的值是整数。
+- <DataType type="float" name="param"/>代表`"param"`的值是浮点数。
+- <DataType type="string" name="param"/>代表`"param"`的值是字符串。
+- <DataType type="boolean" name="param"/>代表`"param"`的值是布尔值。
+- <DataType type="boolean" name="param" isRequired/>代表`"param"`的值是布尔值，且为必选参数。
 
 </TabItem>
 <TabItem value="code" label="代码">
@@ -934,13 +934,13 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
 ```markdown {1}
 import DataType from "/src/components/type/data"
 
-- <DataType dataType="object" name="param"/>代表`"param"`的值是一个对象`{...}`。
-- <DataType dataType="array" name="param"/>代表`"param"`的值是一个数组`[...]`。若在数组中声明了数字，则代表对应索引的类型。例如<DataType dataType="array" name="0"/>，代表索引`0`的类型是数组。
-- <DataType dataType="int" name="param"/>代表`"param"`的值是整数。
-- <DataType dataType="float" name="param"/>代表`"param"`的值是浮点数。
-- <DataType dataType="string" name="param"/>代表`"param"`的值是字符串。
-- <DataType dataType="boolean" name="param"/>代表`"param"`的值是布尔值。
-- <DataType dataType="boolean" name="param" isRequired/>代表`"param"`的值是布尔值，且为必选参数。
+- <DataType type="object" name="param"/>代表`"param"`的值是一个对象`{...}`。
+- <DataType type="array" name="param"/>代表`"param"`的值是一个数组`[...]`。若在数组中声明了数字，则代表对应索引的类型。例如<DataType type="array" name="0"/>，代表索引`0`的类型是数组。
+- <DataType type="int" name="param"/>代表`"param"`的值是整数。
+- <DataType type="float" name="param"/>代表`"param"`的值是浮点数。
+- <DataType type="string" name="param"/>代表`"param"`的值是字符串。
+- <DataType type="boolean" name="param"/>代表`"param"`的值是布尔值。
+- <DataType type="boolean" name="param" isRequired/>代表`"param"`的值是布尔值，且为必选参数。
 ```
 
 </TabItem>
@@ -952,16 +952,16 @@ import DataType from "/src/components/type/data"
 
 | 参数 | 类型 | 描述 | 示例 |
 | :--- | :-- | :--- | :--- |
-| `fileType` | 字符串，可选（但通常需指定此参数） | 仅限填写为以下的值，声明后将在字段左侧添加对应图标。<br/>**·** `"file"`：常规的文本文件<br/>**·** `"folder"`：文件夹<br/>**·** `"image"`：图片<br/>**·** `"music"`：音乐 | `<FileType fileType="file"/>` |
+| `type` | 字符串，可选（但通常需指定此参数） | 仅限填写为以下的值，声明后将在字段左侧添加对应图标。<br/>**·** `"file"`：常规的文本文件<br/>**·** `"folder"`：文件夹<br/>**·** `"image"`：图片<br/>**·** `"music"`：音乐 | `<FileType type="file"/>` |
 | `name` | 字符串，可选 | 字段内容 | `<FileType name="manifest.json"/>` |
 
 <Tabs>
 <TabItem value="effect" label="效果" default>
 
-- <FileType fileType="file" name="awa.txt"/>代表 awa.txt 是一个常规的文本文件。
-- <FileType fileType="folder" name="com.mojang"/>代表 com.mojang 是一个文件夹。
-- <FileType fileType="image" name="world_icon.jpeg"/>代表 world_icon.jpeg 是一个图片。
-- <FileType fileType="music" name="13.ogg"/>代表 13.ogg 是一首音乐。
+- <FileType type="file" name="awa.txt"/>代表 awa.txt 是一个常规的文本文件。
+- <FileType type="folder" name="com.mojang"/>代表 com.mojang 是一个文件夹。
+- <FileType type="image" name="world_icon.jpeg"/>代表 world_icon.jpeg 是一个图片。
+- <FileType type="music" name="13.ogg"/>代表 13.ogg 是一首音乐。
 
 </TabItem>
 <TabItem value="code" label="代码">
@@ -971,10 +971,10 @@ import DataType from "/src/components/type/data"
 ```markdown {1}
 import FileType from "/src/components/type/file"
 
-- <FileType fileType="file" name="awa.txt"/>代表 awa.txt 是一个常规的文本文件。
-- <FileType fileType="folder" name="com.mojang"/>代表 com.mojang 是一个文件夹。
-- <FileType fileType="image" name="world_icon.jpeg"/>代表 world_icon.jpeg 是一个图片。
-- <FileType fileType="music" name="13.ogg"/>代表 13.ogg 是一首音乐。
+- <FileType type="file" name="awa.txt"/>代表 awa.txt 是一个常规的文本文件。
+- <FileType type="folder" name="com.mojang"/>代表 com.mojang 是一个文件夹。
+- <FileType type="image" name="world_icon.jpeg"/>代表 world_icon.jpeg 是一个图片。
+- <FileType type="music" name="13.ogg"/>代表 13.ogg 是一首音乐。
 ```
 
 </TabItem>
@@ -982,22 +982,22 @@ import FileType from "/src/components/type/file"
 
 ### 树状图
 
-有时候我们会需要树状图来理清文件或数据之间的逻辑关系。本文档引入了中文 Minecraft Wiki 采用的树状图及其代码。使用 HTML 标签`<div class="treeview"></div>`来声明内部是一个树状图，并在内部插入无序列表，剩下的交给 Docusaurus 自己处理就好啦。
+有时候我们会需要树状图来理清文件或数据之间的逻辑关系。本文档引入了中文 Minecraft Wiki 采用的树状图及其代码。使用 HTML 标签`<treeview></treeview>`来声明内部是一个树状图，并在内部插入无序列表，剩下的交给 Docusaurus 自己处理就好啦。
 
 <Tabs>
 <TabItem value="effect" label="效果" default>
 
-<div class="treeview">
+<treeview>
 
-- <DataType dataType="array"/>：根数组
-  - <DataType dataType="object"/>：启用的附加包信息
-    - <DataType dataType="string" name="pack_id" isRequired/>：附加包的 UUID。
-    - <DataType dataType="array" name="version" isRequired/>：附加包的版本。
-      - <DataType dataType="int" name="0" isRequired/>：代表主版本号。
-      - <DataType dataType="int" name="1" isRequired/>：代表次版本号。
-      - <DataType dataType="int" name="2" isRequired/>：代表修订版本号。
+- <DataType type="array"/>：根数组
+  - <DataType type="object"/>：启用的附加包信息
+    - <DataType type="string" name="pack_id" isRequired/>：附加包的 UUID。
+    - <DataType type="array" name="version" isRequired/>：附加包的版本。
+      - <DataType type="int" name="0" isRequired/>：代表主版本号。
+      - <DataType type="int" name="1" isRequired/>：代表次版本号。
+      - <DataType type="int" name="2" isRequired/>：代表修订版本号。
 
-</div>
+</treeview>
 
 </TabItem>
 <TabItem value="code" label="代码">
@@ -1005,19 +1005,19 @@ import FileType from "/src/components/type/file"
 第 1 行的高亮代码，全文应声明且只声明 1 次。
 
 ```markdown {1}
-import treeview from '/src/css/treeview.css';
+import '/src/css/treeview.css';
 
-<div class="treeview">
+<treeview>
 
-- <DataType dataType="array"/>：根数组
-  - <DataType dataType="object"/>：启用的附加包信息
-    - <DataType dataType="string" name="pack_id" isRequired/>：附加包的 UUID。
-    - <DataType dataType="array" name="version" isRequired/>：附加包的版本。
-      - <DataType dataType="int" name="0" isRequired/>：代表主版本号。
-      - <DataType dataType="int" name="1" isRequired/>：代表次版本号。
-      - <DataType dataType="int" name="2" isRequired/>：代表修订版本号。
+- <DataType type="array"/>：根数组
+  - <DataType type="object"/>：启用的附加包信息
+    - <DataType type="string" name="pack_id" isRequired/>：附加包的 UUID。
+    - <DataType type="array" name="version" isRequired/>：附加包的版本。
+      - <DataType type="int" name="0" isRequired/>：代表主版本号。
+      - <DataType type="int" name="1" isRequired/>：代表次版本号。
+      - <DataType type="int" name="2" isRequired/>：代表修订版本号。
 
-</div>
+</treeview>
 ```
 
 </TabItem>
