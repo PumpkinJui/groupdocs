@@ -461,20 +461,9 @@ execute if score alivePlayerAmount data matches 0 run function aw/levels/chapter
 
 # --- 阻止旁观模式的玩家出界 ---
 # 不处理正处于死亡状态的玩家
-# 在该关卡上方80格的位置存在与该房间同样大小的屏障外壳，只要眼部或者脚部检查到上方80格为屏障就立刻判定为出界
-execute as @a[tag=spectator,scores={deathState=0}] at @s if block ~~80~ barrier positioned (本关重生点) run function aw/lib/modify_data/out_of_border
+# 在该关卡上方80格的位置存在与该房间同样大小的屏障外壳，只要眼部检查到上方80格为屏障就立刻判定为出界
 execute as @a[tag=spectator,scores={deathState=0}] at @s anchored eyes if block ~~80~ barrier positioned (本关重生点) run function aw/lib/modify_data/out_of_border
-
-```
-
----
-
-`阻止旁观模式的玩家出界`模块在 2-3 之前的关卡采用了一种比较简单的，传统的长方体区域检测法。未来，这个检测法将会完全被屏障检测法代替。
-
-```mcfunction showLineNumbers title="阻止旁观模式的玩家出界"
-# --- 阻止旁观模式的玩家出界 ---
-# 不处理正处于死亡状态的玩家
-execute as @a[tag=spectator,scores={deathState=0}] at @s unless entity @s[(允许的长方体区域)] positioned (本关重生点) run function aw/lib/modify_data/out_of_border
+execute as @a[tag=spectator,scores={deathState=0}] positioned (上关重生点) if entity @s[r=2] run tp @s (本关重生点)
 
 ```
 
@@ -658,6 +647,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | `data.client` | 当前使用的客户端 | `0`：国际版，`1`：中国版 | `0` |
 | `data.failedCount.allLevels` | 总失败次数 | `0`- | `0` |
 | `data.failedCount.thisLevel` | 本关的失败次数 | `0`- | `0` |
+| `data.gaming` | 是否正在 X-Y（1<=X<=7, Y!=0）的游玩状态 | `0`：未处于游玩状态，`1`：正处于游玩状态 | `0` |
 | `data.hasCheat` | 是否有玩家启用了创造模式作弊 | `0`：无，`1`：有 | `0` |
 | `data.keepValue` | 进行时间线设置时是否保留原有的时间线值 | `0`：不保留，`1`：保留 | `0` |
 | `data.level` | 当前正在进行的章节所属的关卡 | `0`-`5` | `0` |
@@ -807,6 +797,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
   - [ ] **重要** 应优化路线引导，尤其是对于4-3一样难找出口的关卡
   - [ ] 诶，打完后这记录没记录啊
   - [ ] 7-0的重生点有误，死亡后回到了6-4
+  - [ ] 剧情模式的stage1，玩家动画是平移过去的
 - **未来版本计划**
   - [ ] 只有在完成了 n 级难度加和后才能挑战 n+1 的难度加和
   - [ ] 引入 NPC 动作
