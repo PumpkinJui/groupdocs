@@ -109,15 +109,11 @@ authors: [量筒]
 | 水晶哥 | OneKitty710926 | ✔ | —<br/>— | ❔ | |
 | 草方块 | Tuanzi555 | ✔ | 木镐<br/>— | ❔ | |
 | 风暴 | FoxLanMo | ✔ | —<br/>— | ❔ | |
-| 小林 | zhangjiaxiang11 | ✔ | —<br/>— | ❔ | |
-| 玖 | HomeLuckyHope | ✔ | —<br/>— | ❔ | |
 | frisk | frisk5448 | ✔ | 治疗之箭<br/>— | ❔ | |
 | 吊桥 | diaoqiaoyl | ✔ | —<br/>— | ❔ | |
 | 红萌 | lzq233233 | ✔ | —<br/>— | ❔ | |
 | laolu | laolu444222 | ✔ | —<br/>— | ❔ | |
-| 老中医 | The star520 | ✔ | —<br/>— | ❔ | |
 | 条形马 | QRnobelly | ✔ | 皮革<br/>— | ❔ | |
-| kokoa | — | ✔ | —<br/>— | ❔ | |
 | 木糖 | Xylitol2337 | ✔ | —<br/>— | ❔ | |
 | 零七 | pqwp114514qwpq | ✔ | 奶桶<br/>— | ✔ | 考核前进服 |
 | 蘑菇 | xRprncQ | ✔ | 羽毛<br/>— | ✔ | 考核前进服 |
@@ -128,7 +124,6 @@ authors: [量筒]
 | 泽泽 | SageBasket91286 | ✔ | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | — | Explorer95270 | ✔ | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | 巢小羊 | aaaLCxy | ✔ | —<br/>— | ❔ | 由 **@小鼠** 邀请来 |
-| Lin | linchi723 | ✔ | —<br/>— | ❔ | 由 **@祉语** 邀请来 |
 | E尘 | E1cheng | ✘ | —<br/>— | ✘ | 知名开发者 |
 | Xero | ProjectXero1042 | ✘ | —<br/>— | ✘ | 知名开发者 |
 | 急尘 | jichenNGU | ✘ | 蓝色陶瓦<br/>— | ✘ | 知名视频作者 |
@@ -141,20 +136,20 @@ authors: [量筒]
 | 莫雨 | MoYU9700 | ✘ | —<br/>— | ❔ | |
 | 吴鸡哥 | WSER666 | ✘ | —<br/>— | ❔ | |
 | 明晚 | liuying5202377 | ✘ | —<br/>— | ❔ | |
-| 星空 | moyanlove435836 | ✘ | —<br/>— | ❔ | |
 | 虾皮 | xia pi 000 | ✘ | —<br/>— | ❔ | |
 | 沫尘 | CBerAzure | ✘ | —<br/>— | ❔ | |
 | 新妹 | ThumpingAlarm41 | ✘ | —<br/>— | ❔ | |
-| han | han123123123 | ✘ | —<br/>— | ❔ | |
 | 牢土 | Fffgg55 | ✘ | —<br/>— | ❔ | |
 | Hg | CruelJewel85738 | ✘ | —<br/>— | ❔ | |
 | 创哲宇 | Chuangzheyu2048 | ✘ | —<br/>— | ❔ | |
 | 欣叶 | xinye2012 | ✘ | —<br/>— | ❔ | |
 | KK | killklli9952 | ✘ | —<br/>— | ❔ | |
 | 怡柔 | Oculusina | ✘ | —<br/>— | ❔ | |
-| 清风 | qing feng 00317 | ✘ | —<br/>— | ❔ | |
-| star | Chinahenane | ✘ | —<br/>— | ❔ | |
 | 橘子 | freeorange114 | ✘ | —<br/>— | ❔ | |
+| jiou | jioujoiu | ✘ | —<br/>— | ❔ | |
+| 伊莱 | ylklsaua | ✘ | —<br/>— | ❔ | |
+| 闲鱼 | Ruawer153 | ✘ | —<br/>— | ❔ | |
+| 事情 | THEHOTTHING | ✘ | —<br/>— | ❔ | |
 
 ## 离群成员 (未违规)
 
@@ -181,6 +176,16 @@ authors: [量筒]
 | 基德 | MildTurt | |
 | 鲱鱼 | SevereFish20551 | 因 8 月 14 日起床战争测试频繁爆粗口，禁止进入任何服务器。因不活跃而被移出。 |
 | soak | SoakChee | 因不活跃而被移出。 |
+| 小林 | zhangjiaxiang11 | 因不活跃而被移出；有生存服白名单，但还未经过 3 次测试。 |
+| 玖 | HomeLuckyHope | 因不活跃而被移出；有生存服白名单，但还未经过 3 次测试。 |
+| 老中医 | The star520 | 因不活跃而被移出；有生存服白名单，但还未经过 3 次测试。 |
+| kokoa | — | 因不活跃而被移出；有生存服白名单，但还未经过 3 次测试。 |
+| Lin | linchi723 | 因不活跃而被移出；有生存服白名单，但还未经过 3 次测试。 |
+| 星空 | moyanlove435836 | 因不活跃而被移出。 |
+| han | han123123123 | 因不活跃而被移出。 |
+| 清风 | qing feng 00317 | 因不活跃而被移出。 |
+| star | Chinahenane | 因不活跃而被移出。 |
+| 鱼 | yuremain | 因不活跃而被移出。 |
 
 ## 离群成员 (违规)
 
