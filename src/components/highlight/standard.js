@@ -8,7 +8,8 @@ export default function Highlight({
     borderRadius = "10px",
     padding = "5px",
     fontSize = "medium",
-    border = "0px solid #000000"
+    border = "0px solid #000000",
+    margin = "0 0 10px 0"
 }) {
     let cursorStyle = url ? "pointer" : "auto"
     /** @type {React.CSSProperties} */
@@ -21,7 +22,7 @@ export default function Highlight({
         border: border,
         fontWeight: "bold",
         display: "inline-block",
-        margin: "0 0 10px 0",
+        margin: margin,
         cursor: cursorStyle,
         textDecoration: "none"
     }
