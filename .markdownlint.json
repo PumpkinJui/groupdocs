@@ -17,7 +17,7 @@
             "kbd",
             "DataType", "FileType",
             "treeview",
-            "Highlight", "Bug", "Download", "FrameHighlight", "Version"
+            "Highlight", "Issue", "Download", "FrameHighlight", "Version"
         ]
     },
     "MD036": {
