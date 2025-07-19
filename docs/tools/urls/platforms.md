@@ -1,3 +1,8 @@
+---
+sidebar_position: 4
+authors: [ 南瓜汁 ]
+---
+
 # 各类平台
 
 ## Minecraft 官方网站

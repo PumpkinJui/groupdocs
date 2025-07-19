@@ -53,7 +53,7 @@ import TabItem from '@theme/TabItem';
 ```plaintext
 【更新通知】
 本群全体服务器计划于 {time} 更新到基岩版正式版 {version}，请及时更新到该版本，否则将无法进入本群服务器！
-Android 安装包与 Windows 安装包均已发到群文件（群文件夹：国际版（下载游戏的点我）），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
+Android 安装包与 Windows 安装包均已发到群文件（群文件夹：最新国际版 Minecraft），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
 
 ---
 
@@ -72,7 +72,7 @@ Windows（正版）：{link}
 ```plaintext
 【更新通知】
 本群全体服务器计划于  更新到基岩版正式版 ，请及时更新到该版本，否则将无法进入本群服务器！
-Android 安装包与 Windows 安装包均已发到群文件（群文件夹：国际版（下载游戏的点我）），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
+Android 安装包与 Windows 安装包均已发到群文件（群文件夹：最新国际版 Minecraft），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
 
 ---
 

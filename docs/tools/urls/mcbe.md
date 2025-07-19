@@ -1,3 +1,8 @@
+---
+sidebar_position: 3
+authors: [ 南瓜汁 ]
+---
+
 # 下载国际基岩版 Minecraft
 
 ## 介绍
