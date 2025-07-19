@@ -24,7 +24,7 @@ description: 《冒险世界》的第五部续作，一张大型综合地图
 - **制作人表** 详情见[制作人表页面](credits)
 - **版本需求** 1.21.0+ ，或网易 3.4+。
 - **资源类型** 地图 - 综合地图
-- **最新版本** v0.51（测试版）
+- **最新版本** v0.52（测试版）
 - **更新日志** 详情见[更新日志页面](update_log)
 - **漏洞汇报** 详情见[漏洞与建议汇报页面](bugs)
 
@@ -37,6 +37,7 @@ description: 《冒险世界》的第五部续作，一张大型综合地图
 - `/function debug/start_finish_1`：完成第一大矿洞地牢。
 - `/function debug/start_finish_2`：完成浮空峰遗迹迷宫地牢。
 - `/function debug/start_finish_3`：完成逍遥矿井地牢。
+- `/function debug/start_finish_4`：完成地铁控制室地牢。
 
 ---
 
