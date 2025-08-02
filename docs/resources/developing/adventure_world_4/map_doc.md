@@ -6,36 +6,58 @@ authors: [量筒]
 
 # 地图文档
 
+import '/src/css/treeview.css';
+import FileType from "/src/components/type/file";
+
 这是《冒险小世界：剑之试炼》4.2 版本的底层数据等的文档，供读者查阅。
 
 :::warning[适用版本]
 
-本文档仅适用于版本 Alpha 4.2_01。
+本文档仅适用于版本 Alpha 4.2_02。
 
 本文的内容将始终服务于本地图的最高版本，这意味着本文档中的内容可能会随着地图更新而随时变动。对于更低版本，因为底层已全面更新，所以下文内容将有大半不再适用于旧版本，我们也不会提供文档支持。
 
 :::
 
-## 机制
-
-### 旁观区
-
-本地图的旁观机制已经全面升级，采用 1.19.50 的旁观模式。
-
-每个关卡都有一个独特的旁观区，已死亡的旁观玩家（含标签`spectator`的玩家）将被严格限制在这个区域内。这个旁观区比房间的正常大小要小一圈，以防止玩家贴墙透视。
-
-这个区域内应包含重生点。
-
-### 重生点
-
-本地图各关都有自己独特的重生点。重生点通常设置在任务点入口或房间入口处，同时兼顾下面两种任务：
-
-1. 检查玩家是否靠近任务点或房间；
-2. 设置玩家的重生点。
-
-**应设定只有通过关卡后，才能将重生点设置到本关重生点处**。这是因为，如果直接把重生点设置到本关区域时，会在重生后且关卡失败后，使玩家重新复活到本关判定区，从而造成严重问题。这也就意味着，当进行关卡时（比如 1-2），玩家实际会重生在 1-1 的重生点处。在多人模式下，可由旁观机制将超出区域限制的玩家拉回来。
-
 <!-- markdownlint-disable MD033 -->
+
+## 各关卡架构
+
+点击文件名称可以查看对应文件的模板。
+
+<treeview>
+
+- <FileType type="folder" name="levels"/>：所有关卡的功能函数。
+  - <FileType type="folder" name="start"/> <FileType type="folder" name="end"/>：起始村庄剧情和结束剧情。
+    - <FileType type="folder" name="stage(Y)"/>：关卡 0-`(Y)`（起始村庄剧情）或 10-`Y`（结束剧情），代表第`Y`段剧情或大阶段
+      - <FileType type="folder" name="events"/>：关卡内事件，可能由外部触发或内部触发，触发后通常用于单次执行某函数
+        - [<FileType type="file" name="player_rejoin.mcfunction"/>](#玩家退出重进村庄-player_rejoinmcfunction)：当玩家在该关卡下退出重进时执行的函数，执行者为该玩家，执行位置为该玩家所在的位置。
+      - [<FileType type="file" name="after_gaming.mcfunction"/>](#游戏后时间线村庄-after_gamingmcfunction)：对话结束后运行的时间线，用于在剧情完成后（`data.levelCompleted == 1`）时调用的时间线循环函数。通常该时间线会处于非流逝状态。若需启用流逝状态，应在本关的完成关卡函数下声明启用时间流逝。
+      - [<FileType type="file" name="complete.mcfunction"/>](#完成关卡村庄-completemcfunction)：对话结束时运行的函数，用于完成一段村庄关卡的剧情。通常在游戏时时间线中的特定时间点下调用。
+      - [<FileType type="file" name="gaming.mcfunction"/>](#游戏时时间线村庄-gamingmcfunction)：对话过程中运行的时间线。用于在剧情期间（`data.levelCompleted == 0`）时调用的时间线循环函数。可通过`time.timeline`获取时间线的值，以在特定时间段执行命令。
+      - [<FileType type="file" name="start.mcfunction"/>](#开始关卡村庄-startmcfunction)：对话启动时运行的函数，用于开始一段村庄关卡的剧情。通常在游戏后时间线中按照特定条件调用。
+  - <FileType type="folder" name="chapter(X)"/>：试炼中关卡，特指第`(X)`章（某神殿）。
+    - <FileType type="folder" name="level0"/>：关卡`(X)`-0。
+      - <FileType type="folder" name="events"/>：关卡内事件，可能由外部触发或内部触发，触发后通常用于单次执行某函数
+        - [<FileType type="file" name="player_rejoin.mcfunction"/>](#玩家退出重进x-0-player_rejoinmcfunction)：当玩家在该关卡下退出重进时执行的函数，执行者为该玩家，执行位置为该玩家所在的位置。
+      - [<FileType type="file" name="after_gaming.mcfunction"/>](#游戏后时间线x-0-after_gamingmcfunction)：用于在剧情完成后（`data.levelCompleted == 1`）时调用的时间线循环函数。通常该时间线会处于非流逝状态。然而，在玩家使用传声石结晶后，可能会使得时间线处于流逝状态（具体条件见函数`aw/items/acoustic_stone_crystal.mcfunction`）。
+      - [<FileType type="file" name="complete.mcfunction"/>](#完成关卡x-0-completemcfunction)：用于完成一段章节起始关卡的剧情。通常在游戏时时间线中在特定时间点下调用，或者直接在纯战斗模式下无条件调用。
+      - [<FileType type="file" name="gaming.mcfunction"/>](#游戏时时间线x-0-gamingmcfunction)：关卡过程中运行的时间线，用于在剧情期间（`data.levelCompleted == 0`）时调用的时间线循环函数。可通过`time.timeline`获取时间线的值，以在特定时间段执行命令。
+      - [<FileType type="file" name="start.mcfunction"/>](#开始关卡x-0-startmcfunction)：用于开始一段章节起始关卡的剧情。通常在上一章的最后一关的游戏后时间线中按照特定条件调用。
+    - <FileType type="folder" name="level(Y)"/>：关卡`(X)`-`(Y)`，`(Y)`为 0 时为此章节（神殿）的起始关卡
+      - <FileType type="folder" name="events"/>：关卡内事件，可能由外部触发或内部触发，触发后通常用于单次执行某函数
+        - [<FileType type="file" name="player_rejoin.mcfunction"/>](#玩家退出重进x-y-player_rejoinmcfunction)：当玩家在该关卡下退出重进时执行的函数，执行者为该玩家，执行位置为该玩家所在的位置。
+        - <FileType type="file" name="player_die.mcfunction"/>：当玩家在该关卡下死亡时执行的函数，执行者为该玩家，执行位置为该玩家所在的位置。
+      - <FileType type="folder" name="waves"/>：关卡的所有波潮数据
+        - [<FileType type="file" name="wave_(wave).mcfunction"/>](#波潮数据x-y-wave_nmcfunction)：第`(wave)`波时执行的函数，用于在被调用时召唤怪物生成器，并设置波潮数据。关卡不同波潮的数据应分别存储到该关卡的`waves/wave_(波数).mcfunction`内。
+      - <FileType type="folder" name="timelines"/>：关卡的分时间线，为关卡的其他循环执行的功能
+      - [<FileType type="file" name="after_gaming.mcfunction"/>](#游戏后时间线x-y-after_gamingmcfunction)：用于在剧情完成后（`data.levelCompleted == 1`）时调用的时间线循环函数。通常该时间线会处于非流逝状态。然而，在玩家使用传声石结晶后，可能会使得时间线处于流逝状态（具体条件见函数`aw/items/acoustic_stone_crystal.mcfunction`）。
+      - [<FileType type="file" name="complete.mcfunction"/>](#完成关卡x-y-completemcfunction)：用于完成一个关卡。通常在本关的游戏时时间线中当怪物被清空时（`data.monsterAmount == 0`）调用。
+      - [<FileType type="file" name="fail.mcfunction"/>](#关卡失败x-y-failmcfunction)：用于使一个关卡失败。通常在本关的游戏时时间线中当不存在存活玩家（`data.alivePlayerAmount == 0`）调用。
+      - [<FileType type="file" name="gaming.mcfunction"/>](#游戏时时间线x-y-gamingmcfunction)：用于在游戏期间（`data.levelCompleted == 0`）时调用的时间线循环函数。通常该时间线会处于非流逝状态。若需启用流逝状态，应在本关的开始关卡函数下声明启用时间流逝。
+      - [<FileType type="file" name="start.mcfunction"/>](#开始关卡x-y-startmcfunction)：用于启动并初始化一个关卡。通常在上一关的游戏后时间线中按照特定条件调用。
+
+</treeview>
 
 ## 关卡模板
 
@@ -43,11 +65,11 @@ authors: [量筒]
 
 ### 村庄关卡（0-Y/10-Y）
 
-<details>
+在村庄剧情中时使用的模板。
 
-<summary>开始关卡</summary>
+#### 开始关卡（村庄） `start.mcfunction`
 
-用于开始一段村庄关卡的剧情。通常在游戏后时间线中按照特定条件调用。
+[↗ 回到各关卡架构](#各关卡架构)
 
 其中，调用的通用函数将设置为：
 
@@ -71,13 +93,9 @@ function aw/lib/modify_data/levels/start_open
 (...)
 ```
 
-</details>
+#### 完成关卡（村庄） `complete.mcfunction`
 
-<details>
-
-<summary>完成关卡</summary>
-
-用于完成一段村庄关卡的剧情。通常在游戏时时间线中在特定时间点下调用。
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
 
 其中，调用的通用函数将设置为：
 
@@ -96,15 +114,9 @@ function aw/lib/modify_data/levels/complete_open
 
 ```
 
-</details>
+#### 游戏时时间线（村庄） `gaming.mcfunction`
 
-<details>
-
-<summary>游戏时时间线</summary>
-
-用于在剧情期间（`data.levelCompleted == 0`）时调用的时间线循环函数。需要提前注册。
-
-可通过`time.timeline`获取时间线的值，以在特定时间段执行命令。
+[↗ 回到各关卡架构](#各关卡架构)
 
 其中，`## [(时间点)] (模块)：(功能)`作为一个注释标签，用于声明在该剧情下的该时间点执行了什么额外命令，并在其他`(模块)`下完善具体功能。
 
@@ -127,15 +139,9 @@ execute if score timeline time matches (时间点) run function aw/levels/open/s
 
 ```
 
-</details>
+#### 游戏后时间线（村庄） `after_gaming.mcfunction`
 
-<details>
-
-<summary>游戏后时间线</summary>
-
-用于在剧情完成后（`data.levelCompleted == 1`）时调用的时间线循环函数。需要提前注册。
-
-通常该时间线会处于非流逝状态。若需启用流逝状态，应在本关的完成关卡函数下声明启用时间流逝。
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
 
 ```mcfunction showLineNumbers title="aw/levels/open/stage(Y)/after_gaming.mcfunction"
 # ===== 关卡游戏后时间线 =====
@@ -146,15 +152,46 @@ execute positioned (下关重生点或特定地点) if entity @a[r=(区域)] run
 
 ```
 
-</details>
+#### 玩家退出重进（村庄） `player_rejoin.mcfunction`
+
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
+
+```mcfunction showLineNumbers title="aw/levels/open/stage(Y)/after_gaming.mcfunction"
+# ===== 玩家退出重进 =====
+# 0-(Y) | (剧情梗概)
+
+# --- 通用 ---
+
+# --- 完成剧情前 ---
+
+## 设置玩家的重生点
+execute if score levelCompleted data matches 0 run spawnpoint @s (上关重生点)
+## 传送玩家到剧情点
+execute if score levelCompleted data matches 0 run tp @s (本关剧情点)
+## 设置玩家的相机视角
+execute if score levelCompleted data matches 0 if score timeline time matches (时间点) run (camera @s set minecraft:free ...)
+## 设置为隐身 | 仅限多人时运行
+execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run effect @s invisibility 3600 0 true
+## 设置玩家的权限
+execute if score levelCompleted data matches 0 run inputpermission set @s camera disabled
+execute if score levelCompleted data matches 0 run inputpermission set @s movement disabled
+## 设置玩家的 HUD
+execute if score levelCompleted data matches 0 run hud @s hide all
+
+# --- 完成剧情后 ---
+
+## 设置玩家的重生点
+execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生点)
+## 传送玩家到重生点 | 仅限多人时运行
+execute if score levelCompleted data matches 1 if score playerAmount data matches 2.. run tp @s (本关重生点)
+
+```
 
 ### 章节开始关卡（X-0）
 
-<details>
+#### 开始关卡（X-0） `start.mcfunction`
 
-<summary>开始关卡</summary>
-
-用于开始一段章节起始关卡的剧情。通常在上一章的最后一关的游戏后时间线中按照特定条件调用。
+[↗ 回到各关卡架构](#各关卡架构)
 
 其中，调用的通用函数将设置为：
 
@@ -196,13 +233,9 @@ summon aw:marker -83 1 -2 0 0 aw:set_chapter_name "(章节颜色代码)(章节�
 
 ```
 
-</details>
+#### 完成关卡（X-0） `complete.mcfunction`
 
-<details>
-
-<summary>完成关卡</summary>
-
-用于完成一段章节起始关卡的剧情。通常在游戏时时间线中在特定时间点下调用，或者直接在纯战斗模式下无条件调用。
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
 
 其中，调用的通用函数将设置为：
 
@@ -221,15 +254,9 @@ function aw/lib/modify_data/levels/complete_chapter
 
 ```
 
-</details>
+#### 游戏时时间线（X-0） `gaming.mcfunction`
 
-<details>
-
-<summary>游戏时时间线</summary>
-
-用于在剧情期间（`data.levelCompleted == 0`）时调用的时间线循环函数。需要提前注册。
-
-可通过`time.timeline`获取时间线的值，以在特定时间段执行命令。
+[↗ 回到各关卡架构](#各关卡架构)
 
 其中，`## [(时间点)] (模块)：(功能)`作为一个注释标签，用于声明在该剧情下的该时间点执行了什么额外命令，并在其他`(模块)`下完善具体功能。
 
@@ -255,15 +282,9 @@ execute if score timeline time matches (时间点) run function aw/levels/chapte
 
 ```
 
-</details>
+#### 游戏后时间线（X-0） `after_gaming.mcfunction`
 
-<details>
-
-<summary>游戏后时间线</summary>
-
-用于在剧情完成后（`data.levelCompleted == 1`）时调用的时间线循环函数。需要提前注册。
-
-通常该时间线会处于非流逝状态。然而，在玩家使用传声石结晶后，可能会使得时间线处于流逝状态（具体条件见函数`aw/items/acoustic_stone_crystal.mcfunction`）。
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
 
 ```mcfunction showLineNumbers title="aw/levels/chapter(X)/level0/after_gaming.mcfunction"
 # ===== 关卡游戏后时间线 =====
@@ -279,15 +300,44 @@ execute if score timeline time matches (时间点2).. run function aw/lib/modify
 
 ```
 
-</details>
+#### 玩家退出重进（X-0） `player_rejoin.mcfunction`
+
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
+
+```mcfunction showLineNumbers title="aw/levels/open/stage(Y)/after_gaming.mcfunction"
+# ===== 玩家退出重进 =====
+# (X)-0 | (章节名)神殿
+
+# --- 完成剧情前 ---
+
+## 设置玩家的重生点
+execute if score levelCompleted data matches 0 run spawnpoint @s (上关重生点)
+## 传送玩家到剧情点
+execute if score levelCompleted data matches 0 run tp @s (本关剧情点)
+## 设置玩家的相机视角
+execute if score levelCompleted data matches 0 if score timeline time matches (时间点) run (camera @s set minecraft:free ...)
+## 设置为隐身 | 仅限多人时运行
+execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run effect @s invisibility 3600 0 true
+## 设置玩家的权限
+execute if score levelCompleted data matches 0 run inputpermission set @s camera disabled
+execute if score levelCompleted data matches 0 run inputpermission set @s movement disabled
+## 设置玩家的 HUD
+execute if score levelCompleted data matches 0 run hud @s hide all
+
+# --- 完成剧情后 ---
+
+## 设置玩家的重生点
+execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生点)
+## 传送玩家到重生点 | 仅限多人时运行
+execute if score levelCompleted data matches 1 if score playerAmount data matches 2.. run tp @s (本关重生点)
+
+```
 
 ### 常规关卡（X-Y）
 
-<details>
+#### 开始关卡（X-Y） `start.mcfunction`
 
-<summary>开始关卡</summary>
-
-用于启动并初始化一个关卡。通常在上一关的游戏后时间线中按照特定条件调用。
+[↗ 回到各关卡架构](#各关卡架构)
 
 其中，调用的通用函数将设置为：
 
@@ -332,13 +382,9 @@ function aw/lib/modify_data/levels/start_level
 
 ```
 
-</details>
+#### 完成关卡（X-Y） `complete.mcfunction`
 
-<details>
-
-<summary>完成关卡</summary>
-
-用于完成一个关卡。通常在本关的游戏时时间线中当怪物被清空时（`data.monsterAmount == 0`）调用。
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
 
 其中，调用的通用函数将设置为：
 
@@ -351,6 +397,7 @@ function aw/lib/modify_data/levels/start_level
   - 播放标题为已完成关卡，并播放音效
   - 复活已死亡的玩家，并移除他们的旁观身份（标签`spectator`）
   - 回满血量
+  - 设置重生点
 - 清除所有的怪物、生成器和御风珠
 
 ``` mcfunction showLineNumbers title="aw/levels/chapter(X)/level(Y)/complete.mcfunction"
@@ -358,10 +405,7 @@ function aw/lib/modify_data/levels/start_level
 # (X)-(Y)
 
 # --- 调用通用函数 ---
-function aw/lib/modify_data/levels/complete_level
-
-# --- 设置重生点 ---
-spawnpoint @a (本关重生点)
+execute positioned (本关重生点) run function aw/lib/modify_data/levels/complete_level
 
 # --- 获得新物品 ---
 function aw/system/controller/items
@@ -386,13 +430,9 @@ tellraw @a {"rawtext":[{"text":"§l§a(X)-(Y)已完成！§r\n§f你已获得 (�
 | 史诗 | §d[物品名] |
 | 传奇 | §e[物品名] |
 
-</details>
+#### 关卡失败（X-Y） `fail.mcfunction`
 
-<details>
-
-<summary>未完成关卡</summary>
-
-用于使一个关卡失败。通常在本关的游戏时时间线中当不存在存活玩家（`data.alivePlayerAmount == 0`）调用。
+[↗ 回到各关卡架构](#各关卡架构)
 
 其中，调用的通用函数将设置为：
 
@@ -427,15 +467,11 @@ function aw/lib/modify_data/levels/fail_level
 
 ```
 
-</details>
+#### 游戏时时间线（X-Y） `gaming.mcfunction`
 
-<details>
+[↗ 回到各关卡架构](#各关卡架构)
 
-<summary>游戏时时间线</summary>
-
-用于在游戏期间（`data.levelCompleted == 0`）时调用的时间线循环函数。需要提前注册。
-
-通常该时间线会处于非流逝状态。若需启用流逝状态，应在本关的开始关卡函数下声明启用时间流逝。
+**有关本地图旁观区域的说明**：本地图的旁观机制已经全面升级，采用 1.19.50 的旁观模式。每个关卡都有一个独特的旁观区，已死亡的旁观玩家（含标签`spectator`的玩家）将被严格限制在这个区域内。该区域是由该关卡外壳和内部贴墙实体方块改为屏障而构造的，并处于每关正上方 80 格处。
 
 在**大部分情况下**，以下 3 个模块（`检查怪物是否全部清除`、`检查存活玩家数目`、`阻止旁观模式的玩家出界`）是**必选**的，在非特殊情况下应全部保留且不宜做过多更改。
 
@@ -486,15 +522,9 @@ function aw/lib/modify_data/rename_magma_cube
 
 ```
 
-</details>
+#### 游戏后时间线（X-Y） `after_gaming.mcfunction`
 
-<details>
-
-<summary>游戏后时间线</summary>
-
-用于在剧情完成后（`data.levelCompleted == 1`）时调用的时间线循环函数。需要提前注册。
-
-通常该时间线会处于非流逝状态。然而，在玩家使用传声石结晶后，可能会使得时间线处于流逝状态（具体条件见函数`aw/items/acoustic_stone_crystal.mcfunction`）。
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
 
 **注意**：`检查玩家进入下一个关卡`中有可能会出现跨章，例如 1-3 的下一关是 2-0 而不是 1-4。
 
@@ -512,13 +542,9 @@ execute if score timeline time matches (时间点2).. run function aw/lib/modify
 
 ```
 
-</details>
+#### 波潮数据（X-Y） `wave_n.mcfunction`
 
-<details>
-
-<summary>波潮数据</summary>
-
-用于在被调用时召唤怪物生成器，并设置波潮数据。关卡不同波潮的数据应分别存储到该关卡的`waves/wave_(波数).mcfunction`内。
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
 
 **注意**：部分怪物不分等级。详见[怪物生成器](#怪物生成器)。
 
@@ -554,7 +580,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 # ===== 第 (m) 波 =====
 
 # --- 波潮完成通用函数 ---
-function aw/lib/modify_data/levels/complete_wave
+execute positioned (本关重生点) run function aw/lib/modify_data/levels/complete_wave
 
 # --- 更新波数信息 ---
 execute positioned -83 1 -2 run function aw/lib/modify_data/levels/wave_(m)
@@ -577,14 +603,53 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 
 ```
 
-</details>
+#### 玩家退出重进（X-Y） `player_rejoin.mcfunction`
+
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
+
+```mcfunction showLineNumbers title="aw/levels/open/stage(Y)/after_gaming.mcfunction"
+# ===== 玩家退出重进 =====
+# (X)-(Y)
+
+# --- 通用 ---
+
+## 传送玩家到重生点处
+tp @s (本关重生点)
+
+# --- 完成关卡前 ---
+
+## 设置玩家的重生点
+execute if score levelCompleted data matches 0 run spawnpoint @s (上关重生点)
+## 设置玩家为旁观模式 | 仅限多人模式下运行
+execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run tellraw @s {"rawtext":[{"translate":"§e检测到您重新进入游戏，已将您调整为旁观者。在下一波开始后，您便可以参与游戏。"}]}
+execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run tag @s add spectator
+
+# --- 完成关卡后 ---
+
+## 设置玩家的重生点
+execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生点)
+
+```
 
 ## 关卡数据
 
 ### 各关重生点或检查点位置
 
+[↗ 回到完成关卡（村庄）](#完成关卡村庄-completemcfunction) | [↗ 回到游戏后时间线（村庄）](#游戏后时间线村庄-after_gamingmcfunction) | [↗ 回到玩家退出重进（村庄）](#玩家退出重进村庄-player_rejoinmcfunction)
+
+[↗ 回到完成关卡（X-0）](#完成关卡x-0-completemcfunction) | [↗ 回到游戏后时间线（X-0）](#游戏后时间线x-0-after_gamingmcfunction) | [↗ 回到玩家退出重进（X-0）](#玩家退出重进x-0-player_rejoinmcfunction)
+
+[↗ 回到完成关卡（X-Y）](#完成关卡x-y-completemcfunction) | [↗ 回到游戏后时间线（X-Y）](#游戏后时间线x-y-after_gamingmcfunction) | [↗ 回到玩家退出重进（X-Y）](#玩家退出重进x-y-player_rejoinmcfunction) | [↗ 回到波潮数据（X-Y）](#波潮数据x-y-wave_nmcfunction)
+
+**有关本地图的重生点的说明**：本地图各关都有自己独特的重生点。重生点通常设置在任务点入口或房间入口处，同时兼顾下面两种任务：
+
+1. 检查玩家是否靠近任务点或房间；
+2. 设置玩家的重生点。
+
+**应设定只有通过关卡后，才能将重生点设置到本关重生点处**。这是因为，如果直接把重生点设置到本关区域时，会在重生后且关卡失败后，使玩家重新复活到本关判定区，从而造成严重问题。这也就意味着，当进行关卡时（比如 1-2），玩家实际会重生在 1-1 的重生点处。在多人模式下，可由旁观机制将超出区域限制的玩家拉回来。
+
 | | X-0 | X-1 | X-2 | X-3 | X-4 | X-5 |
-| --- | :---: | :---: | :---: | :---: | :---: | :---: |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 0-Y（村庄剧情） | —— | -27 6 -48 | -26 1 -37 | 36 1 -22 | -16 1 82 | -18 -3 99 |
 | 1-Y | -117 1 -6 | -117 2 16 | -126 5 52 | -137 12 33 | —— | —— |
 | 2-Y | -79 19 26 | -75 19 60 | -72 1 69 | -143 -20 61 | —— | —— |
@@ -592,7 +657,7 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | 4-Y | -173 18 -8 | -168 18 -20 | -156 8 -1 | -156 -11 14 | -141 -30 6 | —— |
 | 5-Y | -95 -30 -6 | —— | —— | —— | —— | —— |
 | 6-Y | -81 -30 -28 | -76 -30 -48 | -80 -18 -48 | -75 -36 -15 | -75 -38 22 | —— |
-| 7-Y | -87 -39 96 | -119 -16 103 | -161 -17 110 | -194 -17 97 | -225 -17 99 | -225 -47 44 |
+| 7-Y | 完成前<br/>-87 -39 96<br/>完成后<br/>-119 -16 103 | -119 -16 103 | -161 -17 110 | -194 -17 97 | -225 -17 99 | -225 -47 44 |
 | 10-Y（完结剧情） | —— | -27 7 -48 | -27 7 -48 | -16 1 82 | —— | —— |
 
 ### 各关入口门位置
@@ -638,7 +703,6 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 | `data.alivePlayerAmount` | 存活的玩家人数 | `0`- | 实时判断 |
 | `data.allowAcousticStoneCrystal` | 是否启用传声石结晶 | `0`：禁用，`1`：启用 | `0` |
 | `data.allowArrowSupply` | 是否允许补充箭 | `0`：不允许，`1`：允许 | `0` |
-| `data.allowHud` | 是否允许显示 HUD | `0`：禁用，`1`：启用 | `1` |
 | `data.allowNpcInteraction` | NPC 是否允许交互 | `0`：禁用，`1`：启用 | `1` |
 | `data.allowPotionSupply` | 是否允许补充药水 | `0`：不允许，`1`：允许 | `0` |
 | `data.allowRemoveItemEntity` | 是否允许移除掉落物实体 | `0`：不允许，`1`：允许 | `1` |
@@ -778,10 +842,8 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 
 ## 当前已知问题 & Todo list
 
-- **多人模式**
-  - [ ] **重要** 双人下无camera时，会看到显示的玩家的脸
-  - [ ] 主动观战机制
-  - [ ] 旁观玩家可以从角落卡出房间
+[↗ 跳转到 Github Issue](https://github.com/YZBWDLT/Adventure-World-4/issues)
+
 - **全局**
   - **成就**
     - [ ] 加一个2-2不使用底部机关通过的成就？
@@ -789,11 +851,3 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
   - **怪物生成**
     - [ ] 召唤音效声音太大，可考虑更换一个召唤音效
     - [ ] 继续优化怪物生成特效，比如加上粒子和刷怪笼
-  - [ ] 像深渊之谜那样优化门的运行方式
-  - [ ] **重要** 引入公告栏模板
-  - [ ] **重要** 应优化路线引导，尤其是对于4-3一样难找出口的关卡
-  - [ ] 7-0的重生点有误，死亡后回到了6-4
-  - [ ] 剧情模式的stage1，玩家动画是平移过去的
-- **未来版本计划**
-  - [ ] 只有在完成了 n 级难度加和后才能挑战 n+1 的难度加和
-  - [ ] 引入 NPC 动作

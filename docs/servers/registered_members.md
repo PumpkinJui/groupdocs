@@ -142,7 +142,6 @@ authors: [量筒]
 | 牢土 | Fffgg55 | ✘ | —<br/>— | ❔ | |
 | Hg | CruelJewel85738 | ✘ | —<br/>— | ❔ | |
 | 创哲宇 | Chuangzheyu2048 | ✘ | —<br/>— | ❔ | |
-| 欣叶 | xinye2012 | ✘ | —<br/>— | ❔ | |
 | KK | killklli9952 | ✘ | —<br/>— | ❔ | |
 | 怡柔 | Oculusina | ✘ | —<br/>— | ❔ | |
 | 橘子 | freeorange114 | ✘ | —<br/>— | ❔ | |
@@ -150,6 +149,7 @@ authors: [量筒]
 | 伊莱 | ylklsaua | ✘ | —<br/>— | ❔ | |
 | 闲鱼 | Ruawer153 | ✘ | —<br/>— | ❔ | |
 | 事情 | THEHOTTHING | ✘ | —<br/>— | ❔ | |
+| 轻雨酱 | YMQY1315 | ✘ | —<br/>— | ❔ | |
 
 ## 离群成员 (未违规)
 
@@ -186,6 +186,7 @@ authors: [量筒]
 | 清风 | qing feng 00317 | 因不活跃而被移出。 |
 | star | Chinahenane | 因不活跃而被移出。 |
 | 鱼 | yuremain | 因不活跃而被移出。 |
+| 欣叶 | xinye2012 | 因不活跃而被移出。 |
 
 ## 离群成员 (违规)
 
