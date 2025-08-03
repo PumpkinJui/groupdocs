@@ -18,6 +18,15 @@ import Issue from '/src/components/highlight/issue';
 - **确认情况**：<Issue text="已确认"/>
 - **解决情况**：<Issue text="未解决"/>
 
+### 靠近标靶被清理的钓竿归还之后没有饵钓 #29
+
+- **汇报**：鸽子
+- **类型**：<Issue text="漏洞"/>
+- **等级**：<Issue text="一般"/>
+- **影响版本**：v0.56
+- **确认情况**：<Issue text="已确认"/>
+- **解决情况**：<Issue text="未解决"/>
+
 ---
 
 ## 已解决的问题
