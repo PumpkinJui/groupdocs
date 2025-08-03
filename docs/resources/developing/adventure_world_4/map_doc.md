@@ -432,7 +432,7 @@ tellraw @a {"rawtext":[{"text":"§l§a(X)-(Y)已完成！§r\n§f你已获得 (�
 
 #### 关卡失败（X-Y） `fail.mcfunction`
 
-[↗ 回到各关卡架构](#各关卡架构)
+[↗ 回到各关卡架构](#各关卡架构) | [↗ 查看重生点数据](#各关重生点或检查点位置)
 
 其中，调用的通用函数将设置为：
 
@@ -456,7 +456,7 @@ tellraw @a {"rawtext":[{"text":"§l§a(X)-(Y)已完成！§r\n§f你已获得 (�
 # (X)-(Y)
 
 # --- 调用通用函数 ---
-function aw/lib/modify_data/levels/fail_level
+execute positioned (上关重生点) run function aw/lib/modify_data/levels/fail_level
 
 # --- 重新开放关卡 ---
 (fill ...)
@@ -623,6 +623,7 @@ execute if score levelCompleted data matches 0 run spawnpoint @s (上关重生�
 ## 设置玩家为旁观模式 | 仅限多人模式下运行
 execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run tellraw @s {"rawtext":[{"translate":"§e检测到您重新进入游戏，已将您调整为旁观者。在下一波开始后，您便可以参与游戏。"}]}
 execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run tag @s add spectator
+execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run gamemode spectator @s
 
 # --- 完成关卡后 ---
 
@@ -639,7 +640,7 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 
 [↗ 回到完成关卡（X-0）](#完成关卡x-0-completemcfunction) | [↗ 回到游戏后时间线（X-0）](#游戏后时间线x-0-after_gamingmcfunction) | [↗ 回到玩家退出重进（X-0）](#玩家退出重进x-0-player_rejoinmcfunction)
 
-[↗ 回到完成关卡（X-Y）](#完成关卡x-y-completemcfunction) | [↗ 回到游戏后时间线（X-Y）](#游戏后时间线x-y-after_gamingmcfunction) | [↗ 回到玩家退出重进（X-Y）](#玩家退出重进x-y-player_rejoinmcfunction) | [↗ 回到波潮数据（X-Y）](#波潮数据x-y-wave_nmcfunction)
+[↗ 回到完成关卡（X-Y）](#完成关卡x-y-completemcfunction) | [↗ 回到游戏后时间线（X-Y）](#游戏后时间线x-y-after_gamingmcfunction) | [↗ 回到玩家退出重进（X-Y）](#玩家退出重进x-y-player_rejoinmcfunction) | [↗ 回到关卡失败（X-Y）](#关卡失败x-y-failmcfunction) | [↗ 回到波潮数据（X-Y）](#波潮数据x-y-wave_nmcfunction)
 
 **有关本地图的重生点的说明**：本地图各关都有自己独特的重生点。重生点通常设置在任务点入口或房间入口处，同时兼顾下面两种任务：
 
@@ -783,8 +784,10 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 
 | 变量名 | 含义 | 默认值 |
 | :---: | --- | :---: |
-| `spectator` | 玩家是否在游戏中死亡，成为旁观者 | `false` |
 | `outOfBorder` | 玩家是否在旁观模式下出界 | `false` |
+| `spectator` | 玩家是否在游戏中死亡，成为旁观者 | `false` |
+| `supplyArrow` | 是否为玩家提供箭 | `false` |
+| `supplyAllPotions` | 是否为玩家提供药水（全种类） | `false` |
 
 ## NPC 等人物
 
@@ -851,3 +854,5 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
   - **怪物生成**
     - [ ] 召唤音效声音太大，可考虑更换一个召唤音效
     - [ ] 继续优化怪物生成特效，比如加上粒子和刷怪笼
+- 将更多其他库函数迁移为事件库函数
+- 2-3 是否启用倒计时机制？
