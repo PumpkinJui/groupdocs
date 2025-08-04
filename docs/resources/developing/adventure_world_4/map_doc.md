@@ -703,9 +703,7 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | :---: | --- | :---: | :---: |
 | `data.alivePlayerAmount` | 存活的玩家人数 | `0`- | 实时判断 |
 | `data.allowAcousticStoneCrystal` | 是否启用传声石结晶 | `0`：禁用，`1`：启用 | `0` |
-| `data.allowArrowSupply` | 是否允许补充箭 | `0`：不允许，`1`：允许 | `0` |
 | `data.allowNpcInteraction` | NPC 是否允许交互 | `0`：禁用，`1`：启用 | `1` |
-| `data.allowPotionSupply` | 是否允许补充药水 | `0`：不允许，`1`：允许 | `0` |
 | `data.allowRemoveItemEntity` | 是否允许移除掉落物实体 | `0`：不允许，`1`：允许 | `1` |
 | `data.allowTpPlayerWhenStart` | 是否允许在开始游戏时传送玩家 | `0`：不允许，`1`：允许 | `1` |
 | `data.chapter` | 当前正在进行的章节数 | `0`：开始前&村庄，`1`-`7`：游戏章节，`10`：结束后的村庄 | `0` |
