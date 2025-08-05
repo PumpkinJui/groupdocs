@@ -83,10 +83,10 @@ authors: [量筒]
 | :---: | :---: | :---: | :---: | --- |
 | 硫化银 | yiyishi54188 | —<br/>— | ❔ | 测试贡献大 |
 | 龙龙 | longlongxiaotao | —<br/>— | ❔ | 测试贡献大 |
+| 烟雨 | RustyAbyss29193 | 爆裂绿色尾迹烟花<br/>— | ❔ | 测试贡献大 |
 | 星辰 | xc13599305 | 樱花木板<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
 | 十三酱 | L52th<br/>Rss and L53 | 红砂岩<br/>§c | ✔ | 生存服贡献大；测试贡献较大 |
 | 小意 | Xiaoyia666<br/>PrisonedSnow917 | —<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
-| 烟雨 | RustyAbyss29193 |爆裂绿色尾迹烟花<br/>— | ❔ | 测试贡献较大 |
 | 月 | llytalo | —<br/>— | ❔ | 测试贡献较大 |
 | 白洲梓 | bai zhou zi5631 | —<br/>— | ❔ | 测试贡献较大 |
 | Ar | Nan66666666<br/>NanXAS | 金苹果<br/>§r§l§e | ✔ | 生存服贡献大 |
@@ -119,6 +119,7 @@ authors: [量筒]
 | 泽泽 | SageBasket91286 | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | — | Explorer95270 | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | 巢小羊 | aaaLCxy | —<br/>— | ❔ | 由 **@小鼠** 邀请来 |
+| 橘子 | freeorange114 | —<br/>— | ❔ | |
 
 ## 普通成员（无生存服白名单）
 
@@ -154,7 +155,6 @@ authors: [量筒]
 | 创哲宇 | Chuangzheyu2048 | |
 | KK | killklli9952 | |
 | 怡柔 | Oculusina | |
-| 橘子 | freeorange114 | |
 | jiou | jioujoiu | |
 | 伊莱 | ylklsaua | |
 | 闲鱼 | Ruawer153 | |
