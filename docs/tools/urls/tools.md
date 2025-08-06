@@ -34,7 +34,6 @@ authors: [ 南瓜汁 ]
 
 - [GitHub 渠](https://railmapgen.github.io/)
 - [GitLab 渠](https://railmapgen.gitlab.io/)
-- ~~[Gitee 渠](https://railmapgen.gitee.io/)~~ (目前状态为 `HTTP-504 Gateway Timeout`)
 - [在 GitHub Releases 下载本地版](https://github.com/railmapgen/railmapgen.github.io/releases)
 
 ## ArmorTrims
