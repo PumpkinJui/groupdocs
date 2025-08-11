@@ -74,7 +74,7 @@ sidebar_position: 1
 
 - 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
 - 端口 - 10000
-- 版本 - 1.21.93
+- 版本 - 1.21.100
 
 ## 测试服
 
@@ -84,19 +84,19 @@ sidebar_position: 1
 
 - 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
 - 端口 - 11000
-- 版本 - 1.21.93
+- 版本 - 1.21.100
 
 ### 测试服 - II
 
 - 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
 - 端口 - 12000
-- 版本 - 1.21.93
+- 版本 - 1.21.100
 
 ### 测试服 - III
 
 - 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
 - 端口 - 13000
-- 版本 - 1.21.93
+- 版本 - 1.21.100
 
 ## 起床战争服
 
@@ -106,4 +106,4 @@ sidebar_position: 1
 
 - 地址 - apple.cvm.xiaozhiyuqwq.top / apple.cvm.nekoawa.com
 - 端口 - 10000
-- 版本 - 1.21.93
+- 版本 - 1.21.100
