@@ -34,11 +34,14 @@ sidebar_position: 2
 05 月 09 日，新的群文档仓库在 GitHub 上创建，并将 Notion 上所有文件以 MarkDown 形式导入至仓库。  
 12 日晚，GitBook 结构整理完成。  
 13 日凌晨，dev 分支合并 main 分支，其中含有 56 个文件的更改。稍后，群文档在 GitBook.com 上成功部署。  
-14 日下午，群文档在 CloudFlare Pages 上成功以 GitBook Framework 部署。至此，所有迁移工作完毕。
+14 日下午，群文档在 Cloudflare Pages 上成功以 GitBook Framework 部署。至此，所有迁移工作完毕。
+
+06 月 17 日，在祉语的帮助下，群文档启用 nekoawa 站点，通过 DogeCloud 等服务进行加速（「不完全反代」），定时同步 Cloudflare Pages 的内容。
 
 07 月 13 日，由于 GitBook.com 站点使用率低、优化差且访问速度变差，该站点被撤销。*进个控制台给我手机卡死机三次……连桌面都崩了……*
 
-08 月 15 日，群公告档案开始建设，并于 17 日完成。12 月 12 日，群公告档案因体积过大被迁移到 anno 分支。
+08 月 15 日，群公告档案开始建设，并于 17 日完成。  
+12 月 12 日，群公告档案因体积过大被迁移到 anno 分支。
 
 ## 架构迁移 (4.0, Docusaurus)
 
@@ -48,12 +51,21 @@ sidebar_position: 2
 
 28 日，群文档接入 Algolia DocSearch。
 
+07 月 31 日，群文档 EdgeOne Pages 实例创建并初次部署成功。  
+08 月 08 日，EdgeOne Pages 试验站点成立。  
+10 日，群文档编辑队对是否更换 nekoawa 站点服务商进行投票。  
+13 日晚，nekoawa 站点改用 EdgeOne Pages 提供服务。
+
 ## 现状
 
-目前，群文档源文件托管在 [GitHub](https://github.com/PumpkinJui/groupdocs)，并在 [CloudFlare Pages](https://groupdocs.pages.dev/) 上部署。  
-祉语对 CF Pages 群文档进行了「不完全反代」，使其在中国大陆加载速度更快。该地址每日 02:00 更新，位于 [nekoawa](https://docs.nekoawa.com)。
+目前，群文档信息如下：
 
-为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。
+- 架构：Docusaurus
+- 源文件托管：[GitHub](https://github.com/PumpkinJui/groupdocs)
+- 部署：[EdgeOne Pages](https://docs.nekoawa.com/)
+- 部署：[Cloudflare Pages](https://groupdocs.pages.dev/)
+
+为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。（此项工作由于人工原因，仍停留在 3.0 时期；目前的图片大多未经过压缩。）
 
 如果打不开 GitHub，请参考[此页面](../tools/howto/access_github)。
 
@@ -73,10 +85,3 @@ sidebar_position: 2
   - [GitHub Anno (Code)](https://github.com/PumpkinJui/groupdocs/tree/legacy_anno)
 
 原来部署在 GitBook.com 上的站点已无法访问，原域名为 `https://pumpkinjui.gitbook.io/groupdocs/`。
-
-## 未来
-
-虽然目前的方案已经相对较快，但仍比不上国内服务（如 Gitee Pages）和服务器（如祉语的网站）。  
-因此，未来有可能改为在自己注册的域名上托管 & 部署群文档。这也有极大可能是群文档不断迁移的最终目的地。
-
-至于为什么现在不这样做……一方面不是网络流派的，对网络了解不多；一方面没时间折腾这个；一方面域名备案要求成年，不备案可能被封。

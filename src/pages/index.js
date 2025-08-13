@@ -16,7 +16,10 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">
-          欢迎来到测试群👋来了就不要走啦~ 这里是测试群的一些文档，希望它们对你有用。
+          欢迎来到测试群👋来了就不要走啦~
+        </p>
+        <p className="hero__subtitle">
+          这里是测试群的一些文档，希望它们对你有用。
         </p>
         <p className="hero__subtitle">
           在正式和本群群友交流之前，请先阅读下面的入群必读哦~！
@@ -40,10 +43,23 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <section style={{ textAlign: 'center', lineHeight: '1.5' }}>
-          <h1>群文档地址（建议收藏至浏览器书签栏）</h1>
-          <p>nekoawa: https://docs.nekoawa.com（中国大陆推荐，每日 02:00/14:00更新）</p>
-          <p>CloudFlare Pages: https://groupdocs.pages.dev/</p>
-          <img src='/readme.jpg' alt="README" />
+          <br />
+          <h1>群文档地址</h1>
+          <h2>（建议收藏至浏览器书签栏）</h2>
+          <div className={styles.buttons}>
+            <Link className="button button--secondary button--lg" to="https://docs.nekoawa.com/">
+              nekoawa（推荐）
+            </Link>
+          </div>
+          <br />
+          <div className={styles.buttons}>
+            <Link className="button button--secondary button--lg" to="https://pumpkinjui.pages.dev/">
+              Cloudflare Pages
+            </Link>
+          </div>
+          <br />
+          <img src='/readme.jpg' alt="README" width="75%" loading="lazy" />
+          <br />
         </section>
       </main>
     </Layout>

@@ -57,8 +57,6 @@ PS：你可以在 [Why not GitBook?](./gitbook) 了解我们迁移的理由。
 
 对于文件管理，推荐使用 [MT 管理器](https://mt2.cn/)。在 Termux 运行时，打开 MT 管理器，并在左侧边栏的右上角点击「添加本地存储」，选择 Termux 并点击「选择全部」。此后，即可在 Termux 运行时访问 `~` 目录。这一方法有相关缺陷，尽量在 Termux 内部使用命令解决文件管理问题是终极解决方案。
 
-有报告称 Docusaurus 在 Termux 构建较为缓慢。
-
 </details>
 
 ### 第 1 步：安装 `Node.js`
