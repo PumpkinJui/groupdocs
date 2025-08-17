@@ -13,7 +13,7 @@ import FileType from "/src/components/type/file";
 
 :::warning[适用版本]
 
-本文档仅适用于版本 Alpha 4.2_02。
+本文档仅适用于版本 Alpha 4.2_03。
 
 本文的内容将始终服务于本地图的最高版本，这意味着本文档中的内容可能会随着地图更新而随时变动。对于更低版本，因为底层已全面更新，所以下文内容将有大半不再适用于旧版本，我们也不会提供文档支持。
 
@@ -84,7 +84,7 @@ import FileType from "/src/components/type/file";
 scoreboard players set level data (Y)
 
 # 调用通用函数
-function aw/lib/modify_data/levels/start_open
+function aw/lib/events/levels/start_open
 
 # 传送玩家
 (tp @a ... facing ...)
@@ -110,7 +110,7 @@ function aw/lib/modify_data/levels/start_open
 spawnpoint @a (本关重生点)
 
 # 调用通用函数
-function aw/lib/modify_data/levels/complete_open
+function aw/lib/events/levels/complete_open
 
 ```
 
@@ -225,7 +225,7 @@ execute if score storyMode settings matches 1 run (tp @a ...)
 ## (...)
 
 # --- 调用通用函数 ---
-function aw/lib/modify_data/levels/start_chapter
+function aw/lib/events/levels/start_chapter
 
 # --- 生成章节名 ---
 # 应后于[调用通用函数]模块
@@ -250,7 +250,7 @@ summon aw:marker -83 1 -2 0 0 aw:set_chapter_name "(章节颜色代码)(章节�
 spawnpoint @a (本关重生点)
 
 # 调用通用函数
-function aw/lib/modify_data/levels/complete_chapter
+function aw/lib/events/levels/complete_chapter
 
 ```
 
@@ -296,7 +296,7 @@ execute positioned (下关重生点) positioned ~-2~-1~-2 as @e[dx=3,dy=3,dz=3,t
 
 # --- 剧情 ---
 execute if score timeline time matches (时间点) run tellraw @a {"rawtext":[{"text":"* (人物颜色代码)(人物)： §7(剧情)"}]}
-execute if score timeline time matches (时间点2).. run function aw/lib/modify_data/states/timeline/disable_time_lapse
+execute if score timeline time matches (时间点2).. run function aw/lib/modify_data/timeline/disable_time_lapse
 
 ```
 
@@ -374,7 +374,7 @@ function aw/levels/chapter(X)/level(Y)/waves/wave_1
 
 # --- 调用通用函数 ---
 # 必须由初次进入的玩家执行
-function aw/lib/modify_data/levels/start_level
+function aw/lib/events/levels/start_level
 
 # --- 关卡特殊功能 ---
 ## (功能)
@@ -405,7 +405,7 @@ function aw/lib/modify_data/levels/start_level
 # (X)-(Y)
 
 # --- 调用通用函数 ---
-execute positioned (本关重生点) run function aw/lib/modify_data/levels/complete_level
+execute positioned (本关重生点) run function aw/lib/events/levels/complete_level
 
 # --- 获得新物品 ---
 function aw/system/controller/items
@@ -456,7 +456,7 @@ tellraw @a {"rawtext":[{"text":"§l§a(X)-(Y)已完成！§r\n§f你已获得 (�
 # (X)-(Y)
 
 # --- 调用通用函数 ---
-execute positioned (上关重生点) run function aw/lib/modify_data/levels/fail_level
+execute positioned (上关重生点) run function aw/lib/events/levels/fail_level
 
 # --- 重新开放关卡 ---
 (fill ...)
@@ -498,7 +498,7 @@ execute if score alivePlayerAmount data matches 0 run function aw/levels/chapter
 # --- 阻止旁观模式的玩家出界 ---
 # 不处理正处于死亡状态的玩家
 # 在该关卡上方80格的位置存在与该房间同样大小的屏障外壳，只要眼部检查到上方80格为屏障就立刻判定为出界
-execute as @a[tag=spectator,scores={deathState=0}] at @s anchored eyes if block ~~80~ barrier positioned (本关重生点) run function aw/lib/modify_data/out_of_border
+execute as @a[tag=spectator,scores={deathState=0}] at @s anchored eyes if block ~~80~ barrier positioned (本关重生点) run function aw/lib/events/player_out_of_border
 execute as @a[tag=spectator,scores={deathState=0}] positioned (上关重生点) if entity @s[r=2] run tp @s (本关重生点)
 
 ```
@@ -518,7 +518,7 @@ execute if score levelCompleteCountdown time matches 1.. unless score monsterAmo
 
 ```json showLineNumbers title="重命名岩浆怪"
 # --- 重命名岩浆怪 ---
-function aw/lib/modify_data/rename_magma_cube
+function aw/lib/events/rename_magma_cube
 
 ```
 
@@ -538,7 +538,7 @@ execute positioned (下关重生点) positioned ~-2~-1~-2 as @e[dx=3,dy=3,dz=3,t
 
 # --- 剧情 ---
 execute if score timeline time matches (时间点) run tellraw @a {"rawtext":[{"text":"* (人物颜色代码)(人物)： §7(剧情)"}]}
-execute if score timeline time matches (时间点2).. run function aw/lib/modify_data/states/timeline/disable_time_lapse
+execute if score timeline time matches (时间点2).. run function aw/lib/modify_data/timeline/disable_time_lapse
 
 ```
 
@@ -554,7 +554,7 @@ execute if score timeline time matches (时间点2).. run function aw/lib/modify
 # ===== 第 1 波 =====
 
 # --- 更新波数信息 ---
-execute positioned -83 1 -2 run function aw/lib/modify_data/levels/wave_1
+execute positioned -83 1 -2 run function aw/lib/events/levels/wave_1
 
 # --- 生成怪物生成器 ---
 
@@ -580,10 +580,10 @@ summon aw:spawner (位置) 0 0 aw:spawn_((怪物5)ID)_((怪物5)等级)
 # ===== 第 (m) 波 =====
 
 # --- 波潮完成通用函数 ---
-execute positioned (本关重生点) run function aw/lib/modify_data/levels/complete_wave
+execute positioned (本关重生点) run function aw/lib/events/levels/complete_wave
 
 # --- 更新波数信息 ---
-execute positioned -83 1 -2 run function aw/lib/modify_data/levels/wave_(m)
+execute positioned -83 1 -2 run function aw/lib/events/levels/wave_(m)
 
 # --- 生成怪物生成器 ---
 
@@ -689,6 +689,7 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | `health.@s` | 玩家生命值 | 整数 | 实时判断 |
 | `killCount.@s` | 玩家击杀数 | `0`- | `0` |
 | `isOnline.@s` | 玩家是否在线 | `0`：刚进入游戏，`1`：在线 | `1` |
+| `gameId.@s` | 玩家当前的游戏 ID，与`data.gameId`一致时则为本次游戏 | `1000`-`9999` | 在可选范围内随机 |
 
 ### `active`
 
@@ -711,6 +712,7 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | `data.failedCount.allLevels` | 总失败次数 | `0`- | `0` |
 | `data.failedCount.thisLevel` | 本关的失败次数 | `0`- | `0` |
 | `data.gaming` | 是否正在 X-Y（1\<=X\<=7, Y!=0）的游玩状态 | `0`：未处于游玩状态，`1`：正处于游玩状态 | `0` |
+| `data.gameId` | 本局游戏 ID，与玩家的`gameId.@s`一致时则为本次游戏 | `1000`-`9999` | 在可选范围内随机 |
 | `data.hasCheat` | 是否有玩家启用了创造模式作弊 | `0`：无，`1`：有 | `0` |
 | `data.keepValue` | 进行时间线设置时是否保留原有的时间线值 | `0`：不保留，`1`：保留 | `0` |
 | `data.level` | 当前正在进行的章节所属的关卡 | `0`-`5` | `0` |

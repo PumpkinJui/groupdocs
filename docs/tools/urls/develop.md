@@ -153,7 +153,7 @@ Chunker 由 Minecraft 开发团队官方推荐！
 
 #### 其他
 
-- [MCBEID 表](https://ca.projectxero.top/idlist/)
+- [MCBEID 表](https://idlist.projectxero.top/)
 - [Minecraft 命令更新日志](https://ca.projectxero.top/blog/command/command-history/)
 
 ### MCBE Essentials
