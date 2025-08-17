@@ -4,12 +4,6 @@ description: 简体中文版本。
 
 # 许可证概览
 
-:::info
-
-Wanna see English Version? Click [here](overview_en.md).
-
-:::
-
 ## 文本内容
 
 版权归「极筑 · 量筒地图测试群」(2019-2025) 所有。本站内容除另有声明外，均采用 CC-BY-4.0 授权，附加条款亦可能应用。
