@@ -58,11 +58,16 @@ sidebar_position: 1
 ## 卡顿处理方案
 
 1. 查看[宕机看板](https://status.nekoawa.com/)。
+   - 监测的是服务器硬件的运行状态，具体各个服务器需要联系管理员。
 2. 如有条件，在命令行执行下方命令后截图发 postmaster#nekodrive.net（请把`#`替换成`@`）。
    - Windows，管理员  
      `tracert -p <端口> -P udp <地址>`
    - Linux，管理员  
      `sudo traceroute -p <端口> -P udp <地址>`
+
+## 连接说明
+
+1. 地址以`xiaozhiyuqwq.top`结尾的，开启了 dnssec ，如果您的设备不支持解析开启 dnssec 的域名，请使用 `nekoawa.com` 结尾的地址。
 
 ---
 
