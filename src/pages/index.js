@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           <br />
           <div className={styles.buttons}>
-            <Link className="button button--secondary button--lg" to="https://pumpkinjui.pages.dev/">
+            <Link className="button button--secondary button--lg" to="https://groupdocs.pages.dev/">
               Cloudflare Pages
             </Link>
           </div>
