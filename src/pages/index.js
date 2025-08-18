@@ -50,12 +50,14 @@ export default function Home() {
             <Link className="button button--secondary button--lg" to="https://docs.nekoawa.com/">
               nekoawa（推荐）
             </Link>
+            <p>基于 Tencent Cloud EdgeOne Pages 服务，中国大陆地区友好。</p>
           </div>
           <br />
           <div className={styles.buttons}>
             <Link className="button button--secondary button--lg" to="https://groupdocs.pages.dev/">
               Cloudflare Pages
             </Link>
+            <p>基于 Cloudflare Pages 服务，环中国大陆地区友好。</p>
           </div>
           <br />
           <img src='/readme.jpg' alt="README" width="75%" loading="lazy" />
