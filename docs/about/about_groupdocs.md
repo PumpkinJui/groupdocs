@@ -11,7 +11,7 @@ sidebar_position: 1
 - [@YZBWDLT](https://github.com/YZBWDLT) (量筒，仓库协作者，群主)  
   个人博客：[https://yzbwdlt.pages.dev/](https://yzbwdlt.pages.dev/)
 - [@PigeonKI](https://github.com/PigeonKI) (鸽子，仓库协作者，群管理员)
-- 原 GitHub 账户名 @hues-dimwit-0r (祉语，群管理员)  
+- @nuances-hosanna0g (祉语，群管理员) 
   个人博客：[https://xiaozhiyuqwq.top/](https://xiaozhiyuqwq.top/)
 - [@UsamiRenko04](https://github.com/UsamiRenko04) (比翼鸟，仓库协作者，群管理员)
 - [@Xiaofeixia2008](https://github.com/Xiaofeixia2008) (小飞侠，仓库协作者，群管理员)  
