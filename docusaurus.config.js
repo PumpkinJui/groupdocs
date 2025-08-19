@@ -128,6 +128,7 @@ const config = {
                     title: '常用链接与工具',
                     items: [
                         { label: '中文 Minecraft Wiki', href: 'https://zh.minecraft.wiki/' },
+                        { label: '量筒的 Minecraft 基岩版开发文档', href: 'https://mcdevdoc.nekoawa.com/' },
                         { label: 'ChunkBase', href: 'https://www.chunkbase.com/apps/' },
                         { label: '下载国际基岩版 Minecraft', to: 'docs/tools/urls/mcbe' },
                         { label: 'MC 开发者常用链接合集', to: '/docs/tools/urls/develop' }
