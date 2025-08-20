@@ -48,7 +48,7 @@ export default function Home() {
           <h2>（建议收藏至浏览器书签栏）</h2>
           <div className={styles.buttons}>
             <Link className="button button--secondary button--lg" to="https://docs.nekoawa.com/">
-              nekoawa（中国大陆推荐）
+              nekoawa（推荐）
             </Link>
           </div>
           <br />

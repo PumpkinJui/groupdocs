@@ -32,7 +32,7 @@ authors: [ 南瓜汁 ]
   - [(English) 附加包模板历代收录](https://bedrock.dev/packs)
 - [中文 Minecraft Wiki](https://zh.minecraft.wiki/)
 - [(English) JaylyMC 的 SAPI 文档](https://jaylydev.github.io/scriptapi-docs/)
-- [量筒的 Minecraft 基岩版开发文档](https://yzbwdlt.pages.dev/)
+- [量筒的 Minecraft 基岩版开发文档](https://mcdevdoc.nekoawa.com/)
   - 自家编写，欢迎查阅 :)
 - [Minecraft 基岩版开发 Wiki](https://wiki.mcbe-dev.net/)（仍处于开荒状态）
 - 我的世界开发指南（仅网易可用）
