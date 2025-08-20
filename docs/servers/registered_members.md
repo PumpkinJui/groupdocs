@@ -97,6 +97,7 @@ authors: [量筒]
 | 命令块 | CommandBlock228 | 灰色旗帜 (绿色波纹边，淡灰色砖纹<br/>黑色菱形，黑色花朵图案，白色模型头像)<br/>§l§4 | ❔ | 生存服贡献较大 |
 | 塞拉 | Traptrix SL | 金锭<br/>— | ✔ | 代表物欲修改为钓鱼竿；生存服贡献较大；由 **@量筒** 邀请来 |
 | 鱼周 | UnhandyShark856 | —<br/>— | ❔ | 马可服群管理、服管理 |
+| 小面包 | Xiaomianbao2007 | —<br/>— | ❔ | 马可服服管理 |
 | 辉金 | huijinya520 | 金粒<br/>§l§6 | ✔ | 知名视频作者 |
 | 地雷 | Peroxide07122 | TNT<br/>— | ❔ | |
 | 小鸟 | lovebirdsvvv | 白色陶瓦<br/>— | ✔ | |
@@ -160,6 +161,7 @@ authors: [量筒]
 | 闲鱼 | Ruawer153 | |
 | 事情 | THEHOTTHING | |
 | 轻雨酱 | YMQY1315 | |
+| 大河月 | Xbox Angel3518 | |
 
 ## 离群成员（未违规）
 
@@ -197,7 +199,6 @@ authors: [量筒]
 | star | Chinahenane | |
 | 鱼 | yuremain | |
 | 欣叶 | xinye2012 | |
-| 小面包 | Xiaomianbao2007 | 马可服服管理；有生存服白名单。 |
 | 零七 | pqwp114514qwpq | |
 
 ## 离群成员（违规）
