@@ -12,8 +12,9 @@ sidebar_position: 1
 
 个人博客：
 
-- [![Tencent Edgeone](/badges/edgeone.svg)](https://www.pumpkinjui.com/)
-- [![Cloudflare Pages](/badges/cloudflare.svg)](https://pumpkinjui.pages.dev/)
+[![Tencent Edgeone](/badges/edgeone.svg)](https://www.pumpkinjui.com/)
+
+[![Cloudflare Pages](/badges/cloudflare.svg)](https://pumpkinjui.pages.dev/)
 
 ### [@YZBWDLT](https://github.com/YZBWDLT)
 
@@ -21,8 +22,9 @@ sidebar_position: 1
 
 个人博客 - 基岩版开发文档：
 
-- [![Edgeone Pages](/badges/edgeone.svg)](https://mcdevdoc.nekoawa.com/)
-- [![Cloudflare Pages](/badges/cloudflare.svg)](https://yzbwdlt.pages.dev/)
+[![Edgeone Pages](/badges/edgeone.svg)](https://mcdevdoc.nekoawa.com/)
+
+[![Cloudflare Pages](/badges/cloudflare.svg)](https://yzbwdlt.pages.dev/)
 
 ### [@PigeonKI](https://github.com/PigeonKI)
 
@@ -49,7 +51,7 @@ sidebar_position: 1
 
 个人博客：
 
-- [![Cloudflare Pages](/badges/cloudflare.svg)](https://wstd.pages.dev/)
+[![Cloudflare Pages](/badges/cloudflare.svg)](https://wstd.pages.dev/)
 
 ## 托管 & 域名
 
