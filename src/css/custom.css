@@ -29,5 +29,5 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-@import url('https://cdn.jsdelivr.net/npm/@docsearch/css@3');
+@import url('https://cdn.jsdmirror.com/npm/@docsearch/css@3');
 @import '@docsearch/css';
