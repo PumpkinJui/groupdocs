@@ -162,6 +162,8 @@ authors: [量筒]
 | 事情 | THEHOTTHING | |
 | 轻雨酱 | YMQY1315 | |
 | 大河月 | Xbox Angel3518 | |
+| 抖抖抖 | SpyingLace85493 | |
+| 王牌 | wang9800 | |
 
 ## 离群成员（未违规）
 
