@@ -20,7 +20,7 @@
 
 ## 群文档地址（建议收藏至浏览器书签栏）
 
-![扫码查看群文档](./static/readme.jpg)
+![扫码查看群文档](./static/readme.webp)
 
 ### nekoawa（推荐）
 

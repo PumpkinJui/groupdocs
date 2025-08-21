@@ -38,7 +38,7 @@ Microsoft 和 Xbox 相关的网站可能加载缓慢，但不像 GitHub 和 Stea
 3. 向下滚动，找到「其他人可以看到你的真实姓名」选项。选择「仅限我」。
 4. 继续向下滚动，点击「提交」。(一定要点提交！！)
 
-![hide_name](/tools/howto/hide_name.jpg)
+![hide_name](/tools/howto/hide_name.webp)
 
 ## 家长控制操作步骤
 

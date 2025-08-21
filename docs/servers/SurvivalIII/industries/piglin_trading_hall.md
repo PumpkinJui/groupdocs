@@ -31,7 +31,7 @@ authors: [量筒]
 
 ### 以物易物
 
-![以物易物机制](/servers/SurvivalIII/industries/bartering.jpg)
+![以物易物机制](/servers/SurvivalIII/industries/bartering.webp)
 
 - 玩家通过对成年猪灵丢出金锭或使用金锭可与其交换特定的物品。
 - 投掷器投掷的金锭也可触发以物易物。

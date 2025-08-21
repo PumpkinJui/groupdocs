@@ -20,18 +20,18 @@ description: 了解全服最大下界交通换乘枢纽、要塞所在地和冰�
 
 ### 雪原驿站
 
-![驿站](/servers/SurvivalIII/developing_areas/snowfield/post1.jpg)
+![驿站](/servers/SurvivalIII/developing_areas/snowfield/post1.webp)
 
-![驿站一角](/servers/SurvivalIII/developing_areas/snowfield/post2.jpg)
+![驿站一角](/servers/SurvivalIII/developing_areas/snowfield/post2.webp)
 
 由 @绿叶 设计。  
 舒适温暖的基地。
 
 ### 刷冰场（科考站）
 
-![刷冰场外部](/servers/SurvivalIII/developing_areas/snowfield/ice1.jpg)
+![刷冰场外部](/servers/SurvivalIII/developing_areas/snowfield/ice1.webp)
 
-![刷冰场内部](/servers/SurvivalIII/developing_areas/snowfield/ice2.jpg)
+![刷冰场内部](/servers/SurvivalIII/developing_areas/snowfield/ice2.webp)
 
 - 刷冰场控制室 & 雪原科考站 & 雪屋主体由 @鸽子 设计；红石电路由 @南瓜汁 设计；@绿叶 参与美化；特别感谢 @小鼠 在刷冰场建设过程中提供的帮助。
 - 原型机位于[矿山](diggings.md)，但由于矿山刷冰场积雪区域过小，效率较低，因此在雪原另建了一个刷冰场。与原型机相比，雪原刷冰场规模更大，集成性更好，也更美观。
@@ -41,14 +41,14 @@ description: 了解全服最大下界交通换乘枢纽、要塞所在地和冰�
 
 ### 刷雪机
 
-![刷雪机](/servers/SurvivalIII/developing_areas/snowfield/snow.jpg)
+![刷雪机](/servers/SurvivalIII/developing_areas/snowfield/snow.webp)
 
 由 @小鼠 设计。  
 可以制造雪球。拉杆朝下为关，朝上为开。
 
 ### 双人游戏装置
 
-![双人游戏装置](/servers/SurvivalIII/developing_areas/snowfield/couple_game.jpg)
+![双人游戏装置](/servers/SurvivalIII/developing_areas/snowfield/couple_game.webp)
 
 由 @巴豆 设计。  
 穿着皮革靴子分别站在两侧的细雪平台上，用弓射掉对方脚下的细雪方块，落地即失败。  

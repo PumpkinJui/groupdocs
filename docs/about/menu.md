@@ -221,7 +221,7 @@ var player = new DogePlayer(
 
 巴豆将 ~~*量筒碎片*~~ 量筒粉装起来，作为送给量筒的礼物。
 
-![量筒粉](/about/menu/fenzhenglt.jpg)
+![量筒粉](/about/menu/fenzhenglt.webp)
 
 对此，量筒评论如下：
 
@@ -251,7 +251,7 @@ var player = new DogePlayer(
 
 您猜怎么着？一语成谶。
 
-![碎量筒](/about/menu/broken_lt.jpg)
+![碎量筒](/about/menu/broken_lt.webp)
 
 (所幸另外一只没受到迫害。)
 
@@ -259,17 +259,17 @@ var player = new DogePlayer(
 
 > 鸣谢：@文雨 绘制了这张图。
 
-![五量叶 by @文雨](/about/menu/wuliangye.jpg)
+![五量叶 by @文雨](/about/menu/wuliangye.webp)
 
 ### 星巴豆
 
 > 鸣谢：@文雨 绘制了这张图。
 
-![星巴豆 by @文雨](/about/menu/xingbadou.jpg)
+![星巴豆 by @文雨](/about/menu/xingbadou.webp)
 
 ### 蜜汁烤南瓜 (Roasted Pumpkin)
 
-![蜜汁烤南瓜](/about/menu/roasted_pumpkin.jpg)
+![蜜汁烤南瓜](/about/menu/roasted_pumpkin.webp)
 
 ## 其他迫害
 
@@ -277,17 +277,17 @@ var player = new DogePlayer(
 
 ![粉蒸量筒纯享版](/about/menu/fenzhenglt_pure.gif)
 
-![迫害量筒专用](/about/menu/persecute_lt.jpg)
+![迫害量筒专用](/about/menu/persecute_lt.webp)
 
 ### 鸽子
 
-![迫害鸽子专用](/about/menu/persecute_pigeon.jpg)
+![迫害鸽子专用](/about/menu/persecute_pigeon.webp)
 
 ### 小鼠 (波奇)
 
 > 热知识：你群管理基本都在看《孤独摇滚》……也有少数几个不看的。
 
-![迫害小鼠专用](/about/menu/persecute_mouse.jpg)
+![迫害小鼠专用](/about/menu/persecute_mouse.webp)
 
 ## 参考文献
 
@@ -295,4 +295,4 @@ var player = new DogePlayer(
 - 《论鸽子的 100 种吃法》
 - 《论菜名的多样性》
 
-![240610 最新正式发布版本](/about/menu/menu.png)
+![240610 最新正式发布版本](/about/menu/menu.webp)

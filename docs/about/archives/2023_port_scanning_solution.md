@@ -44,14 +44,14 @@
 
 但是，我们发现了一个小众的开源软件 [wail2ban](https://github.com/glasnt/wail2ban)。虽然这个仓库已经在 2020 年被存档，但 2023 年，我们发现它仍然非常实用。
 
-![wail2ban 仓库主页](/about/archives/2023_port_scanning_solution//repo.png)
+![wail2ban 仓库主页](/about/archives/2023_port_scanning_solution/repo.webp)
 
 同时，使用它也非常简单：
 
 - 如果需要配置白名单，在 `wail2ban_config.ini` 中配置来源 IP 即可，也可以填写 IP 段；
 - 如果需要修改封禁策略，在 `wail2ban.ps1` 修改即可，如下图。
 
-![在 wail2ban.ps1 中修改封禁策略](/about/archives/2023_port_scanning_solution//modification.png)
+![在 wail2ban.ps1 中修改封禁策略](/about/archives/2023_port_scanning_solution/modification.webp)
 
 ### 端口扫描
 
