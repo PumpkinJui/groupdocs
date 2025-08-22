@@ -164,6 +164,8 @@ authors: [量筒]
 | 大河月 | Xbox Angel3518 | |
 | 抖抖抖 | SpyingLace85493 | |
 | 王牌 | wang9800 | |
+| 冷辰 | RelyingPants365 | |
+| 海王星 | Neptune exe1591 | |
 
 ## 离群成员（未违规）
 
