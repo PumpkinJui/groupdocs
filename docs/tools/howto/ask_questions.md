@@ -1,10 +1,10 @@
 # 如何提问
 
-![mindmap_1](/tools/howto/ask_questions/mindmap_1.jpg)
+![mindmap_1](/tools/howto/ask_questions/mindmap_1.webp)
 
-![mindmap_2](/tools/howto/ask_questions/mindmap_2.jpg)
+![mindmap_2](/tools/howto/ask_questions/mindmap_2.webp)
 
-![mindmap_3](/tools/howto/ask_questions/mindmap_3.jpg)
+![mindmap_3](/tools/howto/ask_questions/mindmap_3.webp)
 
 群文档中大概率有你想要找的各种信息。
 

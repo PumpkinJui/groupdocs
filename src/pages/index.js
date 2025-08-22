@@ -2,7 +2,6 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
@@ -58,7 +57,7 @@ export default function Home() {
             </Link>
           </div>
           <br />
-          <img src='/new_welcome.jpg' alt="README" width="75%" loading="lazy" />
+          <img src='/new_welcome.webp' alt="README" width="75%" loading="lazy" />
           <br />
         </section>
       </main>

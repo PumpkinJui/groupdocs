@@ -24,7 +24,7 @@
 
 颜色描述来源于 Unicode 对该 emoji 的描述，亦即无色盲色弱者所看到的颜色。
 
-![图例](/about/meeting_offline/legend.png)
+![图例](/about/meeting_offline/legend.webp)
 
 ### 上色版
 
@@ -34,11 +34,11 @@
 >
 > 然而，在某些特殊情况下，这种配色方案可能仍然难以识别。如果您在查看本图表时无法 (轻易) 分辨出三种颜色，请查看下方的黑白版 (数字版) 图表。两者数据完全相同，只是表现形式不同。
 
-![上色版](/about/meeting_offline/colored.png)
+![上色版](/about/meeting_offline/colored.webp)
 
 ### 黑白版 (数字版)
 
-![黑白版 (数字版)](/about/meeting_offline/mono.png)
+![黑白版 (数字版)](/about/meeting_offline/mono.webp)
 
 ## 大型面基活动
 

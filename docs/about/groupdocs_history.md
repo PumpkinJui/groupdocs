@@ -65,7 +65,7 @@ sidebar_position: 2
 - 部署：[EdgeOne Pages](https://docs.nekoawa.com/)
 - 部署：[Cloudflare Pages](https://groupdocs.pages.dev/)
 
-为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。（此项工作由于人工原因，仍停留在 3.0 时期；目前的图片大多未经过压缩。）
+为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。
 
 如果打不开 GitHub，请参考[此页面](../tools/howto/access_github)。
 

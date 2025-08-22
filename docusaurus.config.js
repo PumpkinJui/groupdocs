@@ -12,10 +12,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
     title: '量筒测试群 群文档',
     tagline: '记录群内大小事务的文档',
-    favicon: 'img/yzbwdlt.png',
+    favicon: 'img/yzbwdlt.webp',
 
     // Set the production url of your site here
-    url: 'https://github.com',
+    url: 'https://docs.nekoawa.com',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -72,7 +72,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ themeConfig: ({
 
         // Replace with your project's social card
-        image: 'img/yzbwdlt.png',
+        image: 'img/yzbwdlt.webp',
 
         docs: {
             sidebar: {
@@ -89,7 +89,7 @@ const config = {
         // 顶部栏
         navbar: {
             title: '量筒测试群 群文档',
-            logo: { alt: 'Logo', src: 'img/yzbwdlt.png', },
+            logo: { alt: 'Logo', src: 'img/yzbwdlt.webp', },
             items: [
                 { label: '群规', position: 'left', type: 'docSidebar', sidebarId: 'rule' },
                 { label: '群资源', position: 'left', type: 'docSidebar', sidebarId: 'resource' },

@@ -16,11 +16,11 @@ export default function NotFoundContent({className}) {
             />
           </a>
           <img
-            src="/about/404/forver.jpg"
+            src="/about/404/forver.webp"
             alt="祉语供图"
           />
           <img
-            src="/about/404/spudserver.jpg"
+            src="/about/404/spudserver.webp"
             alt="你群群文档服务器供电系统实拍"
           />
         </div>
