@@ -26,16 +26,8 @@ description: 生存服的审核要求简介。
 5. 除特殊情况外，你需要在五分钟内回答一道问题，一经作答不得更改。
 6. 如未能通过，需等待一个月后再进行审核。
 
-请确保你已经阅读过本群群规规定，并了解这些注意事项，回复即可开始考核。
+本服大多数信息可以在群文档中查询。**按照生存服相关管理条例，恶意破坏服务器的，将处以最高至五档的群规处罚。** 请确保你已经阅读过本群群规规定，并了解以上注意事项，回复即可开始考核。
 
-![生存服审核规则](/servers/SurvivalIII/audit/audit.webp)
+---
 
-## 进服前警告
-
-按照生存服相关管理条例，恶意破坏服务器的，将处以最高至五档的群规处罚。
-
-确认你已经知晓，我们便为你加白名单。
-
-本服大多数信息可以在群文档中查询：[https://docs.nekoawa.com/docs/SurvivalIII/](https://docs.nekoawa.com/docs/SurvivalIII/)
-
-![进服前警告](/servers/SurvivalIII/audit/warning.webp)
+![生存服审核规则](/servers/SurvivalIII/audit.webp)
