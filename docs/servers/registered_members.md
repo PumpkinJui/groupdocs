@@ -58,10 +58,10 @@ authors: [量筒]
 | 祉语 | xhduoduobaby | 橙色染色玻璃<br/>§r§6 | ✔ | 你群の大橘猫 |
 | 鸽子 | PigeonKI | 熟鸡肉<br/>§f§l | ✔ | 生存服贡献较大；测试贡献大；群文档贡献者 |
 | 小飞侠 | tck1122 | —<br/>— | ❔ | 生存服贡献较大；测试贡献大；群文档贡献者 |
+| lanos | lanos212 | —<br/>— | ❔ | 测试贡献大 |
 | 南瓜汁 | PumpkinJui | 蜂蜜瓶<br/>§r§l§6 | ✔ | 测试贡献较大；群文档主要贡献者 |
 | 比翼鸟 | KianaKaslana947<br/>RaidenMei947 | 末地水晶<br/>§d | ✔ | 生存服贡献大；测试贡献较大 |
 | 火卫三 | IBukreev | 红色旗帜 (左黄斜条，红色右下三角，<br/>左顶红方，黄色 Mojang 徽标，顶红三角)<br/>§l§c | ✔ | 生存服贡献较大，测试贡献较大 |
-| lanos | lanos212 | —<br/>— | ❔ | 测试贡献较大 |
 | 小鼠 | xiaoshu512 | 附魔金胸甲<br/>§r§l§e | ✔ | 生存服贡献大 |
 | 晨风 | ChenfengAB | —<br/>— | ✘ | 无生存服白名单 |
 | 蒙德人 | Tuffy2020China | 苹果<br/>§r§l§k | ✔ | |
@@ -167,6 +167,8 @@ authors: [量筒]
 | 王牌 | wang9800 | |
 | 海王星 | Neptune exe1591 | |
 | xsg | xsg868758 | |
+| 奕航 | hyh9165 | |
+| 花花 | FlowerTNT | |
 
 ## 离群成员（未违规）
 
