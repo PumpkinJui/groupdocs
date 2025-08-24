@@ -138,6 +138,7 @@ authors: [量筒]
 | :---: | :---: | --- |
 | E尘 | E1cheng | 知名开发者 |
 | Xero | ProjectXero1042 | 知名开发者 |
+| 冷辰 | RelyingPants365 | 知名开发者 |
 | 急尘 | jichenNGU | 知名视频作者 |
 | 嘉睿 | HuanGuangYC | |
 | 晓鱼 | muxiaoyu040203 | |
@@ -164,8 +165,8 @@ authors: [量筒]
 | 大河月 | Xbox Angel3518 | |
 | 抖抖抖 | SpyingLace85493 | |
 | 王牌 | wang9800 | |
-| 冷辰 | RelyingPants365 | |
 | 海王星 | Neptune exe1591 | |
+| xsg | xsg868758 | |
 
 ## 离群成员（未违规）
 
