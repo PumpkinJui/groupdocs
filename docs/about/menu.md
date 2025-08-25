@@ -267,6 +267,12 @@ var player = new DogePlayer(
 
 ![星巴豆 by @文雨](/about/menu/xingbadou.webp)
 
+### 牛蛙南瓜汁
+
+> 鸣谢：@文雨 绘制了这张图。
+
+![牛蛙南瓜汁 by @文雨](/about/menu/niuwa_nanguazhi.webp)
+
 ### 蜜汁烤南瓜 (Roasted Pumpkin)
 
 ![蜜汁烤南瓜](/about/menu/roasted_pumpkin.webp)
