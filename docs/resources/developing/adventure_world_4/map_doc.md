@@ -811,6 +811,8 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | `aw:remove_immediately` | 立刻无声地移除 NPC |
 | `aw:author_(作者ID)` | 召唤对应 XBoxID 的作者，应为全小写，空格以下划线代替，例如召唤 kuanpan 9527 应写为`aw:author_kuanpan_9527`，详情见游戏内事件 |
 | `aw:npc_(NPC名字)` | 召唤对应名字的 NPC，例如召唤米云溪应写为`aw:npc_miyunxi`，详情见游戏内事件 |
+| `aw:state_(NPC状态)` | 令 NPC 进入某种动画状态，例如使 NPC 站立应写为`aw:state_stand`，详情见游戏内事件 |
+| `aw:animation_(NPC名字)` | 令 NPC 播放某种特定动画，例如使 NPC 说话应写为`aw:animation_speak`，详情见游戏内事件 |
 
 ## 怪物生成器
 
