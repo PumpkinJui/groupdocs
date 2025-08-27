@@ -30,7 +30,7 @@ export default function Highlight({
     }
     return (
         url ? (
-            <a href={url} target="_blank" rel="noopener" style={style} >
+            <a href={url} target="_blank" rel="noopener noreferrer" style={style} >
                 {text}
             </a>
         ) : (
