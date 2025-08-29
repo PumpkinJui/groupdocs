@@ -199,7 +199,7 @@ execute if score levelCompleted data matches 1 if score playerAmount data matche
 - 对话状态（锁定玩家视角，禁止与 NPC 交互，禁止 HUD，流逝时间线，存在多个玩家时施加隐身）
 - 补充玩家的箭和药水
 - 播放标题和音效
-- 清除所有的怪物、生成器、御风珠和带有`aw:marker_type="name"`实体属性的标记
+- 清除所有的怪物、生成器、御风珠、门（同时会打开门）和带有`aw:marker_type="name"`实体属性的标记
 
 ```mcfunction showLineNumbers title="aw/levels/chapter(X)/level0/start.mcfunction"
 # ===== 开始关卡 =====
@@ -217,15 +217,25 @@ titleraw @a title {"rawtext":[{"translate":"(章节颜色代码)§l((章节名)�
 ## 在剧情模式下传送玩家
 execute if score storyMode settings matches 1 run (tp @a ...)
 
-# --- 封闭各关卡出口 ---
-## (X)-1
-(fill ...)
-## (X)-2
-(fill ...)
-## (...)
-
 # --- 调用通用函数 ---
 function aw/lib/events/levels/start_chapter
+
+# --- 生成各关的门 ---
+## (X)-1
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+## (X)-2
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+## (X)-3
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+## (X)-4
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+## (X)-5
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
 
 # --- 生成章节名 ---
 # 应后于[调用通用函数]模块
@@ -291,7 +301,7 @@ execute if score timeline time matches (时间点) run function aw/levels/chapte
 # (X)-0 | (章节名)神殿
 
 # --- 检查玩家进入下一个关卡 ---
-execute positioned (下关重生点) positioned ~-1.2~-1~-1.2 as @a[dx=1.4,dy=3,dz=1.4,tag=!spectator,scores={deathState=0}] at @s run function aw/levels/chapter(X)/level1/start
+execute positioned (下关重生点) positioned ~-0.91~-1~-0.91 as @a[dx=0.82,dy=3,dz=0.82,tag=!spectator,scores={deathState=0}] at @s run function aw/levels/chapter(X)/level1/start
 execute positioned (下关重生点) positioned ~-2~-1~-2 as @e[dx=3,dy=3,dz=3,type=aw:wind_pearl] run kill @s
 
 # --- 剧情 ---
@@ -353,6 +363,7 @@ execute if score levelCompleted data matches 1 if score playerAmount data matche
   - 回满血量
   - 如果多次失败，则提供 BUFF
   - 如果正处于对话状态（`data.timeLapse != 0`），则终止对话
+- 关门，封闭关卡
 - 清除所有的怪物、御风珠
 
 ```mcfunction showLineNumbers title="aw/levels/chapter(X)/level(Y)/start.mcfunction"
@@ -364,10 +375,6 @@ execute if score levelCompleted data matches 1 if score playerAmount data matche
 scoreboard players set level data (Y)
 ## 最大波数
 scoreboard players set maxWave data (最大波数)
-
-# --- 封闭关卡 ---
-(fill ...)
-(fill ...)
 
 # --- 生成怪物 ---
 function aw/levels/chapter(X)/level(Y)/waves/wave_1
@@ -398,6 +405,7 @@ function aw/lib/events/levels/start_level
   - 复活已死亡的玩家，并移除他们的旁观身份（标签`spectator`）
   - 回满血量
   - 设置重生点
+- 开门，开放关卡
 - 清除所有的怪物、生成器和御风珠
 
 ``` mcfunction showLineNumbers title="aw/levels/chapter(X)/level(Y)/complete.mcfunction"
@@ -410,10 +418,6 @@ execute positioned (本关重生点) run function aw/lib/events/levels/complete_
 # --- 获得新物品 ---
 function aw/system/controller/items
 tellraw @a {"rawtext":[{"text":"§l§a(X)-(Y)已完成！§r\n§f你已获得 (带颜色的物品名) §f！"}]}
-
-# --- 重新开放关卡 ---
-(fill ...)
-(fill ...)
 
 # --- 关卡特殊功能 ---
 # (功能)
@@ -447,6 +451,7 @@ tellraw @a {"rawtext":[{"text":"§l§a(X)-(Y)已完成！§r\n§f你已获得 (�
   - 如果关卡失败达到一定次数，提示玩家将在下一局获得 BUFF
   - 复活已死亡的玩家，并移除他们的旁观身份（标签`spectator`）
   - 回满血量
+- 开门，开放关卡
 - 清除所有的怪物、生成器和御风珠
 
 **注意**：在`重新开放关卡`模块中，不宜开放出口。
@@ -457,9 +462,6 @@ tellraw @a {"rawtext":[{"text":"§l§a(X)-(Y)已完成！§r\n§f你已获得 (�
 
 # --- 调用通用函数 ---
 execute positioned (上关重生点) run function aw/lib/events/levels/fail_level
-
-# --- 重新开放关卡 ---
-(fill ...)
 
 # --- 关卡特殊功能 ---
 # (功能)
@@ -533,7 +535,7 @@ function aw/lib/events/rename_magma_cube
 # (X)-(Y)
 
 # --- 检查玩家进入下一个关卡 ---
-execute positioned (下关重生点) positioned ~-1.2~-1~-1.2 as @a[dx=1.4,dy=3,dz=1.4,tag=!spectator,scores={deathState=0}] at @s run function aw/levels/chapter(X)/level((Y)+1)/start
+execute positioned (下关重生点) positioned ~-0.91~-1~-0.91 as @a[dx=0.82,dy=3,dz=0.82,tag=!spectator,scores={deathState=0}] at @s run function aw/levels/chapter(X)/level((Y)+1)/start
 execute positioned (下关重生点) positioned ~-2~-1~-2 as @e[dx=3,dy=3,dz=3,type=aw:wind_pearl] run kill @s
 
 # --- 剧情 ---
