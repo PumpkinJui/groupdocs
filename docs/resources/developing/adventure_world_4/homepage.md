@@ -24,7 +24,7 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 - **制作人表** 详情见[制作人表页面](credits)
 - **版本需求** 1.20.30+（4.1） | 1.21.0+（4.2+）
 - **资源类型** 地图 - PVE 地图
-- **最新版本** 4.1（正式版） | Alpha 4.2_03（测试版）
+- **最新版本** 4.1（正式版） | Alpha 4.2_03b（测试版）
 - **更新日志** 详情见[更新日志页面](update_log/4_2)
 - **漏洞汇报** 详情见[GitHub Issues](https://github.com/YZBWDLT/Adventure-World-4/issues)
 
@@ -106,3 +106,10 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 - 将`lib/modify_data/states/`下的多个函数移动到了`lib/modify_data/`下
 - 将`system/controller/`下的多个函数移动到了`system/`下
 - 现在与 NPC 交互会触发关卡下的`levels/.../events/interact_with_npc`函数，而不再是统一在`entities/npc/interacted`列出
+
+### Alpha 4.2_03b 的漏洞修复与特性优化
+
+更新了 Alpha 4.2_03b 以解决 Alpha 4.2_03 中的一个关键问题。
+
+- 修复了 3-4 的门漏了一个口子的问题
+- 现在仅在试炼时才记录死亡榜
