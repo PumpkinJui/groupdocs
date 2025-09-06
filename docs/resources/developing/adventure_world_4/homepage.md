@@ -50,66 +50,50 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 
 ---
 
-## 最新版本更新日志 - 冒险小世界：剑之试炼 Alpha 4.2_03 发布
+## 最新版本更新日志 - 冒险小世界：剑之试炼 Beta 4.2_01 发布
 
-晚上好！今晚我们发布 Alpha 4.2_03，并在该更新中带来了一系列的新内容和改进！我们在本次更新中引入了全新的动效更新，它能够让你的地图变得更加生动活泼，你会在地图中看到许多我们精心设计的动画！同时，我们还修复了一个恶性漏洞，并对另一个恶性漏洞做了修复尝试。总之，一起来看看本次更新内容吧~
+![beta_4_2_01_cover](/resources/adventure_world_4/update_log/4_2/beta_4_2_01_cover.png)
 
-### 动效更新
+周末快乐！如你所见，我们的地图已经正式进入了 Beta 阶段！
 
-- 隆重介绍小世界的一项重大更新 —— 动效更新！
-- 此更新让地图中的 NPC 变得更加灵动，让一些视觉效果更加活泼
-- 为村庄新增了后山和张宇商店的告示牌，以防玩家迷路
-- 现在与 NPC 的对话会用醒目的品红色标明重点，就像苏醒和筑梦一样
-- 现在在试炼中与 NPC 的传声石结晶对话会标明是第几句，就像结尾作者对话一样
-- [#19](https://github.com/YZBWDLT/Adventure-World-4/issues/19) 新增了门
-  - 现在每关的门是带动画地滑上去和滑下来的
-  - 在关闭的时候，会播放关门的音效
-  - 不同的章节下，门的样式是不一样的
-- [#60](https://github.com/YZBWDLT/Adventure-World-4/issues/60) 新增了公告栏
-  - 负责更“高级”地给我们打广告 :)
-  - 会在村庄剧情中出现
-  - 无法穿过
-- [#61](https://github.com/YZBWDLT/Adventure-World-4/issues/61) [#72](https://github.com/YZBWDLT/Adventure-World-4/issues/72) 优化了大多数剧情的相机视角设计，因此现在多人模式下不再会满屏只看到正在显示的玩家的正脸
-- [#93](https://github.com/YZBWDLT/Adventure-World-4/issues/93) 现在在 6-4 和 7-0（剑之神殿）中，“感觉身体轻飘飘的”现在拥有了漂浮效果
-- [#94](https://github.com/YZBWDLT/Adventure-World-4/issues/94) 现在 NPC 拥有动作了！
-  - 和筑梦一样，引入了同款动作
-  - 这些动作会在剧情模式中生动地体现出来
-  - NPC 说每句话时都能播放动作，有些特殊的话还有特别的大动作
-  - [#73](https://github.com/YZBWDLT/Adventure-World-4/issues/73) 现在结束屋的玩家在移动时不再无动画地平移过去，而是有一个很明显的走路动作
-  - [#79](https://github.com/YZBWDLT/Adventure-World-4/issues/79) 现在田英在 3-1 的动画中是躺下的了
-  - 现在张宇在商店内默认是坐下的了
-- 为结束特效第一阶段添加了筑梦相关的过渡动画
-- 移除了退出重进玩家的相机动画，现在在他们进入游戏后仅维持应有的基本相机视角
+在本次更新中，我们补齐了本次更新的最后一块大拼图——路线引导机制。现在，在每关结束后，都会出现一个引导点指引你走向何道路。这是一个呼声很高的功能，所以我们很早就决定加入进来，今天它来了，终于不用怕迷路啦！
+
+### 路线引导机制
+
+- 隆重介绍——路线引导机制！
+- [#9](https://github.com/YZBWDLT/Adventure-World-4/issues/9) 在关卡结束之后，会有一个蓝色的跳动叹号图案——引导点指引你接下来的路
+- 离得越远，引导点的图标就越大
+- 为 3-1 的水道添加了必要的指引告示牌
+- 以后再也不用怕迷路啦！
+
+### 音乐
+
+- 现在剪掉了音乐的前后空白片段，不再会有空白过渡
+- [#105](https://github.com/YZBWDLT/Adventure-World-4/issues/105) 现在除了 7-5 外，有更多的音乐分前奏和主旋律了，前奏只播放一次，而主旋律循环播放
+- 典型的例子有各大 BOSS 战、和沙漠神殿
+- 移除了村庄音乐的第二备选，因为在现在这个模式下，第二备选会出现问题
+- 继续进行了一定程度的压缩，以降低存储占用
+- **已知问题：3-4 的音乐连贯性不是很好，后续仍需进一步优化**
+
+### 玩家血量
+
+- 现在能够实时显示到玩家名牌下方了！
+- 这在多人模式下可能会很有用
 
 ### 漏洞修复与特性优化
 
-- [#68](https://github.com/YZBWDLT/Adventure-World-4/issues/68) 修复了玩家可能卡出关卡的问题
-- [#89](https://github.com/YZBWDLT/Adventure-World-4/issues/89) 现在在村庄剧情中，自动为玩家指路时间神殿的时限由 3 分钟延长到了 5 分钟
-- [#96](https://github.com/YZBWDLT/Adventure-World-4/issues/96) 现在上一周目的玩家进入下一周目后不再会保留上一周目的数据（例如击杀数、死亡数等）
-- [#98](https://github.com/YZBWDLT/Adventure-World-4/issues/98) 现在完成关卡或关卡失败会正确地重置药效
-- 修复了 6-4 和 7-5 的倒计时重生机制的多个错误：
-  - 现在难度 1~4 下的重生倒计时分别为 30、60、90、120 秒
-  - 修复了在倒计时结束前没有标题提示玩家复活倒计时的问题
-  - 修复了在 7-5 会错误地重生在 6-4 的问题
-  - [#99](https://github.com/YZBWDLT/Adventure-World-4/issues/99) 修复了在死亡最大增益（抗性提升 V）的情况下，唤魔法师的火球依旧可以造成大量伤害的问题
-- [#100](https://github.com/YZBWDLT/Adventure-World-4/issues/100) 现在死亡消息仅限在多人模式下播报
-- 现在 6-3 的岩浆在 6-2 结束后和 6-3 失败后会正确初始化
-- 修复了张宇商店可能因某些原因未开放的问题
-- 修复了在高版本下，Minecraft 的内容日志会警告`blocks.json`的`format_version`未指定的问题
-- 移除了 1.21.0 的版本限制
-  - 因此，Vibrant Visuals 在本地图中可用
-
-### 底层更新
-
-- 新增了`gameId.@s`和`data.gameId`变量
-- 将`lib/modify_data/`下的多个函数移动到了`lib/events/`下
-- 将`lib/modify_data/states/`下的多个函数移动到了`lib/modify_data/`下
-- 将`system/controller/`下的多个函数移动到了`system/`下
-- 现在与 NPC 交互会触发关卡下的`levels/.../events/interact_with_npc`函数，而不再是统一在`entities/npc/interacted`列出
-
-### Alpha 4.2_03b 的漏洞修复与特性优化
-
-更新了 Alpha 4.2_03b 以解决 Alpha 4.2_03 中的一个关键问题。
-
-- 修复了 3-4 的门漏了一个口子的问题
-- 现在仅在试炼时才记录死亡榜
+- [#86](https://github.com/YZBWDLT/Adventure-World-4/issues/86) 现在在单人模式下，进入林乐家楼下会自动隐藏外部的 NPC 和展示文本
+  - 然而，多人模式下仍然会正常显示外部的 NPC 和展示文本
+- [#102](https://github.com/YZBWDLT/Adventure-World-4/issues/102) 现在二周目开启剧情模式是从 0-1 开启的了，而不是 1-0
+- [#107](https://github.com/YZBWDLT/Adventure-World-4/issues/107) 修复了多人情况下，和张宇的聊天仍然被遮挡视角的问题
+- [#108](https://github.com/YZBWDLT/Adventure-World-4/issues/108) 修复了在开幕时，或在结束后开启二周目时，展示文本仍然清晰地显示在玩家面前的问题
+- [#109](https://github.com/YZBWDLT/Adventure-World-4/issues/109) 修复了多人情况下，在强行过剧情的玩家可能会在意外的地点死亡的问题
+- [#110](https://github.com/YZBWDLT/Adventure-World-4/issues/110) 修复了多人情况下，玩家可能因网络波动而错误地复活在上一关的问题
+- [#111](https://github.com/YZBWDLT/Adventure-World-4/issues/111) 修复了多人情况下，结束剧情不会对玩家隐身的问题
+- [#112](https://github.com/YZBWDLT/Adventure-World-4/issues/112) 修复了多人情况下，玩家可以在 2-1 通过不断推拉活塞卡出房间的问题
+  - 然而，仅修复了此漏洞在 2-1 游戏时的情况，因为 2-1 结束后已不再会导致卡关（结束前可能会卡存活玩家数，但结束后至少能留一位玩家在场景内），并且可能会导致错判，造成性能浪费，综合以上因素考虑，只修复该漏洞最严重表现的部分
+  - 我们还留了一个告示牌小彩蛋 (～￣▽￣)～
+- 修复了结束剧情主线剧情对话过程中和张宇对话会导致卡住的问题
+- 修复了村庄对话中和田英初次对话的检查范围过小的问题
+- 修复了在游戏中时，单人模式退出重进后玩家仍然会被强制传送到重生点的问题，现在单人模式回到游戏后位置不再受到影响
+- 现在剧情模式下，3-1 的动画中田英是躺在神殿上方而不是树上睡觉的了
