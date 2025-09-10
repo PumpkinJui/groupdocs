@@ -222,24 +222,28 @@ function aw/lib/events/levels/start_chapter
 
 # --- 生成各关的门 ---
 ## (X)-1
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
 ## (X)-2
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
 ## (X)-3
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
 ## (X)-4
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
 ## (X)-5
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|hill|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
+(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
 
 # --- 生成章节名 ---
 # 应后于[调用通用函数]模块
 summon aw:marker -83 1 -2 0 0 aw:set_chapter_name "(章节颜色代码)(章节名)神殿"
+
+# --- 添加迷雾 ---
+fog @a remove gameFog
+fog @a push aw:(desert|forest|lake|frost|redstone|mountain|final)_temple gameFog
 
 ```
 
