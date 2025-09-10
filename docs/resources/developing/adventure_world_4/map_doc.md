@@ -13,7 +13,7 @@ import FileType from "/src/components/type/file";
 
 :::warning[适用版本]
 
-本文档仅适用于版本 Beta 4.2_01b。
+本文档仅适用于版本 Beta 4.2_01c。
 
 本文的内容将始终服务于本地图的最高版本，这意味着本文档中的内容可能会随着地图更新而随时变动。对于更低版本，因为底层已全面更新，所以下文内容将有大半不再适用于旧版本，我们也不会提供文档支持。
 
@@ -506,10 +506,6 @@ execute unless entity @e[type=aw:spawner] if score wave data matches 4 if score 
 ## 第 (n) 波 -> 关卡完成
 execute unless entity @e[type=aw:spawner] if score wave data matches (n) if score monsterAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/complete
 
-# --- 检查存活玩家数目 ---
-# 如果存活玩家数目为 0，则触发关卡失败函数
-execute if score alivePlayerAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/fail
-
 # --- 阻止旁观模式的玩家出界 ---
 # 不处理正处于死亡状态的玩家
 # 在该关卡上方80格的位置存在与该房间同样大小的屏障外壳，只要眼部检查到上方80格为屏障就立刻判定为出界
@@ -517,6 +513,11 @@ execute as @a[tag=spectator,scores={deathState=0}] at @s anchored eyes if block 
 # 阻止部分因网络波动的玩家意外在上一关以冒险模式重生（#110，见https://github.com/YZBWDLT/Adventure-World-4/issues/110）
 # 无论何种情况，玩家实际上在上一关的位置都是不符合预期的
 execute as @a positioned (上关重生点) if entity @s[r=2] run tp @s (本关重生点)
+
+# --- 检查存活玩家数目 ---
+# 如果存活玩家数目为 0，则触发关卡失败函数
+# 由#121（见https://github.com/YZBWDLT/Adventure-World-4/issues/121），该函数必须置于【阻止旁观模式的玩家出界】后执行
+execute if score alivePlayerAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/fail
 
 ```
 

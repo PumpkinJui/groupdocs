@@ -24,7 +24,7 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 - **制作人表** 详情见[制作人表页面](credits)
 - **版本需求** 1.20.30+（4.1） | 1.21.0+（4.2+）
 - **资源类型** 地图 - PVE 地图
-- **最新版本** 4.1（正式版） | Beta 4.2_01b（测试版）
+- **最新版本** 4.1（正式版） | Beta 4.2_01c（测试版）
 - **更新日志** 详情见[更新日志页面](update_log/4_2)
 - **漏洞汇报** 详情见[GitHub Issues](https://github.com/YZBWDLT/Adventure-World-4/issues)
 
@@ -50,7 +50,7 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 
 ---
 
-## 最新版本更新日志 - 冒险小世界：剑之试炼 Beta 4.2_01b 发布
+## 最新版本更新日志 - Beta 4.2_01b & Beta 4.2_01c
 
 ![beta_4_2_01b_cover](/resources/adventure_world_4/update_log/4_2/beta_4_2_01b_cover.png)
 
@@ -58,7 +58,7 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 
 ### 迷雾
 
-- #103 添加了迷雾
+- [#103](https://github.com/YZBWDLT/Adventure-World-4/issues/103) 添加了迷雾
 - 不同的神殿会有不同颜色的迷雾
 - 前六章的迷雾相对柔和，但第七章则相对“阴间”一些
 
@@ -84,3 +84,9 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 - 将门实体的`hill`字段统一换成了`mountain`，以和其他内容保持一致
 - 现在清除怪物物品会同时清除生成器了
 - 统一了游戏内所有迷雾的`用户提供 ID`为`gameFog`，并移除了`aw/lib/modify_data/init/fog`
+
+发布了 Beta 4.2_01c 以修复一个多人模式下失败功能完全失效的问题。
+
+- [#121](https://github.com/YZBWDLT/Adventure-World-4/issues/121) 紧急修复了多人情况下，关卡失败会导致非最后死亡的玩家集体重生到本关重生点的问题  
+  备注：*这有可能是我们目前遇到的最恶性的漏洞之一，它直接导致多人模式下的关卡失败功能完全无法正常运行。关于此漏洞的详细机理，我们在该漏洞的汇报页面有着详细的记载。总之，此漏洞的严重性迫使我们不得不立刻发布 Beta 4.2_01c 版本。*
+- [#126](https://github.com/YZBWDLT/Adventure-World-4/issues/126) 修复了多人情况下，6-4 和 7-5 在玩家复活后未给予药水的问题
