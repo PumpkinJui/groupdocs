@@ -121,7 +121,7 @@ const config = {
                         { label: '冒险小世界：剑之试炼', to: 'docs/resources/developing/adventure_world_4/homepage', },
                         { label: '冒险世界：筑梦', to: 'docs/resources/developing/adventure_world_5/homepage' },
                         { label: 'Minecraft Picross', to: 'docs/resources/completed/minecraft_picross/homepage' },
-                        { label: '触发', to: 'docs/resources/developing/trigger/homepage' },
+                        { label: '触发', to: 'docs/resources/completed/trigger/homepage' },
                     ],
                 },
                 {
