@@ -13,7 +13,7 @@ import FileType from "/src/components/type/file";
 
 :::warning[适用版本]
 
-本文档仅适用于版本 Beta 4.2_01c。
+本文档仅适用于版本 Beta 4.2_02。
 
 本文的内容将始终服务于本地图的最高版本，这意味着本文档中的内容可能会随着地图更新而随时变动。对于更低版本，因为底层已全面更新，所以下文内容将有大半不再适用于旧版本，我们也不会提供文档支持。
 
@@ -308,7 +308,7 @@ execute if score timeline time matches (时间点) run function aw/levels/chapte
 # (X)-0 | (章节名)神殿
 
 # --- 检查玩家进入下一个关卡 ---
-execute positioned (下关重生点) positioned ~-2.4~-1~-2.4 as @a[tag=!spectator,scores={deathState=0}] if entity @s[dx=3.8,dy=3,dz=3.8] unless entity @s[x=(门位置最小x),y=(门位置最小y),z=(门位置最小z),(dx|dz)=2,dy=2] at @s run function aw/levels/chapter(X)/level1/start
+execute positioned (下关重生点) positioned ~-2.4~-1~-2.4 if score pausing data matches 0 as @a[scores={deathState=0,spectator=!1}] if entity @s[dx=3.8,dy=3,dz=3.8] unless entity @s[x=(门位置最小x),y=(门位置最小y),z=(门位置最小z),(dx|dz)=2,dy=2] at @s run function aw/levels/chapter(X)/level1/start
 execute positioned (下关重生点) positioned ~-2~-1~-2 as @e[dx=3,dy=3,dz=3,type=aw:wind_pearl] run kill @s
 
 # --- 剧情 ---
@@ -409,7 +409,7 @@ function aw/lib/events/levels/start_level
   - 本关失败次数归零（`data.failedCount.thisLevel = 0`）
 - 玩家处理：
   - 播放标题为已完成关卡，并播放音效
-  - 复活已死亡的玩家，并移除他们的旁观身份（标签`spectator`）
+  - 复活已死亡的玩家，并移除他们的旁观身份（`spectator.@s = 0`）
   - 回满血量
   - 设置重生点
 - 开门，开放关卡
@@ -459,7 +459,7 @@ summon aw:destination (下一关重生点)
 - 玩家处理：
   - 播放标题为关卡失败，并播放音效
   - 如果关卡失败达到一定次数，提示玩家将在下一局获得 BUFF
-  - 复活已死亡的玩家，并移除他们的旁观身份（标签`spectator`）
+  - 复活已死亡的玩家，并移除他们的旁观身份（`spectator.@s = 0`）
   - 回满血量
 - 开门，开放关卡
 - 清除所有的怪物、生成器和御风珠
@@ -486,9 +486,7 @@ summon aw:destination (本关重生点)
 
 [↗ 回到各关卡架构](#各关卡架构)
 
-**有关本地图旁观区域的说明**：本地图的旁观机制已经全面升级，采用 1.19.50 的旁观模式。每个关卡都有一个独特的旁观区，已死亡的旁观玩家（含标签`spectator`的玩家）将被严格限制在这个区域内。该区域是由该关卡外壳和内部贴墙实体方块改为屏障而构造的，并处于每关正上方 80 格处。
-
-在**大部分情况下**，以下 3 个模块（`检查怪物是否全部清除`、`检查存活玩家数目`、`阻止旁观模式的玩家出界`）是**必选**的，在非特殊情况下应全部保留且不宜做过多更改。
+在**大部分情况下**，以下 3 个模块（`检查怪物是否全部清除`、`阻止玩家出界`、`检查存活玩家数目`）是**必选**的，在非特殊情况下应全部保留且不宜做过多更改。
 
 ```mcfunction showLineNumbers title="aw/levels/chapter(X)/level(Y)/gaming.mcfunction"
 # ===== 关卡游戏时时间线 =====
@@ -506,20 +504,27 @@ execute unless entity @e[type=aw:spawner] if score wave data matches 4 if score 
 ## 第 (n) 波 -> 关卡完成
 execute unless entity @e[type=aw:spawner] if score wave data matches (n) if score monsterAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/complete
 
-# --- 阻止旁观模式的玩家出界 ---
-# 不处理正处于死亡状态的玩家
-# 在该关卡上方80格的位置存在与该房间同样大小的屏障外壳，只要眼部检查到上方80格为屏障就立刻判定为出界
-execute as @a[tag=spectator,scores={deathState=0}] at @s anchored eyes if block ~~80~ barrier positioned (本关重生点) run function aw/lib/events/player_out_of_border
-# 阻止部分因网络波动的玩家意外在上一关以冒险模式重生（#110，见https://github.com/YZBWDLT/Adventure-World-4/issues/110）
-# 无论何种情况，玩家实际上在上一关的位置都是不符合预期的
+# --- 阻止玩家出界 ---
+# 详细原理可以见我们给出的地图文档，文档链接见主函数（aw/system/main）
+
+## 阻止旁观玩家出界
+execute as @a[scores={deathState=0,spectator=!0}] at @s anchored eyes if block ~~80~ barrier positioned (本关重生点) run function aw/lib/events/player_out_of_border
+## 当玩家在上一关重生点时，回到本关
 execute as @a positioned (上关重生点) if entity @s[r=2] run tp @s (本关重生点)
+## 阻止玩家关门时跑出房间
+execute as @a at @s if block ~~80~ structure_void positioned (本关重生点) run function aw/lib/events/player_out_of_border
 
 # --- 检查存活玩家数目 ---
 # 如果存活玩家数目为 0，则触发关卡失败函数
-# 由#121（见https://github.com/YZBWDLT/Adventure-World-4/issues/121），该函数必须置于【阻止旁观模式的玩家出界】后执行
 execute if score alivePlayerAmount data matches 0 run function aw/levels/chapter(X)/level(Y)/fail
 
 ```
+
+- **有关`阻止玩家出界`模块的说明**：
+  - `阻止旁观玩家出界`的原理：本地图的旁观机制已经全面升级，采用 1.19.50 的旁观模式。每个关卡都有一个独特的旁观区，旁观玩家（`spectator.@s == 1 || spectator.@s == 2`的玩家）将被严格限制在这个区域内。该区域是由该关卡外壳和内部贴墙实体方块改为屏障而构造的，并处于每关正上方 80 格处。
+  - `当玩家在上一关重生点时，回到本关`的原理：正常情况下，玩家死亡会复活到上一关。因此，为限制玩家到本关区域中旁观，需进行额外的检测和传送。按照 [#110](https://github.com/YZBWDLT/Adventure-World-4/issues/110)，为阻止部分因网络波动的玩家意外在上一关以冒险模式重生，这里不设旁观模式玩家的限制。
+  - `阻止玩家关门时跑出房间`的原理：关门时玩家可能可以跑出房间。因此，在每关门外都设置了一个检测区域，该检测区域上方 80 格为结构空位，只要玩家跑到该区域内就传送回去。
+  - `检查存活玩家数目`模块应置于`阻止玩家出界`模块之后，详见[#121](https://github.com/YZBWDLT/Adventure-World-4/issues/121)
 
 ---
 
@@ -551,7 +556,7 @@ function aw/lib/events/rename_magma_cube
 # (X)-(Y)
 
 # --- 检查玩家进入下一个关卡 ---
-execute positioned (下关重生点) positioned ~-2.4~-1~-2.4 as @a[tag=!spectator,scores={deathState=0}] if entity @s[dx=3.8,dy=3,dz=3.8] unless entity @s[x=(门位置最小x),y=(门位置最小y),z=(门位置最小z),(dx|dz)=2,dy=2] at @s run function aw/levels/chapter(X)/level((Y)+1)/start
+execute positioned (下关重生点) positioned ~-2.4~-1~-2.4 if score pausing data matches 0 as @a[scores={deathState=0,spectator=!1}] if entity @s[dx=3.8,dy=3,dz=3.8] unless entity @s[x=(门位置最小x),y=(门位置最小y),z=(门位置最小z),(dx|dz)=2,dy=2] at @s run function aw/levels/chapter(X)/level((Y)+1)/start
 execute positioned (下关重生点) positioned ~-2~-1~-2 as @e[dx=3,dy=3,dz=3,type=aw:wind_pearl] run kill @s
 
 # --- 剧情 ---
@@ -640,7 +645,7 @@ execute if score playerAmount data matches 2.. run tp @s (本关重生点)
 execute if score levelCompleted data matches 0 run spawnpoint @s (上关重生点)
 ## 设置玩家为旁观模式 | 仅限多人模式下运行
 execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run tellraw @s {"rawtext":[{"translate":"§e检测到您重新进入游戏，已将您调整为旁观者。在下一波开始后，您便可以参与游戏。"}]}
-execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run tag @s add spectator
+execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run scoreboard players set @s[scores={spectator=!2}] spectator 1
 execute if score levelCompleted data matches 0 if score playerAmount data matches 2.. run gamemode spectator @s
 
 # --- 完成关卡后 ---
@@ -691,6 +696,7 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | `killCount.@s` | 玩家击杀数 | `0`- | `0` |
 | `isOnline.@s` | 玩家是否在线 | `0`：刚进入游戏，`1`：在线 | `1` |
 | `gameId.@s` | 玩家当前的游戏 ID，与`data.gameId`一致时则为本次游戏 | `1000`-`9999` | 在可选范围内随机 |
+| `spectator.@s` | 玩家当前的旁观状态 | `0`：未旁观，`1`：旁观中，`2`：启用主动旁观 | `0` |
 
 ### `active`
 
@@ -706,6 +712,7 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | `data.alivePlayerAmount` | 存活的玩家人数 | `0`- | 实时判断 |
 | `data.allowAcousticStoneCrystal` | 是否启用传声石结晶 | `0`：禁用，`1`：启用 | `0` |
 | `data.allowNpcInteraction` | NPC 是否允许交互 | `0`：禁用，`1`：启用 | `1` |
+| `data.allowQuit` | 是否启用退出 | `0`：禁用，`1`：启用 | `1` |
 | `data.allowRemoveItemEntity` | 是否允许移除掉落物实体 | `0`：不允许，`1`：允许 | `1` |
 | `data.allowTpPlayerWhenStart` | 是否允许在开始游戏时传送玩家 | `0`：不允许，`1`：允许 | `1` |
 | `data.chapter` | 当前正在进行的章节数 | `0`：开始前&村庄，`1`-`7`：游戏章节，`10`：结束后的村庄 | `0` |
@@ -720,6 +727,7 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | `data.levelCompleted` | 关卡是否完成 | `0`：进行中，`1`：已完成 | `1` |
 | `data.maxWave` | 本关目前最大波数 | `1`-`5` | `1` |
 | `data.monsterAmount` | 怪物数，在 4-4 排除守卫者 | `0`- | 实时判断 |
+| `data.pausing` | 是否正在暂停游戏 | `0`：未暂停，`1`：暂停 | `0` |
 | `data.playerAmount` | 玩家总人数 | `0`- | 实时判断 |
 | `data.potionUsed` | 是否有玩家使用过主药水或副药水 | `0`：没有，`1`：有 | `0` |
 | `data.timeLapse` | 时间线是否启用时间流逝 | `0`：禁用，`1`-：启用 | `0` |
@@ -786,7 +794,6 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | 变量名 | 含义 | 默认值 |
 | :---: | --- | :---: |
 | `outOfBorder` | 玩家是否在旁观模式下出界 | `false` |
-| `spectator` | 玩家是否在游戏中死亡，成为旁观者 | `false` |
 | `supplyArrow` | 是否为玩家提供箭 | `false` |
 | `supplyAllPotions` | 是否为玩家提供药水（全种类） | `false` |
 
