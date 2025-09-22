@@ -9,7 +9,22 @@ import Issue from '/src/components/highlight/issue';
 
 ## 当前仍存在的问题
 
-> 哇塞！目前还没有仍存在的问题。请积极反馈漏洞，让我们知道地图出现了哪些问题吧！
+### 海底神殿顶头跳位置可以直接翻过去 #38
+
+- **汇报**：lanos
+- **类型**：<Issue text="漏洞"/>
+- **等级**：<Issue text="一般"/>
+- **影响版本**：v0.65
+- **确认情况**：<Issue text="已确认"/>
+- **解决情况**：<Issue text="未解决"/>
+
+### 简化海底神殿迷宫 #40
+
+- **汇报**：lanos
+- **类型**：<Issue text="建议"/>
+- **影响版本**：v0.65
+- **确认情况**：<Issue text="已确认"/>
+- **解决情况**：<Issue text="未解决"/>
 
 ---
 
@@ -314,4 +329,12 @@ import Issue from '/src/components/highlight/issue';
 - **类型**：<Issue text="漏洞"/>
 - **等级**：<Issue text="一般"/>
 - **影响版本**：v0.56
+- **确认情况**：<Issue text="不予修复"/>
+
+### 可以用方块把自己困在水里 #39
+
+- **汇报**：lanos
+- **类型**：<Issue text="漏洞"/>
+- **等级**：<Issue text="重要"/>
+- **影响版本**：v0.65
 - **确认情况**：<Issue text="不予修复"/>

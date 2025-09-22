@@ -82,13 +82,14 @@ authors: [量筒]
 
 | 称呼 | XboxID | 代表物<br/>颜色代码 | 成员墙<br/>状态 | 备注 |
 | :---: | :---: | :---: | :---: | --- |
+| 鱼周 | UnhandyShark856 | —<br/>— | ❔ | 马可服群管理、服管理，生存服贡献较大，测试贡献大 |
 | 龙龙 | longlongxiaotao | —<br/>— | ❔ | 测试贡献大 |
 | 烟雨 | RustyAbyss29193 | 爆裂绿色尾迹烟花<br/>— | ❔ | 测试贡献大 |
+| 橘子 | freeorange114 | —<br/>— | ❔ | 测试贡献大 |
 | 星辰 | xc13599305 | 樱花木板<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
 | 十三酱 | L52th<br/>Rss and L53 | 红砂岩<br/>§c | ✔ | 生存服贡献大；测试贡献较大 |
 | 小意 | Xiaoyia666<br/>PrisonedSnow917 | —<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
 | 月 | llytalo | —<br/>— | ❔ | 测试贡献较大 |
-| 白洲梓 | bai zhou zi5631 | —<br/>— | ❔ | 测试贡献较大 |
 | Ar | Nan66666666<br/>NanXAS | 金苹果<br/>§r§l§e | ✔ | 生存服贡献大 |
 | 千里 | EnderLifeRyan<br/>EnderLife5409 | 末影珍珠<br/>§5§l | ✔ | 生存服贡献大 |
 | 宽判 | kuanpan 9527<br/>ADOFAI7bg | 红石矿石<br/>— | ✔ | 生存服贡献较大 |
@@ -96,7 +97,6 @@ authors: [量筒]
 | 马可 | MAXOUYT8117 | —<br/>— | ❔ | 生存服贡献较大 |
 | 命令块 | CommandBlock228 | 灰色旗帜 (绿色波纹边，淡灰色砖纹<br/>黑色菱形，黑色花朵图案，白色模型头像)<br/>§l§4 | ❔ | 生存服贡献较大 |
 | 塞拉 | Traptrix SL | 金锭<br/>— | ✔ | 代表物欲修改为钓鱼竿；生存服贡献较大；由 **@量筒** 邀请来 |
-| 鱼周 | UnhandyShark856 | —<br/>— | ❔ | 马可服群管理、服管理 |
 | 小面包 | Xiaomianbao2007 | —<br/>— | ❔ | 马可服服管理 |
 | 辉金 | huijinya520 | 金粒<br/>§l§6 | ✔ | 知名视频作者 |
 | 地雷 | Peroxide07122 | TNT<br/>— | ❔ | |
@@ -120,7 +120,6 @@ authors: [量筒]
 | 泽泽 | SageBasket91286 | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | — | Explorer95270 | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | 巢小羊 | aaaLCxy | —<br/>— | ❔ | 由 **@小鼠** 邀请来 |
-| 橘子 | freeorange114 | —<br/>— | ❔ | |
 
 ## 普通成员（无生存服白名单）
 
@@ -136,13 +135,15 @@ authors: [量筒]
 
 | 称呼 | XboxID | 备注 |
 | :---: | :---: | --- |
+| 帕 | Hfpa0117 | 测试贡献较大 |
+| 残梦 | XiaomLuoch | 测试贡献较大 |
+| 王牌 | wang9800 | 测试贡献较大 |
 | E尘 | E1cheng | 知名开发者 |
 | Xero | ProjectXero1042 | 知名开发者 |
 | 冷辰 | RelyingPants365 | 知名开发者 |
 | 急尘 | jichenNGU | 知名视频作者 |
 | 嘉睿 | HuanGuangYC | |
 | 晓鱼 | muxiaoyu040203 | |
-| 残梦 | XiaomLuoch | |
 | 命令君 | CBerJun | |
 | 浮纸 | FloatPaper3972 | |
 | 菜鸡蛛 | yzcjzqwq | |
@@ -164,12 +165,10 @@ authors: [量筒]
 | 轻雨酱 | YMQY1315 | |
 | 大河月 | Xbox Angel3518 | |
 | 抖抖抖 | SpyingLace85493 | |
-| 王牌 | wang9800 | |
 | 海王星 | Neptune exe1591 | |
 | xsg | xsg868758 | |
 | 奕航 | hyh9165 | |
 | 花花 | FlowerTNT | |
-| 帕 | Hfpa0117 | |
 
 ## 离群成员（未违规）
 
@@ -194,13 +193,13 @@ authors: [量筒]
 | 猪猪 | RashBeatle64497 | |
 | 123 | Qwe 1239974 | |
 | 基德 | MildTurt | |
-| 鲱鱼 | SevereFish20551 | 因 8 月 14 日起床战争测试频繁爆粗口，禁止进入任何服务器。 |
+| 鲱鱼 | SevereFish20551 | 因 8 月 14 日起床战争测试频繁爆粗口，禁止进入任何服务器 |
 | soak | SoakChee | |
-| 小林 | zhangjiaxiang11 | 有生存服白名单，但还未经过 3 次测试。 |
-| 玖 | HomeLuckyHope | 有生存服白名单，但还未经过 3 次测试。 |
-| 老中医 | The star520 | 有生存服白名单，但还未经过 3 次测试。 |
-| kokoa | — | 有生存服白名单，但还未经过 3 次测试。 |
-| Lin | linchi723 | 有生存服白名单，但还未经过 3 次测试。 |
+| 小林 | zhangjiaxiang11 | 有生存服白名单，但还未经过 3 次测试 |
+| 玖 | HomeLuckyHope | 有生存服白名单，但还未经过 3 次测试 |
+| 老中医 | The star520 | 有生存服白名单，但还未经过 3 次测试 |
+| kokoa | — | 有生存服白名单，但还未经过 3 次测试 |
+| Lin | linchi723 | 有生存服白名单，但还未经过 3 次测试 |
 | 星空 | moyanlove435836 | |
 | han | han123123123 | |
 | 清风 | qing feng 00317 | |
@@ -208,6 +207,7 @@ authors: [量筒]
 | 鱼 | yuremain | |
 | 欣叶 | xinye2012 | |
 | 零七 | pqwp114514qwpq | |
+| 白洲梓 | bai zhou zi5631 | 有生存服白名单 |
 
 ## 离群成员（违规）
 
