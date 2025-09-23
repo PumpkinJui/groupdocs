@@ -13,7 +13,7 @@ import FileType from "/src/components/type/file";
 
 :::warning[适用版本]
 
-本文档仅适用于版本 Beta 4.2_02。
+本文档仅适用于版本 4.2。
 
 本文的内容将始终服务于本地图的最高版本，这意味着本文档中的内容可能会随着地图更新而随时变动。对于更低版本，因为底层已全面更新，所以下文内容将有大半不再适用于旧版本，我们也不会提供文档支持。
 
@@ -193,57 +193,40 @@ execute if score levelCompleted data matches 1 if score playerAmount data matche
 
 [↗ 回到各关卡架构](#各关卡架构)
 
-其中，调用的通用函数将设置为：
+其中，调用的初始化函数将设置：
+
+- 各关的门的位置
+- 迷雾
+- 移除原有的名称标记，并新增一个新的章节名标记
+- 加载各关卡的初始结构
+
+调用的通用函数将设置为：
 
 - 剧情期间（`data.levelCompleted = 0`）
 - 对话状态（锁定玩家视角，禁止与 NPC 交互，禁止 HUD，流逝时间线，存在多个玩家时施加隐身）
 - 补充玩家的箭和药水
 - 播放标题和音效
-- 清除所有的怪物、生成器、御风珠、门（同时会打开门）、引导点和带有`aw:marker_type="name"`实体属性的标记
+- 清除所有的怪物、生成器、御风珠、门（同时会打开门）和引导点
 
 ```mcfunction showLineNumbers title="aw/levels/chapter(X)/level0/start.mcfunction"
 # ===== 开始关卡 =====
 # (X)-0 | (章节名)神殿
 
-# --- 关卡参数 ---
-## 关卡 ID
+# --- 初始化 ---
+
+## 调用初始化函数
+function aw/levels/chapter(X)/init
+## 设置关卡 ID
 scoreboard players set chapter data (X)
 scoreboard players set level data 0
-
-# --- 玩家处理 ---
-
-## 播放标题 | 应先于[调用通用函数]模块
+## 播放标题
 titleraw @a title {"rawtext":[{"translate":"(章节颜色代码)§l((章节名)，加空格) 神 殿"}]}
 ## 在剧情模式下传送玩家
 execute if score storyMode settings matches 1 run (tp @a ...)
-
-# --- 调用通用函数 ---
+## 调用通用函数
 function aw/lib/events/levels/start_chapter
 
-# --- 生成各关的门 ---
-## (X)-1
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-## (X)-2
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-## (X)-3
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-## (X)-4
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-## (X)-5
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-(summon aw:door (x y z) (0|90) 0 aw:set_(desert|forest|lake|frost|redstone|mountain|final)_door)
-
-# --- 生成章节名 ---
-# 应后于[调用通用函数]模块
-summon aw:marker -83 1 -2 0 0 aw:set_chapter_name "(章节颜色代码)(章节名)神殿"
-
-# --- 添加迷雾 ---
-fog @a remove gameFog
-fog @a push aw:(desert|forest|lake|frost|redstone|mountain|final)_temple gameFog
+# --- 关卡特殊功能 ---
 
 ```
 
@@ -777,7 +760,21 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | `settings.developerMode` | 开发者模式是否启用 | `0`：禁用，`1`：启用 | `0` |
 | `settings.difficulty` | 地图难度 | `1`-`4` | `1` |
 | `settings.extraDifficulty` | 额外地图难度，直接累加到地图难度（基础值）上 | `-3`-`3` | `0` |
+| `settings.level` | 二周目的关卡设置 | `0`-`23` | `0` |
 | `settings.storyMode` | 剧情模式是否启用 | `0`：禁用，`1`：启用 | `0` |
+
+- 备注：`settings.level`的对应值为：
+
+  | 关卡   | 值  | 关卡 | 值   | 关卡 | 值  |
+  | ----- | --- | --- | ---- | --- | ---- |
+  | 全流程 | `0` | 3-2 | `8`  | 6-2 | `16` |
+  | 1-1   | `1` | 3-3 | `9`  | 6-3 | `17` |
+  | 1-2   | `2` | 3-4 | `10` | 6-4 | `18` |
+  | 1-3   | `3` | 4-1 | `11` | 7-1 | `19` |
+  | 2-1   | `4` | 4-2 | `12` | 7-2 | `20` |
+  | 2-2   | `5` | 4-3 | `13` | 7-3 | `21` |
+  | 2-3   | `6` | 4-4 | `14` | 7-4 | `22` |
+  | 3-1   | `7` | 6-1 | `15` | 7-5 | `23` |
 
 ### `time`
 
@@ -862,6 +859,3 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
   - **成就**
     - [ ] 加一个2-2不使用底部机关通过的成就？
     - [ ] 加一个2-3不受伤通过的成就？
-  - **怪物生成**
-    - [ ] 召唤音效声音太大，可考虑更换一个召唤音效
-- 2-3 是否启用倒计时机制？

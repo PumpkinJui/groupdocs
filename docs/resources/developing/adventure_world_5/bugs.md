@@ -26,6 +26,15 @@ import Issue from '/src/components/highlight/issue';
 - **确认情况**：<Issue text="已确认"/>
 - **解决情况**：<Issue text="未解决"/>
 
+### 海底神殿结构空位阻水存在漏洞 #41
+
+- **汇报**：比翼鸟
+- **类型**：<Issue text="漏洞"/>
+- **等级**：<Issue text="一般"/>
+- **影响版本**：v0.65
+- **确认情况**：<Issue text="已确认"/>
+- **解决情况**：<Issue text="未解决"/>
+
 ---
 
 ## 已解决的问题
@@ -336,5 +345,12 @@ import Issue from '/src/components/highlight/issue';
 - **汇报**：lanos
 - **类型**：<Issue text="漏洞"/>
 - **等级**：<Issue text="重要"/>
+- **影响版本**：v0.65
+- **确认情况**：<Issue text="不予修复"/>
+
+### 在海底神殿增加彩蛋，吐槽不抬头找不到路 #42
+
+- **汇报**：比翼鸟
+- **类型**：<Issue text="建议"/>
 - **影响版本**：v0.65
 - **确认情况**：<Issue text="不予修复"/>
