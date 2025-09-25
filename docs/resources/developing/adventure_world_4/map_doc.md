@@ -751,7 +751,15 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | `record.bestTime.singlePlayer.difficulty3.second` | 单人模式的最佳游戏时间（难度 3，单位：秒） | `0`- | `59` |
 | `record.bestTime.singlePlayer.difficulty4.minute` | 单人模式的最佳游戏时间（难度 4，单位：分钟） | `0`- | `9999` |
 | `record.bestTime.singlePlayer.difficulty4.second` | 单人模式的最佳游戏时间（难度 4，单位：秒） | `0`- | `59` |
+| `record.difficulty` | 通关时的难度 | `1`-`4` | `1` |
+| `record.failedCount` | 通关时的失败次数 | `0`- | `0` |
+| `record.hasCheat` | 通关时是否有人作弊 | `0`：无，`1`：有 | `0` |
 | `record.mapCompletedTimes` | 地图通关次数 | `0`- | `0` |
+| `record.playerAmount` | 通关时的玩家人数 | `1`- | `1` |
+| `record.playedSecond` | 通关时的游玩秒数 | `0`- | `0` |
+| `record.playedMinute` | 通关时的游玩分钟数 | `0`- | `0` |
+| `record.potionUsed` | 通关时是否有玩家使用过主药水或副药水 | `0`：没有，`1`：有 | `0` |
+| `record.score` | 本次试炼的分数 | `-1`-`150` | `0` |
 
 ### `settings`
 
