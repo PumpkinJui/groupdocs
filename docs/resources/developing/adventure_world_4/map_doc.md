@@ -722,6 +722,7 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 
 | 变量名 | 含义 | 允许值 | 默认值 |
 | :---: | --- | :---: | :---: |
+| `record.achievement` | 当前获得的成就数量 | `0`-`24` | `0` |
 | `record.achievement.explode3Times` | 成就[耐砸王]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
 | `record.achievement.failAtFirst` | 成就[出师未捷身先死]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
 | `record.achievement.findButton1` | 成就[躲这里不错]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
@@ -869,12 +870,3 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 | 烈焰之魂 | `aw:spawn_blaze_king` | `24` |
 | 唤魔法师 | `aw:spawn_evoker` | `25` |
 | 带盾僵尸 | `aw:spawn_zombie_shield` | `26` |
-
-## 当前已知问题 & Todo list
-
-[↗ 跳转到 Github Issue](https://github.com/YZBWDLT/Adventure-World-4/issues)
-
-- **全局**
-  - **成就**
-    - [ ] 加一个2-2不使用底部机关通过的成就？
-    - [ ] 加一个2-3不受伤通过的成就？
