@@ -89,6 +89,7 @@ authors: [量筒]
 | 星辰 | xc13599305 | 樱花木板<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
 | 十三酱 | L52th<br/>Rss and L53 | 红砂岩<br/>§c | ✔ | 生存服贡献大；测试贡献较大 |
 | 小意 | Xiaoyia666<br/>PrisonedSnow917 | —<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
+| 帕 | Hfpa0117| —<br/>— | ❔ | 生存服贡献较大，测试贡献较大 |
 | 月 | llytalo | —<br/>— | ❔ | 测试贡献较大 |
 | Ar | Nan66666666<br/>NanXAS | 金苹果<br/>§r§l§e | ✔ | 生存服贡献大 |
 | 千里 | EnderLifeRyan<br/>EnderLife5409 | 末影珍珠<br/>§5§l | ✔ | 生存服贡献大 |
@@ -112,6 +113,7 @@ authors: [量筒]
 | laolu | laolu444222 | —<br/>— | ❔ | |
 | 条形马 | QRnobelly | 皮革<br/>— | ❔ | |
 | 木糖 | Xylitol2337 | —<br/>— | ❔ | |
+| 海王星 | Neptune exe1591 | —<br/>— | ❔ | |
 | 蘑菇 | xRprncQ | 羽毛<br/>— | ✔ | 考核前进服 |
 | 麦热 | havefuningame07 | 铁剑<br/>— | ✔ | 考核前进服 |
 | Dull | Dull12133<br/>RenJi12138<br/>Dull1213 | —<br/>— | ✘ | 考核前进服 |
@@ -135,9 +137,8 @@ authors: [量筒]
 
 | 称呼 | XboxID | 备注 |
 | :---: | :---: | --- |
-| 帕 | Hfpa0117 | 测试贡献较大 |
 | 残梦 | XiaomLuoch | 测试贡献较大 |
-| 王牌 | wang9800 | 测试贡献较大 |
+| 王牌 | wang9800 | 测试贡献较大；10 月 30 日后可再次考核 |
 | E尘 | E1cheng | 知名开发者 |
 | Xero | ProjectXero1042 | 知名开发者 |
 | 冷辰 | RelyingPants365 | 知名开发者 |
@@ -165,7 +166,6 @@ authors: [量筒]
 | 轻雨酱 | YMQY1315 | |
 | 大河月 | Xbox Angel3518 | |
 | 抖抖抖 | SpyingLace85493 | |
-| 海王星 | Neptune exe1591 | |
 | xsg | xsg868758 | |
 | 奕航 | hyh9165 | |
 | 花花 | FlowerTNT | |
