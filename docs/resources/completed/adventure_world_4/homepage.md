@@ -48,7 +48,7 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 
 - [123云盘](https://www.123pan.com/s/t3TqVv-77Tkh.html)
 - [百度网盘](https://pan.baidu.com/s/1lt-ji0If782TgV_NsLq1gQ?pwd=mxsj)
-- [蓝奏云](https://wwf.lanzouo.com/iqnmX20gubje)
+- [蓝奏云（密码：aw42）](https://wwaa.lanzouo.com/b00653s6za)
 
 ### 各大论坛或平台
 
@@ -56,6 +56,7 @@ description: 《冒险世界：苏醒》的续作，一张完美适配多人的�
 - [KLPBBS](https://klpbbs.com/thread-137174-1-1.html)
 - [MineBBS](https://www.minebbs.com/resources/1-20-30-pve.8392/)
 - [TITAIKE](https://www.titaike.cn/5041.html)
+- [红石中继站](https://www.mczwlt.net/resource/psbfnn56)
 - 中国版资源中心
 
 ---
