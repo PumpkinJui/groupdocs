@@ -38,8 +38,7 @@ sidebar_position: 1
 
 个人博客：
 
-- [https://xiaozhiyuqwq.top/](https://xiaozhiyuqwq.top/)
-- [https://nekoawa.com](https://nekoawa.com/)
+[https://www.sakuranyako.com/](https://www.sakuranyako.com/)
 
 ### [@UsamiRenko04](https://github.com/UsamiRenko04)
 
@@ -49,9 +48,17 @@ sidebar_position: 1
 
 小飞侠，仓库协作者，群管理员。
 
+高三 er，更新又少又慢，见谅。
+
+*这是一种传承。*
+
 个人博客：
 
 [![Cloudflare Pages](/badges/cloudflare.svg)](https://wstd.pages.dev/)
+
+### [@foxKrisChambers](https://github.com/foxKrisChambers)
+
+文雨，仓库协作者，群管理员。
 
 ## 托管 & 域名
 

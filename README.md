@@ -4,7 +4,7 @@
 [![License: CC BY 4.0. Learn more at LICENSE OVERVIEW.](https://img.shields.io/github/license/PumpkinJui/groupdocs?style=for-the-badge&logo=creativecommons&logoColor=white&color=477DB2)](./docs/about/license_overview.md)
 ![Repo Size: Various.](https://img.shields.io/github/repo-size/PumpkinJui/groupdocs?style=for-the-badge&logo=docusaurus&logoColor=white&color=477DB2)
 
-[![Contributor number: 6 for now. Learn more at ABOUT PAGE.](https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge&logo=qq&logoColor=white)](about/about_groupdocs.md)
+[![Contributor number: 7 for now. Learn more at ABOUT PAGE.](https://img.shields.io/github/contributors-anon/PumpkinJui/groupdocs?style=for-the-badge&logo=qq&logoColor=white)](about/about_groupdocs.md)
 ![Branch Check Runs: PASSING, FAILING or PENDING.](https://img.shields.io/github/check-runs/PumpkinJui/groupdocs/main?style=for-the-badge&logo=cloudflarepages&logoColor=white)
 
 [![Commit Activity: How many commits are there in total.](https://img.shields.io/github/commit-activity/t/PumpkinJui/groupdocs?style=for-the-badge&color=yellow)](https://github.com/PumpkinJui/groupdocs/commits/main/)
