@@ -454,7 +454,7 @@ authors: [ 量筒 ]
 
 我们还关注了很多大家汇报的漏洞并予以修复，同时还修改了多处小细节。这次的更新很多，来看看这次更新了什么吧。
 
-![v0.65_cover](/resources/adventure_world_5/update_log/v0.65_cover.png)
+![v0.65_cover](/resources/adventure_world_5/update_log/v0.65_cover.webp)
 
 ### 音乐
 
