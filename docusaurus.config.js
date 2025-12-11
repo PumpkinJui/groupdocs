@@ -138,8 +138,7 @@ const config = {
                     title: '授权许可',
                     items: [
                         { label: 'CC-BY-4.0', href: 'https://creativecommons.org/licenses/by/4.0/deed.zh-hans' },
-                        { label: '许可证概览', to: '/docs/about/license/overview_zh' },
-                        { label: 'License Overview', to: '/docs/about/license/overview_en' }
+                        { label: '许可证概览', to: '/docs/about/license_overview' }
                     ],
                 },
                 {
