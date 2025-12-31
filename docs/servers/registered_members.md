@@ -89,7 +89,7 @@ authors: [量筒]
 | 星辰 | xc13599305 | 樱花木板<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
 | 十三酱 | L52th<br/>Rss and L53 | 红砂岩<br/>§c | ✔ | 生存服贡献大；测试贡献较大 |
 | 小意 | Xiaoyia666<br/>PrisonedSnow917 | —<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
-| 帕 | Hfpa0117| —<br/>— | ❔ | 生存服贡献较大，测试贡献较大 |
+| 帕 | Hfpa0117 | —<br/>— | ❔ | 生存服贡献较大，测试贡献较大 |
 | 月 | llytalo | —<br/>— | ❔ | 测试贡献较大 |
 | Ar | Nan66666666<br/>NanXAS | 金苹果<br/>§r§l§e | ✔ | 生存服贡献大 |
 | 千里 | EnderLifeRyan<br/>EnderLife5409 | 末影珍珠<br/>§5§l | ✔ | 生存服贡献大 |
@@ -143,6 +143,8 @@ authors: [量筒]
 | E尘 | E1cheng | 知名开发者 |
 | Xero | ProjectXero1042 | 知名开发者 |
 | 冷辰 | RelyingPants365 | 知名开发者 |
+| YanRan | YanRan233 | 知名开发者 |
+| 萝卜 | jincarrot | 知名开发者 |
 | 急尘 | jichenNGU | 知名视频作者 |
 | 嘉睿 | HuanGuangYC | |
 | 晓鱼 | muxiaoyu040203 | |
@@ -171,6 +173,7 @@ authors: [量筒]
 | 花花 | FlowerTNT | |
 | Panda | CutePandaBL | |
 | 大大怪 | yhjjj1957 | |
+| 芝士 | ssdbzs | |
 
 ## 离群成员（未违规）
 
@@ -217,7 +220,7 @@ authors: [量筒]
 | :---: | :---: | :---: | --- | --- |
 | 万时 | ichicken233 | 5 | 多次出言不逊 | |
 | 光之子 | AdroitMallard14 | 5 | 在生存服中作弊 | |
-| De<br/><br/>JA | Demonioron<br/>Demoniort<br/>Adiosdem | 5 | 多次出言不逊；挑动群员分裂；散播谣言；隐瞒身份等 | **严厉谴责五档开小号进群的卑劣无耻行为！** |
+| De<br/><br/>JA  | Demonioron<br/>Demoniort<br/>Adiosdem | 5 | 多次出言不逊；挑动群员分裂；散播谣言；隐瞒身份等 | **严厉谴责五档开小号进群的卑劣无耻行为！** |
 | 颜某 | aaaaaaaa1231407 | 5 | 发表疑似反动言论 | |
 | 楠木 | nanmucancan | 4 | 8 月 14 日起床战争测试开连点器作弊 | |
 | 小 H | Halshtain | 1 | 以不当言论攻击其他群员 | |
