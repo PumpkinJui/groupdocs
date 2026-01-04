@@ -64,6 +64,7 @@ authors: [小飞侠]
 **唯一**的官方正式版下载渠道。要进行下载，你必须满足以下条件：
 
 - 拥有一个外区的 Apple 账户。
+
 <details>
 
 <summary>什么是外区 Apple 账户？</summary>
@@ -82,4 +83,4 @@ authors: [小飞侠]
 
 ## 参考
 
-[^1]: https://zh.minecraft.wiki/w/Minecraft
+[^1]: [https://zh.minecraft.wiki/w/Minecraft](https://zh.minecraft.wiki/w/Minecraft)
