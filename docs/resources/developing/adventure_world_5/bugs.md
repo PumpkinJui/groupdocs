@@ -9,15 +9,6 @@ import Issue from '/src/components/highlight/issue';
 
 ## 当前仍存在的问题
 
-### 孙嘉睿错误地使用了陈林夕的皮肤 #43
-
-- **汇报**：文雨
-- **类型**：<Issue text="漏洞"/>
-- **等级**：<Issue text="细节"/>
-- **影响版本**：v0.75
-- **确认情况**：<Issue text="已确认"/>
-- **解决情况**：<Issue text="未解决"/>
-
 ---
 
 ## 已解决的问题
@@ -287,7 +278,16 @@ import Issue from '/src/components/highlight/issue';
 - **等级**：<Issue text="一般"/>
 - **影响版本**：v0.65
 - **确认情况**：<Issue text="已确认"/>
-- **解决情况**：<Issue text="未解决"/>
+- **解决情况**：<Issue text="v0.70"/>
+
+### 孙嘉睿错误地使用了陈林夕的皮肤 #43
+
+- **汇报**：文雨
+- **类型**：<Issue text="漏洞"/>
+- **等级**：<Issue text="细节"/>
+- **影响版本**：v0.75
+- **确认情况**：<Issue text="已确认"/>
+- **解决情况**：<Issue text="v0.80"/>
 
 ---
 
