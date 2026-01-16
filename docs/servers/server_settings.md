@@ -105,10 +105,22 @@ sidebar_position: 1
 
 ## 起床战争服
 
-> 基于本群资源[量筒的起床战争](../resources/developing/bedwars/homepage)的最新稳定版而开服。
+> 基于本群资源[量筒的起床战争](../resources/developing/bedwars/homepage)而开服。
 >
 > 友谊第一，比赛第二！禁止作弊哦！
 
+### 稳定服
+
+基于起床战争的稳定版本开服。
+
 - 地址 - apple.cvm.xiaozhiyuqwq.top / apple.cvm.nekoawa.com
 - 端口 - 10000
+- 版本 - 1.21.130
+
+### 测试服
+
+基于起床战争的最新测试版本开服。
+
+- 地址 - apple.cvm.xiaozhiyuqwq.top / apple.cvm.nekoawa.com
+- 端口 - 11000
 - 版本 - 1.21.130
