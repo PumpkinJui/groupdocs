@@ -67,7 +67,7 @@ authors: [量筒]
 
 祝你在新的经验模式中偷床顺利！>:)
 
-![alpha_1.1_03_shop](/resources/bedwars/update_log/alpha_1.1_03_shop.png)
+![alpha_1.1_03_shop](/resources/bedwars/update_log/alpha_1.1_03_shop.webp)
 
 ### 经验模式
 

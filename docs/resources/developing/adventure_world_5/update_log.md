@@ -561,7 +561,7 @@ authors: [ 量筒 ]
 
 此外，该版本还加入了一个全新的区域，和几首新的音乐。一起来看看这次的更新内容吧！
 
-![v0.75_cover](/resources/adventure_world_5/update_log/v0.75_cover.png)
+![v0.75_cover](/resources/adventure_world_5/update_log/v0.75_cover.webp)
 
 ### 下界要塞
 
@@ -677,7 +677,7 @@ authors: [ 量筒 ]
 
 最后，是本次的更新内容！这次是一次「怀旧」主题的更新，在这次新增加的地牢中，你会看到很多以前的地图元素，比如……哦，嘿嘿，差点说漏嘴了，反正真的非常非常非常的……旧。总之，欢迎你自己来试一试！
 
-![v0.85_cover](/resources/adventure_world_5/update_log/v0.85_cover.png)
+![v0.85_cover](/resources/adventure_world_5/update_log/v0.85_cover.webp)
 
 ### 时间神庙
 
