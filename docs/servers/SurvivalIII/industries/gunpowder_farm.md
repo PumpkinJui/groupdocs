@@ -8,6 +8,8 @@ authors: [量筒]
 
 火药塔是用于产出火药的重要工业机器。
 
+![火药塔](/servers/SurvivalIII/industries/gunpowder_farm.png)
+
 ## 基础信息
 
 - **地点** 新光昌兴区西北，银月路与火力大道交界

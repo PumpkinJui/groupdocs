@@ -15,6 +15,8 @@ authors: [量筒]
 - 它由 @PumpkinJui 建设和维护。
 - 你知道吗：尽管名为「猪灵 *交易* 所」，但不同于村民的「交易」(Trading) 机制，猪灵的机制实际名为「以物易物」(Bartering)。*但是「猪灵以物易物所」这个名字实在太垃圾了，而且没法简称。*
 
+![猪灵交易所](/servers/SurvivalIII/industries/piglin_trading_hall.png)
+
 ## 使用方法
 
 - 进入猪交所并走到尽头。

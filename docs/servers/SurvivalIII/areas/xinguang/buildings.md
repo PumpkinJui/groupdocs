@@ -297,6 +297,8 @@ authors: [量筒]
 
 顾名思义，就是**大片的经济林种植区**，新光所需的大多数木材都可在此获取。由于林场规模有限，下界的两种大型菌被种植于林场北侧的独立区域。
 
+你可以在林场伐木，但注意砍完树之后必须补种。禁止放火！
+
 ![林场](/servers/SurvivalIII/areas/xinguang/buildings/forest_farm.png)
 
 - **位置**：沐辉区，沐辉路（-100, -400）
@@ -380,7 +382,7 @@ authors: [量筒]
 
 每年新年的合影指定场地。
 
-![屠龙纪念塔](/servers/SurvivalIII/areas/xinguang/buildings/hello_202x_statue.png)
+![HELLO, 202X 雕像](/servers/SurvivalIII/areas/xinguang/buildings/hello_202x_statue.png)
 
 - **位置**：初晓区，北三环高架桥北侧，羊康路西侧（-210, -350）
 - **设计 & 建设**：量筒、文雨
