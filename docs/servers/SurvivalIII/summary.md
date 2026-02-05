@@ -24,12 +24,12 @@ description: 生存服的基本情况简介。
 
 目前，服务器内共有至少六个独立区域 (或称自治；直辖按独立区域算)，分别是：
 
-- [新光](developing_areas/xinguang/summary)（量筒、小鼠）
-- [银月](developing_areas/silvermoon/summary)（巴豆、比翼鸟）
-- [辰辉](developing_areas/chenhui)（星辰）
-- [矿山](developing_areas/diggings)（南瓜汁、文雨）
-- [雪原](developing_areas/snowfield)（鸽子、地雷）
-- [缘启城](developing_areas/yuanqi)（命令块、小面包）
+- [新光](areas/xinguang/description)（量筒、小鼠）
+- [银月](areas/silvermoon/description)（巴豆、比翼鸟）
+- [矿山](areas/diggings/description)（南瓜汁、文雨）
+- [辰辉](areas/chenhui/description)（星辰）
+- [雪原](areas/snowfield/description)（鸽子、地雷）
+- [缘启](areas/yuanqi/description)（命令块、小面包）
 
 其中，新光和银月是全服前两大发达区域。
 
@@ -37,17 +37,10 @@ description: 生存服的基本情况简介。
 
 目前，服务器共安装了五个资源包 (Resource Pack)，并由 @YZBWDLT 整合为一个包。它们分别是：
 
-- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn) 1.21.60
+- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn) 1.21.110
   - 用于修正基岩版的糟糕翻译。
-- [All Trades Visible](https://bedrocktweaks.net/resource-packs/)
-  - 用于将村民的可交易选项提前显示。
-  - 原资源包为该网页 GUI 选项的 Trading Helper 资源包。
-- [Colorful Containers](https://mcpedl.com/colourful-containers-be-2/) v4.2
-  - 用于呈现更好更优质的容器 UI。
 - [Force Mojangles](https://yzbwdlt.pages.dev/docs/dev_template/force_mojangles_v2) v2
   - 用于呈现更好的 Molangles 英文和数字字体。
-- [Markers Pack](https://www.foxynotail.com/resource-packs/markers) v2.3.1
-  - 用于利用手持旗帜的盔甲架，显示更多信息（例如区块、朝向等）。
 
 服务器的资源包为可选下载，你可以在全局资源中安装更多的包，以应用到生存服中。如欲自行安装我们所列出的包，请至「群文件：量筒测试群 - 生存服务器」下载。
 
