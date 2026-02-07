@@ -1,11 +1,13 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 authors: [量筒]
 ---
 
 # 印钞机（袭击塔）
 
 印钞机（又名袭击塔）是基于袭击原理制成的，用于量产绿宝石、不死图腾等重要物资的机器。
+
+![印钞机](/servers/SurvivalIII/industries/emerald_farm/description.png)
 
 :::warning[注意]
 

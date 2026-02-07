@@ -1,6 +1,5 @@
 ---
 sidebar_position: 8
-description: 产出由女巫掉落的诸多类型的战利品。
 authors: [量筒]
 ---
 
