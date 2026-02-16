@@ -9,9 +9,9 @@ export default function NotFoundContent({className}) {
           <Heading as="h1" className="hero__title">
             404 - Not Found
           </Heading>
-          <a href="index.html" style={{ display: 'block', marginBottom: '2rem' }}>
+          <a href="/index.html" style={{ display: 'block', marginBottom: '2rem' }}>
             <img
-              src="https://forthebadge.com/images/badges/uh-oh-404-no-pages-or-badges.svg"
+              src="https://img.shields.io/badge/404-Not_Found-red?style=for-the-badge"
               alt="404"
             />
           </a>
