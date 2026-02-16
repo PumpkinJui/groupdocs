@@ -53,7 +53,7 @@ description: 《冒险世界》的第五部续作，一张大型综合地图
 
 最终 BOSS 就是——末影龙！哼哼 UwU，是的，虽然不是纯正的原版体验，但是也让没有打过末影龙的玩家感受一下原版 BOSS 的威压，你准备好了吗？
 
-![v0.90_cover](/resources/adventure_world_5/update_log/v0.90_cover.png)
+![v0.90_cover](/resources/adventure_world_5/update_log/v0.90_cover.webp)
 
 ### 五色山
 

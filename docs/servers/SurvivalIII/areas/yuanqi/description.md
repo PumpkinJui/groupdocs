@@ -12,7 +12,7 @@ authors: []
 
 :::
 
-![缘启](/servers/SurvivalIII/areas/yuanqi/description.png)
+![缘启](/servers/SurvivalIII/areas/yuanqi/description.webp)
 
 ## 基本信息
 

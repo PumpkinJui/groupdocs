@@ -15,7 +15,7 @@ authors: [鸽子]
 - 雪原特产：云杉、雪狐狸、红狐狸、各种冰、细雪 ~~、北极熊、流浪者~~
 - 你知道吗：@Ar 可能在这里挖了好几大箱子的蓝冰。特别感谢。
 
-![雪原](/servers/SurvivalIII/areas/snowfield/description.png)
+![雪原](/servers/SurvivalIII/areas/snowfield/description.webp)
 
 ## 基本信息
 

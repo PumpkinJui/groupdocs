@@ -12,7 +12,7 @@ authors: [量筒]
 
 目前，新光全境由 @量筒（YZBWDLT）管理，在新光的部分活动需要和管理者报备。
 
-![新光](/servers/SurvivalIII/areas/xinguang/description.png)
+![新光](/servers/SurvivalIII/areas/xinguang/description.webp)
 
 ## 基本信息
 

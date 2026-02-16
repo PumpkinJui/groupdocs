@@ -7,7 +7,7 @@ authors: [量筒]
 
 猪灵交易所，简称「猪交所」（与「村交所」即村民交易所相对应），是位于下界交通矿山站下方的长条形下界砖块质结构，用于 *~~抽卡~~* 与猪灵快速进行以物易物，并将获得物品分类存储。
 
-![猪灵交易所](/servers/SurvivalIII/industries/piglin_trading_hall.png)
+![猪灵交易所](/servers/SurvivalIII/industries/piglin_trading_hall.webp)
 
 ## 基础信息
 

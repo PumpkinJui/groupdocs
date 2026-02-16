@@ -7,7 +7,7 @@ authors: [量筒]
 
 潜影壳农场是用于产出潜影壳的重要工业机器。
 
-![潜影壳农场](/servers/SurvivalIII/industries/shulker_shell_farm.png)
+![潜影壳农场](/servers/SurvivalIII/industries/shulker_shell_farm.webp)
 
 ## 基础信息
 

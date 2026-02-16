@@ -7,7 +7,7 @@ authors: [量筒]
 
 火药塔是用于产出火药的重要工业机器。
 
-![火药塔](/servers/SurvivalIII/industries/gunpowder_farm.png)
+![火药塔](/servers/SurvivalIII/industries/gunpowder_farm.webp)
 
 ## 基础信息
 

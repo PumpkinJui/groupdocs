@@ -16,7 +16,7 @@ authors: [比翼鸟]
 
 :::
 
-![银月](/servers/SurvivalIII/areas/silvermoon/description.png)
+![银月](/servers/SurvivalIII/areas/silvermoon/description.webp)
 
 ## 基本信息
 

@@ -7,7 +7,7 @@ authors: [量筒]
 
 下界要塞全怪塔是用于产出烈焰棒和凋灵骷髅头颅的重要工业机器。它基于下界要塞点位刷新的机制而运作并设计。
 
-![下界要塞全怪塔](/servers/SurvivalIII/industries/nether_fortress_farm/description.png)
+![下界要塞全怪塔](/servers/SurvivalIII/industries/nether_fortress_farm/description.webp)
 
 ## 基础信息
 

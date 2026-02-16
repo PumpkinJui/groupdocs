@@ -7,7 +7,7 @@ authors: [量筒]
 
 守卫者农场是基于海洋神殿刷新守卫者的机制而制成的机器，以量产海晶砂粒和海晶碎片。
 
-![守卫者农场](/servers/SurvivalIII/industries/guardian_farm.png)
+![守卫者农场](/servers/SurvivalIII/industries/guardian_farm.webp)
 
 ## 基础信息
 

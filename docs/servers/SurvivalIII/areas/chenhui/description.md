@@ -12,7 +12,7 @@ authors: []
 
 :::
 
-![辰辉](/servers/SurvivalIII/areas/chenhui/description.png)
+![辰辉](/servers/SurvivalIII/areas/chenhui/description.webp)
 
 ## 基本信息
 

@@ -7,7 +7,7 @@ authors: [量筒]
 
 末影人农场是基于末影人对末影珍珠砸出的末影螨的仇恨原理而制成的，量产末影珍珠的机器。
 
-![小黑塔](/servers/SurvivalIII/industries/enderman_farm.png)
+![小黑塔](/servers/SurvivalIII/industries/enderman_farm.webp)
 
 ## 基础信息
 

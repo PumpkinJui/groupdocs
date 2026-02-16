@@ -9,7 +9,7 @@ authors: [量筒]
 
 该机器的基本原理是，被红石激活的垂滴叶上方的重力方块，在区块突然加载时会复制。
 
-![刷沙机](/servers/SurvivalIII/industries/sand_farm.png)
+![刷沙机](/servers/SurvivalIII/industries/sand_farm.webp)
 
 :::danger[警告！]
 

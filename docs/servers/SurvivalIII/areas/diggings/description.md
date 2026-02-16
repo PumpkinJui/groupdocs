@@ -18,7 +18,7 @@ authors: [文雨, 南瓜汁, 量筒]
 
 目前，矿山全境由 @文雨（KrisWenYu）和 @南瓜汁（PumpkinJui）管理，在矿山的部分活动需要和管理者报备。
 
-![矿山](/servers/SurvivalIII/areas/diggings/description.png)
+![矿山](/servers/SurvivalIII/areas/diggings/description.webp)
 
 ## 基本信息
 

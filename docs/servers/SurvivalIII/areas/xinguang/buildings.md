@@ -20,7 +20,7 @@ authors: [量筒]
 
 新光仓库是一座以平滑石英等白色方块为主体，砖石屋顶的双层建筑。它是**为存储大多数类型的物资而建设的综合性存储仓库**。
 
-![新光大仓库](/servers/SurvivalIII/areas/xinguang/buildings/warehouse.png)
+![新光大仓库](/servers/SurvivalIII/areas/xinguang/buildings/warehouse.webp)
 
 **对仓库的分类系统并不清楚的群员，应当在存物品的时候存放在一楼的潜影箱里，而不是随意乱放。**
 
@@ -45,7 +45,7 @@ authors: [量筒]
 - 四楼：**各种旗帜图案和地图画的展示区**。
 - 五楼：**各种陶罐及陶片的存放处**。
 
-![艺术馆](/servers/SurvivalIII/areas/xinguang/buildings/art_gallery.png)
+![艺术馆](/servers/SurvivalIII/areas/xinguang/buildings/art_gallery.webp)
 
 - **位置**：初晓区，迎宾路与通工路交叉路口（出生点附近）（-135, -195）
 - **设计 & 建设**：量筒
@@ -57,7 +57,7 @@ authors: [量筒]
 
 武器装备库是一座红砖墙体，磨制安山岩屋顶的仓库，**是盔甲和各种工具、武器的专用仓库**。
 
-![武器装备库](/servers/SurvivalIII/areas/xinguang/buildings/weapon_and_equipment_room.png)
+![武器装备库](/servers/SurvivalIII/areas/xinguang/buildings/weapon_and_equipment_room.webp)
 
 - **位置**：初晓区，工农路北端（-150, -250）
 - **设计 & 建设**：蘑菇
@@ -71,7 +71,7 @@ authors: [量筒]
 
 餐厅为木质结构，**是食物的专用仓库**。
 
-![餐厅](/servers/SurvivalIII/areas/xinguang/buildings/restaurant.png)
+![餐厅](/servers/SurvivalIII/areas/xinguang/buildings/restaurant.webp)
 
 - **位置**：初晓区，餐厅路东端（-149, -134）
 - **设计 & 建设**：巴豆
@@ -84,7 +84,7 @@ authors: [量筒]
 
 图书大厦是一座白色混凝土外墙，平滑闪长岩层间板的高楼，**是各种书的专用仓库**，并配备一个附魔台便于附魔。目前囤积有大量附魔书及一些群友的著作，并在持续囤积图书中。
 
-![图书大厦](/servers/SurvivalIII/areas/xinguang/buildings/library.png)
+![图书大厦](/servers/SurvivalIII/areas/xinguang/buildings/library.webp)
 
 - **位置**：初晓区，一大矿大道（-140, -270）
 - **设计 & 建设**：量筒，文雨参与外墙字体建设
@@ -110,7 +110,7 @@ authors: [量筒]
 
 在 2026 年春节后，计划对新光站周边进行一次全面翻新，彻底大修新光站。
 
-![新光站](/servers/SurvivalIII/areas/xinguang/buildings/xinguang_railway_station.png)
+![新光站](/servers/SurvivalIII/areas/xinguang/buildings/xinguang_railway_station.webp)
 
 - **位置**：初晓区，中央大街 - 迎宾路交叉路口（-200, -190）
 - **设计 & 建设**：量筒
@@ -126,7 +126,7 @@ authors: [量筒]
 
 新光西站的岛完全是人工岛。
 
-![新光西站](/servers/SurvivalIII/areas/xinguang/buildings/xinguang_west_railway_station.png)
+![新光西站](/servers/SurvivalIII/areas/xinguang/buildings/xinguang_west_railway_station.webp)
 
 - **位置**：昌兴区，火力大道南端（-475, 0）
 - **设计 & 建设**：比翼鸟
@@ -138,7 +138,7 @@ authors: [量筒]
 
 新光北站是一座以磨制闪长岩为墙体，磨制安山岩为天花板的火车站。处在随明区北侧。
 
-![新光北站](/servers/SurvivalIII/areas/xinguang/buildings/xinguang_north_railway_station.png)
+![新光北站](/servers/SurvivalIII/areas/xinguang/buildings/xinguang_north_railway_station.webp)
 
 - **位置**：随明区，随明中路北端（-120, -730）
 - **设计 & 建设**：量筒
@@ -182,7 +182,7 @@ authors: [量筒]
 
 筑心站是位于筑心县的特等火车站，主体由石英和玻璃组成。筑心是全服第一个高架候车室型火车站，并明确区分了进站口和出站口。
 
-![筑心站](/servers/SurvivalIII/areas/xinguang/buildings/zhuxin_railway_station.png)
+![筑心站](/servers/SurvivalIII/areas/xinguang/buildings/zhuxin_railway_station.webp)
 
 - **位置**：筑心县，站前路（100, -1300）
 - **设计 & 建设**：量筒
@@ -207,7 +207,7 @@ authors: [量筒]
 
 村民繁殖所是位于昌兴区最西侧的一个小屋，基于村民繁殖原理而建设，用于繁殖村民。
 
-![村民繁殖所](/servers/SurvivalIII/areas/xinguang/buildings/villager_breeding.png)
+![村民繁殖所](/servers/SurvivalIII/areas/xinguang/buildings/villager_breeding.webp)
 
 - **地点**：昌兴区西北，银月路西端（-490, -110）
 - **维修者**：量筒
@@ -228,7 +228,7 @@ authors: [量筒]
 
 本机器可以和无限熔岩机或熔岩机搭配使用。
 
-![三转炉](/servers/SurvivalIII/areas/xinguang/buildings/high_speed_furnace.png)
+![三转炉](/servers/SurvivalIII/areas/xinguang/buildings/high_speed_furnace.webp)
 
 - **地点**：昌兴区东部，一大矿大道与聚宝街交叉路口（-280, -25）
 - **维修者**：量筒
@@ -249,7 +249,7 @@ authors: [量筒]
 
 村民交易所是基于村民交易机制所制成的和村民交易的场所，以大量获取实际工程可能用到的物资。村民交易所为石英材质，各种职业的村民分门别类地安置于此，新人建议领取足量绿宝石后在此换购基本的生存物资（盔甲、武器和附魔书等）。
 
-![村民交易所](/servers/SurvivalIII/areas/xinguang/buildings/villager_trading_hall.png)
+![村民交易所](/servers/SurvivalIII/areas/xinguang/buildings/villager_trading_hall.webp)
 
 - **地点**：浮霞区（-335, 180, -220）
 - **维修者**：小鼠
@@ -299,7 +299,7 @@ authors: [量筒]
 
 你可以在林场伐木，但注意砍完树之后必须补种。禁止放火！
 
-![林场](/servers/SurvivalIII/areas/xinguang/buildings/forest_farm.png)
+![林场](/servers/SurvivalIII/areas/xinguang/buildings/forest_farm.webp)
 
 - **位置**：沐辉区，沐辉路（-100, -400）
 - **建设**：量筒
@@ -310,7 +310,7 @@ authors: [量筒]
 
 梯田是基于山峰的地形走势而开垦出的梯田农场。种植小麦、胡萝卜、马铃薯和甜菜根。
 
-![梯田](/servers/SurvivalIII/areas/xinguang/buildings/terraced_fields.png)
+![梯田](/servers/SurvivalIII/areas/xinguang/buildings/terraced_fields.webp)
 
 - **位置**：晨曦区，迎阳大道（45, -365）
 - **建设**：量筒
@@ -371,7 +371,7 @@ authors: [量筒]
 - 三楼：屠龙纪念室，有全服唯一的一颗龙蛋，并记载了第一次屠龙时的玩家名字。
 - 四楼：杀凋纪念室，记载了第一次击杀凋灵时的玩家名字。
 
-![屠龙纪念塔](/servers/SurvivalIII/areas/xinguang/buildings/dragon_memorial_tower.png)
+![屠龙纪念塔](/servers/SurvivalIII/areas/xinguang/buildings/dragon_memorial_tower.webp)
 
 - **位置**：初晓区，穿环路（-170, -210）
 - **建设**：量筒
@@ -382,7 +382,7 @@ authors: [量筒]
 
 每年新年的合影指定场地。
 
-![HELLO, 202X 雕像](/servers/SurvivalIII/areas/xinguang/buildings/hello_202x_statue.png)
+![HELLO, 202X 雕像](/servers/SurvivalIII/areas/xinguang/buildings/hello_202x_statue.webp)
 
 - **位置**：初晓区，北三环高架桥北侧，羊康路西侧（-210, -350）
 - **设计 & 建设**：量筒、文雨
@@ -391,7 +391,7 @@ authors: [量筒]
 
 这里是很多失掉的值得纪念的东西的**安葬之地**。陵园的中央有一棵大树以纪念逝去的生存 II 服，周边则有许多纪念坟墓；东侧有纪念因种种意外而失掉的下界合金装备的纪念碑。东南侧建设了一个「剑斩 icrosoft」的雕像，以谴责对基岩版开发不力导致大量致命 bug 和问题出现的微软。
 
-![陵园](/servers/SurvivalIII/areas/xinguang/buildings/cemetery.png)
+![陵园](/servers/SurvivalIII/areas/xinguang/buildings/cemetery.webp)
 
 - **位置**：沐辉区，北四环辅路（-180, -480）
 - **建设**：量筒、文雨
@@ -400,7 +400,7 @@ authors: [量筒]
 
 市政厅是灰色混凝土和平滑石英为主体的两层建筑。二楼有一张新光城地图。未来市政厅预计迁址到羊康路西侧，北三环南侧。在继承原有的新光地图和发展计划书之外，预计还会融合「交通部」（即存放铺路或铁路所需材料）和屠龙纪念塔的成员表。
 
-![市政厅](/servers/SurvivalIII/areas/xinguang/buildings/town_hall.png)
+![市政厅](/servers/SurvivalIII/areas/xinguang/buildings/town_hall.webp)
 
 - **位置**：初晓区，原村路和上泽路交汇处北侧（-200, -240）
 - **建设**：量筒

@@ -7,7 +7,7 @@ authors: [量筒]
 
 刷铁机是用于产出铁的核心工业机器。此外，刷铁机配备了 20 个石匠村民，可以在此获取大量的石英块、磨制闪长岩等方块。
 
-![刷铁机](/servers/SurvivalIII/industries/iron_golem_farm.png)
+![刷铁机](/servers/SurvivalIII/industries/iron_golem_farm.webp)
 
 ## 基础信息
 

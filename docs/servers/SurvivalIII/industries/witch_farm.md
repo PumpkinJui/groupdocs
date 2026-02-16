@@ -7,7 +7,7 @@ authors: [量筒]
 
 女巫塔是一座基于女巫小屋刷新女巫的机制创建的工业机器，位于岩沙下界门门口。该塔可以产出由女巫产出的诸多类型的掉落物。
 
-![女巫塔](/servers/SurvivalIII/industries/witch_farm/description.png)
+![女巫塔](/servers/SurvivalIII/industries/witch_farm/description.webp)
 
 ## 基础信息
 

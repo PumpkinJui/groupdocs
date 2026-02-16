@@ -7,7 +7,7 @@ authors: [量筒]
 
 蛙明灯农场是用于产出蛙明灯的机器，是生存服目前唯一的蛙明灯来源。该机器基于一个拥有岩浆怪刷怪笼的堡垒遗迹而建设。
 
-![蛙明灯农场](/servers/SurvivalIII/industries/froglight_farm.png)
+![蛙明灯农场](/servers/SurvivalIII/industries/froglight_farm.webp)
 
 ## 基础信息
 

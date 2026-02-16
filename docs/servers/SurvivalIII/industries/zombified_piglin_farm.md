@@ -7,7 +7,7 @@ authors: [量筒]
 
 猪人塔是用于产出金和经验的核心工业机器。
 
-![猪人塔](/servers/SurvivalIII/industries/zombified_piglin_farm/description.png)
+![猪人塔](/servers/SurvivalIII/industries/zombified_piglin_farm/description.webp)
 
 :::warning[注意]
 
@@ -27,9 +27,9 @@ authors: [量筒]
 
 1. 通过水电梯进入猪人塔。
 2. 在三叉戟洗头机区域，关闭洗头机，并重新均匀地插入三叉戟，然后再打开洗头机。  
-   ![如何使用 1](/servers/SurvivalIII/industries/zombified_piglin_farm/how_to_use_1.png)
+   ![如何使用 1](/servers/SurvivalIII/industries/zombified_piglin_farm/how_to_use_1.webp)
 3. 前往挂机区，打开机器，手持抢夺 III 的剑或需要修复的装备挂机。
-   ![如何使用 2](/servers/SurvivalIII/industries/zombified_piglin_farm/how_to_use_2.png)
+   ![如何使用 2](/servers/SurvivalIII/industries/zombified_piglin_farm/how_to_use_2.webp)
 4. 挂机结束后，关闭机器和洗头机。
 
 ## 效率检测

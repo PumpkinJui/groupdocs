@@ -114,12 +114,12 @@ authors: [量筒]
 
 站房部分，应包括重要的下界传送门、或通往下界的通道，下界传送门或下界通道应建设到 y = 115 层。材料上，以**磨制深板岩台阶**为地板，以**石砖**为墙面，以**深板岩瓦**为天花板。应有对应的告示牌以指示方向。
 
-![nether_transit_gen1_1](/servers/SurvivalIII/nether_transit/nether_transit_gen1_1.png)  
+![nether_transit_gen1_1](/servers/SurvivalIII/nether_transit/nether_transit_gen1_1.webp)  
 ↑ 23.04.19 备份档，新光站站房
 
 在站房可设一个或多个进站口，进站口可以设定到 y = 115 或 y = 110 层或更低。进站口部分，在材料选取上类似于站房部分，需要下楼时则分别使用对应的楼梯。
 
-![nether_transit_gen1_2](/servers/SurvivalIII/nether_transit/nether_transit_gen1_2.png)  
+![nether_transit_gen1_2](/servers/SurvivalIII/nether_transit/nether_transit_gen1_2.webp)  
 ↑ 23.04.19 进站口，新光站进站口
 
 轨道部分为宽 4 格，高 2 格的隧道。其中，墙面使用**磨制安山岩**、天花板使用**磨制闪长岩台阶（下半砖）**、地面其中 2 格设置为冰道，1 格设置为矿车轨道，轨道均靠墙，并用高度为 2 格的玻璃板分隔。
@@ -128,7 +128,7 @@ authors: [量筒]
 - 玻璃板在轨道首尾安装仙人掌，以方便旅客卸船。玻璃板下的地面使用**磨制闪长岩台阶（上半砖）**。
 - 矿车轨道部分全段为动力铁轨，以**雕纹深板岩**为基底。宜每 17 格放置一个红石块，以激活动力铁轨。在轨道首尾放置**雕纹石砖**并设置按钮以启动矿车。
 
-![nether_transit_gen1_3](/servers/SurvivalIII/nether_transit/nether_transit_gen1_3.png)  
+![nether_transit_gen1_3](/servers/SurvivalIII/nether_transit/nether_transit_gen1_3.webp)  
 ↑ 23.04.19 备份档，新光站轨道
 
 ### 第二代建设标准
@@ -154,7 +154,7 @@ authors: [量筒]
   - 冰道部分铺满按钮以防刷怪，但需在仙人掌附近（为能放下仙人掌）和两侧大约 2×2 的区域（为能放下船）清空按钮。
 - 下界传送门或进入下界的通道设置到**和站台相同的高度**，并为下界传送门前后左右都预留出空间。
 
-![nether_transit_gen2_1](/servers/SurvivalIII/nether_transit/nether_transit_gen2_1.png)  
+![nether_transit_gen2_1](/servers/SurvivalIII/nether_transit/nether_transit_gen2_1.webp)  
 ↑ 25.12.12 备份档，附属矿山 B 站站台
 
 对于**换乘站**：
@@ -164,10 +164,10 @@ authors: [量筒]
 - 任意不同线路之间也有如上规格的站台。
 - 下界传送门或进入下界的通道必须**设置到站台下方的高度**，即站厅部分，且按照《条例》要求，站厅高度不宜低于 y = 105。一般参考的比较好的高度大约在 y = 108 附近。出站口设置到站台的一侧或两侧。
 
-![nether_transit_gen2_2](/servers/SurvivalIII/nether_transit/nether_transit_gen2_2.png)  
+![nether_transit_gen2_2](/servers/SurvivalIII/nether_transit/nether_transit_gen2_2.webp)  
 ↑ 25.12.12 备份档，矿山站 2 站台
 
-![nether_transit_gen2_3](/servers/SurvivalIII/nether_transit/nether_transit_gen2_3.png)  
+![nether_transit_gen2_3](/servers/SurvivalIII/nether_transit/nether_transit_gen2_3.webp)  
 ↑ 25.12.12 备份档，矿山站站厅
 
 **所有站点都应在站台上方靠近轨道一侧设置对应线路颜色的线路板**，并标明本站站名、线路途径站点和可换乘站。告示牌格式如下所示。
@@ -298,7 +298,7 @@ authors: [量筒]
 
 </details>
 
-![nether_transit_gen2_4](/servers/SurvivalIII/nether_transit/nether_transit_gen2_4.png)  
+![nether_transit_gen2_4](/servers/SurvivalIII/nether_transit/nether_transit_gen2_4.webp)  
 ↑ 25.12.12 备份档，南沙站线路板
 
 **轨道隧道统一设置为如下图的形状**：
@@ -308,7 +308,7 @@ authors: [量筒]
 - 玻璃板高度为 1 格；下方地面使用**磨制闪长岩台阶（上半砖）**。
 - 矿车轨道部分全段为动力铁轨，以**雕纹深板岩**为基底。宜每 17 格放置一个红石块，以激活动力铁轨。
 
-![nether_transit_gen2_5](/servers/SurvivalIII/nether_transit/nether_transit_gen2_5.png)  
+![nether_transit_gen2_5](/servers/SurvivalIII/nether_transit/nether_transit_gen2_5.webp)  
 ↑ 25.12.12 备份档，红线新光方向，拍摄地：银月
 
 ### 第三代建设标准
@@ -332,13 +332,13 @@ authors: [量筒]
 - 站厅部分的设计方面：
   - 现在非换乘站的下界传送门或下界出口也必须设定到站厅部分。
 
-![nether_transit_gen3_1](/servers/SurvivalIII/nether_transit/nether_transit_gen3_1.png)  
+![nether_transit_gen3_1](/servers/SurvivalIII/nether_transit/nether_transit_gen3_1.webp)  
 ↑ 绿线
 
-![nether_transit_gen3_2](/servers/SurvivalIII/nether_transit/nether_transit_gen3_2.png)  
+![nether_transit_gen3_2](/servers/SurvivalIII/nether_transit/nether_transit_gen3_2.webp)  
 ↑ 雪原站，橙线和黄线紧贴在一起（也因此做了一定的改线处理）
 
-![nether_transit_gen3_3](/servers/SurvivalIII/nether_transit/nether_transit_gen3_3.png)  
+![nether_transit_gen3_3](/servers/SurvivalIII/nether_transit/nether_transit_gen3_3.webp)  
 ↑ 试炼密室站，出站口在站台上
 
 ### 从第二代建设标准过渡到第三代建设标准
