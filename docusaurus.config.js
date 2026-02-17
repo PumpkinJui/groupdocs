@@ -26,7 +26,6 @@ const config = {
     projectName: 'groupdocs', // Usually your repo name.
 
     onBrokenLinks: 'ignore',
-    onBrokenMarkdownLinks: 'warn',
 
     // Even if you don't use internationalization, you can use this field to set
     // useful metadata like html lang. For example, if your site is Chinese, you
@@ -69,7 +68,7 @@ const config = {
     ],
 
     
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ themeConfig: ({
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ themeConfig: {
 
         // Replace with your project's social card
         image: 'img/yzbwdlt.webp',
@@ -166,7 +165,22 @@ const config = {
             apiKey: 'c5e49d41ac48f55da991d4a10221e1b2',
             indexName: 'grouppages',
         },
-    }),
+    },
+    plugins: [
+       [
+            '@docusaurus/plugin-client-redirects',
+            {
+                createRedirects(existingPath) {
+                    if (existingPath.includes('/docs/servers/s3')) {
+                        return [
+                            existingPath.replace('/s3', '/SurvivalIII'),
+                        ];
+                    }
+                    return undefined;
+                },
+            },
+        ],
+    ],
 };
 
 export default config;
