@@ -9,6 +9,21 @@
             "source": "/docs/rules/encounter",
             "destination": "/docs/rules/new",
             "statusCode": 301
+        },
+        {
+            "source": "/docs/servers/SurvivalIII/summary",
+            "destination": "/docs/servers/SurvivalIII",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/*/homepage",
+            "destination": "/docs/:splat",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/*/description",
+            "destination": "/docs/:splat",
+            "statusCode": 301
         }
     ]
 }
