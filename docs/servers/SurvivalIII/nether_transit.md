@@ -34,10 +34,10 @@ authors: [量筒]
 
 | 站点 | 站台规格 | 通过线路 |
 | --- | --- | --- |
-| [新光](./areas/xinguang/description) | 33 米低站台 | 红线、橙线、绿线、蓝线 |
-| [银月](./areas/silvermoon/description) | 30 米低站台 | 红线、黄线、蓝线 |
-| [矿山 · 猪灵交易所](./areas/diggings/description) | 32 米低站台 | 橙线、绿线、青线 |
-| [雪原 · 要塞](./areas/snowfield/description) | 25 米高站台 | 橙线、黄线、绿线、紫线 |
+| [新光](./areas/xinguang) | 33 米低站台 | 红线、橙线、绿线、蓝线 |
+| [银月](./areas/silvermoon) | 30 米低站台 | 红线、黄线、蓝线 |
+| [矿山 · 猪灵交易所](./areas/diggings) | 32 米低站台 | 橙线、绿线、青线 |
+| [雪原 · 要塞](./areas/snowfield) | 25 米高站台 | 橙线、黄线、绿线、紫线 |
 | 岩沙 | 33 米低站台 | 红线、青线 |
 | 下界要塞 | 17 米低站台 | 黄线、青线、粉线 |
 
@@ -47,10 +47,10 @@ authors: [量筒]
 
 | 站点 | 站台规格 | 通过线路 |
 | --- | --- | --- |
-| [秘林](./areas/silvermoon/description#沉月区) | 19 米低站台 | 红线 |
+| [秘林](./areas/silvermoon#沉月区) | 19 米低站台 | 红线 |
 | 蛙明灯农场 | 17 米低站台 | 橙线 |
-| [辰辉](./areas/chenhui/description) | 39 米低站台 | 黄线 |
-| [筑心](./areas/xinguang/description#筑心县) | 25 米高站台 | 绿线 |
+| [辰辉](./areas/chenhui) | 39 米低站台 | 黄线 |
+| [筑心](./areas/xinguang#筑心县) | 25 米高站台 | 绿线 |
 | 试炼密室 | 25 米高站台 | 绿线 |
 | 黑森林 | 25 米高站台 | 绿线 |
 | 附属矿山 B | 25 米高站台 | 绿线 |
@@ -59,8 +59,8 @@ authors: [量筒]
 | 附属矿山 A | 17 米低站台 | 青线 |
 | 蘑菇岛 | 17 米低站台 | 青线 |
 | 恶地 | 17 米低站台 | 青线 |
-| [新月](./areas/silvermoon/description#新月区) | 13 米低站台 | 蓝线 |
-| [缘启](./areas/yuanqi/description) | 15 米低站台 | 蓝线 |
+| [新月](./areas/silvermoon#新月区) | 13 米低站台 | 蓝线 |
+| [缘启](./areas/yuanqi) | 15 米低站台 | 蓝线 |
 | 冰刺之地 | 17 米低站台 | 紫线 |
 | 恶魂塔 | 17 米低站台 | 粉线 |
 

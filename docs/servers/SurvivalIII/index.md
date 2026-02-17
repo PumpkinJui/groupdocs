@@ -27,12 +27,12 @@ description: 生存服的基本情况简介。
 
 目前，服务器内共有至少六个独立区域 (或称自治；直辖按独立区域算)，分别是：
 
-- [新光](areas/xinguang/description)（量筒、小鼠）
-- [银月](areas/silvermoon/description)（巴豆、比翼鸟）
-- [矿山](areas/diggings/description)（南瓜汁、文雨）
-- [辰辉](areas/chenhui/description)（星辰）
-- [雪原](areas/snowfield/description)（鸽子、地雷）
-- [缘启](areas/yuanqi/description)（命令块、小面包）
+- [新光](areas/xinguang)（量筒、小鼠）
+- [银月](areas/silvermoon)（巴豆、比翼鸟）
+- [矿山](areas/diggings)（南瓜汁、文雨）
+- [辰辉](areas/chenhui)（星辰）
+- [雪原](areas/snowfield)（鸽子、地雷）
+- [缘启](areas/yuanqi)（命令块、小面包）
 
 其中，新光和银月是全服前两大发达区域。
 
