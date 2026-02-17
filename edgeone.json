@@ -16,13 +16,18 @@
             "statusCode": 301
         },
         {
-            "source": "/docs/*/homepage",
-            "destination": "/docs/:splat",
+            "source": "/docs/resources/:status/:name/homepage",
+            "destination": "/docs/resources/:status/:name",
             "statusCode": 301
         },
         {
-            "source": "/docs/*/description",
-            "destination": "/docs/:splat",
+            "source": "/docs/tools/:type/homepage",
+            "destination": "/docs/tools/:type",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/servers/SurvivalIII/areas/:area/description",
+            "destination": "/docs/servers/SurvivalIII/areas/:area",
             "statusCode": 301
         }
     ]
