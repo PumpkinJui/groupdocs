@@ -33,7 +33,7 @@ authors: [ 南瓜汁 ]
 
 测试群已分流，「群文件：量筒测试群 - 生存服务器」中不定期更新。
 
-[生存 III 档](../../servers/SurvivalIII/summary)使用了此资源包。
+[生存 III 档](../../servers/SurvivalIII)使用了此资源包。
 
 *顺便说一句，「试用版」(trial) 也挺无脑的。*
 
