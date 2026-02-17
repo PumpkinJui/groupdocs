@@ -144,7 +144,7 @@ const config = {
                 {
                     title: '关于我们',
                     items: [
-                        { label: '入群必读', to: 'docs/rules/encounter' },
+                        { label: '入群必读', to: 'docs/rules/new' },
                         { label: '群规', to: 'docs/rules/rules_main_text' },
                         { label: '本群名菜（划掉）', to: '/docs/about/menu' },
                         { label: '群历史', to: '/docs/about/group_history' },

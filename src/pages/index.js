@@ -24,7 +24,7 @@ function HomepageHeader() {
           在正式和本群群友交流之前，请先阅读下面的入群必读哦~！
         </p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs/rules/encounter">
+          <Link className="button button--secondary button--lg" to="/docs/rules/new">
             入群必读 - 新人请点我！
           </Link>
         </div>

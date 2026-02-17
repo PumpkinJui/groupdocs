@@ -19,7 +19,7 @@ authors: [量筒]
 
 初次进服后，你出生的位置是（-123, -176），位于**新光初晓区**的通工路。
 
-![出生点](/servers/SurvivalIII/for_new_player/worldspawn.webp)
+![出生点](/servers/SurvivalIII/new/worldspawn.webp)
 
 请你依次参观下面的建筑，蓝字是可以点的，可以点击进去查看详情，上面详细记载了这些建筑的位置、建设者和图片，你可以对比着来参观：
 
