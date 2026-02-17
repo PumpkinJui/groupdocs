@@ -1,5 +1,6 @@
-/docs/servers/SurvivalIII/for_new_player /docs/servers/SurvivalIII/new 301
+/docs/servers/s3/for_new_player /docs/servers/s3/new 301
 /docs/rules/encounter /docs/rules/new 301
-/docs/servers/SurvivalIII/summary /docs/servers/SurvivalIII 301
+/docs/servers/s3/summary /docs/servers/s3 301
 /docs/*/homepage /docs/:splat 301
 /docs/*/description /docs/:splat 301
+/docs/servers/SurvivalIII/* /docs/servers/s3/:splat 301

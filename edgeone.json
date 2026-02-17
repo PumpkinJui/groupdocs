@@ -1,8 +1,8 @@
 {
     "redirects": [
         {
-            "source": "/docs/servers/SurvivalIII/for_new_player",
-            "destination": "/docs/servers/SurvivalIII/new",
+            "source": "/docs/servers/s3/for_new_player",
+            "destination": "/docs/servers/s3/new",
             "statusCode": 301
         },
         {
@@ -11,8 +11,8 @@
             "statusCode": 301
         },
         {
-            "source": "/docs/servers/SurvivalIII/summary",
-            "destination": "/docs/servers/SurvivalIII",
+            "source": "/docs/servers/s3/summary",
+            "destination": "/docs/servers/s3",
             "statusCode": 301
         },
         {
@@ -26,8 +26,8 @@
             "statusCode": 301
         },
         {
-            "source": "/docs/servers/SurvivalIII/areas/:area/description",
-            "destination": "/docs/servers/SurvivalIII/areas/:area",
+            "source": "/docs/servers/s3/areas/:area/description",
+            "destination": "/docs/servers/s3/areas/:area",
             "statusCode": 301
         }
     ]
