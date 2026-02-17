@@ -1,0 +1,14 @@
+{
+    "redirects": [
+        {
+            "source": "/docs/servers/SurvivalIII/for_new_player",
+            "destination": "/docs/servers/SurvivalIII/new",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/rules/encounter",
+            "destination": "/docs/rules/new",
+            "statusCode": 301
+        }
+    ]
+}
