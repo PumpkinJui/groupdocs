@@ -12,7 +12,7 @@ description: 简体中文版本。
 
 ## 生存 III 档
 
-生存服中使用的资源包见[相关页面](../../servers/SurvivalIII)。
+生存服中使用的资源包见[相关页面](../../servers/s3)。
 
 ## 其他
 
