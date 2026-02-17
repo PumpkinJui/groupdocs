@@ -256,13 +256,13 @@ npm start
 因此，如果你要链接到类似于 30 种死法的链接，以前你可能会这么写：
 
 ```markdown
-[30 种死法主页](../../resources/completed/30_ways_to_die/homepage)
+[30 种死法主页](../../resources/completed/30_ways_to_die)
 ```
 
 那么，请**把 `30_` 删掉**，即
 
 ```markdown
-[30 种死法主页](../../resources/completed/ways_to_die/homepage)
+[30 种死法主页](../../resources/completed/ways_to_die)
 ```
 
 ## 小恐龙的独特优势
@@ -881,13 +881,13 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
   <Tabs>
   <TabItem value="effect" label="效果" default>
 
-[点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2/homepage#下载)！
+[点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2#下载)！
 
   </TabItem>
   <TabItem value="code" label="代码">
 
 ```markdown
-[点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2/homepage#下载)！
+[点我链接到 30 种死法 2 的下载](../../resources/completed/ways_to_die_2#下载)！
 ```
 
   </TabItem>

@@ -105,7 +105,7 @@ sidebar_position: 1
 
 ## 起床战争服
 
-> 基于本群资源[量筒的起床战争](../resources/developing/bedwars/homepage)而开服。
+> 基于本群资源[量筒的起床战争](../resources/developing/bedwars)而开服。
 >
 > 友谊第一，比赛第二！禁止作弊哦！
 
