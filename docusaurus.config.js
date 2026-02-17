@@ -164,6 +164,12 @@ const config = {
             appId: '3QTPE6WI9R',
             apiKey: 'c5e49d41ac48f55da991d4a10221e1b2',
             indexName: 'grouppages',
+            askAi: {
+                indexName: 'markdown-index',
+                apiKey: 'c5e49d41ac48f55da991d4a10221e1b2',
+                appId: '3QTPE6WI9R',
+                assistantId: 'CzQ0gEcyilwl',
+            },
         },
     },
     plugins: [
