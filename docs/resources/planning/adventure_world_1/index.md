@@ -11,10 +11,10 @@ description: 《冒险世界》系列开山之作，梦开始的地方
 关于冒险世界系列的其他地图，参见：
 
 - 冒险世界：逃离（本页面）
-- [冒险世界：苏醒](../adventure_world_2/homepage)
-- [冒险世界：迷失](../adventure_world_3/homepage)
-- [冒险小世界：剑之试炼](../../completed/adventure_world_4/homepage)
-- [冒险世界：筑梦](../../developing/adventure_world_5/homepage)
+- [冒险世界：苏醒](../adventure_world_2)
+- [冒险世界：迷失](../adventure_world_3)
+- [冒险小世界：剑之试炼](../../completed/adventure_world_4)
+- [冒险世界：筑梦](../adventure_world_5)
 
 ---
 
