@@ -279,17 +279,17 @@ var player = new DogePlayer(
 
 ![粉蒸量筒纯享版](/about/menu/fenzhenglt_pure.gif)
 
-![迫害量筒专用](/about/menu/persecute_lt.webp)
+![迫害量筒专用](/about/menu/lt.webp)
 
 ### 鸽子
 
-![迫害鸽子专用](/about/menu/persecute_pigeon.webp)
+![迫害鸽子专用](/about/menu/pigeon.webp)
 
 ### 小鼠（波奇）
 
 > 热知识：你群管理基本都在看《孤独摇滚》……也有少数几个不看的。
 
-![迫害小鼠专用](/about/menu/persecute_mouse.webp)
+![迫害小鼠专用](/about/menu/mouse.webp)
 
 ## 下架
 

@@ -29,6 +29,11 @@
             "source": "/docs/servers/SurvivalIII/areas/:area/description",
             "destination": "/docs/servers/SurvivalIII/areas/:area",
             "statusCode": 301
+        },
+        {
+            "source": "docs/about/meeting_offline",
+            "destination": "docs/about/offline",
+            "statusCode": 301
         }
     ]
 }

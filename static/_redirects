@@ -4,3 +4,4 @@
 /docs/*/homepage /docs/:splat 301
 /docs/*/description /docs/:splat 301
 /docs/servers/SurvivalIII/* /docs/servers/s3/:splat 301
+/docs/about/meeting_offline /docs/about/offline 301
