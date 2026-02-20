@@ -1,17 +1,20 @@
 ---
 sidebar_position: 2
 authors: [比翼鸟]
-last_update:
-  date: 2025-06-20
-  author: 量筒
 ---
 
 # 如何入正 MC 国际版
 
-> 作者：比翼鸟。
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+:::tip
+
+该文章的内容需要改进。
+
+理由：应当说明为什么不推荐使用盗版。
+
+:::
 
 :::tip
 

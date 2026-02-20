@@ -1,8 +1,16 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # 如何隐藏游戏内真名
+
+:::tip
+
+该文章的内容需要改进。
+
+理由：建议与[微软账户](../../about/archives/microsoft_account)进行合并。
+
+:::
 
 ## 前言
 

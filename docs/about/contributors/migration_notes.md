@@ -293,7 +293,7 @@ npm start
 | --- | --- | --- |
 | `title` | 任意文本 | 在侧边栏显示的标题 |
 | `description` | 任意文本 | 显示在列表页中的文章描述 |
-| `last_update` | `FrontMatterLastUpdate` | 记录上次更新的日期和作者 |
+| `last_update` | `FrontMatterLastUpdate` | 记录上次更新的日期和作者<br/>（目前已不需要） |
 | `sidebar_position` | 整数 | 在侧边栏中排到第几位 |
 
 一个标准的文档前言如下：
