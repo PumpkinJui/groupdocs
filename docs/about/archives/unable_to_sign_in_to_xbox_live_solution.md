@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # 解决「您无法登录 Xbox Live」
 
 :::info

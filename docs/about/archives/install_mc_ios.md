@@ -1,14 +1,16 @@
 ---
-sidebar_position: 7
+sidebar_position: 6
 title: 如何在 iOS 设备上安装 MC
 authors: [小飞侠]
 ---
 
 # 如何在 iOS/iPadOS 设备上安装 MC
 
-:::tip
+:::info
 
-该文章正在编写中。在该窗口被移除前，请不要对文章内容进行进一步的修改与提交。
+因 iOS 系列上游安装包几乎不再更新，且本文作者没有进一步更新意愿，故归档。
+
+最后一次编辑由 @量筒 进行，位于 `805cb5d`。
 
 :::
 
