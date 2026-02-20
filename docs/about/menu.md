@@ -146,23 +146,12 @@
 
 量筒暑假回家在北京中转，巴豆为他表演了制作「量筒粉」的技能，量筒拍下了此视频。
 
-#### 正片（看不到请多刷新几遍）
+#### 正片
 
-<!-- markdownlint-disable MD033 -->
-
-<script type="text/javascript" src="https://player.dogecloud.com/js/loader"></script>
-<script type="text/javascript">
-var player = new DogePlayer(
-  \{
-    container: document.getElementById('player_ad7fbb01c7eb11dd'),
-    userId: 2159,
-    vcode: 'ad7fbb01c7eb11dd',
-    autoPlay: false
-  \}
-);
-</script>
-
-<div id="player_ad7fbb01c7eb11dd"></div>
+<video controls width="100%">
+<source src="/about/menu/fenzhenglt.mp4" type="video/mp4" />
+当前浏览器不支持使用视频播放控件。
+</video>
 
 #### 纯享版
 
