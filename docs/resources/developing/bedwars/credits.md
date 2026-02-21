@@ -84,23 +84,24 @@ authors: [量筒]
 | 文雨 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 小飞侠 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 鸽子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
+| 绿叶 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 火卫三 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
-| 绿叶 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
 | 祉语 | Alpha 1.1_03、Alpha 1.1_04 | 2 |
-| 南瓜汁 | Alpha 1.1_03 | 1 |
+| 南瓜汁 | Alpha 1.1_03、Alpha 1.1_04 | 2 |
 | lanos | Alpha 1.1_04 | 1 |
-| 星辰 | Alpha 1.1_01、Alpha 1.1_02、Alpha 1.1_03 | 3 |
+| 小鼠 | Alpha 1.1_04 | 1 |
+| 星辰 | Alpha 1.1_01、Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 4 |
+| 抖抖抖 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
+| 烟雨 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
+| 橘子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
+| 龙龙 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
+| Panda | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 十三酱 | Alpha 1.1_01、Alpha 1.1_03 | 2 |
-| 抖抖抖 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
-| 烟雨 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
 | 帕 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
-| 橘子 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
-| 龙龙 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
-| Panda | Alpha 1.1_02、Alpha 1.1_03 | 2 |
+| 塞拉 | Alpha 1.1_03、Alpha 1.1_04 | 2 |
+| 海王星 | Alpha 1.1_03、Alpha 1.1_04 | 2 |
 | 鱼周 | Alpha 1.1_01 | 1 |
 | 基岩 | Alpha 1.1_02 | 1 |
-| 塞拉 | Alpha 1.1_03 | 1 |
-| 海王星 | Alpha 1.1_03 | 1 |
 | xsg | Alpha 1.1_03 | 1 |
 
 ---
