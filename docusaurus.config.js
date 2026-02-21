@@ -114,13 +114,13 @@ const config = {
                 {
                     title: '我们的优质资源',
                     items: [
-                        { label: '30 种死法 2', to: '/docs/resources/completed/ways_to_die_2', },
-                        { label: '量筒的起床战争', to: 'docs/resources/developing/bedwars' },
-                        { label: '冒险世界：苏醒', to: 'docs/resources/planning/adventure_world_2', },
-                        { label: '冒险小世界：剑之试炼', to: 'docs/resources/completed/adventure_world_4', },
-                        { label: '冒险世界：筑梦', to: 'docs/resources/planning/adventure_world_5' },
-                        { label: 'Minecraft Picross', to: 'docs/resources/completed/minecraft_picross' },
-                        { label: '触发', to: 'docs/resources/completed/trigger' },
+                        { label: '30 种死法 2', to: '/docs/resources/wstd/wstd2', },
+                        { label: '量筒的起床战争', to: 'docs/resources/bedwars' },
+                        { label: '冒险世界：苏醒', to: 'docs/resources/aw/aw2', },
+                        { label: '冒险小世界：剑之试炼', to: 'docs/resources/aw/aw4', },
+                        { label: '冒险世界：筑梦', to: 'docs/resources/aw/aw5' },
+                        { label: 'Minecraft Picross', to: 'docs/resources/minecraft_picross' },
+                        { label: '触发', to: 'docs/resources/trigger' },
                     ],
                 },
                 {

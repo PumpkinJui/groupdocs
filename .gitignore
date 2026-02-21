@@ -8,6 +8,8 @@
 .docusaurus
 .cache-loader
 *.bak
+*~
+*.sw*
 
 # Misc
 .DS_Store
