@@ -36,6 +36,36 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/resources/completed/backdate_3",
+            "destination": "/docs/resources/backdate_3",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/developing/bedwars",
+            "destination": "/docs/resources/bedwars",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/developing/bedwars/update_log/1_0",
+            "destination": "/docs/resources/bedwars/update_log/1_0",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/developing/bedwars/update_log/1_1",
+            "destination": "/docs/resources/bedwars/update_log/1_1",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/developing/bedwars/commands",
+            "destination": "/docs/resources/bedwars/commands",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/developing/bedwars/credits",
+            "destination": "/docs/resources/bedwars/credits",
+            "statusCode": 301
+        },
+        {
             "source": "/docs/resources/completed/blow_it_up",
             "destination": "/docs/resources/boom/boom1",
             "statusCode": 301
@@ -43,6 +73,31 @@
         {
             "source": "/docs/resources/completed/blow_it_up/update_log",
             "destination": "/docs/resources/boom/boom1/update_log",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/completed/lucky_block",
+            "destination": "/docs/resources/lucky_block",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/completed/minecraft_picross",
+            "destination": "/docs/resources/minecraft_picross",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/completed/trigger",
+            "destination": "/docs/resources/trigger",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/completed/trigger/credits",
+            "destination": "/docs/resources/trigger/credits",
+            "statusCode": 301
+        },
+        {
+            "source": "/docs/resources/completed/trigger/update_log",
+            "destination": "/docs/resources/trigger/update_log",
             "statusCode": 301
         }
     ]
