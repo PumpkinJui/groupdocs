@@ -5,10 +5,10 @@
 /docs/*/description /docs/:splat 301
 /docs/servers/SurvivalIII/* /docs/servers/s3/:splat 301
 /docs/about/meeting_offline /docs/about/offline 301
-/docs/resources/:stat/adventure_world_:gen/* /docs/resources/aw/aw:gen/:splat 301
-/docs/resources/completed/blow_it_up/* /docs/resources/boom/boom1/:splat 301
-/docs/resources/completed/ways_to_die/* /docs/resources/wstd/wstd1/:splat 301
-/docs/resources/completed/ways_to_die_2/* /docs/resources/wstd/wstd2/:splat 301
-/docs/resources/completed/minecraft_test_:year/* /docs/resources/test/test:year/:splat 301
-/docs/resources/completed/* /docs/resources/:splat 301
-/docs/resources/developing/* /docs/resources/:splat 301
+/docs/resources/:stat/adventure_world_:gen* /docs/resources/aw/aw:gen:splat 301
+/docs/resources/completed/blow_it_up* /docs/resources/boom/boom1:splat 301
+/docs/resources/completed/ways_to_die_2* /docs/resources/wstd/wstd2:splat 301
+/docs/resources/completed/ways_to_die* /docs/resources/wstd/wstd1:splat 301
+/docs/resources/completed/minecraft_test_:year* /docs/resources/test/test:year:splat 301
+/docs/resources/completed* /docs/resources:splat 301
+/docs/resources/developing* /docs/resources:splat 301
