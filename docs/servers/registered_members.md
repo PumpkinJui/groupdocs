@@ -173,6 +173,8 @@ authors: [量筒]
 | Panda | CutePandaBL | |
 | 大大怪 | yhjjj1957 | |
 | 芝士 | ssdbzs | |
+| 幸存者 | starxingcunzhe | |
+| Cuzy | CuzyXD | |
 
 ## 离群成员（未违规）
 
