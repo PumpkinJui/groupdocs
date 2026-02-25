@@ -18,7 +18,7 @@ tags: [developing]
 - **制作人表** 详情见[制作人表页面](credits)
 - **版本需求** 1.21.100+
 - **资源类型** 附加包
-- **最新版本** 1.0（正式版） | Alpha 1.1_04（测试版）
+- **最新版本** 1.0（正式版） | 1.1 - Pre 1（测试版）
 - **更新日志** 详情见[更新日志页面](update_log/1_1)
 - **漏洞汇报** 详情见[GitHub Issues](https://github.com/YZBWDLT/Bedwars/issues)
 
@@ -58,57 +58,87 @@ tags: [developing]
 
 ---
 
-## 最新版本更新日志 - Alpha 1.1_04
+## 最新版本更新日志 - 1.1 - Pre 1
 
-寒假……我们好像已经祝过大家寒假快乐了。那就祝我生日快乐吧(∠・ω< )⌒☆！昨天是我的农历生日，在管理群内部的测试中留下了很美好的回忆：
+新年快乐！我们计划**在元宵节发布 1.1 的正式版本**，而今天我们正式将 1.1 的第一个预发布版本端上来了！今天的更新中，我们带来了你可能感兴趣的两个新功能 —— **主动旁观和旁观传送**功能！前者是《冒险小世界：剑之试炼》已经加入过的一个功能，它允许玩家在对战前就自主选择是否参与这一局对战，而后者则是我们为旁观者方便追踪玩家动向而推出的全新功能！
 
-![birthday_23](/resources/bedwars/birthday_23.webp)
+祝你在新版本中偷床顺利 >:)
 
-嗯，扯远了，我们还是来看看远处的起床战争吧！在这次的更新中，我们进一步还原了疾速模式的起床战争！这是 Hypixel 的一个快速模式，旨在速战速决。同时，这是 1.1 Alpha 阶段的最后一个版本，代表我们预计的大功能已经全部加入到游戏中了！之后，我们将进入 1.1 的 Beta 时代，以添加其他小功能为主，比如大家十分期待的主动观战功能！
+![1.1_pre_1](/resources/bedwars/update_log/1.1_pre_1.png)
 
-祝你在被层层保护的床中仍然能偷床顺利！>:)
+### 旁观模式
 
-### 疾速模式
-
-- 正式推出——疾速模式！
-- 所有队伍的床都默认得到 3 层保护：木板 → 羊毛 → 防爆玻璃
-- 所有资源的生成速度全部拉满，所有队伍都默认获得 4 级锻炉
-- 开始游戏后 15 分钟床自毁，床自毁后 15 分钟游戏结束
-- 为疾速模式新增了一个新设置「疾速模式生成速度倍率」，以调整疾速模式下各队金锭和铁锭的生成速度，默认值为 x0.5
-- 玩家可以右键任意一种剑开启搭桥模式，在搭桥模式下玩家放置羊毛后会在玩家放置羊毛的方向上每 0.1 秒延伸 1 个羊毛，合计延伸 5 个羊毛
-  - 在竖直向上搭时，不会延伸羊毛
-- 在搭桥模式下，再次使用剑关闭搭桥模式
-- 疾速模式禁用了黑曜石
-- 在设置中新增了启用疾速模式的支持
-
-### 新地图
-
-- 新增了 7 张 4 队地图：
-  - Picnic（Treenan）：野餐
-  - Swashbuckle：海盗船
-  - Obelisk：方尖碑
-  - Ashore：海岸
-  - Lectus：竞技场
-  - Stonekeep：石头城堡
-  - Invasion：入侵
-
-### 游戏内容
-
-- 更改了铁锻炉的图标为熔炉
-- 在杂项设置中新增了一个新设置「信息板末行信息」，用于更改游戏右侧信息板末尾一行显示的内容，这对开服务器的服主可能会比较有用
-- #62 降低了绿宝石的默认价格，由 x200 经验改为了 x150 经验
-- #63 提高了铁傀儡在经验模式中的价格，现在为 300 经验（是上个版本的 2.5 倍）
-- #65 在杂项设置中新增了一个新设置「购买物品通知」，用于控制在购买物品类物品后是否通知玩家，不影响团队升级类物品
-- #66 现在末影龙的落点高度是根据地图的最低高度而设定的，而非锁定在(0,60,0)落点
+- #7 新增主动旁观模式！
+  - 可以在「设置 - 旁观模式设置」中启用，以允许主动旁观
+  - 在开启了旁观模式的情况下，玩家可以使用一个新物品以打开主动旁观的设置 UI，在此 UI 中玩家可以选择不旁观、仅下局旁观、或之后的所有游戏都旁观
+  - 选择了*仅下局旁观*或*之后的所有游戏都旁观*的玩家，会在开始游戏后自动归为旁观模式
+  - 开启主动旁观后不能选队，已选队伍的信息会消失
+  - 如果在开启了主动旁观的情况下，房主禁用了主动旁观功能，则会警告已开启了主动旁观的玩家，之后的游戏需注意参与
+- #46 现在旁观者可以抬头以打开传送 UI！
+  - 可以在「设置 - 旁观模式设置」中启用，以允许旁观传送
+  - 便于玩家观察某个玩家的行动
 
 ### 漏洞修复
 
-- #64 现在被淘汰的玩家在二度离开游戏后，不再会重复播报队伍被淘汰；并且二度返回游戏后不再会重复播报该玩家已死亡
-- #67 修复了两处可能的报错
-- #70 修复了在设置中先将开始人数下限调至大于房间人数后恢复默认设置，会使游戏无法开始的问题
-- 修复了有玩家在等待期间进入或退出游戏后，会重置等待倒计时的问题，现在仅会在进入等待阶段后、以及人数不足后重置等待倒计时
-- 修复了有玩家在等待期间退出游戏导致人数不足后，不会提示玩家的问题
+- #80 修复了无法破坏蕨的问题
+- #84 修复了每当玩家变化且人数不足时就会警告人数不足的问题
+- #85 修复了使用铁傀儡右键箱子会放置铁傀儡的问题
+- #86 修复了床自毁会提示所有玩家的问题，现在不再对旁观玩家提示床自毁
+- #87 修复了在手机端可以先将商店物品放到空栏位再直接拿出的问题
+- 修复了在地图屋顶中可以冲毁铁轨和花盆的问题
+- 修复了在地图乐园中可以冲毁地毯的问题
 
-### 底层更新
+### 技术性
 
-- 优化了`lib.replaceBlock()`函数的实现，现在在指定大于 32768 方块的区域后不再会报错，而是会对大区域做切割，从而破除 32768 方块的限制
+#### 概述
+
+- 更新了资源包的 UUID，请所有使用此资源包的玩家注意重新安装包，**我们建议所有玩家彻底删除旧版包并使用新版的包**
+- 将资源包的版本切换为`1.1.5`
+- 现在使用标签分辨不同旁观模式设置的玩家：
+  - `spectatorMode:none`或无`spectatorMode:`前缀标签的玩家：不旁观
+  - `spectatorMode:nextGame`：仅下局旁观，当游戏开始后将自动移除此标签
+  - `spectatorMode:always`：之后的所有游戏都旁观
+
+#### 库文件
+
+- **新增** `lib.FormButtonComponent.visible: boolean | undefined`属性，以便控制显示的按钮是否需要显示出来，默认值为`true`
+
+#### 起床战争主文件
+
+- **新增** `BedwarsSystem.isReleaseVersion: boolean`属性，用于指定此版本是否为稳定版本，这会影响某些设置的显示
+- **新增** `BedwarsSystem.informAllPlayers(message: string | minecraft.RawMessage | (string | minecraft): void`静态方法，用于对所有玩家播放通知类消息
+- **新增** `BedwarsSystem.getPlayers(): minecraft.Player[]`方法，用于获取非主动旁观的玩家
+- **新增** `BedwarsSystem.getPlayerAmount(): number`方法，用于获取非主动旁观的玩家人数
+- **新增** `BedwarsSettings.gaming.spectatorMode`属性，以控制旁观玩家的可用功能，有如下属性：
+  - `spectateActivelyEnabled: boolean`：是否启用主动旁观模式
+  - `headUpTeleportEnabled: boolean`：是否启用旁观传送功能
+- **新增** `BedwarsSettings.gaming.killBonus`属性，以控制击杀奖励（但未实装相关功能），有如下属性：
+  - `enabled: boolean`：是否给予击杀者以击杀奖励
+  - `mode: number`：击杀奖励模式，`0`：直接给予资源，`1`：玩家的全部物品直接散落
+  - `loseLevelTierInExpMode: 0 | 1 | 2`：经验模式损失资源，损失的资源将给予击杀者，`0`：不损失，`1`：损失一半，`2`：完全损失
+  - `playerCanThrowItemsInVoid: boolean`：虚空玩家可扔物品
+- **新增** `BedwarsSettings.BedwarsSettings.showSpectatorModeSettingsUI(player: minecraft.Player, system: BedwarsSystem): void`静态方法，用于显示旁观模式的 UI
+- **新增** `BedwarsMap.getAllPlayerData(options: PlayerDataOptions | undefined): BedwarsPlayer[]`方法，用于获取所有起床战争玩家的信息
+  - `options: PlayerDataOptions | undefined`：用于筛选特定的玩家信息，可用条件包括：
+    - 处于特定队伍内（`includeTeams?: data.BedwarsTeamType[] | undefined`），指定后将会额外筛选队伍，否则不筛选
+    - 不处于特定队伍内（`excludeTeams?: data.BedwarsTeamType[] | undefined`），指定后将会额外筛选队伍，否则不筛选
+    - 包含死亡玩家（`includeDeadPlayer?: boolean | undefined`），默认值为`true`
+    - 包含淘汰玩家（`includeEliminated?: boolean | undefined`），默认值为`true`
+    - 包含旁观玩家（`includeSpectator?: boolean | undefined`），默认值为`true`，需注意另外四项不筛选旁观玩家，如果不选定旁观玩家需单独指定此项
+    - 只包含已淘汰玩家（`onlyIncludeEliminated?: boolean | undefined`），默认值为`false`
+- **新增** `BedwarsMap.addSpectator(player: minecraft.Player): void`方法，用于新增旁观玩家
+- **更名** `BedwarsMap.getBedwarsPlayer()` → `BedwarsMap.getPlayerData()`
+- **新增** `BedwarsMode.removeSelectedTeam(player: minecraft.Player, resetNpcItems?: boolean): void`方法，用于移除玩家的选队信息，并可选是否重置 NPC 的物品
+- **新增** `BedwarsMode.timelineSpectatorHeadUpTeleport(): void`方法，为旁观传送的主逻辑
+- **新增** `BedwarsPlayer.setEliminated(): void`方法，设置玩家为已淘汰
+- **移动** 将`BedwarsMode.nextEvent`移动到`BedwarsMap`类下
+- **新增** 多个触发游戏事件的方法
+  - `BedwarsMap.triggerDiamondTier2Event(): void`：触发事件：钻石生成点 II 级
+  - `BedwarsMap.triggerDiamondTier3Event(): void`：触发事件：钻石生成点 III 级
+  - `BedwarsMap.triggerEmeraldTier2Event(): void`：触发事件：绿宝石生成点 II 级
+  - `BedwarsMap.triggerEmeraldTier3Event(): void`：触发事件：绿宝石生成点 III 级
+  - `BedwarsMap.triggerBedDestructionEvent(): void`：触发事件：床自毁
+  - `BedwarsMap.triggerDeathMatchEvent(): void`：触发事件：绝杀模式
+- **新增** `BedwarsMap.updateNextEvent(id?: "diamond_2" | "emerald_2" | "diamond_3" | "emerald_3" | "bed_destruction" | "death_match" | "game_over" | undefined, name?: "钻石生成点 II 级" | "绿宝石生成点 II 级" | "钻石生成点 III 级" | "绿宝石生成点 III 级" | "床自毁" | "绝杀模式" | "游戏结束" | undefined, countdown?: number): void`，以更新下一个事件的信息
+- **更改** 将`BedwarsMode.functionWaiting()`时间线化，现在人数检测是每秒进行一次，而非玩家退出或进入时进行一次
+  - 这是因为随着多项设置的更新，比如等待设置、主动旁观设置等，原来的人数判断逻辑变得越来越复杂，故而采用循环检查的方式，虽然会带来一点额外的性能负载，但我们坚信这不会对您的服务器或设备造成任何影响
