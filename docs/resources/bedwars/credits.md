@@ -79,21 +79,23 @@ authors: [量筒]
 
 | 测试成员 | 测试版本 | 有效测试次数 |
 | --- | --- | --- |
-| 巴豆 | Alpha 1.1_01、Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 4 |
-| 硫化银 | Alpha 1.1_01、Alpha 1.1_02、Alpha 1.1_03 | 3 |
-| 文雨 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
-| 小飞侠 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
-| 鸽子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
-| 绿叶 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
+| 巴豆 | Alpha 1.1_01、Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 5 |
+| 硫化银 | Alpha 1.1_01、Alpha 1.1_02、Alpha 1.1_03、1.1 - Pre 1 | 4 |
+| 文雨 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
+| 小飞侠 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
+| 鸽子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
+| 绿叶 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
+| 橘子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 火卫三 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
 | 祉语 | Alpha 1.1_03、Alpha 1.1_04 | 2 |
 | 南瓜汁 | Alpha 1.1_03、Alpha 1.1_04 | 2 |
+| 小鼠 | Alpha 1.1_04、1.1 - Pre 1 | 2 |
 | lanos | Alpha 1.1_04 | 1 |
-| 小鼠 | Alpha 1.1_04 | 1 |
+| 比翼鸟 | 1.1 - Pre 1 | 1 |
+| 蒙德人 | 1.1 - Pre 1 | 1 |
 | 星辰 | Alpha 1.1_01、Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 4 |
 | 抖抖抖 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 烟雨 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
-| 橘子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 龙龙 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | Panda | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 十三酱 | Alpha 1.1_01、Alpha 1.1_03 | 2 |
