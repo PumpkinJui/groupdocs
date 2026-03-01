@@ -85,7 +85,7 @@ authors: [量筒]
 | 小飞侠 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
 | 鸽子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
 | 绿叶 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
-| 橘子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
+| 橘子 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
 | 火卫三 | Alpha 1.1_02、Alpha 1.1_03、1.1 - Pre 1 | 3 |
 | 祉语 | Alpha 1.1_03、Alpha 1.1_04 | 2 |
 | 南瓜汁 | Alpha 1.1_03、Alpha 1.1_04 | 2 |
@@ -94,17 +94,17 @@ authors: [量筒]
 | 比翼鸟 | 1.1 - Pre 1 | 1 |
 | 蒙德人 | 1.1 - Pre 1 | 1 |
 | 星辰 | Alpha 1.1_01、Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 5 |
-| 抖抖抖 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | 烟雨 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
-| 龙龙 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
+| 龙龙 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 4 |
+| 抖抖抖 | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
 | Panda | Alpha 1.1_02、Alpha 1.1_03、Alpha 1.1_04 | 3 |
-| 十三酱 | Alpha 1.1_01、Alpha 1.1_03 | 2 |
-| 帕 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
 | 塞拉 | Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 3 |
 | 海王星 | Alpha 1.1_03、Alpha 1.1_04、1.1 - Pre 1 | 3 |
+| 十三酱 | Alpha 1.1_01、Alpha 1.1_03 | 2 |
+| 帕 | Alpha 1.1_02、Alpha 1.1_03 | 2 |
+| xsg | Alpha 1.1_03、1.1 - Pre 1 | 2 |
 | 鱼周 | Alpha 1.1_01 | 1 |
 | 基岩 | Alpha 1.1_02 | 1 |
-| xsg | Alpha 1.1_03、1.1 - Pre 1 | 2 |
 | 千里 | 1.1 - Pre 1 | 1 |
 | Cuzy | 1.1 - Pre 1 | 1 |
 | 墨 | 1.1 - Pre 1 | 1 |
