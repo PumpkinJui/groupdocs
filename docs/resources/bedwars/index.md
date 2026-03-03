@@ -1,7 +1,7 @@
 ---
 description: 仿照 Hypixel 在基岩版上做的起床战争！
 authors: [量筒]
-tags: [developing]
+tags: [planning]
 ---
 
 # 量筒的起床战争
@@ -18,7 +18,7 @@ tags: [developing]
 - **制作人表** 详情见[制作人表页面](credits)
 - **版本需求** 1.21.100+
 - **资源类型** 附加包
-- **最新版本** 1.1（正式版）
+- **最新版本** 1.1
 - **更新日志** 详情见[更新日志页面](update_log/1_1)
 - **漏洞汇报** 详情见[GitHub Issues](https://github.com/YZBWDLT/Bedwars/issues)
 
@@ -30,8 +30,9 @@ tags: [developing]
 
 ### 网盘
 
-- [123云盘](https://www.123912.com/s/t3TqVv-NGhkh)
-- [蓝奏云（密码：1zhb）](https://wwaa.lanzouo.com/b0065t26ni)
+- [123 云盘](https://www.123865.com/s/t3TqVv-q5Ekh)
+- [百度网盘（提取码：bdws）](https://pan.baidu.com/s/1n4VWi4fsAyQD84xwMI0t-A?pwd=bdws)
+- [NekoDrive](https://app.nekodrive.net/s/DGOUm)
 
 ### 各大论坛或平台
 
