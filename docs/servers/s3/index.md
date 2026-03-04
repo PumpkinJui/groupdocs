@@ -40,7 +40,7 @@ description: 生存服的基本情况简介。
 
 目前，服务器共安装了五个资源包 (Resource Pack)，并由 @YZBWDLT 整合为一个包。它们分别是：
 
-- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn) 1.21.110
+- [Bedrock Translation Patch](https://github.com/ff98sha/mclangcn) 26.0
   - 用于修正基岩版的糟糕翻译。
 - [Force Mojangles](https://yzbwdlt.pages.dev/docs/dev_template/force_mojangles_v2) v2
   - 用于呈现更好的 Molangles 英文和数字字体。

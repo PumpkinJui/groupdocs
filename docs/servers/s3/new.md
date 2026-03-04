@@ -33,8 +33,8 @@ authors: [量筒]
   ![餐厅](/servers/s3/areas/xinguang/buildings/restaurant.webp)
 
 - [**新光站**](./areas/xinguang/buildings#新光站)：**新光主城区的火车站**。新光的所有火车站都**贯通服务器的城际铁路和下界交通**，在几大主城区的火车站还都有地铁经过。它们都是名副其实的交通枢纽。下界交通是我们服务器很重要的交通体系，在介绍完新光之后就来带你体验。  
-   新光站的结构是：-1 楼为地铁层，1 楼为地面层，2 楼为进站口和下界门，3 楼为城际铁路层。  
-  ![新光站](/servers/s3/areas/xinguang/buildings/xinguang_railway_station.webp)
+   新光站的结构由站房部分和站台部分组成，站房部分的 -1 楼为地铁层，1 楼为地面层和下界门，2 楼为进站口和出站口。  
+  ![新光站](/servers/s3/areas/xinguang/buildings/xinguang_railway_station.png)
 
 - [**武器装备库**](./areas/xinguang/buildings#武器装备库)：里面主要用于存储装备（包括满级装备）。**你可以在这里拿一套满级装备（剑镐斧锹锄+全套盔甲）**。这是比较重要的事情，因为我们服务器是困难模式，它直接决定了你在服务器内的游戏体验。  
   ![武器装备库](/servers/s3/areas/xinguang/buildings/weapon_and_equipment_room.webp)
@@ -63,10 +63,10 @@ authors: [量筒]
   ![刷铁机](/servers/s3/industries/iron_golem_farm.webp)
 
 - [**猪人塔**](./industries/zombified_piglin_farm)：**量产金、腐肉和经验的机器**。猪人塔的地位相信已无需多言——它是核心中的核心！  
-  ![猪人塔](/servers/s3/industries/zombified_piglin_farm/description.webp)
+  ![猪人塔](/servers/s3/industries/zombified_piglin_farm/description.png)
 
-- [**三转炉**](./areas/xinguang/buildings#三大旋转熔炉三转炉)：**烧制物品的高速熔炉**，旁边还有简易版的熔岩机可用。  
-  ![三转炉](/servers/s3/areas/xinguang/buildings/high_speed_furnace.webp)
+- [**旋转熔炉组**](./areas/xinguang/buildings#旋转熔炉组)：**烧制物品的高速熔炉**，旁边还有简易版的熔岩机可用。  
+  ![旋转熔炉组](/servers/s3/areas/xinguang/buildings/high_speed_furnace.png)
 
 - [**新光西站**](./areas/xinguang/buildings#新光西站)：**位于昌兴区的火车站**。地位和新光站类似，都是地铁、城际铁路和下界交通的交通枢纽。  
   ![新光西站](/servers/s3/areas/xinguang/buildings/xinguang_west_railway_station.webp)
