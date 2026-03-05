@@ -110,12 +110,6 @@ authors: [量筒]
 
 ![新光站](/servers/s3/areas/xinguang/buildings/xinguang_railway_station.png)
 
-:::info[注意]
-
-新光站仍在施工，本图像所展示的新光站并非最终效果。
-
-:::
-
 - **位置**：初晓区，中央大街（-240, -220）
 - **设计**：文雨、绿叶
 - **建设**：量筒、巴豆、文雨、鸽子等
