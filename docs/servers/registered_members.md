@@ -60,6 +60,7 @@ authors: [量筒]
 | 小飞侠 | tck1122 | —<br/>— | ❔ | 生存服贡献较大；测试贡献大；群文档贡献者 |
 | lanos | lanos212 | —<br/>— | ❔ | 测试贡献大 |
 | 硫化银 | yiyishi54188 | 黑色染料<br/>§r§l§0 | ❔ | 测试贡献大 |
+| 橘子 | freeorange114 | 发光浆果<br/>§r§l§6 | ❔ | 测试贡献大 |
 | 南瓜汁 | PumpkinJui | 蜂蜜瓶<br/>§r§l§6 | ✔ | 测试贡献较大；群文档主要贡献者 |
 | 比翼鸟 | KianaKaslana947<br/>RaidenMei947 | 末地水晶<br/>§d | ✔ | 生存服贡献大；测试贡献较大 |
 | 火卫三 | IBukreev | 红色旗帜 (左黄斜条，红色右下三角，<br/>左顶红方，黄色 Mojang 徽标，顶红三角)<br/>§l§c | ✔ | 生存服贡献较大，测试贡献较大 |
@@ -67,7 +68,6 @@ authors: [量筒]
 | 晨风 | ChenfengAB | —<br/>— | ✘ | 无生存服白名单 |
 | 蒙德人 | Tuffy2020China | 苹果<br/>§r§l§k | ✔ | |
 | 绿叶 | GreeLeaf | 绿色染料<br/>§a | ✔ | |
-| 橘子 | freeorange114 | 发光浆果<br/>§r§l§6 | ❔ | 测试贡献大 |
 
 ## 普通成员（有生存服白名单）
 
@@ -83,7 +83,7 @@ authors: [量筒]
 
 | 称呼 | XboxID | 代表物<br/>颜色代码 | 成员墙<br/>状态 | 备注 |
 | :---: | :---: | :---: | :---: | --- |
-| 鱼周 | UnhandyShark856 | —<br/>— | ❔ | 马可服群管理、服管理，生存服贡献较大，测试贡献大 |
+| 鱼周 | UnhandyShark856 | 钻石鹦鹉螺铠<br/>§r§b | ❔ | 马可服群管理、服管理，生存服贡献较大，测试贡献大 |
 | 龙龙 | longlongxiaotao | —<br/>— | ❔ | 测试贡献大 |
 | 烟雨 | RustyAbyss29193 | 爆裂绿色尾迹烟花<br/>— | ❔ | 测试贡献大 |
 | 星辰 | xc13599305 | 樱花木板<br/>— | ❔ | 生存服贡献大；测试贡献较大 |
@@ -115,6 +115,7 @@ authors: [量筒]
 | 海王星 | Neptune exe1591 | —<br/>— | ❔ | |
 | 虾皮 | xia pi 000 | —<br/>— | ❔ | |
 | 抖抖抖 | SpyingLace85493 | —<br/>— | ❔ | |
+| xsg | xsg868758 | 蓝花美耳草<br/>§l§o | ❔ | |
 | 蘑菇 | xRprncQ | 羽毛<br/>— | ✔ | 考核前进服 |
 | 麦热 | havefuningame07 | 铁剑<br/>— | ✔ | 考核前进服 |
 | Dull | Dull12133<br/>RenJi12138<br/>Dull1213 | —<br/>— | ✘ | 考核前进服 |
@@ -167,7 +168,6 @@ authors: [量筒]
 | 事情 | THEHOTTHING | |
 | 轻雨酱 | YMQY1315 | |
 | 大河月 | Xbox Angel3518 | |
-| xsg | xsg868758 | |
 | 奕航 | hyh9165 | |
 | 花花 | FlowerTNT | |
 | Panda | CutePandaBL | |
