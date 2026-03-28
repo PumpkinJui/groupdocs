@@ -19,8 +19,6 @@ import FileType from "/src/components/type/file";
 
 :::
 
-<!-- markdownlint-disable MD033 -->
-
 ## 各关卡架构
 
 点击文件名称可以查看对应文件的模板。

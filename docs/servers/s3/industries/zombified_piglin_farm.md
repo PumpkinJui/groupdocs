@@ -136,7 +136,7 @@ authors: [量筒]
 
    :::danger[注意]
 
-   因为 Minecraft 的[一个漏洞（MCPE - 236034）](https://bugs.mojang.com/browse/MCPE/issues/MCPE-236034)，导致部分僵尸猪灵无法主动走上矿车。这个问题将一定程度上导致实体堆积，从而导致服务器性能降低。因此，在使用猪人塔时请**务必注意不得长时间挂机**。此要求将在 Minecraft 修复上述问题后撤销。
+   因为 Minecraft 的[一个漏洞（MCPE-236034）](https://bugs.mojang.com/browse/MCPE/issues/MCPE-236034)，导致部分僵尸猪灵无法主动走上矿车。这个问题将一定程度上导致实体堆积，从而导致服务器性能降低。因此，在使用猪人塔时请**务必注意不得长时间挂机**。此要求将在 Minecraft 修复上述问题后撤销。
 
    :::
 
@@ -144,7 +144,7 @@ authors: [量筒]
 
 ## 效率检测
 
-:::info[预计将在[漏洞 MCPE - 236034](https://bugs.mojang.com/browse/MCPE/issues/MCPE-236034) 修复之后测量该机器的效率。]
+:::info[预计将在[漏洞 MCPE-236034](https://bugs.mojang.com/browse/MCPE/issues/MCPE-236034) 修复之后测量该机器的效率。]
 
 :::
 

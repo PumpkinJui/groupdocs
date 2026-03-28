@@ -158,6 +158,8 @@
 
 #### 正片
 
+<!-- markdownlint-disable MD033 -->
+
 <video controls width="100%">
 <source src="/about/menu/fenzhenglt.mp4" type="video/mp4" />
 当前浏览器不支持使用视频播放控件。

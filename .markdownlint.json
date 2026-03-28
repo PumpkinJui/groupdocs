@@ -17,10 +17,14 @@
             "kbd",
             "DataType", "FileType",
             "treeview",
-            "Highlight", "Issue", "Download", "FrameHighlight", "Version"
+            "Highlight",
+            "Issue",
+            "Download",
+            "FrameHighlight",
+            "Version"
         ]
     },
     "MD036": {
-        "punctuation": ".,;:!?)。，；：！？）…"
+        "punctuation": ".,;:!?)。，；：！？）…」”"
     }
 }
