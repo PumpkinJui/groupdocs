@@ -67,6 +67,18 @@ authors: [ 南瓜汁 ]
 - 在 Apps 中选择需要查询的结构，输入种子，即可显示在该种子下该结构的所有位置。
 - 进入 Seed Map App，输入种子，即显示在该种子下所有结构的位置。
 
+## Custom Worlds for Bedrock
+
+### 介绍
+
+> 可以自定义基岩版单一群系世界，或者定制超平坦
+>
+> ——[橘猫 sama](https://www.bilibili.com/opus/1183978662289997829)
+
+### 网址
+
+[https://superflat.crackedmagnet.com/](https://superflat.crackedmagnet.com/)
+
 ## Minecraft WallPapers
 
 ### 介绍

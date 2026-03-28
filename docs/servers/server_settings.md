@@ -69,6 +69,8 @@ sidebar_position: 1
 
 以 `xiaozhiyuqwq.top` 结尾的地址开启了 DNSSEC，如果您的设备不支持解析开启 DNSSEC 的域名，请使用 `nekoawa.com` 结尾的地址。
 
+对于 iOS 和 iPadOS 设备，如果找不到服务器 IP 或卡微软验证，可以从[此页面](https://app.nekodrive.net/s/neViK)中选择下载 DNSPod 的 config，然后根据 Safari 的提示进行操作。
+
 ---
 
 ## 生存服 - III 周目
