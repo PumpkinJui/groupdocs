@@ -1,9 +1,9 @@
 ---
-description: 把眼前的建筑通通炸个干净吧！
 tags: [developing]
+authors: [量筒]
 ---
 
-# 炸翻它！2
+# 炸翻它 II！
 
 :::tip
 
