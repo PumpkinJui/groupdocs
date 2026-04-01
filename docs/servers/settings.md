@@ -22,7 +22,7 @@ import TabItem from '@theme/TabItem';
 同一条目下所有地址基本等价，仅有细微不同，可以随意选择。如果无法连接，可以尝试其他的地址。
 
 <Tabs>
-<TabItem value="s3" label="生存服" default>
+<TabItem value="s3" label="生存" default>
 
 :::tip
 
@@ -44,7 +44,7 @@ import TabItem from '@theme/TabItem';
 - 版本：26.10
 
 </TabItem>
-<TabItem value="test" label="测试服">
+<TabItem value="test" label="测试">
 
 供测试群内部成员测试新技术或新地图的服务器。
 
@@ -81,7 +81,7 @@ import TabItem from '@theme/TabItem';
  </TabItem>
  </Tabs>
 </TabItem>
-<TabItem value="bedwars" label="起床战争服">
+<TabItem value="bedwars" label="起床">
 
 基于本群资源[量筒的起床战争](../resources/bedwars)而开服。
 
@@ -114,7 +114,7 @@ import TabItem from '@theme/TabItem';
  </TabItem>
  </Tabs>
 </TabItem>
-<TabItem value="dev" label="开发服">
+<TabItem value="dev" label="开发">
 
 开发服是供开发者开发的服务器，一般仅供管理员和受邀人员进入。
 
