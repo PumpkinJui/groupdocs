@@ -99,6 +99,11 @@
             "source": "/docs/resources/completed/trigger/update_log",
             "destination": "/docs/resources/trigger/update_log",
             "statusCode": 301
-        }
+        },
+        {
+            "source": "/docs/servers/server_settings",
+            "destination": "/docs/servers/settings",
+            "statusCode": 301
+        },
     ]
 }
