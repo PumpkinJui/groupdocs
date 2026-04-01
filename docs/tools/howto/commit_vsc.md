@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # 如何使用 Visual Studio Code 在 GitHub 上提交内容

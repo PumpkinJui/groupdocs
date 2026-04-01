@@ -1,6 +1,6 @@
 ---
 description: 把眼前的建筑通通炸个干净吧！
-tags: [planning]
+tags: [developing]
 ---
 
 # 炸翻它！2

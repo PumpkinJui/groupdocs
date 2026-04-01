@@ -4,125 +4,167 @@ sidebar_position: 1
 
 # 服务器设定
 
-## 说明
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-- 请务必遵守[群规](../rules/rules_main_text)中关于服务器的所有规定。
+:::warning
 
-:::info[群规节选]
+请务必遵守[群规](../rules/rules_main_text)中关于服务器的所有规定。
 
-**第四十五条** 对于生存服务器，申请加入的新成员需要满足以下几点中的任意一条：
-
-（一）管理员；
-
-（二）积极测试地图，有纯生存经验，通过管理员在群内提问的关于 Minecraft 常识性问题考核，且表现良好的；
-
-（三）管理员推荐，且表现良好的；
-
-其中：
-
-对于第二款，原则上测试地图的次数不少于 3 次，且均应在群文档中找到测试记录的有效证据，贡献较大的可酌情减少次数要求。管理员提问的常识性问题难度不应过高，每题限时，允许被考核者查询资料，被考核者回答问题后原则上不允许更改答案。提问的问题数量不少于 5 个，回答正确率需高于 80% 方可通过。
-
-对于第三款，若管理员推荐的成员在生存服中因违规被罚第一档到第二档的，推荐该成员的管理员应当连带被处罚一档；若管理员推荐的成员在生存服中因违规被罚第三档到第五档的，推荐该成员的管理员应当引咎撤除管理员身份并处罚二档。
+恶意破坏服务器的，将处以最高至五档的群规处罚。
 
 :::
 
-- 各服务器使用白名单机制。若想参与各服务器的建设工作，请在群内艾特群主登记（艾特一次即可），以添加白名单。
-- 温馨提醒：尽量不要尝试连接没有给出的端口。在 NAT 机器上，可能会连接到其他服务器 (共享公网 IP)；如果是独享公网 IP 的机器，可能会被设置的陷阱拦截。
-- 所有游戏服务器仅支持 IPv4。如果您的设备仅限 IPv6，则建议联系您的 ISP 启用 IPv4 支持。可在 [IPW](https://ipw.cn/) 查询是否支持 v4/v6。
+## 地址
 
-## 如何设定
+如果您不知道这些信息怎么用，请参阅[如何设定自定义服务器](../tools/howto/set_servers)。
 
-### 简化版
+同一条目下所有地址基本等价，仅有细微不同，可以随意选择。如果无法连接，可以尝试其他的地址。
 
-**注意：仅 PC 和移动端支持自行添加服务器。**
+<Tabs>
+<TabItem value="s3" label="生存服" default>
 
-1. 登录你的 Xbox 账号
-2. 点击游戏 — 服务器，划到列表最下面，点添加服务器 (如有提示请直接忽略，并点「确定」)
-3. 名称随便填 (给你自己看的)，地址和端口参考下面的对应服务器填
-4. 点「保存」，在服务器列表内会出现「其他服务器」，下方有一服务器，名称为刚才填入的名称；点服务器名称，再点「加入服务器」。如有提示请直接忽略，并点「确定」
+:::tip
 
-### 官方版
+生存服当前位于 III 周目。有关生存服的更多信息，请参阅[概述页面](s3)。
 
-来自 [How to Play Minecraft: Bedrock Edition Multiplayer](https://help.minecraft.net/hc/en-us/articles/4410316619533-How-to-Play-Minecraft-Bedrock-Edition-Multiplayer)：
+生存服白名单有额外的限制条件，请参阅[生存服审核规则](s3/audit)。
 
-> #### How to play on an online server
->
-> 1. From the title screen, select Play
-> 2. Go to the Servers tab
-> 3. Select which partner server you would like to join
-> 4. If the server you want to join is not in the partner list, you can scroll to the bottom and click Add Server (PC and mobile only)
-> 5. Input the server information
->    - You can get the server name, address, and port from the server owner
->    - For Minecraft servers that are safe to join and fun for all ages, check out [our official Minecraft server listing site](https://findmcserver.com/).
+:::
 
-## 卡顿处理方案
+原版生存，无作弊，可获取成就。永远保持最新正式版。
 
-1. 查看[宕机看板](https://status.nekoawa.com/)。
-   - 监测的是服务器硬件的运行状态，具体各个服务器需要联系管理员。
-2. 如有条件，在命令行执行下方命令后截图发 postmaster#nekodrive.net（请把`#`替换成`@`）。
-   - Windows，管理员  
-     `tracert -p <端口> -P udp <地址>`
-   - Linux，管理员  
-     `sudo traceroute -p <端口> -P udp <地址>`
+欢迎在生存服务器开拓天地，实现你的小梦想哦！
 
-## 连接说明
+- 地址：
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：30000
+- 版本：26.10
 
-以 `xiaozhiyuqwq.top` 结尾的地址开启了 DNSSEC，如果您的设备不支持解析开启 DNSSEC 的域名，请使用 `nekoawa.com` 结尾的地址。
+</TabItem>
+<TabItem value="test" label="测试服">
 
-对于 iOS 和 iPadOS 设备，如果找不到服务器 IP 或卡微软验证，可以从[此页面](https://app.nekodrive.net/s/neViK)中选择下载 DNSPod 的 config，然后根据 Safari 的提示进行操作。
+供测试群内部成员测试新技术或新地图的服务器。
 
----
+ <Tabs>
+ <TabItem value="t1" label="测试 I" default>
 
-## 生存服 - III 周目
+- 地址：
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：11000
+- 版本：26.10
 
-> 原版生存，无作弊，可获取成就。永远保持最新正式版。
->
-> 欢迎在生存服务器开拓天地，实现你的小梦想哦！
+ </TabItem>
+ <TabItem value="t2" label="测试 II">
 
-- 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
-- 端口 - 30000
-- 版本 - 26.2
+- 地址：
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：12000
+- 版本：26.10
 
-## 测试服
+ </TabItem>
+ <TabItem value="t3" label="测试 III">
 
-> 供测试群内部成员测试新技术或新地图的服务器，不常开启。
+- 地址：
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：13000
+- 版本：26.10
 
-### 测试服 - I
+ </TabItem>
+ </Tabs>
+</TabItem>
+<TabItem value="bedwars" label="起床战争服">
 
-- 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
-- 端口 - 11000
-- 版本 - 26.0
+基于本群资源[量筒的起床战争](../resources/bedwars)而开服。
 
-### 测试服 - II
+友谊第一，比赛第二！禁止作弊哦！
 
-- 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
-- 端口 - 12000
-- 版本 - 26.0
-
-### 测试服 - III
-
-- 地址 - banana.cvm.xiaozhiyuqwq.top / banana.cvm.nekoawa.com
-- 端口 - 13000
-- 版本 - 26.0
-
-## 起床战争服
-
-> 基于本群资源[量筒的起床战争](../resources/bedwars)而开服。
->
-> 友谊第一，比赛第二！禁止作弊哦！
-
-### 稳定服
+ <Tabs>
+ <TabItem value="b1" label="稳定服" default>
 
 基于起床战争的稳定版本开服。
 
-- 地址 - apple.cvm.xiaozhiyuqwq.top / apple.cvm.nekoawa.com
-- 端口 - 10000
-- 版本 - 26.0
+- 地址：
+  - `apple.cvm.xiaozhiyuqwq.top`
+  - `apple.cvm.nekoawa.com`
+  - `182.254.222.77`
+- 端口：10000
+- 版本：26.0
 
-### 测试服
+ </TabItem>
+ <TabItem value="b2" label="测试服">
 
 基于起床战争的最新测试版本开服。
 
-- 地址 - apple.cvm.xiaozhiyuqwq.top / apple.cvm.nekoawa.com
-- 端口 - 11000
-- 版本 - 26.0
+- 地址：
+  - `apple.cvm.xiaozhiyuqwq.top`
+  - `apple.cvm.nekoawa.com`
+  - `182.254.222.77`
+- 端口：11000
+- 版本：26.0
+
+ </TabItem>
+ </Tabs>
+</TabItem>
+<TabItem value="dev" label="开发服">
+
+开发服是供开发者开发的服务器，一般仅供管理员和受邀人员进入。
+
+ <Tabs>
+ <TabItem value="d1" label="开发 I" default>
+
+当前开发项目：《[冒险世界：筑梦](../resources/aw/aw5)》！
+
+- 地址：
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：31000
+- 版本：26.10
+
+ </TabItem>
+ <TabItem value="d2" label="开发 II">
+
+:::tip
+
+本服务器无需管理权限，全部已登记成员均拥有白名单。
+
+:::
+
+当前开发项目：《[炸翻它 2](../resources/boom/boom2)》！
+
+- 地址：
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：32000
+- 版本：26.10
+
+ </TabItem>
+ <TabItem value="d3" label="开发 III">
+
+[保留备用]
+
+ </TabItem>
+ </Tabs>
+</TabItem>
+</Tabs>
+
+## 说明
+
+- 根据群规规定，各服务器使用白名单机制。若想参与各服务器的建设与测试工作，请在群内艾特群主登记（一次即可），说明意图，以添加白名单。
+- 除另有撤销以外，全部已登记成员均默认拥有测试服白名单。生存服需要在满足申请条件后通过考核，方可添加白名单。开发服除管理员和受邀人员外不对外开放。
+- 如遇卡顿，请联系管理员核实。卡顿可能由硬件故障、软件漏洞、地图规模过大或仅仅是连续开服时间过长导致。可在[宕机看板](https://status.nekoawa.com/)查看服务器硬件的运行状态。
+- 对于 iOS 和 iPadOS 设备，如果找不到服务器 IP 或卡微软验证，可以从[此页面](https://app.nekodrive.net/s/neViK)中选择下载 DNSPod 的 config，然后根据 Safari 的提示进行操作。
+  - 该页面归属于本群服务器管理方。通过应用该 mobileconfig，DNS 请求将优先由 [DNSPod Public DNS](https://www.dnspod.cn/products/publicdns) 进行解析，使用 DoH 和 DoT 方法。DNSPod 归属于腾讯云。
+  - 请避免从未知来源随意安装 mobileconfig 文件，以免威胁到您的隐私与安全。如确实需要安装，请人工检查 config 内容，或使用 AI 进行审计。
+  - 如需卸载，请在设置页面中搜索「描述文件」，选择此 config 并删除。
+- 不要尝试连接没有给出的端口。如果是 NAT 服务器（共享公网 IP），可能会连接到其他服务器；如果是独享公网 IP 的服务器，可能会被设置的陷阱拦截封禁。
