@@ -24,7 +24,7 @@ tags: [planning]
 - **版本需求** 1.21.50+ ，或网易 3.7+。
 - **资源类型** 地图 - 综合地图
 - **最新版本** 1.01
-- **更新日志** 详情见[更新日志页面](update_log)
+- **更新日志** 详情见[更新日志页面](update_log/1_0)
 - **漏洞汇报** 详情见[GitHub](https://github.com/YZBWDLT/Adventure-World-5/issues)
 
 ---
