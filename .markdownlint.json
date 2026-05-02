@@ -21,7 +21,9 @@
             "Issue",
             "Download",
             "FrameHighlight",
-            "Version"
+            "Version",
+            "Image",
+            "ImageGroup"
         ]
     },
     "MD036": {

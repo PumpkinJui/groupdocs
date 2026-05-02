@@ -1,6 +1,5 @@
 ---
 sidebar_position: 2
-description: 参与本部作品制作或测试的人员。
 authors: [量筒]
 ---
 
