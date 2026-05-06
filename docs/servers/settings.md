@@ -41,85 +41,74 @@ import TabItem from '@theme/TabItem';
   - `banana.cvm.nekoawa.com`
   - `101.37.17.212`
 - 端口：30000
-- 版本：26.10
+- 版本：26.20
 
-</TabItem>
-<TabItem value="test" label="测试">
+</TabItem><TabItem value="test" label="测试">
 
 供测试群内部成员测试新技术或新地图的服务器。
 
- <Tabs>
- <TabItem value="t1" label="测试 I" default>
+ <Tabs><TabItem value="t1" label="测试 I" default>
 
 - 地址：
   - `banana.cvm.xiaozhiyuqwq.top`
   - `banana.cvm.nekoawa.com`
   - `101.37.17.212`
-- 端口：11000
-- 版本：26.10
+- 端口：31000
+- 版本：26.20
 
- </TabItem>
- <TabItem value="t2" label="测试 II">
-
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
-- 端口：12000
-- 版本：26.10
-
- </TabItem>
- <TabItem value="t3" label="测试 III">
+ </TabItem><TabItem value="t2" label="测试 II">
 
 - 地址：
   - `banana.cvm.xiaozhiyuqwq.top`
   - `banana.cvm.nekoawa.com`
   - `101.37.17.212`
-- 端口：13000
-- 版本：26.10
+- 端口：32000
+- 版本：26.20
 
- </TabItem>
- </Tabs>
-</TabItem>
-<TabItem value="bedwars" label="起床">
+ </TabItem><TabItem value="t3" label="测试 III">
+
+- 地址：
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：33000
+- 版本：26.20
+
+ </TabItem></Tabs>
+</TabItem><TabItem value="bedwars" label="起床">
 
 基于本群资源[量筒的起床战争](../resources/bedwars)而开服。
 
 友谊第一，比赛第二！禁止作弊哦！
 
- <Tabs>
- <TabItem value="b1" label="稳定服" default>
+ <Tabs><TabItem value="b1" label="稳定服" default>
 
 基于起床战争的稳定版本开服。
 
 - 地址：
-  - `apple.cvm.xiaozhiyuqwq.top`
-  - `apple.cvm.nekoawa.com`
-  - `182.254.222.77`
-- 端口：10000
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：34000
 - 版本：26.0
 
- </TabItem>
- <TabItem value="b2" label="测试服">
+ </TabItem><TabItem value="b2" label="测试服">
 
 基于起床战争的最新测试版本开服。
 
 - 地址：
-  - `apple.cvm.xiaozhiyuqwq.top`
-  - `apple.cvm.nekoawa.com`
-  - `182.254.222.77`
-- 端口：11000
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：35000
 - 版本：26.0
 
- </TabItem>
- </Tabs>
-</TabItem>
-<TabItem value="dev" label="开发">
+ </TabItem></Tabs>
+</TabItem><TabItem value="dev" label="开发">
 
 开发服是供开发者开发的服务器，一般仅供管理员和受邀人员进入。
 
- <Tabs>
- <TabItem value="d1" label="开发 I" default>
+ <Tabs><TabItem value="d1" label="开发 I" default>
 
 当前开发项目：《[冒险世界：筑梦](../resources/aw/aw5)》！
 
@@ -127,11 +116,10 @@ import TabItem from '@theme/TabItem';
   - `banana.cvm.xiaozhiyuqwq.top`
   - `banana.cvm.nekoawa.com`
   - `101.37.17.212`
-- 端口：31000
-- 版本：26.10
+- 端口：36000
+- 版本：26.20
 
- </TabItem>
- <TabItem value="d2" label="开发 II">
+ </TabItem><TabItem value="d2" label="开发 II">
 
 :::tip
 
@@ -145,18 +133,20 @@ import TabItem from '@theme/TabItem';
   - `banana.cvm.xiaozhiyuqwq.top`
   - `banana.cvm.nekoawa.com`
   - `101.37.17.212`
-- 端口：32000
-- 版本：26.10
+- 端口：37000
+- 版本：26.20
 
- </TabItem>
- <TabItem value="d3" label="开发 III">
+ </TabItem><TabItem value="d3" label="开发 III">
 
-[保留备用]
+- 地址：
+  - `banana.cvm.xiaozhiyuqwq.top`
+  - `banana.cvm.nekoawa.com`
+  - `101.37.17.212`
+- 端口：38000
+- 版本：26.20
 
- </TabItem>
- </Tabs>
-</TabItem>
-</Tabs>
+ </TabItem></Tabs>
+</TabItem></Tabs>
 
 ## 说明
 
