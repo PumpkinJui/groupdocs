@@ -15,11 +15,22 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-## 地址
+## 地址及端口
+
+:::tip
 
 如果您不知道这些信息怎么用，请参阅[如何设定自定义服务器](../tools/howto/set_servers)。
 
-同一条目下所有地址基本等价，仅有细微不同，可以随意选择。如果无法连接，可以尝试其他的地址。
+:::
+
+本群所有服务器地址相同，端口不同。地址均为：
+
+- `banana.cvm.xiaozhiyuqwq.top`
+- `banana.cvm.nekoawa.com`
+- `server.8088263.xyz`
+- `101.37.17.212`
+
+所有地址基本等价，仅有细微不同，可以随意选择。如果无法连接，可以尝试其他的地址。
 
 <Tabs>
 <TabItem value="s3" label="生存" default>
@@ -36,10 +47,6 @@ import TabItem from '@theme/TabItem';
 
 欢迎在生存服务器开拓天地，实现你的小梦想哦！
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：30000
 - 版本：26.20
 
@@ -49,28 +56,16 @@ import TabItem from '@theme/TabItem';
 
  <Tabs><TabItem value="t1" label="测试 I" default>
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：31000
 - 版本：26.20
 
  </TabItem><TabItem value="t2" label="测试 II">
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：32000
 - 版本：26.20
 
  </TabItem><TabItem value="t3" label="测试 III">
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：33000
 - 版本：26.20
 
@@ -85,10 +80,6 @@ import TabItem from '@theme/TabItem';
 
 基于起床战争的稳定版本开服。
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：34000
 - 版本：26.0
 
@@ -96,10 +87,6 @@ import TabItem from '@theme/TabItem';
 
 基于起床战争的最新测试版本开服。
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：35000
 - 版本：26.0
 
@@ -112,10 +99,6 @@ import TabItem from '@theme/TabItem';
 
 当前开发项目：《[冒险世界：筑梦](../resources/aw/aw5)》！
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：36000
 - 版本：26.20
 
@@ -129,19 +112,11 @@ import TabItem from '@theme/TabItem';
 
 当前开发项目：《[炸翻它 2](../resources/boom/boom2)》！
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：37000
 - 版本：26.20
 
  </TabItem><TabItem value="d3" label="开发 III">
 
-- 地址：
-  - `banana.cvm.xiaozhiyuqwq.top`
-  - `banana.cvm.nekoawa.com`
-  - `101.37.17.212`
 - 端口：38000
 - 版本：26.20
 
