@@ -25,12 +25,10 @@ import TabItem from '@theme/TabItem';
 
 本群所有服务器地址相同，端口不同。地址均为：
 
-- `banana.cvm.xiaozhiyuqwq.top`
-- `banana.cvm.nekoawa.com`
 - `server.8088263.xyz`
 - `101.37.17.212`
 
-所有地址基本等价，仅有细微不同，可以随意选择。如果无法连接，可以尝试其他的地址。
+两者等价，可随意选用。
 
 <Tabs>
 <TabItem value="s3" label="生存" default>
