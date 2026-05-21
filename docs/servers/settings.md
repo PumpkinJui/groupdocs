@@ -23,12 +23,7 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-本群所有服务器地址相同，端口不同。地址均为：
-
-- `server.8088263.xyz`
-- `101.37.17.212`
-
-两者等价，可随意选用。
+本群所有服务器地址相同，端口不同。地址均为：`server.8088263.xyz`。
 
 <Tabs>
 <TabItem value="s3" label="生存" default>
