@@ -48,10 +48,6 @@ sidebar_position: 1
 
 小飞侠，仓库协作者，群管理员。
 
-高三 er，更新又少又慢，见谅。
-
-*这是一种传承。*
-
 个人博客：
 
 [![Cloudflare Pages](/badges/cloudflare.svg)](https://wstd.pages.dev/)
