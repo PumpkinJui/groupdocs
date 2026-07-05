@@ -176,6 +176,8 @@ authors: [量筒]
 | 芝士 | ssdbzs | |
 | 幸存者 | starxingcunzhe | |
 | Cuzy | CuzyXD | |
+| 珂朵莉 | Tetrisoo | |
+| 永恒 | JHY2189 | |
 
 ## 离群成员（未违规）
 
