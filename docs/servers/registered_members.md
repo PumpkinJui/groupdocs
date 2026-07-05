@@ -178,6 +178,7 @@ authors: [量筒]
 | Cuzy | CuzyXD | |
 | 珂朵莉 | Tetrisoo | |
 | 永恒 | JHY2189 | |
+| 阿辰 | ACH1en3153 | |
 
 ## 离群成员（未违规）
 

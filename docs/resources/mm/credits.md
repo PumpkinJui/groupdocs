@@ -34,6 +34,22 @@ authors: [量筒]
 | 蒙德人 | 1.0 - Exp 1 | 1 |
 | 小飞侠 | 1.0 - Exp 1 | 1 |
 | 祉语 | 1.0 - Exp 1 | 1 |
+| 橘子 | 1.0 - Snapshot 1 | 1 |
+| 硫化银 | 1.0 - Snapshot 1 | 1 |
+| 鱼周 | 1.0 - Snapshot 1 | 1 |
+| 龙龙 | 1.0 - Snapshot 1 | 1 |
+| 烟雨 | 1.0 - Snapshot 1 | 1 |
+| 星辰 | 1.0 - Snapshot 1 | 1 |
+| 小意 | 1.0 - Snapshot 1 | 1 |
+| 马可 | 1.0 - Snapshot 1 | 1 |
+| 塞拉 | 1.0 - Snapshot 1 | 1 |
+| 海王星 | 1.0 - Snapshot 1 | 1 |
+| 抖抖抖 | 1.0 - Snapshot 1 | 1 |
+| xsg | 1.0 - Snapshot 1 | 1 |
+| 里昂 | 1.0 - Snapshot 1 | 1 |
+| 珂朵莉 | 1.0 - Snapshot 1 | 1 |
+| 永恒 | 1.0 - Snapshot 1 | 1 |
+| 阿辰 | 1.0 - Snapshot 1 | 1 |
 
 ## 特别鸣谢
 
