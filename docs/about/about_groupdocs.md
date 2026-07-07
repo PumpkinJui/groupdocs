@@ -40,9 +40,11 @@ sidebar_position: 1
 
 [https://www.sakuranyako.com/](https://www.sakuranyako.com/)
 
-### [@UsamiRenko04](https://github.com/UsamiRenko04)
+### [@T3ND0UAR1S](https://github.com/T3ND0UAR1S)
 
 比翼鸟→爱丽丝，仓库协作者，群管理员。
+
+曾用用户名 UsamiRenko04。
 
 ### [@Xiaofeixia2008](https://github.com/Xiaofeixia2008)
 
