@@ -42,7 +42,7 @@ sidebar_position: 1
 
 ### [@UsamiRenko04](https://github.com/UsamiRenko04)
 
-比翼鸟，仓库协作者，群管理员。
+比翼鸟→爱丽丝，仓库协作者，群管理员。
 
 ### [@Xiaofeixia2008](https://github.com/Xiaofeixia2008)
 
