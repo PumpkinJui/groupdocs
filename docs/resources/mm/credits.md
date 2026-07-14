@@ -23,33 +23,37 @@ authors: [量筒]
 
 | 测试成员 | 测试版本 | 有效测试次数 |
 | --- | --- | --- |
-| 巴豆 | 1.0 - Exp 1 | 1 |
-| 文雨 | 1.0 - Exp 1 | 1 |
-| 鸽子 | 1.0 - Exp 1 | 1 |
-| 绿叶 | 1.0 - Exp 1 | 1 |
-| lanos | 1.0 - Exp 1 | 1 |
-| 爱丽丝（比翼鸟） | 1.0 - Exp 1 | 1 |
-| 火卫三 | 1.0 - Exp 1 | 1 |
-| 南瓜汁 | 1.0 - Exp 1 | 1 |
+| 巴豆 | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| 文雨 | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| 鸽子 | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| 绿叶 | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| lanos | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| 爱丽丝（比翼鸟） | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| 火卫三 | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| 南瓜汁 | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| 祉语 | 1.0 - Exp 1、1.0 - Exp 2 | 2 |
+| 橘子 | 1.0 - Snapshot 1、1.0 - Exp 2 | 2 |
+| 硫化银 | 1.0 - Snapshot 1、1.0 - Exp 2 | 2 |
+| 小飞侠 | 1.0 - Exp 1、1.0 - Snapshot 2 | 2 |
 | 蒙德人 | 1.0 - Exp 1 | 1 |
-| 小飞侠 | 1.0 - Exp 1 | 1 |
-| 祉语 | 1.0 - Exp 1 | 1 |
-| 橘子 | 1.0 - Snapshot 1 | 1 |
-| 硫化银 | 1.0 - Snapshot 1 | 1 |
-| 鱼周 | 1.0 - Snapshot 1 | 1 |
-| 龙龙 | 1.0 - Snapshot 1 | 1 |
-| 烟雨 | 1.0 - Snapshot 1 | 1 |
-| 星辰 | 1.0 - Snapshot 1 | 1 |
+| 珂朵莉 | 1.0 - Snapshot 1、1.0 - Exp 2 | 2 |
+| 抖抖抖 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
+| 塞拉 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
+| 海王星 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
+| 里昂 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
+| 鱼周 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
+| 烟雨 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
+| 星辰 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
+| xsg | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
+| 龙龙 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
 | 小意 | 1.0 - Snapshot 1 | 1 |
 | 马可 | 1.0 - Snapshot 1 | 1 |
-| 塞拉 | 1.0 - Snapshot 1 | 1 |
-| 海王星 | 1.0 - Snapshot 1 | 1 |
-| 抖抖抖 | 1.0 - Snapshot 1 | 1 |
-| xsg | 1.0 - Snapshot 1 | 1 |
-| 里昂 | 1.0 - Snapshot 1 | 1 |
-| 珂朵莉 | 1.0 - Snapshot 1 | 1 |
 | 永恒 | 1.0 - Snapshot 1 | 1 |
 | 阿辰 | 1.0 - Snapshot 1 | 1 |
+| 欧拉 | 1.0 - Exp 2 | 1 |
+| 橘子冰 | 1.0 - Snapshot 2 | 1 |
+| 创哲宇 | 1.0 - Snapshot 2 | 1 |
+| 命令快 | 1.0 - Snapshot 2 | 1 |
 
 ## 特别鸣谢
 

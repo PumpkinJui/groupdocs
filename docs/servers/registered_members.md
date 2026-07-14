@@ -180,6 +180,8 @@ authors: [量筒]
 | 珂朵莉 | Tetrisoo | |
 | 永恒 | JHY2189 | |
 | 阿辰 | ACH1en3153 | |
+| 欧拉 | EurluoL | |
+| 很合理 | ZheBuHeLiaa | |
 
 ## 离群成员（未违规）
 
