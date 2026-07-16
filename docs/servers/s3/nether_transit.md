@@ -12,9 +12,9 @@ import ImageGroup from "/src/components/image/group";
 
 ## 下界轨道交通示意图
 
-截止于 2026 年 6 月 28 日，下界交通系统拥有 8 条线路， 22 个站点，于下界中的总里程超过 6300 米。
+截止于 2026 年 7 月 16 日，下界交通系统拥有 8 条线路，23 个站点，于下界中的总里程超过 6380 米。
 
-![下界交通（第二版）](/servers/s3/nether_transit/nether_transit_map.png)
+![下界交通](/servers/s3/nether_transit/nether_transit_map.png)
 
 ## 线路信息
 
@@ -27,7 +27,7 @@ import ImageGroup from "/src/components/image/group";
 | 黄线 | 810 | 4 | 高速 | 连接辰辉、银月与雪原三个发展区域的骨干线路 |
 | 绿线 | 1250 | 8 | 高速环线 | 补充橙线之间诸多小站点的线路 |
 | 青线 | 1400 | 7 | 高速 | 以矿山为枢纽，连接诸多小站点的线路 |
-| 蓝线 | 350 | 4 | 普速 | 补充红线之间诸多小站点的线路 |
+| 蓝线 | 430 | 5 | 普速 | 补充红线之间诸多小站点的线路 |
 | 紫线 | 130 | 2 | 普速 | 以雪原为枢纽，连接其他小站点的线路 |
 | 粉线 | 160 | 2 | 普速 | 连接恶魂塔的线路 |
 
@@ -64,6 +64,7 @@ import ImageGroup from "/src/components/image/group";
 | 恶地 | 17 米低站台 | 青线 |
 | [新月](./areas/silvermoon#新月区) | 13 米低站台 | 蓝线 |
 | [缘启](./areas/yuanqi) | 15 米低站台 | 蓝线 |
+| [新光南](./areas/xinguang#南村县) | 25 米低站台 | 蓝线 |
 | 冰刺之地 | 17 米低站台 | 紫线 |
 | 恶魂塔 | 17 米低站台 | 粉线 |
 
@@ -71,7 +72,6 @@ import ImageGroup from "/src/components/image/group";
 
 | 站点 | 站台规格 | 通过线路 |
 | --- | --- | --- |
-| 新光南 | 25 米低站台 | 蓝线 |
 | 硫黄洞穴 | 25 米高站台 | 黄线 |
 | 红树林沼泽 | 25 米高站台 | 蓝线 |
 | 苍白之园 | 25 米高站台 | 紫线 |
