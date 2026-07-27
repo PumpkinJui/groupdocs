@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
 欢迎在生存服务器开拓天地，实现你的小梦想哦！
 
 - 端口：30000
-- 版本：26.20
+- 版本：26.30
 
 </TabItem><TabItem value="test" label="测试">
 
@@ -50,17 +50,17 @@ import TabItem from '@theme/TabItem';
  <Tabs><TabItem value="t1" label="测试 I" default>
 
 - 端口：31000
-- 版本：26.20
+- 版本：26.30
 
  </TabItem><TabItem value="t2" label="测试 II">
 
 - 端口：32000
-- 版本：26.20
+- 版本：26.30
 
  </TabItem><TabItem value="t3" label="测试 III">
 
 - 端口：33000
-- 版本：26.20
+- 版本：26.30
 
  </TabItem></Tabs>
 </TabItem><TabItem value="bedwars" label="起床">
@@ -93,7 +93,7 @@ import TabItem from '@theme/TabItem';
 当前开发项目：《[冒险世界：筑梦](../resources/aw/aw5)》！
 
 - 端口：36000
-- 版本：26.20
+- 版本：26.30
 
  </TabItem><TabItem value="d2" label="开发 II">
 
@@ -106,12 +106,12 @@ import TabItem from '@theme/TabItem';
 当前开发项目：《[炸翻它 2](../resources/boom/boom2)》！
 
 - 端口：37000
-- 版本：26.20
+- 版本：26.30
 
  </TabItem><TabItem value="d3" label="开发 III">
 
 - 端口：38000
-- 版本：26.20
+- 版本：26.30
 
  </TabItem></Tabs>
 </TabItem></Tabs>

@@ -22,9 +22,9 @@ import TabItem from '@theme/TabItem';
 ```plaintext
 【服务器开放通知】
 《{地图名}》将于 {mm} 月 {dd} 日 (星期 {X}) {HH}:{MM}~{HH}:{MM} 在 {ServerName} 服开启测试。
-地址：{ apple.cvm.xiaozhiyuqwq.top | banana.cvm.xiaozhiyuqwq.top }
+地址：server.8088263.xyz
 端口：{port}
-版本：1.{xx.xx}
+版本：{26.xx}
 如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/docs/tools/urls/mcbe 更新。
 进入服务器需要白名单，群内成员皆可获得；如提示「未获邀」，请在测试开始前联系量筒添加白名单。
 ```
@@ -35,9 +35,9 @@ import TabItem from '@theme/TabItem';
 ```plaintext
 【服务器开放通知】
 《》将于  月  日 (星期) ~ 在 服开启测试。
-地址：
+地址：server.8088263.xyz
 端口：
-版本：1.
+版本：
 如你使用的 Minecraft 还未更新至服务器所在的版本，请至 https://docs.nekoawa.com/docs/tools/urls/mcbe 更新。
 进入服务器需要白名单，群内成员皆可获得；如提示「未获邀」，请在测试开始前联系量筒添加白名单。
 ```
@@ -53,17 +53,12 @@ import TabItem from '@theme/TabItem';
 ```plaintext
 【更新通知】
 本群全体服务器计划于 {time} 更新到基岩版正式版 {version}，请及时更新到该版本，否则将无法进入本群服务器！
-Android 安装包与 Windows 安装包均已发到群文件（群文件夹：最新国际版 Minecraft），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
 
 ---
 
 附录：
-1. 更新日志：
 中文 Minecraft Wiki：{link}
 官网：{link}
-2. 下载链接：
-Android（破解验证）：{link}
-Windows（正版）：{link}
 ```
 
   </TabItem>
@@ -72,17 +67,12 @@ Windows（正版）：{link}
 ```plaintext
 【更新通知】
 本群全体服务器计划于  更新到基岩版正式版 ，请及时更新到该版本，否则将无法进入本群服务器！
-Android 安装包与 Windows 安装包均已发到群文件（群文件夹：最新国际版 Minecraft），渠道（下载渠道：MineBBS | KLPBBS | 其他），群成员可按需自行下载。
 
 ---
 
 附录：
-1. 更新日志：
 中文 Minecraft Wiki：
 官网：
-2. 下载链接：
-Android（破解验证）：
-Windows（正版）：
 ```
 
   </TabItem>
@@ -95,7 +85,7 @@ Windows（正版）：
 
 ```plaintext
 【测试通知】
-{地图|附加包} {ResourceName} {ResourceVersion} 已经发布，请全体成员积极测试并在群内汇报你遇到的漏洞或你的建议。最低需求版本为 1.{xx.xx}。
+{地图|附加包} {ResourceName} {ResourceVersion} 已经发布，请全体成员积极测试并在群内汇报你遇到的漏洞或你的建议。最低需求版本为 {xx.xx}。
 {本次测试的人员数据将记录到群文档，依据为 {测试完毕截图|服务器进服记录|...}。烦劳各位成员在测试完毕后在群内发送完成测试的截图。}
 ```
 
@@ -104,7 +94,7 @@ Windows（正版）：
 
 ```plaintext
 【测试通知】
- 已经发布，请全体成员积极测试并在群内汇报你遇到的漏洞或你的建议。最低需求版本为 1. 。
+ 已经发布，请全体成员积极测试并在群内汇报你遇到的漏洞或你的建议。最低需求版本为 。
 本次测试的人员数据将记录到群文档，依据为 。烦劳各位成员在测试完毕后在群内发送完成测试的截图。
 ```
 
