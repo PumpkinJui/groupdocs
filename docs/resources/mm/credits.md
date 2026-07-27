@@ -42,11 +42,12 @@ authors: [量筒]
 | 海王星 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
 | 里昂 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
 | 星辰 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
+| xsg | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
 | 龙龙 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3 | 3 |
 | 塞拉 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 4 | 3 |
-| xsg | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 4 | 3 |
 | 烟雨 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
 | 永恒 | 1.0 - Snapshot 1、1.0 - Exp 4 | 2 |
+| 命令块 | 1.0 - Snapshot 2、1.0 - Snapshot 3 | 2 |
 | 创哲宇 | 1.0 - Snapshot 2、1.0 - Snapshot 4 | 2 |
 | 墨 | 1.0 - Snapshot 3、1.0 - Snapshot 4 | 2 |
 | 小意 | 1.0 - Snapshot 1 | 1 |
@@ -54,9 +55,9 @@ authors: [量筒]
 | 阿辰 | 1.0 - Snapshot 1 | 1 |
 | 欧拉 | 1.0 - Exp 2 | 1 |
 | 橘子冰 | 1.0 - Snapshot 2 | 1 |
-| 命令块 | 1.0 - Snapshot 2 | 1 |
 | 十三酱 | 1.0 - Snapshot 3 | 1 |
 | 条形马 | 1.0 - Snapshot 3 | 1 |
+| 很合理 | 1.0 - Snapshot 3 | 1 |
 
 ## 特别鸣谢
 
