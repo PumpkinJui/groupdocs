@@ -116,6 +116,7 @@ authors: [量筒]
 | 虾皮 | xia pi 000 | —<br/>— | ❔ | |
 | 抖抖抖 | SpyingLace85493 | —<br/>— | ❔ | |
 | xsg | xsg868758 | 蓝花美耳草<br/>§l§o | ❔ | |
+| 里昂 | zhao run zhe520 | —<br/>— | ❔ | |
 | 蘑菇 | xRprncQ | 羽毛<br/>— | ✔ | 考核前进服 |
 | 麦热 | havefuningame07 | 铁剑<br/>— | ✔ | 考核前进服 |
 | Dull | Dull12133<br/>RenJi12138<br/>Dull1213 | —<br/>— | ✘ | 考核前进服 |
@@ -123,7 +124,6 @@ authors: [量筒]
 | 一云 | yi0yun | 白色羊毛<br/>— | ✔ | 由 **@南瓜汁** 邀请来 |
 | 泽泽 | SageBasket91286 | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | — | Explorer95270 | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
-| 里昂 | zhao run zhe520 | —<br/>— | ❔ | 由 **@量筒** 邀请来 |
 | 巢小羊 | aaaLCxy | —<br/>— | ❔ | 由 **@小鼠** 邀请来 |
 | 橘子冰 | Orangeice114514 | 橙色郁金香<br/>— | ❔ | 由 **@橘子** 邀请来 |
 
