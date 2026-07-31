@@ -43,7 +43,7 @@ authors: [量筒]
 | 里昂 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
 | 星辰 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
 | xsg | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
-| 龙龙 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3 | 3 |
+| 龙龙 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
 | 塞拉 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 4 | 3 |
 | 烟雨 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
 | 永恒 | 1.0 - Snapshot 1、1.0 - Exp 4 | 2 |
