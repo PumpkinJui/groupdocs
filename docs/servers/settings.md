@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
 欢迎在生存服务器开拓天地，实现你的小梦想哦！
 
 - 端口：30000
-- 版本：26.30
+- 版本：26.40
 
 </TabItem><TabItem value="test" label="测试">
 
@@ -50,17 +50,17 @@ import TabItem from '@theme/TabItem';
  <Tabs><TabItem value="t1" label="测试 I" default>
 
 - 端口：31000
-- 版本：26.30
+- 版本：26.40
 
  </TabItem><TabItem value="t2" label="测试 II">
 
 - 端口：32000
-- 版本：26.30
+- 版本：26.40
 
  </TabItem><TabItem value="t3" label="测试 III">
 
 - 端口：33000
-- 版本：26.30
+- 版本：26.40
 
  </TabItem></Tabs>
 </TabItem><TabItem value="bedwars" label="起床">
@@ -74,14 +74,14 @@ import TabItem from '@theme/TabItem';
 基于起床战争的稳定版本开服。
 
 - 端口：34000
-- 版本：26.0
+- 版本：26.40
 
  </TabItem><TabItem value="b2" label="测试服">
 
 基于起床战争的最新测试版本开服。
 
 - 端口：35000
-- 版本：26.0
+- 版本：26.40
 
  </TabItem></Tabs>
 </TabItem><TabItem value="dev" label="开发">
@@ -93,7 +93,7 @@ import TabItem from '@theme/TabItem';
 当前开发项目：《[冒险世界：筑梦](../resources/aw/aw5)》！
 
 - 端口：36000
-- 版本：26.30
+- 版本：26.40
 
  </TabItem><TabItem value="d2" label="开发 II">
 
@@ -106,19 +106,21 @@ import TabItem from '@theme/TabItem';
 当前开发项目：《[炸翻它 2](../resources/boom/boom2)》！
 
 - 端口：37000
-- 版本：26.30
+- 版本：26.40
 
  </TabItem><TabItem value="d3" label="开发 III">
 
+当前开发项目：《[量筒的密室杀手](../resources/mm/)》！
+
 - 端口：38000
-- 版本：26.30
+- 版本：26.40
 
  </TabItem></Tabs>
 </TabItem></Tabs>
 
 ## 说明
 
-- 根据群规规定，各服务器使用白名单机制。若想参与各服务器的建设与测试工作，请在群内艾特群主登记（一次即可），说明意图，以添加白名单。
+- **根据群规规定，各服务器使用白名单机制**。**若想参与各服务器的建设与测试工作，请在群内艾特群主登记（一次即可），说明意图，以添加白名单**。
 - 除另有撤销以外，全部已登记成员均默认拥有测试服白名单。生存服需要在满足申请条件后通过考核，方可添加白名单。开发服除管理员和受邀人员外不对外开放。
 - 如遇卡顿，请联系管理员核实。卡顿可能由硬件故障、软件漏洞、地图规模过大或仅仅是连续开服时间过长导致。可在[宕机看板](https://status.nekoawa.com/)查看服务器硬件的运行状态。
 - 对于 iOS 和 iPadOS 设备，如果找不到服务器 IP 或卡微软验证，可以从[此页面](https://app.nekodrive.net/s/neViK)中选择下载 DNSPod 的 config，然后根据 Safari 的提示进行操作。
