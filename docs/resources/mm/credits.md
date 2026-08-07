@@ -26,38 +26,40 @@ authors: [量筒]
 | 巴豆 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
 | 文雨 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
 | 南瓜汁 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
+| 鸽子 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Snapshot 5 | 5 |
+| 爱丽丝（比翼鸟） | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| 小飞侠 | 1.0 - Exp 1、1.0 - Snapshot 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
 | 橘子 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
 | 硫化银 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 小飞侠 | 1.0 - Exp 1、1.0 - Snapshot 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 鸽子 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4 | 4 |
 | 绿叶 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4 | 4 |
-| 爱丽丝（比翼鸟） | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
 | lanos | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
 | 祉语 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 5 | 4 |
 | 火卫三 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 4、1.0 - Exp 5 | 4 |
-| 蒙德人 | 1.0 - Exp 1、1.0 - Snapshot 3 | 2 |
-| 珂朵莉 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4 | 4 |
-| 抖抖抖 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
-| 鱼周 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
-| 海王星 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
-| 里昂 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
-| 星辰 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
-| xsg | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
-| 龙龙 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
-| 塞拉 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 4 | 3 |
+| 蒙德人 | 1.0 - Exp 1、1.0 - Snapshot 3、1.0 - Snapshot 5 | 3 |
+| 珂朵莉 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Snapshot 5 | 5 |
+| 里昂 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| 鱼周 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| 抖抖抖 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| 龙龙 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| xsg | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| 海王星 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| 星辰 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| 塞拉 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 4、1.0 - Snapshot 5 | 4 |
+| 命令块 | 1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 5 | 3 |
+| 墨 | 1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 3 |
 | 烟雨 | 1.0 - Snapshot 1、1.0 - Snapshot 2 | 2 |
 | 永恒 | 1.0 - Snapshot 1、1.0 - Exp 4 | 2 |
-| 命令块 | 1.0 - Snapshot 2、1.0 - Snapshot 3 | 2 |
 | 创哲宇 | 1.0 - Snapshot 2、1.0 - Snapshot 4 | 2 |
-| 墨 | 1.0 - Snapshot 3、1.0 - Snapshot 4 | 2 |
+| 十三酱 | 1.0 - Snapshot 3、1.0 - Snapshot 5 | 2 |
+| 很合理 | 1.0 - Snapshot 3、1.0 - Snapshot 5 | 2 |
 | 小意 | 1.0 - Snapshot 1 | 1 |
 | 马可 | 1.0 - Snapshot 1 | 1 |
 | 阿辰 | 1.0 - Snapshot 1 | 1 |
 | 欧拉 | 1.0 - Exp 2 | 1 |
 | 橘子冰 | 1.0 - Snapshot 2 | 1 |
-| 十三酱 | 1.0 - Snapshot 3 | 1 |
 | 条形马 | 1.0 - Snapshot 3 | 1 |
-| 很合理 | 1.0 - Snapshot 3 | 1 |
+| Panda | 1.0 - Snapshot 5 | 1 |
+| 风暴 | 1.0 - Snapshot 5 | 1 |
 
 ## 特别鸣谢
 
