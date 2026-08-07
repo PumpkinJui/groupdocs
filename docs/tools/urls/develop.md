@@ -5,6 +5,8 @@ authors: [ 南瓜汁 ]
 
 # 开发用途
 
+import Button from '/src/components/button/base';
+
 :::warning[提示]
 
 此处内容仅适用于**基岩版**。请自行辨别我们提供的对应资源适用的平台。
@@ -45,7 +47,7 @@ authors: [ 南瓜汁 ]
 
 ### bridge. <!-- markdownlint-disable-line MD026 -->
 
-#### 介绍
+<Button text="官网" url="https://bridge-core.github.io/"/>
 
 > A powerful IDE for Minecraft Add-Ons
 >
@@ -55,13 +57,9 @@ bridge. 是一款强大的 Minecraft 基岩版集成开发环境，其功能与 
 
 bridge. 由 Minecraft 开发团队官方推荐！
 
-#### 网址
-
-[https://bridge-core.github.io/](https://bridge-core.github.io/)
-
 ### Blockbench
 
-#### 介绍
+<Button text="官网" url="https://www.blockbench.net/"/>
 
 > Blockbench is a free, modern model editor for low-poly models with pixel art textures.
 >
@@ -69,25 +67,26 @@ bridge. 由 Minecraft 开发团队官方推荐！
 
 Blockbench 由 Minecraft 开发团队官方推荐！
 
-#### 网址
-
-[https://www.blockbench.net/](https://www.blockbench.net/)
-
 ### Snowstorm
 
-#### 介绍
+<Button text="官网" url="https://snowstorm.app/"/>
+
+Microsoft Learn 提供的 Snowstorm 教程：
+
+<Button text="Snowstorm 概述" url="https://learn.microsoft.com/en-us/minecraft/creator/documents/snowstormoverview"/>
+<Button text="粒子效果" url="https://learn.microsoft.com/en-us/minecraft/creator/documents/particleeffects"/>
 
 Snowstorm 是一款用于编写 Minecraft 基岩版粒子的应用程序。它实现了粒子的可视化，将粒子的编写难度降低了一个梯度。
 
 Snowstorm 由 Minecraft 开发团队官方推荐！
 
-#### 网址
-
-- [Snowstorm 官网](https://snowstorm.app/)
-- [Microsoft Learn：Snowstorm 概述](https://learn.microsoft.com/en-us/minecraft/creator/documents/snowstormoverview)
-- [Microsoft Learn：粒子效果](https://learn.microsoft.com/en-us/minecraft/creator/documents/particleeffects)
-
 ### Chunker
+
+<Button text="官网" url="https://chunker.app/"/>
+
+Microsoft Learn 提供的 Snowstorm 教程：
+
+<Button text="Chunker 概述" url="https://learn.microsoft.com/zh-cn/minecraft/creator/documents/chunkeroverview"/>
 
 #### 介绍
 
@@ -96,13 +95,6 @@ Snowstorm 由 Minecraft 开发团队官方推荐！
 用于 BE 存档转 JE 存档。
 
 Chunker 由 Minecraft 开发团队官方推荐！
-
-#### 网址
-
-- [Chunker 官网](https://chunker.app/)
-- [Microsoft Learn：Chunker 概述](https://learn.microsoft.com/zh-cn/minecraft/creator/documents/chunkeroverview)
-
-#### 可用性测试
 
 > Chunker 目前可以转换：
 >
@@ -126,39 +118,36 @@ Chunker 由 Minecraft 开发团队官方推荐！
 
 此处不设介绍，都装上就对了。
 
-- Bedrock Definitions
-  - [VSC Marketplace](https://marketplace.visualstudio.com/items?itemName=destruc7i0n.vscode-bedrock-definitions)
-  - [GitHub](https://github.com/destruc7i0n/vscode-bedrock-definitions)
-- Blockception's Minecraft Bedrock Development
-  - [VSC Marketplace](https://marketplace.visualstudio.com/items?itemName=BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension)
-  - [GitHub](https://github.com/Blockception/VSCode-Bedrock-Development-Extension)
+- Bedrock Definitions：<br/>
+  <Button text="VSC 商城" url="https://marketplace.visualstudio.com/items?itemName=destruc7i0n.vscode-bedrock-definitions"/>
+  <Button text="Github" url="https://github.com/destruc7i0n/vscode-bedrock-definitions"/>
+- Blockception's Minecraft Bedrock Development：<br/>
+  <Button text="VSC 商城" url="https://marketplace.visualstudio.com/items?itemName=BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension"/>
+  <Button text="Github" url="https://github.com/Blockception/VSCode-Bedrock-Development-Extension"/>
 
-### @ProjectXero 专区
+### @ProjectXero 的命令助手
 
-#### 命令助手
+<Button text="官网" url="https://ca.projectxero.top/"/>
+<Button text="爱发电" url="https://afdian.com/a/projectxero"/>
 
-##### 介绍
+正式版停更说明：
+
+<Button text="官网" url="https://afdian.com/p/43d9a27c3fd611edac7252540025c377"/>
+<Button text="爱发电" url="https://ca.projectxero.top/blog/notice/pause-update/"/>
 
 > 便捷易用的 Minecraft 命令辅助输入应用。
 
 官网正式版最近一次更新在 2020 年初，目前已较为过时，可能不完全适用于当前的 Minecraft 版本。  
 测试版需在爱发电平台发电后查看。
 
-##### 网址
+### @ProjectXero 的其他网站
 
-- [命令助手 官网](https://ca.projectxero.top/)
-- [爱发电：ProjectXero](https://afdian.com/a/projectxero)
-- [爱发电：正式版停更说明](https://afdian.com/p/43d9a27c3fd611edac7252540025c377)
-- [官网：正式版停更说明](https://ca.projectxero.top/blog/notice/pause-update/)
-
-#### 其他
-
-- [MCBEID 表](https://idlist.projectxero.top/)
-- [Minecraft 命令更新日志](https://ca.projectxero.top/blog/command/command-history/)
+<Button text="MCBEID 表" url="https://idlist.projectxero.top"/>
+<Button text="Minecraft 命令更新日志" url="https://github.com/XeroAlpha/Minecraft-Bedrock-Command-Log"/>
 
 ### MCBE Essentials
 
-#### 介绍
+<Button text="官网" url="https://mcbe-essentials.github.io/"/>
 
 > MCBE Essentials is a collection of tools for Minecraft Bedrock Edition developers intended to make life easier!
 >
@@ -167,7 +156,3 @@ Chunker 由 Minecraft 开发团队官方推荐！
 MCBE Essentials 是一个集成了多种功能的开发工具，甚至可以用于将结构转换为函数文件！
 
 *（量筒：太牛啦！）*
-
-#### 网址
-
-[https://mcbe-essentials.github.io/](https://mcbe-essentials.github.io/)

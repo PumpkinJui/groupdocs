@@ -22,8 +22,8 @@
             "Download",
             "FrameHighlight",
             "Version",
-            "Image",
-            "ImageGroup"
+            "Image", "ImageGroup",
+            "Button"
         ]
     },
     "MD036": {

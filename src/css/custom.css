@@ -31,3 +31,238 @@
 
 @import url('https://cdn.jsdmirror.com/npm/@docsearch/css@3');
 @import '@docsearch/css';
+
+/* ================================================================
+   第二部分：全局 CSS 变量（语义化颜色与字体配置）
+   ================================================================
+   --oreui-*      ：语义变量，定义颜色、字体等
+   --ifm-*        ：Docusaurus / Infima 官方变量，引用 --oreui-*
+   这样设计使主题变量集中管理，便于维护。
+   ================================================================ */
+
+:root {
+    /* ---- 2.1 基础颜色（暗色主题） ---- */
+    --oreui-bg: #48494a; /* 页面主背景 */
+    --oreui-surface: #3b3c3d; /* 卡片、面板等次级背景 */
+    --oreui-surface-2: #313233; /* 更深一级背景（如导航栏、侧边栏） */
+    --oreui-text: #ffffff; /* 主文字颜色 */
+    --oreui-text-dim: #c5c6c9; /* 次级文字（较暗） */
+    --oreui-code-text: #ffffff; /* 行内代码文字颜色 */
+    --oreui-border-light: #5a5b5c; /* 边框亮色（用于立体感上边缘） */
+    --oreui-border-dark: #323334; /* 边框暗色（用于立体感下边缘） */
+    --oreui-border-dark2: #1e1e1f; /* 边框暗色（用于立体感下边缘） */
+    --oreui-line: #dbdbe2; /* 分割线颜色 */
+    --oreui-code-inline-bg: #1f1f1f; /* 行内代码背景 */
+    --oreui-panel-bg: rgba(0, 0, 0, 0.13); /* 面板半透明背景（用于悬浮效果） */
+    --oreui-scroll-track: #313233; /* 滚动条轨道 */
+    --oreui-scroll-thumb: #6d6d6e; /* 滚动条滑块 */
+    --oreui-link: #6cc349; /* 链接颜色（绿色） */
+    --oreui-link-hover: #8fd673; /* 链接悬停颜色（亮绿） */
+    --oreui-navbar-background: #e6e8eb; /* 导航栏背景 */
+    --oreui-navbar-border-bottom: #b1b2b5; /* 导航栏底部颜色 */
+
+    /* ---- 2.2 字体家族 ---- */
+    --oreui-font-title: "Minecraft Ten", "NotoSans Bold", "MiSans Bold", "Segoe UI", sans-serif;
+    --oreui-font-subtitle: "Minecraft Seven", "NotoSans Bold", "MiSans Bold", "Segoe UI", sans-serif;
+    --oreui-font-body: "Minecraft Seven", "NotoSans Bold", "MiSans", "Segoe UI", Tahoma, sans-serif;
+
+    /* ---- 2.3 主题色（绿色系） ---- */
+    --oreui-accent: #3c8527; /* 主色 */
+    --oreui-accent-dark: #2a641c;
+    --oreui-accent-darker: #1d4d13;
+    --oreui-accent-bright: #57b539;
+}
+
+/* ================================================================
+   第四部分：OreUI 按钮系统
+   ================================================================
+   设计特点：
+   - 使用内阴影模拟立体凸起效果
+   - 直角边框（无圆角）
+   - 支持多种尺寸和颜色变体
+   - 按下状态有 4px 下移效果
+   ================================================================ */
+
+/* ---- 4.1 基础按钮 ---- */
+.btn {
+    align-items: center;
+    border-radius: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    /* font-family: var(--oreui-font-body); */
+    justify-content: center;
+    margin: 0;
+    text-decoration: none;
+    transition: none; /* 无过渡，瞬间响应 */
+    user-select: none;
+}
+.btn:hover {
+    text-decoration: none;
+}
+.btn:active:not(.disabled_btn) {
+    transform: translateY(4px); /* 按下时下移 4px */
+}
+
+/* ---- 4.2 按钮宽度（长度） ---- */
+.extra_small_btn {
+    width: 100px;
+}
+.small_btn {
+    width: 130px;
+}
+.middle_btn {
+    width: 200px;
+}
+.large_btn {
+    width: 272px;
+}
+.extra_large_btn {
+    width: 300px;
+}
+
+/* ---- 4.3 按钮高度 ---- */
+.btn_height_extra_small {
+    height: 20px;
+}
+.btn_height_small {
+    height: 40px;
+}
+.btn_height_middle {
+    height: 60px;
+}
+.btn_height_large {
+    height: 80px;
+}
+.btn_height_extra_large {
+    height: 100px;
+}
+
+/* ---- 4.4 文字大小 ---- */
+.font_size_extra_small {
+    font-size: 12px;
+}
+.font_size_small {
+    font-size: 14px;
+}
+.font_size_middle {
+    font-size: 16px;
+}
+.font_size_large {
+    font-size: 20px;
+}
+.font_size_extra_large {
+    font-size: 24px;
+}
+
+/* ---- 4.5 按钮颜色主题 ---- */
+
+/* 白色按钮（默认） */
+.white_btn {
+    background-color: #d0d1d4;
+    border: 2px solid #1e1e1f;
+    box-shadow: inset 0 -4px #58585a, inset 3px 3px rgba(255, 255, 255, 0.6),
+        inset -3px -7px rgba(255, 255, 255, 0.4);
+    color: #000000;
+    padding-bottom: 6px;
+}
+.white_btn:hover {
+    background-color: #b1b2b5;
+    box-shadow: inset 0 -4px #58585a, inset 3px 3px rgba(255, 255, 255, 0.8),
+        inset -3px -7px rgba(255, 255, 255, 0.6);
+    color: #000000;
+}
+.white_btn:active {
+    background-color: #b1b2b5;
+    box-shadow: inset 3px 3px rgba(255, 255, 255, 0.8),
+        inset -3px -3px rgba(255, 255, 255, 0.6);
+    color: #000000;
+}
+
+/* 绿色按钮（主要操作） */
+.green_btn {
+    background-color: #3c8527;
+    border: 2px solid #1e1e1f;
+    box-shadow: inset 0 -4px #1d4d13, inset 3px 3px rgba(255, 255, 255, 0.2),
+        inset -3px -7px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    padding-bottom: 6px;
+}
+.green_btn:hover {
+    background-color: #2a641c;
+    box-shadow: inset 0 -4px #1d4d13, inset 3px 3px rgba(255, 255, 255, 0.4),
+        inset -3px -7px rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+}
+.green_btn:active {
+    background-color: #1d4d13;
+    box-shadow: inset 3px 3px rgba(255, 255, 255, 0.4),
+        inset -3px -3px rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+}
+
+/* 蓝色按钮（次要操作） */
+.blue_btn {
+    background-color: #1a56db;
+    border: 2px solid #1e1e1f;
+    box-shadow: inset 0 -4px #0f3a8a, inset 3px 3px rgba(255, 255, 255, 0.25),
+        inset -3px -7px rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    padding-bottom: 6px;
+}
+.blue_btn:hover {
+    background-color: #1e4fd0;
+    box-shadow: inset 0 -4px #0f3a8a, inset 3px 3px rgba(255, 255, 255, 0.45),
+        inset -3px -7px rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+}
+.blue_btn:active {
+    background-color: #0f3a8a;
+    box-shadow: inset 3px 3px rgba(255, 255, 255, 0.45),
+        inset -3px -3px rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+}
+
+/* ---- 4.6 按下状态的绿色按钮（用于设置页面选中状态） ---- */
+.green_btn_pressed {
+    background-color: #3c8527;
+    border: 2px solid #1e1e1f;
+    box-shadow: inset 3px 3px rgba(255, 255, 255, 0.2),
+        inset -3px -3px rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding-bottom: 0;
+    cursor: default;
+    pointer-events: none; /* 禁止交互 */
+    position: relative;
+}
+.green_btn_pressed::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 37.5%;
+    width: 25%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+/* 按下状态各高度版本（减去 4px 厚度，并用 transform 下移 4px 保持底部对齐） */
+.green_btn_pressed_extra_small {
+    height: 16px;
+    transform: translateY(4px);
+}
+.green_btn_pressed_small {
+    height: 36px;
+    transform: translateY(4px);
+}
+.green_btn_pressed_middle {
+    height: 56px;
+    transform: translateY(4px);
+}
+.green_btn_pressed_large {
+    height: 76px;
+    transform: translateY(4px);
+}
+.green_btn_pressed_extra_large {
+    height: 96px;
+    transform: translateY(4px);
+}

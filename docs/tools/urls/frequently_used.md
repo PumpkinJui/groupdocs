@@ -5,19 +5,20 @@ authors: [ 南瓜汁 ]
 
 # 常用网址
 
+import Button from '/src/components/button/base';
+
 ## Minecraft Wiki
 
-### 介绍
+<Button text="中文 Minecraft Wiki" url="https://zh.minecraft.wiki/"/>
 
 > Minecraft Wiki 是一个公开的、可编辑的网站，旨在收集一切有关 Minecraft 的实用信息。
 
-### 网址
-
-[https://zh.minecraft.wiki/](https://zh.minecraft.wiki/)
-
 ## 国际基岩版译名修正
 
-### 介绍
+<Button text="GitHub" url="https://github.com/ff98sha/mclangcn"/>
+<Button text="KLPBBS" url="https://klpbbs.com/thread-137794-1-1.html"/>
+<Button text="MineBBS" url="https://www.minebbs.com/resources/8447/"/>
+<Button text="NetEase"/>
 
 > 中文 Minecraft Wiki 提醒您：译名千万条，准确第一条。翻译不规范，玩家两行泪。
 >
@@ -36,10 +37,3 @@ authors: [ 南瓜汁 ]
 [生存 III 档](../../servers/s3)使用了此资源包。
 
 *顺便说一句，「试用版」(trial) 也挺无脑的。*
-
-### 网址
-
-- [GitHub](https://github.com/ff98sha/mclangcn)
-- [KLPBBS](https://klpbbs.com/thread-137794-1-1.html)
-- [MineBBS](https://www.minebbs.com/resources/8447/)
-- NetEase
