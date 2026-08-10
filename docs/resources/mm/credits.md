@@ -23,17 +23,17 @@ authors: [量筒]
 
 | 测试成员 | 测试版本 | 有效测试次数 |
 | --- | --- | --- |
-| 巴豆 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 文雨 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 南瓜汁 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 鸽子 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Snapshot 5 | 5 |
-| 爱丽丝（比翼鸟） | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
+| 巴豆 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5、1.0 - Exp 6 | 6 |
+| 文雨 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5、1.0 - Exp 6 | 6 |
+| 南瓜汁 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5、1.0 - Exp 6 | 6 |
+| 鸽子 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Snapshot 5、1.0 - Exp 6 | 6 |
+| 爱丽丝（比翼鸟） | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5、1.0 - Exp 6 | 6 |
+| 橘子 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Exp 5、1.0 - Exp 6 | 6 |
+| 硫化银 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Exp 5、1.0 - Exp 6 | 6 |
+| 绿叶 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Snapshot 5、1.0 - Exp 6 | 6 |
+| lanos | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5、1.0 - Exp 6 | 6 |
 | 小飞侠 | 1.0 - Exp 1、1.0 - Snapshot 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 橘子 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 硫化银 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 绿叶 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Snapshot 5 | 5 |
-| lanos | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
-| 祉语 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 5 | 4 |
+| 祉语 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 5、1.0 - Exp 6 | 5 |
 | 火卫三 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 4、1.0 - Exp 5 | 4 |
 | 蒙德人 | 1.0 - Exp 1、1.0 - Snapshot 3、1.0 - Snapshot 5 | 3 |
 | 小鼠 | 1.0 - Snapshot 5 | 1 |
