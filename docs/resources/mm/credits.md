@@ -31,11 +31,12 @@ authors: [量筒]
 | 小飞侠 | 1.0 - Exp 1、1.0 - Snapshot 2、1.0 - Exp 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
 | 橘子 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
 | 硫化银 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Exp 5 | 5 |
-| 绿叶 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4 | 4 |
-| lanos | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4 | 4 |
+| 绿叶 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Snapshot 5 | 5 |
+| lanos | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
 | 祉语 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Exp 3、1.0 - Exp 5 | 4 |
 | 火卫三 | 1.0 - Exp 1、1.0 - Exp 2、1.0 - Snapshot 4、1.0 - Exp 5 | 4 |
 | 蒙德人 | 1.0 - Exp 1、1.0 - Snapshot 3、1.0 - Snapshot 5 | 3 |
+| 小鼠 | 1.0 - Snapshot 5 | 1 |
 | 珂朵莉 | 1.0 - Snapshot 1、1.0 - Exp 2、1.0 - Snapshot 3、1.0 - Exp 4、1.0 - Snapshot 5 | 5 |
 | 里昂 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
 | 鱼周 | 1.0 - Snapshot 1、1.0 - Snapshot 2、1.0 - Snapshot 3、1.0 - Snapshot 4、1.0 - Snapshot 5 | 5 |
