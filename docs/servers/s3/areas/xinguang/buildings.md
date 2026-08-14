@@ -108,7 +108,7 @@ authors: [量筒]
 
 新光站是一栋以青色陶瓦、暗海晶石和闪长岩为主体的、青色白色为主色的多层火车站，处在市中心的位置。
 
-![新光站](/servers/s3/areas/xinguang/buildings/xinguang_railway_station.png)
+![新光站](/servers/s3/areas/xinguang/buildings/xinguang_railway_station.webp)
 
 - **位置**：初晓区，中央大街（-240, -220）
 - **设计**：文雨、绿叶
@@ -228,7 +228,7 @@ authors: [量筒]
 
 本机器可以和无限熔岩机或熔岩机搭配使用，但通常建议使用大量的煤炭块作为燃料。
 
-![旋转熔炉组](/servers/s3/areas/xinguang/buildings/high_speed_furnace.png)
+![旋转熔炉组](/servers/s3/areas/xinguang/buildings/high_speed_furnace.webp)
 
 - **地点**：昌兴区东部，一大矿大道与聚宝街交叉路口（-280, -25）
 - **维修者**：橘子

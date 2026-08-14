@@ -7,7 +7,7 @@ authors: [量筒]
 
 猪人塔是用于产出金和经验的核心工业机器。
 
-![猪人塔](/servers/s3/industries/zombified_piglin_farm/description.png)
+![猪人塔](/servers/s3/industries/zombified_piglin_farm/description.webp)
 
 ## 基础信息
 
@@ -33,19 +33,19 @@ authors: [量筒]
 
 :::
 
-![水电梯](/servers/s3/industries/zombified_piglin_farm/elevator.png)
+![水电梯](/servers/s3/industries/zombified_piglin_farm/elevator.webp)
 
 ### 空岛层：猪人塔主体结构
 
 从水电梯上来后到达空岛层，这个房子和埋于空岛内部的结构即为猪人塔的主体结构。
 
-![空岛层](/servers/s3/industries/zombified_piglin_farm/island.png)
+![空岛层](/servers/s3/industries/zombified_piglin_farm/island.webp)
 
 ### 猪人塔总控室
 
 房子内部即为猪人塔总控室。在这里进行猪人塔的开关控制，同时也进行僵尸猪灵的处死工作和产物收集工作。
 
-![内部结构](/servers/s3/industries/zombified_piglin_farm/inside.png)
+![内部结构](/servers/s3/industries/zombified_piglin_farm/inside.webp)
 
 ## 猪人塔总控室的具体布局
 
@@ -53,7 +53,7 @@ authors: [量筒]
 
 第三代猪人塔的总控区如下图所示。总控区一共有 3 个开关：
 
-![总控区](/servers/s3/industries/zombified_piglin_farm/control_area.png)
+![总控区](/servers/s3/industries/zombified_piglin_farm/control_area.webp)
 
 - 【左 1】**生成模式开关**：控制猪人塔启用何种生成模式。低功耗模式（关闭拉杆）将启用 8 个门中的 4 个门，为兼顾性能和产出的模式；而满载模式（开启拉杆）则将启用全部 8 个下界门。
 
@@ -79,13 +79,13 @@ authors: [量筒]
 
 第三代猪人塔的处死区如下图所示。处死区用于处死生成的大量猪人。
 
-![处死区](/servers/s3/industries/zombified_piglin_farm/execute_area_1.png)
+![处死区](/servers/s3/industries/zombified_piglin_farm/execute_area_1.webp)
 
 - **公用三叉戟储备盒（上图红色区域）**：储存猪人塔专用三叉戟。这些三叉戟为公共财产，仅限在猪人塔内使用，禁止私自取走。
   - 8 根公用三叉戟的名称分别为：王族之枪、骑士之枪、士兵之枪、旅人之枪、小鼠定制的猪人塔按摩器、鸽子的小钢梳、看我 hyperdash、烤猪叉
   - 如果你在离开后发现你有以上名称的三叉戟，必须归还到猪人塔。
 - **三叉戟安插区（上图蓝色区域）**：第三代猪人塔的使用条件相对要严苛很多。在使用时，必须在绿宝石块上，靠近铁活板门的位置安插三叉戟。以绿宝石的原版贴图为参考，按深色环状贴图为分界分为三个环，可安插区域限于绿宝石块的内环线到中环线的中间区域。**为兼顾处死效率和抗卸载能力，请尽可能将三叉戟安插在两线中间**（过于靠内环则无法处死，过于靠外环则抗卸载能力过差），如下图所示：  
-  ![三叉戟安插最佳点位](/servers/s3/industries/zombified_piglin_farm/execute_area_2.png)  
+  ![三叉戟安插最佳点位](/servers/s3/industries/zombified_piglin_farm/execute_area_2.webp)  
   我们深知这个安插要求要严苛得多，所幸我们发现了一种更简单且更标准的安插方案，在使用方法一章我们会详细强调。
 
 ### 挂机区
@@ -94,7 +94,7 @@ authors: [量筒]
 
 如果挂机区没有人，经验仍然会被自动销毁以防止实体堆积，这可以节约性能。
 
-![挂机区](/servers/s3/industries/zombified_piglin_farm/afk_area.png)
+![挂机区](/servers/s3/industries/zombified_piglin_farm/afk_area.webp)
 
 ### 产物收集区（金块）
 
@@ -102,7 +102,7 @@ authors: [量筒]
 
 > **注**：相比于第二代猪人塔，产物收集区不再尝试收集腐肉。
 
-![产物收集区](/servers/s3/industries/zombified_piglin_farm/collect_area.png)
+![产物收集区](/servers/s3/industries/zombified_piglin_farm/collect_area.webp)
 
 ## 使用方法
 
@@ -111,20 +111,20 @@ authors: [量筒]
 3. 安插三叉戟。安插方法可任选以下两种中的一种。我们强烈推荐按照**标准安插法**安插，以免出现安插失误。
    - **标准安插法**：
      1. 站到按钮外侧，准心对准下图所示的区域，插上 2 根三叉戟，然后准星略微偏上或偏下，插上新的 2 根三叉戟。确保 4 根三叉戟都在如上图所示的范围内。  
-        ![如何使用 1](/servers/s3/industries/zombified_piglin_farm/how_to_use_1.png)  
-        ![如何使用 2](/servers/s3/industries/zombified_piglin_farm/how_to_use_2.png)  
+        ![如何使用 1](/servers/s3/industries/zombified_piglin_farm/how_to_use_1.webp)  
+        ![如何使用 2](/servers/s3/industries/zombified_piglin_farm/how_to_use_2.webp)  
      2. 按下旁边的按钮，此时活塞推动灯笼，会把三叉戟推动到我们预期的位置上去。**如果三叉戟未能被推动，则必须拾起重插**。  
-        ![如何使用 3](/servers/s3/industries/zombified_piglin_farm/how_to_use_3.png)  
+        ![如何使用 3](/servers/s3/industries/zombified_piglin_farm/how_to_use_3.webp)  
      3. 在另一侧，也如法炮制。8 根三叉戟均被推到合适的位置之后方可进行第 4 步，否则必须重新插三叉戟。
-        ![如何使用 4](/servers/s3/industries/zombified_piglin_farm/how_to_use_4.png)  
+        ![如何使用 4](/servers/s3/industries/zombified_piglin_farm/how_to_use_4.webp)  
    - **快速安插法**：直接在我们给出的 2 个最佳点位处分别插上 2 根三叉戟。2 个绿宝石块上合计插 8 根。**未在最佳点位上的三叉戟都应拾起重插**。我们建议仅当使用者足够熟练时使用快速安插法。  
-     ![三叉戟安插最佳点位](/servers/s3/industries/zombified_piglin_farm/execute_area_2.png)  
+     ![三叉戟安插最佳点位](/servers/s3/industries/zombified_piglin_farm/execute_area_2.webp)  
 4. 按照需求选择生成模式，并选择是否启用经验球收集。
    - 我们建议在一般情况下，**生成模式调整为低功耗模式**，并**启用经验球收集**。
    - 如果您对经验有大量需求，可选择满载模式，但必须注意满载模式的使用要求。
    - 如果您对经验丝毫没有需求，可选择关闭经验球收集。
 5. 在登记成员代表物中找到自己的代表物，并安插到物品展示框上。然后拉下总开关，启用猪人塔。
-   ![如何使用 5](/servers/s3/industries/zombified_piglin_farm/how_to_use_5.png)  
+   ![如何使用 5](/servers/s3/industries/zombified_piglin_farm/how_to_use_5.webp)  
 
    :::danger[警告]
 
