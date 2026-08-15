@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 
 :::tip
 
-如果您不知道这些信息怎么用，请参阅[如何设定自定义服务器](../tools/howto/set_servers)。
+如果您不知道如何添加服务器，请参阅[如何设定自定义服务器](../tools/howto/set_servers)。
 
 :::
 
