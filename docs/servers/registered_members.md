@@ -35,24 +35,24 @@ authors: [量筒]
 
 ## 群主与管理员
 
-| 称呼 | XboxID | 代表物<br/>颜色代码 | 备注 |
-| :---: | :---: | :---: | --- |
-| 量筒 | YZBWDLT | 玻璃瓶<br/>§r§l§b | 生存服贡献大；测试贡献大；群文档主要贡献者 |
-| 巴豆 | Andy7343<br/>ContactHail8525 | 可可豆<br/>§r§c | 生存服贡献大；测试贡献大 |
-| 文雨 | KrisWenYu | 海晶碎片<br/>— | 生存服贡献大；测试贡献大 |
-| 祉语 | xhduoduobaby | 橙色染色玻璃<br/>§r§6 | 你群の大橘猫 |
-| 鸽子 | PigeonKI | 熟鸡肉<br/>§f§l | 生存服贡献较大；测试贡献大；群文档贡献者 |
-| 小飞侠 | tck1122 | —<br/>— | 生存服贡献较大；测试贡献大；群文档贡献者 |
-| lanos | lanos212 | —<br/>— | 测试贡献大 |
-| 硫化银 | yiyishi54188 | 黑色染料<br/>§r§l§0 | 测试贡献大 |
-| 橘子 | freeorange114 | 发光浆果<br/>§r§l§6 | 测试贡献大 |
-| 南瓜汁 | PumpkinJui | 蜂蜜瓶<br/>§r§l§6 | 测试贡献较大；群文档主要贡献者 |
-| 比翼鸟 | KianaKaslana947<br/>RaidenMei947 | 末地水晶<br/>§d | 生存服贡献大；测试贡献较大 |
-| 火卫三 | IBukreev | 红色旗帜 (左黄斜条，红色右下三角，<br/>左顶红方，黄色 Mojang 徽标，顶红三角)<br/>§l§c | 生存服贡献较大，测试贡献较大 |
-| 小鼠 | xiaoshu512 | 附魔金胸甲<br/>§r§l§e | 生存服贡献大 |
-| 晨风 | ChenfengAB | —<br/>— | 无生存服白名单 |
-| 蒙德人 | Tuffy2020China | 苹果<br/>§r§l§k | |
-| 绿叶 | GreeLeaf | 绿色染料<br/>§a | |
+|  称呼  |              XboxID              |                                  代表物<br/>颜色代码                                  | 备注                                       |
+| :----: | :------------------------------: | :-----------------------------------------------------------------------------------: | ------------------------------------------ |
+|  量筒  |             YZBWDLT              |                                   玻璃瓶<br/>§r§l§b                                   | 生存服贡献大；测试贡献大；群文档主要贡献者 |
+|  巴豆  |   Andy7343<br/>ContactHail8525   |                                    可可豆<br/>§r§c                                    | 生存服贡献大；测试贡献大                   |
+|  文雨  |            KrisWenYu             |                                    海晶碎片<br/>—                                     | 生存服贡献大；测试贡献大                   |
+|  祉语  |           xhduoduobaby           |                                 橙色染色玻璃<br/>§r§6                                 | 你群の大橘猫                               |
+|  鸽子  |             PigeonKI             |                                    熟鸡肉<br/>§f§l                                    | 生存服贡献较大；测试贡献大；群文档贡献者   |
+| 小飞侠 |             tck1122              |                                        —<br/>—                                        | 生存服贡献较大；测试贡献大；群文档贡献者   |
+| lanos  |             lanos212             |                                        —<br/>—                                        | 测试贡献大                                 |
+| 硫化银 |           yiyishi54188           |                                  黑色染料<br/>§r§l§0                                  | 测试贡献大                                 |
+|  橘子  |          freeorange114           |                                  发光浆果<br/>§r§l§6                                  | 测试贡献大                                 |
+| 南瓜汁 |            PumpkinJui            |                                   蜂蜜瓶<br/>§r§l§6                                   | 测试贡献较大；群文档主要贡献者             |
+| 比翼鸟 | KianaKaslana947<br/>RaidenMei947 |                                    末地水晶<br/>§d                                    | 生存服贡献大；测试贡献较大                 |
+| 火卫三 |             IBukreev             | 红色旗帜 (左黄斜条，红色右下三角，<br/>左顶红方，黄色 Mojang 徽标，顶红三角)<br/>§l§c | 生存服贡献较大，测试贡献较大               |
+|  小鼠  |            xiaoshu512            |                                 附魔金胸甲<br/>§r§l§e                                 | 生存服贡献大                               |
+|  晨风  |            ChenfengAB            |                                        —<br/>—                                        | 无生存服白名单                             |
+| 蒙德人 |          Tuffy2020China          |                                    苹果<br/>§r§l§k                                    |                                            |
+|  绿叶  |             GreeLeaf             |                                    绿色染料<br/>§a                                    |                                            |
 
 ## 普通成员（有生存服白名单）
 
@@ -62,51 +62,51 @@ authors: [量筒]
 2. 测试贡献更大的排到前面，测试贡献的份量大于生存服贡献。
 3. 标签相同的，排名不分先后。
 
-| 称呼 | XboxID | 代表物<br/>颜色代码 | 备注 |
-| :---: | :---: | :---: | --- |
-| 鱼周 | UnhandyShark856 | 钻石鹦鹉螺铠<br/>§r§b | 马可服群管理、服管理，生存服贡献较大，测试贡献大 |
-| 龙龙 | longlongxiaotao | —<br/>— | 测试贡献大 |
-| 烟雨 | RustyAbyss29193 | 爆裂绿色尾迹烟花<br/>— | 测试贡献大 |
-| 星辰 | xc13599305 | 樱花木板<br/>— | 生存服贡献大；测试贡献较大 |
-| 十三酱 | L52th<br/>Rss and L53 | 红砂岩<br/>§c | 生存服贡献大；测试贡献较大 |
-| 小意 | Xiaoyia666<br/>PrisonedSnow917 | —<br/>— | 生存服贡献大；测试贡献较大 |
-| 月 | llytalo | —<br/>— | 测试贡献较大 |
-| Ar | Nan66666666<br/>NanXAS | 金苹果<br/>§r§l§e | 生存服贡献大 |
-| 千里 | EnderLifeRyan<br/>EnderLife5409 | 末影珍珠<br/>§5§l | 生存服贡献大 |
-| 宽判 | kuanpan 9527<br/>ADOFAI7bg | 红石矿石<br/>— | 生存服贡献较大 |
-| 书豪 | Ustiniana1641<br/>xiangshuijiao7X<br/>DOUDOU082498860 | 末地烛<br/>— | 生存服贡献较大 |
-| 马可 | MAXOUYT8117 | —<br/>— | 生存服贡献较大 |
-| 命令块 | CommandBlock603 | 灰色旗帜 (绿色波纹边，淡灰色砖纹<br/>黑色菱形，黑色花朵图案，白色模型头像)<br/>§l§4 | 生存服贡献较大 |
-| 塞拉 | Traptrix SL | 金锭<br/>— | 代表物欲修改为土豆；生存服贡献较大；由 **@量筒** 邀请来 |
-| 小面包 | LittleBread2026 | —<br/>— | 马可服服管理 |
-| 辉金 | huijinya520 | 金粒<br/>§l§6 | 知名视频作者 |
-| 地雷 | Peroxide07122 | TNT<br/>— | |
-| 小鸟 | lovebirdsvvv | 白色陶瓦<br/>— | |
-| 擺给 | BaiGeiSavior | —<br/>— | |
-| 墨 | modiya2333 | —<br/>— | |
-| 水晶哥 | MTBWC | —<br/>— | |
-| 草方块 | Tuanzi555 | 木镐<br/>— | |
-| 风暴 | FoxLanMo | —<br/>— | |
-| frisk | frisk5448 | 治疗之箭<br/>— | |
-| 吊桥 | diaoqiaoyl | —<br/>— | |
-| 红萌 | lzq233233 | —<br/>— | |
-| laolu | laolu444222 | —<br/>— | |
-| 条形马 | QRnobelly | 皮革<br/>— | |
-| 木糖 | Xylitol2337 | —<br/>— | |
-| 海王星 | Neptune exe1591 | —<br/>— | |
-| 虾皮 | xia pi 000 | —<br/>— | |
-| 抖抖抖 | SpyingLace85493 | —<br/>— | |
-| xsg | xsg868758 | 蓝花美耳草<br/>§l§o | |
-| 里昂 | zhao run zhe520 | —<br/>— | |
-| 蘑菇 | xRprncQ | 羽毛<br/>— | 考核前进服 |
-| 麦热 | havefuningame07 | 铁剑<br/>— | 考核前进服 |
-| Dull | Dull12133<br/>RenJi12138<br/>Dull1213 | —<br/>— | 考核前进服 |
-| 基岩 | Ender5207541 | 铁镐<br/>— | 考核前进服 |
-| 一云 | yi0yun | 白色羊毛<br/>— | 由 **@南瓜汁** 邀请来 |
-| 泽泽 | SageBasket91286 | —<br/>— | 由 **@量筒** 邀请来 |
-| — | Explorer95270 | —<br/>— | 由 **@量筒** 邀请来 |
-| 巢小羊 | aaaLCxy | —<br/>— | 由 **@小鼠** 邀请来 |
-| 橘子冰 | Orangeice114514 | 橙色郁金香<br/>— | 由 **@橘子** 邀请来 |
+|  称呼  |                        XboxID                         |                                 代表物<br/>颜色代码                                 | 备注                                                    |
+| :----: | :---------------------------------------------------: | :---------------------------------------------------------------------------------: | ------------------------------------------------------- |
+|  鱼周  |                    UnhandyShark856                    |                                钻石鹦鹉螺铠<br/>§r§b                                | 马可服群管理、服管理，生存服贡献较大，测试贡献大        |
+|  龙龙  |                    longlongxiaotao                    |                                       —<br/>—                                       | 测试贡献大                                              |
+|  烟雨  |                    RustyAbyss29193                    |                               爆裂绿色尾迹烟花<br/>—                                | 测试贡献大                                              |
+|  星辰  |                      xc13599305                       |                                   樱花木板<br/>—                                    | 生存服贡献大；测试贡献较大                              |
+| 十三酱 |                 L52th<br/>Rss and L53                 |                                    红砂岩<br/>§c                                    | 生存服贡献大；测试贡献较大                              |
+|  小意  |            Xiaoyia666<br/>PrisonedSnow917             |                                       —<br/>—                                       | 生存服贡献大；测试贡献较大                              |
+|   月   |                        llytalo                        |                                       —<br/>—                                       | 测试贡献较大                                            |
+|   Ar   |                Nan66666666<br/>NanXAS                 |                                  金苹果<br/>§r§l§e                                  | 生存服贡献大                                            |
+|  千里  |            EnderLifeRyan<br/>EnderLife5409            |                                  末影珍珠<br/>§5§l                                  | 生存服贡献大                                            |
+|  宽判  |              kuanpan 9527<br/>ADOFAI7bg               |                                   红石矿石<br/>—                                    | 生存服贡献较大                                          |
+|  书豪  | Ustiniana1641<br/>xiangshuijiao7X<br/>DOUDOU082498860 |                                    末地烛<br/>—                                     | 生存服贡献较大                                          |
+|  马可  |                      MAXOUYT8117                      |                                       —<br/>—                                       | 生存服贡献较大                                          |
+| 命令块 |                    CommandBlock603                    | 灰色旗帜 (绿色波纹边，淡灰色砖纹<br/>黑色菱形，黑色花朵图案，白色模型头像)<br/>§l§4 | 生存服贡献较大                                          |
+|  塞拉  |                      Traptrix SL                      |                                     金锭<br/>—                                      | 代表物欲修改为土豆；生存服贡献较大；由 **@量筒** 邀请来 |
+| 小面包 |                    LittleBread2026                    |                                       —<br/>—                                       | 马可服服管理                                            |
+|  辉金  |                      huijinya520                      |                                    金粒<br/>§l§6                                    | 知名视频作者                                            |
+|  地雷  |                     Peroxide07122                     |                                      TNT<br/>—                                      |                                                         |
+|  小鸟  |                     lovebirdsvvv                      |                                   白色陶瓦<br/>—                                    |                                                         |
+|  擺给  |                     BaiGeiSavior                      |                                       —<br/>—                                       |                                                         |
+|   墨   |                      modiya2333                       |                                       —<br/>—                                       |                                                         |
+| 水晶哥 |                         MTBWC                         |                                       —<br/>—                                       |                                                         |
+| 草方块 |                       Tuanzi555                       |                                     木镐<br/>—                                      |                                                         |
+|  风暴  |                       FoxLanMo                        |                                       —<br/>—                                       |                                                         |
+| frisk  |                       frisk5448                       |                                   治疗之箭<br/>—                                    |                                                         |
+|  吊桥  |                      diaoqiaoyl                       |                                       —<br/>—                                       |                                                         |
+|  红萌  |                       lzq233233                       |                                       —<br/>—                                       |                                                         |
+| laolu  |                      laolu444222                      |                                       —<br/>—                                       |                                                         |
+| 条形马 |                       QRnobelly                       |                                     皮革<br/>—                                      |                                                         |
+|  木糖  |                      Xylitol2337                      |                                       —<br/>—                                       |                                                         |
+| 海王星 |                    Neptune exe1591                    |                                       —<br/>—                                       |                                                         |
+|  虾皮  |                      xia pi 000                       |                                       —<br/>—                                       |                                                         |
+| 抖抖抖 |                    SpyingLace85493                    |                                       —<br/>—                                       |                                                         |
+|  xsg   |                       xsg868758                       |                                 蓝花美耳草<br/>§l§o                                 |                                                         |
+|  里昂  |                    zhao run zhe520                    |                                       —<br/>—                                       |                                                         |
+|  蘑菇  |                        xRprncQ                        |                                     羽毛<br/>—                                      | 考核前进服                                              |
+|  麦热  |                    havefuningame07                    |                                     铁剑<br/>—                                      | 考核前进服                                              |
+|  Dull  |         Dull12133<br/>RenJi12138<br/>Dull1213         |                                       —<br/>—                                       | 考核前进服                                              |
+|  基岩  |                     Ender5207541                      |                                     铁镐<br/>—                                      | 考核前进服                                              |
+|  一云  |                        yi0yun                         |                                   白色羊毛<br/>—                                    | 由 **@南瓜汁** 邀请来                                   |
+|  泽泽  |                    SageBasket91286                    |                                       —<br/>—                                       | 由 **@量筒** 邀请来                                     |
+|   —    |                     Explorer95270                     |                                       —<br/>—                                       | 由 **@量筒** 邀请来                                     |
+| 巢小羊 |                        aaaLCxy                        |                                       —<br/>—                                       | 由 **@小鼠** 邀请来                                     |
+| 橘子冰 |                    Orangeice114514                    |                                  橙色郁金香<br/>—                                   | 由 **@橘子** 邀请来                                     |
 
 ## 普通成员（无生存服白名单）
 
@@ -116,103 +116,104 @@ authors: [量筒]
 2. 测试贡献更大的排到前面，测试贡献的份量大于生存服贡献。
 3. 标签相同的，排名不分先后。
 
-| 称呼 | XboxID | 备注 |
-| :---: | :---: | --- |
-| 残梦 | XiaomLuoch | 测试贡献较大 |
-| 王牌 | wang9800 | 测试贡献较大；2025 年 10 月 30 日后可再次考核 |
-| E尘 | E1cheng | 知名开发者 |
-| Xero | ProjectXero1042 | 知名开发者 |
-| 冷辰 | RelyingPants365 | 知名开发者 |
-| YanRan | YanRan233 | 知名开发者 |
-| 萝卜 | jincarrot | 知名开发者 |
-| 急尘 | jichenNGU | 知名视频作者 |
-| 嘉睿 | HuanGuangYC | |
-| 晓鱼 | muxiaoyu040203 | |
-| 命令君 | CBerJun | |
-| 浮纸 | FloatPaper3972 | |
-| 菜鸡蛛 | yzcjzqwq | |
-| 莫雨 | MoYU9700 | |
-| 吴鸡哥 | WSER666 | |
-| 明晚 | liuying5202377 | |
-| 沫尘 | CBerAzure | |
-| 新妹 | ThumpingAlarm41 | |
-| 牢土 | Fffgg55 | |
-| Hg | CruelJewel85738 | |
-| 创哲宇 | Chuangzheyu2048 | |
-| KK | killklli9952 | |
-| 怡柔 | Oculusina | |
-| jiou | jioujoiu | |
-| 伊莱 | ylklsaua | |
-| 闲鱼 | Ruawer153 | |
-| 事情 | THEHOTTHING | |
-| 轻雨酱 | YMQY1315 | |
-| 大河月 | Xbox Angel3518 | |
-| 奕航 | hyh9165 | |
-| 花花 | FlowerTNT | |
-| Panda | CutePandaBL | |
-| 大大怪 | yhjjj1957 | |
-| 芝士 | ssdbzs | |
-| 幸存者 | starxingcunzhe | |
-| Cuzy | CuzyXD | |
-| 珂朵莉 | Tetrisoo | |
-| 永恒 | JHY2189 | |
-| 阿辰 | ACH1en3153 | |
-| 欧拉 | EurluoL | |
-| 很合理 | ZheBuHeLiaa | |
-| QI | KKcca1753 | |
-| 小yu | InsetDaisy2688 | |
-| PB | QinSuoPaperBoat | |
+|  称呼  |     XboxID      | 备注                                          |
+| :----: | :-------------: | --------------------------------------------- |
+|  残梦  |   XiaomLuoch    | 测试贡献较大                                  |
+|  王牌  |    wang9800     | 测试贡献较大；2025 年 10 月 30 日后可再次考核 |
+|  E尘   |     E1cheng     | 知名开发者                                    |
+|  Xero  | ProjectXero1042 | 知名开发者                                    |
+|  冷辰  | RelyingPants365 | 知名开发者                                    |
+| YanRan |    YanRan233    | 知名开发者                                    |
+|  萝卜  |    jincarrot    | 知名开发者                                    |
+|  急尘  |    jichenNGU    | 知名视频作者                                  |
+|  嘉睿  |   HuanGuangYC   |                                               |
+|  晓鱼  | muxiaoyu040203  |                                               |
+| 命令君 |     CBerJun     |                                               |
+|  浮纸  | FloatPaper3972  |                                               |
+| 菜鸡蛛 |    yzcjzqwq     |                                               |
+|  莫雨  |    MoYU9700     |                                               |
+| 吴鸡哥 |     WSER666     |                                               |
+|  明晚  | liuying5202377  |                                               |
+|  沫尘  |    CBerAzure    |                                               |
+|  新妹  | ThumpingAlarm41 |                                               |
+|  牢土  |     Fffgg55     |                                               |
+|   Hg   | CruelJewel85738 |                                               |
+| 创哲宇 | Chuangzheyu2048 |                                               |
+|   KK   |  killklli9952   |                                               |
+|  怡柔  |    Oculusina    |                                               |
+|  jiou  |    jioujoiu     |                                               |
+|  伊莱  |    ylklsaua     |                                               |
+|  闲鱼  |    Ruawer153    |                                               |
+|  事情  |   THEHOTTHING   |                                               |
+| 轻雨酱 |    YMQY1315     |                                               |
+| 大河月 | Xbox Angel3518  |                                               |
+|  奕航  |     hyh9165     |                                               |
+|  花花  |    FlowerTNT    |                                               |
+| Panda  |   CutePandaBL   |                                               |
+| 大大怪 |    yhjjj1957    |                                               |
+|  芝士  |     ssdbzs      |                                               |
+| 幸存者 | starxingcunzhe  |                                               |
+|  Cuzy  |     CuzyXD      |                                               |
+| 珂朵莉 |    Tetrisoo     |                                               |
+|  永恒  |     JHY2189     |                                               |
+|  阿辰  |   ACH1en3153    |                                               |
+|  欧拉  |     EurluoL     |                                               |
+| 很合理 |   ZheBuHeLiaa   |                                               |
+|   QI   |    KKcca1753    |                                               |
+|  小yu  | InsetDaisy2688  |                                               |
+|   PB   | QinSuoPaperBoat |                                               |
+| Tiger  | TigerishSnow86  |                                               |
 
 ## 离群成员（未违规）
 
-| 称呼 | XboxID | 备注 |
-| :---: | :---: | --- |
-| 白洲梓 | bai zhou zi5631 | 有生存服白名单 |
-| 小林 | zhangjiaxiang11 | 有生存服白名单，但还未经过 3 次测试 |
-| 玖 | HomeLuckyHope | 有生存服白名单，但还未经过 3 次测试 |
-| 老中医 | The star520 | 有生存服白名单，但还未经过 3 次测试 |
-| kokoa | — | 有生存服白名单，但还未经过 3 次测试 |
-| Lin | linchi723 | 有生存服白名单，但还未经过 3 次测试 |
-| 603 | SqueezedBark603 | |
-| 影歌 | SwungGnat985908 | |
-| 小朋 | Twenty0121 | |
-| 斑比 | FogboundTuba296 | |
-| 眠羽 | Player82235140 | |
-| 泊芝 | bozhilove | |
-| 洛咏灼 | lyz12357 | |
-| 柠檬奶 | Lemonmilk114514 | |
-| 君茶 | TemadeFX | |
-| 劳打 | wsqDSB | |
-| 席暮阳 | AliveTuba618889 | |
-| 太白 | dingxiang520194 | |
-| 猪猪 | RashBeatle64497 | |
-| 123 | Qwe 1239974 | |
-| 基德 | MildTurt | |
-| soak | SoakChee | |
-| 星空 | moyanlove435836 | |
-| han | han123123123 | |
-| 清风 | qing feng 00317 | |
-| star | Chinahenane | |
-| 鱼 | yuremain | |
-| 欣叶 | xinye2012 | |
-| 零七 | pqwp114514qwpq | |
-| 牌子 | TweeBeet6508497 | 由 5 档违规成员 **@De** 邀请来 |
-| 电棍 | Ashley2182 | 由 5 档违规成员 **@De** 邀请来 |
-| 枉忆 | riverside0806 | 由 5 档违规成员 **@De** 邀请来 |
-| 咩啊 | Heimat9846 | 由 5 档违规成员 **@De** 邀请来 |
+|  称呼  |     XboxID      | 备注                                |
+| :----: | :-------------: | ----------------------------------- |
+| 白洲梓 | bai zhou zi5631 | 有生存服白名单                      |
+|  小林  | zhangjiaxiang11 | 有生存服白名单，但还未经过 3 次测试 |
+|   玖   |  HomeLuckyHope  | 有生存服白名单，但还未经过 3 次测试 |
+| 老中医 |   The star520   | 有生存服白名单，但还未经过 3 次测试 |
+| kokoa  |        —        | 有生存服白名单，但还未经过 3 次测试 |
+|  Lin   |    linchi723    | 有生存服白名单，但还未经过 3 次测试 |
+|  603   | SqueezedBark603 |                                     |
+|  影歌  | SwungGnat985908 |                                     |
+|  小朋  |   Twenty0121    |                                     |
+|  斑比  | FogboundTuba296 |                                     |
+|  眠羽  | Player82235140  |                                     |
+|  泊芝  |    bozhilove    |                                     |
+| 洛咏灼 |    lyz12357     |                                     |
+| 柠檬奶 | Lemonmilk114514 |                                     |
+|  君茶  |    TemadeFX     |                                     |
+|  劳打  |     wsqDSB      |                                     |
+| 席暮阳 | AliveTuba618889 |                                     |
+|  太白  | dingxiang520194 |                                     |
+|  猪猪  | RashBeatle64497 |                                     |
+|  123   |   Qwe 1239974   |                                     |
+|  基德  |    MildTurt     |                                     |
+|  soak  |    SoakChee     |                                     |
+|  星空  | moyanlove435836 |                                     |
+|  han   |  han123123123   |                                     |
+|  清风  | qing feng 00317 |                                     |
+|  star  |   Chinahenane   |                                     |
+|   鱼   |    yuremain     |                                     |
+|  欣叶  |    xinye2012    |                                     |
+|  零七  | pqwp114514qwpq  |                                     |
+|  牌子  | TweeBeet6508497 | 由 5 档违规成员 **@De** 邀请来      |
+|  电棍  |   Ashley2182    | 由 5 档违规成员 **@De** 邀请来      |
+|  枉忆  |  riverside0806  | 由 5 档违规成员 **@De** 邀请来      |
+|  咩啊  |   Heimat9846    | 由 5 档违规成员 **@De** 邀请来      |
 
 ## 离群成员（违规）
 
-| 称呼 | XboxID | 违规档数 | 违规理由 | 备注 |
-| :---: | :---: | :---: | --- | --- |
-| 万时 | ichicken233 | 5 | 多次出言不逊 | |
-| 光之子 | AdroitMallard14 | 5 | 在生存服中作弊 | |
-| De<br/><br/>JA | Demonioron<br/>Demoniort<br/>Adiosdem | 5 | 多次出言不逊；挑动群员分裂；散播谣言；隐瞒身份等 | **严厉谴责五档开小号进群的卑劣无耻行为！** |
-| 颜某 | aaaaaaaa1231407 | 5 | 发表疑似反动言论 | |
-| 楠木 | nanmucancan | 4 | 8 月 14 日起床战争测试开连点器作弊 | |
-| 鲱鱼 | SevereFish20551 | 3 | 因 8 月 14 日起床战争测试频繁爆粗口，禁止进入任何服务器 | |
-| 小 H | Halshtain | 1 | 以不当言论攻击其他群员 | |
-| 帕 | Hfpa0117 | 1 | 在 2026 年 1 月 16 日的起床战争测试中刷屏 | 生存服贡献较大，测试贡献较大 |
+|      称呼      |                XboxID                 | 违规档数 | 违规理由                                                | 备注                                       |
+| :------------: | :-----------------------------------: | :------: | ------------------------------------------------------- | ------------------------------------------ |
+|      万时      |              ichicken233              |    5     | 多次出言不逊                                            |                                            |
+|     光之子     |            AdroitMallard14            |    5     | 在生存服中作弊                                          |                                            |
+| De<br/><br/>JA | Demonioron<br/>Demoniort<br/>Adiosdem |    5     | 多次出言不逊；挑动群员分裂；散播谣言；隐瞒身份等        | **严厉谴责五档开小号进群的卑劣无耻行为！** |
+|      颜某      |            aaaaaaaa1231407            |    5     | 发表疑似反动言论                                        |                                            |
+|      楠木      |              nanmucancan              |    4     | 8 月 14 日起床战争测试开连点器作弊                      |                                            |
+|      鲱鱼      |            SevereFish20551            |    3     | 因 8 月 14 日起床战争测试频繁爆粗口，禁止进入任何服务器 |                                            |
+|      小 H      |               Halshtain               |    1     | 以不当言论攻击其他群员                                  |                                            |
+|       帕       |               Hfpa0117                |    1     | 在 2026 年 1 月 16 日的起床战争测试中刷屏               | 生存服贡献较大，测试贡献较大               |
 
 ## 生成白名单 JSON 文件
 
