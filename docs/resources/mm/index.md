@@ -18,7 +18,7 @@ tags: [planning]
 - **制作人表** 详情见[制作人表页面](credits)
 - **版本需求** 26.40+
 - **资源类型** 附加包
-- **最新版本** 1.0 - Exp 7
+- **最新版本** 1.0 - Snapshot 7
 - **更新日志** 详情见[更新日志页面](update_log/1_0)
 - **漏洞汇报** 详情见[GitHub Issues](https://github.com/YZBWDLT/MurderMystery/issues)
 
