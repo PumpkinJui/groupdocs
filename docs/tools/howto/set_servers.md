@@ -15,12 +15,12 @@ sidebar_position: 5
 ## 添加服务器的步骤
 
 1. 启动《Minecraft》，确保已经登录 XBox 账号。然后，在标题屏幕中选择「游戏」或「开始游戏」。
-   ![step_1](/tools/howto/set_servers/step_1.png)
+   ![step_1](/tools/howto/set_servers/step_1.webp)
 2. 选择「服务器」标签页。在加载完毕后，选择「添加服务器」。  
    如果你的 Minecraft 开始不停转圈加载服务器列表，请尝试更换网络或退出游戏重进以重试。
-   ![step_2](/tools/howto/set_servers/step_2.png)
+   ![step_2](/tools/howto/set_servers/step_2.webp)
 3. 按要求输入服务器名称、地址和端口。
-   ![step_3](/tools/howto/set_servers/step_3.png)
+   ![step_3](/tools/howto/set_servers/step_3.webp)
    - **服务器名称**：此项可以随便填，只是用来让你知道这是什么服务器。
    - **服务器地址**：可以是 IP（如 `127.0.0.1`）或 URL（如 `www.example.com`）。我们通常给出的是 URL，但完整信息可以在设定页面查询。
    - **服务器端口**：默认端口为 19132，但群内服务器通常不使用此端口，请以实际设定信息为准。
