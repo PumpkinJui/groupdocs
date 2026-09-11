@@ -12,7 +12,7 @@ sidebar_position: 1
 
 群文档中大概率有你想要找的各种信息。
 
-嫌群文档内容太多的，顶端左上角的三横线是目录，右上角的放大镜是搜索框，搜索框输入文字后还可以选择问 AI（基于群文档内容，但请自行辨别信息准确度）。
+嫌群文档内容太多的，顶端左上角的三横线是目录，右上角的放大镜是搜索框。
 
 运用这些可以快速找到需要的信息，这不是你不用群文档的理由。
 
@@ -20,5 +20,5 @@ sidebar_position: 1
 
 - [互联网请教指南（极简版）](https://sspai.com/post/93295)
 - [如何提出好问题？](https://mp.weixin.qq.com/s/P_86qRIBogVsB42MzStimQ)
-- [How To Ask Questions The Smart Way (提问的智慧)](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)
-- [Stop To Ask Questions The Stupid Ways (别像弱智一样提问)](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways)
+- [How To Ask Questions The Smart Way（提问的智慧）](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)
+- [Stop To Ask Questions The Stupid Ways（别像弱智一样提问）](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways)
