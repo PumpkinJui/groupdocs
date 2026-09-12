@@ -3,18 +3,10 @@ sidebar_position: 2
 authors: [比翼鸟]
 ---
 
-# 如何入正 MC 国际版
+# 版本区分与入正简介
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-
-:::tip
-
-该文章的内容需要改进。
-
-理由：应当说明为什么不推荐使用盗版。
-
-:::
 
 :::tip
 
@@ -22,51 +14,73 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-## 为什么我需要购买 Minecraft 国际版？
+## 区分不同的版本
 
-「我的世界：中国版」（以下简称 「中国版」）由网易代理运营，一般来说其内容和 「Minecraft」国际版并无区别，但是它有以下几个问题：
+我们的地图开发、测试与发布均以国际基岩版作为主力平台。为了购买到正确的版本，有必要先了解如何区分不同的平台。
 
-- 一、**开发进度滞后**，目前中国版最新版本是基于 Java 版 1.21 和基岩版 1.21.0 开发的，而当前国际版已经更新至 1.21.90，进度明显有所滞后~~其实现在已经算好点的了，毕竟在同步 1.20 之前甚至是落后两三个大版本的~~；
-- 二、**本体过于臃肿**，由于整合了大量的启动器相关代码， （特别是在手机上）中国版的安装包和占用空间要明显比只有本体的基岩 （国际） 版大得多；
-- 三、**本体优化欠佳**，卡顿现象明显比国际版严重很多，同时也存在部分国际版不存在的 bug~~强烈谴责：我的朋友~~；
-- 四、**虽有积极听取社区反馈，但社区及开发平台整体氛围仍不算良好**……
+### 中国版和国际版
 
-同时，我们的各种地图制作和测试都会以国际版（确切来说，是基岩版）作为主力平台，因此推荐大家购买一份 Minecraft 国际版。
+《我的世界：中国版》（以下简称 「中国版」）是由网易代理运营的国内特供版本，官网为 [mc.163.com](https://mc.163.com/)，也就是你能在应用商店或其官网直接下载、免费游玩的版本。一般来说，中国版内容和国际版并无区别，但是它有以下几个问题：
 
-## 我要如何区分 Java 版和基岩版？
+开发进度滞后。目前中国版最新版本是基于「铜器时代」开发的，而当前国际版已经更新至「混沌立方」，落后三个主题更新。Wiki 对此有一个[概括性的表述](https://zh.minecraft.wiki/w/%E4%B8%AD%E5%9B%BD%E7%89%88)：「中国版 Minecraft 的更新通常落后国际版约一年。」~~其实现在已经算好点的了，毕竟在同步 1.20 之前甚至是落后两三个大版本的~~
 
-**简单来说，依赖启动器启动，并需要 Java 支持的就是 Java 版，只能在 PC 环境下运行；基岩版以跨平台联机为特点，可以直接安装和打开，不需要通过启动器启动，也不需要安装 Java。**
+本体过于臃肿。由于整合了大量的启动器相关代码和活动，特别是在手机上，中国版的安装包和占用空间要明显比只有本体的（国际）基岩版大得多。具体来说，同样在安卓端，同样是「铜器时代」的 1.21.120 版本，中国版安装包 2.2 GB，国际版安装包 600 MB。
 
-*要是有些地方你觉得讲得还是迷，还请参考 [Minecraft Wiki](https://zh.minecraft.wiki/)。~~当然能回来帮我们完善就更好啦 qwq~~*
+本体优化欠佳。卡顿现象明显比国际版严重很多，同时也存在部分国际版不存在的 bug。~~强烈谴责：我的朋友~~
 
-## 如何购买？
+虽有（部分）积极听取社区反馈，但社区及开发平台整体氛围仍不算良好，还有[限制免费组件](https://www.bilibili.com/video/BV1pqzCBsEAs/)上架、创作者收益分成减少等行为。
 
-### Java 版
+此外还有一些与国际版的区别，此处还是以国际基岩版为例。
 
-可购买 Minecraft：Java 版的渠道包括[官网](Https://www.minecraft.net)、微软商店（Microsoft Store）、Xbox 官方商城，除此以外没有其他购买渠道。
+- 中国版与国际版使用不同的账号系统。中国版视下载来源，一般使用网易账号或手机品牌账号（对应渠道服）；国际版则使用微软账号，[部分平台](https://help.minecraft.net/hc/en-us/articles/19615552270221)还需要同时登录其他账号。
+- 中国版附赠了存档加密（包括组件和个人存档），因此和国际版不能实现完全的存档互通。
+- 中国版的资源中心与国际版的市场内容相独立，且使用不同的货币。
+- 中国版的联机游戏与国际版的不能互通。
 
-购买 Java 版要求用户必须有一个有效的微软账户，并且在内地购买的用户需注意官方网站无法使用人民币进行购买，如果使用港币等其他币种价格将会高出很多。**建议从 Microsoft Store 或 Xbox 商店购买**。
+总而言之，中国版除了境内合规以外，几乎没有任何能比得上国际版的地方。在某种程度上，也可以讽刺地说此版本很符合对「中国」软件的刻板印象。虽然国际基岩版在巨硬的英明领导下正在逐步劣化，但网易的脚步还是令其望尘莫及。
 
-购买之后，请保存好 Mojang Studio 或微软向你发送的电子邮件。因为这个电子邮件是你购买 Minecraft 的**最直接、有效的凭据**。请你务必保存好它，以便在你的账户被盗取之后帮助你证明自己的购买者身份。
+### Java 版和基岩版
 
-### 基岩版
+简单来说，依赖启动器启动、需要 Java 支持、可以随意切换到旧版的就是 Java 版，只能在 PC 环境下运行；基岩版以跨平台联机为特点，可以直接安装和打开，不需要通过启动器启动，也不需要安装 Java。
+
+手机上的 Minecraft、电脑上的 Minecraft for Windows 都是基岩版，而诸如 PCL、HMCL、BakaXL 一类的启动器都是 Java 版。这两者在存档、联机、开发和 Mojang 对这两者的开发上，都存在一定差异。
+
+### 正版与盗版
+
+我们不鼓励使用盗版，并建议使用正版。
+
+正版软件的更新速度比盗版更快，因此本群有可能在盗版源站尚未全部更新时就直接更新服务器。此时，盗版用户可能在一段时间内无法使用服务器。
+
+虽然 Mojang 对盗版一向持宽容态度，但不排除 Mojang 或其他利益相关方随时收紧盗版检测。例如在 2025 年 9 月，安卓安装包增加了安装包加固，导致其更难破解，各盗版源站也因此短期停更。虽然社区很快掏出了反制措施，可以继续使用盗版，但也应当敲响警钟。
+
+但考虑到中国境内确实有一定入正壁垒，且购买总是需要掏钱的，本群允许使用[盗版](../urls/mcbe.md)。欢迎回来补票。
+
+## 如何入正
+
+[Minecraft 官网](https://www.minecraft.net/zh-hans/about-minecraft)列出了 Minecraft 支持的所有平台及购买方式。本文仅讨论其中的几种。
 
 <Tabs>
-<TabItem value="pc" label="PC" default>
+  <TabItem value="pc" label="PC" default>
 
-PC 版可以在 [Xbox 销售页面](https://www.xbox.com/zh-CN/games/store/minecraft-java-bedrock-edition-for-pc/9NXP44L49SHJ/0010)或 Windows 10、11 的 Microsoft Store 购买，Java 版和基岩版捆绑销售，定价 89 元。**注意：不建议购买豪华版。**
+PC 版可以在 [Xbox 销售页面](https://www.xbox.com/zh-CN/games/store/minecraft-java-bedrock-edition-for-pc/9NXP44L49SHJ/0010)或 Windows 10、11 的 [Microsoft Store](https://apps.microsoft.com/detail/9NXP44L49SHJ) 购买，Java 版和基岩版捆绑销售，定价 89 元。**注意：不建议购买豪华版。**
 
 你需要一个支付宝账户进行购买。可以通过支付宝绑定银行卡进行购买。无需更改国家地区，无需*科学上网*。在购买过程中会需要你的姓名、地址信息，可以不如实填写，但最好如实。
 
-</TabItem>
-<TabItem value="android" label="安卓">
+  </TabItem>
+  <TabItem value="android" label="安卓">
 
-安卓用户可以在 [Google Play](https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl) 购买和安装游戏。Google Play 在内地无法正常访问，故中国大陆的玩家在购买时可能会受阻。
+安卓用户可以在 [Google Play](https://play.google.com/store/apps/details?id=com.mojang.minecraftpe) 购买和安装游戏。Google Play 在内地无法正常访问，故中国大陆的玩家在购买时可能会受阻。此处仅对中间可能发生的一些事情作概要性指导。
 
-你需要一个银联卡进行购买，考虑到汇率波动，卡内余额不宜少于 60 元。需确保你能连接到港区网络，因为港区允许直接使用银联卡，如果设置为其他地区可能会使购买变得更加棘手。银联卡的姓名必须填写为实际姓名，因为该卡在扣费时要检查所提供的姓名是否与该卡的实际持有者姓名一致。在购买过程中会需要你的姓名、地址信息，考虑到本文档读者极少真正住在香港，因此住址不能填写为实际值，只能“瞎编”，例如可以考虑把地址设置为“九龙 - 尖沙咀 - 北京道”。
+无论如何操作，都需要一张银行卡。如果想要直接使用银联卡，就必须使用香港节点。如果有 Visa 或 Mastercard，选择就会多很多，经常使用境外支付可以考虑搞一张，[Encmasuta Database](https://db.encmasuta.com/debit-cards/) 对境内一些国际借记卡作了比较，可以作为参考。
 
-</TabItem>
-<TabItem value="ios" label="iOS">
+在对应地区的网络环境下将 Play 商店切换到该地区，此时绑卡，就可以达到所谓「锁区」的目的。绑卡时，姓名必须填写为真实姓名，因为该卡在扣费时要检查所提供的姓名是否与该卡的实际持有者姓名一致。此外还会需要你的地址信息，考虑到读者极少真正住在香港，因此住址不能填写为实际值，只能随便写。此时比较好的选择是香港内的大学，因为大学地址相对容易查到，如[香港中文大学](https://cuhk.edu.hk/chinese/contact.html)和[香港城市大学](https://www.cityu.edu.hk/directories/useful#General%20Enquiry)。也可以瞎编一个，例如可以考虑把地址设置为「九龙 - 尖沙咀 - 北京道」。
+
+考虑到汇率波动，购买时卡内余额不宜少于 60 元。可以看看 Play 商店有没有能用的优惠券。付款时可能会触发银行风控导致无法付款，此时可以等待几分钟，银联的电话很快就会打到银行卡绑定的手机上。根据电话指令操作即可解除封控，再次付款就能顺利完成了。
+
+注意在每次安装或更新后，第一次打开 Minecraft 都需要切换网络环境，以便进行正版验证。此后再打开就不需要了。
+
+  </TabItem>
+  <TabItem value="ios" label="iOS">
 
 :::tip
 
@@ -76,44 +90,5 @@ PC 版可以在 [Xbox 销售页面](https://www.xbox.com/zh-CN/games/store/minec
 
 iOS用户可以在 [App Store](https://apps.apple.com/app/minecraft/id479516143) 内购买和安装游戏，但中国大陆的用户可能需要通过修改 iTunes 地区的方式购买。之前已购买过 Minecraft 的用户可以在已购项目内直接下载，无需重复购买。
 
-</TabItem>
-<TabItem value="xbox" label="Xbox">
-
-:::tip
-
-该文章的内容需要扩充。您可以帮助我们扩充更多信息。
-
-:::
-
-Xbox One/Xbox Series 玩家可在 [Xbox 商城](https://www.xbox.com/games/store/minecraft/9nblggh537bl?rtc=1)购买并安装。请注意，Xbox 版与 PC 基岩版订单不互通。
-
-注意：三大主机均未在内地发售 Minecraft。
-
-</TabItem>
-<TabItem value="switch" label="Switch">
-
-:::tip
-
-该文章的内容需要扩充。您可以帮助我们扩充更多信息。
-
-:::
-
-Nintendo Switch 玩家可在[任天堂 eshop](https://www.nintendo.com/store/products/minecraft-switch/) 选择购买电子版或卡带版，但是中国玩家可能需要准备非国行版的主机，使用 Nintendo Account 登录任天堂 Eshop。
-
-注意：三大主机均未在内地发售 Minecraft。
-
-</TabItem>
-<TabItem value="playstation" label="Play Station">
-
-:::tip
-
-该文章的内容需要扩充。您可以帮助我们扩充更多信息。
-
-:::
-
-PlayStation 4/PlayStation 5 玩家可在 [Playstation 商城](https://playstation.com/games/minecraft)购买并安装。
-
-注意：三大主机均未在内地发售 Minecraft。
-
-</TabItem>
+  </TabItem>
 </Tabs>
