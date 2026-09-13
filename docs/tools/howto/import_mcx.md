@@ -72,7 +72,7 @@ MT 管理器默认起始路径为 `/storage/emulated/0/`。如果你从未听说
 
 浏览器下载的文件通常位于 `/sdcard/Download/` 中。QQ 接收的文件需要先在 QQ 中选择所需的文件，然后在该文件页面的右上角菜单中选择「保存到手机」。QQ 会在 `/sdcard/Download/QQ/` 创建一个此文件的副本。
 
-修改存储位置。进入 Minecraft，选择设置-存储空间，将文件存储位置改为「外部」。虽然对 MSF 导入并非必需，但仍然建议修改。
+修改存储位置。进入 Minecraft，选择设置-存储空间，将文件存储位置改为「外部存储」。虽然对 MSF 导入并非必需，但仍然建议修改。
 
 ### MSF
 
@@ -113,8 +113,8 @@ iOS 默认支持直接打开 MSF 文件。请直接点击已经下载的 MSF 文
 
 | 操作系统 | 路径 | 备注 |
 | --- | --- | --- |
-| Android | /data/data/com.mojang.minecraftpe/games/com.mojang | 需要 root 权限访问 |
-| Android | /sdcard/Android/data/com.mojang.minecraftpe/files/games/com.mojang | Android 11 以上需要特殊权限访问 |
+| Android | /data/data/com.mojang.minecraftpe/games/com.mojang | 应用程序，需要 root 权限访问 |
+| Android | /sdcard/Android/data/com.mojang.minecraftpe/files/games/com.mojang | 外部存储，Android 11 以上需要特殊权限访问 |
 | Windows | 独立内容：%APPDATA%\Minecraft Bedrock\Users\<用户ID>\games\com.mojang<br/>共享内容：%APPDATA%\Minecraft Bedrock\Users\Shared\games\com.mojang | 正式版 |
 | Windows | 独立内容：%APPDATA%\Minecraft Bedrock Preview\Users\<用户ID>\games\com.mojang<br/>共享内容：%APPDATA%\Minecraft Bedrock Preview\Users\Shared\games\com.mojang | 预览版 |
 | iOS | /On My iPhone/Minecraft/games/com.mojang/ | |

@@ -15,10 +15,11 @@ import Button from '/src/components/button/base';
 
 ## 国际基岩版译名修正
 
+<Button text="一键下载 GitHub 最新版" url="https://gh.sevencdn.com/https://github.com/ff98sha/mclangcn/releases/latest/download/Bedrock.Translation.Patch.mcpack"/>
 <Button text="GitHub" url="https://github.com/ff98sha/mclangcn"/>
 <Button text="KLPBBS" url="https://klpbbs.com/thread-137794-1-1.html"/>
 <Button text="MineBBS" url="https://www.minebbs.com/resources/8447/"/>
-<Button text="NetEase"/>
+<Button text="NetEase（自行前往资源中心下载）"/>
 
 > 中文 Minecraft Wiki 提醒您：译名千万条，准确第一条。翻译不规范，玩家两行泪。
 >
@@ -30,10 +31,8 @@ import Button from '/src/components/button/base';
 >
 > 中文 Minecraft Wiki 推荐！你值得拥有！
 
-由中文 Minecraft Wiki 行政员 FF98sha 维护的基岩版译名修正包。
+由原中文 Minecraft Wiki 行政员 FF98sha 维护的基岩版译名修正包。
 
 测试群已分流，「群文件：量筒测试群 - 生存服务器」中不定期更新。
 
 [生存 III 档](../../servers/s3)使用了此资源包。
-
-*顺便说一句，「试用版」(trial) 也挺无脑的。*
