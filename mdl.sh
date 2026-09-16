@@ -1,1 +1,0 @@
-find ./docs -name "*.md" -print0 | xargs -0 markdownlint-cli2
