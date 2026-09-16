@@ -46,7 +46,16 @@ GitHub 网页版不但访问缓慢，而且一次只能修改一个文件，难�
 
 长久以来存在一个问题：如果没有通过 pull 更新仓库而直接 commit，就无法 push。由于缺乏对此问题的解决方案，之前有常见的做法是使用 merge 功能合并远程端和本地端的提交，但这样会产生新的提交，并损伤 commit 列表的可读性。
 
-例如想要查看其他人最近几天改过什么，却看到了「A 修改文档甲」「B 修改文档乙」「A 合并远程分支」「A 再次修改文档甲」「B 合并远程分支」「B 修改文档丙」一类，总是有些凌乱的。
+例如想要查看其他人最近几天改过什么，看到了如下结果：
+
+- A：`修改文档甲`
+- B：`修改文档乙`
+- A：`再次修改文档甲`
+- A：`Merge branch 'main' of https://github.com/PumpkinJui/groupdocs`
+- B：`修改文档丙`
+- B：`Merge branch 'main' of https://github.com/PumpkinJui/groupdocs`
+
+这样总是有些凌乱的。
 
 除此以外，没有提前拉取仓库还可能导致你和别人恰好修改了同样的内容，从而产生合并冲突。在安装了类似于 git-graph 插件的软件中，也会显得历史很乱，看不明白到底发生了什么。
 
@@ -99,9 +108,20 @@ git config --global rebase.autoStash true
 
 #### 何谓「盘古之白」？
 
-摘自[少数派：给你的 Markdown 挑挑刺——语法检查器入门与进阶](https://sspai.com/prime/story/markdown-linter-a-primer)：
+盘古之白，就是为了使中西文混排时格式更美观而人为添加的空格。
+
+例如，对比以下两种排版方式：
+
+- 群文档托管在GitHub上，使用Docusaurus构建。
+- 群文档托管在 GitHub 上，使用 Docusaurus 构建。
+
+后者的观感一般更加舒适，而前者则相对逼仄。
+
+摘自《[少数派：给你的 Markdown 挑挑刺——语法检查器入门与进阶](https://sspai.com/prime/story/markdown-linter-a-primer)》：
 
 > 中英文之间加入空隙，是为了实现视觉上的区隔，更加美观和易读。理想情况下，这种「空隙」应当由排版引擎自动加入，宽度宜为 1/4 个全角空格（em）。但由于数字排版环境复杂多变，在大多数时候（包括最常见的网页环境）不能指望排版引擎有这种能力，因此只能退而求其次，手动插入一个半角空格（因其宽度通常接近于 1/4 em），达到类似效果。
+
+W3C 组织的《[中文排版需求](https://www.w3.org/TR/clreq/#mixed_text_composition_in_horizontal_writing_mode)》也对此作出了「原则上」的规范。
 
 #### 什么时候添加「盘古之白」？
 
