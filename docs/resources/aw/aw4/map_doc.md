@@ -396,7 +396,7 @@ function aw/lib/events/levels/start_level
 - 开门，开放关卡
 - 清除所有的怪物、生成器和御风珠
 
-``` mcfunction showLineNumbers title="aw/levels/chapter(X)/level(Y)/complete.mcfunction"
+```mcfunction showLineNumbers title="aw/levels/chapter(X)/level(Y)/complete.mcfunction"
 # ===== 完成关卡 =====
 # (X)-(Y)
 
@@ -419,11 +419,11 @@ summon aw:destination (下一关重生点)
 下表是`(带颜色的物品名)`的可用格式。
 
 | 稀有度 | 物品颜色示例 |
-| :---: | :---: |
-| 普通 | §a[物品名] |
-| 稀有 | §b[物品名] |
-| 史诗 | §d[物品名] |
-| 传奇 | §e[物品名] |
+| :----: | :----------: |
+|  普通  |  §a[物品名]  |
+|  稀有  |  §b[物品名]  |
+|  史诗  |  §d[物品名]  |
+|  传奇  |  §e[物品名]  |
 
 #### 关卡失败（X-Y） `fail.mcfunction`
 
@@ -653,218 +653,218 @@ execute if score levelCompleted data matches 1 run spawnpoint @s (本关重生�
 
 **应设定只有通过关卡后，才能将重生点设置到本关重生点处**。这是因为，如果直接把重生点设置到本关区域时，会在重生后且关卡失败后，使玩家重新复活到本关判定区，从而造成严重问题。这也就意味着，当进行关卡时（比如 1-2），玩家实际会重生在 1-1 的重生点处。在多人模式下，可由旁观机制将超出区域限制的玩家拉回来。
 
-| | X-0 | X-1 | X-2 | X-3 | X-4 | X-5 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 0-Y（村庄剧情） | —— | -27 6 -48 | -26 1 -37 | 36 1 -22 | -16 1 82 | -18 -3 99 |
-| 1-Y | -117 1 -6 | -117 2 16 | -126 6 52 | -137 12 33 | —— | —— |
-| 2-Y | -79 19 26 | -75 19 60 | -72 1 69 | -143 -20 61 | —— | —— |
-| 3-Y | -173 -20 30 | -188 -20 29 | -172 -20 11 | -163 -20 28 | -170 -14 23 | —— |
-| 4-Y | -173 18 -8 | -168 18 -20 | -156 8 -1 | -156 -11 14 | -141 -30 6 | —— |
-| 5-Y | -95 -30 -6 | —— | —— | —— | —— | —— |
-| 6-Y | -81 -30 -28 | -76 -30 -48 | -80 -18 -48 | -75 -36 -15 | -75 -38 22 | —— |
-| 7-Y | 完成前<br/>-87 -39 96<br/>完成后<br/>-119 -16 103 | -119 -16 103 | -161 -17 110 | -194 -17 97 | -225 -17 99 | -225 -47 44 |
-| 10-Y（完结剧情） | —— | -27 7 -48 | -27 7 -48 | -16 1 82 | —— | —— |
+|                  | X-0                                               | X-1          | X-2          | X-3         | X-4         | X-5         |
+| :--------------- | :------------------------------------------------ | :----------- | :----------- | :---------- | :---------- | :---------- |
+| 0-Y（村庄剧情）  | ——                                                | -27 6 -48    | -26 1 -37    | 36 1 -22    | -16 1 82    | -18 -3 99   |
+| 1-Y              | -117 1 -6                                         | -117 2 16    | -126 6 52    | -137 12 33  | ——          | ——          |
+| 2-Y              | -79 19 26                                         | -75 19 60    | -72 1 69     | -143 -20 61 | ——          | ——          |
+| 3-Y              | -173 -20 30                                       | -188 -20 29  | -172 -20 11  | -163 -20 28 | -170 -14 23 | ——          |
+| 4-Y              | -173 18 -8                                        | -168 18 -20  | -156 8 -1    | -156 -11 14 | -141 -30 6  | ——          |
+| 5-Y              | -95 -30 -6                                        | ——           | ——           | ——          | ——          | ——          |
+| 6-Y              | -81 -30 -28                                       | -76 -30 -48  | -80 -18 -48  | -75 -36 -15 | -75 -38 22  | ——          |
+| 7-Y              | 完成前<br/>-87 -39 96<br/>完成后<br/>-119 -16 103 | -119 -16 103 | -161 -17 110 | -194 -17 97 | -225 -17 99 | -225 -47 44 |
+| 10-Y（完结剧情） | ——                                                | -27 7 -48    | -27 7 -48    | -16 1 82    | ——          | ——          |
 
 ## 地图变量
 
 ### 玩家数据
 
-| 变量名 | 含义 | 允许值 | 默认值 |
-| :---: | --- | :---: | :---: |
-| `deathCount.@s` | 玩家当前死亡次数 | `0`- | `0` |
-| `deathState.@s` | 玩家当前死亡状态 | `0`：存活，`1`：刚刚死亡（还未记录死亡榜），`2`：长期死亡 | `0` |
-| `health.@s` | 玩家生命值 | 整数 | 实时判断 |
-| `killCount.@s` | 玩家击杀数 | `0`- | `0` |
-| `isOnline.@s` | 玩家是否在线 | `0`：刚进入游戏，`1`：在线 | `1` |
-| `gameId.@s` | 玩家当前的游戏 ID，与`data.gameId`一致时则为本次游戏 | `1000`-`9999` | 在可选范围内随机 |
-| `spectator.@s` | 玩家当前的旁观状态 | `0`：未旁观，`1`：旁观中，`2`：启用主动旁观 | `0` |
+|     变量名      | 含义                                                 |                          允许值                           |      默认值      |
+| :-------------: | ---------------------------------------------------- | :-------------------------------------------------------: | :--------------: |
+| `deathCount.@s` | 玩家当前死亡次数                                     |                           `0`-                            |       `0`        |
+| `deathState.@s` | 玩家当前死亡状态                                     | `0`：存活，`1`：刚刚死亡（还未记录死亡榜），`2`：长期死亡 |       `0`        |
+|   `health.@s`   | 玩家生命值                                           |                           整数                            |     实时判断     |
+| `killCount.@s`  | 玩家击杀数                                           |                           `0`-                            |       `0`        |
+|  `isOnline.@s`  | 玩家是否在线                                         |                `0`：刚进入游戏，`1`：在线                 |       `1`        |
+|   `gameId.@s`   | 玩家当前的游戏 ID，与`data.gameId`一致时则为本次游戏 |                       `1000`-`9999`                       | 在可选范围内随机 |
+| `spectator.@s`  | 玩家当前的旁观状态                                   |        `0`：未旁观，`1`：旁观中，`2`：启用主动旁观        |       `0`        |
 
 ### `active`
 
-| 变量名 | 含义 | 允许值 | 默认值 |
-| :---: | --- | :---: | :---: |
-| `active.sound` | 音效播放器类型，按不同值播放不同的音效 | `0`：禁用，`1`-：启用 | `0` |
-| `active.timeline` | 时间线是否启用 | `0`：禁用，`1`-：启用 | `0` |
+|      变量名       | 含义                                   |        允许值         | 默认值 |
+| :---------------: | -------------------------------------- | :-------------------: | :----: |
+|  `active.sound`   | 音效播放器类型，按不同值播放不同的音效 | `0`：禁用，`1`-：启用 |  `0`   |
+| `active.timeline` | 时间线是否启用                         | `0`：禁用，`1`-：启用 |  `0`   |
 
 ### `data`
 
-| 变量名 | 含义 | 允许值 | 默认值 |
-| :---: | --- | :---: | :---: |
-| `data.alivePlayerAmount` | 存活的玩家人数 | `0`- | 实时判断 |
-| `data.allowAcousticStoneCrystal` | 是否启用传声石结晶 | `0`：禁用，`1`：启用 | `0` |
-| `data.allowNpcInteraction` | NPC 是否允许交互 | `0`：禁用，`1`：启用 | `1` |
-| `data.allowQuit` | 是否启用退出 | `0`：禁用，`1`：启用 | `1` |
-| `data.allowRemoveItemEntity` | 是否允许移除掉落物实体 | `0`：不允许，`1`：允许 | `1` |
-| `data.allowTpPlayerWhenStart` | 是否允许在开始游戏时传送玩家 | `0`：不允许，`1`：允许 | `1` |
-| `data.chapter` | 当前正在进行的章节数 | `0`：开始前&村庄，`1`-`7`：游戏章节，`10`：结束后的村庄 | `0` |
-| `data.client` | 当前使用的客户端 | `0`：国际版，`1`：中国版 | `0` |
-| `data.failedCount.allLevels` | 总失败次数 | `0`- | `0` |
-| `data.failedCount.thisLevel` | 本关的失败次数 | `0`- | `0` |
-| `data.gaming` | 是否正在 X-Y（1\<=X\<=7, Y!=0）的游玩状态 | `0`：未处于游玩状态，`1`：正处于游玩状态 | `0` |
-| `data.gameId` | 本局游戏 ID，与玩家的`gameId.@s`一致时则为本次游戏 | `1000`-`9999` | 在可选范围内随机 |
-| `data.hasCheat` | 是否有玩家启用了创造模式作弊 | `0`：无，`1`：有 | `0` |
-| `data.isSingleLevel` | 是否为单关卡试炼 | `0`：全流程，`1`：单关卡 | `0` |
-| `data.keepValue` | 进行时间线设置时是否保留原有的时间线值 | `0`：不保留，`1`：保留 | `0` |
-| `data.level` | 当前正在进行的章节所属的关卡 | `0`-`5` | `0` |
-| `data.levelCompleted` | 关卡是否完成 | `0`：进行中，`1`：已完成 | `1` |
-| `data.maxWave` | 本关目前最大波数 | `1`-`5` | `1` |
-| `data.monsterAmount` | 怪物数，在 4-4 排除守卫者 | `0`- | 实时判断 |
-| `data.pausing` | 是否正在暂停游戏 | `0`：未暂停，`1`：暂停 | `0` |
-| `data.playerAmount` | 玩家总人数 | `0`- | 实时判断 |
-| `data.potionUsed` | 是否有玩家使用过主药水或副药水 | `0`：没有，`1`：有 | `0` |
-| `data.skeletonShotAmount` | 射杀的骷髅数量 | `0`- | `0` |
-| `data.timeLapse` | 时间线是否启用时间流逝 | `0`：禁用，`1`-：启用 | `0` |
-| `data.wave` | 本关目前所处波数 | `1`-`5` | `1` |
+|              变量名              | 含义                                               |                         允许值                          |      默认值      |
+| :------------------------------: | -------------------------------------------------- | :-----------------------------------------------------: | :--------------: |
+|     `data.alivePlayerAmount`     | 存活的玩家人数                                     |                          `0`-                           |     实时判断     |
+| `data.allowAcousticStoneCrystal` | 是否启用传声石结晶                                 |                  `0`：禁用，`1`：启用                   |       `0`        |
+|    `data.allowNpcInteraction`    | NPC 是否允许交互                                   |                  `0`：禁用，`1`：启用                   |       `1`        |
+|         `data.allowQuit`         | 是否启用退出                                       |                  `0`：禁用，`1`：启用                   |       `1`        |
+|   `data.allowRemoveItemEntity`   | 是否允许移除掉落物实体                             |                 `0`：不允许，`1`：允许                  |       `1`        |
+|  `data.allowTpPlayerWhenStart`   | 是否允许在开始游戏时传送玩家                       |                 `0`：不允许，`1`：允许                  |       `1`        |
+|          `data.chapter`          | 当前正在进行的章节数                               | `0`：开始前&村庄，`1`-`7`：游戏章节，`10`：结束后的村庄 |       `0`        |
+|          `data.client`           | 当前使用的客户端                                   |                `0`：国际版，`1`：中国版                 |       `0`        |
+|   `data.failedCount.allLevels`   | 总失败次数                                         |                          `0`-                           |       `0`        |
+|   `data.failedCount.thisLevel`   | 本关的失败次数                                     |                          `0`-                           |       `0`        |
+|          `data.gaming`           | 是否正在 X-Y（1\<=X\<=7, Y!=0）的游玩状态          |        `0`：未处于游玩状态，`1`：正处于游玩状态         |       `0`        |
+|          `data.gameId`           | 本局游戏 ID，与玩家的`gameId.@s`一致时则为本次游戏 |                      `1000`-`9999`                      | 在可选范围内随机 |
+|         `data.hasCheat`          | 是否有玩家启用了创造模式作弊                       |                    `0`：无，`1`：有                     |       `0`        |
+|       `data.isSingleLevel`       | 是否为单关卡试炼                                   |                `0`：全流程，`1`：单关卡                 |       `0`        |
+|         `data.keepValue`         | 进行时间线设置时是否保留原有的时间线值             |                 `0`：不保留，`1`：保留                  |       `0`        |
+|           `data.level`           | 当前正在进行的章节所属的关卡                       |                         `0`-`5`                         |       `0`        |
+|      `data.levelCompleted`       | 关卡是否完成                                       |                `0`：进行中，`1`：已完成                 |       `1`        |
+|          `data.maxWave`          | 本关目前最大波数                                   |                         `1`-`5`                         |       `1`        |
+|       `data.monsterAmount`       | 怪物数，在 4-4 排除守卫者                          |                          `0`-                           |     实时判断     |
+|          `data.pausing`          | 是否正在暂停游戏                                   |                 `0`：未暂停，`1`：暂停                  |       `0`        |
+|       `data.playerAmount`        | 玩家总人数                                         |                          `0`-                           |     实时判断     |
+|        `data.potionUsed`         | 是否有玩家使用过主药水或副药水                     |                   `0`：没有，`1`：有                    |       `0`        |
+|    `data.skeletonShotAmount`     | 射杀的骷髅数量                                     |                          `0`-                           |       `0`        |
+|         `data.timeLapse`         | 时间线是否启用时间流逝                             |                  `0`：禁用，`1`-：启用                  |       `0`        |
+|           `data.wave`            | 本关目前所处波数                                   |                         `1`-`5`                         |       `1`        |
 
 ### `record`
 
-| 变量名 | 含义 | 允许值 | 默认值 |
-| :---: | --- | :---: | :---: |
-| `record.achievement` | 当前获得的成就数量 | `0`-`24` | `0` |
-| `record.achievement.explode3Times` | 成就[耐砸王]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.failAtFirst` | 成就[出师未捷身先死]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.findButton1` | 成就[躲这里不错]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.findButton2` | 成就[上房揭瓦]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.getTreasure` | 成就[骷髅王的宝藏]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.killBossRapidly` | 成就[太亢奋了]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.layInCoffin` | 成就[让开，这里归我了！]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.multiPlayer.difficulty4` | 多人成就[挑战极限]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.multiPlayer.finishMap` | 多人成就[齐心协力]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.multiPlayer.killLessThan50` | 多人成就[躺赢]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.multiPlayer.neverDied` | 多人成就[人多力量大]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.multiPlayer.speedrun` | 多人成就[势如破竹]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.noHurt1` | 成就[全身而退]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.noHurt2` | 成就[全身而退 II]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.noLeatherBoots` | 成就[身轻如燕]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.noMonsterKilled` | 成就[我以为挂机池呢]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.noTrap` | 成就[别问，问就是陷阱]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.notFired` | 成就[闪避点满]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.parkour` | 成就[还是跑酷大佬]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.singlePlayer.finishMap` | 单人成就[神剑的恩惠]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.singlePlayer.getSGrade` | 单人成就[出神入化]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.singlePlayer.neverDied` | 单人成就[让田英睡觉去吧！]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.singlePlayer.sniperDuel` | 单人成就[狙击手的对决]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.achievement.singlePlayer.speedrun` | 单人成就[别挡道，我很急！]的获取状态 | `0`：未获取，`1`：已获取 | `0` |
-| `record.bestTime.multiPlayer.difficulty1.minute` | 单人模式的最佳游戏时间（难度 1，单位：分钟） | `0`- | `9999` |
-| `record.bestTime.multiPlayer.difficulty1.second` | 单人模式的最佳游戏时间（难度 1，单位：秒） | `0`- | `59` |
-| `record.bestTime.multiPlayer.difficulty2.minute` | 单人模式的最佳游戏时间（难度 2，单位：分钟） | `0`- | `9999` |
-| `record.bestTime.multiPlayer.difficulty2.second` | 单人模式的最佳游戏时间（难度 2，单位：秒） | `0`- | `59` |
-| `record.bestTime.multiPlayer.difficulty3.minute` | 单人模式的最佳游戏时间（难度 3，单位：分钟） | `0`- | `9999` |
-| `record.bestTime.multiPlayer.difficulty3.second` | 单人模式的最佳游戏时间（难度 3，单位：秒） | `0`- | `59` |
-| `record.bestTime.multiPlayer.difficulty4.minute` | 单人模式的最佳游戏时间（难度 4，单位：分钟） | `0`- | `9999` |
-| `record.bestTime.multiPlayer.difficulty4.second` | 单人模式的最佳游戏时间（难度 4，单位：秒） | `0`- | `59` |
-| `record.bestTime.singlePlayer.difficulty1.minute` | 单人模式的最佳游戏时间（难度 1，单位：分钟） | `0`- | `9999` |
-| `record.bestTime.singlePlayer.difficulty1.second` | 单人模式的最佳游戏时间（难度 1，单位：秒） | `0`- | `59` |
-| `record.bestTime.singlePlayer.difficulty2.minute` | 单人模式的最佳游戏时间（难度 2，单位：分钟） | `0`- | `9999` |
-| `record.bestTime.singlePlayer.difficulty2.second` | 单人模式的最佳游戏时间（难度 2，单位：秒） | `0`- | `59` |
-| `record.bestTime.singlePlayer.difficulty3.minute` | 单人模式的最佳游戏时间（难度 3，单位：分钟） | `0`- | `9999` |
-| `record.bestTime.singlePlayer.difficulty3.second` | 单人模式的最佳游戏时间（难度 3，单位：秒） | `0`- | `59` |
-| `record.bestTime.singlePlayer.difficulty4.minute` | 单人模式的最佳游戏时间（难度 4，单位：分钟） | `0`- | `9999` |
-| `record.bestTime.singlePlayer.difficulty4.second` | 单人模式的最佳游戏时间（难度 4，单位：秒） | `0`- | `59` |
-| `record.difficulty` | 通关时的难度 | `1`-`4` | `1` |
-| `record.failedCount` | 通关时的失败次数 | `0`- | `0` |
-| `record.hasCheat` | 通关时是否有人作弊 | `0`：无，`1`：有 | `0` |
-| `record.mapCompletedTimes` | 地图通关次数 | `0`- | `0` |
-| `record.playerAmount` | 通关时的玩家人数 | `1`- | `1` |
-| `record.playedSecond` | 通关时的游玩秒数 | `0`- | `0` |
-| `record.playedMinute` | 通关时的游玩分钟数 | `0`- | `0` |
-| `record.potionUsed` | 通关时是否有玩家使用过主药水或副药水 | `0`：没有，`1`：有 | `0` |
-| `record.score` | 本次试炼的分数 | `-1`-`150` | `0` |
+|                      变量名                       | 含义                                         |          允许值          | 默认值 |
+| :-----------------------------------------------: | -------------------------------------------- | :----------------------: | :----: |
+|               `record.achievement`                | 当前获得的成就数量                           |         `0`-`24`         |  `0`   |
+|        `record.achievement.explode3Times`         | 成就[耐砸王]的获取状态                       | `0`：未获取，`1`：已获取 |  `0`   |
+|         `record.achievement.failAtFirst`          | 成就[出师未捷身先死]的获取状态               | `0`：未获取，`1`：已获取 |  `0`   |
+|         `record.achievement.findButton1`          | 成就[躲这里不错]的获取状态                   | `0`：未获取，`1`：已获取 |  `0`   |
+|         `record.achievement.findButton2`          | 成就[上房揭瓦]的获取状态                     | `0`：未获取，`1`：已获取 |  `0`   |
+|         `record.achievement.getTreasure`          | 成就[骷髅王的宝藏]的获取状态                 | `0`：未获取，`1`：已获取 |  `0`   |
+|       `record.achievement.killBossRapidly`        | 成就[太亢奋了]的获取状态                     | `0`：未获取，`1`：已获取 |  `0`   |
+|         `record.achievement.layInCoffin`          | 成就[让开，这里归我了！]的获取状态           | `0`：未获取，`1`：已获取 |  `0`   |
+|   `record.achievement.multiPlayer.difficulty4`    | 多人成就[挑战极限]的获取状态                 | `0`：未获取，`1`：已获取 |  `0`   |
+|    `record.achievement.multiPlayer.finishMap`     | 多人成就[齐心协力]的获取状态                 | `0`：未获取，`1`：已获取 |  `0`   |
+|  `record.achievement.multiPlayer.killLessThan50`  | 多人成就[躺赢]的获取状态                     | `0`：未获取，`1`：已获取 |  `0`   |
+|    `record.achievement.multiPlayer.neverDied`     | 多人成就[人多力量大]的获取状态               | `0`：未获取，`1`：已获取 |  `0`   |
+|     `record.achievement.multiPlayer.speedrun`     | 多人成就[势如破竹]的获取状态                 | `0`：未获取，`1`：已获取 |  `0`   |
+|           `record.achievement.noHurt1`            | 成就[全身而退]的获取状态                     | `0`：未获取，`1`：已获取 |  `0`   |
+|           `record.achievement.noHurt2`            | 成就[全身而退 II]的获取状态                  | `0`：未获取，`1`：已获取 |  `0`   |
+|        `record.achievement.noLeatherBoots`        | 成就[身轻如燕]的获取状态                     | `0`：未获取，`1`：已获取 |  `0`   |
+|       `record.achievement.noMonsterKilled`        | 成就[我以为挂机池呢]的获取状态               | `0`：未获取，`1`：已获取 |  `0`   |
+|            `record.achievement.noTrap`            | 成就[别问，问就是陷阱]的获取状态             | `0`：未获取，`1`：已获取 |  `0`   |
+|           `record.achievement.notFired`           | 成就[闪避点满]的获取状态                     | `0`：未获取，`1`：已获取 |  `0`   |
+|           `record.achievement.parkour`            | 成就[还是跑酷大佬]的获取状态                 | `0`：未获取，`1`：已获取 |  `0`   |
+|    `record.achievement.singlePlayer.finishMap`    | 单人成就[神剑的恩惠]的获取状态               | `0`：未获取，`1`：已获取 |  `0`   |
+|    `record.achievement.singlePlayer.getSGrade`    | 单人成就[出神入化]的获取状态                 | `0`：未获取，`1`：已获取 |  `0`   |
+|    `record.achievement.singlePlayer.neverDied`    | 单人成就[让田英睡觉去吧！]的获取状态         | `0`：未获取，`1`：已获取 |  `0`   |
+|   `record.achievement.singlePlayer.sniperDuel`    | 单人成就[狙击手的对决]的获取状态             | `0`：未获取，`1`：已获取 |  `0`   |
+|    `record.achievement.singlePlayer.speedrun`     | 单人成就[别挡道，我很急！]的获取状态         | `0`：未获取，`1`：已获取 |  `0`   |
+| `record.bestTime.multiPlayer.difficulty1.minute`  | 单人模式的最佳游戏时间（难度 1，单位：分钟） |           `0`-           | `9999` |
+| `record.bestTime.multiPlayer.difficulty1.second`  | 单人模式的最佳游戏时间（难度 1，单位：秒）   |           `0`-           |  `59`  |
+| `record.bestTime.multiPlayer.difficulty2.minute`  | 单人模式的最佳游戏时间（难度 2，单位：分钟） |           `0`-           | `9999` |
+| `record.bestTime.multiPlayer.difficulty2.second`  | 单人模式的最佳游戏时间（难度 2，单位：秒）   |           `0`-           |  `59`  |
+| `record.bestTime.multiPlayer.difficulty3.minute`  | 单人模式的最佳游戏时间（难度 3，单位：分钟） |           `0`-           | `9999` |
+| `record.bestTime.multiPlayer.difficulty3.second`  | 单人模式的最佳游戏时间（难度 3，单位：秒）   |           `0`-           |  `59`  |
+| `record.bestTime.multiPlayer.difficulty4.minute`  | 单人模式的最佳游戏时间（难度 4，单位：分钟） |           `0`-           | `9999` |
+| `record.bestTime.multiPlayer.difficulty4.second`  | 单人模式的最佳游戏时间（难度 4，单位：秒）   |           `0`-           |  `59`  |
+| `record.bestTime.singlePlayer.difficulty1.minute` | 单人模式的最佳游戏时间（难度 1，单位：分钟） |           `0`-           | `9999` |
+| `record.bestTime.singlePlayer.difficulty1.second` | 单人模式的最佳游戏时间（难度 1，单位：秒）   |           `0`-           |  `59`  |
+| `record.bestTime.singlePlayer.difficulty2.minute` | 单人模式的最佳游戏时间（难度 2，单位：分钟） |           `0`-           | `9999` |
+| `record.bestTime.singlePlayer.difficulty2.second` | 单人模式的最佳游戏时间（难度 2，单位：秒）   |           `0`-           |  `59`  |
+| `record.bestTime.singlePlayer.difficulty3.minute` | 单人模式的最佳游戏时间（难度 3，单位：分钟） |           `0`-           | `9999` |
+| `record.bestTime.singlePlayer.difficulty3.second` | 单人模式的最佳游戏时间（难度 3，单位：秒）   |           `0`-           |  `59`  |
+| `record.bestTime.singlePlayer.difficulty4.minute` | 单人模式的最佳游戏时间（难度 4，单位：分钟） |           `0`-           | `9999` |
+| `record.bestTime.singlePlayer.difficulty4.second` | 单人模式的最佳游戏时间（难度 4，单位：秒）   |           `0`-           |  `59`  |
+|                `record.difficulty`                | 通关时的难度                                 |         `1`-`4`          |  `1`   |
+|               `record.failedCount`                | 通关时的失败次数                             |           `0`-           |  `0`   |
+|                 `record.hasCheat`                 | 通关时是否有人作弊                           |     `0`：无，`1`：有     |  `0`   |
+|            `record.mapCompletedTimes`             | 地图通关次数                                 |           `0`-           |  `0`   |
+|               `record.playerAmount`               | 通关时的玩家人数                             |           `1`-           |  `1`   |
+|               `record.playedSecond`               | 通关时的游玩秒数                             |           `0`-           |  `0`   |
+|               `record.playedMinute`               | 通关时的游玩分钟数                           |           `0`-           |  `0`   |
+|                `record.potionUsed`                | 通关时是否有玩家使用过主药水或副药水         |    `0`：没有，`1`：有    |  `0`   |
+|                  `record.score`                   | 本次试炼的分数                               |        `-1`-`150`        |  `0`   |
 
 ### `settings`
 
-| 变量名 | 含义 | 允许值 | 默认值 |
-| :---: | --- | :---: | :---: |
-| `settings.developerMode` | 开发者模式是否启用 | `0`：禁用，`1`：启用 | `0` |
-| `settings.difficulty` | 地图难度 | `1`-`4` | `1` |
-| `settings.extraDifficulty` | 额外地图难度，直接累加到地图难度（基础值）上 | `-3`-`3` | `0` |
-| `settings.level` | 二周目的关卡设置 | `0`-`23` | `0` |
-| `settings.storyMode` | 剧情模式是否启用 | `0`：禁用，`1`：启用 | `0` |
+|           变量名           | 含义                                         |        允许值        | 默认值 |
+| :------------------------: | -------------------------------------------- | :------------------: | :----: |
+|  `settings.developerMode`  | 开发者模式是否启用                           | `0`：禁用，`1`：启用 |  `0`   |
+|   `settings.difficulty`    | 地图难度                                     |       `1`-`4`        |  `1`   |
+| `settings.extraDifficulty` | 额外地图难度，直接累加到地图难度（基础值）上 |       `-3`-`3`       |  `0`   |
+|      `settings.level`      | 二周目的关卡设置                             |       `0`-`23`       |  `0`   |
+|    `settings.storyMode`    | 剧情模式是否启用                             | `0`：禁用，`1`：启用 |  `0`   |
 
 - 备注：`settings.level`的对应值为：
 
-  | 关卡   | 值  | 关卡 | 值   | 关卡 | 值  |
-  | ----- | --- | --- | ---- | --- | ---- |
-  | 全流程 | `0` | 3-2 | `8`  | 6-2 | `16` |
-  | 1-1   | `1` | 3-3 | `9`  | 6-3 | `17` |
-  | 1-2   | `2` | 3-4 | `10` | 6-4 | `18` |
-  | 1-3   | `3` | 4-1 | `11` | 7-1 | `19` |
-  | 2-1   | `4` | 4-2 | `12` | 7-2 | `20` |
-  | 2-2   | `5` | 4-3 | `13` | 7-3 | `21` |
-  | 2-3   | `6` | 4-4 | `14` | 7-4 | `22` |
-  | 3-1   | `7` | 6-1 | `15` | 7-5 | `23` |
+  | 关卡   | 值  | 关卡 | 值   | 关卡 | 值   |
+  | ------ | --- | ---- | ---- | ---- | ---- |
+  | 全流程 | `0` | 3-2  | `8`  | 6-2  | `16` |
+  | 1-1    | `1` | 3-3  | `9`  | 6-3  | `17` |
+  | 1-2    | `2` | 3-4  | `10` | 6-4  | `18` |
+  | 1-3    | `3` | 4-1  | `11` | 7-1  | `19` |
+  | 2-1    | `4` | 4-2  | `12` | 7-2  | `20` |
+  | 2-2    | `5` | 4-3  | `13` | 7-3  | `21` |
+  | 2-3    | `6` | 4-4  | `14` | 7-4  | `22` |
+  | 3-1    | `7` | 6-1  | `15` | 7-5  | `23` |
 
 ### `time`
 
-| 变量名 | 含义 | 允许值 | 默认值 |
-| :---: | --- | :---: | :---: |
-| `time.levelCompleteCountdown` | 关卡完成倒计时，在怪物全部被消灭后还有多久完成关卡，仅在部分有岩浆怪的关卡中使用（单位：游戏刻） | `0`-`60` | `0` |
-| `time.sound` | 音效播放器，为 0 时触发特定音效（单位：游戏刻） | `0`- | `0` |
-| `time.tick` | 每刻增加 1 分，每秒重置 1 次（单位：游戏刻） | `0`-`19` | `0` |
-| `time.timeline` | 时间线，到达特定值后触发命令或函数（单位：游戏刻） | `0`- | `0` |
-| `time.playedSecond` | 玩家游玩的时长，仅限开始游戏后记录（单位：秒） | `0`- | `0` |
-| `time.playedMinute` | 玩家游玩的时长，仅限开始游戏后记录（单位：分钟） | `0`- | `0` |
+|            变量名             | 含义                                                                                             |  允许值  | 默认值 |
+| :---------------------------: | ------------------------------------------------------------------------------------------------ | :------: | :----: |
+| `time.levelCompleteCountdown` | 关卡完成倒计时，在怪物全部被消灭后还有多久完成关卡，仅在部分有岩浆怪的关卡中使用（单位：游戏刻） | `0`-`60` |  `0`   |
+|         `time.sound`          | 音效播放器，为 0 时触发特定音效（单位：游戏刻）                                                  |   `0`-   |  `0`   |
+|          `time.tick`          | 每刻增加 1 分，每秒重置 1 次（单位：游戏刻）                                                     | `0`-`19` |  `0`   |
+|        `time.timeline`        | 时间线，到达特定值后触发命令或函数（单位：游戏刻）                                               |   `0`-   |  `0`   |
+|      `time.playedSecond`      | 玩家游玩的时长，仅限开始游戏后记录（单位：秒）                                                   |   `0`-   |  `0`   |
+|      `time.playedMinute`      | 玩家游玩的时长，仅限开始游戏后记录（单位：分钟）                                                 |   `0`-   |  `0`   |
 
 ### 标签型变量
 
-| 变量名 | 含义 | 默认值 |
-| :---: | --- | :---: |
-| `outOfBorder` | 玩家是否在旁观模式下出界 | `false` |
-| `supplyArrow` | 是否为玩家提供箭 | `false` |
+|       变量名       | 含义                         | 默认值  |
+| :----------------: | ---------------------------- | :-----: |
+|   `outOfBorder`    | 玩家是否在旁观模式下出界     | `false` |
+|   `supplyArrow`    | 是否为玩家提供箭             | `false` |
 | `supplyAllPotions` | 是否为玩家提供药水（全种类） | `false` |
 
 ## NPC 等人物
 
 ### NPC 名称颜色
 
-| 人物 | 人物颜色代码 |
-| :---: | :---: |
-| 林乐（我） | §f |
-| 田英 | §b |
-| 米云溪 | §c |
-| 张宇 | §e |
-| 其他 NPC | §e |
+|    人物    | 人物颜色代码 |
+| :--------: | :----------: |
+| 林乐（我） |      §f      |
+|    田英    |      §b      |
+|   米云溪   |      §c      |
+|    张宇    |      §e      |
+|  其他 NPC  |      §e      |
 
 ### NPC 事件
 
-| 事件 ID | 描述 |
-| :--- | :--- |
-| `aw:interacted` | 该 NPC 正被交互，当`data.allowNpcInteraction == 1`时执行交互事件函数`aw/entities/npc/interacted` |
-| `aw:see_player` | 允许 NPC 迅速面向玩家 |
-| `aw:ignore_player` | 禁止 NPC 面向玩家，维持当前朝向 |
-| `aw:remove_immediately` | 立刻无声地移除 NPC |
-| `aw:author_(作者ID)` | 召唤对应 XBoxID 的作者，应为全小写，空格以下划线代替，例如召唤 kuanpan 9527 应写为`aw:author_kuanpan_9527`，详情见游戏内事件 |
-| `aw:npc_(NPC名字)` | 召唤对应名字的 NPC，例如召唤米云溪应写为`aw:npc_miyunxi`，详情见游戏内事件 |
-| `aw:state_(NPC状态)` | 令 NPC 进入某种动画状态，例如使 NPC 站立应写为`aw:state_stand`，详情见游戏内事件 |
-| `aw:animation_(NPC名字)` | 令 NPC 播放某种特定动画，例如使 NPC 说话应写为`aw:animation_speak`，详情见游戏内事件 |
+| 事件 ID                  | 描述                                                                                                                         |
+| :----------------------- | :--------------------------------------------------------------------------------------------------------------------------- |
+| `aw:interacted`          | 该 NPC 正被交互，当`data.allowNpcInteraction == 1`时执行交互事件函数`aw/entities/npc/interacted`                             |
+| `aw:see_player`          | 允许 NPC 迅速面向玩家                                                                                                        |
+| `aw:ignore_player`       | 禁止 NPC 面向玩家，维持当前朝向                                                                                              |
+| `aw:remove_immediately`  | 立刻无声地移除 NPC                                                                                                           |
+| `aw:author_(作者ID)`     | 召唤对应 XBoxID 的作者，应为全小写，空格以下划线代替，例如召唤 kuanpan 9527 应写为`aw:author_kuanpan_9527`，详情见游戏内事件 |
+| `aw:npc_(NPC名字)`       | 召唤对应名字的 NPC，例如召唤米云溪应写为`aw:npc_miyunxi`，详情见游戏内事件                                                   |
+| `aw:state_(NPC状态)`     | 令 NPC 进入某种动画状态，例如使 NPC 站立应写为`aw:state_stand`，详情见游戏内事件                                             |
+| `aw:animation_(NPC名字)` | 令 NPC 播放某种特定动画，例如使 NPC 说话应写为`aw:animation_speak`，详情见游戏内事件                                         |
 
 ## 怪物生成器
 
-| 怪物 | `event`定义 | `aw:monster_type`对应的 ID |
-| :---: | :--- | :---: |
-| 僵尸 | `aw:spawn_zombie_(1\|2\|3\|4)` | `1` |
-| 小僵尸 | `aw:spawn_zombie_baby_(1\|2\|3\|4)` | `2` |
-| 尸壳 | `aw:spawn_husk` | `3` |
-| 小尸壳 | `aw:spawn_husk_baby` | `4` |
-| 僵尸猪灵 | `aw:spawn_zombified_piglin_(1\|2\|3\|4)` | `5` |
-| 溺尸 | `aw:spawn_drowned_(1\|2\|3)` | `6` |
-| 三叉戟溺尸 | `aw:spawn_drowned_trident` | `7` |
-| 骷髅 | `aw:spawn_skeleton_(1\|2\|3\|4)` | `8` |
-| 骷髅敢死队 | `aw:spawn_skeleton_sword_(1\|2)` | `9` |
-| 流浪者 | `aw:spawn_stray_(1\|2\|3\|4)` | `10` |
-| 蜘蛛 | `aw:spawn_spider_(1\|2\|3\|4)` | `11` |
-| 洞穴蜘蛛 | `aw:spawn_cave_spider_(1\|2\|3\|4)` | `12` |
-| 苦力怕 | `aw:spawn_creeper_(energy\|hard\|normal\|speed)` | `13` |
-| 守卫者 | `aw:spawn_guardian` | `14` |
-| 猪灵 | `aw:spawn_piglin_(1\|2\|3\|4)` | `15` |
-| 猪灵蛮兵 | `aw:spawn_piglin_brute` | `16` |
-| 疣猪兽 | `aw:spawn_hoglin_(1\|2\|3\|4)` | `17` |
-| 蠹虫 | `aw:spawn_silverfish_(1\|2\|3\|4)` | `18` |
-| 岩浆怪 | `aw:spawn_magma_cube_(small\|middle\|large)` | `19` |
-| 恶魂 | `aw:spawn_ghast` | `20` |
-| 女巫 | `aw:spawn_witch` | `21` |
-| 骷髅王 | `aw:spawn_skeleton_king` | `22` |
-| 远古守卫者 | `aw:spawn_elder_guardian` | `23` |
-| 烈焰之魂 | `aw:spawn_blaze_king` | `24` |
-| 唤魔法师 | `aw:spawn_evoker` | `25` |
-| 带盾僵尸 | `aw:spawn_zombie_shield` | `26` |
+|    怪物    | `event`定义                                      | `aw:monster_type`对应的 ID |
+| :--------: | :----------------------------------------------- | :------------------------: |
+|    僵尸    | `aw:spawn_zombie_(1\|2\|3\|4)`                   |            `1`             |
+|   小僵尸   | `aw:spawn_zombie_baby_(1\|2\|3\|4)`              |            `2`             |
+|    尸壳    | `aw:spawn_husk`                                  |            `3`             |
+|   小尸壳   | `aw:spawn_husk_baby`                             |            `4`             |
+|  僵尸猪灵  | `aw:spawn_zombified_piglin_(1\|2\|3\|4)`         |            `5`             |
+|    溺尸    | `aw:spawn_drowned_(1\|2\|3)`                     |            `6`             |
+| 三叉戟溺尸 | `aw:spawn_drowned_trident`                       |            `7`             |
+|    骷髅    | `aw:spawn_skeleton_(1\|2\|3\|4)`                 |            `8`             |
+| 骷髅敢死队 | `aw:spawn_skeleton_sword_(1\|2)`                 |            `9`             |
+|   流浪者   | `aw:spawn_stray_(1\|2\|3\|4)`                    |            `10`            |
+|    蜘蛛    | `aw:spawn_spider_(1\|2\|3\|4)`                   |            `11`            |
+|  洞穴蜘蛛  | `aw:spawn_cave_spider_(1\|2\|3\|4)`              |            `12`            |
+|   苦力怕   | `aw:spawn_creeper_(energy\|hard\|normal\|speed)` |            `13`            |
+|   守卫者   | `aw:spawn_guardian`                              |            `14`            |
+|    猪灵    | `aw:spawn_piglin_(1\|2\|3\|4)`                   |            `15`            |
+|  猪灵蛮兵  | `aw:spawn_piglin_brute`                          |            `16`            |
+|   疣猪兽   | `aw:spawn_hoglin_(1\|2\|3\|4)`                   |            `17`            |
+|    蠹虫    | `aw:spawn_silverfish_(1\|2\|3\|4)`               |            `18`            |
+|   岩浆怪   | `aw:spawn_magma_cube_(small\|middle\|large)`     |            `19`            |
+|    恶魂    | `aw:spawn_ghast`                                 |            `20`            |
+|    女巫    | `aw:spawn_witch`                                 |            `21`            |
+|   骷髅王   | `aw:spawn_skeleton_king`                         |            `22`            |
+| 远古守卫者 | `aw:spawn_elder_guardian`                        |            `23`            |
+|  烈焰之魂  | `aw:spawn_blaze_king`                            |            `24`            |
+|  唤魔法师  | `aw:spawn_evoker`                                |            `25`            |
+|  带盾僵尸  | `aw:spawn_zombie_shield`                         |            `26`            |

@@ -23,7 +23,7 @@ sidebar_position: 2
 - 腾讯文档。内存占用过高，最后终于被它手机小程序弄得绷不住了。
 - Notion。在 2023 年 08 月 26 日正式取代了群公告。虽然网速过慢，有时打都打不开，但还是沿用了下去，只不过是做了些类似于镜像的功能。
 - GitHub Pages。甚至可能比 Notion 还慢。
-- Gitee Pages。良好的选择，除了我不懂 HTML，且它部署时不知为何，无法从 MarkDown 生成 HTML。*GitHub Pages 和 Gitee Pages 用的是同一套静态资源生成器，前者可以后者不可以，服了。*
+- Gitee Pages。良好的选择，除了我不懂 HTML，且它部署时不知为何，无法从 MarkDown 生成 HTML。_GitHub Pages 和 Gitee Pages 用的是同一套静态资源生成器，前者可以后者不可以，服了。_
 
 最终，群文档稳定在 Notion + Gitee Pages。出于某些原因，也留有 GitHub Pages。
 
@@ -38,7 +38,7 @@ sidebar_position: 2
 
 06 月 17 日，在祉语的帮助下，群文档启用 nekoawa 站点，通过 DogeCloud 等服务进行加速（「不完全反代」），定时同步 Cloudflare Pages 的内容。
 
-07 月 13 日，由于 GitBook.com 站点使用率低、优化差且访问速度变差，该站点被撤销。*进个控制台给我手机卡死机三次……连桌面都崩了……*
+07 月 13 日，由于 GitBook.com 站点使用率低、优化差且访问速度变差，该站点被撤销。_进个控制台给我手机卡死机三次……连桌面都崩了……_
 
 08 月 15 日，群公告档案开始建设，并于 17 日完成。  
 12 月 12 日，群公告档案因体积过大被迁移到 anno 分支。

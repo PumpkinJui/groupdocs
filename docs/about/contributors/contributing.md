@@ -61,7 +61,7 @@ GitHub 网页版不但访问缓慢，而且一次只能修改一个文件，难�
 
 现有的最佳解决方案是记住在 commit 前进行一次 pull。如果担心忘记，可以使用以下方法。
 
-``` shell
+```shell
 git config --global pull.rebase true
 git config --global rebase.autoStash true
 ```
@@ -74,7 +74,7 @@ git config --global rebase.autoStash true
 
 在多数情况下，提交信息使用一个标题即可，而无需详细内容。对于标题而言，格式如下：
 
-``` plaintext
+```plaintext
 [类别]<空格>具体对象
 ```
 
@@ -131,7 +131,7 @@ W3C 组织的《[中文排版需求](https://www.w3.org/TR/clreq/#mixed_text_com
 
 #### 自动添加盘古之白
 
-请安装 [AutoCorrect](https://huacnlee.github.io/autocorrect/)，建议阅读上面的少数派文章以获取配置指引。支持 VSCode 插件、Zed 插件和 LSP 协议！*但暂时不支持 Termux。*
+请安装 [AutoCorrect](https://huacnlee.github.io/autocorrect/)，建议阅读上面的少数派文章以获取配置指引。支持 VSCode 插件、Zed 插件和 LSP 协议！_但暂时不支持 Termux。_
 
 如果 AutoCorrect 无法安装，请安装 pangu。同样建议阅读上面的少数派文章。请注意 pangu 没有对 Makedown 作语法适配，所以可能出现问题，一定要在审阅 `git diff` 或进行本地预览后再行提交。
 
@@ -159,7 +159,7 @@ W3C 组织的《[中文排版需求](https://www.w3.org/TR/clreq/#mixed_text_com
 
 使用引用块时，宜在每行前均加入 `>` 并加空格，在需要换行的位置仅使用一个 `>` 并换行。例如：
 
-``` markdown
+```markdown
 > 全世界无产者，联合起来！
 >
 > Working men of all countries, unite!
@@ -173,7 +173,7 @@ W3C 组织的《[中文排版需求](https://www.w3.org/TR/clreq/#mixed_text_com
 
 如在需要换行的位置不加只有 `>` 的空行：
 
-``` markdown
+```markdown
 > 全世界无产者，联合起来！
 > Working men of all countries, unite!
 ```

@@ -14,7 +14,13 @@ import React from "react";
  * @returns
  */
 export default function TestButton(buttonOptions) {
-    const { text = "", url = "", length = "middle", logo = "", openNewPage = true } = buttonOptions;
+    const {
+        text = "",
+        url = "",
+        length = "middle",
+        logo = "",
+        openNewPage = true,
+    } = buttonOptions;
 
     /** @type {React.CSSProperties} */
     const logoStyle = {

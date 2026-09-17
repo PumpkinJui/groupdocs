@@ -13,6 +13,6 @@ import BaseButton from "./base";
  */
 export default function DownloadButton(buttonOptions) {
     const { text, url = "" } = buttonOptions;
-    const buttonText = text ? `⬇ 下载：${text}` : "⬇ 下载"
-    return <BaseButton text={buttonText} url={url} color="green"/>;
+    const buttonText = text ? `⬇ 下载：${text}` : "⬇ 下载";
+    return <BaseButton text={buttonText} url={url} color="green" />;
 }

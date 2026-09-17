@@ -2,7 +2,7 @@
 sidebar_position: 2
 description: Docusaurus 迁移后的注意事项和新语法！
 title: Docusaurus 编辑指南
-authors: [ 量筒 ]
+authors: [量筒]
 ---
 
 # Docusaurus 编辑指南
@@ -289,12 +289,12 @@ npm start
 
 下面我会列出几个比较有用的参数（主要是群文档中已经用到的），之后再补充。
 
-| 键 | 值 | 意义 |
-| --- | --- | --- |
-| `title` | 任意文本 | 在侧边栏显示的标题 |
-| `description` | 任意文本 | 显示在列表页中的文章描述 |
-| `last_update` | `FrontMatterLastUpdate` | 记录上次更新的日期和作者<br/>（目前已不需要） |
-| `sidebar_position` | 整数 | 在侧边栏中排到第几位 |
+| 键                 | 值                      | 意义                                          |
+| ------------------ | ----------------------- | --------------------------------------------- |
+| `title`            | 任意文本                | 在侧边栏显示的标题                            |
+| `description`      | 任意文本                | 显示在列表页中的文章描述                      |
+| `last_update`      | `FrontMatterLastUpdate` | 记录上次更新的日期和作者<br/>（目前已不需要） |
+| `sidebar_position` | 整数                    | 在侧边栏中排到第几位                          |
 
 一个标准的文档前言如下：
 
@@ -741,25 +741,12 @@ execute if score tick time matches 2 run effect @a fire_resistance 30 0 true
 其中高亮代码只需要在全文中声明 1 次即可。各个 `value` 是不可重复的。
 
 ```html {1-2}
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="ID1" label="苹果" default>
-
-这是个苹果！🍎
-
-  </TabItem>
-  <TabItem value="ID2" label="橘子">
-
-这是个橘子！🍊
-
-  </TabItem>
-  <TabItem value="ID3" label="香蕉">
-
-这是个香蕉！🍌
-
-  </TabItem>
+  <TabItem value="ID1" label="苹果" default> 这是个苹果！🍎 </TabItem>
+  <TabItem value="ID2" label="橘子"> 这是个橘子！🍊 </TabItem>
+  <TabItem value="ID3" label="香蕉"> 这是个香蕉！🍌 </TabItem>
 </Tabs>
 ```
 
@@ -790,11 +777,9 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
 
 ```html
 <details>
+  <summary>折叠标题</summary>
 
-<summary>折叠标题</summary>
-
-折叠的内容
-
+  折叠的内容
 </details>
 ```
 
@@ -818,11 +803,7 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
   <TabItem value="code" label="代码">
 
 ```html
-<details>
-
-折叠的内容
-
-</details>
+<details>折叠的内容</details>
 ```
 
   </TabItem>
@@ -907,11 +888,11 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
 
 通常在一个 JSON 文件中，我们需要使用数据类型的标记来声明某个值的类型。本文档加入了对数据类型声明的支持，使用 HTML 标签`<DataType/>`来进行标记。声明了数据类型的字段，左侧会显示为对应类型的图标（为中文 Minecraft Wiki 使用的图标风格），而字段本身则显示为代码风格。该标签接受 3 个参数：
 
-| 参数 | 类型 | 描述 | 示例 |
-| :--- | :-- | :--- | :--- |
-| `type` | 字符串，可选（但通常需指定此参数） | 仅限填写为以下的值，对应 JSON 中的几种基本数据类型，声明后将在字段左侧添加对应图标。<br/>**·** `"int"`：整数<br/>**·** `"float"`：浮点数<br/>**·** `"boolean"`：布尔值<br/>**·** `"string"`：字符串<br/>**·** `"object"`：对象<br/>**·** `"array"`：数组 | `<DataType type="int"/>` |
-| `name` | 字符串，可选 | 字段内容 | `<DataType name="format_version"/>` |
-| `isRequired` | 布尔值，可选 | 声明该字段是否必选，必选的参数会加粗，并标上星号 | `<DataType isRequired/>` |
+| 参数         | 类型                               | 描述                                                                                                                                                                                                                                                     | 示例                                |
+| :----------- | :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------- |
+| `type`       | 字符串，可选（但通常需指定此参数） | 仅限填写为以下的值，对应 JSON 中的几种基本数据类型，声明后将在字段左侧添加对应图标。<br/>**·** `"int"`：整数<br/>**·** `"float"`：浮点数<br/>**·** `"boolean"`：布尔值<br/>**·** `"string"`：字符串<br/>**·** `"object"`：对象<br/>**·** `"array"`：数组 | `<DataType type="int"/>`            |
+| `name`       | 字符串，可选                       | 字段内容                                                                                                                                                                                                                                                 | `<DataType name="format_version"/>` |
+| `isRequired` | 布尔值，可选                       | 声明该字段是否必选，必选的参数会加粗，并标上星号                                                                                                                                                                                                         | `<DataType isRequired/>`            |
 
 <Tabs>
 <TabItem value="effect" label="效果" default>
@@ -948,10 +929,10 @@ import DataType from "/src/components/type/data"
 
 通常我们需要声明一些文件及其类型。本文档加入了对数据类型声明的支持，使用 HTML 标签`<FileType/>`来进行标记。声明了数据类型的字段，左侧会显示为对应文件类型的图标。该标签接受 2 个参数：
 
-| 参数 | 类型 | 描述 | 示例 |
-| :--- | :-- | :--- | :--- |
-| `type` | 字符串，可选（但通常需指定此参数） | 仅限填写为以下的值，声明后将在字段左侧添加对应图标。<br/>**·** `"file"`：常规的文本文件<br/>**·** `"folder"`：文件夹<br/>**·** `"image"`：图片<br/>**·** `"music"`：音乐 | `<FileType type="file"/>` |
-| `name` | 字符串，可选 | 字段内容 | `<FileType name="manifest.json"/>` |
+| 参数   | 类型                               | 描述                                                                                                                                                                     | 示例                               |
+| :----- | :--------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------- |
+| `type` | 字符串，可选（但通常需指定此参数） | 仅限填写为以下的值，声明后将在字段左侧添加对应图标。<br/>**·** `"file"`：常规的文本文件<br/>**·** `"folder"`：文件夹<br/>**·** `"image"`：图片<br/>**·** `"music"`：音乐 | `<FileType type="file"/>`          |
+| `name` | 字符串，可选                       | 字段内容                                                                                                                                                                 | `<FileType name="manifest.json"/>` |
 
 <Tabs>
 <TabItem value="effect" label="效果" default>

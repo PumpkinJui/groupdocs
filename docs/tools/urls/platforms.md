@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-authors: [ 南瓜汁 ]
+authors: [南瓜汁]
 ---
 
 # 各类平台

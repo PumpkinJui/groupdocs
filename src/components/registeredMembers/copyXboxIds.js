@@ -17,7 +17,7 @@ export default function CopyXboxIds() {
             // 提取单个表格中第二列的所有 XBoxID（按 <br> 或换行分割）
             const extractFromTable = (table, targetArray) => {
                 const rows = table.querySelectorAll("tbody tr");
-                rows.forEach(row => {
+                rows.forEach((row) => {
                     const cells = row.querySelectorAll("td");
                     if (cells.length >= 2) {
                         const html = cells[1]?.innerHTML || "";
@@ -27,10 +27,10 @@ export default function CopyXboxIds() {
                 });
             };
 
-            const extractIdsFromHtml = html => {
+            const extractIdsFromHtml = (html) => {
                 const ids = [];
                 const parts = html.split(/<br\s*\/?>|\n/);
-                parts.forEach(part => {
+                parts.forEach((part) => {
                     const text = part.replace(/<[^>]+>/g, "").trim();
                     if (text && text !== "—") {
                         ids.push(text);
@@ -50,7 +50,8 @@ export default function CopyXboxIds() {
             if (tables.length > 2) extractFromTable(tables[2], normal);
 
             // 去重（保留首次出现顺序）
-            const unique = arr => arr.filter((id, index) => arr.indexOf(id) === index);
+            const unique = (arr) =>
+                arr.filter((id, index) => arr.indexOf(id) === index);
 
             setAdminIds(unique(admins));
             setSurvivalIds(unique(survival));
@@ -63,8 +64,8 @@ export default function CopyXboxIds() {
     }, []);
 
     // 将 ID 列表格式化为 allowlist.json 格式
-    const formatAsJson = ids => {
-        const json = ids.map(id => ({ ignoresPlayerLimit: false, name: id }));
+    const formatAsJson = (ids) => {
+        const json = ids.map((id) => ({ ignoresPlayerLimit: false, name: id }));
         return JSON.stringify(json, null, 2);
     };
 
@@ -82,7 +83,11 @@ export default function CopyXboxIds() {
     };
 
     // 如果没有数据，不渲染任何内容
-    if (adminIds.length === 0 && survivalIds.length === 0 && normalIds.length === 0) {
+    if (
+        adminIds.length === 0 &&
+        survivalIds.length === 0 &&
+        normalIds.length === 0
+    ) {
         return null;
     }
 
@@ -90,13 +95,22 @@ export default function CopyXboxIds() {
     const allMemberIds = [...adminIds, ...survivalIds, ...normalIds];
 
     return (
-        <div style={{ marginBottom: "16px", display: "flex", flexWrap: "wrap", gap: "10px" }}>
+        <div
+            style={{
+                marginBottom: "16px",
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "10px",
+            }}
+        >
             {/* 按钮 1：仅管理员 */}
             <button
                 className="btn white_btn middle_btn btn_height_small font_size_middle"
                 onClick={() => handleCopy(adminIds, "管理员")}
             >
-                {isCopied && lastCopiedLabel === "管理员" ? "✅ 已复制！" : `📋 管理员 (${adminIds.length})`}
+                {isCopied && lastCopiedLabel === "管理员"
+                    ? "✅ 已复制！"
+                    : `📋 管理员 (${adminIds.length})`}
             </button>
 
             {/* 按钮 2：管理员 + 有生存服白名单的普通成员 */}
@@ -114,7 +128,9 @@ export default function CopyXboxIds() {
                 className="btn white_btn middle_btn btn_height_small font_size_middle"
                 onClick={() => handleCopy(allMemberIds, "全部成员")}
             >
-                {isCopied && lastCopiedLabel === "全部成员" ? "✅ 已复制！" : `📋 全部成员 (${allMemberIds.length})`}
+                {isCopied && lastCopiedLabel === "全部成员"
+                    ? "✅ 已复制！"
+                    : `📋 全部成员 (${allMemberIds.length})`}
             </button>
         </div>
     );

@@ -14,6 +14,14 @@ import BaseButton from "./base";
  */
 export default function WikiButton(buttonOptions) {
     const { item, text = `${item}`, length = "middle" } = buttonOptions;
-    const url = `https://zh.minecraft.wiki/w/${item}`
-    return <BaseButton text={text} url={url} length={length} color="blue" logo="/img/components/minecraft_wiki.png"/>;
+    const url = `https://zh.minecraft.wiki/w/${item}`;
+    return (
+        <BaseButton
+            text={text}
+            url={url}
+            length={length}
+            color="blue"
+            logo="/img/components/minecraft_wiki.png"
+        />
+    );
 }

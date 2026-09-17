@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-authors: [ 南瓜汁 ]
+authors: [南瓜汁]
 ---
 
 # 下载国际版 JE 第三方启动器

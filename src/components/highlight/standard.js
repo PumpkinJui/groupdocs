@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function Highlight({
     text = "",
@@ -10,9 +10,9 @@ export default function Highlight({
     fontSize = "medium",
     border = "0px solid #000000",
     margin = "0 0 10px 0",
-    whiteSpace = "normal"
+    whiteSpace = "normal",
 }) {
-    let cursorStyle = url ? "pointer" : "auto"
+    let cursorStyle = url ? "pointer" : "auto";
     /** @type {React.CSSProperties} */
     let style = {
         backgroundColor: backgroundColor,
@@ -26,17 +26,13 @@ export default function Highlight({
         margin: margin,
         cursor: cursorStyle,
         textDecoration: "none",
-        whiteSpace: whiteSpace
-    }
-    return (
-        url ? (
-            <a href={url} target="_blank" rel="noopener noreferrer" style={style} >
-                {text}
-            </a>
-        ) : (
-            <span style={style} >
-                {text}
-            </span>
-        )
+        whiteSpace: whiteSpace,
+    };
+    return url ? (
+        <a href={url} target="_blank" rel="noopener noreferrer" style={style}>
+            {text}
+        </a>
+    ) : (
+        <span style={style}>{text}</span>
     );
 }

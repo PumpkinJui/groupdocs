@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-authors: [ 南瓜汁 ]
+authors: [南瓜汁]
 ---
 
 # 开发用途
@@ -155,4 +155,4 @@ Chunker 由 Minecraft 开发团队官方推荐！
 
 MCBE Essentials 是一个集成了多种功能的开发工具，甚至可以用于将结构转换为函数文件！
 
-*（量筒：太牛啦！）*
+_（量筒：太牛啦！）_

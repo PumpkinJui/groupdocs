@@ -14,9 +14,7 @@ export default function PressedButton(buttonOptions) {
     const { text = "", length = "middle" } = buttonOptions;
 
     return (
-        <button
-            className={`btn green_btn_pressed ${length}_btn`}
-        >
+        <button className={`btn green_btn_pressed ${length}_btn`}>
             {text}
         </button>
     );

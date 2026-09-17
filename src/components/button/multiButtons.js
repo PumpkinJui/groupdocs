@@ -3,11 +3,11 @@ import React from "react";
 
 /** 字体大小到 CSS 类的映射 */
 const FONT_SIZE_MAP = {
-  extra_small: 'font_size_extra_small',
-  small: 'font_size_small',
-  middle: 'font_size_middle',
-  large: 'font_size_large',
-  extra_large: 'font_size_extra_large',
+    extra_small: "font_size_extra_small",
+    small: "font_size_small",
+    middle: "font_size_middle",
+    large: "font_size_large",
+    extra_large: "font_size_extra_large",
 };
 
 /**
@@ -33,48 +33,50 @@ const FONT_SIZE_MAP = {
  * @param {MultiButtonsOptions} param0
  */
 export default function MultiButtons({
-  options,
-  value,
-  onChange,
-  size = "middle",
-  height = "small",
-  fontSize = "middle",
+    options,
+    value,
+    onChange,
+    size = "middle",
+    height = "small",
+    fontSize = "middle",
 }) {
-  const fontSizeClass = FONT_SIZE_MAP[fontSize] || FONT_SIZE_MAP.large;
+    const fontSizeClass = FONT_SIZE_MAP[fontSize] || FONT_SIZE_MAP.large;
 
-  return (
-    <div
-      style={{
-        display: "flex",
-        gap: 0,
-        margin: "1rem 0",
-      }}
-    >
-      {options.map((option, index) => {
-        const isLast = index === options.length - 1;
-        const isSelected = option.value === value;
-
-        const baseClass = `btn ${size}_btn`;
-        const colorClass = isSelected ? "green_btn_pressed" : "white_btn";
-        const heightClass = isSelected 
-          ? `green_btn_pressed_${height}` 
-          : `btn_height_${height}`;
-
-        return (
-          <button
-            key={option.value}
-            className={`${baseClass} ${colorClass} ${heightClass} ${fontSizeClass}`}
-            onClick={() => onChange(option.value)}
+    return (
+        <div
             style={{
-              flex: "1 1 0%",
-              margin: 0,
-              borderRightWidth: isLast ? "2px" : 0,
+                display: "flex",
+                gap: 0,
+                margin: "1rem 0",
             }}
-          >
-            {option.label}
-          </button>
-        );
-      })}
-    </div>
-  );
+        >
+            {options.map((option, index) => {
+                const isLast = index === options.length - 1;
+                const isSelected = option.value === value;
+
+                const baseClass = `btn ${size}_btn`;
+                const colorClass = isSelected
+                    ? "green_btn_pressed"
+                    : "white_btn";
+                const heightClass = isSelected
+                    ? `green_btn_pressed_${height}`
+                    : `btn_height_${height}`;
+
+                return (
+                    <button
+                        key={option.value}
+                        className={`${baseClass} ${colorClass} ${heightClass} ${fontSizeClass}`}
+                        onClick={() => onChange(option.value)}
+                        style={{
+                            flex: "1 1 0%",
+                            margin: 0,
+                            borderRightWidth: isLast ? "2px" : 0,
+                        }}
+                    >
+                        {option.label}
+                    </button>
+                );
+            })}
+        </div>
+    );
 }

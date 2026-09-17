@@ -111,13 +111,13 @@ iOS 默认支持直接打开 MSF 文件。请直接点击已经下载的 MSF 文
 
 根据 [Minecraft Wiki](https://zh.minecraft.wiki/w/Com.mojang)：
 
-| 操作系统 | 路径 | 备注 |
-| --- | --- | --- |
-| Android | /data/data/com.mojang.minecraftpe/games/com.mojang | 应用程序，需要 root 权限访问 |
-| Android | /sdcard/Android/data/com.mojang.minecraftpe/files/games/com.mojang | 外部存储，Android 11 以上需要特殊权限访问 |
-| Windows | 独立内容：%APPDATA%\Minecraft Bedrock\Users\<用户ID>\games\com.mojang<br/>共享内容：%APPDATA%\Minecraft Bedrock\Users\Shared\games\com.mojang | 正式版 |
-| Windows | 独立内容：%APPDATA%\Minecraft Bedrock Preview\Users\<用户ID>\games\com.mojang<br/>共享内容：%APPDATA%\Minecraft Bedrock Preview\Users\Shared\games\com.mojang | 预览版 |
-| iOS | /On My iPhone/Minecraft/games/com.mojang/ | |
+| 操作系统 | 路径                                                                                                                                                          | 备注                                      |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| Android  | /data/data/com.mojang.minecraftpe/games/com.mojang                                                                                                            | 应用程序，需要 root 权限访问              |
+| Android  | /sdcard/Android/data/com.mojang.minecraftpe/files/games/com.mojang                                                                                            | 外部存储，Android 11 以上需要特殊权限访问 |
+| Windows  | 独立内容：%APPDATA%\Minecraft Bedrock\Users\<用户ID>\games\com.mojang<br/>共享内容：%APPDATA%\Minecraft Bedrock\Users\Shared\games\com.mojang                 | 正式版                                    |
+| Windows  | 独立内容：%APPDATA%\Minecraft Bedrock Preview\Users\<用户ID>\games\com.mojang<br/>共享内容：%APPDATA%\Minecraft Bedrock Preview\Users\Shared\games\com.mojang | 预览版                                    |
+| iOS      | /On My iPhone/Minecraft/games/com.mojang/                                                                                                                     |                                           |
 
 ## 技巧
 
