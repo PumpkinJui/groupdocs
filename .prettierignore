@@ -1,4 +1,6 @@
 /blog/anno/
+/docs/about/archives/*.md
+/static/
 
 package.json
 pnpm-lock.yaml
