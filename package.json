@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@docsearch/css": "^3.8.3",
