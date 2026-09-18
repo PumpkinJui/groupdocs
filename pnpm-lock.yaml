@@ -12,16 +12,16 @@ importers:
         specifier: ^3.8.3
         version: 3.9.0
       '@docusaurus/core':
-        specifier: '3.9'
+        specifier: 3.9.2
         version: 3.9.2(@mdx-js/react@3.1.0(@types/react@19.1.10)(react@19.1.1))(acorn@8.15.0)(csso@5.0.5)(debug@4.4.3(supports-color@8.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(supports-color@8.1.1)
       '@docusaurus/plugin-client-redirects':
-        specifier: ^3.9.2
+        specifier: 3.9.2
         version: 3.9.2(@mdx-js/react@3.1.0(@types/react@19.1.10)(react@19.1.1))(acorn@8.15.0)(csso@5.0.5)(debug@4.4.3(supports-color@8.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(supports-color@8.1.1)
       '@docusaurus/preset-classic':
-        specifier: '3.9'
+        specifier: 3.9.2
         version: 3.9.2(@algolia/client-search@5.48.1)(@mdx-js/react@3.1.0(@types/react@19.1.10)(react@19.1.1))(@types/react@19.1.10)(acorn@8.15.0)(csso@5.0.5)(debug@4.4.3(supports-color@8.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(search-insights@2.17.3)(supports-color@8.1.1)
       '@docusaurus/theme-common':
-        specifier: ^3.9.2
+        specifier: 3.9.2
         version: 3.9.2(@docusaurus/plugin-content-docs@3.9.2(@mdx-js/react@3.1.0(@types/react@19.1.10)(react@19.1.1))(acorn@8.15.0)(csso@5.0.5)(debug@4.4.3(supports-color@8.1.1))(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(supports-color@8.1.1))(acorn@8.15.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(supports-color@8.1.1)
       '@mdx-js/react':
         specifier: ^3.0.0
