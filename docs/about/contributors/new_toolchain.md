@@ -127,12 +127,16 @@ Prettier 有一些原本我们不常用的设计，例如它的斜体使用 `_` 
 
 以一个示例来看，原来我们写表格是这个样子的：
 
+<!-- prettier-ignore-start -->
+
 ```markdown
-| foo       |     bar     |         baz |
-| :-------- | :---------: | ----------: |
-| yes       |     or      |          no |
+| foo | bar | baz |
+| :--- | :---: | ---: |
+| yes | or | no |
 | hey there | hello world | how are you |
 ```
+
+<!-- prettier-ignore-end -->
 
 Prettier 会把它变成这个样子：
 
@@ -147,12 +151,16 @@ Prettier 会把它变成这个样子：
 
 但它还会把这样的表格：
 
+<!-- prettier-ignore-start -->
+
 ```markdown
-| 一     |     二     |           三 |
-| :----- | :--------: | -----------: |
-| yes    |     or     |           no |
+| 一 | 二 | 三 |
+| :--- | :---: | ---: |
+| yes | or | no |
 | 我是谁 | 我从哪里来 | 我要到哪里去 |
 ```
+
+<!-- prettier-ignore-end -->
 
 变成这个样子：
 

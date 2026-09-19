@@ -740,13 +740,26 @@ execute if score tick time matches 2 run effect @a fire_resistance 30 0 true
 
 其中高亮代码只需要在全文中声明 1 次即可。各个 `value` 是不可重复的。
 
-```html {1-2}
-import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
+```markdown {1-2}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="ID1" label="苹果" default> 这是个苹果！🍎 </TabItem>
-  <TabItem value="ID2" label="橘子"> 这是个橘子！🍊 </TabItem>
-  <TabItem value="ID3" label="香蕉"> 这是个香蕉！🍌 </TabItem>
+  <TabItem value="ID1" label="苹果" default>
+
+这是个苹果！🍎
+
+  </TabItem>
+  <TabItem value="ID2" label="橘子">
+
+这是个橘子！🍊
+
+  </TabItem>
+  <TabItem value="ID3" label="香蕉">
+
+这是个香蕉！🍌
+
+  </TabItem>
 </Tabs>
 ```
 
@@ -765,21 +778,19 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
   <TabItem value="effect" label="效果" default>
 
 <details>
-
-<summary>折叠标题</summary>
+  <summary>折叠标题</summary>
 
 折叠的内容
-
 </details>
 
   </TabItem>
   <TabItem value="code" label="代码">
 
-```html
+```markdown
 <details>
   <summary>折叠标题</summary>
 
-  折叠的内容
+折叠的内容
 </details>
 ```
 
@@ -802,8 +813,12 @@ MarkDown 支持在文档中使用大多数 HTML 的语法，其中就包含折�
   </TabItem>
   <TabItem value="code" label="代码">
 
-```html
-<details>折叠的内容</details>
+```markdown
+<details>
+
+折叠的内容
+
+</details>
 ```
 
   </TabItem>
