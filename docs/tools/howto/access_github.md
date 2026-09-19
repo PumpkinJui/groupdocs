@@ -64,7 +64,7 @@ GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 
 
 只需要下载时可以使用。
 
-实践之一为 [GitHub Proxy](https://ghproxy.link/)。
+实践之一为 [GitHub Proxy](https://ghproxy.link/)，另一个为 [7ED](https://platform.7ed.net/)。
 
 ## CDN
 

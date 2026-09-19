@@ -15,7 +15,7 @@ import Button from '/src/components/button/base';
 
 ## 国际基岩版译名修正
 
-<Button text="一键下载 GitHub 最新版" url="https://gh.sevencdn.com/https://github.com/ff98sha/mclangcn/releases/latest/download/Bedrock.Translation.Patch.mcpack"/>
+<Button text="一键下载 GitHub 最新版（镜像）" url="https://gh.sevencdn.com/https://github.com/ff98sha/mclangcn/releases/latest/download/Bedrock.Translation.Patch.mcpack"/>
 <Button text="GitHub" url="https://github.com/ff98sha/mclangcn"/>
 <Button text="KLPBBS" url="https://klpbbs.com/thread-137794-1-1.html"/>
 <Button text="MineBBS" url="https://www.minebbs.com/resources/8447/"/>
