@@ -102,7 +102,7 @@ git config --global rebase.autoStash true
 
 对于前者这种质量问题，我们过去使用 [markdownlint](https://github.com/DavidAnson/markdownlint) 处理，目前计划改用 [ESLint](https://eslint.org/) 处理。对于后者这种风格问题，我们计划使用 [Prettier](https://prettier.io/) 处理。在群文档能够正常部署的前提下，这些都只是推荐操作。
 
-此处将会很快添加更多信息。
+关于这些工具的使用，见[工具链更新](./new_toolchain)页面。
 
 ### 盘古之白
 
