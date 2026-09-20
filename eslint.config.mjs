@@ -4,6 +4,7 @@ import pluginReact from "eslint-plugin-react";
 import json from "@eslint/json";
 import css from "@eslint/css";
 import { defineConfig } from "eslint/config";
+import eslintConfigPrettier from "eslint-config-prettier/flat";
 
 export default defineConfig([
     {
@@ -29,4 +30,5 @@ export default defineConfig([
         language: "css/css",
         extends: ["css/recommended"],
     },
+    eslintConfigPrettier,
 ]);
