@@ -36,7 +36,7 @@ tags: [planning]
 
 该服务器采用白名单机制，需要参加测试的成员，请确保您的名字出现在[服务器成员登记表](../../servers/registered_members)中，否则将无法进入游戏。
 
-该服务器目前采用 Minecraft 最新版本，如果您在进入服务器时显示「过期的客户端！」，请在[下载国际基岩版 Minecraft](../../tools/urls/mcbe.md)中更新你的 Minecraft 。
+该服务器目前采用 Minecraft 最新版本，如果您在进入服务器时显示「过期的客户端！」，请在[下载国际基岩版 Minecraft](../../tools/urls/mcbe.md)中更新你的 Minecraft。
 
 ---
 
