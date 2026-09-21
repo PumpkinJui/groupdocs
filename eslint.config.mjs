@@ -1,9 +1,10 @@
 import js from "@eslint/js";
 import globals from "globals";
 import pluginReact from "eslint-plugin-react";
-import reactHooks from 'eslint-plugin-react-hooks'
+import reactHooks from "eslint-plugin-react-hooks";
 import json from "@eslint/json";
 import css from "@eslint/css";
+import * as mdx from "eslint-plugin-mdx";
 import { defineConfig } from "eslint/config";
 import eslintConfigPrettier from "eslint-config-prettier/flat";
 
@@ -31,6 +32,18 @@ export default defineConfig([
         plugins: { css },
         language: "css/css",
         extends: ["css/recommended"],
+    },
+    {
+        ...mdx.flat,
+        processor: mdx.createRemarkProcessor({
+            lintCodeBlocks: true,
+        }),
+    },
+    {
+        ...mdx.flatCodeBlocks,
+        rules: {
+            ...mdx.flatCodeBlocks.rules,
+        },
     },
     eslintConfigPrettier,
 ]);
