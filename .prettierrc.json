@@ -5,10 +5,6 @@
         {
             "files": ["**/*.yaml", "**/*.yml", "**/*.md"],
             "options": { "tabWidth": 2 }
-        },
-        {
-            "files": ".prettierrc",
-            "options": { "parser": "json" }
         }
     ]
 }
