@@ -1,4 +1,3 @@
-import React from "react";
 import { translate } from "@docusaurus/Translate";
 import { PageMetadata } from "@docusaurus/theme-common";
 import Layout from "@theme/Layout";

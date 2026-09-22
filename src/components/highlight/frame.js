@@ -1,4 +1,3 @@
-import React from "react";
 import Highlight from "./standard";
 
 export default function FrameHighlight({ text = "", color = "#000000" }) {

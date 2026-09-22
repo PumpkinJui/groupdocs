@@ -9,7 +9,7 @@ treeview treeview-header {
     font-weight: bold;
 }
 treeview treeview-header:last-child {
-    border-color: #636363 !important;
+    border-color: #636363;
     border-left-style: dotted;
 }
 treeview treeview-header:not(:last-child)::before {

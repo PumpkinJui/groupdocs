@@ -1,5 +1,5 @@
 // src/components/CopyXboxIds.jsx
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function CopyXboxIds() {
     const [adminIds, setAdminIds] = useState([]);

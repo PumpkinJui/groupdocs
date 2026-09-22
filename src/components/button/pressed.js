@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * @typedef PressedButtonOptions
  * @property {string} [text] 按钮文本。

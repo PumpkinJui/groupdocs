@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function DataType({ type, name, isRequired = false }) {
     const imgPath = `/img/dataType/${type}.svg`;
     const requiredIndicator = isRequired ? (

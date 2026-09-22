@@ -1,5 +1,4 @@
 // src/components/button/multiButtons.jsx
-import React from "react";
 
 /** 字体大小到 CSS 类的映射 */
 const FONT_SIZE_MAP = {

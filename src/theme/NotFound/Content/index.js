@@ -1,4 +1,3 @@
-import React from "react";
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 export default function NotFoundContent({ className }) {
@@ -10,7 +9,7 @@ export default function NotFoundContent({ className }) {
                     style={{ textAlign: "center" }}
                 >
                     <Heading as="h1" className="hero__title">
-                        404 - Not Found
+                        404 - Not&nbsp;Found
                     </Heading>
                     <a
                         href="/index.html"

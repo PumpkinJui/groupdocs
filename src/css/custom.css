@@ -4,6 +4,9 @@
  * work well for content-centric websites.
  */
 
+@import url("https://cdn.jsdmirror.com/npm/@docsearch/css@3");
+@import "@docsearch/css";
+
 /* You can override the default Infima variables here. */
 :root {
     --ifm-color-primary: #318178;
@@ -28,9 +31,6 @@
     --ifm-color-primary-lightest: #4fddbf;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
-@import url("https://cdn.jsdmirror.com/npm/@docsearch/css@3");
-@import "@docsearch/css";
 
 /* ================================================================
    第二部分：全局 CSS 变量（语义化颜色与字体配置）

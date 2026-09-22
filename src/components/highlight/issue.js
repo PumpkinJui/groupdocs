@@ -1,4 +1,3 @@
-import React from "react";
 import Highlight from "./standard";
 
 export default function Issue({ text = "" }) {
