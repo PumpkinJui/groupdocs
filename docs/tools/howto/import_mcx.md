@@ -14,8 +14,6 @@ MSF 文件，实际上是 ZIP 压缩格式的二进制文件，改了个后缀�
 
 ## 各平台导入方法
 
-<!-- markdownlint-disable MD024 -->
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

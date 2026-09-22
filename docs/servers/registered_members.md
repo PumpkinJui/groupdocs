@@ -219,5 +219,4 @@ authors: [量筒]
 
 import CopyXboxIds from '/src/components/registeredMembers/copyXboxIds';
 
-<!-- markdownlint-disable MD033 -->
 <CopyXboxIds />

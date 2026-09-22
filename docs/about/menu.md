@@ -168,8 +168,6 @@ _（鸽子：不用小心对待我 请用心对待我就可以）_
 
 #### 正片
 
-<!-- markdownlint-disable MD033 -->
-
 <video controls width="100%">
 <source src="/about/menu/fenzhenglt.mp4" type="video/mp4" />
 当前浏览器不支持使用视频播放控件。
@@ -183,8 +181,6 @@ _（鸽子：不用小心对待我 请用心对待我就可以）_
 <source src="/about/menu/fenzhenglt_pure.mp4" type="video/mp4" />
 当前浏览器不支持使用视频播放控件。
 </video>
-
-<!-- markdownlint-restore -->
 
 #### 字幕
 

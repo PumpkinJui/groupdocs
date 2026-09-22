@@ -45,7 +45,9 @@ import Button from '/src/components/button/base';
 
 ## 各式各样的开发工具
 
-### bridge. <!-- markdownlint-disable-line MD026 -->
+<!-- lint ignore no-heading-punctuation -->
+
+### bridge.
 
 <Button text="官网" url="https://bridge-core.github.io/"/>
 
