@@ -100,7 +100,9 @@ git config --global rebase.autoStash true
 
 在标记语言中，格式规范[分为两种](https://prettier.io/docs/comparison)：一种是可能造成解析歧义乃至运行失败的，另一种是单纯为了整洁美观而几乎不影响实际运行的。例如，如果使用了 `[链接文本](链接内容)` 的格式，却没有写链接内容，单纯放了一个 `[链接文本]()` 在那里，就是前者；而表格到底要不要添加空格，让等宽字体下视觉完全对齐这种问题，就是后者。Markdown 毕竟是文档语言，所以这两者的界限会更加模糊。
 
-对于前者这种质量问题，我们过去使用 [markdownlint](https://github.com/DavidAnson/markdownlint) 处理，目前计划改用 [ESLint](https://eslint.org/) 处理。对于后者这种风格问题，我们计划使用 [Prettier](https://prettier.io/) 处理。在群文档能够正常部署的前提下，这些都只是推荐操作。
+对于前者这种质量问题，我们过去使用 [markdownlint](https://github.com/DavidAnson/markdownlint) 处理，目前改用 [ESLint](https://eslint.org/) 处理。对于后者这种风格问题，我们使用 [Prettier](https://prettier.io/) 处理。
+
+在群文档能够正常部署的前提下，这些都只是推荐操作。然而有必要指出，使用这些工具进行检查和修改，并使用群文档的本地预览功能，有助于群文档正常部署，并且能提高效率。
 
 关于这些工具的使用，见[工具链更新](./new_toolchain)页面。
 

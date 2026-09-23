@@ -7,6 +7,8 @@ description: 新工具到来！
 
 本篇文档中将介绍 2026 年 09 月引入的一系列工具，并说明如何迁移。
 
+需要注意的是，我们不强制使用新的工具链。我们尽可能保留了对 npm 的兼容，并保留了不安装 `node_modules` 时的编辑能力。但考虑到新工具链带来的种种好处，如有可能还是使用新的为好。
+
 ## pnpm
 
 ### pnpm 简介
@@ -95,13 +97,11 @@ pnpm config set --location project node-linker hoisted
 
 标记语言，包括 Markdown 和 JavaScript 等语言在内，可能存在质量和风格两种问题。相对应地，有两种工具用来解决这些问题：代码检查工具（linter）和代码格式化工具（formatter）。
 
-Markdown 是一种标准 [非](https://yihui.org/cn/2017/08/markdown-flavors/) [常](https://daringfireball.net/projects/markdown/) [非](https://commonmark.org/) [常](https://github.github.com/gfm/) [混](https://pandoc.org/MANUAL.html#pandocs-markdown) [乱](https://mdxjs.com/) 的语言。Docusaurus [使用](https://docusaurus.io/docs/markdown-features)的是 MDX，这种方言支持在 Markdown 中间加入 JSX 组件。
-
 为了更简便地规范 Markdown 格式，我们引入了 [Prettier](https://prettier.io/)。Prettier 是一个代码格式化工具，用于终结所有持续不断的代码风格之争。除了 Markdown 以外，它还支持很多语言，例如群文档其他组件使用的 JavaScript、JSON、YAML 和 CSS。
 
 「Prettier is [_opinionated_](https://prettier.io/docs/option-philosophy)」，字面意思上可以理解为它有着自己的想法。它没有很多可以配置的选项，或者从另外一方面说也没有太多配置的必要。在字面意义上，我们只修改了两条 Prettier 的默认配置。
 
-### Prettier 的安装
+### 安装 Prettier
 
 如果你已经运行过 `pnpm i`，那它已经存在于项目的依赖中了。
 
@@ -224,3 +224,37 @@ Sarasa Mono（更纱黑体）是由 [Source Han Sans](https://github.com/adobe-f
 ![不知道我们怎么走到这一步的](/about/contributors/new_toolchain/long.webp)
 
 上图取自[成员信息表](../../servers/registered_members)。遇到这种情况，可以尝试关闭编辑器的自动换行，或者改用 WYSIWYG（所见即所得）的 Markdown 专用编辑器，如 [Typora](https://typoraio.cn/) 或 [MarkText](https://www.marktext.me/)。
+
+## ESLint
+
+### ESLint 简介
+
+如前文所述，我们解决了代码格式化工具的问题，但还没有解决代码检查工具的问题。
+
+Markdown 是一种标准 [非](https://yihui.org/cn/2017/08/markdown-flavors/) [常](https://daringfireball.net/projects/markdown/) [非](https://commonmark.org/) [常](https://github.github.com/gfm/) [混](https://pandoc.org/MANUAL.html#pandocs-markdown) [乱](https://mdxjs.com/) 的语言。Docusaurus [使用](https://docusaurus.io/docs/markdown-features)的是 MDX，这种方言支持在 Markdown 中间加入 JSX 组件。例如，我们使用的 TabItem 选项卡就是由 MDX 驱动的。
+
+之前我们使用的代码检查工具是 [markdownlint](https://github.com/DavidAnson/markdownlint)。然而，markdownlint 支持的是 CommonMark 而非 MDX，这就使得它在处理 MDX 语法时不够灵活。此外，群文档其余部分的 JavaScript、CSS、JSON 等文件无法被有效检查，毕竟其中有一部分也是我们手写的。
+
+ESLint 就是这样一个代码检查工具。它主要支持的是 JavaScript，但它的插件生态很丰富，因此也能够检查 React 和 MDX 等语言。
+
+在确认 markdownlint 指出的问题已经全部被修复后，它已经被移除。由于配置文件也被移除，请勿再使用 markdownlint 检查群文档。
+
+### 安装 ESLint
+
+如果你已经运行过 `pnpm i`，那它已经存在于项目的依赖中了。注意群文档中还有大量的配套插件依赖，一定要用这条命令安装。
+
+由于依赖冲突，我们不得不使用版本较旧的 ESLint 及其部分插件。在安装过程中弹出相关警告是正常现象。
+
+如果需要和编辑器集成，请参考[对应的文档页面](https://eslint.org/docs/latest/use/integrations)。ESLint 官方不推荐全局安装，所以这块就算了吧。
+
+### 使用 ESLint
+
+群文档已经配置了 ESLint。可以直接在群文档根目录运行：
+
+```shell
+pnpm exec eslint .
+```
+
+来检查群文档中可能存在的错误。
+
+如果使用了编辑器集成，比如 VSCode 插件，按插件说明使用即可。
