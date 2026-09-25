@@ -77,6 +77,8 @@ npm config -g set registry https://registry.npmmirror.com
 
 回车以后就完事啦！
 
+这一句是新加的。我们已经改用了 [pnpm](https://pnpm.io/)，请在完成上面的步骤后，使用 `npx get-pnpm` 获取它，后面步骤里面的 `npm` 全部改用 `pnpm` 即可。详情参阅[工具链更新](./new_toolchain)。
+
 <details>
 
 <summary>等下，如何打开 `cmd`？</summary>
@@ -101,6 +103,12 @@ npm config -g set registry https://registry.npmmirror.com
 :::
 
 ### 第 3 步：初始化小恐龙
+
+原文步骤过于冗长，且容易导致依赖问题，请不要这么做。请在 groupdocs 目录下打开 cmd 或 PowerShell，然后输入 `pnpm i` 并回车（未安装 pnpm 则使用 `npm i`）。
+
+<details>
+
+<summary>原文</summary>
 
 现在，键入下面的命令来初始化你的小恐龙框架：
 
@@ -165,6 +173,7 @@ rmdir /s /q ./my-website
 如果你更愿意使用文件资源管理器操作，你可以找到 `cmd` 窗口光标左侧显示的那个路径并打开，然后把 `~/my-website/node_modules` 移动到 `X:/groupdocs/node_modules`，效果是一样的。
 
 </details>
+</details>
 
 ### 第 5 步：群文档预览版，启动！
 
@@ -173,7 +182,8 @@ rmdir /s /q ./my-website
 然后，使用以下命令启动群文档预览：
 
 ```shell
-npm start
+pnpm start
+# 未安装 npm 则使用 npm start
 ```
 
 不一会儿，你的浏览器就会自动启动到 [`localhost:3000`](http://localhost:3000/) 了！这个网页会构建现在的群文档文件，有助于你进行本地配置和优化。而且，它是实时渲染的！你进行的任何更改，在保存后都会立刻被呈现。

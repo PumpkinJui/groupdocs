@@ -45,7 +45,7 @@ Add-MpPreference -ExclusionPath $(pnpm store path)
 
 请手动删除项目本地的 `node_modules` 目录。
 
-为了更快地删除目录，可以在 PowerShell 中使用 `Remove-Item -Recurse` 命令删除（有进度条），或在 cmd 中使用 `rd /s /q` 删除（无进度条）。专门写这个是因为，资源管理器使用 Shift+Delete 快捷键的删除方式会先发现文件，然后再删除，导致删除速度很慢。
+为了更快地删除目录，可以在 PowerShell 中使用 `Remove-Item -Recurse` 命令删除（删除内容多，有进度条），或在 cmd 中使用 `rd /s /q` 删除（无进度条）。专门写这个是因为，资源管理器的删除逻辑需要处理图形界面，导致删除速度很慢。
 
 删除后打开终端，将工作目录切换到当前目录。运行：
 
