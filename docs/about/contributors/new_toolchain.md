@@ -233,7 +233,7 @@ Sarasa Mono（更纱黑体）是由 [Source Han Sans](https://github.com/adobe-f
 
 Markdown 是一种标准 [非](https://yihui.org/cn/2017/08/markdown-flavors/) [常](https://daringfireball.net/projects/markdown/) [非](https://commonmark.org/) [常](https://github.github.com/gfm/) [混](https://pandoc.org/MANUAL.html#pandocs-markdown) [乱](https://mdxjs.com/) 的语言。Docusaurus [使用](https://docusaurus.io/docs/markdown-features)的是 MDX，这种方言支持在 Markdown 中间加入 JSX 组件。例如，我们使用的 TabItem 选项卡就是由 MDX 驱动的。
 
-之前我们使用的代码检查工具是 [markdownlint](https://github.com/DavidAnson/markdownlint)。然而，markdownlint 支持的是 CommonMark 而非 MDX，这就使得它在处理 MDX 语法时不够灵活。此外，群文档其余部分的 JavaScript、CSS、JSON 等文件无法被有效检查，毕竟其中有一部分也是我们手写的。
+之前我们使用的代码检查工具是 [markdownlint](https://github.com/DavidAnson/markdownlint)。然而，markdownlint 支持的是 CommonMark 而非 MDX，这就使得它在处理 MDX 语法时不够灵活，例如 [MD033](https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md)。此外，群文档其余部分的 JavaScript、CSS、JSON 等文件无法被有效检查，毕竟其中有一部分也是我们手写的。
 
 ESLint 就是这样一个代码检查工具。它主要支持的是 JavaScript，但它的插件生态很丰富，因此也能够检查 React 和 MDX 等语言。
 
@@ -258,3 +258,13 @@ pnpm exec eslint .
 来检查群文档中可能存在的错误。
 
 如果使用了编辑器集成，比如 VSCode 插件，按插件说明使用即可。
+
+## Docusaurus v4……？
+
+原计划中，本分支合并时会同步升级到 Docusaurus v4，而 v3.10 将被跳过，以避免更多的适配成本。然而，v4 尚未能发布，因此我们将继续使用 v3.9。
+
+原来的 `package.json` 存在一些问题，在锁文件不存在时会安装部分新版本 Docusaurus 组件，导致构建失败。我们已经修复此问题。
+
+原来的 `package.json` 存在对 `@docusaurus/theme-common` 的幽灵依赖现象，也已经被修复。
+
+将在 Docusaurus v4 发布后另开分支升级，处理其带来的破坏性更改，并在必要时撰写新的文档解释差异。
