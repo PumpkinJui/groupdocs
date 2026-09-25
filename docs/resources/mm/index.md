@@ -70,7 +70,8 @@ tags: [planning]
 ### 交互机制
 
 - 现在交互机制由白名单机制变为了黑名单机制
-- 但是，以下方块仍然无法交互（主要是打开 UI）
+- 默认情况下，现在大多数方块（尤其是门类方块、按钮、拉杆等）都是可以交互的
+- 以下方块在黑名单中，仍然无法交互（主要是打开 UI）
   - `minecraft:flower_pot`
   - `minecraft:hopper`
   - `minecraft:chest`
