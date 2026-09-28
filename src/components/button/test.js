@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * @typedef TestButtonOptions
  * @property {string} [text] 按钮文本。
@@ -14,7 +12,7 @@ import React from "react";
  * @returns
  */
 export default function TestButton(buttonOptions) {
-    const { text = "", url = "", length = "middle", logo = "", openNewPage = true } = buttonOptions;
+    const { text = "", url = "", length = "middle", logo = "" } = buttonOptions;
 
     /** @type {React.CSSProperties} */
     const logoStyle = {

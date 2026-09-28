@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * @typedef PressedButtonOptions
  * @property {string} [text] 按钮文本。
@@ -14,9 +12,7 @@ export default function PressedButton(buttonOptions) {
     const { text = "", length = "middle" } = buttonOptions;
 
     return (
-        <button
-            className={`btn green_btn_pressed ${length}_btn`}
-        >
+        <button className={`btn green_btn_pressed ${length}_btn`}>
             {text}
         </button>
     );

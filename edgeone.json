@@ -104,6 +104,6 @@
             "source": "/docs/servers/server_settings",
             "destination": "/docs/servers/settings",
             "statusCode": 301
-        },
+        }
     ]
 }

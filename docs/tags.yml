@@ -1,7 +1,6 @@
 developing:
-  label: '1_开发中'
+  label: "1_开发中"
 planning:
-  label: '2_有后续更新计划'
+  label: "2_有后续更新计划"
 completed:
-  label: '3_已停更'
-
+  label: "3_已停更"

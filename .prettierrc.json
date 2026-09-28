@@ -1,0 +1,10 @@
+{
+    "tabWidth": 4,
+    "endOfLine": "auto",
+    "overrides": [
+        {
+            "files": ["**/*.yaml", "**/*.yml", "**/*.md"],
+            "options": { "tabWidth": 2 }
+        }
+    ]
+}

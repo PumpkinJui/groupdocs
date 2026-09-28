@@ -44,7 +44,7 @@ GitHub 客户端在某些场景似乎使用了不同的链接通路，至少在 
 - [Free Download Manager](https://www.freedownloadmanager.org/)（Windows、Android、macOS、Linux；免费）
 - [Neat Download Manager](https://neatdownloadmanager.com/)（Windows；免费，轻量便携）
 
-*很难想象它们的网址怎么都这么长。*
+_很难想象它们的网址怎么都这么长。_
 
 ## 修改 Hosts
 

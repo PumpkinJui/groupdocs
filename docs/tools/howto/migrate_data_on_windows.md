@@ -26,9 +26,9 @@ authors: [量筒]
 从本意上来看，UWP 平台在 2021 年便已经停止维护，微软自然不愿意在已经过时的平台上开发，于是使用支持更好的 GDK 平台开发，这无可厚非。然而，微软在这次更新中操之过急，只在 1.21.120 的一个测试版下进行了测试，在数据不足的情况下就强推正式版。很显然，这种极其激进的做法引发了很多问题。
 
 1. 这次更新进行了文件路径迁移，但是**在迁移过程中关闭游戏、或者单纯的迁移失败会直接删除存档**！甚至可以认为，这是基岩版有史以来最灾难的更新（甚至很可能没有之一）。
-    - 迁移表现为：如果迁移成功，你的地图会被成功迁移，但是行为包和资源包仍然留在原路径。  
-      > 问题来了，它自动把这些所有的地图全都给你迁移走了，但是这个资源包和行为包还留在原地的啊，这就非常傻逼，真是奇了怪了。 —— by [橘猫sama（B 站视频）](https://www.bilibili.com/video/BV1AG1LB8E1f)
-    - 如果迁移不成功，你的地图就都被微软吃了，什么都没有了。行为包和资源包应该也是留在原路径的，但是案例较少，需要验证。
+   - 迁移表现为：如果迁移成功，你的地图会被成功迁移，但是行为包和资源包仍然留在原路径。
+     > 问题来了，它自动把这些所有的地图全都给你迁移走了，但是这个资源包和行为包还留在原地的啊，这就非常傻逼，真是奇了怪了。 —— by [橘猫sama（B 站视频）](https://www.bilibili.com/video/BV1AG1LB8E1f)
+   - 如果迁移不成功，你的地图就都被微软吃了，什么都没有了。行为包和资源包应该也是留在原路径的，但是案例较少，需要验证。
 2. 根据我们的[这篇服务器更新暂缓通告](/blog/anno/anno/2025/102902)，这次更新并没有适配好中文输入法，导致在游戏内无法输入中文，正因如此，我们决定暂缓了服务器的更新，并在 1.21.121 更新后恢复了服务器更新。
 3. 此外，这次的更新还很容易在窗口最大化的情况下，在操作过程中让鼠标飞出窗口，严重影响操作体验。这个问题在 1.21.122 得到了解决。
 4. 以及，**现在的基岩版会采取自动更新策略**，无论微软商店是否阻止应用更新，都无济于事，你的 Minecraft 还是会在后台检查到有更新的时候进行自动更新。在启动游戏后，也会检查是否有更新，这就意味着从 1.21.120 开始，想再降级游戏是非常困难的事情了。
@@ -55,53 +55,55 @@ authors: [量筒]
 2. 在更新之后，静等游戏迁移完毕你的地图。**不要退出！不要退出！不要退出！！！退出就完蛋了！！！**
 3. 迁移完成之后，退出游戏，然后把
 
-    ```text
-    %localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs
-    ```
+   ```text
+   %localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\resource_packs
+   ```
 
-    里的所有内容（这些是你的资源包）放到
+   里的所有内容（这些是你的资源包）放到
 
-    ```text
-    %appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\resource_packs
-    ```
+   ```text
+   %appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\resource_packs
+   ```
 
-    里。
+   里。
+
 4. 同样地，把
 
-    ```text
-    %localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\behavior_packs
-    ```
+   ```text
+   %localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\behavior_packs
+   ```
 
-    里的所有内容（这些是你的行为包）放到
+   里的所有内容（这些是你的行为包）放到
 
-    ```text
-    %appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\behavior_packs
-    ```
+   ```text
+   %appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\behavior_packs
+   ```
 
-    里。
+   里。
+
 5. 如果你不是开发者，到这里应该就结束了，进入游戏重新启用你曾启用的包即可。如果你是开发者，则还需要把
 
-    ```text
-    %appdata%\Minecraft Bedrock\Users\(你的用户 ID)\games\com.mojang\development_behavior_packs
-    ```
+   ```text
+   %appdata%\Minecraft Bedrock\Users\(你的用户 ID)\games\com.mojang\development_behavior_packs
+   ```
 
-    里的所有内容放到
+   里的所有内容放到
 
-    ```text
-    %appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs
-    ```
+   ```text
+   %appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs
+   ```
 
-    里。因为幽默微软迁移错路径了，本该迁移到共享资源文件夹的开发包却迁移到了个人资源文件夹里。*~微软，你脑子里装的是浆糊吗？错误连篇啊，就这还敢发正式版，谁给你的勇气？~* 同样地，把迁移错了的开发资源包也换到正确的位置，从
+   里。因为幽默微软迁移错路径了，本该迁移到共享资源文件夹的开发包却迁移到了个人资源文件夹里。_~微软，你脑子里装的是浆糊吗？错误连篇啊，就这还敢发正式版，谁给你的勇气？~_ 同样地，把迁移错了的开发资源包也换到正确的位置，从
 
-    ```text
-    %appdata%\Minecraft Bedrock\Users\(你的用户 ID)\games\com.mojang\development_resource_packs
-    ```
+   ```text
+   %appdata%\Minecraft Bedrock\Users\(你的用户 ID)\games\com.mojang\development_resource_packs
+   ```
 
-    换到下面的路径即可。
+   换到下面的路径即可。
 
-    ```text
-    %appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs
-    ```
+   ```text
+   %appdata%\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs
+   ```
 
 ### 如果我有地图备份，迁移失败后想重新恢复地图该怎么做？
 

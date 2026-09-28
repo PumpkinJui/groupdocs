@@ -1,0 +1,8 @@
+/blog/anno/
+/docs/about/archives/*.md
+/static/
+
+package.json
+package-lock.json
+pnpm-lock.yaml
+pnpm-workspace.yaml

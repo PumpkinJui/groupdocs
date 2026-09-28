@@ -61,7 +61,7 @@ GitHub 网页版不但访问缓慢，而且一次只能修改一个文件，难�
 
 现有的最佳解决方案是记住在 commit 前进行一次 pull。如果担心忘记，可以使用以下方法。
 
-``` shell
+```shell
 git config --global pull.rebase true
 git config --global rebase.autoStash true
 ```
@@ -74,7 +74,7 @@ git config --global rebase.autoStash true
 
 在多数情况下，提交信息使用一个标题即可，而无需详细内容。对于标题而言，格式如下：
 
-``` plaintext
+```plaintext
 [类别]<空格>具体对象
 ```
 
@@ -103,9 +103,11 @@ git config --global rebase.autoStash true
 
 在标记语言中，格式规范[分为两种](https://prettier.io/docs/comparison)：一种是可能造成解析歧义乃至运行失败的，另一种是单纯为了整洁美观而几乎不影响实际运行的。例如，如果使用了 `[链接文本](链接内容)` 的格式，却没有写链接内容，单纯放了一个 `[链接文本]()` 在那里，就是前者；而表格到底要不要添加空格，让等宽字体下视觉完全对齐这种问题，就是后者。Markdown 毕竟是文档语言，所以这两者的界限会更加模糊。
 
-对于前者这种质量问题，我们过去使用 [markdownlint](https://github.com/DavidAnson/markdownlint) 处理，目前计划改用 [ESLint](https://eslint.org/) 处理。对于后者这种风格问题，我们计划使用 [Prettier](https://prettier.io/) 处理。在群文档能够正常部署的前提下，这些都只是推荐操作。
+对于前者这种质量问题，我们过去使用 [markdownlint](https://github.com/DavidAnson/markdownlint) 处理，目前改用 [ESLint](https://eslint.org/) 处理。对于后者这种风格问题，我们使用 [Prettier](https://prettier.io/) 处理。
 
-此处将会很快添加更多信息。
+在群文档能够正常部署的前提下，这些都只是推荐操作。然而有必要指出，使用这些工具进行检查和修改，并使用群文档的本地预览功能，有助于群文档正常部署，并且能提高效率。
+
+关于这些工具的使用，见[工具链更新](./new_toolchain)页面。
 
 ### 盘古之白
 
@@ -134,7 +136,7 @@ W3C 组织的《[中文排版需求](https://www.w3.org/TR/clreq/#mixed_text_com
 
 #### 自动添加盘古之白
 
-请安装 [AutoCorrect](https://huacnlee.github.io/autocorrect/)，建议阅读上面的少数派文章以获取配置指引。支持 VSCode 插件、Zed 插件和 LSP 协议！*但暂时不支持 Termux。*
+请安装 [AutoCorrect](https://huacnlee.github.io/autocorrect/)，建议阅读上面的少数派文章以获取配置指引。支持 VSCode 插件、Zed 插件和 LSP 协议！_但暂时不支持 Termux。_
 
 如果 AutoCorrect 无法安装，请安装 pangu。同样建议阅读上面的少数派文章。请注意 pangu 没有对 Makedown 作语法适配，所以可能出现问题，一定要在审阅 `git diff` 或进行本地预览后再行提交。
 
@@ -162,7 +164,7 @@ W3C 组织的《[中文排版需求](https://www.w3.org/TR/clreq/#mixed_text_com
 
 使用引用块时，宜在每行前均加入 `>` 并加空格，在需要换行的位置仅使用一个 `>` 并换行。例如：
 
-``` markdown
+```markdown
 > 全世界无产者，联合起来！
 >
 > Working men of all countries, unite!
@@ -176,7 +178,7 @@ W3C 组织的《[中文排版需求](https://www.w3.org/TR/clreq/#mixed_text_com
 
 如在需要换行的位置不加只有 `>` 的空行：
 
-``` markdown
+```markdown
 > 全世界无产者，联合起来！
 > Working men of all countries, unite!
 ```

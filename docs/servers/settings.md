@@ -47,55 +47,55 @@ import TabItem from '@theme/TabItem';
 
 供测试群内部成员测试新技术或新地图的服务器。
 
- <Tabs><TabItem value="t1" label="测试 I" default>
+<Tabs><TabItem value="t1" label="测试 I" default>
 
 - 端口：31000
 - 版本：26.40
 
- </TabItem><TabItem value="t2" label="测试 II">
+</TabItem><TabItem value="t2" label="测试 II">
 
 - 端口：32000
 - 版本：26.40
 
- </TabItem><TabItem value="t3" label="测试 III">
+</TabItem><TabItem value="t3" label="测试 III">
 
 - 端口：33000
 - 版本：26.40
 
- </TabItem></Tabs>
+</TabItem></Tabs>
 </TabItem><TabItem value="bedwars" label="起床">
 
 基于本群资源[量筒的起床战争](../resources/bedwars)而开服。
 
 友谊第一，比赛第二！禁止作弊哦！
 
- <Tabs><TabItem value="b1" label="稳定服" default>
+<Tabs><TabItem value="b1" label="稳定服" default>
 
 基于起床战争的稳定版本开服。
 
 - 端口：34000
 - 版本：26.40
 
- </TabItem><TabItem value="b2" label="测试服">
+</TabItem><TabItem value="b2" label="测试服">
 
 基于起床战争的最新测试版本开服。
 
 - 端口：35000
 - 版本：26.40
 
- </TabItem></Tabs>
+</TabItem></Tabs>
 </TabItem><TabItem value="dev" label="开发">
 
 开发服是供开发者开发的服务器，一般仅供管理员和受邀人员进入。
 
- <Tabs><TabItem value="d1" label="开发 I" default>
+<Tabs><TabItem value="d1" label="开发 I" default>
 
 当前开发项目：《[冒险世界：筑梦](../resources/aw/aw5)》！
 
 - 端口：36000
 - 版本：26.40
 
- </TabItem><TabItem value="d2" label="开发 II">
+</TabItem><TabItem value="d2" label="开发 II">
 
 :::tip
 
@@ -108,14 +108,14 @@ import TabItem from '@theme/TabItem';
 - 端口：37000
 - 版本：26.40
 
- </TabItem><TabItem value="d3" label="开发 III">
+</TabItem><TabItem value="d3" label="开发 III">
 
 当前开发项目：《[量筒的密室杀手](../resources/mm/)》！
 
 - 端口：38000
 - 版本：26.40
 
- </TabItem></Tabs>
+</TabItem></Tabs>
 </TabItem></Tabs>
 
 ## 说明
