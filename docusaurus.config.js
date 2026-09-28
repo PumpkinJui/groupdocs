@@ -235,12 +235,20 @@ const config = {
                 darkTheme: prismThemes.dracula,
                 additionalLanguages: ["json", "bash", "shell-session"],
             },
-            algolia: {
-                appId: "3QTPE6WI9R",
-                apiKey: "c5e49d41ac48f55da991d4a10221e1b2",
-                indexName: "grouppages",
-            },
         },
+    themes: [
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+            ({
+                // ... Your options.
+                // `hashed` is recommended as long-term-cache of index file is possible.
+                hashed: true,
+                // For Docs using Chinese, it is recomended to set:
+                language: ["en", "zh"],
+            }),
+        ],
+    ],
     plugins: [
         [
             "@docusaurus/plugin-client-redirects",

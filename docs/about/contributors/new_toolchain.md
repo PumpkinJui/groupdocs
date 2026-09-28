@@ -189,7 +189,7 @@ Emmm…… huh?
 
 这并不是 Prettier 的问题，它对 CJK 的支持相对已经比较完善了。在表格中存在中文（理论上是所有 CJK 字符，但我们这里只谈中文）时，它的处理方式是把中文字符换算成两个英文字母的宽度。
 
-理论上，等宽字体就应该把中文字符做成两个英文字母的宽度，但因为包括重视程度在内的一系列原因，很多（想了一下可能是绝大多数）等宽字体要么不支持中文，要么没有调整中文的宽度。或者，正是因为不支持中文，系统用了宋体或者微软雅黑等默认字体，才导致宽度不一致。
+理论上，等宽字体就应该把中文字符做成两个英文字母的宽度，但因为包括重视程度在内的一系列原因，很多（想了一下可能是绝大多数）等宽字体要么不支持中文，要么没有调整中文的宽度。或者，正是因为不支持中文，系统用了中易宋体等默认字体，才导致宽度不一致。尤其 VSCode 的默认字体就是这样。
 
 其实也可以理解吧，大多数等宽字体只做了拉丁字母，最多再做一个西里尔字母。中文字符数量又多，字体作者本人也用不到，自然就不做了。这就跟中文字体的英文字符，设计基本都是充话费送的水准一样。
 
@@ -227,13 +227,13 @@ Sarasa Mono（更纱黑体）是由 [Source Han Sans](https://github.com/adobe-f
 
 ## ESLint
 
-### ESLint 简介
+### 背景
 
 如前文所述，我们解决了代码格式化工具的问题，但还没有解决代码检查工具的问题。
 
 Markdown 是一种标准 [非](https://yihui.org/cn/2017/08/markdown-flavors/) [常](https://daringfireball.net/projects/markdown/) [非](https://commonmark.org/) [常](https://github.github.com/gfm/) [混](https://pandoc.org/MANUAL.html#pandocs-markdown) [乱](https://mdxjs.com/) 的语言。Docusaurus [使用](https://docusaurus.io/docs/markdown-features)的是 MDX，这种方言支持在 Markdown 中间加入 JSX 组件。例如，我们使用的 TabItem 选项卡就是由 MDX 驱动的。
 
-之前我们使用的代码检查工具是 [markdownlint](https://github.com/DavidAnson/markdownlint)。然而，markdownlint 支持的是 CommonMark 而非 MDX，这就使得它在处理 MDX 语法时不够灵活，例如 [MD033](https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md)。此外，群文档其余部分的 JavaScript、CSS、JSON 等文件无法被有效检查，毕竟其中有一部分也是我们手写的。
+之前我们使用的代码检查工具是 [markdownlint](https://github.com/DavidAnson/markdownlint)。然而，markdownlint 支持的是 CommonMark 而非 MDX，这就使得它在处理 MDX 语法时不够灵活，例如 [MD033](https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md)。还有一些对我们不适用的规则，比如 [MD013](https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md)。此外，群文档其余部分的 JavaScript、CSS、JSON 等文件无法被有效检查，毕竟其中有一部分也是我们手写的。
 
 ESLint 就是这样一个代码检查工具。它主要支持的是 JavaScript，但它的插件生态很丰富，因此也能够检查 React 和 MDX 等语言。
 
@@ -258,6 +258,18 @@ pnpm exec eslint .
 来检查群文档中可能存在的错误。
 
 如果使用了编辑器集成，比如 VSCode 插件，按插件说明使用即可。
+
+## docusaurus-search-local
+
+在 GitBook 时期，我们使用的搜索是本地搜索，不依赖联网或其他服务商。
+
+迁移到 Docusaurus 以后，依照[官方文档](https://docusaurus.io/docs/search)，我们直接使用了 [Algolia DocSearch](https://docsearch.algolia.com/)。该更改于 2025 年 01 月 28 日落地（见提交 `9129a78`）。
+
+此后，群文档平稳运行，但本人对 Algolia 逐渐产生了一些不满。Algolia 一周爬群文档一次，无法反映群文档最新更改。搜索请求需要发送到 Algolia，首要影响就是搜索速度比本地搜索更慢。数据需要跨境传输，带来了不必要的合规风险，并且间接导致 Ask AI 功能在试运行后下线（见提交 `0e13e0c` 和 `823483b`）。还有我们用不上的诸多功能、令人困惑的控制台，以及我个人认为比较差劲的支持服务。
+
+Algolia 每周会向我的邮箱投递两封邮件：一封提示群文档已经爬取完成，另一封汇总本周的所有搜索。对，之前的搜索搜过什么我都看得见，其中不乏一些天知道是哪里的用户，搜索一些非常劲爆的字符串。邮件可以退订，但相关的功能不可能手动关闭。考虑到隐私，我不想让任何人，包括我和 Algolia，有能力知道大家搜过什么内容。哪怕 Algolia 证明自己隐私合规。
+
+因此，本次更新删除了 Algolia，用回了本地搜索。界面总体而言没有太大改变，搜索精确度可能略微下降。
 
 ## Docusaurus v4……？
 
