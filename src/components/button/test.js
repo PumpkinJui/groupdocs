@@ -17,7 +17,6 @@ export default function TestButton(buttonOptions) {
         url = "",
         length = "middle",
         logo = "",
-        openNewPage = true,
     } = buttonOptions;
 
     /** @type {React.CSSProperties} */

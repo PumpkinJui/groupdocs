@@ -520,7 +520,7 @@ execute if score levelCompleteCountdown time matches 1.. unless score monsterAmo
 
 然后，在对应波潮的完成条件中新增`if score levelCompleteCountdown time matches ..0`条件。并且，为了能够使得分裂出来的岩浆怪的名称正确显示，还需要添加一个新模块`重命名岩浆怪`：
 
-```json showLineNumbers title="重命名岩浆怪"
+```mcfunction showLineNumbers title="重命名岩浆怪"
 # --- 重命名岩浆怪 ---
 function aw/lib/events/rename_magma_cube
 

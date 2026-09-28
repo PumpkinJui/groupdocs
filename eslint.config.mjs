@@ -29,6 +29,7 @@ export default defineConfig([
         rules: {
             ...pluginReact.configs.flat.recommended.rules,
             ...pluginReact.configs.flat["jsx-runtime"].rules,
+            "react/prop-types": "off",
         },
     },
     {
