@@ -78,7 +78,7 @@ authors: [量筒]
 |  马可  |                      MAXOUYT8117                      |                                       —<br/>—                                       | 生存服贡献较大                                          |
 | 命令块 |                    CommandBlock603                    | 灰色旗帜 (绿色波纹边，淡灰色砖纹<br/>黑色菱形，黑色花朵图案，白色模型头像)<br/>§l§4 | 生存服贡献较大                                          |
 |  塞拉  |                      Traptrix SL                      |                                     金锭<br/>—                                      | 代表物欲修改为土豆；生存服贡献较大；由 **@量筒** 邀请来 |
-| 小面包 |                    LittleBread2026                    |                                       —<br/>—                                       | 马可服服管理                                            |
+| 小面包 |                    LittleBread2026                    |                                    面包<br/>§r§e                                    | 马可服服管理                                            |
 |  辉金  |                      huijinya520                      |                                    金粒<br/>§l§6                                    | 知名视频作者                                            |
 |  地雷  |                     Peroxide07122                     |                                      TNT<br/>—                                      |                                                         |
 |  小鸟  |                     lovebirdsvvv                      |                                   白色陶瓦<br/>—                                    |                                                         |
@@ -163,6 +163,7 @@ authors: [量筒]
 |  小yu  | InsetDaisy2688  |                                               |
 |   PB   | QinSuoPaperBoat |                                               |
 | Tiger  | TigerishSnow86  |                                               |
+|  晴川  |  qingchuan2493  |                                               |
 
 ## 离群成员（未违规）
 
