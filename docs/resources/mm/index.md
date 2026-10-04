@@ -6,9 +6,7 @@ tags: [planning]
 
 # 量筒的密室杀手
 
-密室杀手是一款新地图，是基于 Hypixel 密室杀手的特性而开发的资源。
-
-处于更新状态。
+量筒的密室杀手是基于 Hypixel 密室杀手的特性而开发的地图。
 
 ---
 
@@ -17,7 +15,7 @@ tags: [planning]
 - **作者** 一只卑微的量筒（**@量筒**）
 - **制作人表** 详情见[制作人表页面](credits)
 - **版本需求** 26.40+
-- **资源类型** 附加包
+- **资源类型** 地图
 - **最新版本** 1.0
 - **更新日志** 详情见[更新日志页面](update_log/1_0)
 - **漏洞汇报** 详情见[GitHub Issues](https://github.com/YZBWDLT/MurderMystery/issues)
@@ -26,7 +24,20 @@ tags: [planning]
 
 ## 下载
 
-可以在群内直接下载此地图。
+有多种途径都可以下载或找到本地图，也可以在群内直接下载此地图。
+
+### 网盘
+
+- [123 云盘](https://1816297926.share.123pan.cn/123pan/t3TqVv-pZVah)
+- [百度网盘（提取码：ltmm）](https://pan.baidu.com/s/19DHEdwJstTeIHphNSZdFTg?pwd=ltmm)
+- [NekoDrive](https://app.nekodrive.net/s/vXgIe)
+
+### 各大论坛或平台
+
+- [GitHub](https://github.com/YZBWDLT/MurderMystery)（更新测试版）
+- [KLPBBS](https://klpbbs.com/thread-174202-1-1.html)
+- [MineBBS](https://www.minebbs.com/resources/be.18469/)
+- [TITAIKE](https://www.titaike.cn/9236.html)
 
 ---
 
