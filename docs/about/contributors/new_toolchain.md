@@ -27,6 +27,8 @@ npx get-pnpm
 
 也可使用其他方式，例如[安装脚本](https://pnpm.io/installation#on-windows)、Scoop、Chocolatey 等。但既然我们已经有 npm 了，用这个最方便，而且在 Windows 上更不容易出问题。
 
+pnpm 需要借助环境变量运行，因此在上述命令执行完毕后，需要重启所使用的终端或编辑器。如果还是找不到 pnpm，可以尝试重启设备。
+
 安装以后如果需要升级 pnpm，就直接运行：
 
 ```shell
@@ -235,7 +237,9 @@ Markdown 是一种标准 [非](https://yihui.org/cn/2017/08/markdown-flavors/) [
 
 之前我们使用的代码检查工具是 [markdownlint](https://github.com/DavidAnson/markdownlint)。然而，markdownlint 支持的是 CommonMark 而非 MDX，这就使得它在处理 MDX 语法时不够灵活，例如 [MD033](https://github.com/DavidAnson/markdownlint/blob/main/doc/md033.md)。还有一些对我们不适用的规则，比如 [MD013](https://github.com/DavidAnson/markdownlint/blob/main/doc/md013.md)。此外，群文档其余部分的 JavaScript、CSS、JSON 等文件无法被有效检查，毕竟其中有一部分也是我们手写的。
 
-ESLint 就是这样一个代码检查工具。它主要支持的是 JavaScript，但它的插件生态很丰富，因此也能够检查 React 和 MDX 等语言。
+[ESLint](https://zh-hans.eslint.org/) 就是这样一个代码检查工具。它主要支持的是 JavaScript，但它的插件生态很丰富，因此也能够检查 React 和 MDX 等语言。
+
+注意到 ESLint 官网支持中文，但中文比英文落后两个 ESLint 大版本，包括我们目前在使用的版本。如果在寻找参考文档时发现内容偏少或过时，可以查看英文版官网。去掉域名中的 `zh-hans.` 即可。
 
 在确认 markdownlint 指出的问题已经全部被修复后，它已经被移除。由于配置文件也被移除，请勿再使用 markdownlint 检查群文档。
 
@@ -245,7 +249,7 @@ ESLint 就是这样一个代码检查工具。它主要支持的是 JavaScript�
 
 由于依赖冲突，我们不得不使用版本较旧的 ESLint 及其部分插件。在安装过程中弹出相关警告是正常现象。
 
-如果需要和编辑器集成，请参考[对应的文档页面](https://eslint.org/docs/latest/use/integrations)。ESLint 官方不推荐全局安装，所以这块就算了吧。
+如果需要和编辑器集成，请参考[对应的文档页面](https://zh-hans.eslint.org/docs/latest/use/integrations)。ESLint 官方不推荐全局安装，所以这块就算了吧。
 
 ### 使用 ESLint
 
