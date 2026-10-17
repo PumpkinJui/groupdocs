@@ -126,7 +126,7 @@ authors: [量筒]
 | YanRan |    YanRan233    | 知名开发者                                    |
 |  萝卜  |    jincarrot    | 知名开发者                                    |
 |  急尘  |    jichenNGU    | 知名视频作者                                  |
-|  嘉睿  |   HuanGuangYC   |                                               |
+|  嘉睿  | HuanGuangYC2213 |                                               |
 |  晓鱼  | muxiaoyu040203  |                                               |
 | 命令君 |     CBerJun     |                                               |
 |  浮纸  | FloatPaper3972  |                                               |
