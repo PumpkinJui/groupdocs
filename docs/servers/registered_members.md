@@ -99,6 +99,7 @@ authors: [量筒]
 |  xsg   |                       xsg868758                       |                                 蓝花美耳草<br/>§l§o                                 |                                                         |
 |  里昂  |                    zhao run zhe520                    |                                       —<br/>—                                       |                                                         |
 | 橘子冰 |                    Orangeice114514                    |                                  橙色郁金香<br/>—                                   |                                                         |
+| 珂朵莉 |                       Tetrisoo                        |                                       —<br/>—                                       |                                                         |
 |  蘑菇  |                        xRprncQ                        |                                     羽毛<br/>—                                      | 考核前进服                                              |
 |  麦热  |                    havefuningame07                    |                                     铁剑<br/>—                                      | 考核前进服                                              |
 |  Dull  |         Dull12133<br/>RenJi12138<br/>Dull1213         |                                       —<br/>—                                       | 考核前进服                                              |
@@ -154,7 +155,6 @@ authors: [量筒]
 |  芝士  |     ssdbzs      |                                               |
 | 幸存者 | starxingcunzhe  |                                               |
 |  Cuzy  |     CuzyXD      |                                               |
-| 珂朵莉 |    Tetrisoo     |                                               |
 |  永恒  |     JHY2189     |                                               |
 |  阿辰  |   ACH1en3153    |                                               |
 |  欧拉  |     EurluoL     |                                               |

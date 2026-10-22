@@ -9,6 +9,12 @@ authors: [量筒]
 
 ![火药塔](/servers/s3/industries/gunpowder_farm.webp)
 
+:::warning[注意]
+
+文章内容可能已经过时，仅供参考。
+
+:::
+
 ## 基础信息
 
 - **地点** 新光昌兴区西北，银月路与火力大道交界

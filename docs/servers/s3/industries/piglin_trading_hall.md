@@ -9,6 +9,12 @@ authors: [量筒]
 
 ![猪灵交易所](/servers/s3/industries/piglin_trading_hall.webp)
 
+:::warning[注意]
+
+文章内容可能已经过时，仅供参考。
+
+:::
+
 ## 基础信息
 
 - **地点** 矿山 · 猪灵交易所（下界交通站点）
