@@ -129,6 +129,7 @@ const config = {
                         `,
                         position: "right",
                         href: "https://github.com/PumpkinJui/groupdocs",
+                        alt: "GitHub",
                     },
                     { type: "search", position: "right" },
                 ],
